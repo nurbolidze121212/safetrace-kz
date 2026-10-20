@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { ArrowDown, ArrowUpRight, FileText, GitBranch, Link2 } from 'lucide-react'
 import type { Case } from '../types'
-import { date, edgeNames, methods } from '../lib'
+import { contexts, date, edgeNames, methods } from '../lib'
 import { routePaths } from '../routes'
 import { Empty } from './UI'
 import RouteComparison from './RouteComparison'
@@ -30,6 +30,7 @@ export default function RouteView({ current, onEvidence, onMaterial }: { current
             <code className="route-url">{step.relation.to}</code>
             {stopped && <p className="warning-text">{o?.stop || (step.cycle ? 'Цикл переходов. Продолжение не подтверждено.' : 'Нет сохраненного ответа для этого адреса.')}</p>}
             {o?.text && <div className="route-excerpt">{o.text.length > 330 ? <details><summary>{o.text.slice(0,180)}… <span>Показать текст</span></summary><p>{o.text}</p></details> : <p>{o.text}</p>}</div>}
+            {o?.context && <div className="source-block"><p><strong>Контекст страницы: {contexts[o.context.context] || o.context.context}</strong><span className="field-hint"> · локальное правило</span></p>{['warning', 'news', 'education', 'free_game'].includes(o.context.context) && !o.context.contradictions.length && <p>Этот контекст не подтверждает игровое назначение и не добавляет баллы за него.</p>}{o.context.contradictions.map((item, index) => <p className="warning-text" key={index}>{item}</p>)}</div>}
             {o?.reused_from && <p className="field-hint">Использован уже полученный ответ этого адреса в текущем анализе.</p>}
             {!stopped && i === path.steps.length - 1 && <p className="terminal-note"><Link2 size={15} />Последний проверенный адрес в этом маршруте</p>}
             <button className="text-button" onClick={() => onEvidence([step.relation.evidence_id, ...(o ? [o.evidence_id] : [])])}>Открыть наблюдение <ArrowUpRight size={15} /></button>

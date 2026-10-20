@@ -1,0 +1,161 @@
+﻿id,variant,score,sufficient,predicted,elapsed_ms,status,ocr_text,ocr_rotations,provider,rules,ocr_model,qr_version,qr_decoded_count,contributions,truth,category,language,image
+c3af64e6efafff32,baseline,0,False,0,3.979,partial,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,direct,ru,True
+c3af64e6efafff32,ocr,80,True,1,1164.751,completed,"DЕМО. У нас открыт зал казино. Регистрируйтесь и
+активируйте бонус по коду К4АОЗFВ.",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,ru,True
+c3af64e6efafff32,full,80,True,1,1099.682,completed,"DЕМО. У нас открыт зал казино. Регистрируйтесь и
+активируйте бонус по коду К4АОЗFВ.",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,ru,True
+67e7c19d00e1a298,baseline,100,True,1,0.987,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,kk,False
+67e7c19d00e1a298,ocr,80,True,1,0.528,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,kk,False
+67e7c19d00e1a298,full,80,True,1,0.516,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,kk,False
+0a0e10fa922abf8a,baseline,0,False,0,0.646,partial,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,direct,mixed,True
+0a0e10fa922abf8a,ocr,80,True,1,1166.862,completed,"DЕМО. Рулетка кеші басталды. Қосыл, забирай бонус на
+первый раунд.",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,mixed,True
+0a0e10fa922abf8a,full,80,True,1,1129.145,completed,"DЕМО. Рулетка кеші басталды. Қосыл, забирай бонус на
+первый раунд.",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,mixed,True
+3c6423f6ee60ed4d,baseline,0,True,0,1.049,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,ru,False
+3c6423f6ee60ed4d,ocr,0,True,0,1.01,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,ru,False
+3c6423f6ee60ed4d,full,80,True,1,2.093,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,hidden,ru,False
+7c7a5cdf110b7265,baseline,0,True,0,1.173,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,kk,False
+7c7a5cdf110b7265,ocr,0,True,0,0.976,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,kk,False
+7c7a5cdf110b7265,full,80,True,1,1.976,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,hidden,kk,False
+cc49148b40bb6a13,baseline,0,False,0,0.739,partial,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,mixed,True
+cc49148b40bb6a13,ocr,0,True,0,4372.542,completed,"DЕМО. Арнайы клубқа қосыл! Бонус доступен по моему
+приглашению. https://n45a9bc8d87.test/visit/77abdf",[270],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,mixed,True
+cc49148b40bb6a13,full,80,True,1,4153.629,completed,"DЕМО. Арнайы клубқа қосыл! Бонус доступен по моему
+приглашению. https://n45a9bc8d87.test/visit/77abdf",[270],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,hidden,mixed,True
+9479da1edeeab1a1,baseline,0,True,0,0.892,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,multihop,ru,False
+9479da1edeeab1a1,ocr,0,True,0,0.921,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,multihop,ru,False
+9479da1edeeab1a1,full,80,True,1,2.126,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,multihop,ru,False
+47e7a5c6b1af89d4,baseline,0,False,0,0.621,partial,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,multihop,kk,True
+47e7a5c6b1af89d4,ocr,0,True,0,1208.787,completed,"DЕМО. Ғсыныс парағына өтіңіз, одан кейін тіркеліп сыйлық
+алыңыз. https://n046d77035b.test/visit/0a7639",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,multihop,kk,True
+47e7a5c6b1af89d4,full,80,True,1,1155.157,completed,"DЕМО. Ғсыныс парағына өтіңіз, одан кейін тіркеліп сыйлық
+алыңыз. https://n046d77035b.test/visit/0a7639",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,multihop,kk,True
+935012266d6f8403,baseline,0,True,0,0.781,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,translit,other,False
+935012266d6f8403,ocr,80,True,1,0.599,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,translit,other,False
+935012266d6f8403,full,80,True,1,0.567,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,translit,other,False
+d9c8222247fa0d11,baseline,0,True,0,0.839,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,translit,other,False
+d9c8222247fa0d11,ocr,80,True,1,0.56,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,translit,other,False
+d9c8222247fa0d11,full,80,True,1,1.551,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,translit,other,False
+932107a0e406eee5,baseline,0,False,0,0.474,partial,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,direct,ru,True
+932107a0e406eee5,ocr,65,True,1,1107.811,completed,"DЕМО. Заходите в казино и играйте сегодня. Приглашаем
+новых участников.",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['gambling_and_call'],1,direct,ru,True
+932107a0e406eee5,full,65,True,1,1197.354,completed,"DЕМО. Заходите в казино и играйте сегодня. Приглашаем
+новых участников.",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['gambling_and_call'],1,direct,ru,True
+5cce4476b031da63,baseline,100,True,1,1.07,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,ru,False
+5cce4476b031da63,ocr,80,True,1,0.792,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,ru,False
+5cce4476b031da63,full,80,True,1,0.747,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,ru,False
+76130abb3cdb66a0,baseline,0,False,0,0.966,partial,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,direct,mixed,True
+76130abb3cdb66a0,ocr,80,True,1,4250.122,completed,"DЕМО. Ғтыска дайын бол! Играй в казино, забирай бонус, код
+K9515D9.",[180],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,mixed,True
+76130abb3cdb66a0,full,80,True,1,4191.522,completed,"DЕМО. Ғтыска дайын бол! Играй в казино, забирай бонус, код
+K9515D9.",[180],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,mixed,True
+32848138c264ad11,baseline,100,True,1,0.824,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'contradictory_context']",1,contradictory,ru,False
+32848138c264ad11,ocr,80,True,1,0.641,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'contradictory_context']",1,contradictory,ru,False
+32848138c264ad11,full,80,True,1,1.271,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'contradictory_context']",1,contradictory,ru,False
+dfde092e2e3f91f5,baseline,100,True,1,0.766,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'contradictory_context']",1,contradictory,kk,False
+dfde092e2e3f91f5,ocr,80,True,1,0.627,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'contradictory_context']",1,contradictory,kk,False
+dfde092e2e3f91f5,full,80,True,1,1.226,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'contradictory_context']",1,contradictory,kk,False
+9da714a0ac9001e1,baseline,0,False,0,0.49,partial,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,unresolved,ru,True
+9da714a0ac9001e1,ocr,0,True,0,1183.89,completed,"DЕМО. Приватное приглашение еще доступно. Переходи,
+забирай бoнус. https://nсе3bcf98bf.test/visit/106d7e",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,unresolved,ru,True
+9da714a0ac9001e1,full,0,False,0,1239.832,partial,"DЕМО. Приватное приглашение еще доступно. Переходи,
+забирай бoнус. https://nсе3bcf98bf.test/visit/106d7e",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,unresolved,ru,True
+be35d744bfe4c27d,baseline,0,True,0,0.641,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,kk,False
+be35d744bfe4c27d,ocr,0,True,0,0.495,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,kk,False
+be35d744bfe4c27d,full,0,True,0,1.105,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,kk,False
+d245c3f8a2bc4f60,baseline,0,False,0,0.606,partial,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,direct,ru,True
+d245c3f8a2bc4f60,ocr,80,True,1,630.205,completed,"DЕМО. Играй в слоты, получай фриспины. Забирай промокод К9ЕЕА1D.",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,ru,True
+d245c3f8a2bc4f60,full,80,True,1,670.729,completed,"DЕМО. Играй в слоты, получай фриспины. Забирай промокод К9ЕЕА1D.",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,ru,True
+a47a80d0d02ee403,baseline,100,True,1,1.418,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,ru,False
+a47a80d0d02ee403,ocr,80,True,1,0.562,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,ru,False
+a47a80d0d02ee403,full,80,True,1,0.523,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,ru,False
+0daa42e21e0023da,baseline,0,True,0,0.882,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,unresolved,kk,False
+0daa42e21e0023da,ocr,0,True,0,0.922,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,unresolved,kk,False
+0daa42e21e0023da,full,0,False,0,0.877,partial,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,unresolved,kk,False
+9acd182618d9351a,baseline,0,False,0,0.499,partial,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,warning,ru,True
+9acd182618d9351a,ocr,15,True,0,1780.806,completed,"DЕМО. Памятка: осторожно, мошенники зовут «регистрируйтесь
+в казино, бонус ждет». Не играйте.
+https://n993a8f3355.test/visit/fadff2",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,warning,ru,True
+9acd182618d9351a,full,15,True,0,1690.477,completed,"DЕМО. Памятка: осторожно, мошенники зовут «регистрируйтесь
+в казино, бонус ждет». Не играйте.
+https://n993a8f3355.test/visit/fadff2",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'alternative_context']",0,warning,ru,True
+35dad4e7b2fdaac9,baseline,100,True,1,0.748,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,warning,kk,False
+35dad4e7b2fdaac9,ocr,15,True,0,0.59,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,warning,kk,False
+35dad4e7b2fdaac9,full,15,True,0,1.211,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'alternative_context']",0,warning,kk,False
+380bd099a039a8e9,baseline,0,False,0,0.611,partial,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,news,ru,True
+380bd099a039a8e9,ocr,15,True,0,1777.368,completed,"DЕМО. Корреспондент приводит цитату из рекламы: «Жми и
+забирай бонус в казино». Это новость о проверке рекламы.
+https://na829a39de4.test/visit/00b90f",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,news,ru,True
+380bd099a039a8e9,full,15,True,0,1688.799,completed,"DЕМО. Корреспондент приводит цитату из рекламы: «Жми и
+забирай бонус в казино». Это новость о проверке рекламы.
+https://na829a39de4.test/visit/00b90f",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'alternative_context']",0,news,ru,True
+6d677af6ca14c6c7,baseline,0,True,0,0.789,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,education,kk,False
+6d677af6ca14c6c7,ocr,0,True,0,0.562,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,education,kk,False
+6d677af6ca14c6c7,full,15,True,0,1.206,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'alternative_context']",0,education,kk,False
+6c72d2517420e384,baseline,100,True,1,0.843,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,education,mixed,False
+6c72d2517420e384,ocr,15,True,0,0.572,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,education,mixed,False
+6c72d2517420e384,full,15,True,0,0.545,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,education,mixed,False
+5aa53c9483062803,baseline,0,False,0,0.603,partial,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,free_game,ru,True
+5aa53c9483062803,ocr,0,True,0,6101.071,completed,"DЕМО. Играй в бесплатную рулетку с жетонами. Без ставок,
+без денежных платежей и без вывода денег.
+https://na7011713b9.test/visit/d64174",[270],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'alternative_context']",0,free_game,ru,True
+5aa53c9483062803,full,0,True,0,5973.583,completed,"DЕМО. Играй в бесплатную рулетку с жетонами. Без ставок,
+без денежных платежей и без вывода денег.
+https://na7011713b9.test/visit/d64174",[270],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'destination_alternative_context', 'alternative_context']",0,free_game,ru,True
+64ceff1344933e76,baseline,0,True,0,0.68,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,free_game,kk,False
+64ceff1344933e76,ocr,0,True,0,0.518,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,free_game,kk,False
+64ceff1344933e76,full,0,True,0,0.496,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,free_game,kk,False
+25320a923042066e,baseline,0,False,0,0.463,partial,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,ru,True
+25320a923042066e,ocr,0,True,0,1506.818,completed,"DЕМО. Регистрируйтесь в банке: депозит и бонус за
+обслуживание. Договор вклада доступен здесь.
+https://nae2d5276f4.test/visit/5a0538",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,ru,True
+25320a923042066e,full,0,True,0,1587.612,completed,"DЕМО. Регистрируйтесь в банке: депозит и бонус за
+обслуживание. Договор вклада доступен здесь.
+https://nae2d5276f4.test/visit/5a0538",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,ru,True
+0d5b2d0aa3e83f36,baseline,0,True,0,0.806,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,affiliate,ru,False
+0d5b2d0aa3e83f36,ocr,0,True,0,0.586,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,affiliate,ru,False
+0d5b2d0aa3e83f36,full,0,True,0,1.65,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,affiliate,ru,False
+1500380449db9349,baseline,0,True,0,0.897,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,affiliate,kk,False
+1500380449db9349,ocr,0,True,0,0.538,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,affiliate,kk,False
+1500380449db9349,full,0,True,0,1.175,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,affiliate,kk,False
+c8158058ee3cea25,baseline,0,False,0,0.604,partial,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,ru,True
+c8158058ee3cea25,ocr,0,True,0,1248.688,completed,"DЕМО. Это материал о ремонте. В слове материал нет
+призыва. Фестиваль состоится завтра.",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,ru,True
+c8158058ee3cea25,full,0,True,0,1352.554,completed,"DЕМО. Это материал о ремонте. В слове материал нет
+призыва. Фестиваль состоится завтра.",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,ru,True
+18d75fa790add093,baseline,0,True,0,0.605,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,ordinary,kk,False
+18d75fa790add093,ocr,0,True,0,0.425,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,ordinary,kk,False
+18d75fa790add093,full,0,True,0,0.412,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,ordinary,kk,False
+0ff31c7545641b8e,baseline,0,False,0,0.593,partial,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,ru,True
+0ff31c7545641b8e,ocr,0,True,0,4995.486,completed,"DЕМО. Играй в спектакле «Казино» нашего театра: набор
+актеров, бонус участникам.",[180],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,ru,True
+0ff31c7545641b8e,full,0,True,0,4365.242,completed,"DЕМО. Играй в спектакле «Казино» нашего театра: набор
+актеров, бонус участникам.",[180],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,ru,True
+add62bb7516101b4,baseline,100,True,1,0.643,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,ru,False
+add62bb7516101b4,ocr,0,True,0,0.494,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,ru,False
+add62bb7516101b4,full,0,True,0,0.461,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,ru,False
+854d829885f0f399,baseline,0,True,0,0.852,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,warning,ru,False
+854d829885f0f399,ocr,0,True,0,0.635,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,warning,ru,False
+854d829885f0f399,full,0,True,0,0.736,partial,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,warning,ru,False
+a898614b23a3c873,baseline,0,False,0,0.492,partial,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,news,kk,True
+a898614b23a3c873,ocr,0,True,0,1606.19,completed,"DЕМО. Жаңалық: жаңа кітап орталығы ашылды. Редакция
+хабарлайды, жоба туралы мәлімет:
+https://n06624b2585.test/visit/73f775",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,news,kk,True
+a898614b23a3c873,full,0,True,0,1618.335,completed,"DЕМО. Жаңалық: жаңа кітап орталығы ашылды. Редакция
+хабарлайды, жоба туралы мәлімет:
+https://n06624b2585.test/visit/73f775",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,news,kk,True
+d614632f74394513,baseline,100,True,1,0.733,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,education,ru,False
+d614632f74394513,ocr,15,True,0,0.574,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,education,ru,False
+d614632f74394513,full,15,True,0,0.546,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,education,ru,False
+fe52f95ea92d859a,baseline,0,False,0,0.49,partial,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,mixed,True
+fe52f95ea92d859a,ocr,0,True,0,1295.312,completed,"DЕМО. Ғтыс ойыны туралы ескерту: бұл мектептің тегін викторинасы,
+ақшасыз. Бонус — кітап.",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,ordinary,mixed,True
+fe52f95ea92d859a,full,0,True,0,1244.446,completed,"DЕМО. Ғтыс ойыны туралы ескерту: бұл мектептің тегін викторинасы,
+ақшасыз. Бонус — кітап.",[0],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,ordinary,mixed,True
+adfc7a43b4b033e7,baseline,0,True,0,0.657,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,ru,False
+adfc7a43b4b033e7,ocr,0,True,0,0.456,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,ru,False
+adfc7a43b4b033e7,full,0,False,0,0.543,partial,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,ru,False
+982f9ff5fd502189,baseline,0,True,0,0.612,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,kk,False
+982f9ff5fd502189,ocr,0,True,0,0.438,completed,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,kk,False
+982f9ff5fd502189,full,0,False,0,0.513,partial,,[],local_rule,rules-3.0-dev,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,kk,False

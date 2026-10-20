@@ -456,8 +456,12 @@ def analyze(
             doc["limitations"].append(obs["content_warning"])
             doc["stages"]["links"] = "partial"
         if obs["text"]:
-            pc, _ = verify_claims(local_context({obs["url"]: obs["text"]}), {obs["url"]: obs["text"]})
+            page_context = local_context({obs["url"]: obs["text"]})
+            obs["context"] = page_context.model_dump()
+            pc, _ = verify_claims(page_context, {obs["url"]: obs["text"]})
             for claim in pc:
+                claim["context"] = page_context.context
+                claim["contradictions"] = page_context.contradictions
                 claim["evidence_id"] = evidence(
                     claim["quote"],
                     obs["url"],

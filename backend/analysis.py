@@ -7,7 +7,7 @@ from .schemas import Claim, ContextExtraction
 
 WEIGHTS = json.loads((ROOT / "backend" / "weights.json").read_text(encoding="utf-8"))
 PATTERNS = {
-    "gambling": r"казино|casino|kazino|слот[а-я]*|рулетк[а-я]*|фриспин[а-я]*|free\s*spins?|ставк[а-я]*|джекпот|jackpot|құмар",
+    "gambling": r"казино(?:ға|да|дан|ның|ны)?|casino|kazino|слот[а-я]*|рулетк[а-я]*|фриспин[а-я]*|free\s*spins?|ставк[а-я]*|джекпот|jackpot|құмар",
     "call_to_action": r"переходи[а-я]*|забира[а-я]*|регистриру[а-я]*|зарегай[а-я]*|пополн[ия][а-я]*|играй(?:те)?|жми(?:те)?|заходи(?:те)?|залетай(?:те)?|активиру[а-я]*|өтіңіз|өтіңдер|өт|тіркел(?!ме)[а-яәіңғүұқөһ]*|қосыл(?!ма)[а-яәіңғүұқөһ]*|ал(?:ыңыз)?|баста(?:ңыз|йық|ңдар)?|perehodi(?:te)?|zabirai(?:te)?|zaregai(?:sya)?|zaregaysya|registriru(?:isya|ysya)|tirkel|kosyl|qosyl|join\s+now|play\s+now",
     "bonus": r"бонус[а-я]*|bonus|промокод[а-я]*|promo\s*code|сыйлы[қғ][а-яәіңғүұқөһ]*|syilyq|siylyq|фриспин[а-я]*|free\s*spins?|кэшбэк",
     "promise": r"выигр[а-я]*|гарантирован[а-я]*\s+доход|заработ[а-я]*|ұты[сз][а-яәіңғүұқөһ]*|ұтып|табыс|легкие деньги|лёгкие деньги|podnim[ai]|x\d+",
@@ -32,21 +32,67 @@ def normalize_text(text):
     return unicodedata.normalize("NFKC", text).casefold()
 
 
+ALTERNATIVES = {"warning", "news", "education", "free_game"}
+
+
+def sentence_span(text, position):
+    start = max((m.end() for m in re.finditer(r"[.!?\n]", text[:position])), default=0)
+    end = re.search(r"[.!?\n]", text[position:])
+    return start, position + end.start() if end else len(text)
+
+
+def non_gambling_usage(text, match):
+    """Narrow lexical exclusions, scoped to the occurrence, never a document blacklist."""
+    word = match.group().casefold()
+    before, after = text[max(0, match.start() - 100) : match.start()], text[match.end() : match.end() + 100]
+    prefix = re.split(r"[.!?;:\n]|\b(?:но|однако|зато|бірақ)\b", before, flags=re.I)[-1]
+    negation = re.search(r"\b(?:нет|без|не\s+содержит|не\s+предлагаем)\s+(.*)$", prefix, re.I)
+    if negation and re.fullmatch(
+        r"(?:(?:онлайн|казино|слот[а-я]*|став[а-я]*|рулетк[а-я]*|выигрыш[а-я]*|и|или)\b|[\s,])*",
+        negation.group(1),
+        re.I,
+    ):
+        return True
+    if word.startswith("ставк"):
+        return bool(
+            re.search(
+                r"\b(?:процентн[а-я]*|ключев[а-я]*|кредитн[а-я]*|налогов[а-я]*|тарифн[а-я]*)\s+$",
+                before,
+                re.I,
+            )
+            or re.match(r"\s+(?:банка|по\s+(?:кредиту|депозиту|вкладу))\b", after, re.I)
+        )
+    if word.startswith("слот"):
+        return bool(
+            re.match(
+                r"\s+(?:(?:оперативной|для|на)\s+)?(?:памяти|sim|pci|запис[а-я]*|при[её]м[а-я]*|консультац[а-я]*|встреч[а-я]*)\b",
+                after,
+                re.I,
+            )
+        )
+    if word.startswith("рулетк"):
+        return bool(
+            re.search(r"\b(?:строительн[а-я]*|измерительн[а-я]*)\s+$", before, re.I)
+            or re.match(r"\s*[:—-]?\s*измерительн[а-я]*\s+лент[а-я]*\b", after, re.I)
+        )
+    return False
+
+
 def local_context(sources: dict[str, str]) -> ContextExtraction:
     claims = []
     standalone_calls = []
+    source_quotes = {}
     for source_id, text in sources.items():
         url_spans = [m.span() for m in re.finditer(r"https?://\S+", text, re.I)]
         quoted_spans = [m.span() for m in re.finditer(r'«[^»]*»|“[^”]*”|"[^"]*"', text)]
+        source_quotes[source_id] = quoted_spans
         for kind, pattern in PATTERNS.items():
             accepted = 0
             for match in re.finditer(r"(?<![\w@])(?:" + pattern + r")(?!\w)", text, re.I):
                 if any(start <= match.start() < end for start, end in url_spans):
                     continue
                 if kind == "gambling":
-                    if match.group().casefold().startswith("слот") and re.match(
-                        r"\s+(?:(?:оперативной|для)\s+)?(?:памяти|sim|pci)\b", text[match.end() :], re.I
-                    ):
+                    if non_gambling_usage(text, match):
                         continue
                     if any(start <= match.start() < end for start, end in quoted_spans) and re.search(
                         r"\b(?:спектакл|фильм|роман|пьес|театр|акт[её]р)[а-я]*\b",
@@ -75,6 +121,29 @@ def local_context(sources: dict[str, str]) -> ContextExtraction:
                 accepted += 1
                 if accepted == 3:
                     break
+    # An alternative word in another sentence cannot erase an explicit commercial call.
+    # Free-game context persists unless there is an explicit transition or money invitation.
+    for call in (c for c in claims if c.kind == "call_to_action"):
+        if any(start <= call.start < end for start, end in source_quotes[call.source_id]):
+            continue
+        text = sources[call.source_id]
+        start, end = sentence_span(text, call.start)
+        sentence_claims = [c for c in claims if c.source_id == call.source_id and start <= c.start < end]
+        sentence_kinds = {c.kind for c in sentence_claims}
+        game_unquoted = any(
+            c.kind == "gambling" and not any(a <= c.start < b for a, b in source_quotes[c.source_id])
+            for c in sentence_claims
+        )
+        has_free_context = any(c.kind == "free_game" for c in claims)
+        explicit_transition = re.search(
+            r"\b(?:теперь|енді|реальн[а-я]*\s+деньг[а-я]*|на\s+деньги)\b", text[start:end], re.I
+        )
+        if (
+            game_unquoted
+            and not sentence_kinds & ALTERNATIVES
+            and (not has_free_context or explicit_transition)
+        ):
+            standalone_calls.append(call.quote)
     body = "\n".join(sources.values())
     kk = bool(re.search("[әғқңөұүһі]", body, re.I))
     ru = bool(re.search(r"переход|бонус|осторожно|игр|новост", body, re.I))
@@ -86,7 +155,7 @@ def local_context(sources: dict[str, str]) -> ContextExtraction:
             break
     if context == "ambiguous" and "call_to_action" in kinds:
         context = "promotion" if kinds & {"gambling", "bonus", "promise"} else "affiliate"
-    # This is deliberately narrow and exposed as a limitation, not a semantic classifier.
+    # These are local scope rules, not a semantic classifier.
     contradictions = []
     if kinds & {"warning", "news", "education", "free_game"} and standalone_calls:
         contradictions.append("Альтернативный контекст соседствует с самостоятельным рекламным призывом.")
@@ -125,7 +194,13 @@ def verify_claims(result: ContextExtraction, sources: dict[str, str]):
 
 def score(claims, page_claims, context, repeated=False, contradictions=None):
     kinds = {c["kind"] for c in claims}
-    page_kinds = {c["kind"] for c in page_claims}
+    eligible_pages = [
+        c for c in page_claims if c.get("context") not in ALTERNATIVES or c.get("contradictions")
+    ]
+    alternative_pages = [
+        c for c in page_claims if c.get("context") in ALTERNATIVES and not c.get("contradictions")
+    ]
+    page_kinds = {c["kind"] for c in eligible_pages}
     call = "call_to_action" in kinds
     game = "gambling" in kinds
     destination = "gambling" in page_kinds
@@ -153,9 +228,15 @@ def score(claims, page_claims, context, repeated=False, contradictions=None):
     )
     add(
         "destination_and_call",
-        "Проверенный игровой адрес + призыв",
+        "Игровые признаки на странице + призыв",
         destination and call,
-        selected(claims, {"call_to_action"}) + selected(page_claims, {"gambling"}),
+        selected(claims, {"call_to_action"}) + selected(eligible_pages, {"gambling"}),
+    )
+    add(
+        "destination_alternative_context",
+        "Альтернативный контекст страницы: не подтверждает игровой адрес",
+        bool(alternative_pages),
+        selected(alternative_pages, ALTERNATIVES),
     )
     promotion = call and (game or destination)
     add(

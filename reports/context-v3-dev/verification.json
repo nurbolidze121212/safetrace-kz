@@ -1,0 +1,19 @@
+{
+  "runs": [
+    {
+      "run": "rules-2-baseline",
+      "rows": 156,
+      "archived_sources": 18,
+      "data_hashes_match": true,
+      "metrics_match": true
+    },
+    {
+      "run": "scope-rules-3-a",
+      "rows": 156,
+      "archived_sources": 18,
+      "data_hashes_match": true,
+      "metrics_match": true
+    }
+  ],
+  "existing_demo_pages_unchanged": 6
+}

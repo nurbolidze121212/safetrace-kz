@@ -1,0 +1,52 @@
+{"id": "f36781223569d287", "truth": 1, "family": "route-0", "category": "warning", "language": "ru", "surface": "destination", "rationale": "Прямое продвижение на странице назначения."}
+{"id": "c336e379385a9624", "truth": 0, "family": "route-0", "category": "warning", "language": "ru", "surface": "destination", "rationale": "Контекст назначения: warning"}
+{"id": "aab8548509180d47", "truth": 1, "family": "route-1", "category": "news", "language": "ru", "surface": "destination", "rationale": "Прямое продвижение на странице назначения."}
+{"id": "39f90288c911387b", "truth": 0, "family": "route-1", "category": "news", "language": "ru", "surface": "destination", "rationale": "Контекст назначения: news"}
+{"id": "bd5c1ff99c42c060", "truth": 1, "family": "route-2", "category": "education", "language": "ru", "surface": "destination", "rationale": "Прямое продвижение на странице назначения."}
+{"id": "732160be53438cbd", "truth": 0, "family": "route-2", "category": "education", "language": "ru", "surface": "destination", "rationale": "Контекст назначения: education"}
+{"id": "080f918cf5a8ec94", "truth": 1, "family": "route-3", "category": "free_game", "language": "ru", "surface": "destination", "rationale": "Прямое продвижение на странице назначения."}
+{"id": "4d21179c4192025e", "truth": 0, "family": "route-3", "category": "free_game", "language": "ru", "surface": "destination", "rationale": "Контекст назначения: free_game"}
+{"id": "439646431d3728b3", "truth": 1, "family": "route-4", "category": "banking", "language": "ru", "surface": "destination", "rationale": "Прямое продвижение на странице назначения."}
+{"id": "e073f976a52ca0b5", "truth": 0, "family": "route-4", "category": "banking", "language": "ru", "surface": "destination", "rationale": "Контекст назначения: banking"}
+{"id": "e3b3c4ef288761af", "truth": 1, "family": "route-5", "category": "hardware", "language": "ru", "surface": "destination", "rationale": "Прямое продвижение на странице назначения."}
+{"id": "428e5a6c87b544be", "truth": 0, "family": "route-5", "category": "hardware", "language": "ru", "surface": "destination", "rationale": "Контекст назначения: hardware"}
+{"id": "87c865db6ee86225", "truth": 1, "family": "route-6", "category": "tools", "language": "ru", "surface": "destination", "rationale": "Прямое продвижение на странице назначения."}
+{"id": "c676a534cec9ed09", "truth": 0, "family": "route-6", "category": "tools", "language": "ru", "surface": "destination", "rationale": "Контекст назначения: tools"}
+{"id": "3b80fe08c67be51e", "truth": 1, "family": "route-7", "category": "calendar", "language": "ru", "surface": "destination", "rationale": "Прямое продвижение на странице назначения."}
+{"id": "ba19f21c91c3ea8f", "truth": 0, "family": "route-7", "category": "calendar", "language": "ru", "surface": "destination", "rationale": "Контекст назначения: calendar"}
+{"id": "826a17c2266fd39c", "truth": 1, "family": "route-8", "category": "culture", "language": "ru", "surface": "destination", "rationale": "Прямое продвижение на странице назначения."}
+{"id": "7715e0703a819f8f", "truth": 0, "family": "route-8", "category": "culture", "language": "ru", "surface": "destination", "rationale": "Контекст назначения: culture"}
+{"id": "6c1af8cafecb50fc", "truth": 1, "family": "route-9", "category": "negation", "language": "ru", "surface": "destination", "rationale": "Прямое продвижение на странице назначения."}
+{"id": "6b1a577a358a47e5", "truth": 0, "family": "route-9", "category": "negation", "language": "ru", "surface": "destination", "rationale": "Контекст назначения: negation"}
+{"id": "0a04a8a071bceb31", "truth": 1, "family": "route-10", "category": "warning", "language": "kk", "surface": "destination", "rationale": "Прямое продвижение на странице назначения."}
+{"id": "5db2653597ec1d10", "truth": 0, "family": "route-10", "category": "warning", "language": "kk", "surface": "destination", "rationale": "Контекст назначения: warning"}
+{"id": "dc8cd49b84d8b166", "truth": 1, "family": "route-11", "category": "news", "language": "kk", "surface": "destination", "rationale": "Прямое продвижение на странице назначения."}
+{"id": "cbe4e33f2e0daf60", "truth": 0, "family": "route-11", "category": "news", "language": "kk", "surface": "destination", "rationale": "Контекст назначения: news"}
+{"id": "e14b33ffd1366337", "truth": 1, "family": "route-12", "category": "education", "language": "kk", "surface": "destination", "rationale": "Прямое продвижение на странице назначения."}
+{"id": "d278ec496ae29bb3", "truth": 0, "family": "route-12", "category": "education", "language": "kk", "surface": "destination", "rationale": "Контекст назначения: education"}
+{"id": "ae2d3be56283315a", "truth": 1, "family": "route-13", "category": "free_game", "language": "kk", "surface": "destination", "rationale": "Прямое продвижение на странице назначения."}
+{"id": "1755e3bc210b0509", "truth": 0, "family": "route-13", "category": "free_game", "language": "kk", "surface": "destination", "rationale": "Контекст назначения: free_game"}
+{"id": "e6bb1ab17d37dafd", "truth": 1, "family": "route-14", "category": "warning", "language": "mixed", "surface": "destination", "rationale": "Прямое продвижение на странице назначения."}
+{"id": "38f7b530bf6a16e0", "truth": 0, "family": "route-14", "category": "warning", "language": "mixed", "surface": "destination", "rationale": "Контекст назначения: warning"}
+{"id": "286c7f1c05a2412c", "truth": 1, "family": "route-15", "category": "free_game", "language": "ru", "surface": "destination", "rationale": "Прямое продвижение на странице назначения."}
+{"id": "e9cba0e9e97ea04f", "truth": 0, "family": "route-15", "category": "free_game", "language": "ru", "surface": "destination", "rationale": "Контекст назначения: free_game"}
+{"id": "90744b4f35839032", "truth": 1, "family": "source-0", "category": "warning", "language": "ru", "surface": "source", "rationale": "Самостоятельное продвижение."}
+{"id": "935257e24e7726ba", "truth": 0, "family": "source-0", "category": "warning", "language": "ru", "surface": "source", "rationale": "Альтернативный контекст: warning"}
+{"id": "7c8ab91a7b6dcd0c", "truth": 1, "family": "source-1", "category": "news", "language": "ru", "surface": "source", "rationale": "Самостоятельное продвижение."}
+{"id": "dea247726b767477", "truth": 0, "family": "source-1", "category": "news", "language": "ru", "surface": "source", "rationale": "Альтернативный контекст: news"}
+{"id": "a156c02156e41b13", "truth": 1, "family": "source-2", "category": "education", "language": "ru", "surface": "source", "rationale": "Самостоятельное продвижение."}
+{"id": "68ab6de185cba89e", "truth": 0, "family": "source-2", "category": "education", "language": "ru", "surface": "source", "rationale": "Альтернативный контекст: education"}
+{"id": "2f39e68b267c81ad", "truth": 1, "family": "source-3", "category": "free_game", "language": "kk", "surface": "source", "rationale": "Самостоятельное продвижение."}
+{"id": "ee2bbc64bea75197", "truth": 0, "family": "source-3", "category": "free_game", "language": "kk", "surface": "source", "rationale": "Альтернативный контекст: free_game"}
+{"id": "be40a00723577b74", "truth": 1, "family": "source-4", "category": "negation", "language": "ru", "surface": "source", "rationale": "Самостоятельное продвижение."}
+{"id": "3767bd522e1d8ca7", "truth": 0, "family": "source-4", "category": "negation", "language": "ru", "surface": "source", "rationale": "Альтернативный контекст: negation"}
+{"id": "1dd63d4eb8b9424d", "truth": 1, "family": "source-5", "category": "tools", "language": "ru", "surface": "source", "rationale": "Самостоятельное продвижение."}
+{"id": "9cfd8ac10a8091ad", "truth": 0, "family": "source-5", "category": "tools", "language": "ru", "surface": "source", "rationale": "Альтернативный контекст: tools"}
+{"id": "3c3193d0858d04b1", "truth": 1, "family": "source-6", "category": "banking", "language": "ru", "surface": "source", "rationale": "Самостоятельное продвижение."}
+{"id": "655b25bb3a1ceb5a", "truth": 0, "family": "source-6", "category": "banking", "language": "ru", "surface": "source", "rationale": "Альтернативный контекст: banking"}
+{"id": "542e18209a2d5046", "truth": 1, "family": "source-7", "category": "warning", "language": "kk", "surface": "source", "rationale": "Самостоятельное продвижение."}
+{"id": "c89160de006d6e6b", "truth": 0, "family": "source-7", "category": "warning", "language": "kk", "surface": "source", "rationale": "Альтернативный контекст: warning"}
+{"id": "47c1a1dc17b6a53a", "truth": 1, "family": "unavailable-0", "category": "unavailable", "language": "ru", "surface": "destination", "rationale": "Назначение известно автору, но недоступно анализатору; ожидается недостаточность данных."}
+{"id": "a4c28173513473b1", "truth": 1, "family": "unavailable-1", "category": "unavailable", "language": "kk", "surface": "destination", "rationale": "Назначение известно автору, но недоступно анализатору; ожидается недостаточность данных."}
+{"id": "1877498f2af451c6", "truth": 0, "family": "unavailable-2", "category": "unavailable", "language": "ru", "surface": "destination", "rationale": "Назначение известно автору, но недоступно анализатору; ожидается недостаточность данных."}
+{"id": "69ed6f654f92728a", "truth": 0, "family": "unavailable-3", "category": "unavailable", "language": "kk", "surface": "destination", "rationale": "Назначение известно автору, но недоступно анализатору; ожидается недостаточность данных."}

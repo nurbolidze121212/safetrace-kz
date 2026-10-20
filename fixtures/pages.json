@@ -19,6 +19,22 @@
     "status": 302,
     "headers": {"location": "https://go.safetrace.test/loop"}
   },
+  "https://portal.safetrace.test/read/m82": {
+    "status": 302,
+    "headers": {"location": "https://notes.safetrace.test/articles/m82"}
+  },
+  "https://notes.safetrace.test/articles/m82": {
+    "status": 200,
+    "body": "<html><body><h1>DEMO: разбор рекламной рассылки</h1><p>Осторожно: мошенники отправляют сообщение «Играй в казино, забирай бонус». Не играйте и не переводите деньги. Это учебный разбор схемы, а не предложение регистрации.</p></body></html>"
+  },
+  "https://portal.safetrace.test/read/p41": {
+    "status": 302,
+    "headers": {"location": "https://hall.safetrace.test/entry?ref=K9M2"}
+  },
+  "https://hall.safetrace.test/entry?ref=K9M2": {
+    "status": 200,
+    "body": "<html><body><h1>DEMO: вечерний клуб</h1><p>Осторожно: возможны проигрыши. Играй в нашем казино на деньги, забирай бонус и фриспины. Синтетический стенд, регистрации и платежей нет.</p></body></html>"
+  },
   "https://shop.safetrace.test/items?ref=QALA7": {
     "status": 200,
     "body": "<h1>DEMO: магазин книг</h1><p>Бонус на покупку учебника. Партнерская программа магазина.</p>"
