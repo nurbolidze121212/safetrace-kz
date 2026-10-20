@@ -1,0 +1,244 @@
+[
+  {
+    "id": "c2e952133dc24008a5c4435beada40fa",
+    "title": "Новость для проверки",
+    "status": "completed",
+    "score": {
+      "value": 5,
+      "level": "low",
+      "contributions": [
+        {
+          "key": "destination_and_call",
+          "title": "Проверенный игровой адрес + призыв",
+          "weight": 55,
+          "evidence_ids": [
+            "c2e952133dc24008a5c4435beada40fa-24771a0ca198-e3",
+            "c2e952133dc24008a5c4435beada40fa-24771a0ca198-e12",
+            "c2e952133dc24008a5c4435beada40fa-24771a0ca198-e13",
+            "c2e952133dc24008a5c4435beada40fa-24771a0ca198-e14"
+          ]
+        },
+        {
+          "key": "bonus_in_promotion",
+          "title": "Бонус в рекламном контексте",
+          "weight": 15,
+          "evidence_ids": [
+            "c2e952133dc24008a5c4435beada40fa-24771a0ca198-e4"
+          ]
+        },
+        {
+          "key": "alternative_context",
+          "title": "Альтернативный контекст: news",
+          "weight": -65,
+          "evidence_ids": [
+            "c2e952133dc24008a5c4435beada40fa-24771a0ca198-e5",
+            "c2e952133dc24008a5c4435beada40fa-24771a0ca198-e6"
+          ]
+        }
+      ],
+      "version": "rules-1.0",
+      "weights": {
+        "version": "weights-1.0",
+        "high_threshold": 65,
+        "medium_threshold": 35,
+        "gambling_and_call": 55,
+        "destination_and_call": 55,
+        "bonus_in_promotion": 15,
+        "promise_in_promotion": 10,
+        "repeated_referral_in_promotion": 10,
+        "alternative_context": -65,
+        "contradictory_context": -25
+      },
+      "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+      "aggregation": "Максимальный приоритет отдельного материала; признаки разных материалов не смешиваются."
+    },
+    "sufficient_data": true,
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "provider": "local_rule",
+    "context": {
+      "language": "ru",
+      "context": "news",
+      "claims": [
+        {
+          "kind": "gambling",
+          "quote": "казино",
+          "source_id": "abd394c0a18b4811bb05bc6609c5fd52",
+          "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение."
+        },
+        {
+          "kind": "call_to_action",
+          "quote": "переходи",
+          "source_id": "abd394c0a18b4811bb05bc6609c5fd52",
+          "explanation": "Возможный рекламный призыв; требуется проверка контекста."
+        },
+        {
+          "kind": "bonus",
+          "quote": "бонус",
+          "source_id": "abd394c0a18b4811bb05bc6609c5fd52",
+          "explanation": "Упоминание бонуса или промокода."
+        },
+        {
+          "kind": "news",
+          "quote": "Новость",
+          "source_id": "abd394c0a18b4811bb05bc6609c5fd52",
+          "explanation": "Альтернатива: журналистский контекст."
+        },
+        {
+          "kind": "news",
+          "quote": "журналисты",
+          "source_id": "abd394c0a18b4811bb05bc6609c5fd52",
+          "explanation": "Альтернатива: журналистский контекст."
+        }
+      ],
+      "contradictions": [],
+      "limitations": [
+        "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+      ]
+    }
+  },
+  {
+    "id": "1598974d62f74b7a8685d50a9e6a08ce",
+    "title": "Неразрешимая ссылка",
+    "status": "partial",
+    "score": {
+      "value": 0,
+      "level": "low",
+      "contributions": [],
+      "version": "rules-1.0",
+      "weights": {
+        "version": "weights-1.0",
+        "high_threshold": 65,
+        "medium_threshold": 35,
+        "gambling_and_call": 55,
+        "destination_and_call": 55,
+        "bonus_in_promotion": 15,
+        "promise_in_promotion": 10,
+        "repeated_referral_in_promotion": 10,
+        "alternative_context": -65,
+        "contradictory_context": -25
+      },
+      "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+      "aggregation": "Максимальный приоритет отдельного материала; признаки разных материалов не смешиваются."
+    },
+    "sufficient_data": false,
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+      "Непроверенный участок: Синтетический стенд: адрес не найден",
+      "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+    ],
+    "provider": "local_rule",
+    "context": {
+      "language": "ru",
+      "context": "promotion",
+      "claims": [
+        {
+          "kind": "call_to_action",
+          "quote": "Переходи",
+          "source_id": "730077695f32497cbe62b994f653a13d",
+          "explanation": "Возможный рекламный призыв; требуется проверка контекста."
+        },
+        {
+          "kind": "bonus",
+          "quote": "бонусом",
+          "source_id": "730077695f32497cbe62b994f653a13d",
+          "explanation": "Упоминание бонуса или промокода."
+        }
+      ],
+      "contradictions": [],
+      "limitations": [
+        "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+      ]
+    }
+  },
+  {
+    "id": "08d0ce88283c402f923af53dc3b14ef7",
+    "title": "Недоступный облачный провайдер",
+    "status": "partial",
+    "score": {
+      "value": 70,
+      "level": "high",
+      "contributions": [
+        {
+          "key": "gambling_and_call",
+          "title": "Игровая лексика + призыв",
+          "weight": 55,
+          "evidence_ids": [
+            "08d0ce88283c402f923af53dc3b14ef7-d6ed9d71fec0-e2",
+            "08d0ce88283c402f923af53dc3b14ef7-d6ed9d71fec0-e3",
+            "08d0ce88283c402f923af53dc3b14ef7-d6ed9d71fec0-e4"
+          ]
+        },
+        {
+          "key": "bonus_in_promotion",
+          "title": "Бонус в рекламном контексте",
+          "weight": 15,
+          "evidence_ids": [
+            "08d0ce88283c402f923af53dc3b14ef7-d6ed9d71fec0-e5"
+          ]
+        }
+      ],
+      "version": "rules-1.0",
+      "weights": {
+        "version": "weights-1.0",
+        "high_threshold": 65,
+        "medium_threshold": 35,
+        "gambling_and_call": 55,
+        "destination_and_call": 55,
+        "bonus_in_promotion": 15,
+        "promise_in_promotion": 10,
+        "repeated_referral_in_promotion": 10,
+        "alternative_context": -65,
+        "contradictory_context": -25
+      },
+      "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+      "aggregation": "Максимальный приоритет отдельного материала; признаки разных материалов не смешиваются."
+    },
+    "sufficient_data": true,
+    "limitations": [
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Облачный провайдер недоступен; использованы локальные правила.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "provider": "local_rule",
+    "context": {
+      "language": "ru",
+      "context": "promotion",
+      "claims": [
+        {
+          "kind": "gambling",
+          "quote": "Казино",
+          "source_id": "7b8946bdcd4048fab8cd93ebe9ac024c",
+          "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение."
+        },
+        {
+          "kind": "call_to_action",
+          "quote": "регистрируйся",
+          "source_id": "7b8946bdcd4048fab8cd93ebe9ac024c",
+          "explanation": "Возможный рекламный призыв; требуется проверка контекста."
+        },
+        {
+          "kind": "call_to_action",
+          "quote": "забирай",
+          "source_id": "7b8946bdcd4048fab8cd93ebe9ac024c",
+          "explanation": "Возможный рекламный призыв; требуется проверка контекста."
+        },
+        {
+          "kind": "bonus",
+          "quote": "бонус",
+          "source_id": "7b8946bdcd4048fab8cd93ebe9ac024c",
+          "explanation": "Упоминание бонуса или промокода."
+        }
+      ],
+      "contradictions": [],
+      "limitations": [
+        "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+      ]
+    }
+  }
+]

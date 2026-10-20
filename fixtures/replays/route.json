@@ -1,0 +1,943 @@
+{
+  "id": "4ae46fba9453418ea7fb6b014178ea8d",
+  "title": "За обещанием бонуса",
+  "mode": "synthetic",
+  "created_at": "2026-10-20T19:02:21.307477+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "Вечер может больше. Забирай бонус 200% по коду QALA7. Переходи: https://go.safetrace.test/r/q7",
+      "url": "",
+      "source": "DEMO · @qadam",
+      "published_at": null,
+      "image_id": null,
+      "id": "ff6b6a887cc74af9a624b428552e65a6",
+      "original_sha256": "0ad11ea5336c71ca59b1b1c2b54a2229a09db6faf288456e75fc590dc6a5b88a",
+      "source_evidence_id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e1",
+      "normalized_text": "вечер может больше. забирай бонус 200% по коду qala7. переходи: https://go.safetrace.test/r/q7",
+      "urls": [
+        "https://go.safetrace.test/r/q7"
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e5"
+      ],
+      "reachable_urls": [
+        "https://arena.safetrace.test/welcome?ref=QALA7",
+        "https://go.safetrace.test/r/q7",
+        "https://hub.safetrace.test/offer"
+      ],
+      "score": {
+        "value": 70,
+        "level": "high",
+        "contributions": [
+          {
+            "key": "destination_and_call",
+            "title": "Проверенный игровой адрес + призыв",
+            "weight": 55,
+            "evidence_ids": [
+              "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e2",
+              "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e3",
+              "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e10",
+              "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e11",
+              "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e12"
+            ]
+          },
+          {
+            "key": "bonus_in_promotion",
+            "title": "Бонус в рекламном контексте",
+            "weight": 15,
+            "evidence_ids": [
+              "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e4"
+            ]
+          }
+        ],
+        "version": "rules-1.0",
+        "weights": {
+          "version": "weights-1.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 55,
+          "destination_and_call": 55,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": -25
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+        "aggregation": "Максимальный приоритет отдельного материала; признаки разных материалов не смешиваются."
+      },
+      "context": {
+        "language": "ru",
+        "context": "promotion",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "Забирай",
+            "source_id": "ff6b6a887cc74af9a624b428552e65a6",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста."
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "Переходи",
+            "source_id": "ff6b6a887cc74af9a624b428552e65a6",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста."
+          },
+          {
+            "kind": "bonus",
+            "quote": "бонус",
+            "source_id": "ff6b6a887cc74af9a624b428552e65a6",
+            "explanation": "Упоминание бонуса или промокода."
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e1",
+      "quote": "DEMO · @qadam",
+      "source_id": "ff6b6a887cc74af9a624b428552e65a6",
+      "method": "user_supplied",
+      "at": "2026-10-20T19:02:21.327634+00:00",
+      "material_id": "ff6b6a887cc74af9a624b428552e65a6",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e2",
+      "quote": "Забирай",
+      "source_id": "ff6b6a887cc74af9a624b428552e65a6",
+      "method": "local_rule",
+      "at": "2026-10-20T19:02:21.338221+00:00",
+      "start": 20,
+      "end": 27,
+      "material_id": "ff6b6a887cc74af9a624b428552e65a6"
+    },
+    {
+      "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e3",
+      "quote": "Переходи",
+      "source_id": "ff6b6a887cc74af9a624b428552e65a6",
+      "method": "local_rule",
+      "at": "2026-10-20T19:02:21.339234+00:00",
+      "start": 54,
+      "end": 62,
+      "material_id": "ff6b6a887cc74af9a624b428552e65a6"
+    },
+    {
+      "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e4",
+      "quote": "бонус",
+      "source_id": "ff6b6a887cc74af9a624b428552e65a6",
+      "method": "local_rule",
+      "at": "2026-10-20T19:02:21.339234+00:00",
+      "start": 28,
+      "end": 33,
+      "material_id": "ff6b6a887cc74af9a624b428552e65a6"
+    },
+    {
+      "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e5",
+      "quote": "Вечер может больше. Забирай бонус 200% по коду QALA7. Переходи: https://go.safetrace.test/r/q7",
+      "source_id": "ff6b6a887cc74af9a624b428552e65a6",
+      "method": "source_text",
+      "at": "2026-10-20T19:02:21.339234+00:00",
+      "material_id": "ff6b6a887cc74af9a624b428552e65a6"
+    },
+    {
+      "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e6",
+      "quote": "https://go.safetrace.test/r/q7",
+      "source_id": "ff6b6a887cc74af9a624b428552e65a6",
+      "method": "source_text",
+      "at": "2026-10-20T19:02:21.339234+00:00",
+      "material_id": "ff6b6a887cc74af9a624b428552e65a6"
+    },
+    {
+      "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e7",
+      "quote": "https://hub.safetrace.test/offer",
+      "source_id": "https://go.safetrace.test/r/q7",
+      "method": "synthetic_transport",
+      "at": "2026-10-20T19:02:21.341743+00:00",
+      "url": "https://go.safetrace.test/r/q7",
+      "status_code": 302,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e8",
+      "quote": "Клуб вечерних возможностей Синтетический стенд DEMO. Откройте партнерское предложение. Забрать предложение",
+      "source_id": "https://hub.safetrace.test/offer",
+      "method": "synthetic_transport",
+      "at": "2026-10-20T19:02:21.341743+00:00",
+      "url": "https://hub.safetrace.test/offer",
+      "status_code": 200,
+      "observation_id": "obs-1"
+    },
+    {
+      "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e9",
+      "quote": "DEMO: игровой зал Синтетическая страница: слоты, рулетка, депозит, бонус 200% и фриспины. Регистрация и платежи не реализованы.",
+      "source_id": "https://arena.safetrace.test/welcome?ref=QALA7",
+      "method": "synthetic_transport",
+      "at": "2026-10-20T19:02:21.341743+00:00",
+      "url": "https://arena.safetrace.test/welcome?ref=QALA7",
+      "status_code": 200,
+      "observation_id": "obs-2"
+    },
+    {
+      "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e10",
+      "quote": "слоты",
+      "source_id": "https://arena.safetrace.test/welcome?ref=QALA7",
+      "method": "local_rule",
+      "at": "2026-10-20T19:02:21.342763+00:00",
+      "start": 42,
+      "end": 47,
+      "url": "https://arena.safetrace.test/welcome?ref=QALA7"
+    },
+    {
+      "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e11",
+      "quote": "рулетка",
+      "source_id": "https://arena.safetrace.test/welcome?ref=QALA7",
+      "method": "local_rule",
+      "at": "2026-10-20T19:02:21.342763+00:00",
+      "start": 49,
+      "end": 56,
+      "url": "https://arena.safetrace.test/welcome?ref=QALA7"
+    },
+    {
+      "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e12",
+      "quote": "депозит",
+      "source_id": "https://arena.safetrace.test/welcome?ref=QALA7",
+      "method": "local_rule",
+      "at": "2026-10-20T19:02:21.342763+00:00",
+      "start": 58,
+      "end": 65,
+      "url": "https://arena.safetrace.test/welcome?ref=QALA7"
+    },
+    {
+      "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e13",
+      "quote": "ал",
+      "source_id": "https://arena.safetrace.test/welcome?ref=QALA7",
+      "method": "local_rule",
+      "at": "2026-10-20T19:02:21.342763+00:00",
+      "start": 15,
+      "end": 17,
+      "url": "https://arena.safetrace.test/welcome?ref=QALA7"
+    },
+    {
+      "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e14",
+      "quote": "бонус",
+      "source_id": "https://arena.safetrace.test/welcome?ref=QALA7",
+      "method": "local_rule",
+      "at": "2026-10-20T19:02:21.342763+00:00",
+      "start": 67,
+      "end": 72,
+      "url": "https://arena.safetrace.test/welcome?ref=QALA7"
+    },
+    {
+      "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e15",
+      "quote": "фриспины",
+      "source_id": "https://arena.safetrace.test/welcome?ref=QALA7",
+      "method": "local_rule",
+      "at": "2026-10-20T19:02:21.342763+00:00",
+      "start": 80,
+      "end": 88,
+      "url": "https://arena.safetrace.test/welcome?ref=QALA7"
+    },
+    {
+      "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e16",
+      "quote": "https://go.safetrace.test/r/q7",
+      "source_id": "https://go.safetrace.test/r/q7",
+      "method": "synthetic_transport",
+      "at": "2026-10-20T19:02:21.342763+00:00",
+      "url": "https://go.safetrace.test/r/q7",
+      "relation": "contains_link"
+    },
+    {
+      "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e17",
+      "quote": "https://hub.safetrace.test/offer",
+      "source_id": "https://go.safetrace.test/r/q7",
+      "method": "synthetic_transport",
+      "at": "2026-10-20T19:02:21.342763+00:00",
+      "url": "https://go.safetrace.test/r/q7",
+      "relation": "redirects"
+    },
+    {
+      "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e18",
+      "quote": "Забрать предложение",
+      "source_id": "https://hub.safetrace.test/offer",
+      "method": "synthetic_transport",
+      "at": "2026-10-20T19:02:21.342763+00:00",
+      "url": "https://hub.safetrace.test/offer",
+      "relation": "page_link"
+    }
+  ],
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-1.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det"
+  },
+  "identifiers": [
+    {
+      "domain": "arena.safetrace.test",
+      "parameter": "ref",
+      "value": "QALA7",
+      "scope": "arena.safetrace.test|/welcome|ref|QALA7",
+      "url": "https://arena.safetrace.test/welcome?ref=QALA7",
+      "material_id": "ff6b6a887cc74af9a624b428552e65a6",
+      "evidence_id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e9"
+    }
+  ],
+  "analyzed_at": "2026-10-20T19:02:21.326086+00:00",
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://go.safetrace.test/r/q7",
+        "at": "2026-10-20T19:02:21.340234+00:00",
+        "status_code": 302,
+        "text": "",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-20T19:02:21.340234+00:00",
+            "status_code": 302
+          }
+        ],
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "connected_ip": null,
+        "location": "https://hub.safetrace.test/offer",
+        "evidence_id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e7"
+      },
+      {
+        "id": "obs-1",
+        "url": "https://hub.safetrace.test/offer",
+        "at": "2026-10-20T19:02:21.340234+00:00",
+        "status_code": 200,
+        "text": "Клуб вечерних возможностей Синтетический стенд DEMO. Откройте партнерское предложение. Забрать предложение",
+        "stop": null,
+        "depth": 1,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-20T19:02:21.340234+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "d7274d25424dfea9d03df6a1ac8cf65e1fa5c7b51ca70975f05d55302db040b2",
+        "connected_ip": null,
+        "links": [
+          {
+            "url": "https://arena.safetrace.test/welcome?ref=QALA7",
+            "quote": "Забрать предложение"
+          }
+        ],
+        "evidence_id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e8"
+      },
+      {
+        "id": "obs-2",
+        "url": "https://arena.safetrace.test/welcome?ref=QALA7",
+        "at": "2026-10-20T19:02:21.341743+00:00",
+        "status_code": 200,
+        "text": "DEMO: игровой зал Синтетическая страница: слоты, рулетка, депозит, бонус 200% и фриспины. Регистрация и платежи не реализованы.",
+        "stop": null,
+        "depth": 2,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-20T19:02:21.341743+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "bdbc907e1f4e4a3e2003b04b51f56dcf0f5a3ecade10926a840cc9e1d5c8bad1",
+        "connected_ip": null,
+        "links": [],
+        "evidence_id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e9"
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://go.safetrace.test/r/q7",
+        "type": "contains_link",
+        "quote": "https://go.safetrace.test/r/q7",
+        "observation_id": "obs-0",
+        "at": "2026-10-20T19:02:21.340234+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e16"
+      },
+      {
+        "from": "https://go.safetrace.test/r/q7",
+        "to": "https://hub.safetrace.test/offer",
+        "type": "redirects",
+        "quote": "https://hub.safetrace.test/offer",
+        "observation_id": "obs-1",
+        "at": "2026-10-20T19:02:21.340234+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e17"
+      },
+      {
+        "from": "https://hub.safetrace.test/offer",
+        "to": "https://arena.safetrace.test/welcome?ref=QALA7",
+        "type": "page_link",
+        "quote": "Забрать предложение",
+        "observation_id": "obs-2",
+        "at": "2026-10-20T19:02:21.341743+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e18"
+      }
+    ],
+    "requests": 3
+  },
+  "analysis_id": "ed2882c1b051",
+  "context": {
+    "language": "ru",
+    "context": "promotion",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "Забирай",
+        "source_id": "ff6b6a887cc74af9a624b428552e65a6",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста."
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "Переходи",
+        "source_id": "ff6b6a887cc74af9a624b428552e65a6",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста."
+      },
+      {
+        "kind": "bonus",
+        "quote": "бонус",
+        "source_id": "ff6b6a887cc74af9a624b428552e65a6",
+        "explanation": "Упоминание бонуса или промокода."
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "Забирай",
+      "source_id": "ff6b6a887cc74af9a624b428552e65a6",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 20,
+      "end": 27,
+      "evidence_id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e2"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "Переходи",
+      "source_id": "ff6b6a887cc74af9a624b428552e65a6",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 54,
+      "end": 62,
+      "evidence_id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e3"
+    },
+    {
+      "kind": "bonus",
+      "quote": "бонус",
+      "source_id": "ff6b6a887cc74af9a624b428552e65a6",
+      "explanation": "Упоминание бонуса или промокода.",
+      "start": 28,
+      "end": 33,
+      "evidence_id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e4"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-9db20d083e07f912",
+        "type": "material",
+        "label": "DEMO · @qadam",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e1"
+        ],
+        "case_id": "4ae46fba9453418ea7fb6b014178ea8d",
+        "material_id": "ff6b6a887cc74af9a624b428552e65a6"
+      },
+      {
+        "id": "source-8989e418ffa8cddb",
+        "type": "source",
+        "label": "DEMO · @qadam",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e1"
+        ]
+      },
+      {
+        "id": "url-9a87f8bf729d2c2c",
+        "type": "url",
+        "label": "https://go.safetrace.test/r/q7",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e6",
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e7"
+        ]
+      },
+      {
+        "id": "observation-d9fc71c486e97bb1",
+        "type": "observation",
+        "label": "HTTP 302",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e7"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-2baa09f570416400",
+        "type": "domain",
+        "label": "go.safetrace.test",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e7"
+        ]
+      },
+      {
+        "id": "url-a7e8ad9aacd64ed4",
+        "type": "url",
+        "label": "https://hub.safetrace.test/offer",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e8"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "observation-b5d159326525006f",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e8"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-193cd6cc06d6cbb0",
+        "type": "domain",
+        "label": "hub.safetrace.test",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e8"
+        ]
+      },
+      {
+        "id": "url-edf6ee5c6a6bec73",
+        "type": "url",
+        "label": "https://arena.safetrace.test/welcome?ref=QALA7",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e9"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "observation-000210c9a37b003f",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e9"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-aa519db5aa65fa72",
+        "type": "domain",
+        "label": "arena.safetrace.test",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e9"
+        ]
+      },
+      {
+        "id": "identifier-9893bf5d169ba548",
+        "type": "identifier",
+        "label": "ref=QALA7",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e9"
+        ],
+        "scope": "arena.safetrace.test|/welcome|ref|QALA7"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-69692ae7fe65b9b22c",
+        "source": "source-8989e418ffa8cddb",
+        "target": "material-9db20d083e07f912",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e1"
+        ],
+        "at": "2026-10-20T19:02:21.326086+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-bd4271300755192249",
+        "source": "material-9db20d083e07f912",
+        "target": "url-9a87f8bf729d2c2c",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e6"
+        ],
+        "at": "2026-10-20T19:02:21.326086+00:00",
+        "method": "source_text",
+        "status": "observed"
+      },
+      {
+        "id": "edge-399ab13fcba38990be",
+        "source": "url-9a87f8bf729d2c2c",
+        "target": "observation-d9fc71c486e97bb1",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e7"
+        ],
+        "at": "2026-10-20T19:02:21.326086+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-c65574f41bbad9c374",
+        "source": "url-9a87f8bf729d2c2c",
+        "target": "domain-2baa09f570416400",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e7"
+        ],
+        "at": "2026-10-20T19:02:21.326086+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-b38485a22f0a1a4352",
+        "source": "url-a7e8ad9aacd64ed4",
+        "target": "observation-b5d159326525006f",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e8"
+        ],
+        "at": "2026-10-20T19:02:21.326086+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-846b2b56a5594a2f94",
+        "source": "url-a7e8ad9aacd64ed4",
+        "target": "domain-193cd6cc06d6cbb0",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e8"
+        ],
+        "at": "2026-10-20T19:02:21.326086+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-2aa20e6422d92a8d64",
+        "source": "url-edf6ee5c6a6bec73",
+        "target": "observation-000210c9a37b003f",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e9"
+        ],
+        "at": "2026-10-20T19:02:21.326086+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-3edb8ae8a51d963ea5",
+        "source": "url-edf6ee5c6a6bec73",
+        "target": "domain-aa519db5aa65fa72",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e9"
+        ],
+        "at": "2026-10-20T19:02:21.326086+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-a227c7f3ad490bf7da",
+        "source": "url-edf6ee5c6a6bec73",
+        "target": "identifier-9893bf5d169ba548",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e9"
+        ],
+        "at": "2026-10-20T19:02:21.326086+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-28f58fbf9b8339b473",
+        "source": "url-9a87f8bf729d2c2c",
+        "target": "url-a7e8ad9aacd64ed4",
+        "type": "redirects",
+        "label": "redirects",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e17"
+        ],
+        "at": "2026-10-20T19:02:21.326086+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-c423d12a27e9e6f445",
+        "source": "url-a7e8ad9aacd64ed4",
+        "target": "url-edf6ee5c6a6bec73",
+        "type": "page_link",
+        "label": "page_link",
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e18"
+        ],
+        "at": "2026-10-20T19:02:21.326086+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e1",
+        "quote": "DEMO · @qadam",
+        "source_id": "ff6b6a887cc74af9a624b428552e65a6",
+        "method": "user_supplied",
+        "at": "2026-10-20T19:02:21.327634+00:00",
+        "material_id": "ff6b6a887cc74af9a624b428552e65a6",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e2",
+        "quote": "Забирай",
+        "source_id": "ff6b6a887cc74af9a624b428552e65a6",
+        "method": "local_rule",
+        "at": "2026-10-20T19:02:21.338221+00:00",
+        "start": 20,
+        "end": 27,
+        "material_id": "ff6b6a887cc74af9a624b428552e65a6"
+      },
+      {
+        "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e3",
+        "quote": "Переходи",
+        "source_id": "ff6b6a887cc74af9a624b428552e65a6",
+        "method": "local_rule",
+        "at": "2026-10-20T19:02:21.339234+00:00",
+        "start": 54,
+        "end": 62,
+        "material_id": "ff6b6a887cc74af9a624b428552e65a6"
+      },
+      {
+        "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e4",
+        "quote": "бонус",
+        "source_id": "ff6b6a887cc74af9a624b428552e65a6",
+        "method": "local_rule",
+        "at": "2026-10-20T19:02:21.339234+00:00",
+        "start": 28,
+        "end": 33,
+        "material_id": "ff6b6a887cc74af9a624b428552e65a6"
+      },
+      {
+        "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e5",
+        "quote": "Вечер может больше. Забирай бонус 200% по коду QALA7. Переходи: https://go.safetrace.test/r/q7",
+        "source_id": "ff6b6a887cc74af9a624b428552e65a6",
+        "method": "source_text",
+        "at": "2026-10-20T19:02:21.339234+00:00",
+        "material_id": "ff6b6a887cc74af9a624b428552e65a6"
+      },
+      {
+        "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e6",
+        "quote": "https://go.safetrace.test/r/q7",
+        "source_id": "ff6b6a887cc74af9a624b428552e65a6",
+        "method": "source_text",
+        "at": "2026-10-20T19:02:21.339234+00:00",
+        "material_id": "ff6b6a887cc74af9a624b428552e65a6"
+      },
+      {
+        "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e7",
+        "quote": "https://hub.safetrace.test/offer",
+        "source_id": "https://go.safetrace.test/r/q7",
+        "method": "synthetic_transport",
+        "at": "2026-10-20T19:02:21.341743+00:00",
+        "url": "https://go.safetrace.test/r/q7",
+        "status_code": 302,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e8",
+        "quote": "Клуб вечерних возможностей Синтетический стенд DEMO. Откройте партнерское предложение. Забрать предложение",
+        "source_id": "https://hub.safetrace.test/offer",
+        "method": "synthetic_transport",
+        "at": "2026-10-20T19:02:21.341743+00:00",
+        "url": "https://hub.safetrace.test/offer",
+        "status_code": 200,
+        "observation_id": "obs-1"
+      },
+      {
+        "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e9",
+        "quote": "DEMO: игровой зал Синтетическая страница: слоты, рулетка, депозит, бонус 200% и фриспины. Регистрация и платежи не реализованы.",
+        "source_id": "https://arena.safetrace.test/welcome?ref=QALA7",
+        "method": "synthetic_transport",
+        "at": "2026-10-20T19:02:21.341743+00:00",
+        "url": "https://arena.safetrace.test/welcome?ref=QALA7",
+        "status_code": 200,
+        "observation_id": "obs-2"
+      },
+      {
+        "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e10",
+        "quote": "слоты",
+        "source_id": "https://arena.safetrace.test/welcome?ref=QALA7",
+        "method": "local_rule",
+        "at": "2026-10-20T19:02:21.342763+00:00",
+        "start": 42,
+        "end": 47,
+        "url": "https://arena.safetrace.test/welcome?ref=QALA7"
+      },
+      {
+        "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e11",
+        "quote": "рулетка",
+        "source_id": "https://arena.safetrace.test/welcome?ref=QALA7",
+        "method": "local_rule",
+        "at": "2026-10-20T19:02:21.342763+00:00",
+        "start": 49,
+        "end": 56,
+        "url": "https://arena.safetrace.test/welcome?ref=QALA7"
+      },
+      {
+        "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e12",
+        "quote": "депозит",
+        "source_id": "https://arena.safetrace.test/welcome?ref=QALA7",
+        "method": "local_rule",
+        "at": "2026-10-20T19:02:21.342763+00:00",
+        "start": 58,
+        "end": 65,
+        "url": "https://arena.safetrace.test/welcome?ref=QALA7"
+      },
+      {
+        "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e13",
+        "quote": "ал",
+        "source_id": "https://arena.safetrace.test/welcome?ref=QALA7",
+        "method": "local_rule",
+        "at": "2026-10-20T19:02:21.342763+00:00",
+        "start": 15,
+        "end": 17,
+        "url": "https://arena.safetrace.test/welcome?ref=QALA7"
+      },
+      {
+        "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e14",
+        "quote": "бонус",
+        "source_id": "https://arena.safetrace.test/welcome?ref=QALA7",
+        "method": "local_rule",
+        "at": "2026-10-20T19:02:21.342763+00:00",
+        "start": 67,
+        "end": 72,
+        "url": "https://arena.safetrace.test/welcome?ref=QALA7"
+      },
+      {
+        "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e15",
+        "quote": "фриспины",
+        "source_id": "https://arena.safetrace.test/welcome?ref=QALA7",
+        "method": "local_rule",
+        "at": "2026-10-20T19:02:21.342763+00:00",
+        "start": 80,
+        "end": 88,
+        "url": "https://arena.safetrace.test/welcome?ref=QALA7"
+      },
+      {
+        "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e16",
+        "quote": "https://go.safetrace.test/r/q7",
+        "source_id": "https://go.safetrace.test/r/q7",
+        "method": "synthetic_transport",
+        "at": "2026-10-20T19:02:21.342763+00:00",
+        "url": "https://go.safetrace.test/r/q7",
+        "relation": "contains_link"
+      },
+      {
+        "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e17",
+        "quote": "https://hub.safetrace.test/offer",
+        "source_id": "https://go.safetrace.test/r/q7",
+        "method": "synthetic_transport",
+        "at": "2026-10-20T19:02:21.342763+00:00",
+        "url": "https://go.safetrace.test/r/q7",
+        "relation": "redirects"
+      },
+      {
+        "id": "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e18",
+        "quote": "Забрать предложение",
+        "source_id": "https://hub.safetrace.test/offer",
+        "method": "synthetic_transport",
+        "at": "2026-10-20T19:02:21.342763+00:00",
+        "url": "https://hub.safetrace.test/offer",
+        "relation": "page_link"
+      }
+    ],
+    "generated_at": "2026-10-20T19:02:21.342763+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 70,
+    "level": "high",
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Проверенный игровой адрес + призыв",
+        "weight": 55,
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e2",
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e3",
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e10",
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e11",
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e12"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "4ae46fba9453418ea7fb6b014178ea8d-ed2882c1b051-e4"
+        ]
+      }
+    ],
+    "version": "rules-1.0",
+    "weights": {
+      "version": "weights-1.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 55,
+      "destination_and_call": 55,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": -25
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "aggregation": "Максимальный приоритет отдельного материала; признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 16.0
+}

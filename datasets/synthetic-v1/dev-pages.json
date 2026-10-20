@@ -1,0 +1,506 @@
+{
+  "https://nc9e118c6c.test/s/0": {
+    "status": 302,
+    "headers": {
+      "location": "https://mc9e118c6c.test/info/0"
+    }
+  },
+  "https://mc9e118c6c.test/info/0": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://pc9e118c6c.test/offer?ref=P7R9H8\">Открыть страницу</a>"
+  },
+  "https://pc9e118c6c.test/offer?ref=P7R9H8": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://nc9e118c6c.test/s/1": {
+    "status": 302,
+    "headers": {
+      "location": "https://mc9e118c6c.test/info/1"
+    }
+  },
+  "https://mc9e118c6c.test/info/1": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://pc9e118c6c.test/offer?ref=MVQBLJ\">Открыть страницу</a>"
+  },
+  "https://pc9e118c6c.test/offer?ref=MVQBLJ": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://n95a76ae67.test/s/0": {
+    "status": 302,
+    "headers": {
+      "location": "https://m95a76ae67.test/info/0"
+    }
+  },
+  "https://m95a76ae67.test/info/0": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p95a76ae67.test/offer?ref=ZAK76K\">Открыть страницу</a>"
+  },
+  "https://p95a76ae67.test/offer?ref=ZAK76K": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://n95a76ae67.test/s/1": {
+    "status": 302,
+    "headers": {
+      "location": "https://m95a76ae67.test/info/1"
+    }
+  },
+  "https://m95a76ae67.test/info/1": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p95a76ae67.test/offer?ref=FG9MBV\">Открыть страницу</a>"
+  },
+  "https://p95a76ae67.test/offer?ref=FG9MBV": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://n76719655d.test/s/0": {
+    "status": 302,
+    "headers": {
+      "location": "https://m76719655d.test/info/0"
+    }
+  },
+  "https://m76719655d.test/info/0": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p76719655d.test/offer?ref=GXPPYZ\">Открыть страницу</a>"
+  },
+  "https://p76719655d.test/offer?ref=GXPPYZ": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://n76719655d.test/s/1": {
+    "status": 302,
+    "headers": {
+      "location": "https://m76719655d.test/info/1"
+    }
+  },
+  "https://m76719655d.test/info/1": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p76719655d.test/offer?ref=AXRLCY\">Открыть страницу</a>"
+  },
+  "https://p76719655d.test/offer?ref=AXRLCY": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://n82efda106.test/s/0": {
+    "status": 302,
+    "headers": {
+      "location": "https://m82efda106.test/info/0"
+    }
+  },
+  "https://m82efda106.test/info/0": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p82efda106.test/offer?ref=HAS2AJ\">Открыть страницу</a>"
+  },
+  "https://p82efda106.test/offer?ref=HAS2AJ": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://n82efda106.test/s/1": {
+    "status": 302,
+    "headers": {
+      "location": "https://m82efda106.test/info/1"
+    }
+  },
+  "https://m82efda106.test/info/1": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p82efda106.test/offer?ref=XCASFA\">Открыть страницу</a>"
+  },
+  "https://p82efda106.test/offer?ref=XCASFA": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://n30d5915ad.test/s/0": {
+    "status": 302,
+    "headers": {
+      "location": "https://m30d5915ad.test/info/0"
+    }
+  },
+  "https://m30d5915ad.test/info/0": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p30d5915ad.test/offer?ref=HZ83X9\">Открыть страницу</a>"
+  },
+  "https://p30d5915ad.test/offer?ref=HZ83X9": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://n30d5915ad.test/s/1": {
+    "status": 302,
+    "headers": {
+      "location": "https://m30d5915ad.test/info/1"
+    }
+  },
+  "https://m30d5915ad.test/info/1": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p30d5915ad.test/offer?ref=WNK4FW\">Открыть страницу</a>"
+  },
+  "https://p30d5915ad.test/offer?ref=WNK4FW": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://n8c16bcc15.test/s/0": {
+    "status": 302,
+    "headers": {
+      "location": "https://m8c16bcc15.test/info/0"
+    }
+  },
+  "https://m8c16bcc15.test/info/0": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p8c16bcc15.test/offer?ref=UU8SJ7\">Открыть страницу</a>"
+  },
+  "https://p8c16bcc15.test/offer?ref=UU8SJ7": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://n8c16bcc15.test/s/1": {
+    "status": 302,
+    "headers": {
+      "location": "https://m8c16bcc15.test/info/1"
+    }
+  },
+  "https://m8c16bcc15.test/info/1": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p8c16bcc15.test/offer?ref=8BU8JV\">Открыть страницу</a>"
+  },
+  "https://p8c16bcc15.test/offer?ref=8BU8JV": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://n29b47fd87.test/s/0": {
+    "status": 302,
+    "headers": {
+      "location": "https://m29b47fd87.test/info/0"
+    }
+  },
+  "https://m29b47fd87.test/info/0": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p29b47fd87.test/offer?ref=FBRUWU\">Открыть страницу</a>"
+  },
+  "https://p29b47fd87.test/offer?ref=FBRUWU": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://n29b47fd87.test/s/1": {
+    "status": 302,
+    "headers": {
+      "location": "https://m29b47fd87.test/info/1"
+    }
+  },
+  "https://m29b47fd87.test/info/1": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p29b47fd87.test/offer?ref=7VVZTK\">Открыть страницу</a>"
+  },
+  "https://p29b47fd87.test/offer?ref=7VVZTK": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://na78d55eda.test/s/0": {
+    "status": 302,
+    "headers": {
+      "location": "https://ma78d55eda.test/info/0"
+    }
+  },
+  "https://ma78d55eda.test/info/0": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://pa78d55eda.test/offer?ref=HXS7AS\">Открыть страницу</a>"
+  },
+  "https://pa78d55eda.test/offer?ref=HXS7AS": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://na78d55eda.test/s/1": {
+    "status": 302,
+    "headers": {
+      "location": "https://ma78d55eda.test/info/1"
+    }
+  },
+  "https://ma78d55eda.test/info/1": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://pa78d55eda.test/offer?ref=T5PSPM\">Открыть страницу</a>"
+  },
+  "https://pa78d55eda.test/offer?ref=T5PSPM": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://ne3c185503.test/s/0": {
+    "status": 302,
+    "headers": {
+      "location": "https://me3c185503.test/info/0"
+    }
+  },
+  "https://me3c185503.test/info/0": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://pe3c185503.test/offer?ref=EEDTT5\">Открыть страницу</a>"
+  },
+  "https://pe3c185503.test/offer?ref=EEDTT5": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://ne3c185503.test/s/1": {
+    "status": 302,
+    "headers": {
+      "location": "https://me3c185503.test/info/1"
+    }
+  },
+  "https://me3c185503.test/info/1": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://pe3c185503.test/offer?ref=5L2JK7\">Открыть страницу</a>"
+  },
+  "https://pe3c185503.test/offer?ref=5L2JK7": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://n60e3ba5ae.test/s/0": {
+    "status": 302,
+    "headers": {
+      "location": "https://m60e3ba5ae.test/info/0"
+    }
+  },
+  "https://m60e3ba5ae.test/info/0": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p60e3ba5ae.test/offer?ref=CCDGFL\">Открыть страницу</a>"
+  },
+  "https://p60e3ba5ae.test/offer?ref=CCDGFL": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://n60e3ba5ae.test/s/1": {
+    "status": 302,
+    "headers": {
+      "location": "https://m60e3ba5ae.test/info/1"
+    }
+  },
+  "https://m60e3ba5ae.test/info/1": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p60e3ba5ae.test/offer?ref=ARTM4B\">Открыть страницу</a>"
+  },
+  "https://p60e3ba5ae.test/offer?ref=ARTM4B": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://n8900b6611.test/s/0": {
+    "status": 302,
+    "headers": {
+      "location": "https://m8900b6611.test/info/0"
+    }
+  },
+  "https://m8900b6611.test/info/0": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p8900b6611.test/offer?ref=KFYALD\">Открыть страницу</a>"
+  },
+  "https://p8900b6611.test/offer?ref=KFYALD": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://n8900b6611.test/s/1": {
+    "status": 302,
+    "headers": {
+      "location": "https://m8900b6611.test/info/1"
+    }
+  },
+  "https://m8900b6611.test/info/1": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p8900b6611.test/offer?ref=THBQGA\">Открыть страницу</a>"
+  },
+  "https://p8900b6611.test/offer?ref=THBQGA": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://nb0c111fa4.test/s/0": {
+    "status": 302,
+    "headers": {
+      "location": "https://mb0c111fa4.test/info/0"
+    }
+  },
+  "https://mb0c111fa4.test/info/0": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://pb0c111fa4.test/offer?ref=Q7WPE5\">Открыть страницу</a>"
+  },
+  "https://pb0c111fa4.test/offer?ref=Q7WPE5": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://nb0c111fa4.test/s/1": {
+    "status": 302,
+    "headers": {
+      "location": "https://mb0c111fa4.test/info/1"
+    }
+  },
+  "https://mb0c111fa4.test/info/1": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://pb0c111fa4.test/offer?ref=GMZDMY\">Открыть страницу</a>"
+  },
+  "https://pb0c111fa4.test/offer?ref=GMZDMY": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://nbfb79cd3b.test/s/0": {
+    "status": 302,
+    "headers": {
+      "location": "https://mbfb79cd3b.test/info/0"
+    }
+  },
+  "https://mbfb79cd3b.test/info/0": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://pbfb79cd3b.test/offer?ref=UWWGQH\">Открыть страницу</a>"
+  },
+  "https://pbfb79cd3b.test/offer?ref=UWWGQH": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://nbfb79cd3b.test/s/1": {
+    "status": 302,
+    "headers": {
+      "location": "https://mbfb79cd3b.test/info/1"
+    }
+  },
+  "https://mbfb79cd3b.test/info/1": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://pbfb79cd3b.test/offer?ref=UQFLA8\">Открыть страницу</a>"
+  },
+  "https://pbfb79cd3b.test/offer?ref=UQFLA8": {
+    "status": 200,
+    "body": "<h1>Клуб</h1><p>Слоты, рулетка, депозит и фриспины. Синтетический макет; платежей нет.</p>"
+  },
+  "https://nfe4332223.test/s/0": {
+    "status": 302,
+    "headers": {
+      "location": "https://mfe4332223.test/info/0"
+    }
+  },
+  "https://mfe4332223.test/info/0": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://pfe4332223.test/offer?ref=6LJT4G\">Открыть страницу</a>"
+  },
+  "https://pfe4332223.test/offer?ref=6LJT4G": {
+    "status": 200,
+    "body": "<h1>Учебная игра</h1><p>Бесплатные упражнения без ставок и без вывода денег.</p>"
+  },
+  "https://nfe4332223.test/s/1": {
+    "status": 302,
+    "headers": {
+      "location": "https://mfe4332223.test/info/1"
+    }
+  },
+  "https://mfe4332223.test/info/1": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://pfe4332223.test/offer?ref=48KXV9\">Открыть страницу</a>"
+  },
+  "https://pfe4332223.test/offer?ref=48KXV9": {
+    "status": 200,
+    "body": "<h1>Учебная игра</h1><p>Бесплатные упражнения без ставок и без вывода денег.</p>"
+  },
+  "https://na705d638d.test/s/0": {
+    "status": 302,
+    "headers": {
+      "location": "https://ma705d638d.test/info/0"
+    }
+  },
+  "https://ma705d638d.test/info/0": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://pa705d638d.test/offer?ref=HEMB6C\">Открыть страницу</a>"
+  },
+  "https://pa705d638d.test/offer?ref=HEMB6C": {
+    "status": 200,
+    "body": "<h1>Магазин</h1><p>Книги, одежда, скидки и партнерская программа. Синтетический макет.</p>"
+  },
+  "https://na705d638d.test/s/1": {
+    "status": 302,
+    "headers": {
+      "location": "https://ma705d638d.test/info/1"
+    }
+  },
+  "https://ma705d638d.test/info/1": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://pa705d638d.test/offer?ref=7947H2\">Открыть страницу</a>"
+  },
+  "https://pa705d638d.test/offer?ref=7947H2": {
+    "status": 200,
+    "body": "<h1>Магазин</h1><p>Книги, одежда, скидки и партнерская программа. Синтетический макет.</p>"
+  },
+  "https://n57ef655b1.test/s/0": {
+    "status": 302,
+    "headers": {
+      "location": "https://m57ef655b1.test/info/0"
+    }
+  },
+  "https://m57ef655b1.test/info/0": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p57ef655b1.test/offer?ref=DEBQUS\">Открыть страницу</a>"
+  },
+  "https://p57ef655b1.test/offer?ref=DEBQUS": {
+    "status": 200,
+    "body": "<h1>Магазин</h1><p>Книги, одежда, скидки и партнерская программа. Синтетический макет.</p>"
+  },
+  "https://n57ef655b1.test/s/1": {
+    "status": 302,
+    "headers": {
+      "location": "https://m57ef655b1.test/info/1"
+    }
+  },
+  "https://m57ef655b1.test/info/1": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p57ef655b1.test/offer?ref=D5S6ES\">Открыть страницу</a>"
+  },
+  "https://p57ef655b1.test/offer?ref=D5S6ES": {
+    "status": 200,
+    "body": "<h1>Магазин</h1><p>Книги, одежда, скидки и партнерская программа. Синтетический макет.</p>"
+  },
+  "https://n45d0368df.test/s/0": {
+    "status": 302,
+    "headers": {
+      "location": "https://m45d0368df.test/info/0"
+    }
+  },
+  "https://m45d0368df.test/info/0": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p45d0368df.test/offer?ref=RZ67E6\">Открыть страницу</a>"
+  },
+  "https://p45d0368df.test/offer?ref=RZ67E6": {
+    "status": 200,
+    "body": "<h1>Магазин</h1><p>Книги, одежда, скидки и партнерская программа. Синтетический макет.</p>"
+  },
+  "https://n45d0368df.test/s/1": {
+    "status": 302,
+    "headers": {
+      "location": "https://m45d0368df.test/info/1"
+    }
+  },
+  "https://m45d0368df.test/info/1": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p45d0368df.test/offer?ref=42FWD3\">Открыть страницу</a>"
+  },
+  "https://p45d0368df.test/offer?ref=42FWD3": {
+    "status": 200,
+    "body": "<h1>Магазин</h1><p>Книги, одежда, скидки и партнерская программа. Синтетический макет.</p>"
+  },
+  "https://n75b5c5341.test/s/0": {
+    "status": 302,
+    "headers": {
+      "location": "https://m75b5c5341.test/info/0"
+    }
+  },
+  "https://m75b5c5341.test/info/0": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p75b5c5341.test/offer?ref=PG8XNY\">Открыть страницу</a>"
+  },
+  "https://p75b5c5341.test/offer?ref=PG8XNY": {
+    "status": 200,
+    "body": "<h1>Магазин</h1><p>Книги, одежда, скидки и партнерская программа. Синтетический макет.</p>"
+  },
+  "https://n75b5c5341.test/s/1": {
+    "status": 302,
+    "headers": {
+      "location": "https://m75b5c5341.test/info/1"
+    }
+  },
+  "https://m75b5c5341.test/info/1": {
+    "status": 200,
+    "body": "<p>Информация для посетителя.</p><a href=\"https://p75b5c5341.test/offer?ref=XA3KAE\">Открыть страницу</a>"
+  },
+  "https://p75b5c5341.test/offer?ref=XA3KAE": {
+    "status": 200,
+    "body": "<h1>Магазин</h1><p>Книги, одежда, скидки и партнерская программа. Синтетический макет.</p>"
+  }
+}

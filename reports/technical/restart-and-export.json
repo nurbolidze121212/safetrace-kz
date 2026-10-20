@@ -1,0 +1,148 @@
+{
+  "status": "passed",
+  "server_restarted": true,
+  "cases": [
+    {
+      "id": "c1982e9bb36d4448a18b9aa67380a154",
+      "title": "Проверка нового материала · Qyzylorda",
+      "status": "completed",
+      "score": {
+        "value": 80,
+        "level": "high",
+        "contributions": [
+          {
+            "key": "destination_and_call",
+            "title": "Проверенный игровой адрес + призыв",
+            "weight": 55,
+            "evidence_ids": [
+              "c1982e9bb36d4448a18b9aa67380a154-20639d79a1f9-e6",
+              "c1982e9bb36d4448a18b9aa67380a154-20639d79a1f9-e7",
+              "c1982e9bb36d4448a18b9aa67380a154-20639d79a1f9-e9",
+              "c1982e9bb36d4448a18b9aa67380a154-20639d79a1f9-e10",
+              "c1982e9bb36d4448a18b9aa67380a154-20639d79a1f9-e25",
+              "c1982e9bb36d4448a18b9aa67380a154-20639d79a1f9-e26",
+              "c1982e9bb36d4448a18b9aa67380a154-20639d79a1f9-e27",
+              "c1982e9bb36d4448a18b9aa67380a154-20639d79a1f9-e32",
+              "c1982e9bb36d4448a18b9aa67380a154-20639d79a1f9-e33",
+              "c1982e9bb36d4448a18b9aa67380a154-20639d79a1f9-e34"
+            ]
+          },
+          {
+            "key": "bonus_in_promotion",
+            "title": "Бонус в рекламном контексте",
+            "weight": 15,
+            "evidence_ids": [
+              "c1982e9bb36d4448a18b9aa67380a154-20639d79a1f9-e8",
+              "c1982e9bb36d4448a18b9aa67380a154-20639d79a1f9-e11"
+            ]
+          },
+          {
+            "key": "repeated_referral_in_promotion",
+            "title": "Повтор идентификатора в материалах",
+            "weight": 10,
+            "evidence_ids": [
+              "c1982e9bb36d4448a18b9aa67380a154-20639d79a1f9-e6",
+              "c1982e9bb36d4448a18b9aa67380a154-20639d79a1f9-e7",
+              "c1982e9bb36d4448a18b9aa67380a154-20639d79a1f9-e8",
+              "c1982e9bb36d4448a18b9aa67380a154-20639d79a1f9-e9",
+              "c1982e9bb36d4448a18b9aa67380a154-20639d79a1f9-e10",
+              "c1982e9bb36d4448a18b9aa67380a154-20639d79a1f9-e11"
+            ]
+          }
+        ],
+        "version": "rules-1.0",
+        "weights": {
+          "version": "weights-1.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 55,
+          "destination_and_call": 55,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": -25
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+        "aggregation": "Максимальный приоритет отдельного материала; признаки разных материалов не смешиваются."
+      },
+      "decisions": [
+        {
+          "id": 1,
+          "case_id": "c1982e9bb36d4448a18b9aa67380a154",
+          "at": "2026-10-20T19:05:40.910982+00:00",
+          "decision": "confirmed",
+          "comment": "Проверены обе публикации и общий ref=QALA7. Синтетический тест; это не юридическая квалификация."
+        }
+      ]
+    },
+    {
+      "id": "3750aa49a6ea4ba1821a4b3eb1c05378",
+      "title": "Предупреждение с похожей картинкой",
+      "status": "completed",
+      "score": {
+        "value": 5,
+        "level": "low",
+        "contributions": [
+          {
+            "key": "destination_and_call",
+            "title": "Проверенный игровой адрес + призыв",
+            "weight": 55,
+            "evidence_ids": [
+              "3750aa49a6ea4ba1821a4b3eb1c05378-cce915afd722-e5",
+              "3750aa49a6ea4ba1821a4b3eb1c05378-cce915afd722-e9",
+              "3750aa49a6ea4ba1821a4b3eb1c05378-cce915afd722-e10",
+              "3750aa49a6ea4ba1821a4b3eb1c05378-cce915afd722-e19",
+              "3750aa49a6ea4ba1821a4b3eb1c05378-cce915afd722-e20",
+              "3750aa49a6ea4ba1821a4b3eb1c05378-cce915afd722-e21"
+            ]
+          },
+          {
+            "key": "bonus_in_promotion",
+            "title": "Бонус в рекламном контексте",
+            "weight": 15,
+            "evidence_ids": [
+              "3750aa49a6ea4ba1821a4b3eb1c05378-cce915afd722-e11"
+            ]
+          },
+          {
+            "key": "alternative_context",
+            "title": "Альтернативный контекст: warning",
+            "weight": -65,
+            "evidence_ids": [
+              "3750aa49a6ea4ba1821a4b3eb1c05378-cce915afd722-e6",
+              "3750aa49a6ea4ba1821a4b3eb1c05378-cce915afd722-e7",
+              "3750aa49a6ea4ba1821a4b3eb1c05378-cce915afd722-e8"
+            ]
+          }
+        ],
+        "version": "rules-1.0",
+        "weights": {
+          "version": "weights-1.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 55,
+          "destination_and_call": 55,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": -25
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+        "aggregation": "Максимальный приоритет отдельного материала; признаки разных материалов не смешиваются."
+      },
+      "decisions": [
+        {
+          "id": 2,
+          "case_id": "3750aa49a6ea4ba1821a4b3eb1c05378",
+          "at": "2026-10-20T19:09:44.257297+00:00",
+          "decision": "false_positive",
+          "comment": "Предупреждение, изображение приведено как пример. Проверено вручную в синтетическом тесте."
+        }
+      ]
+    }
+  ],
+  "browser_download": "C:\\Users\\nurbo\\Downloads\\safetrace-c1982e9b.zip",
+  "verified_manifest_files": 5
+}

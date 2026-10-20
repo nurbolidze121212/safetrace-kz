@@ -1,0 +1,28 @@
+# Источники и лицензии
+
+Проверено при реализации 20–21 октября 2026. Зависимости зафиксированы в `requirements.lock.txt` и `frontend/package-lock.json`; полный машинный перечень установленного окружения и лицензионных метаданных — `reports/dependencies.json`. Метаданные не заменяют полный текст лицензии конкретного пакета.
+
+| Компонент | Источник | Лицензия основного проекта |
+|---|---|---|
+| PaddleOCR / PaddlePaddle | [OCR API](https://www.paddleocr.ai/main/en/version3.x/pipeline_usage/OCR.html), [языки](https://github.com/PaddlePaddle/PaddleOCR/blob/main/docs/version3.x/algorithm/PP-OCRv5/PP-OCRv5_multi_languages.en.md) | Apache-2.0 |
+| Cyrillic recognizer | [Карточка модели](https://huggingface.co/PaddlePaddle/cyrillic_PP-OCRv5_mobile_rec) | Apache-2.0 по model card |
+| Mobile detector | [Карточка модели](https://huggingface.co/PaddlePaddle/PP-OCRv5_mobile_det) | Apache-2.0 по model card |
+| FastAPI | [Официальная документация](https://fastapi.tiangolo.com/) | MIT |
+| Pydantic | [Документация](https://docs.pydantic.dev/latest/) | MIT |
+| React | [Документация](https://react.dev/) | MIT |
+| Vite | [Требования и сборка](https://vite.dev/guide/) | MIT |
+| TypeScript | [Официальный проект](https://github.com/microsoft/TypeScript) | Apache-2.0 |
+| Cytoscape.js | [API и типы графа](https://js.cytoscape.org/) | MIT |
+| Lucide | [Официальный проект](https://lucide.dev/) | ISC |
+| Pillow | [Документация](https://pillow.readthedocs.io/) | MIT-CMU / HPND по установленным метаданным |
+| google-genai | [Python SDK](https://github.com/googleapis/python-genai) | Apache-2.0 |
+
+Gemini: [изображения](https://ai.google.dev/gemini-api/docs/image-understanding), [структурированный ответ](https://ai.google.dev/gemini-api/docs/structured-output), [модели](https://ai.google.dev/gemini-api/docs/models). Идентификатор `gemini-3.8-flash` найден в официальном примере на дату реализации. SDK-конфигурация и схема проверены локально; доступность реального аккаунта/модели не проверялась без ключа.
+
+Защита переходов: [OWASP SSRF Prevention](https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html). MVP использует allowlist и pinning IP; это не заявление о сертифицированной защите.
+
+Контент: [Telegram Content Licensing](https://telegram.org/tos/content-licensing). Реальный сбор Telegram не реализован. Для пилота нужны отдельные разрешения на конкретные данные; публичный доступ не заменяет такие разрешения.
+
+Изображения и тексты корпуса созданы внутри проекта. Windows Arial используется для локального рендеринга; файл шрифта не включен. Синтетические домены `.test` не принадлежат реальным игровым ресурсам.
+
+Условия хакатона взяты из предоставленной SPEC.md. Локальный PDF существует, но извлечение текста дало поврежденную кириллицу; отдельная визуальная сверка не заявляется. В спецификации: 22 октября 2026, Шымкент, MVP и питч 5 минут; лимит «48 часов» не утверждается.

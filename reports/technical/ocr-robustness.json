@@ -1,0 +1,486 @@
+[
+  {
+    "variant": "normal",
+    "font_px": 32,
+    "jpeg_quality": 95,
+    "rotation": 0,
+    "elapsed_ms": 9101.7642999999,
+    "reference": "Ә Ғ Қ Ң Ө Ұ Ү Һ І — ә ғ қ ң ө ұ ү һ і\nҚауіпсіздік: күмәнді сілтемеге өтпеңіз.\nБонус 200%, promo QALA7. DEMO\nhttps://go.safetrace.test/r/q7",
+    "similarity": 0.8458498023715415,
+    "output": {
+      "text": "ғқңөүһI—ғқңөүһ\nҚауіпсіздік: күмәнді сілтемеге өтпеңіз.\nБонус 200%, promо QALA7. DEMO\nhttps://go.safetrace.test/r/q7",
+      "lines": [
+        {
+          "text": "ғқңөүһI—ғқңөүһ",
+          "confidence": 0.6772657632827759,
+          "polygon": [
+            [
+              22,
+              18
+            ],
+            [
+              534,
+              20
+            ],
+            [
+              534,
+              58
+            ],
+            [
+              22,
+              56
+            ]
+          ],
+          "uncertain": true,
+          "warnings": [
+            "Смешение алфавитов в токене: ғқңөүһI—ғқңөүһ"
+          ]
+        },
+        {
+          "text": "Қауіпсіздік: күмәнді сілтемеге өтпеңіз.",
+          "confidence": 0.9949772953987122,
+          "polygon": [
+            [
+              25,
+              86
+            ],
+            [
+              590,
+              86
+            ],
+            [
+              590,
+              120
+            ],
+            [
+              25,
+              120
+            ]
+          ],
+          "uncertain": false,
+          "warnings": []
+        },
+        {
+          "text": "Бонус 200%, promо QALA7. DEMO",
+          "confidence": 0.9755308628082275,
+          "polygon": [
+            [
+              23,
+              146
+            ],
+            [
+              542,
+              143
+            ],
+            [
+              542,
+              180
+            ],
+            [
+              23,
+              183
+            ]
+          ],
+          "uncertain": true,
+          "warnings": [
+            "Смешение алфавитов в токене: promо"
+          ]
+        },
+        {
+          "text": "https://go.safetrace.test/r/q7",
+          "confidence": 0.9983434081077576,
+          "polygon": [
+            [
+              23,
+              209
+            ],
+            [
+              425,
+              209
+            ],
+            [
+              425,
+              247
+            ],
+            [
+              23,
+              247
+            ]
+          ],
+          "uncertain": false,
+          "warnings": []
+        }
+      ],
+      "width": 1000,
+      "height": 290,
+      "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det",
+      "library": "3.7.0",
+      "cache_hit": false,
+      "coordinate_space": "EXIF-oriented image pixels",
+      "limitations": "OCR может ошибаться в URL, промокодах и казахских буквах; строки не исправлялись."
+    }
+  },
+  {
+    "variant": "small-compressed",
+    "font_px": 17,
+    "jpeg_quality": 45,
+    "rotation": 0,
+    "elapsed_ms": 3085.6191999999965,
+    "reference": "Ә Ғ Қ Ң Ө Ұ Ү Һ І — ә ғ қ ң ө ұ ү һ і\nҚауіпсіздік: күмәнді сілтемеге өтпеңіз.\nБонус 200%, promo QALA7. DEMO\nhttps://go.safetrace.test/r/q7",
+    "similarity": 0.828125,
+    "output": {
+      "text": "ΘғқңөүһI— ғқңөүһі\nКауіпсіздік: кумәнді сілтемеге өтпеңіз.\nБонуc 200%, promо QALA7. DEMO\nhttps://go.safetrace.test/r/q7",
+      "lines": [
+        {
+          "text": "ΘғқңөүһI— ғқңөүһі",
+          "confidence": 0.567861795425415,
+          "polygon": [
+            [
+              23,
+              18
+            ],
+            [
+              295,
+              19
+            ],
+            [
+              295,
+              40
+            ],
+            [
+              23,
+              39
+            ]
+          ],
+          "uncertain": true,
+          "warnings": [
+            "Смешение алфавитов в токене: ΘғқңөүһI—"
+          ]
+        },
+        {
+          "text": "Кауіпсіздік: кумәнді сілтемеге өтпеңіз.",
+          "confidence": 0.909496009349823,
+          "polygon": [
+            [
+              24,
+              84
+            ],
+            [
+              326,
+              84
+            ],
+            [
+              326,
+              104
+            ],
+            [
+              24,
+              104
+            ]
+          ],
+          "uncertain": false,
+          "warnings": []
+        },
+        {
+          "text": "Бонуc 200%, promо QALA7. DEMO",
+          "confidence": 0.9302767515182495,
+          "polygon": [
+            [
+              23,
+              144
+            ],
+            [
+              295,
+              144
+            ],
+            [
+              295,
+              167
+            ],
+            [
+              23,
+              167
+            ]
+          ],
+          "uncertain": true,
+          "warnings": [
+            "Смешение алфавитов в токене: Бонуc",
+            "Смешение алфавитов в токене: promо"
+          ]
+        },
+        {
+          "text": "https://go.safetrace.test/r/q7",
+          "confidence": 0.9975396394729614,
+          "polygon": [
+            [
+              22,
+              204
+            ],
+            [
+              239,
+              206
+            ],
+            [
+              239,
+              231
+            ],
+            [
+              22,
+              229
+            ]
+          ],
+          "uncertain": false,
+          "warnings": []
+        }
+      ],
+      "width": 1000,
+      "height": 290,
+      "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det",
+      "library": "3.7.0",
+      "cache_hit": false,
+      "coordinate_space": "EXIF-oriented image pixels",
+      "limitations": "OCR может ошибаться в URL, промокодах и казахских буквах; строки не исправлялись."
+    }
+  },
+  {
+    "variant": "tilted",
+    "font_px": 29,
+    "jpeg_quality": 70,
+    "rotation": 7,
+    "elapsed_ms": 3249.0541999999323,
+    "reference": "Ә Ғ Қ Ң Ө Ұ Ү Һ І — ә ғ қ ң ө ұ ү һ і\nҚауіпсіздік: күмәнді сілтемеге өтпеңіз.\nБонус 200%, promo QALA7. DEMO\nhttps://go.safetrace.test/r/q7",
+    "similarity": 0.8267716535433071,
+    "output": {
+      "text": "ғқңөүһ—ғKңөγүһи\nҚауіпсіздік: күмәнді сілтемеге өтпеңіз.\nБонуc 200%, promо QALA7. DEMO\nhttps://go.safetrace.test/r/q7",
+      "lines": [
+        {
+          "text": "ғқңөүһ—ғKңөγүһи",
+          "confidence": 0.45408135652542114,
+          "polygon": [
+            [
+              23,
+              136
+            ],
+            [
+              483,
+              81
+            ],
+            [
+              487,
+              118
+            ],
+            [
+              27,
+              173
+            ]
+          ],
+          "uncertain": true,
+          "warnings": [
+            "Смешение алфавитов в токене: ғқңөүһ—ғKңөγүһи"
+          ]
+        },
+        {
+          "text": "Қауіпсіздік: күмәнді сілтемеге өтпеңіз.",
+          "confidence": 0.9481850862503052,
+          "polygon": [
+            [
+              32,
+              200
+            ],
+            [
+              540,
+              138
+            ],
+            [
+              544,
+              174
+            ],
+            [
+              36,
+              237
+            ]
+          ],
+          "uncertain": false,
+          "warnings": []
+        },
+        {
+          "text": "Бонуc 200%, promо QALA7. DEMO",
+          "confidence": 0.951897919178009,
+          "polygon": [
+            [
+              39,
+              263
+            ],
+            [
+              505,
+              203
+            ],
+            [
+              510,
+              240
+            ],
+            [
+              44,
+              300
+            ]
+          ],
+          "uncertain": true,
+          "warnings": [
+            "Смешение алфавитов в токене: Бонуc",
+            "Смешение алфавитов в токене: promо"
+          ]
+        },
+        {
+          "text": "https://go.safetrace.test/r/q7",
+          "confidence": 0.9758262038230896,
+          "polygon": [
+            [
+              47,
+              326
+            ],
+            [
+              408,
+              281
+            ],
+            [
+              413,
+              318
+            ],
+            [
+              52,
+              363
+            ]
+          ],
+          "uncertain": false,
+          "warnings": []
+        }
+      ],
+      "width": 1028,
+      "height": 410,
+      "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det",
+      "library": "3.7.0",
+      "cache_hit": false,
+      "coordinate_space": "EXIF-oriented image pixels",
+      "limitations": "OCR может ошибаться в URL, промокодах и казахских буквах; строки не исправлялись."
+    }
+  },
+  {
+    "variant": "quarter-turn",
+    "font_px": 29,
+    "jpeg_quality": 85,
+    "rotation": 90,
+    "elapsed_ms": 2573.1905999999753,
+    "reference": "Ә Ғ Қ Ң Ө Ұ Ү Һ І — ә ғ қ ң ө ұ ү һ і\nҚауіпсіздік: күмәнді сілтемеге өтпеңіз.\nБонус 200%, promo QALA7. DEMO\nhttps://go.safetrace.test/r/q7",
+    "similarity": 0.050955414012738856,
+    "output": {
+      "text": " \n!ΛөHе—IчΛөH*е\n  \n",
+      "lines": [
+        {
+          "text": " ",
+          "confidence": 0.4347078502178192,
+          "polygon": [
+            [
+              84,
+              465
+            ],
+            [
+              121,
+              465
+            ],
+            [
+              121,
+              977
+            ],
+            [
+              84,
+              977
+            ]
+          ],
+          "uncertain": true,
+          "warnings": []
+        },
+        {
+          "text": "!ΛөHе—IчΛөH*е",
+          "confidence": 0.43823352456092834,
+          "polygon": [
+            [
+              20,
+              509
+            ],
+            [
+              59,
+              509
+            ],
+            [
+              54,
+              978
+            ],
+            [
+              16,
+              978
+            ]
+          ],
+          "uncertain": true,
+          "warnings": [
+            "Смешение алфавитов в токене: !ΛөHе—IчΛөH*е"
+          ]
+        },
+        {
+          "text": "  ",
+          "confidence": 0.5979639887809753,
+          "polygon": [
+            [
+              143,
+              503
+            ],
+            [
+              181,
+              503
+            ],
+            [
+              183,
+              977
+            ],
+            [
+              145,
+              977
+            ]
+          ],
+          "uncertain": true,
+          "warnings": []
+        },
+        {
+          "text": "",
+          "confidence": 0.0,
+          "polygon": [
+            [
+              208,
+              611
+            ],
+            [
+              243,
+              611
+            ],
+            [
+              245,
+              977
+            ],
+            [
+              211,
+              977
+            ]
+          ],
+          "uncertain": true,
+          "warnings": []
+        }
+      ],
+      "width": 290,
+      "height": 1000,
+      "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det",
+      "library": "3.7.0",
+      "cache_hit": false,
+      "coordinate_space": "EXIF-oriented image pixels",
+      "limitations": "OCR может ошибаться в URL, промокодах и казахских буквах; строки не исправлялись."
+    }
+  }
+]

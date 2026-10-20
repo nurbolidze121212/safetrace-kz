@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "network_guard": "socket.create_connection/getaddrinfo/socket.connect denied",
+  "blocked_attempts": 0,
+  "case_status": "completed",
+  "score": 70,
+  "ocr_lines": 3,
+  "export_bytes": 30567,
+  "observations": 3,
+  "at": "2026-10-20T19:08:32.783476+00:00"
+}

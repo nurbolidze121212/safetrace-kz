@@ -1,0 +1,568 @@
+{
+  "dataset_version": "synthetic-v1",
+  "split": "dev",
+  "test_count": 40,
+  "image_count": 14,
+  "frozen_at": "2026-10-20T19:10:35.360758+00:00",
+  "variants": {
+    "baseline": {
+      "n": 40,
+      "tp": 3,
+      "fp": 3,
+      "tn": 17,
+      "fn": 17,
+      "precision": 0.5,
+      "recall": 0.15,
+      "f1": 0.23076923076923078,
+      "fpr": 0.15,
+      "coverage": 0.65,
+      "insufficient": 14,
+      "precision_ci": [
+        0.18761630498040816,
+        0.8123836950195918
+      ],
+      "fpr_ci": [
+        0.05236874548672649,
+        0.36041886664286427
+      ],
+      "p50_ms": 0.6165,
+      "p95_ms": 1.06,
+      "processed_n": 26,
+      "processed_precision": 0.5,
+      "processed_recall": 0.23076923076923078
+    },
+    "ocr": {
+      "n": 40,
+      "tp": 8,
+      "fp": 0,
+      "tn": 20,
+      "fn": 12,
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.5714285714285714,
+      "fpr": 0.0,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0.6755924316585924,
+        1
+      ],
+      "fpr_ci": [
+        0,
+        0.16112516018512965
+      ],
+      "p50_ms": 0.66,
+      "p95_ms": 2066.692,
+      "processed_n": 40,
+      "processed_precision": 1.0,
+      "processed_recall": 0.4
+    },
+    "full": {
+      "n": 40,
+      "tp": 17,
+      "fp": 0,
+      "tn": 20,
+      "fn": 3,
+      "precision": 1.0,
+      "recall": 0.85,
+      "f1": 0.918918918918919,
+      "fpr": 0.0,
+      "coverage": 0.9,
+      "insufficient": 4,
+      "precision_ci": [
+        0.8156818626193445,
+        1
+      ],
+      "fpr_ci": [
+        0,
+        0.16112516018512965
+      ],
+      "p50_ms": 2.117,
+      "p95_ms": 2141.705,
+      "processed_n": 36,
+      "processed_precision": 1.0,
+      "processed_recall": 0.9444444444444444
+    }
+  },
+  "slices": {
+    "affiliate": {
+      "n": 2,
+      "tp": 0,
+      "fp": 0,
+      "tn": 2,
+      "fn": 0,
+      "precision": null,
+      "recall": 0,
+      "f1": 0,
+      "fpr": 0.0,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0,
+        1
+      ],
+      "fpr_ci": [
+        0,
+        0.6576197760453506
+      ],
+      "p50_ms": 1071.9085,
+      "p95_ms": 2141.705,
+      "processed_n": 2,
+      "processed_precision": null,
+      "processed_recall": 0
+    },
+    "ambiguous": {
+      "n": 2,
+      "tp": 0,
+      "fp": 0,
+      "tn": 2,
+      "fn": 0,
+      "precision": null,
+      "recall": 0,
+      "f1": 0,
+      "fpr": 0.0,
+      "coverage": 0.0,
+      "insufficient": 2,
+      "precision_ci": [
+        0,
+        1
+      ],
+      "fpr_ci": [
+        0,
+        0.6576197760453506
+      ],
+      "p50_ms": 896.9505,
+      "p95_ms": 1793.461,
+      "processed_n": 0,
+      "processed_precision": null,
+      "processed_recall": 0
+    },
+    "direct": {
+      "n": 8,
+      "tp": 8,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0.6755924316585924,
+        1
+      ],
+      "fpr_ci": [
+        0,
+        1
+      ],
+      "p50_ms": 464.6125,
+      "p95_ms": 1891.753,
+      "processed_n": 8,
+      "processed_precision": 1.0,
+      "processed_recall": 1.0
+    },
+    "education": {
+      "n": 2,
+      "tp": 0,
+      "fp": 0,
+      "tn": 2,
+      "fn": 0,
+      "precision": null,
+      "recall": 0,
+      "f1": 0,
+      "fpr": 0.0,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0,
+        1
+      ],
+      "fpr_ci": [
+        0,
+        0.6576197760453506
+      ],
+      "p50_ms": 987.4704999999999,
+      "p95_ms": 1973.187,
+      "processed_n": 2,
+      "processed_precision": null,
+      "processed_recall": 0
+    },
+    "free_game": {
+      "n": 2,
+      "tp": 0,
+      "fp": 0,
+      "tn": 2,
+      "fn": 0,
+      "precision": null,
+      "recall": 0,
+      "f1": 0,
+      "fpr": 0.0,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0,
+        1
+      ],
+      "fpr_ci": [
+        0,
+        0.6576197760453506
+      ],
+      "p50_ms": 0.5145,
+      "p95_ms": 0.616,
+      "processed_n": 2,
+      "processed_precision": null,
+      "processed_recall": 0
+    },
+    "hidden": {
+      "n": 6,
+      "tp": 6,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0.6096657083436265,
+        1
+      ],
+      "fpr_ci": [
+        0,
+        1
+      ],
+      "p50_ms": 4.136,
+      "p95_ms": 1831.539,
+      "processed_n": 6,
+      "processed_precision": 1.0,
+      "processed_recall": 1.0
+    },
+    "multihop": {
+      "n": 2,
+      "tp": 2,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0.3423802239546494,
+        1
+      ],
+      "fpr_ci": [
+        0,
+        1
+      ],
+      "p50_ms": 2.2664999999999997,
+      "p95_ms": 2.479,
+      "processed_n": 2,
+      "processed_precision": 1.0,
+      "processed_recall": 1.0
+    },
+    "news": {
+      "n": 4,
+      "tp": 0,
+      "fp": 0,
+      "tn": 4,
+      "fn": 0,
+      "precision": null,
+      "recall": 0,
+      "f1": 0,
+      "fpr": 0.0,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0,
+        1
+      ],
+      "fpr_ci": [
+        0,
+        0.4898908403969213
+      ],
+      "p50_ms": 903.2485,
+      "p95_ms": 2229.187,
+      "processed_n": 4,
+      "processed_precision": null,
+      "processed_recall": 0
+    },
+    "ordinary": {
+      "n": 4,
+      "tp": 0,
+      "fp": 0,
+      "tn": 4,
+      "fn": 0,
+      "precision": null,
+      "recall": 0,
+      "f1": 0,
+      "fpr": 0.0,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0,
+        1
+      ],
+      "fpr_ci": [
+        0,
+        0.4898908403969213
+      ],
+      "p50_ms": 0.49650000000000005,
+      "p95_ms": 1883.216,
+      "processed_n": 4,
+      "processed_precision": null,
+      "processed_recall": 0
+    },
+    "translit": {
+      "n": 2,
+      "tp": 1,
+      "fp": 0,
+      "tn": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "fpr": 0,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0.2065493117918027,
+        1
+      ],
+      "fpr_ci": [
+        0,
+        1
+      ],
+      "p50_ms": 973.5179999999999,
+      "p95_ms": 1944.801,
+      "processed_n": 2,
+      "processed_precision": 1.0,
+      "processed_recall": 0.5
+    },
+    "unresolved": {
+      "n": 2,
+      "tp": 0,
+      "fp": 0,
+      "tn": 0,
+      "fn": 2,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fpr": 0,
+      "coverage": 0.0,
+      "insufficient": 2,
+      "precision_ci": [
+        0,
+        1
+      ],
+      "fpr_ci": [
+        0,
+        1
+      ],
+      "p50_ms": 0.5075000000000001,
+      "p95_ms": 0.667,
+      "processed_n": 0,
+      "processed_precision": null,
+      "processed_recall": 0
+    },
+    "warning": {
+      "n": 4,
+      "tp": 0,
+      "fp": 0,
+      "tn": 4,
+      "fn": 0,
+      "precision": null,
+      "recall": 0,
+      "f1": 0,
+      "fpr": 0.0,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0,
+        1
+      ],
+      "fpr_ci": [
+        0,
+        0.4898908403969213
+      ],
+      "p50_ms": 5.042,
+      "p95_ms": 2205.894,
+      "processed_n": 4,
+      "processed_precision": null,
+      "processed_recall": 0
+    },
+    "kk": {
+      "n": 10,
+      "tp": 4,
+      "fp": 0,
+      "tn": 6,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0.0,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0.5101091596030786,
+        0.9999999999999999
+      ],
+      "fpr_ci": [
+        0,
+        0.39033429165637346
+      ],
+      "p50_ms": 5.383,
+      "p95_ms": 2229.187,
+      "processed_n": 10,
+      "processed_precision": 1.0,
+      "processed_recall": 1.0
+    },
+    "mixed": {
+      "n": 10,
+      "tp": 5,
+      "fp": 0,
+      "tn": 4,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1": 0.9090909090909091,
+      "fpr": 0.0,
+      "coverage": 0.8,
+      "insufficient": 2,
+      "precision_ci": [
+        0.5655175313406071,
+        1
+      ],
+      "fpr_ci": [
+        0,
+        0.4898908403969213
+      ],
+      "p50_ms": 479.8465,
+      "p95_ms": 1973.187,
+      "processed_n": 8,
+      "processed_precision": 1.0,
+      "processed_recall": 0.8333333333333334
+    },
+    "ru": {
+      "n": 20,
+      "tp": 8,
+      "fp": 0,
+      "tn": 10,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.8888888888888888,
+      "fpr": 0.0,
+      "coverage": 0.9,
+      "insufficient": 2,
+      "precision_ci": [
+        0.6755924316585924,
+        1
+      ],
+      "fpr_ci": [
+        0,
+        0.2775328030260577
+      ],
+      "p50_ms": 1.795,
+      "p95_ms": 2141.705,
+      "processed_n": 18,
+      "processed_precision": 1.0,
+      "processed_recall": 1.0
+    },
+    "image": {
+      "n": 14,
+      "tp": 6,
+      "fp": 0,
+      "tn": 7,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1": 0.9230769230769231,
+      "fpr": 0.0,
+      "coverage": 0.9285714285714286,
+      "insufficient": 1,
+      "precision_ci": [
+        0.6096657083436265,
+        1
+      ],
+      "fpr_ci": [
+        0,
+        0.35433043867586833
+      ],
+      "p50_ms": 1857.3775,
+      "p95_ms": 2229.187,
+      "processed_n": 13,
+      "processed_precision": 1.0,
+      "processed_recall": 0.8571428571428571
+    },
+    "unseen_domains": {
+      "n": 0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": 0,
+      "f1": 0,
+      "fpr": 0,
+      "coverage": 0,
+      "insufficient": 0,
+      "precision_ci": [
+        0,
+        1
+      ],
+      "fpr_ci": [
+        0,
+        1
+      ],
+      "p50_ms": 0,
+      "p95_ms": 0,
+      "processed_n": 0,
+      "processed_precision": null,
+      "processed_recall": 0
+    }
+  },
+  "errors": [
+    {
+      "id": "9c50a48aeb67ee3c",
+      "truth": 1,
+      "predicted": 0,
+      "title": "Заходи за бонусом для друзей. Ссылка открывается ночью: https://n005fa4713.test/s/0"
+    },
+    {
+      "id": "2a051341201b5842",
+      "truth": 1,
+      "predicted": 0,
+      "title": "DEMO · Заходи за бонусом для друзей. Ссылка открывается ночью: https://n005fa4713.test/s/1"
+    },
+    {
+      "id": "1f0bbb7311ca58ab",
+      "truth": 1,
+      "predicted": 0,
+      "title": "Perehodi v nash club, zabirai bonus. Сегодня новый шанс! https://ne3c185503.test/s/0"
+    }
+  ],
+  "threshold": 65,
+  "ocr_mean_sequence_similarity": 0.9395616782496662,
+  "model_initialization_ms": 3877.180699999826,
+  "limitations": [
+    "Разметка создана автором синтетического набора; независимой экспертной проверки нет.",
+    "Это не доказательство качества на реальных соцсетях. Семейства, кампании и домены dev/test разделены.",
+    "Precision и FPR: интервалы Wilson 95%. Зависимость двух вариантов внутри семейства может сужать интервалы.",
+    "Отказы на положительных случаях включены в общий FN/recall. Качество обработанных записано в JSON.",
+    "Baseline не читает изображения. В обоих OCR-вариантах кэш содержимого выключен; модель уже загружена. Время инициализации указано отдельно.",
+    "Два локальных правила для одного признака не дают независимых доказательств. Gemini не оценивался без ключа.",
+    "Порог 65 фиксирован до test; ошибки сохранены без подгонки правил под финальные результаты."
+  ],
+  "versions": {
+    "rules": "rules-1.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det"
+  },
+  "runtime": "Windows / Python 3.12 / CPU"
+}
