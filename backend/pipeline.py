@@ -191,13 +191,13 @@ def analyze(
 ):
     started = time.perf_counter()
     # A new attempt owns a new evidence namespace. Keep originals/history, never derived old fields.
-    for key in ("score", "sufficient_data", "elapsed_ms", "context", "claims", "rejected_claims", "provider", "graph"):
+    for key in ("score", "sufficient_data", "elapsed_ms", "context", "claims", "rejected_claims", "provider", "provider_input", "graph"):
         doc.pop(key, None)
     for mat in doc["materials"]:
         for key in (
             "source_evidence_id", "normalized_text", "ocr", "qr", "urls", "promo_codes",
             "content_evidence_ids", "reachable_urls", "score", "context", "sufficient_data", "urls_limited",
-            "image_integrity_failed", "text_integrity_failed",
+            "image_integrity_failed", "text_integrity_failed", "cloud_input_complete",
         ):
             mat.pop(key, None)
     doc.update(
@@ -219,6 +219,7 @@ def analyze(
         doc["limitations"].append("Синтетический стенд: материалы и страницы созданы для демонстрации.")
     doc["limitations"].append("Индекс не является вероятностью нарушения или юридическим заключением.")
     sources, urls, images, counter = {}, [], [], 0
+    image_source_ids = []
 
     def evidence(quote, source_id, method, **extra):
         nonlocal counter
@@ -309,6 +310,7 @@ def analyze(
                     clean.save(buffer, format="PNG")
                     if len(images) < 2:
                         images.append(buffer.getvalue())
+                        image_source_ids.append(mat["id"])
             except Exception:
                 doc["limitations"].append(
                     "OCR недоступен для одного изображения; остальные материалы обработаны."
@@ -342,7 +344,7 @@ def analyze(
         context = LocalProvider().extract(sources)
         method = "local_rule"
         doc["stages"]["features"] = "partial"
-    claims, rejected = verify_claims(context, sources)
+    claims, rejected = verify_claims(context, provider.sent_sources if method == "cloud_model" else sources)
     if method == "local_rule" and len(doc["materials"]) > 1:
         claims = []
         for mat in doc["materials"]:
@@ -351,11 +353,24 @@ def analyze(
             }
             verified, _ = verify_claims(local_context(own_sources), own_sources)
             claims.extend(verified)
-    if method == "cloud_model" and (len(doc["materials"]) > 2 or sum(map(len, sources.values())) > 40000):
-        doc["limitations"].append(
-            "Облачный бюджет: не более двух изображений и 40 000 символов за вызов; большой пакет требует разделения."
-        )
-        doc["stages"]["features"] = "partial"
+    if method == "cloud_model":
+        coverage = deepcopy(provider.input_coverage)
+        sent_image_ids = [image_source_ids[i] for i in coverage.pop("image_indices")]
+        requested_image_ids = [m["id"] for m in doc["materials"] if m.get("image_id")]
+        coverage.update(images_total=len(requested_image_ids), image_material_ids=sent_image_ids)
+        for mat in doc["materials"]:
+            text_complete = all(provider.sent_sources.get(key) == text for key, text in sources.items() if key in (mat["id"], mat["id"] + "-ocr"))
+            mat["cloud_input_complete"] = text_complete and (not mat.get("image_id") or mat["id"] in sent_image_ids)
+        coverage["complete"] = all(m["cloud_input_complete"] for m in doc["materials"])
+        doc["provider_input"] = coverage
+        if not coverage["complete"]:
+            shortened = sum(s["sent_chars"] < s["original_chars"] for s in coverage["sources"])
+            doc["limitations"].append(
+                f"Облачный ввод неполон: сокращено текстовых источников {shortened}; передано изображений "
+                f"{coverage['images_sent']} из {coverage['images_total']}. Лимит: 40 000 символов JSON и "
+                "не более двух изображений суммарно до 8 MiB. Непереданные данные не считаются проверенными облачной моделью."
+            )
+            doc["stages"]["features"] = "partial"
     for claim in claims:
         claim["evidence_id"] = evidence(
             claim["quote"],
@@ -537,6 +552,7 @@ def analyze(
         mat["sufficient_data"] = (
             bool(any(t.strip() for t in own_sources.values()))
             and not mat.get("image_integrity_failed")
+            and mat.get("cloud_input_complete", True)
             and not (missing_route and not strong_source_context and variant == "full")
         )
     all_sufficient = all(m["sufficient_data"] for m in doc["materials"])
