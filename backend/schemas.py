@@ -8,8 +8,21 @@ from .config import MAX_MATERIALS, MAX_TEXT
 Mode = Literal["local", "cloud", "synthetic", "replay"]
 
 
-class MaterialInput(BaseModel):
+class UserInput(BaseModel):
     model_config = ConfigDict(extra="forbid")
+
+    @field_validator("*")
+    @classmethod
+    def valid_unicode(cls, value):
+        if isinstance(value, str):
+            try:
+                value.encode("utf-8")
+            except UnicodeError as exc:
+                raise ValueError("Текст содержит некорректный Unicode.") from exc
+        return value
+
+
+class MaterialInput(UserInput):
     text: str = Field(default="", max_length=MAX_TEXT)
     url: str = Field(default="", max_length=2048)
     source: str = Field(default="Не указан", max_length=160)
@@ -39,14 +52,13 @@ class MaterialInput(BaseModel):
         return self
 
 
-class CaseInput(BaseModel):
-    model_config = ConfigDict(extra="forbid")
+class CaseInput(UserInput):
     title: str = Field(min_length=1, max_length=180)
     mode: Mode = "local"
     materials: list[MaterialInput] = Field(min_length=1, max_length=MAX_MATERIALS)
 
 
-class DecisionInput(BaseModel):
+class DecisionInput(UserInput):
     decision: Literal["confirmed", "false_positive", "needs_data"]
     comment: str = Field(default="", max_length=2000)
 

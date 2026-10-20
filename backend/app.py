@@ -5,6 +5,7 @@ import uuid
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, HTTPException, Request, UploadFile
+from fastapi.exceptions import RequestValidationError
 from fastapi.responses import FileResponse, JSONResponse, Response
 from fastapi.staticfiles import StaticFiles
 from PIL import Image
@@ -39,6 +40,22 @@ async def lifespan(app):
 
 app = FastAPI(title="SafeTrace KZ", version="2.1.0", lifespan=lifespan)
 app.add_middleware(BodyLimitMiddleware)
+
+
+@app.exception_handler(RequestValidationError)
+async def invalid_request(request: Request, exc: RequestValidationError):
+    # Error payloads can themselves contain malformed Unicode in input or keys.
+    # Return bounded diagnostics, never echo the entire submitted material.
+    def safe(value):
+        return str(value)[:200].encode("utf-8", errors="backslashreplace").decode("utf-8")
+
+    errors = [
+        {"loc": [safe(part) for part in item["loc"]], "msg": safe(item["msg"]), "type": safe(item["type"])}
+        for item in exc.errors()[:20]
+    ]
+    return JSONResponse(
+        {"detail": "Некорректный ввод. Проверьте заполненные поля.", "errors": errors}, status_code=422
+    )
 
 
 @app.middleware("http")
