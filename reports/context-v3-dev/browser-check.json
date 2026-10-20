@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "id": "d9c7cfe3298d419c9beebcec4878e7e2",
+      "score": 0,
+      "text": "DEMO. Переходи по ссылке и забирай бонус.",
+      "page_context": "warning",
+      "contradictions": [],
+      "manifest_files": 3,
+      "export_sha256": "7ddf0bdb96b2fad21bc4733c273a51f10f28ddfa70055f360e009e986329264e",
+      "source_evidence_resolves": true
+    },
+    {
+      "id": "7be0ed5cee4846fd89f67bc817e44a3f",
+      "score": 80,
+      "text": "DEMO. Переходи по ссылке и забирай бонус.",
+      "page_context": "warning",
+      "contradictions": [
+        "Альтернативный контекст соседствует с самостоятельным рекламным призывом."
+      ],
+      "manifest_files": 3,
+      "export_sha256": "1932bfb8f3c071ef702c9e88e856c034c18d240d90a276a510537cba0b683ba7",
+      "source_evidence_resolves": true
+    }
+  ],
+  "same_source_text": true,
+  "creation": "Browser UI",
+  "download": "Browser export button"
+}
