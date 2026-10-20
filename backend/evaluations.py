@@ -18,6 +18,11 @@ def available(root):
             "Ядро v2 · новый синтетический тест",
             root / "reports/versions/synthetic-v2/evaluation.json",
         ),
+        (
+            "synthetic-v3",
+            "Ядро v3 · новый синтетический тест",
+            root / "reports/versions/synthetic-v3/evaluation.json",
+        ),
     ]
     results = []
     for identifier, label, path in definitions:
@@ -32,7 +37,10 @@ def read(root, identifier=None):
     if not entries:
         return {"available": False, "message": "Оценка еще не запускалась."}
     identifiers = {entry[0] for entry in entries}
-    identifier = identifier or ("synthetic-v2" if "synthetic-v2" in identifiers else "synthetic-v1")
+    identifier = identifier or next(
+        (key for key in ("synthetic-v3", "synthetic-v2", "synthetic-v1") if key in identifiers),
+        entries[-1][0],
+    )
     selected = next((entry for entry in entries if entry[0] == identifier), None)
     if selected is None:
         raise ValueError("Выбранная оценка не найдена.")

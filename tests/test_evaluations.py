@@ -20,6 +20,11 @@ def test_history_and_new_test_have_distinct_ids_and_default(tmp_path):
     report = read(tmp_path)
     assert report["evaluation_id"] == "synthetic-v2" and report["test_count"] == 84
     assert len(report["available_versions"]) == 3
+    put(tmp_path, "reports/versions/synthetic-v3/evaluation.json", 80)
+    report = read(tmp_path)
+    assert report["evaluation_id"] == "synthetic-v3" and report["test_count"] == 80
+    assert len(report["available_versions"]) == 4
+    assert read(tmp_path, "synthetic-v2")["test_count"] == 84
     with pytest.raises(ValueError):
         read(tmp_path, "../../.env")
 
