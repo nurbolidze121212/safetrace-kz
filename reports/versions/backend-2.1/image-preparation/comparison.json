@@ -1,0 +1,16 @@
+{
+  "results_unchanged": true,
+  "cases": 6,
+  "runs_each": 30,
+  "before": {
+    "png_encodes": 30,
+    "median_ms": 16.2325,
+    "p95_ms": 21.085
+  },
+  "after_isolated": {
+    "png_encodes": 0,
+    "median_ms": 8.418500000000002,
+    "p95_ms": 9.665
+  },
+  "note": "Initial after run overlapped a separate OCR test; retained, excluded from primary timing comparison. Isolated rerun had no concurrent test commands."
+}

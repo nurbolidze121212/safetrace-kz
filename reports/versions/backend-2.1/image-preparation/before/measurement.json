@@ -1,0 +1,224 @@
+{
+  "name": "before",
+  "at": "2026-10-20T23:11:21.849428+00:00",
+  "core_hashes": {
+    "backend/analysis.py": "b12e1d8fb46654338cb6072ab62eaf37fb1cbba5c18f6875d7d51fb5fc0e761a",
+    "backend/app.py": "572a75cd2dd0a58814df2eb41b3661f4396750dca3c723382482fecc3e70897c",
+    "backend/config.py": "f8334c440f18a8afd6d83edb4c5c701c0826c9497eb5f69d2b7d781d7a18902d",
+    "backend/evaluations.py": "647e0041bda49df051ed294c0aaea580279ccd8a9272fcef584d027d12a040d7",
+    "backend/exports.py": "0499f0d79224b7ad1da84b6b6c084474a14da3104c46d68b1f71a56512875894",
+    "backend/graph.py": "e27e5676a70a0d31f5513f017fb65b9e6aaf69fe780ca9f02ece76f5520872bc",
+    "backend/limits.py": "bc9b82ee5bdb10c6274300c075c7dae1c2baeb9a4b0bf6287358795394d9fcac",
+    "backend/links.py": "8989f0cd4c00e92fbda6fd945fd51b6e3afaf306adaafa5558a6acae3e649de2",
+    "backend/ocr.py": "cd6dda0581bd9f0e573294c64ce6ddc0ba64db4e54f52bc1864c31f93facf504",
+    "backend/pipeline.py": "1dcde80e3e45762d37b5b0b0513a6aa3d751f9af6be9f96bd7b92339af05259c",
+    "backend/providers.py": "de23a984a3222f6038a8b4dee73a1f927e0e466c107e9bdb2ac182b39bf64667",
+    "backend/qr.py": "f4e4d2f9db9ac65f8e7d82d1874fe6df22ee9368f30a7f3a06395a68e412947f",
+    "backend/schemas.py": "9e8f288c483aabaedd249c2b7376289f5bb33bf17411226cf3748abeb4322cde",
+    "backend/storage.py": "eb774a2f97440ffdc587835a5438f3490d487f5162d4654f9637d7c85d3dac55",
+    "backend/__init__.py": "cab7e34e197ae110487f67fb05f231deab0a474dab2e42cbe3b02825dd660767",
+    "backend/weights.json": "409ca9a8feb132d54d35af126e8b2318f5f9ea20b5071da23f0fc0e532f73ce5",
+    "scripts/benchmark_image_preparation.py": "4919b391b411edac615535ea40cd541897cd2733e5f206a2624a4bc991cea5ea"
+  },
+  "samples": [
+    {
+      "id": "c3af64e6efafff32",
+      "image_sha256": [
+        "ab007187fd1cf17e47575f44c4bf45e059a4c00d0d0d1a58ecd09536817c5324"
+      ],
+      "warmup_ms": 3733.1365999998525,
+      "signature": {
+        "score": 80,
+        "sufficient": true,
+        "status": "completed",
+        "ocr": [
+          "DЕМО. У нас открыт зал казино. Регистрируйтесь и\nактивируйте бонус по коду К4АОЗFВ."
+        ],
+        "qr": [
+          []
+        ],
+        "observations": []
+      },
+      "times_ms": [
+        15.563,
+        15.155,
+        18.405,
+        16.649,
+        13.467
+      ]
+    },
+    {
+      "id": "0a0e10fa922abf8a",
+      "image_sha256": [
+        "42901d771470f43e29cde09e2b123b786bfe65fcd6b9c42e907ed0e8acbb8149"
+      ],
+      "warmup_ms": 1143.2385000007343,
+      "signature": {
+        "score": 80,
+        "sufficient": true,
+        "status": "completed",
+        "ocr": [
+          "DЕМО. Рулетка кеші басталды. Қосыл, забирай бонус на\nпервый раунд."
+        ],
+        "qr": [
+          []
+        ],
+        "observations": []
+      },
+      "times_ms": [
+        15.361,
+        16.508,
+        13.347,
+        13.546,
+        13.057
+      ]
+    },
+    {
+      "id": "cc49148b40bb6a13",
+      "image_sha256": [
+        "df38c7ab70bbf9dc03003ee06cd58e27e1c8149b4a5a2bece78cc0ea2d80582b"
+      ],
+      "warmup_ms": 4205.389299999297,
+      "signature": {
+        "score": 80,
+        "sufficient": true,
+        "status": "completed",
+        "ocr": [
+          "DЕМО. Арнайы клубқа қосыл! Бонус доступен по моему\nприглашению. https://n45a9bc8d87.test/visit/77abdf"
+        ],
+        "qr": [
+          []
+        ],
+        "observations": [
+          {
+            "url": "https://n45a9bc8d87.test/visit/77abdf",
+            "status_code": 302,
+            "text": "",
+            "stop": null
+          },
+          {
+            "url": "https://n45a9bc8d87.test/space/9aea81?ref=KF548BE",
+            "status_code": 200,
+            "text": "DEMO: развлекательный зал Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.",
+            "stop": null
+          }
+        ]
+      },
+      "times_ms": [
+        17.453,
+        16.594,
+        17.044,
+        16.981,
+        16.695
+      ]
+    },
+    {
+      "id": "47e7a5c6b1af89d4",
+      "image_sha256": [
+        "bc259efa8a59cee8e6a1bcac95ae19c64587522eceb41c43abec5a334d96c9da"
+      ],
+      "warmup_ms": 1211.5776000009646,
+      "signature": {
+        "score": 80,
+        "sufficient": true,
+        "status": "completed",
+        "ocr": [
+          "DЕМО. Ғсыныс парағына өтіңіз, одан кейін тіркеліп сыйлық\nалыңыз. https://n046d77035b.test/visit/0a7639"
+        ],
+        "qr": [
+          []
+        ],
+        "observations": [
+          {
+            "url": "https://n046d77035b.test/visit/0a7639",
+            "status_code": 302,
+            "text": "",
+            "stop": null
+          },
+          {
+            "url": "https://n046d77035b.test/step/d2e191",
+            "status_code": 200,
+            "text": "DEMO. Условия предложения. Открыть карточку",
+            "stop": null
+          },
+          {
+            "url": "https://n046d77035b.test/step/c6d235",
+            "status_code": 302,
+            "text": "",
+            "stop": null
+          },
+          {
+            "url": "https://n046d77035b.test/space/cb5ae0?ref=K3C2FFA",
+            "status_code": 200,
+            "text": "DEMO: развлекательный зал Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.",
+            "stop": null
+          }
+        ]
+      },
+      "times_ms": [
+        16.688,
+        15.957,
+        17.643,
+        18.049,
+        16.608
+      ]
+    },
+    {
+      "id": "932107a0e406eee5",
+      "image_sha256": [
+        "e08f7cda231e8aea310e74e718c2e03a35bd17d7733f3b71378af747f7ba40e3"
+      ],
+      "warmup_ms": 1233.8644999999815,
+      "signature": {
+        "score": 65,
+        "sufficient": true,
+        "status": "completed",
+        "ocr": [
+          "DЕМО. Заходите в казино и играйте сегодня. Приглашаем\nновых участников."
+        ],
+        "qr": [
+          []
+        ],
+        "observations": []
+      },
+      "times_ms": [
+        15.237,
+        14.983,
+        21.661,
+        15.278,
+        14.782
+      ]
+    },
+    {
+      "id": "76130abb3cdb66a0",
+      "image_sha256": [
+        "c62b8da66eb13a3e434f5ba1d19777fddf7bc88478897ee8fc8a595e8c24cfb7"
+      ],
+      "warmup_ms": 4327.624599998671,
+      "signature": {
+        "score": 80,
+        "sufficient": true,
+        "status": "completed",
+        "ocr": [
+          "DЕМО. Ғтыска дайын бол! Играй в казино, забирай бонус, код\nK9515D9."
+        ],
+        "qr": [
+          []
+        ],
+        "observations": []
+      },
+      "times_ms": [
+        21.085,
+        12.875,
+        18.455,
+        13.637,
+        12.792
+      ]
+    }
+  ],
+  "runs": 30,
+  "png_encodes": 30,
+  "median_ms": 16.2325,
+  "p95_ms": 21.085,
+  "scope": "Six existing synthetic development image cases, five warm-cache runs each. CPU, synthetic transport; no OCR inference/network timing claim."
+}

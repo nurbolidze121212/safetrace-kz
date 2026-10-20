@@ -15,7 +15,7 @@ from .config import DATA, OCR_VERSION, PIPELINE_VERSION, QR_VERSION, RULE_VERSIO
 from .graph import build_graph
 from .links import SyntheticTransport, extract_urls, identifiers, live_fetch, trace
 from .ocr import recognize
-from .providers import GeminiProvider, LocalProvider, ProviderUnavailable
+from .providers import MAX_CLOUD_IMAGES, GeminiProvider, LocalProvider, ProviderUnavailable
 from .qr import decode as decode_qr
 
 EXECUTOR = ThreadPoolExecutor(max_workers=1, thread_name_prefix="safetrace")
@@ -303,12 +303,12 @@ def analyze(
                     )
                 if not mat["ocr"]["lines"]:
                     doc["limitations"].append("OCR не нашел читаемый текст.")
-                with Image.open(path) as im:
-                    buffer = io.BytesIO()
-                    clean = ImageOps.exif_transpose(im).convert("RGB")
-                    clean.thumbnail((1600, 1600))
-                    clean.save(buffer, format="PNG")
-                    if len(images) < 2:
+                if doc["mode"] == "cloud" and len(images) < MAX_CLOUD_IMAGES:
+                    with Image.open(path) as im:
+                        buffer = io.BytesIO()
+                        clean = ImageOps.exif_transpose(im).convert("RGB")
+                        clean.thumbnail((1600, 1600))
+                        clean.save(buffer, format="PNG")
                         images.append(buffer.getvalue())
                         image_source_ids.append(mat["id"])
             except Exception:
