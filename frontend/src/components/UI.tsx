@@ -3,6 +3,8 @@ import type { ReactNode } from 'react'
 import { AlertTriangle, Circle, CircleHelp, LoaderCircle, X } from 'lucide-react'
 import type { Summary } from '../types'
 import { levels, statuses } from '../lib'
+import { sourceIntervals } from '../highlights'
+import type { SourceClaim } from '../highlights'
 
 export function PriorityBadge({ item }: { item: Pick<Summary, 'score' | 'sufficient_data'> }) {
   if (item.sufficient_data === false) return <span className="badge insufficient"><CircleHelp size={15} />Нет данных для оценки</span>
@@ -34,13 +36,8 @@ export function Dialog({ title, children, onClose, drawer = false, busy = false 
     {children}
   </dialog>
 }
-export function Highlight({ text, quotes }: { text: string; quotes: string[] }) {
-  const intervals: { start: number; end: number }[] = []
-  for (const quote of new Set(quotes.filter(Boolean))) {
-    let start = text.indexOf(quote)
-    while (start >= 0) { intervals.push({ start, end: start + quote.length }); start = text.indexOf(quote, start + quote.length) }
-  }
-  intervals.sort((a, b) => a.start - b.start || b.end - a.end)
+export function Highlight({ text, claims }: { text: string; claims: SourceClaim[] }) {
+  const intervals = sourceIntervals(text, claims)
   let cursor = 0
   const result: ReactNode[] = []
   for (const [i, range] of intervals.entries()) {

@@ -7,8 +7,9 @@ ROOT = Path(__file__).resolve().parents[1]
 load_dotenv(ROOT / ".env")
 DATA = Path(os.getenv("SAFETRACE_DATA_DIR") or ROOT / "data").resolve()
 MODEL_DIR = ROOT / "models"
-RULE_VERSION = "rules-1.0"
-OCR_VERSION = "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det"
+RULE_VERSION = "rules-2.0"
+OCR_VERSION = "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0"
+QR_VERSION = "qr-1.0"
 MAX_IMAGE = 8 * 1024 * 1024
 MAX_TEXT = 20000
 MAX_MATERIALS = 20

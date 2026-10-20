@@ -1,0 +1,2066 @@
+[
+  {
+    "id": "c3af64e6efafff32",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "elapsed_ms": 3.528,
+    "status": "partial",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "c3af64e6efafff32",
+    "variant": "ocr",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 1297.68,
+    "status": "completed",
+    "ocr_text": "DЕМО. У нас открыт зал казино. Регистрируйтесь и\nактивируйте бонус по коду К4АОЗFВ.",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "c3af64e6efafff32",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 1163.855,
+    "status": "completed",
+    "ocr_text": "DЕМО. У нас открыт зал казино. Регистрируйтесь и\nактивируйте бонус по коду К4АОЗFВ.",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "67e7c19d00e1a298",
+    "variant": "baseline",
+    "score": 100,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.52,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "67e7c19d00e1a298",
+    "variant": "ocr",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.236,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "67e7c19d00e1a298",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.223,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "0a0e10fa922abf8a",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "elapsed_ms": 0.238,
+    "status": "partial",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "0a0e10fa922abf8a",
+    "variant": "ocr",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 1187.735,
+    "status": "completed",
+    "ocr_text": "DЕМО. Рулетка кеші басталды. Қосыл, забирай бонус на\nпервый раунд.",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "0a0e10fa922abf8a",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 1174.504,
+    "status": "completed",
+    "ocr_text": "DЕМО. Рулетка кеші басталды. Қосыл, забирай бонус на\nпервый раунд.",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "3c6423f6ee60ed4d",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.439,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "3c6423f6ee60ed4d",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.279,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "3c6423f6ee60ed4d",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 1.285,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "destination_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "7c7a5cdf110b7265",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.404,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "7c7a5cdf110b7265",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.268,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "7c7a5cdf110b7265",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.826,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "destination_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "cc49148b40bb6a13",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "elapsed_ms": 0.25,
+    "status": "partial",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "cc49148b40bb6a13",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 4307.053,
+    "status": "completed",
+    "ocr_text": "DЕМО. Арнайы клубқа қосыл! Бонус доступен по моему\nприглашению. https://n45a9bc8d87.test/visit/77abdf",
+    "ocr_rotations": [
+      270
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "cc49148b40bb6a13",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 4344.95,
+    "status": "completed",
+    "ocr_text": "DЕМО. Арнайы клубқа қосыл! Бонус доступен по моему\nприглашению. https://n45a9bc8d87.test/visit/77abdf",
+    "ocr_rotations": [
+      270
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "destination_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "9479da1edeeab1a1",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.414,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "9479da1edeeab1a1",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.27,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "9479da1edeeab1a1",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 1.111,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "destination_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "47e7a5c6b1af89d4",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "elapsed_ms": 0.202,
+    "status": "partial",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "47e7a5c6b1af89d4",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 1097.769,
+    "status": "completed",
+    "ocr_text": "DЕМО. Ғсыныс парағына өтіңіз, одан кейін тіркеліп сыйлық\nалыңыз. https://n046d77035b.test/visit/0a7639",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "47e7a5c6b1af89d4",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 1315.205,
+    "status": "completed",
+    "ocr_text": "DЕМО. Ғсыныс парағына өтіңіз, одан кейін тіркеліп сыйлық\nалыңыз. https://n046d77035b.test/visit/0a7639",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "destination_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "935012266d6f8403",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.358,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "935012266d6f8403",
+    "variant": "ocr",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.195,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "935012266d6f8403",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.185,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "d9c8222247fa0d11",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.414,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "d9c8222247fa0d11",
+    "variant": "ocr",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.247,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "d9c8222247fa0d11",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 1.23,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "destination_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "932107a0e406eee5",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "elapsed_ms": 0.204,
+    "status": "partial",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "932107a0e406eee5",
+    "variant": "ocr",
+    "score": 65,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 1108.44,
+    "status": "completed",
+    "ocr_text": "DЕМО. Заходите в казино и играйте сегодня. Приглашаем\nновых участников.",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call"
+    ]
+  },
+  {
+    "id": "932107a0e406eee5",
+    "variant": "full",
+    "score": 65,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 1107.256,
+    "status": "completed",
+    "ocr_text": "DЕМО. Заходите в казино и играйте сегодня. Приглашаем\nновых участников.",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call"
+    ]
+  },
+  {
+    "id": "5cce4476b031da63",
+    "variant": "baseline",
+    "score": 100,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.419,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "5cce4476b031da63",
+    "variant": "ocr",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.279,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "5cce4476b031da63",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.256,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "76130abb3cdb66a0",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "elapsed_ms": 0.195,
+    "status": "partial",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "76130abb3cdb66a0",
+    "variant": "ocr",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 4283.779,
+    "status": "completed",
+    "ocr_text": "DЕМО. Ғтыска дайын бол! Играй в казино, забирай бонус, код\nK9515D9.",
+    "ocr_rotations": [
+      180
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "76130abb3cdb66a0",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 4527.035,
+    "status": "completed",
+    "ocr_text": "DЕМО. Ғтыска дайын бол! Играй в казино, забирай бонус, код\nK9515D9.",
+    "ocr_rotations": [
+      180
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "32848138c264ad11",
+    "variant": "baseline",
+    "score": 100,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.473,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion",
+      "contradictory_context"
+    ]
+  },
+  {
+    "id": "32848138c264ad11",
+    "variant": "ocr",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.299,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion",
+      "contradictory_context"
+    ]
+  },
+  {
+    "id": "32848138c264ad11",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.861,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "destination_and_call",
+      "bonus_in_promotion",
+      "contradictory_context"
+    ]
+  },
+  {
+    "id": "dfde092e2e3f91f5",
+    "variant": "baseline",
+    "score": 100,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.419,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "contradictory_context"
+    ]
+  },
+  {
+    "id": "dfde092e2e3f91f5",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.321,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "contradictory_context"
+    ]
+  },
+  {
+    "id": "dfde092e2e3f91f5",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.949,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "destination_and_call",
+      "bonus_in_promotion",
+      "contradictory_context"
+    ]
+  },
+  {
+    "id": "9da714a0ac9001e1",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "elapsed_ms": 0.303,
+    "status": "partial",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "9da714a0ac9001e1",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 1233.852,
+    "status": "completed",
+    "ocr_text": "DЕМО. Приватное приглашение еще доступно. Переходи,\nзабирай бoнус. https://nсе3bcf98bf.test/visit/106d7e",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "9da714a0ac9001e1",
+    "variant": "full",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "elapsed_ms": 1193.331,
+    "status": "partial",
+    "ocr_text": "DЕМО. Приватное приглашение еще доступно. Переходи,\nзабирай бoнус. https://nсе3bcf98bf.test/visit/106d7e",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "be35d744bfe4c27d",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.336,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "be35d744bfe4c27d",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.21,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "be35d744bfe4c27d",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.71,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "d245c3f8a2bc4f60",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "elapsed_ms": 0.179,
+    "status": "partial",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "d245c3f8a2bc4f60",
+    "variant": "ocr",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 560.42,
+    "status": "completed",
+    "ocr_text": "DЕМО. Играй в слоты, получай фриспины. Забирай промокод К9ЕЕА1D.",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "d245c3f8a2bc4f60",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 555.907,
+    "status": "completed",
+    "ocr_text": "DЕМО. Играй в слоты, получай фриспины. Забирай промокод К9ЕЕА1D.",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "a47a80d0d02ee403",
+    "variant": "baseline",
+    "score": 100,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.355,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "a47a80d0d02ee403",
+    "variant": "ocr",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.232,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "a47a80d0d02ee403",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.229,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion"
+    ]
+  },
+  {
+    "id": "0daa42e21e0023da",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.356,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "0daa42e21e0023da",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.249,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "0daa42e21e0023da",
+    "variant": "full",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "elapsed_ms": 0.379,
+    "status": "partial",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "9acd182618d9351a",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "elapsed_ms": 0.259,
+    "status": "partial",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "9acd182618d9351a",
+    "variant": "ocr",
+    "score": 15,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 1574.705,
+    "status": "completed",
+    "ocr_text": "DЕМО. Памятка: осторожно, мошенники зовут «регистрируйтесь\nв казино, бонус ждет». Не играйте.\nhttps://n993a8f3355.test/visit/fadff2",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion",
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "9acd182618d9351a",
+    "variant": "full",
+    "score": 15,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 1641.054,
+    "status": "completed",
+    "ocr_text": "DЕМО. Памятка: осторожно, мошенники зовут «регистрируйтесь\nв казино, бонус ждет». Не играйте.\nhttps://n993a8f3355.test/visit/fadff2",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "destination_and_call",
+      "bonus_in_promotion",
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "35dad4e7b2fdaac9",
+    "variant": "baseline",
+    "score": 100,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.407,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion",
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "35dad4e7b2fdaac9",
+    "variant": "ocr",
+    "score": 15,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.283,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion",
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "35dad4e7b2fdaac9",
+    "variant": "full",
+    "score": 15,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.779,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "destination_and_call",
+      "bonus_in_promotion",
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "380bd099a039a8e9",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "elapsed_ms": 0.184,
+    "status": "partial",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "380bd099a039a8e9",
+    "variant": "ocr",
+    "score": 15,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 1616.974,
+    "status": "completed",
+    "ocr_text": "DЕМО. Корреспондент приводит цитату из рекламы: «Жми и\nзабирай бонус в казино». Это новость о проверке рекламы.\nhttps://na829a39de4.test/visit/00b90f",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion",
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "380bd099a039a8e9",
+    "variant": "full",
+    "score": 15,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 1589.501,
+    "status": "completed",
+    "ocr_text": "DЕМО. Корреспондент приводит цитату из рекламы: «Жми и\nзабирай бонус в казино». Это новость о проверке рекламы.\nhttps://na829a39de4.test/visit/00b90f",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "destination_and_call",
+      "bonus_in_promotion",
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "6d677af6ca14c6c7",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.4,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "6d677af6ca14c6c7",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.283,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "6d677af6ca14c6c7",
+    "variant": "full",
+    "score": 15,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.754,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "destination_and_call",
+      "bonus_in_promotion",
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "6c72d2517420e384",
+    "variant": "baseline",
+    "score": 100,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.366,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion",
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "6c72d2517420e384",
+    "variant": "ocr",
+    "score": 15,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.265,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion",
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "6c72d2517420e384",
+    "variant": "full",
+    "score": 15,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.264,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion",
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "5aa53c9483062803",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "elapsed_ms": 0.175,
+    "status": "partial",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "5aa53c9483062803",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 5995.95,
+    "status": "completed",
+    "ocr_text": "DЕМО. Играй в бесплатную рулетку с жетонами. Без ставок,\nбез денежных платежей и без вывода денег.\nhttps://na7011713b9.test/visit/d64174",
+    "ocr_rotations": [
+      270
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "5aa53c9483062803",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 5986.861,
+    "status": "completed",
+    "ocr_text": "DЕМО. Играй в бесплатную рулетку с жетонами. Без ставок,\nбез денежных платежей и без вывода денег.\nhttps://na7011713b9.test/visit/d64174",
+    "ocr_rotations": [
+      270
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "destination_and_call",
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "64ceff1344933e76",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.382,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "64ceff1344933e76",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.225,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "64ceff1344933e76",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.206,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "25320a923042066e",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "elapsed_ms": 0.188,
+    "status": "partial",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "25320a923042066e",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 1462.989,
+    "status": "completed",
+    "ocr_text": "DЕМО. Регистрируйтесь в банке: депозит и бонус за\nобслуживание. Договор вклада доступен здесь.\nhttps://nae2d5276f4.test/visit/5a0538",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "25320a923042066e",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 1486.743,
+    "status": "completed",
+    "ocr_text": "DЕМО. Регистрируйтесь в банке: депозит и бонус за\nобслуживание. Договор вклада доступен здесь.\nhttps://nae2d5276f4.test/visit/5a0538",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "0d5b2d0aa3e83f36",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.398,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "0d5b2d0aa3e83f36",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.273,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "0d5b2d0aa3e83f36",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.988,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "1500380449db9349",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.358,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "1500380449db9349",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.242,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "1500380449db9349",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.68,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "c8158058ee3cea25",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "elapsed_ms": 0.192,
+    "status": "partial",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "c8158058ee3cea25",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 1054.343,
+    "status": "completed",
+    "ocr_text": "DЕМО. Это материал о ремонте. В слове материал нет\nпризыва. Фестиваль состоится завтра.",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "c8158058ee3cea25",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 1036.253,
+    "status": "completed",
+    "ocr_text": "DЕМО. Это материал о ремонте. В слове материал нет\nпризыва. Фестиваль состоится завтра.",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "18d75fa790add093",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.3,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "18d75fa790add093",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.178,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "18d75fa790add093",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.166,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "0ff31c7545641b8e",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "elapsed_ms": 0.188,
+    "status": "partial",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "0ff31c7545641b8e",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 4228.901,
+    "status": "completed",
+    "ocr_text": "DЕМО. Играй в спектакле «Казино» нашего театра: набор\nактеров, бонус участникам.",
+    "ocr_rotations": [
+      180
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "0ff31c7545641b8e",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 4227.26,
+    "status": "completed",
+    "ocr_text": "DЕМО. Играй в спектакле «Казино» нашего театра: набор\nактеров, бонус участникам.",
+    "ocr_rotations": [
+      180
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "add62bb7516101b4",
+    "variant": "baseline",
+    "score": 100,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.334,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "add62bb7516101b4",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.203,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "add62bb7516101b4",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.2,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "854d829885f0f399",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.383,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "854d829885f0f399",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.265,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "854d829885f0f399",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.358,
+    "status": "partial",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "a898614b23a3c873",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "elapsed_ms": 0.202,
+    "status": "partial",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "a898614b23a3c873",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 1534.132,
+    "status": "completed",
+    "ocr_text": "DЕМО. Жаңалық: жаңа кітап орталығы ашылды. Редакция\nхабарлайды, жоба туралы мәлімет:\nhttps://n06624b2585.test/visit/73f775",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "a898614b23a3c873",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 1570.456,
+    "status": "completed",
+    "ocr_text": "DЕМО. Жаңалық: жаңа кітап орталығы ашылды. Редакция\nхабарлайды, жоба туралы мәлімет:\nhttps://n06624b2585.test/visit/73f775",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "d614632f74394513",
+    "variant": "baseline",
+    "score": 100,
+    "sufficient": true,
+    "predicted": 1,
+    "elapsed_ms": 0.46,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion",
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "d614632f74394513",
+    "variant": "ocr",
+    "score": 15,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.316,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion",
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "d614632f74394513",
+    "variant": "full",
+    "score": 15,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.27,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "gambling_and_call",
+      "bonus_in_promotion",
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "fe52f95ea92d859a",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "elapsed_ms": 0.243,
+    "status": "partial",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "fe52f95ea92d859a",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 1179.24,
+    "status": "completed",
+    "ocr_text": "DЕМО. Ғтыс ойыны туралы ескерту: бұл мектептің тегін викторинасы,\nақшасыз. Бонус — кітап.",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "fe52f95ea92d859a",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 1174.138,
+    "status": "completed",
+    "ocr_text": "DЕМО. Ғтыс ойыны туралы ескерту: бұл мектептің тегін викторинасы,\nақшасыз. Бонус — кітап.",
+    "ocr_rotations": [
+      0
+    ],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": [
+      "alternative_context"
+    ]
+  },
+  {
+    "id": "adfc7a43b4b033e7",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.32,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "adfc7a43b4b033e7",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.201,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "adfc7a43b4b033e7",
+    "variant": "full",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "elapsed_ms": 0.268,
+    "status": "partial",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "982f9ff5fd502189",
+    "variant": "baseline",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.333,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "982f9ff5fd502189",
+    "variant": "ocr",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "elapsed_ms": 0.217,
+    "status": "completed",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  },
+  {
+    "id": "982f9ff5fd502189",
+    "variant": "full",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "elapsed_ms": 0.269,
+    "status": "partial",
+    "ocr_text": "",
+    "ocr_rotations": [],
+    "provider": "local_rule",
+    "rules": "rules-2.0-dev",
+    "ocr_model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0-dev",
+    "contributions": []
+  }
+]

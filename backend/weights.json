@@ -1,12 +1,12 @@
 {
-  "version": "weights-1.0",
+  "version": "weights-2.0",
   "high_threshold": 65,
   "medium_threshold": 35,
-  "gambling_and_call": 55,
-  "destination_and_call": 55,
+  "gambling_and_call": 65,
+  "destination_and_call": 65,
   "bonus_in_promotion": 15,
   "promise_in_promotion": 10,
   "repeated_referral_in_promotion": 10,
   "alternative_context": -65,
-  "contradictory_context": -25
+  "contradictory_context": 0
 }

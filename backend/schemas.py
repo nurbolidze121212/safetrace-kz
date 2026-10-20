@@ -56,8 +56,10 @@ class Claim(BaseModel):
         "call_to_action", "gambling", "bonus", "promise", "warning", "news", "education", "free_game"
     ]
     quote: str = Field(min_length=1, max_length=500)
-    source_id: str = Field(max_length=100)
+    source_id: str = Field(max_length=2048)
     explanation: str = Field(max_length=800)
+    start: int | None = Field(default=None, ge=0)
+    end: int | None = Field(default=None, ge=0)
 
 
 class ContextExtraction(BaseModel):

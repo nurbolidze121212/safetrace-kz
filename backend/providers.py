@@ -40,7 +40,7 @@ class GeminiProvider:
         ]
         images = (images or [])[:2]
         cache_key = digest(
-            "gemini-schema-1|" + model + "|" + payload + "|" + "|".join(digest(im) for im in images)
+            "gemini-schema-2|" + model + "|" + payload + "|" + "|".join(digest(im) for im in images)
         )
         found = cached(cache_key)
         if found:

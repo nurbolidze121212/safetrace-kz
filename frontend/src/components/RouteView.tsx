@@ -4,6 +4,7 @@ import type { Case } from '../types'
 import { date, edgeNames, methods } from '../lib'
 import { routePaths } from '../routes'
 import { Empty } from './UI'
+import RouteComparison from './RouteComparison'
 
 export default function RouteView({ current, onEvidence, onMaterial }: { current: Case; onEvidence: (ids: string[]) => void; onMaterial: (id: string) => void }) {
   const paths = routePaths(current.trace)
@@ -15,6 +16,7 @@ export default function RouteView({ current, onEvidence, onMaterial }: { current
   const materials = current.materials.filter(m => materialIds.has(m.id))
   return <section className="route-workspace">
     <header className="workspace-heading"><div><h2>Путь от материала к назначению</h2><p>Каждый шаг построен по сохраненной связи. Выберите наблюдение, чтобы проверить источник.</p></div><span className="badge">{current.trace.observations.length} наблюдений</span></header>
+    <RouteComparison current={current} />
     {paths.length > 1 && <div className="route-picker"><label>Маршрут<select aria-label="Выбрать маршрут" value={selectedIndex} onChange={e => setSelected(Number(e.target.value))}>{paths.map((p, i) => <option key={i} value={i}>Маршрут {i + 1} · {p.root} · {p.steps.length} шагов</option>)}</select></label></div>}
     {!path ? <Empty title="Проверенных маршрутов пока нет"><p>Добавьте ссылку или проверьте ограничения анализа.</p></Empty> : <div className="route-story">
       <div className="route-origin"><span className="route-icon"><FileText size={20} /></span><div><h3>Исходный материал</h3>{materials.length ? materials.map(m => <button className="text-button" key={m.id} onClick={() => onMaterial(m.id)}>{m.source} <ArrowUpRight size={15} /></button>) : <p>Ссылка из загруженных материалов</p>}</div></div>

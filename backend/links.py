@@ -177,7 +177,13 @@ def visible_html(body, base_url):
 
 
 def extract_urls(text):
-    return list(dict.fromkeys(re.findall(r"https?://[^\s<>\"'«»]+", text)))[:12]
+    urls = []
+    for value in re.findall(r"https?://[^\s<>\"'«»]+", text):
+        value = value.rstrip(".,;!")
+        while value.endswith(")") and value.count(")") > value.count("("):
+            value = value[:-1]
+        urls.append(value)
+    return list(dict.fromkeys(urls))[:12]
 
 
 def identifiers(url):
@@ -200,7 +206,7 @@ def identifiers(url):
 
 
 def trace(urls, fetch=live_fetch, cancelled=lambda: False):
-    queue = deque((u.rstrip(".,;!)"), 0, None, "contains_link", u, ()) for u in urls[:12])
+    queue = deque((u, 0, None, "contains_link", u, ()) for u in urls[:12])
     seen, observations, relations = {}, [], []
     started, requests = time.monotonic(), 0
     while queue and len(observations) < MAX_REQUESTS and requests < MAX_REQUESTS:

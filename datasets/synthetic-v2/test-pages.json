@@ -1,0 +1,660 @@
+{
+  "https://tcc7cb418c1.test/room/a83925?ref=FA41F0FC": {
+    "status": 200,
+    "body": "<h1>DEMO · зал ef072</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t1eec87fdbe.test/room/5e9b16?ref=FF62D12F": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 39957</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://taa2d53bd5d.test/room/bc3489?ref=FEB38C54": {
+    "status": 200,
+    "body": "<h1>DEMO · зал f8af1</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://tbedfeeb2b4.test/room/7380f8?ref=FAC8B18F": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 6172c</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t070e7b4a9b.test/room/e40f5e?ref=FC1E8B75": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 6006e</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t3a34af7a77.test/room/5142f9?ref=F55195F1": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 70b3b</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t6bb8ddb50e.test/room/ba5a71?ref=F6EF756F": {
+    "status": 200,
+    "body": "<h1>DEMO · зал f53f0</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t1ec57770f1.test/room/d325b2?ref=F04E9890": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 9e686</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://tcc33b37b31.test/room/ae8e16?ref=F6307AC2": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 51a34</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://tcc33b37b31.test/entry/b26b96": {
+    "status": 307,
+    "headers": {
+      "location": "https://tcc33b37b31.test/move/9ae2ad"
+    }
+  },
+  "https://tcc33b37b31.test/move/9ae2ad": {
+    "status": 200,
+    "body": "<p>DEMO. Информация участнику.</p><a href=\"https://tcc33b37b31.test/room/ae8e16?ref=F6307AC2\">Следующая карточка</a>"
+  },
+  "https://t48397dd767.test/room/f9e80a?ref=FB0B688F": {
+    "status": 200,
+    "body": "<h1>DEMO · зал c9218</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t2e3a345ad2.test/room/49e5fa?ref=FF78217D": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 91b2c</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t2e3a345ad2.test/entry/3d7fe4": {
+    "status": 307,
+    "headers": {
+      "location": "https://t2e3a345ad2.test/room/49e5fa?ref=FF78217D"
+    }
+  },
+  "https://t6b18be8f53.test/room/7b24fe?ref=FD349204": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 4c87e</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t6b18be8f53.test/entry/b5f321": {
+    "status": 307,
+    "headers": {
+      "location": "https://t6b18be8f53.test/room/7b24fe?ref=FD349204"
+    }
+  },
+  "https://tbea8bb1f36.test/room/5b5295?ref=F1E843B2": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 1e2cb</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://tbea8bb1f36.test/entry/6f3900": {
+    "status": 307,
+    "headers": {
+      "location": "https://tbea8bb1f36.test/move/ed30f1"
+    }
+  },
+  "https://tbea8bb1f36.test/move/ed30f1": {
+    "status": 200,
+    "body": "<p>DEMO. Информация участнику.</p><a href=\"https://tbea8bb1f36.test/room/5b5295?ref=F1E843B2\">Следующая карточка</a>"
+  },
+  "https://tce590b63c3.test/room/389687?ref=F487FDA6": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 09184</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://tce590b63c3.test/entry/687fe5": {
+    "status": 307,
+    "headers": {
+      "location": "https://tce590b63c3.test/room/389687?ref=F487FDA6"
+    }
+  },
+  "https://t9fdd3ddc53.test/room/edd2e0?ref=FA4EDCFE": {
+    "status": 200,
+    "body": "<h1>DEMO · зал a0ff4</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t9fdd3ddc53.test/entry/b58028": {
+    "status": 307,
+    "headers": {
+      "location": "https://t9fdd3ddc53.test/room/edd2e0?ref=FA4EDCFE"
+    }
+  },
+  "https://t1ab3e2e538.test/room/e11d1d?ref=FE4FD027": {
+    "status": 200,
+    "body": "<h1>DEMO · зал ba9c2</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t1ab3e2e538.test/entry/9fe762": {
+    "status": 307,
+    "headers": {
+      "location": "https://t1ab3e2e538.test/room/e11d1d?ref=FE4FD027"
+    }
+  },
+  "https://t2cb5eaf0a9.test/room/f30abb?ref=F11A218A": {
+    "status": 200,
+    "body": "<h1>DEMO · зал c1a85</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t2cb5eaf0a9.test/entry/94554b": {
+    "status": 307,
+    "headers": {
+      "location": "https://t2cb5eaf0a9.test/move/ad527a"
+    }
+  },
+  "https://t2cb5eaf0a9.test/move/ad527a": {
+    "status": 200,
+    "body": "<p>DEMO. Информация участнику.</p><a href=\"https://t2cb5eaf0a9.test/room/f30abb?ref=F11A218A\">Следующая карточка</a>"
+  },
+  "https://t019996b258.test/room/0cb3d6?ref=F593E6FF": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 5b768</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t019996b258.test/entry/d80747": {
+    "status": 307,
+    "headers": {
+      "location": "https://t019996b258.test/room/0cb3d6?ref=F593E6FF"
+    }
+  },
+  "https://t6b360b864c.test/room/5bd2c4?ref=F4FFC647": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 486a1</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t6b360b864c.test/entry/8c6902": {
+    "status": 307,
+    "headers": {
+      "location": "https://t6b360b864c.test/room/5bd2c4?ref=F4FFC647"
+    }
+  },
+  "https://tbd43411a20.test/room/3a46a5?ref=F27C1B56": {
+    "status": 200,
+    "body": "<h1>DEMO · зал af0a2</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://tbd43411a20.test/entry/27a666": {
+    "status": 307,
+    "headers": {
+      "location": "https://tbd43411a20.test/room/3a46a5?ref=F27C1B56"
+    }
+  },
+  "https://t6f38c6e81e.test/room/d2f897?ref=F4A0C014": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 05a20</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t6f38c6e81e.test/entry/1948f0": {
+    "status": 307,
+    "headers": {
+      "location": "https://t6f38c6e81e.test/move/caed01"
+    }
+  },
+  "https://t6f38c6e81e.test/move/caed01": {
+    "status": 200,
+    "body": "<p>DEMO. Информация участнику.</p><a href=\"https://t6f38c6e81e.test/move/15476e\">Следующая карточка</a>"
+  },
+  "https://t6f38c6e81e.test/move/15476e": {
+    "status": 302,
+    "headers": {
+      "location": "https://t6f38c6e81e.test/room/d2f897?ref=F4A0C014"
+    }
+  },
+  "https://t8256c5266d.test/room/8b9bc7?ref=FB5D2353": {
+    "status": 200,
+    "body": "<h1>DEMO · зал ccb2d</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t8256c5266d.test/entry/c87660": {
+    "status": 307,
+    "headers": {
+      "location": "https://t8256c5266d.test/move/988e80"
+    }
+  },
+  "https://t8256c5266d.test/move/988e80": {
+    "status": 200,
+    "body": "<p>DEMO. Информация участнику.</p><a href=\"https://t8256c5266d.test/move/8672e7\">Следующая карточка</a>"
+  },
+  "https://t8256c5266d.test/move/8672e7": {
+    "status": 302,
+    "headers": {
+      "location": "https://t8256c5266d.test/move/dc0932"
+    }
+  },
+  "https://t8256c5266d.test/move/dc0932": {
+    "status": 200,
+    "body": "<p>DEMO. Информация участнику.</p><a href=\"https://t8256c5266d.test/room/8b9bc7?ref=FB5D2353\">Следующая карточка</a>"
+  },
+  "https://t6e84682ca2.test/room/9baa40?ref=F6EA85A2": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 9a2bf</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t6e84682ca2.test/entry/246092": {
+    "status": 307,
+    "headers": {
+      "location": "https://t6e84682ca2.test/move/daedfe"
+    }
+  },
+  "https://t6e84682ca2.test/move/daedfe": {
+    "status": 200,
+    "body": "<p>DEMO. Информация участнику.</p><a href=\"https://t6e84682ca2.test/move/fa1e6a\">Следующая карточка</a>"
+  },
+  "https://t6e84682ca2.test/move/fa1e6a": {
+    "status": 302,
+    "headers": {
+      "location": "https://t6e84682ca2.test/room/9baa40?ref=F6EA85A2"
+    }
+  },
+  "https://t519e58f5fd.test/room/4f9ac9?ref=F709B775": {
+    "status": 200,
+    "body": "<h1>DEMO · зал afa86</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t519e58f5fd.test/entry/2f83ba": {
+    "status": 307,
+    "headers": {
+      "location": "https://t519e58f5fd.test/move/79e07e"
+    }
+  },
+  "https://t519e58f5fd.test/move/79e07e": {
+    "status": 200,
+    "body": "<p>DEMO. Информация участнику.</p><a href=\"https://t519e58f5fd.test/room/4f9ac9?ref=F709B775\">Следующая карточка</a>"
+  },
+  "https://tc00411c15a.test/room/1246fb?ref=FB4D0BFE": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 39a18</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://tc00411c15a.test/entry/43b5a5": {
+    "status": 307,
+    "headers": {
+      "location": "https://tc00411c15a.test/move/27bbb5"
+    }
+  },
+  "https://tc00411c15a.test/move/27bbb5": {
+    "status": 200,
+    "body": "<p>DEMO. Информация участнику.</p><a href=\"https://tc00411c15a.test/move/98fe56\">Следующая карточка</a>"
+  },
+  "https://tc00411c15a.test/move/98fe56": {
+    "status": 302,
+    "headers": {
+      "location": "https://tc00411c15a.test/room/1246fb?ref=FB4D0BFE"
+    }
+  },
+  "https://tac15a8aa17.test/room/d5cdf0?ref=FC73F164": {
+    "status": 200,
+    "body": "<h1>DEMO · зал e0100</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://tac15a8aa17.test/entry/c54fb4": {
+    "status": 307,
+    "headers": {
+      "location": "https://tac15a8aa17.test/move/f0c71b"
+    }
+  },
+  "https://tac15a8aa17.test/move/f0c71b": {
+    "status": 200,
+    "body": "<p>DEMO. Информация участнику.</p><a href=\"https://tac15a8aa17.test/move/0821a1\">Следующая карточка</a>"
+  },
+  "https://tac15a8aa17.test/move/0821a1": {
+    "status": 302,
+    "headers": {
+      "location": "https://tac15a8aa17.test/move/c8f0b6"
+    }
+  },
+  "https://tac15a8aa17.test/move/c8f0b6": {
+    "status": 200,
+    "body": "<p>DEMO. Информация участнику.</p><a href=\"https://tac15a8aa17.test/room/d5cdf0?ref=FC73F164\">Следующая карточка</a>"
+  },
+  "https://t22d7057d06.test/room/6399f2?ref=FE8F27AE": {
+    "status": 200,
+    "body": "<h1>DEMO · зал eac17</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t22d7057d06.test/entry/0d033b": {
+    "status": 307,
+    "headers": {
+      "location": "https://t22d7057d06.test/move/b8c690"
+    }
+  },
+  "https://t22d7057d06.test/move/b8c690": {
+    "status": 200,
+    "body": "<p>DEMO. Информация участнику.</p><a href=\"https://t22d7057d06.test/move/c0c1aa\">Следующая карточка</a>"
+  },
+  "https://t22d7057d06.test/move/c0c1aa": {
+    "status": 302,
+    "headers": {
+      "location": "https://t22d7057d06.test/room/6399f2?ref=FE8F27AE"
+    }
+  },
+  "https://t59545cd1b7.test/room/5be340?ref=FBCCFD30": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 3d523</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t59545cd1b7.test/entry/717a8e": {
+    "status": 307,
+    "headers": {
+      "location": "https://t59545cd1b7.test/room/5be340?ref=FBCCFD30"
+    }
+  },
+  "https://t34fafb82af.test/room/11b749?ref=F6337B95": {
+    "status": 200,
+    "body": "<h1>DEMO · зал dfb23</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t34fafb82af.test/entry/385699": {
+    "status": 307,
+    "headers": {
+      "location": "https://t34fafb82af.test/room/11b749?ref=F6337B95"
+    }
+  },
+  "https://t648b4c789a.test/room/654ae2?ref=F7AA831A": {
+    "status": 200,
+    "body": "<h1>DEMO · зал f7aa1</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t424dca126f.test/room/4f3b82?ref=F9F0B658": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 72d0c</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t3e3a0d8719.test/room/9c0728?ref=F8182169": {
+    "status": 200,
+    "body": "<h1>DEMO · зал e4af1</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://tc6dc5f9b6c.test/room/c61675?ref=F1FD264B": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 41262</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://tc6dc5f9b6c.test/entry/38bfdc": {
+    "status": 307,
+    "headers": {
+      "location": "https://tc6dc5f9b6c.test/room/c61675?ref=F1FD264B"
+    }
+  },
+  "https://t2f6d0c3884.test/room/912546?ref=FF11730F": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 4e4a9</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t2f6d0c3884.test/entry/b043f5": {
+    "status": 307,
+    "headers": {
+      "location": "https://t2f6d0c3884.test/room/912546?ref=FF11730F"
+    }
+  },
+  "https://tc24f53e2c4.test/room/8e0d37?ref=FC9E41ED": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 3384f</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://tc24f53e2c4.test/entry/5d136a": {
+    "status": 307,
+    "headers": {
+      "location": "https://tc24f53e2c4.test/room/8e0d37?ref=FC9E41ED"
+    }
+  },
+  "https://t0b8858c833.test/room/83c368?ref=FCF78F75": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 2a83f</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://tcb228688b9.test/room/1f8657?ref=F968492C": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 8b208</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://tcb228688b9.test/entry/6bdbe3": {
+    "status": 307,
+    "headers": {
+      "location": "https://tcb228688b9.test/room/1f8657?ref=F968492C"
+    }
+  },
+  "https://t58f250b1eb.test/room/c47b50?ref=FC32EAF9": {
+    "status": 200,
+    "body": "<h1>DEMO · зал ee6b5</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t58f250b1eb.test/entry/346df0": {
+    "status": 307,
+    "headers": {
+      "location": "https://t58f250b1eb.test/room/c47b50?ref=FC32EAF9"
+    }
+  },
+  "https://t1eacb7c2f0.test/room/6578c5?ref=F2744F6E": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 2ce93</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t1eacb7c2f0.test/entry/6fb8d0": {
+    "status": 307,
+    "headers": {
+      "location": "https://t1eacb7c2f0.test/room/6578c5?ref=F2744F6E"
+    }
+  },
+  "https://t63b6f609e5.test/room/f3e770?ref=F3168FE9": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 11cb3</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t63b6f609e5.test/entry/1f6ff4": {
+    "status": 307,
+    "headers": {
+      "location": "https://t63b6f609e5.test/move/3c3da7"
+    }
+  },
+  "https://t63b6f609e5.test/move/3c3da7": {
+    "status": 200,
+    "body": "<p>DEMO. Информация участнику.</p><a href=\"https://t63b6f609e5.test/room/f3e770?ref=F3168FE9\">Следующая карточка</a>"
+  },
+  "https://t926b7c4c6a.test/room/3e6816?ref=F24AEFC1": {
+    "status": 200,
+    "body": "<h1>DEMO · зал a5f6f</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t926b7c4c6a.test/entry/f0e224": {
+    "status": 307,
+    "headers": {
+      "location": "https://t926b7c4c6a.test/room/3e6816?ref=F24AEFC1"
+    }
+  },
+  "https://td5c6d6aee2.test/room/edcf5c?ref=FD033EE7": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 0126a</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://td5c6d6aee2.test/entry/d7dfcd": {
+    "status": 307,
+    "headers": {
+      "location": "https://td5c6d6aee2.test/room/edcf5c?ref=FD033EE7"
+    }
+  },
+  "https://t3b0ee1533e.test/room/bf50bd?ref=FA2D45B9": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 9266f</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t3b0ee1533e.test/entry/b56f59": {
+    "status": 307,
+    "headers": {
+      "location": "https://t3b0ee1533e.test/room/bf50bd?ref=FA2D45B9"
+    }
+  },
+  "https://tdd83ace831.test/room/a3ca4f?ref=F0BA932C": {
+    "status": 200,
+    "body": "<h1>DEMO · зал fdeb1</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://tdd83ace831.test/entry/1fe044": {
+    "status": 307,
+    "headers": {
+      "location": "https://tdd83ace831.test/room/a3ca4f?ref=F0BA932C"
+    }
+  },
+  "https://t3f0b7a1b9f.test/room/2dea62?ref=F17840F7": {
+    "status": 200,
+    "body": "<h1>DEMO · зал b89a0</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t3f0b7a1b9f.test/entry/1f3153": {
+    "status": 307,
+    "headers": {
+      "location": "https://t3f0b7a1b9f.test/move/ee0dc5"
+    }
+  },
+  "https://t3f0b7a1b9f.test/move/ee0dc5": {
+    "status": 200,
+    "body": "<p>DEMO. Информация участнику.</p><a href=\"https://t3f0b7a1b9f.test/room/2dea62?ref=F17840F7\">Следующая карточка</a>"
+  },
+  "https://te0ff11762c.test/room/486523?ref=F8F08906": {
+    "status": 200,
+    "body": "<h1>DEMO · зал c942c</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://te0ff11762c.test/entry/234e8d": {
+    "status": 307,
+    "headers": {
+      "location": "https://te0ff11762c.test/room/486523?ref=F8F08906"
+    }
+  },
+  "https://t606484c11c.test/room/bd4bfa?ref=FB78D882": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 53ba0</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t606484c11c.test/entry/b08653": {
+    "status": 307,
+    "headers": {
+      "location": "https://t606484c11c.test/room/bd4bfa?ref=FB78D882"
+    }
+  },
+  "https://t1f5e606148.test/room/e699be?ref=FC87511A": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 9e134</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t1f5e606148.test/entry/d6bf0b": {
+    "status": 307,
+    "headers": {
+      "location": "https://t1f5e606148.test/room/e699be?ref=FC87511A"
+    }
+  },
+  "https://t3e7e3c12b4.test/room/9a99ec?ref=FAEE37F7": {
+    "status": 200,
+    "body": "<h1>DEMO · центр a7222</h1><p>Книжный клуб, одежда, учебные курсы. Программа подарков постоянным посетителям. Обычная торговля без денежных игр.</p>"
+  },
+  "https://t3e7e3c12b4.test/entry/79b498": {
+    "status": 307,
+    "headers": {
+      "location": "https://t3e7e3c12b4.test/room/9a99ec?ref=FAEE37F7"
+    }
+  },
+  "https://t67f57a88e8.test/room/15583d?ref=FED4571D": {
+    "status": 200,
+    "body": "<h1>DEMO · центр b5ce8</h1><p>Книжный клуб, одежда, учебные курсы. Программа подарков постоянным посетителям. Обычная торговля без денежных игр.</p>"
+  },
+  "https://t67f57a88e8.test/entry/623b10": {
+    "status": 307,
+    "headers": {
+      "location": "https://t67f57a88e8.test/room/15583d?ref=FED4571D"
+    }
+  },
+  "https://t26cf739adf.test/room/a8cb55?ref=F5637608": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 54a41</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t68917da75e.test/room/685f35?ref=F5C3E0A1": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 58fbb</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://t68917da75e.test/entry/ec0561": {
+    "status": 307,
+    "headers": {
+      "location": "https://t68917da75e.test/room/685f35?ref=F5C3E0A1"
+    }
+  },
+  "https://tb0a9867103.test/room/1c64b0?ref=F1F35E0B": {
+    "status": 200,
+    "body": "<h1>DEMO · зал 9e265</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://tb0a9867103.test/entry/b6f650": {
+    "status": 307,
+    "headers": {
+      "location": "https://tb0a9867103.test/room/1c64b0?ref=F1F35E0B"
+    }
+  },
+  "https://t399036d876.test/room/c16910?ref=FC634D4B": {
+    "status": 200,
+    "body": "<h1>DEMO · зал e01a1</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://taac47eeb17.test/room/46a6d8?ref=F843235B": {
+    "status": 200,
+    "body": "<h1>DEMO · зал ba568</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://teed0ae1128.test/room/46556a?ref=F931BF0F": {
+    "status": 200,
+    "body": "<h1>DEMO · центр f6110</h1><p>Книжный клуб, одежда, учебные курсы. Программа подарков постоянным посетителям. Обычная торговля без денежных игр.</p>"
+  },
+  "https://teed0ae1128.test/entry/f8d075": {
+    "status": 307,
+    "headers": {
+      "location": "https://teed0ae1128.test/room/46556a?ref=F931BF0F"
+    }
+  },
+  "https://td0f7cb2a04.test/room/b1ce68?ref=FA14A666": {
+    "status": 200,
+    "body": "<h1>DEMO · зал f095a</h1><p>Каталог развлечений: казино, рулетка и слоты. Бонус на первый игровой вечер. Денежные операции здесь не реализованы.</p>"
+  },
+  "https://td0fdd3c0c3.test/room/ccc8b3?ref=FF9E8A29": {
+    "status": 200,
+    "body": "<h1>DEMO · центр 0afa7</h1><p>Книжный клуб, одежда, учебные курсы. Программа подарков постоянным посетителям. Обычная торговля без денежных игр.</p>"
+  },
+  "https://td0fdd3c0c3.test/entry/da4ea9": {
+    "status": 307,
+    "headers": {
+      "location": "https://td0fdd3c0c3.test/room/ccc8b3?ref=FF9E8A29"
+    }
+  },
+  "https://ta12b88690e.test/room/901f08?ref=F88744C4": {
+    "status": 200,
+    "body": "<h1>DEMO · центр 0e75d</h1><p>Книжный клуб, одежда, учебные курсы. Программа подарков постоянным посетителям. Обычная торговля без денежных игр.</p>"
+  },
+  "https://ta12b88690e.test/entry/33ba64": {
+    "status": 307,
+    "headers": {
+      "location": "https://ta12b88690e.test/room/901f08?ref=F88744C4"
+    }
+  },
+  "https://tfa34181134.test/room/689672?ref=F58CC2FC": {
+    "status": 200,
+    "body": "<h1>DEMO · центр 8b9c2</h1><p>Книжный клуб, одежда, учебные курсы. Программа подарков постоянным посетителям. Обычная торговля без денежных игр.</p>"
+  },
+  "https://tfa34181134.test/entry/f0a129": {
+    "status": 307,
+    "headers": {
+      "location": "https://tfa34181134.test/room/689672?ref=F58CC2FC"
+    }
+  },
+  "https://t466f1e1d03.test/room/882a28?ref=F6EBE5C3": {
+    "status": 200,
+    "body": "<h1>DEMO · центр 2abca</h1><p>Книжный клуб, одежда, учебные курсы. Программа подарков постоянным посетителям. Обычная торговля без денежных игр.</p>"
+  },
+  "https://t27242b7610.test/room/3d98fe?ref=FC721539": {
+    "status": 200,
+    "body": "<h1>DEMO · центр 59605</h1><p>Книжный клуб, одежда, учебные курсы. Программа подарков постоянным посетителям. Обычная торговля без денежных игр.</p>"
+  },
+  "https://t45883b5565.test/room/f6464d?ref=FD842540": {
+    "status": 200,
+    "body": "<h1>DEMO · центр 27eff</h1><p>Книжный клуб, одежда, учебные курсы. Программа подарков постоянным посетителям. Обычная торговля без денежных игр.</p>"
+  },
+  "https://t09baabc4b0.test/room/ee7668?ref=F05013C1": {
+    "status": 200,
+    "body": "<h1>DEMO · центр ce9e7</h1><p>Книжный клуб, одежда, учебные курсы. Программа подарков постоянным посетителям. Обычная торговля без денежных игр.</p>"
+  },
+  "https://tb9280f7b2a.test/room/617973?ref=FE4D0DDB": {
+    "status": 200,
+    "body": "<h1>DEMO · центр d00d1</h1><p>Книжный клуб, одежда, учебные курсы. Программа подарков постоянным посетителям. Обычная торговля без денежных игр.</p>"
+  },
+  "https://tbee5038a4a.test/room/d1f69c?ref=FC788BE1": {
+    "status": 200,
+    "body": "<h1>DEMO · центр 3b091</h1><p>Книжный клуб, одежда, учебные курсы. Программа подарков постоянным посетителям. Обычная торговля без денежных игр.</p>"
+  },
+  "https://tbee5038a4a.test/entry/8b49c5": {
+    "status": 307,
+    "headers": {
+      "location": "https://tbee5038a4a.test/room/d1f69c?ref=FC788BE1"
+    }
+  },
+  "https://t0a8d63e83d.test/room/243e1b?ref=F4623B5B": {
+    "status": 200,
+    "body": "<h1>DEMO · центр 6d2c0</h1><p>Книжный клуб, одежда, учебные курсы. Программа подарков постоянным посетителям. Обычная торговля без денежных игр.</p>"
+  },
+  "https://t0a8d63e83d.test/entry/c4ee99": {
+    "status": 307,
+    "headers": {
+      "location": "https://t0a8d63e83d.test/room/243e1b?ref=F4623B5B"
+    }
+  },
+  "https://te40c05d373.test/room/b75479?ref=F2A9E9BC": {
+    "status": 200,
+    "body": "<h1>DEMO · практикум f9216</h1><p>Бесплатный симулятор. Учебная рулетка без ставок, деньги не используются. Жетоны занятия не имеют стоимости.</p>"
+  },
+  "https://te40c05d373.test/entry/be43f1": {
+    "status": 307,
+    "headers": {
+      "location": "https://te40c05d373.test/room/b75479?ref=F2A9E9BC"
+    }
+  },
+  "https://t95541f459c.test/room/c49496?ref=FA614065": {
+    "status": 200,
+    "body": "<h1>DEMO · практикум 1dd67</h1><p>Бесплатный симулятор. Учебная рулетка без ставок, деньги не используются. Жетоны занятия не имеют стоимости.</p>"
+  },
+  "https://t95541f459c.test/entry/5b9f20": {
+    "status": 307,
+    "headers": {
+      "location": "https://t95541f459c.test/room/c49496?ref=FA614065"
+    }
+  },
+  "https://t785a7a022a.test/room/acfa1a?ref=FF29B9B5": {
+    "status": 200,
+    "body": "<h1>DEMO · практикум 0ef44</h1><p>Бесплатный симулятор. Учебная рулетка без ставок, деньги не используются. Жетоны занятия не имеют стоимости.</p>"
+  },
+  "https://t426d171b63.test/room/161de7?ref=FFEEC8F6": {
+    "status": 200,
+    "body": "<h1>DEMO · практикум 4e3e2</h1><p>Бесплатный симулятор. Учебная рулетка без ставок, деньги не используются. Жетоны занятия не имеют стоимости.</p>"
+  }
+}

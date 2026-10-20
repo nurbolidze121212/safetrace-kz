@@ -1,4 +1,5 @@
 """One-time preservation of the frozen v1 sources and measured results."""
+
 import hashlib
 import json
 import zipfile
@@ -41,7 +42,11 @@ def main():
         "purpose": "Historical frozen result; test-v1 is a regression set for later configurations.",
         "source_hash_count": len(frozen["hashes"]),
         "archive_sha256": hashlib.sha256(archive.read_bytes()).hexdigest(),
-        "report_hashes": {Path(n).name: hashlib.sha256((ROOT / n).read_bytes()).hexdigest() for n in REPORTS if (ROOT / n).is_file()},
+        "report_hashes": {
+            Path(n).name: hashlib.sha256((ROOT / n).read_bytes()).hexdigest()
+            for n in REPORTS
+            if (ROOT / n).is_file()
+        },
     }
     (DEST / "archive-manifest.json").write_text(json.dumps(meta, indent=2), encoding="utf-8")
     print(f"Preserved {len(frozen['hashes'])} frozen files and historical reports in {archive}")

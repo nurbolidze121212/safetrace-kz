@@ -1,0 +1,278 @@
+{
+  "https://n792f85a467.test/space/e00d29?ref=K4A03FB": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://n60b308010a.test/space/5efe5d?ref=KB9A83E": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://na2ad07a0ca.test/space/6c4a74?ref=KDB0E7F": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://n56a9090187.test/space/fdf6ef?ref=K9B2EF8": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://n56a9090187.test/visit/21cc9d": {
+    "status": 302,
+    "headers": {
+      "location": "https://n56a9090187.test/space/fdf6ef?ref=K9B2EF8"
+    }
+  },
+  "https://n1df2c22e6a.test/space/0cfde0?ref=KF09F55": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://n1df2c22e6a.test/visit/352170": {
+    "status": 302,
+    "headers": {
+      "location": "https://n1df2c22e6a.test/space/0cfde0?ref=KF09F55"
+    }
+  },
+  "https://n45a9bc8d87.test/space/9aea81?ref=KF548BE": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://n45a9bc8d87.test/visit/77abdf": {
+    "status": 302,
+    "headers": {
+      "location": "https://n45a9bc8d87.test/space/9aea81?ref=KF548BE"
+    }
+  },
+  "https://n4ba0361355.test/space/c4970d?ref=K0880F6": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://n4ba0361355.test/visit/1df76b": {
+    "status": 302,
+    "headers": {
+      "location": "https://n4ba0361355.test/step/85b840"
+    }
+  },
+  "https://n4ba0361355.test/step/85b840": {
+    "status": 200,
+    "body": "<p>DEMO. Условия предложения.</p><a href=\"https://n4ba0361355.test/step/30b504\">Открыть карточку</a>"
+  },
+  "https://n4ba0361355.test/step/30b504": {
+    "status": 302,
+    "headers": {
+      "location": "https://n4ba0361355.test/space/c4970d?ref=K0880F6"
+    }
+  },
+  "https://n046d77035b.test/space/cb5ae0?ref=K3C2FFA": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://n046d77035b.test/visit/0a7639": {
+    "status": 302,
+    "headers": {
+      "location": "https://n046d77035b.test/step/d2e191"
+    }
+  },
+  "https://n046d77035b.test/step/d2e191": {
+    "status": 200,
+    "body": "<p>DEMO. Условия предложения.</p><a href=\"https://n046d77035b.test/step/c6d235\">Открыть карточку</a>"
+  },
+  "https://n046d77035b.test/step/c6d235": {
+    "status": 302,
+    "headers": {
+      "location": "https://n046d77035b.test/space/cb5ae0?ref=K3C2FFA"
+    }
+  },
+  "https://n41ef5ae98c.test/space/d50f37?ref=KA580D7": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://nc542ece5ec.test/space/c279b4?ref=K70DD8D": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://nc542ece5ec.test/visit/a5881d": {
+    "status": 302,
+    "headers": {
+      "location": "https://nc542ece5ec.test/step/596700"
+    }
+  },
+  "https://nc542ece5ec.test/step/596700": {
+    "status": 200,
+    "body": "<p>DEMO. Условия предложения.</p><a href=\"https://nc542ece5ec.test/space/c279b4?ref=K70DD8D\">Открыть карточку</a>"
+  },
+  "https://nfba911d3fc.test/space/2b3c4f?ref=KFA20EC": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://n6980a4a9fb.test/space/542eee?ref=K706B60": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://nd3b949511d.test/space/ac21a7?ref=K9515D9": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://n1e893487a8.test/space/b98551?ref=K359F9D": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://n1e893487a8.test/visit/b278a9": {
+    "status": 302,
+    "headers": {
+      "location": "https://n1e893487a8.test/space/b98551?ref=K359F9D"
+    }
+  },
+  "https://n567a36ab63.test/space/f90164?ref=KF7597B": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://n567a36ab63.test/visit/9bba4c": {
+    "status": 302,
+    "headers": {
+      "location": "https://n567a36ab63.test/space/f90164?ref=KF7597B"
+    }
+  },
+  "https://n5c5849e5cb.test/space/62d29d?ref=K774C7C": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://n5c5849e5cb.test/visit/3beeb0": {
+    "status": 302,
+    "headers": {
+      "location": "https://n5c5849e5cb.test/space/62d29d?ref=K774C7C"
+    }
+  },
+  "https://n023c43d372.test/space/5d8974?ref=K9EEA1D": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://nef91ff113d.test/space/2b3e78?ref=K5293A3": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://n993a8f3355.test/space/bc866a?ref=KE79428": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://n993a8f3355.test/visit/fadff2": {
+    "status": 302,
+    "headers": {
+      "location": "https://n993a8f3355.test/space/bc866a?ref=KE79428"
+    }
+  },
+  "https://n0c5c5ea45e.test/space/ad3370?ref=K7519FC": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://n0c5c5ea45e.test/visit/e7a6a4": {
+    "status": 302,
+    "headers": {
+      "location": "https://n0c5c5ea45e.test/space/ad3370?ref=K7519FC"
+    }
+  },
+  "https://na829a39de4.test/space/95701f?ref=K821EB6": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://na829a39de4.test/visit/00b90f": {
+    "status": 302,
+    "headers": {
+      "location": "https://na829a39de4.test/space/95701f?ref=K821EB6"
+    }
+  },
+  "https://ne63218f362.test/space/3a7a66?ref=K3E6B7D": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://ne63218f362.test/visit/4574d7": {
+    "status": 302,
+    "headers": {
+      "location": "https://ne63218f362.test/space/3a7a66?ref=K3E6B7D"
+    }
+  },
+  "https://n517dcac85e.test/space/168ed8?ref=K01CFDA": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://na7011713b9.test/space/c0ba88?ref=KFB17CE": {
+    "status": 200,
+    "body": "<h1>DEMO: учебная игра</h1><p>Тегін ойын. Бесплатная рулетка без ставок, без вывода денег, с учебными жетонами.</p>"
+  },
+  "https://na7011713b9.test/visit/d64174": {
+    "status": 302,
+    "headers": {
+      "location": "https://na7011713b9.test/space/c0ba88?ref=KFB17CE"
+    }
+  },
+  "https://nffdc06bc21.test/space/b140f8?ref=K208090": {
+    "status": 200,
+    "body": "<h1>DEMO: учебная игра</h1><p>Тегін ойын. Бесплатная рулетка без ставок, без вывода денег, с учебными жетонами.</p>"
+  },
+  "https://nae2d5276f4.test/space/f15b5a?ref=K26F1D3": {
+    "status": 200,
+    "body": "<h1>DEMO: каталог</h1><p>Книги, одежда и обычные услуги. Бонус по программе магазина.</p>"
+  },
+  "https://nae2d5276f4.test/visit/5a0538": {
+    "status": 302,
+    "headers": {
+      "location": "https://nae2d5276f4.test/space/f15b5a?ref=K26F1D3"
+    }
+  },
+  "https://nb385af17ba.test/space/918ee3?ref=K269F28": {
+    "status": 200,
+    "body": "<h1>DEMO: каталог</h1><p>Книги, одежда и обычные услуги. Бонус по программе магазина.</p>"
+  },
+  "https://nb385af17ba.test/visit/8c31a4": {
+    "status": 302,
+    "headers": {
+      "location": "https://nb385af17ba.test/step/2ddce2"
+    }
+  },
+  "https://nb385af17ba.test/step/2ddce2": {
+    "status": 200,
+    "body": "<p>DEMO. Условия предложения.</p><a href=\"https://nb385af17ba.test/space/918ee3?ref=K269F28\">Открыть карточку</a>"
+  },
+  "https://n60d57807de.test/space/770159?ref=KDE3B39": {
+    "status": 200,
+    "body": "<h1>DEMO: каталог</h1><p>Книги, одежда и обычные услуги. Бонус по программе магазина.</p>"
+  },
+  "https://n60d57807de.test/visit/cff8fe": {
+    "status": 302,
+    "headers": {
+      "location": "https://n60d57807de.test/space/770159?ref=KDE3B39"
+    }
+  },
+  "https://nf1060e40c1.test/space/d55f1e?ref=K5F4718": {
+    "status": 200,
+    "body": "<h1>DEMO: каталог</h1><p>Книги, одежда и обычные услуги. Бонус по программе магазина.</p>"
+  },
+  "https://n9be5beb960.test/space/9efb6c?ref=K43A94E": {
+    "status": 200,
+    "body": "<h1>DEMO: каталог</h1><p>Книги, одежда и обычные услуги. Бонус по программе магазина.</p>"
+  },
+  "https://nc8b1d9ff18.test/space/256932?ref=K0EA4A5": {
+    "status": 200,
+    "body": "<h1>DEMO: каталог</h1><p>Книги, одежда и обычные услуги. Бонус по программе магазина.</p>"
+  },
+  "https://nac1039ef05.test/space/627896?ref=K737391": {
+    "status": 200,
+    "body": "<h1>DEMO: каталог</h1><p>Книги, одежда и обычные услуги. Бонус по программе магазина.</p>"
+  },
+  "https://n06624b2585.test/space/768d82?ref=KE7FD77": {
+    "status": 200,
+    "body": "<h1>DEMO: каталог</h1><p>Книги, одежда и обычные услуги. Бонус по программе магазина.</p>"
+  },
+  "https://n06624b2585.test/visit/73f775": {
+    "status": 302,
+    "headers": {
+      "location": "https://n06624b2585.test/space/768d82?ref=KE7FD77"
+    }
+  },
+  "https://nb82a089448.test/space/8f5fa3?ref=K3ABB19": {
+    "status": 200,
+    "body": "<h1>DEMO: развлекательный зал</h1><p>Казино: слоты, рулетка, фриспины. Бонус для новых игроков. Платежи отсутствуют.</p>"
+  },
+  "https://nc903df721e.test/space/813c44?ref=KF69FF7": {
+    "status": 200,
+    "body": "<h1>DEMO: каталог</h1><p>Книги, одежда и обычные услуги. Бонус по программе магазина.</p>"
+  }
+}

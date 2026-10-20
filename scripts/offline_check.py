@@ -1,5 +1,6 @@
 """Hermetic process check: outgoing socket operations are denied, real OCR still runs."""
 
+import argparse
 import json
 import os
 import socket
@@ -7,6 +8,9 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+parser = argparse.ArgumentParser()
+parser.add_argument("--report", default="reports/technical/offline-check.json")
+args = parser.parse_args()
 sys.path.insert(0, str(ROOT))
 os.environ["SAFETRACE_DATA_DIR"] = str(ROOT / "data" / "offline-check")
 os.environ["SAFETRACE_OFFLINE"] = "1"
@@ -57,5 +61,7 @@ report = {
     "observations": len(doc["trace"]["observations"]),
     "at": storage.now(),
 }
-(ROOT / "reports/technical/offline-check.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
+report_path = ROOT / args.report
+report_path.parent.mkdir(parents=True, exist_ok=True)
+report_path.write_text(json.dumps(report, indent=2), encoding="utf-8")
 print(json.dumps(report))

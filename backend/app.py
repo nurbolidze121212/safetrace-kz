@@ -9,8 +9,18 @@ from fastapi.responses import FileResponse, JSONResponse, Response
 from fastapi.staticfiles import StaticFiles
 from PIL import Image
 
-from . import pipeline, storage
-from .config import DATA, MAX_IMAGE, MODEL_DIR, ROOT, allowed_hosts, offline
+from . import evaluations, pipeline, storage
+from .config import (
+    DATA,
+    MAX_IMAGE,
+    MODEL_DIR,
+    OCR_VERSION,
+    QR_VERSION,
+    ROOT,
+    RULE_VERSION,
+    allowed_hosts,
+    offline,
+)
 from .exports import package
 from .graph import build_graph
 from .limits import BodyLimitMiddleware
@@ -26,7 +36,7 @@ async def lifespan(app):
     yield
 
 
-app = FastAPI(title="SafeTrace KZ", version="1.0.0", lifespan=lifespan)
+app = FastAPI(title="SafeTrace KZ", version="2.0.0", lifespan=lifespan)
 app.add_middleware(BodyLimitMiddleware)
 
 
@@ -74,6 +84,7 @@ def check_images(materials):
 def health():
     return {
         "status": "ok",
+        "versions": {"rules": RULE_VERSION, "ocr": OCR_VERSION, "qr": QR_VERSION},
         "provider_available": bool(os.getenv("GEMINI_API_KEY")) and not offline(),
         "model": os.getenv("GEMINI_MODEL", "gemini-3.8-flash"),
         "offline": offline(),
@@ -221,11 +232,11 @@ def export(case_id: str):
 
 
 @app.get("/api/evaluation")
-def evaluation():
-    path = ROOT / "reports" / "evaluation.json"
-    if not path.exists():
-        return {"available": False, "message": "Оценка еще не запускалась."}
-    return {"available": True, **json.loads(path.read_text(encoding="utf-8"))}
+def evaluation(version: str | None = None):
+    try:
+        return evaluations.read(ROOT, version)
+    except ValueError as exc:
+        raise HTTPException(404, str(exc)) from None
 
 
 DEMOS = [

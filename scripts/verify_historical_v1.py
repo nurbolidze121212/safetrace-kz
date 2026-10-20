@@ -1,4 +1,5 @@
 """Verify v1 against the preserved snapshot, independently of the working v2 core."""
+
 import hashlib
 import json
 import zipfile

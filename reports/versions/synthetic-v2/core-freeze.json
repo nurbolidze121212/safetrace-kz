@@ -1,0 +1,28 @@
+{
+  "at": "2026-10-20T20:48:26.544053+00:00",
+  "hashes": {
+    "backend/__init__.py": "cab7e34e197ae110487f67fb05f231deab0a474dab2e42cbe3b02825dd660767",
+    "backend/analysis.py": "bbf08dfc332f2cb392fadfa0fc7683805e76865c934a793d454f25e19099706a",
+    "backend/app.py": "1683e08e91c990729a47f1b3325f70b7990409c328ab3e2462ec2af2818452d5",
+    "backend/config.py": "b142bc9d6ae7c6569b7c8f3cf65d2365c8b062f203639e1e03191c49d6f61712",
+    "backend/evaluations.py": "647e0041bda49df051ed294c0aaea580279ccd8a9272fcef584d027d12a040d7",
+    "backend/exports.py": "f5aacdc85412e3125e09a6bd489c8ef292d967079eccd3d83b0b68b427e72ab3",
+    "backend/graph.py": "e27e5676a70a0d31f5513f017fb65b9e6aaf69fe780ca9f02ece76f5520872bc",
+    "backend/limits.py": "bc9b82ee5bdb10c6274300c075c7dae1c2baeb9a4b0bf6287358795394d9fcac",
+    "backend/links.py": "e919dac16d60d756715786bd7bb5e8565d0b5f540a24ef320c4c1b9464105749",
+    "backend/ocr.py": "cd6dda0581bd9f0e573294c64ce6ddc0ba64db4e54f52bc1864c31f93facf504",
+    "backend/pipeline.py": "f972c1c2c3ec9f69431c82350e5a8c04b73bb030170b275f4a6be0efda642f07",
+    "backend/providers.py": "c74e98525c60893b7350d425c6d36f0e90cf9312f1b42eec1c0b6e3ad210840d",
+    "backend/qr.py": "f4e4d2f9db9ac65f8e7d82d1874fe6df22ee9368f30a7f3a06395a68e412947f",
+    "backend/schemas.py": "8e94190e7d96f81decdb472124973ea0c8cfa7aa15cf626ae5f9e36812c9f899",
+    "backend/storage.py": "cc495b417fd533aaab13bce2e5009713f838d98cf449277c02d96764d3946f38",
+    "backend/weights.json": "0340efeb3bbde44b2b4187423f655c3f847aab78481512389f30dea4c20f5099",
+    "models-manifest.json": "d4bb3eb1be953003a32331066e3cc7876ceecc72a82fd9144360a621b590a9a0",
+    "requirements.lock.txt": "aadee977e8f609c9ef4cb528a18fbd3ea9506616dcbc4bb9802d625cc534f8df",
+    "scripts/evaluate_v2.py": "3281ae52e9436d4e2870aa8fcccc799d63aa7184d4b9ed61428951e100ba6473"
+  },
+  "rules": "rules-2.0",
+  "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+  "qr": "qr-1.0",
+  "threshold": 65
+}

@@ -12,7 +12,7 @@ function readRoute() {
   const hash = window.location.hash.slice(1)
   const [path, query] = hash.split('?')
   const id = path.match(/^case\/([a-f0-9]{32})$/)?.[1]
-  return { page: id ? 'case' : path === 'evaluation' ? 'evaluation' : 'queue', id, view: new URLSearchParams(query).get('view') || 'materials' }
+  return { page: id ? 'case' : path === 'evaluation' ? 'evaluation' : 'queue', id, view: new URLSearchParams(query).get('view') || 'materials', evaluationVersion: new URLSearchParams(query).get('version') || '' }
 }
 export default function App() {
   const [route, setRoute] = useState(readRoute)
@@ -61,9 +61,9 @@ export default function App() {
   useEffect(() => {
     if (route.page !== 'evaluation') return
     let stopped = false
-    void api<Evaluation>('/evaluation').then(d => { if (!stopped) setEvaluation(d) }).catch(e => { if (!stopped) setError(errorMessage(e)) })
+    void api<Evaluation>('/evaluation' + (route.evaluationVersion ? '?version=' + encodeURIComponent(route.evaluationVersion) : '')).then(d => { if (!stopped) setEvaluation(d) }).catch(e => { if (!stopped) setError(errorMessage(e)) })
     return () => { stopped = true }
-  }, [route.page])
+  }, [route.page, route.evaluationVersion])
   async function run(action: () => Promise<void>) {
     setBusy(true); setError('')
     try { await action() } catch (e) { setError(errorMessage(e)) } finally { setBusy(false) }
@@ -93,7 +93,7 @@ export default function App() {
         {error && <div className="alert error" role="alert"><span>{error}</span><button className="icon-button" aria-label="Закрыть ошибку" onClick={() => setError('')}><X size={18} /></button></div>}
         {route.page === 'queue' && (ready ? <QueueView cases={cases} demos={demos} busy={busy} onCreate={() => setForm('create')} onOpen={open} onDemo={(id, replay = false) => void run(async () => { const result = await post<{ id: string }>('/demos/' + id + '?replay=' + replay); open(result.id); await reload() })} onImport={file => void run(async () => { const body = new FormData(); body.append('file', file); const result = await api<{ id: string }>('/import', { method: 'POST', body }); open(result.id); await reload() })} /> : <Loading>Загрузка очереди…</Loading>)}
         {route.page === 'case' && (current && current.id === route.id ? <CaseWorkspace key={current.id} current={current} view={route.view} busy={busy} onView={view => navigate('case/' + current.id + '?view=' + view)} onBack={() => navigate('queue')} onOpen={open} onAdd={() => setForm('add')} onRetry={() => void run(async () => { await post('/cases/' + current.id + (isActive(current.status) ? '/cancel' : '/retry')); await refreshCase(current.id); await reload() })} onDecision={async (decision, comment) => { await post('/cases/' + current.id + '/decision', { decision, comment }); await refreshCase(current.id); await reload() }} /> : <Loading>Загрузка случая…</Loading>)}
-        {route.page === 'evaluation' && <EvaluationView data={evaluation} />}
+        {route.page === 'evaluation' && <EvaluationView data={!route.evaluationVersion || evaluation?.evaluation_id === route.evaluationVersion ? evaluation : undefined} onVersion={version => navigate('evaluation?version=' + encodeURIComponent(version))} />}
         <footer className="app-footer"><span>SafeTrace KZ · рабочая среда аналитика</span><a href="#evaluation">Методика и ограничения <ArrowUpRight size={14} /></a></footer>
       </main>
     </div>

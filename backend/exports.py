@@ -46,6 +46,12 @@ def package(doc):
             body.append(
                 f"<h3>OCR ({esc(material['ocr']['model'])})</h3><pre>{esc(material['ocr']['text'])}</pre>"
             )
+        if material.get("qr", {}).get("codes"):
+            body.append(
+                "<h3>QR-коды</h3><pre>"
+                + esc(json.dumps(material["qr"], ensure_ascii=False, indent=2))
+                + "</pre>"
+            )
     for name, value in [
         ("Причины приоритета", doc.get("score")),
         ("Извлеченные признаки", doc.get("context")),

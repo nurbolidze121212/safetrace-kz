@@ -9,11 +9,12 @@ from PIL import Image, ImageOps
 
 from . import storage
 from .analysis import local_context, normalize_text, score, verify_claims
-from .config import DATA, OCR_VERSION, RULE_VERSION
+from .config import DATA, OCR_VERSION, QR_VERSION, RULE_VERSION
 from .graph import build_graph
 from .links import SyntheticTransport, extract_urls, identifiers, live_fetch, trace
 from .ocr import recognize
 from .providers import GeminiProvider, LocalProvider, ProviderUnavailable
+from .qr import decode as decode_qr
 
 EXECUTOR = ThreadPoolExecutor(max_workers=1, thread_name_prefix="safetrace")
 CANCELS: dict[str, threading.Event] = {}
@@ -37,7 +38,7 @@ def new_case(payload):
         "evidence": [],
         "limitations": [],
         "history": [],
-        "versions": {"rules": RULE_VERSION, "ocr": OCR_VERSION},
+        "versions": {"rules": RULE_VERSION, "ocr": OCR_VERSION, "qr": QR_VERSION},
     }
     for m in payload.materials:
         mat = m.model_dump(mode="json")
@@ -80,6 +81,7 @@ def submit(case_id):
             doc["history"].append(
                 {
                     "at": doc.get("analyzed_at"),
+                    "analysis_id": doc.get("analysis_id"),
                     "score": doc["score"],
                     "trace": doc.get("trace"),
                     "mode": doc["mode"],
@@ -134,6 +136,7 @@ def analyze(
         analyzed_at=storage.now(),
         status="running",
         trace={"observations": [], "relations": []},
+        versions={"rules": RULE_VERSION, "ocr": OCR_VERSION, "qr": QR_VERSION},
     )
     doc["analysis_id"] = uuid.uuid4().hex[:12]
     doc.pop("score", None)
@@ -190,6 +193,7 @@ def analyze(
         return doc
     for mat in doc["materials"]:
         mat.pop("ocr", None)
+        mat.pop("qr", None)
         if mat.get("image_id") and variant != "baseline":
             try:
                 path = DATA / "originals" / mat["image_id"]
@@ -219,6 +223,20 @@ def analyze(
                 doc["limitations"].append(
                     "OCR недоступен для одного изображения; остальные материалы обработаны."
                 )
+                doc["stages"]["ocr"] = "partial"
+            try:
+                mat["qr"] = decode_qr(DATA / "originals" / mat["image_id"], use_cache=use_ocr_cache)
+                for code in mat["qr"]["codes"]:
+                    code["evidence_id"] = evidence(
+                        code["text"],
+                        mat["id"] + "-qr",
+                        "qr_decode",
+                        material_id=mat["id"],
+                        polygon=code["polygon"],
+                        note=code["reason"] or "Адрес декодирован из QR; безопасность проверяется отдельно.",
+                    )
+            except Exception:
+                doc["limitations"].append("QR-коды одного изображения не удалось проверить.")
                 doc["stages"]["ocr"] = "partial"
         if cancelled():
             stage("features")
@@ -289,8 +307,7 @@ def analyze(
                     note="Код из текста без подтвержденной области назначения.",
                 )
                 mat["promo_codes"].append({"value": code, "evidence_id": eid})
-            for url in extract_urls(sources.get(source_id, "")):
-                url = url.rstrip(".,;!)")
+            for url in extract_urls(mat["text"] if source_id == mat["id"] else sources.get(source_id, "")):
                 mat["urls"].append(url)
                 evidence(
                     url,
@@ -298,6 +315,19 @@ def analyze(
                     "ocr" if source_id.endswith("-ocr") else "source_text",
                     material_id=mat["id"],
                 )
+        if mat["url"]:
+            mat["urls"].append(mat["url"])
+            evidence(
+                mat["url"],
+                mat["id"],
+                "source_text",
+                material_id=mat["id"],
+                note="Адрес из отдельного поля URL сохранен без обрезки параметров.",
+            )
+        for code in mat.get("qr", {}).get("codes", []):
+            mat["content_evidence_ids"].append(code["evidence_id"])
+            if code["valid_url"]:
+                mat["urls"].append(code["text"])
         mat["urls"] = list(dict.fromkeys(mat["urls"]))
         urls.extend(mat["urls"])
     if not stage("links"):

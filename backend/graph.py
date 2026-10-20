@@ -62,7 +62,9 @@ def build_graph(doc, peers=()):
             ]
             if ids:
                 uid = node("url", url, url, ids)
-                edge(mid, uid, "contains_link", ids, "source_text")
+                extraction_methods = {evidence[eid]["method"] for eid in ids}
+                method = next(iter(extraction_methods)) if len(extraction_methods) == 1 else "source_extraction"
+                edge(mid, uid, "contains_link", ids, method)
         for promo in mat.get("promo_codes", []):
             # No verified destination scope: do not merge this code across materials.
             ids = [promo["evidence_id"]]
