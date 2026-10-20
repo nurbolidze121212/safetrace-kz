@@ -1,0 +1,624 @@
+{
+  "https://n754a2822211.test/item/c0e9721?ref=RC1D288C": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://n754a2822211.test/entry/d0eb064": {
+    "status": 307,
+    "headers": {
+      "location": "https://n754a2822211.test/item/c0e9721?ref=RC1D288C"
+    }
+  },
+  "https://n7d0ffee3df1.test/item/49c4965?ref=R4802486": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://n61ac400d865.test/item/7ed45dd?ref=RCE1F9FA": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://n61ac400d865.test/entry/80eb85f": {
+    "status": 307,
+    "headers": {
+      "location": "https://n61ac400d865.test/next/dd3f769"
+    }
+  },
+  "https://n61ac400d865.test/next/dd3f769": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://n61ac400d865.test/item/7ed45dd?ref=RCE1F9FA\">Открыть раздел</a>"
+  },
+  "https://n120c0b66667.test/item/b2fdea8?ref=R8451C14": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://n120c0b66667.test/entry/d04fd1b": {
+    "status": 307,
+    "headers": {
+      "location": "https://n120c0b66667.test/item/b2fdea8?ref=R8451C14"
+    }
+  },
+  "https://n53259d026e2.test/item/8467169?ref=R4251F74": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://n53259d026e2.test/entry/516408d": {
+    "status": 307,
+    "headers": {
+      "location": "https://n53259d026e2.test/item/8467169?ref=R4251F74"
+    }
+  },
+  "https://n4cd87d6333c.test/item/330223f?ref=RAD38AC7": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://n4cd87d6333c.test/entry/c39ca2f": {
+    "status": 307,
+    "headers": {
+      "location": "https://n4cd87d6333c.test/next/ab136fd"
+    }
+  },
+  "https://n4cd87d6333c.test/next/ab136fd": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://n4cd87d6333c.test/item/330223f?ref=RAD38AC7\">Открыть раздел</a>"
+  },
+  "https://nd87a3289529.test/item/529683f?ref=RC3AC1B5": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://nd87a3289529.test/entry/45d1698": {
+    "status": 307,
+    "headers": {
+      "location": "https://nd87a3289529.test/next/c6c0242"
+    }
+  },
+  "https://nd87a3289529.test/next/c6c0242": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://nd87a3289529.test/next/d79a08d\">Открыть раздел</a>"
+  },
+  "https://nd87a3289529.test/next/d79a08d": {
+    "status": 302,
+    "headers": {
+      "location": "https://nd87a3289529.test/item/529683f?ref=RC3AC1B5"
+    }
+  },
+  "https://n268109d8978.test/item/bbcc226?ref=R4B6F4A2": {
+    "status": 200,
+    "body": "<p>DEMO. Осторожно: проигрыш возможен. Но играй в нашем казино на деньги и забирай бонус для новой ставки.</p>"
+  },
+  "https://n268109d8978.test/entry/2786b36": {
+    "status": 307,
+    "headers": {
+      "location": "https://n268109d8978.test/item/bbcc226?ref=R4B6F4A2"
+    }
+  },
+  "https://n675fa23511c.test/item/63733c2?ref=R9944F03": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://n5c9e82441b8.test/item/70291d4?ref=R9D897AA": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://n5c9e82441b8.test/entry/0f04a95": {
+    "status": 307,
+    "headers": {
+      "location": "https://n5c9e82441b8.test/item/70291d4?ref=R9D897AA"
+    }
+  },
+  "https://n61b08af1af3.test/item/51551ba?ref=R0F8A62B": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://n61b08af1af3.test/entry/f63632c": {
+    "status": 307,
+    "headers": {
+      "location": "https://n61b08af1af3.test/next/5a30d60"
+    }
+  },
+  "https://n61b08af1af3.test/next/5a30d60": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://n61b08af1af3.test/next/ca4181a\">Открыть раздел</a>"
+  },
+  "https://n61b08af1af3.test/next/ca4181a": {
+    "status": 302,
+    "headers": {
+      "location": "https://n61b08af1af3.test/item/51551ba?ref=R0F8A62B"
+    }
+  },
+  "https://n091c684958d.test/item/6edf912?ref=REB48705": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://n091c684958d.test/entry/c3f795f": {
+    "status": 307,
+    "headers": {
+      "location": "https://n091c684958d.test/item/6edf912?ref=REB48705"
+    }
+  },
+  "https://n68294215188.test/item/0938bb9?ref=R56B93EC": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://n68294215188.test/entry/9d11b0d": {
+    "status": 307,
+    "headers": {
+      "location": "https://n68294215188.test/next/e6816bf"
+    }
+  },
+  "https://n68294215188.test/next/e6816bf": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://n68294215188.test/item/0938bb9?ref=R56B93EC\">Открыть раздел</a>"
+  },
+  "https://nfbda510df9d.test/item/8348333?ref=R1056D11": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://n3c5c644ac82.test/item/544b39a?ref=R57793CA": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://n3c5c644ac82.test/entry/3e6e729": {
+    "status": 307,
+    "headers": {
+      "location": "https://n3c5c644ac82.test/next/ca6a378"
+    }
+  },
+  "https://n3c5c644ac82.test/next/ca6a378": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://n3c5c644ac82.test/next/e1eb215\">Открыть раздел</a>"
+  },
+  "https://n3c5c644ac82.test/next/e1eb215": {
+    "status": 302,
+    "headers": {
+      "location": "https://n3c5c644ac82.test/item/544b39a?ref=R57793CA"
+    }
+  },
+  "https://nd769e1c3cbe.test/item/8b46155?ref=R18F2E9C": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://nd769e1c3cbe.test/entry/b2c84bb": {
+    "status": 307,
+    "headers": {
+      "location": "https://nd769e1c3cbe.test/item/8b46155?ref=R18F2E9C"
+    }
+  },
+  "https://n541284c24c5.test/item/37d4554?ref=RE53DDA0": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://n2430db547f8.test/item/ec41cee?ref=R25E4D20": {
+    "status": 200,
+    "body": "<p>DEMO. Новости клуба. Казино открыло вечерний зал. Играй в слоты и активируй фриспины.</p>"
+  },
+  "https://n2430db547f8.test/entry/cfea9ab": {
+    "status": 307,
+    "headers": {
+      "location": "https://n2430db547f8.test/item/ec41cee?ref=R25E4D20"
+    }
+  },
+  "https://n7e83516e780.test/item/ed22a50?ref=R4274D3A": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://n7e83516e780.test/entry/4cf14ef": {
+    "status": 307,
+    "headers": {
+      "location": "https://n7e83516e780.test/next/9846920"
+    }
+  },
+  "https://n7e83516e780.test/next/9846920": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://n7e83516e780.test/next/71c9cc4\">Открыть раздел</a>"
+  },
+  "https://n7e83516e780.test/next/71c9cc4": {
+    "status": 302,
+    "headers": {
+      "location": "https://n7e83516e780.test/item/ed22a50?ref=R4274D3A"
+    }
+  },
+  "https://n432e72a5d97.test/item/33a1f57?ref=R8E42E24": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://n432e72a5d97.test/entry/d7287e9": {
+    "status": 307,
+    "headers": {
+      "location": "https://n432e72a5d97.test/next/b55a604"
+    }
+  },
+  "https://n432e72a5d97.test/next/b55a604": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://n432e72a5d97.test/item/33a1f57?ref=R8E42E24\">Открыть раздел</a>"
+  },
+  "https://n8591b17a26c.test/item/b0b84da?ref=RC2F8207": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://ncf56225742e.test/item/226515a?ref=RFECBAC2": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://ncf56225742e.test/entry/e195713": {
+    "status": 307,
+    "headers": {
+      "location": "https://ncf56225742e.test/next/ef2315c"
+    }
+  },
+  "https://ncf56225742e.test/next/ef2315c": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://ncf56225742e.test/item/226515a?ref=RFECBAC2\">Открыть раздел</a>"
+  },
+  "https://nf2e657ea6b7.test/item/63ec745?ref=RB7BA1D7": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://nf2e657ea6b7.test/entry/9327779": {
+    "status": 307,
+    "headers": {
+      "location": "https://nf2e657ea6b7.test/next/4ae1cc6"
+    }
+  },
+  "https://nf2e657ea6b7.test/next/4ae1cc6": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://nf2e657ea6b7.test/next/2d4fe89\">Открыть раздел</a>"
+  },
+  "https://nf2e657ea6b7.test/next/2d4fe89": {
+    "status": 302,
+    "headers": {
+      "location": "https://nf2e657ea6b7.test/item/63ec745?ref=RB7BA1D7"
+    }
+  },
+  "https://nd04c5888c22.test/item/6d92ab0?ref=R1EEC46E": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://nd04c5888c22.test/entry/463a8d6": {
+    "status": 307,
+    "headers": {
+      "location": "https://nd04c5888c22.test/item/6d92ab0?ref=R1EEC46E"
+    }
+  },
+  "https://n3f354c59930.test/item/545e072?ref=RD4EE144": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://n3f354c59930.test/entry/729e7bb": {
+    "status": 307,
+    "headers": {
+      "location": "https://n3f354c59930.test/item/545e072?ref=RD4EE144"
+    }
+  },
+  "https://nc3b1aec6749.test/item/b56a2c7?ref=R3FED5C2": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://nc3b1aec6749.test/entry/1bd65cd": {
+    "status": 307,
+    "headers": {
+      "location": "https://nc3b1aec6749.test/next/79fe084"
+    }
+  },
+  "https://nc3b1aec6749.test/next/79fe084": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://nc3b1aec6749.test/item/b56a2c7?ref=R3FED5C2\">Открыть раздел</a>"
+  },
+  "https://n3b2766411b4.test/item/0f0f1c0?ref=RF5BE751": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://n89fa0fbf44b.test/item/71f5572?ref=R3EAA7E2": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://n89fa0fbf44b.test/entry/bfbe6d7": {
+    "status": 307,
+    "headers": {
+      "location": "https://n89fa0fbf44b.test/next/aea27c5"
+    }
+  },
+  "https://n89fa0fbf44b.test/next/aea27c5": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://n89fa0fbf44b.test/next/478b847\">Открыть раздел</a>"
+  },
+  "https://n89fa0fbf44b.test/next/478b847": {
+    "status": 302,
+    "headers": {
+      "location": "https://n89fa0fbf44b.test/item/71f5572?ref=R3EAA7E2"
+    }
+  },
+  "https://n1e339bb315a.test/item/d08d514?ref=R78288D9": {
+    "status": 200,
+    "body": "<p>DEMO. Вечерний игровой зал. Казино, денежные ставки, рулетка и слоты. Регистрируйся, забирай фриспины за первый депозит.</p>"
+  },
+  "https://n1e339bb315a.test/entry/247a4ba": {
+    "status": 307,
+    "headers": {
+      "location": "https://n1e339bb315a.test/item/d08d514?ref=R78288D9"
+    }
+  },
+  "https://na57f642e4fa.test/item/4b774cd?ref=RA59EE67": {
+    "status": 200,
+    "body": "<p>DEMO. Памятка: осторожно с обещаниями казино. Не играйте ради бонуса и не переводите деньги неизвестным. Переходи к советам по защите семьи.</p>"
+  },
+  "https://na57f642e4fa.test/entry/9b4318e": {
+    "status": 307,
+    "headers": {
+      "location": "https://na57f642e4fa.test/item/4b774cd?ref=RA59EE67"
+    }
+  },
+  "https://n954724b73b4.test/item/883de5b?ref=R909E3C2": {
+    "status": 200,
+    "body": "<p>DEMO. Памятка: осторожно с обещаниями казино. Не играйте ради бонуса и не переводите деньги неизвестным. Переходи к советам по защите семьи.</p>"
+  },
+  "https://n954724b73b4.test/entry/b821738": {
+    "status": 307,
+    "headers": {
+      "location": "https://n954724b73b4.test/next/f0946b7"
+    }
+  },
+  "https://n954724b73b4.test/next/f0946b7": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://n954724b73b4.test/item/883de5b?ref=R909E3C2\">Открыть раздел</a>"
+  },
+  "https://nee5ee899d57.test/item/a361b8f?ref=R24958B6": {
+    "status": 200,
+    "body": "<p>DEMO. Памятка: осторожно с обещаниями казино. Не играйте ради бонуса и не переводите деньги неизвестным. Переходи к советам по защите семьи.</p>"
+  },
+  "https://nee5ee899d57.test/entry/ca70d13": {
+    "status": 307,
+    "headers": {
+      "location": "https://nee5ee899d57.test/item/a361b8f?ref=R24958B6"
+    }
+  },
+  "https://n9fe217868f8.test/item/7e733bd?ref=R56ECC5B": {
+    "status": 200,
+    "body": "<p>DEMO. Памятка: осторожно с обещаниями казино. Не играйте ради бонуса и не переводите деньги неизвестным. Переходи к советам по защите семьи.</p>"
+  },
+  "https://ncac11c7dd40.test/item/a27c5a3?ref=R2068165": {
+    "status": 200,
+    "body": "<p>DEMO. Памятка: осторожно с обещаниями казино. Не играйте ради бонуса и не переводите деньги неизвестным. Переходи к советам по защите семьи.</p>"
+  },
+  "https://ncac11c7dd40.test/entry/92c202b": {
+    "status": 307,
+    "headers": {
+      "location": "https://ncac11c7dd40.test/next/cd94b14"
+    }
+  },
+  "https://ncac11c7dd40.test/next/cd94b14": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://ncac11c7dd40.test/item/a27c5a3?ref=R2068165\">Открыть раздел</a>"
+  },
+  "https://nafe7824ce9b.test/item/2f8af12?ref=R32B7504": {
+    "status": 200,
+    "body": "<p>DEMO. Памятка: осторожно с обещаниями казино. Не играйте ради бонуса и не переводите деньги неизвестным. Переходи к советам по защите семьи.</p>"
+  },
+  "https://nafe7824ce9b.test/entry/0f2aaf7": {
+    "status": 307,
+    "headers": {
+      "location": "https://nafe7824ce9b.test/item/2f8af12?ref=R32B7504"
+    }
+  },
+  "https://n13e5ccde32c.test/item/fbcf3e8?ref=R5902EB1": {
+    "status": 200,
+    "body": "<p>DEMO. Памятка: осторожно с обещаниями казино. Не играйте ради бонуса и не переводите деньги неизвестным. Переходи к советам по защите семьи.</p>"
+  },
+  "https://n87c4c1b24a4.test/item/319ce5b?ref=R47EBD8A": {
+    "status": 200,
+    "body": "<p>DEMO. Памятка: осторожно с обещаниями казино. Не играйте ради бонуса и не переводите деньги неизвестным. Переходи к советам по защите семьи.</p>"
+  },
+  "https://n87c4c1b24a4.test/entry/56fbe3f": {
+    "status": 307,
+    "headers": {
+      "location": "https://n87c4c1b24a4.test/item/319ce5b?ref=R47EBD8A"
+    }
+  },
+  "https://n7d395dc1415.test/item/f782177?ref=RCF0AB8B": {
+    "status": 200,
+    "body": "<p>DEMO. Новость редакции. Корреспондент разбирает рекламу казино. «Регистрируйся и забирай бонус» — цитата из изученного объявления.</p>"
+  },
+  "https://n7d395dc1415.test/entry/a505d39": {
+    "status": 307,
+    "headers": {
+      "location": "https://n7d395dc1415.test/next/04ea72e"
+    }
+  },
+  "https://n7d395dc1415.test/next/04ea72e": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://n7d395dc1415.test/item/f782177?ref=RCF0AB8B\">Открыть раздел</a>"
+  },
+  "https://n340a9246ce9.test/item/bf09bdb?ref=R4D6F087": {
+    "status": 200,
+    "body": "<p>DEMO. Новость редакции. Корреспондент разбирает рекламу казино. «Регистрируйся и забирай бонус» — цитата из изученного объявления.</p>"
+  },
+  "https://n340a9246ce9.test/entry/0588425": {
+    "status": 307,
+    "headers": {
+      "location": "https://n340a9246ce9.test/item/bf09bdb?ref=R4D6F087"
+    }
+  },
+  "https://ne69c0c3da01.test/item/ecb55fa?ref=R61AEDF1": {
+    "status": 200,
+    "body": "<p>DEMO. Новость редакции. Корреспондент разбирает рекламу казино. «Регистрируйся и забирай бонус» — цитата из изученного объявления.</p>"
+  },
+  "https://ne69c0c3da01.test/entry/cce46ac": {
+    "status": 307,
+    "headers": {
+      "location": "https://ne69c0c3da01.test/next/99c04b7"
+    }
+  },
+  "https://ne69c0c3da01.test/next/99c04b7": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://ne69c0c3da01.test/item/ecb55fa?ref=R61AEDF1\">Открыть раздел</a>"
+  },
+  "https://n6b510b646d3.test/item/6f978b3?ref=R1226205": {
+    "status": 200,
+    "body": "<p>DEMO. Новость редакции. Корреспондент разбирает рекламу казино. «Регистрируйся и забирай бонус» — цитата из изученного объявления.</p>"
+  },
+  "https://n3e049ce7e2b.test/item/ea0dc66?ref=R1320AD9": {
+    "status": 200,
+    "body": "<p>DEMO. Учебный урок медиаграмотности. Фраза «Играй в казино, фриспины для новичков» приведена для разбора рекламной схемы.</p>"
+  },
+  "https://n3e049ce7e2b.test/entry/72a5f83": {
+    "status": 307,
+    "headers": {
+      "location": "https://n3e049ce7e2b.test/item/ea0dc66?ref=R1320AD9"
+    }
+  },
+  "https://n3fb4b96b870.test/item/37553af?ref=R2EF47DD": {
+    "status": 200,
+    "body": "<p>DEMO. Учебный урок медиаграмотности. Фраза «Играй в казино, фриспины для новичков» приведена для разбора рекламной схемы.</p>"
+  },
+  "https://n3fb4b96b870.test/entry/a202634": {
+    "status": 307,
+    "headers": {
+      "location": "https://n3fb4b96b870.test/next/cf600ac"
+    }
+  },
+  "https://n3fb4b96b870.test/next/cf600ac": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://n3fb4b96b870.test/item/37553af?ref=R2EF47DD\">Открыть раздел</a>"
+  },
+  "https://neb461fed87e.test/item/2dc07aa?ref=R15E1A07": {
+    "status": 200,
+    "body": "<p>DEMO. Учебный урок медиаграмотности. Фраза «Играй в казино, фриспины для новичков» приведена для разбора рекламной схемы.</p>"
+  },
+  "https://neb461fed87e.test/entry/fbb805e": {
+    "status": 307,
+    "headers": {
+      "location": "https://neb461fed87e.test/item/2dc07aa?ref=R15E1A07"
+    }
+  },
+  "https://nc3965884518.test/item/cfe8fa9?ref=R53D9346": {
+    "status": 200,
+    "body": "<p>DEMO. Учебный урок медиаграмотности. Фраза «Играй в казино, фриспины для новичков» приведена для разбора рекламной схемы.</p>"
+  },
+  "https://neebdf1f04d7.test/item/68f7296?ref=R12DBB29": {
+    "status": 200,
+    "body": "<p>DEMO. Учебный урок медиаграмотности. Фраза «Играй в казино, фриспины для новичков» приведена для разбора рекламной схемы.</p>"
+  },
+  "https://neebdf1f04d7.test/entry/318c705": {
+    "status": 307,
+    "headers": {
+      "location": "https://neebdf1f04d7.test/next/ef463da"
+    }
+  },
+  "https://neebdf1f04d7.test/next/ef463da": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://neebdf1f04d7.test/item/68f7296?ref=R12DBB29\">Открыть раздел</a>"
+  },
+  "https://n4097e3a5de0.test/item/9264fe7?ref=RE272C60": {
+    "status": 200,
+    "body": "<p>DEMO. Тегін ойын. Бесплатная игра: виртуальное казино без денежных ставок, ақшасыз. Жетоны не имеют денежной стоимости. Играй в симулятор.</p>"
+  },
+  "https://n4097e3a5de0.test/entry/629c958": {
+    "status": 307,
+    "headers": {
+      "location": "https://n4097e3a5de0.test/item/9264fe7?ref=RE272C60"
+    }
+  },
+  "https://n4ccac507b1e.test/item/e9a9fdb?ref=R9A6D046": {
+    "status": 200,
+    "body": "<p>DEMO. Тегін ойын. Бесплатная игра: виртуальное казино без денежных ставок, ақшасыз. Жетоны не имеют денежной стоимости. Играй в симулятор.</p>"
+  },
+  "https://n4ccac507b1e.test/entry/bd94a70": {
+    "status": 307,
+    "headers": {
+      "location": "https://n4ccac507b1e.test/next/3890fe9"
+    }
+  },
+  "https://n4ccac507b1e.test/next/3890fe9": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://n4ccac507b1e.test/item/e9a9fdb?ref=R9A6D046\">Открыть раздел</a>"
+  },
+  "https://n2c5bffd6dee.test/item/d77835f?ref=RCDE332D": {
+    "status": 200,
+    "body": "<p>DEMO. Тегін ойын. Бесплатная игра: виртуальное казино без денежных ставок, ақшасыз. Жетоны не имеют денежной стоимости. Играй в симулятор.</p>"
+  },
+  "https://ne565ce99e97.test/item/e167173?ref=R44EA3DD": {
+    "status": 200,
+    "body": "<p>DEMO. Тегін ойын. Бесплатная игра: виртуальное казино без денежных ставок, ақшасыз. Жетоны не имеют денежной стоимости. Играй в симулятор.</p>"
+  },
+  "https://ne565ce99e97.test/entry/ef20d23": {
+    "status": 307,
+    "headers": {
+      "location": "https://ne565ce99e97.test/next/35f7168"
+    }
+  },
+  "https://ne565ce99e97.test/next/35f7168": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://ne565ce99e97.test/item/e167173?ref=R44EA3DD\">Открыть раздел</a>"
+  },
+  "https://n2cd93a14aef.test/item/b026aeb?ref=R46046AB": {
+    "status": 200,
+    "body": "<p>DEMO. Тегін ойын. Бесплатная игра: виртуальное казино без денежных ставок, ақшасыз. Жетоны не имеют денежной стоимости. Играй в симулятор.</p>"
+  },
+  "https://n2cd93a14aef.test/entry/5608c52": {
+    "status": 307,
+    "headers": {
+      "location": "https://n2cd93a14aef.test/item/b026aeb?ref=R46046AB"
+    }
+  },
+  "https://neafd3b5b9f8.test/item/f748eb4?ref=RCCB14B9": {
+    "status": 200,
+    "body": "<p>DEMO. Условия вклада: процентная ставка банка и бонус за открытие депозита. Калькулятор дохода по вкладу.</p>"
+  },
+  "https://neafd3b5b9f8.test/entry/db56066": {
+    "status": 307,
+    "headers": {
+      "location": "https://neafd3b5b9f8.test/item/f748eb4?ref=RCCB14B9"
+    }
+  },
+  "https://n6b28293c2ab.test/item/3d24019?ref=RD881CAE": {
+    "status": 200,
+    "body": "<p>DEMO. Строительная рулетка: измерительная лента на пять метров, уровень и набор крепежа. Бонус к заказу.</p>"
+  },
+  "https://n6b28293c2ab.test/entry/19a80c2": {
+    "status": 307,
+    "headers": {
+      "location": "https://n6b28293c2ab.test/next/9cc99ca"
+    }
+  },
+  "https://n6b28293c2ab.test/next/9cc99ca": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://n6b28293c2ab.test/item/3d24019?ref=RD881CAE\">Открыть раздел</a>"
+  },
+  "https://n7c6509418db.test/item/5f3756c?ref=R40DED7F": {
+    "status": 200,
+    "body": "<p>DEMO. Запись на прием. Свободный слот на консультацию в среду. Встреча с преподавателем и регистрация в календаре.</p>"
+  },
+  "https://n7c6509418db.test/entry/6ec58ae": {
+    "status": 307,
+    "headers": {
+      "location": "https://n7c6509418db.test/item/5f3756c?ref=R40DED7F"
+    }
+  },
+  "https://nb5412eb8739.test/item/4a8150e?ref=R6FF143F": {
+    "status": 200,
+    "body": "<p>DEMO. Афиша театра: спектакль «Казино». Актеры, режиссер и время представления. Билеты на пьесу и абонементы.</p>"
+  },
+  "https://nb5412eb8739.test/entry/8d8487c": {
+    "status": 307,
+    "headers": {
+      "location": "https://nb5412eb8739.test/next/1803ae6"
+    }
+  },
+  "https://nb5412eb8739.test/next/1803ae6": {
+    "status": 200,
+    "body": "<p>DEMO. Карточка участника.</p><a href=\"https://nb5412eb8739.test/item/4a8150e?ref=R6FF143F\">Открыть раздел</a>"
+  },
+  "https://n46761536b0d.test/item/643a95f?ref=R4B1D47B": {
+    "status": 200,
+    "body": "<p>DEMO. Каталог книг, подписка на чтение, подарочная закладка. Новые романы и учебные пособия. Сыйлық — кітапқа бетбелгі.</p>"
+  },
+  "https://n46761536b0d.test/entry/0561634": {
+    "status": 307,
+    "headers": {
+      "location": "https://n46761536b0d.test/item/643a95f?ref=R4B1D47B"
+    }
+  },
+  "https://n004e7355d62.test/item/5dace53?ref=R2AB69C9": {
+    "status": 200,
+    "body": "<p>DEMO. Ноутбук: два слота памяти, разъемы USB, гарантия. Бонус покупателю — сумка для переноски.</p>"
+  }
+}

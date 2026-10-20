@@ -1,0 +1,417 @@
+{
+  "cases": 80,
+  "positives": 40,
+  "negatives": 40,
+  "images": 32,
+  "qr": 8,
+  "rotation_90": 4,
+  "rotation_180": 4,
+  "small_compressed": 8,
+  "core_freeze_sha256": "bd0c5dbbc566517b7248effe76d7586e20ddbc06a0f08794751113bc257c85c4",
+  "generator_sha256": "6d82398821079fb311cc3aea7dcc2644c0c3c7bb38423b578871e7c19d32b96b",
+  "overlap_domains": [],
+  "exact_normalized_source_duplicates": 0,
+  "closest_source_pairs": [
+    {
+      "id": "6fb2899d111d5283",
+      "closest_prior": "c89160de006d6e6b",
+      "ratio": 0.8125
+    },
+    {
+      "id": "260933978f8b50a0",
+      "closest_prior": "dfde092e2e3f91f5",
+      "ratio": 0.7862
+    },
+    {
+      "id": "e74ca5cb2d909b54",
+      "closest_prior": "c2d34d3af28b0e92",
+      "ratio": 0.7179
+    },
+    {
+      "id": "d2e4981b940fb283",
+      "closest_prior": "ee2bbc64bea75197",
+      "ratio": 0.7067
+    },
+    {
+      "id": "86a79842a6b7aca0",
+      "closest_prior": "c3af64e6efafff32",
+      "ratio": 0.6803
+    },
+    {
+      "id": "20854a5b9c18ca46",
+      "closest_prior": "c89160de006d6e6b",
+      "ratio": 0.68
+    },
+    {
+      "id": "e64fab83f1d65e63",
+      "closest_prior": "2f39e68b267c81ad",
+      "ratio": 0.661
+    },
+    {
+      "id": "5fb6cb0975201408",
+      "closest_prior": "47e7a5c6b1af89d4",
+      "ratio": 0.6555
+    },
+    {
+      "id": "0d4e85896e1807b8",
+      "closest_prior": "312b5e9b258c9032",
+      "ratio": 0.6173
+    },
+    {
+      "id": "a7bdb075585ec19f",
+      "closest_prior": "53ba026ecd34655e",
+      "ratio": 0.6029
+    },
+    {
+      "id": "5c08b3c93cbbde98",
+      "closest_prior": "b8cdc723287efa1e",
+      "ratio": 0.5949
+    },
+    {
+      "id": "ff8a9608e9cf5299",
+      "closest_prior": "7c2320153830e2f6",
+      "ratio": 0.5882
+    },
+    {
+      "id": "dc23c86c4276b225",
+      "closest_prior": "1500380449db9349",
+      "ratio": 0.5873
+    },
+    {
+      "id": "bab8912adf8e2af7",
+      "closest_prior": "27eff02387ed05f8",
+      "ratio": 0.5818
+    },
+    {
+      "id": "84f3b952d0a4730f",
+      "closest_prior": "7c8ab91a7b6dcd0c",
+      "ratio": 0.5778
+    },
+    {
+      "id": "b577abbd3499b47d",
+      "closest_prior": "a156c02156e41b13",
+      "ratio": 0.5749
+    },
+    {
+      "id": "914e6aebcc2030ba",
+      "closest_prior": "76130abb3cdb66a0",
+      "ratio": 0.5735
+    },
+    {
+      "id": "70d003ac850a86e4",
+      "closest_prior": "add62bb7516101b4",
+      "ratio": 0.5676
+    },
+    {
+      "id": "958264925b09e26a",
+      "closest_prior": "9da714a0ac9001e1",
+      "ratio": 0.5658
+    },
+    {
+      "id": "fb9da90d35d26ca5",
+      "closest_prior": "7c7a5cdf110b7265",
+      "ratio": 0.5625
+    },
+    {
+      "id": "be1b897f3732369e",
+      "closest_prior": "9da714a0ac9001e1",
+      "ratio": 0.5594
+    },
+    {
+      "id": "2915ca0306698b95",
+      "closest_prior": "655b25bb3a1ceb5a",
+      "ratio": 0.557
+    },
+    {
+      "id": "8903757a1a8b8a30",
+      "closest_prior": "de02e96bba11768b",
+      "ratio": 0.5542
+    },
+    {
+      "id": "0ce548322decc5ba",
+      "closest_prior": "39f90288c911387b",
+      "ratio": 0.5493
+    },
+    {
+      "id": "c6c02c2acae8db2d",
+      "closest_prior": "9479da1edeeab1a1",
+      "ratio": 0.5488
+    },
+    {
+      "id": "33126040cb0b457a",
+      "closest_prior": "09184a0b944eb5fa",
+      "ratio": 0.5484
+    },
+    {
+      "id": "62d0e53746193c9c",
+      "closest_prior": "e4af142d44f1d802",
+      "ratio": 0.5479
+    },
+    {
+      "id": "04753d0f9c764ac9",
+      "closest_prior": "d614632f74394513",
+      "ratio": 0.5464
+    },
+    {
+      "id": "5c44d9f837cc0e14",
+      "closest_prior": "7c8ab91a7b6dcd0c",
+      "ratio": 0.5455
+    },
+    {
+      "id": "7bc9877d10eb1914",
+      "closest_prior": "4c87ef63d1480ed6",
+      "ratio": 0.5422
+    },
+    {
+      "id": "34fa355ab7de9172",
+      "closest_prior": "c89160de006d6e6b",
+      "ratio": 0.5409
+    },
+    {
+      "id": "517ea86cd49c44c3",
+      "closest_prior": "5f7624695827ca77",
+      "ratio": 0.5385
+    },
+    {
+      "id": "53fcb533920f38aa",
+      "closest_prior": "d245c3f8a2bc4f60",
+      "ratio": 0.5354
+    },
+    {
+      "id": "d7629bc5bae972e7",
+      "closest_prior": "3c3193d0858d04b1",
+      "ratio": 0.5324
+    },
+    {
+      "id": "5e72706a59397fba",
+      "closest_prior": "90f56afe730999e9",
+      "ratio": 0.5248
+    },
+    {
+      "id": "5bf1cc93d5ef63d8",
+      "closest_prior": "3c6423f6ee60ed4d",
+      "ratio": 0.5246
+    },
+    {
+      "id": "4f18b32ac75c6a68",
+      "closest_prior": "9cfd8ac10a8091ad",
+      "ratio": 0.5238
+    },
+    {
+      "id": "c07dec8382a22ba2",
+      "closest_prior": "51a347bf9c0f11f9",
+      "ratio": 0.5231
+    },
+    {
+      "id": "80e0edbd54e8afd8",
+      "closest_prior": "c89160de006d6e6b",
+      "ratio": 0.5205
+    },
+    {
+      "id": "ad299bedeaf1310a",
+      "closest_prior": "76130abb3cdb66a0",
+      "ratio": 0.5197
+    },
+    {
+      "id": "4fa3b64358625f00",
+      "closest_prior": "bf74ce1266243e9f",
+      "ratio": 0.5185
+    },
+    {
+      "id": "bdde42644c58539f",
+      "closest_prior": "f805031e9dd5d89d",
+      "ratio": 0.517
+    },
+    {
+      "id": "4f4a106c695402d1",
+      "closest_prior": "76130abb3cdb66a0",
+      "ratio": 0.5106
+    },
+    {
+      "id": "71baaf36799db0bb",
+      "closest_prior": "ee2bbc64bea75197",
+      "ratio": 0.5103
+    },
+    {
+      "id": "6ff8f51476f9e44a",
+      "closest_prior": "6644579a73535d1c",
+      "ratio": 0.5051
+    },
+    {
+      "id": "ac23a696ce8e48f7",
+      "closest_prior": "380bd099a039a8e9",
+      "ratio": 0.5023
+    },
+    {
+      "id": "cca9f0877fed61de",
+      "closest_prior": "8dd89520efd27c3d",
+      "ratio": 0.5
+    },
+    {
+      "id": "2331b1778158ab8f",
+      "closest_prior": "1500380449db9349",
+      "ratio": 0.4962
+    },
+    {
+      "id": "a6288de4d3df8fcf",
+      "closest_prior": "a3fd4b6d2a885e60",
+      "ratio": 0.4935
+    },
+    {
+      "id": "4508116757c6b5e8",
+      "closest_prior": "bfa6746f30046a3e",
+      "ratio": 0.493
+    },
+    {
+      "id": "863bf200ce74aaf6",
+      "closest_prior": "7715e0703a819f8f",
+      "ratio": 0.4906
+    },
+    {
+      "id": "a2792374e9dded95",
+      "closest_prior": "5f7624695827ca77",
+      "ratio": 0.4898
+    },
+    {
+      "id": "6206a662400883be",
+      "closest_prior": "ef542759b8d93582",
+      "ratio": 0.4898
+    },
+    {
+      "id": "e3b22b42b5810d15",
+      "closest_prior": "4e3e256054ba7874",
+      "ratio": 0.487
+    },
+    {
+      "id": "b7956515f68f08a4",
+      "closest_prior": "7715e0703a819f8f",
+      "ratio": 0.48
+    },
+    {
+      "id": "360b186af0e51398",
+      "closest_prior": "932107a0e406eee5",
+      "ratio": 0.48
+    },
+    {
+      "id": "4edbd22876472e9a",
+      "closest_prior": "8079b8a0227b11ea",
+      "ratio": 0.4774
+    },
+    {
+      "id": "ffc3632009ee4aef",
+      "closest_prior": "dea247726b767477",
+      "ratio": 0.4752
+    },
+    {
+      "id": "b808f2313263145e",
+      "closest_prior": "9285157726aa92a4",
+      "ratio": 0.4722
+    },
+    {
+      "id": "3eaf8e15d1bbe00b",
+      "closest_prior": "cf4383fb8a262790",
+      "ratio": 0.4648
+    },
+    {
+      "id": "b0d88dbb8a684182",
+      "closest_prior": "935012266d6f8403",
+      "ratio": 0.4615
+    },
+    {
+      "id": "55b563f6f363d926",
+      "closest_prior": "854d829885f0f399",
+      "ratio": 0.4615
+    },
+    {
+      "id": "f44f63e7f3b95063",
+      "closest_prior": "32848138c264ad11",
+      "ratio": 0.4607
+    },
+    {
+      "id": "25430f0333b7c96f",
+      "closest_prior": "c3af64e6efafff32",
+      "ratio": 0.4596
+    },
+    {
+      "id": "6d80371a1ef78a32",
+      "closest_prior": "cc49148b40bb6a13",
+      "ratio": 0.4596
+    },
+    {
+      "id": "3269f76e0b43de66",
+      "closest_prior": "61f3cbe4a6cf9001",
+      "ratio": 0.4471
+    },
+    {
+      "id": "cd5776b402bd41b6",
+      "closest_prior": "5aa53c9483062803",
+      "ratio": 0.4457
+    },
+    {
+      "id": "94a24ba5791ccf59",
+      "closest_prior": "4e3e256054ba7874",
+      "ratio": 0.4455
+    },
+    {
+      "id": "f32d10c638aa017b",
+      "closest_prior": "c354fc9ee5e0268d",
+      "ratio": 0.4444
+    },
+    {
+      "id": "b89c6fab3ebe97ca",
+      "closest_prior": "f7aa1f3cefbeb2c8",
+      "ratio": 0.4368
+    },
+    {
+      "id": "1ef2966913706ce9",
+      "closest_prior": "afa8670e54351c00",
+      "ratio": 0.4314
+    },
+    {
+      "id": "bdbbca8313d80e08",
+      "closest_prior": "c354fc9ee5e0268d",
+      "ratio": 0.4267
+    },
+    {
+      "id": "59d30f44c3449001",
+      "closest_prior": "ba56837aa5935939",
+      "ratio": 0.4248
+    },
+    {
+      "id": "57ba4916d1bb0297",
+      "closest_prior": "90f56afe730999e9",
+      "ratio": 0.4238
+    },
+    {
+      "id": "524e0a56d23dd271",
+      "closest_prior": "c9218ba950146b72",
+      "ratio": 0.4192
+    },
+    {
+      "id": "7b5d5e11644f3dbc",
+      "closest_prior": "27eff02387ed05f8",
+      "ratio": 0.4105
+    },
+    {
+      "id": "9ae9054daacf1d7f",
+      "closest_prior": "c942c727ae507201",
+      "ratio": 0.408
+    },
+    {
+      "id": "a73aad87488f0610",
+      "closest_prior": "15d6ded4440a2888",
+      "ratio": 0.4
+    },
+    {
+      "id": "d33f018024a1e5f7",
+      "closest_prior": "44c77e393d61abd9",
+      "ratio": 0.3929
+    },
+    {
+      "id": "e84ec37a58b41d0c",
+      "closest_prior": "935012266d6f8403",
+      "ratio": 0.3818
+    }
+  ],
+  "qualification": "Source texts newly authored after freeze; shared topic classes and thirteen reused destination templates limit independence. Same author wrote development rules and labels. Domain/string separation is not independent expert validation."
+}
