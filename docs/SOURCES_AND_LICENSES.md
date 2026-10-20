@@ -16,6 +16,7 @@
 | Lucide | [Официальный проект](https://lucide.dev/) | ISC |
 | Pillow | [Документация](https://pillow.readthedocs.io/) | MIT-CMU / HPND по установленным метаданным |
 | google-genai | [Python SDK](https://github.com/googleapis/python-genai) | Apache-2.0 |
+| OpenCV 4.10 / opencv-contrib-python | [QR API](https://docs.opencv.org/4.10.0/d7/d90/classcv_1_1GraphicalCodeDetector.html), [лицензия 4.10](https://github.com/opencv/opencv/blob/4.10.0/LICENSE) | Apache-2.0 для OpenCV 4.10; состав бинарного wheel содержит дополнительные лицензии |
 
 Gemini: [изображения](https://ai.google.dev/gemini-api/docs/image-understanding), [структурированный ответ](https://ai.google.dev/gemini-api/docs/structured-output), [модели](https://ai.google.dev/gemini-api/docs/models). Идентификатор `gemini-3.8-flash` найден в официальном примере на дату реализации. SDK-конфигурация и схема проверены локально; доступность реального аккаунта/модели не проверялась без ключа.
 

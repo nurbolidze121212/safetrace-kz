@@ -1,0 +1,774 @@
+{
+  "dataset_version": "synthetic-v2",
+  "evaluation_version": "core-v2",
+  "split": "test",
+  "test_count": 80,
+  "image_count": 32,
+  "frozen_at": "2026-10-20T20:54:54.031024+00:00",
+  "threshold": 65,
+  "variants": {
+    "baseline": {
+      "n": 80,
+      "tp": 9,
+      "fp": 10,
+      "tn": 30,
+      "fn": 31,
+      "precision": 0.47368421052631576,
+      "recall": 0.225,
+      "f1": 0.3050847457627119,
+      "fpr": 0.25,
+      "coverage": 0.6,
+      "insufficient": 32,
+      "precision_ci": [
+        0.27329805032541393,
+        0.6829219089514051
+      ],
+      "fpr_ci": [
+        0.1418711857438798,
+        0.40193961548535195
+      ],
+      "p50_ms": 0.357,
+      "p95_ms": 0.587,
+      "processed_n": 48,
+      "processed_precision": 0.47368421052631576,
+      "processed_recall": 0.375,
+      "processed_fpr": 0.4166666666666667
+    },
+    "ocr": {
+      "n": 80,
+      "tp": 12,
+      "fp": 4,
+      "tn": 36,
+      "fn": 28,
+      "precision": 0.75,
+      "recall": 0.3,
+      "f1": 0.42857142857142855,
+      "fpr": 0.1,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0.5050168327029684,
+        0.8981793257983292
+      ],
+      "fpr_ci": [
+        0.039579528407411566,
+        0.23051775355935938
+      ],
+      "p50_ms": 0.309,
+      "p95_ms": 6672.952,
+      "processed_n": 80,
+      "processed_precision": 0.75,
+      "processed_recall": 0.3,
+      "processed_fpr": 0.1
+    },
+    "full": {
+      "n": 80,
+      "tp": 30,
+      "fp": 5,
+      "tn": 35,
+      "fn": 10,
+      "precision": 0.8571428571428571,
+      "recall": 0.75,
+      "f1": 0.8,
+      "fpr": 0.125,
+      "coverage": 0.9,
+      "insufficient": 8,
+      "precision_ci": [
+        0.7062444577337144,
+        0.9373976896017628
+      ],
+      "fpr_ci": [
+        0.05459500216399486,
+        0.26112119967985287
+      ],
+      "p50_ms": 0.979,
+      "p95_ms": 6421.651,
+      "processed_n": 72,
+      "processed_precision": 0.8571428571428571,
+      "processed_recall": 0.8333333333333334,
+      "processed_fpr": 0.1388888888888889
+    }
+  },
+  "slices": {
+    "ambiguous": {
+      "n": 4,
+      "tp": 0,
+      "fp": 0,
+      "tn": 4,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "fpr": 0.0,
+      "coverage": 0.0,
+      "insufficient": 4,
+      "precision_ci": null,
+      "fpr_ci": [
+        0,
+        0.4898908403969213
+      ],
+      "p50_ms": 952.3684999999999,
+      "p95_ms": 2379.268,
+      "processed_n": 0,
+      "processed_precision": null,
+      "processed_recall": null,
+      "processed_fpr": null
+    },
+    "contradictory": {
+      "n": 4,
+      "tp": 3,
+      "fp": 0,
+      "tn": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571,
+      "fpr": null,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0.43850296436068037,
+        1
+      ],
+      "fpr_ci": null,
+      "p50_ms": 0.5045,
+      "p95_ms": 1622.121,
+      "processed_n": 4,
+      "processed_precision": 1.0,
+      "processed_recall": 0.75,
+      "processed_fpr": null
+    },
+    "direct": {
+      "n": 10,
+      "tp": 8,
+      "fp": 0,
+      "tn": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.8888888888888888,
+      "fpr": null,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0.6755924316585924,
+        1
+      ],
+      "fpr_ci": null,
+      "p50_ms": 0.228,
+      "p95_ms": 4331.989,
+      "processed_n": 10,
+      "processed_precision": 1.0,
+      "processed_recall": 0.8,
+      "processed_fpr": null
+    },
+    "education": {
+      "n": 6,
+      "tp": 0,
+      "fp": 1,
+      "tn": 5,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": null,
+      "f1": 0.0,
+      "fpr": 0.16666666666666666,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0,
+        0.7934506882081973
+      ],
+      "fpr_ci": [
+        0.030053369411815023,
+        0.5635028250257673
+      ],
+      "p50_ms": 714.1804999999999,
+      "p95_ms": 1693.215,
+      "processed_n": 6,
+      "processed_precision": 0.0,
+      "processed_recall": null,
+      "processed_fpr": 0.16666666666666666
+    },
+    "free_game": {
+      "n": 4,
+      "tp": 0,
+      "fp": 1,
+      "tn": 3,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": null,
+      "f1": 0.0,
+      "fpr": 0.25,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0,
+        0.7934506882081973
+      ],
+      "fpr_ci": [
+        0.04558726029536886,
+        0.6993581599030918
+      ],
+      "p50_ms": 0.6435,
+      "p95_ms": 10850.173,
+      "processed_n": 4,
+      "processed_precision": 0.0,
+      "processed_recall": null,
+      "processed_fpr": 0.25
+    },
+    "hidden": {
+      "n": 14,
+      "tp": 11,
+      "fp": 0,
+      "tn": 0,
+      "fn": 3,
+      "precision": 1.0,
+      "recall": 0.7857142857142857,
+      "f1": 0.88,
+      "fpr": null,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0.7411670300055737,
+        1
+      ],
+      "fpr_ci": null,
+      "p50_ms": 663.0015,
+      "p95_ms": 5398.005,
+      "processed_n": 14,
+      "processed_precision": 1.0,
+      "processed_recall": 0.7857142857142857,
+      "processed_fpr": null
+    },
+    "multihop": {
+      "n": 6,
+      "tp": 6,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": null,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0.6096657083436265,
+        1
+      ],
+      "fpr_ci": null,
+      "p50_ms": 5.140499999999999,
+      "p95_ms": 6421.651,
+      "processed_n": 6,
+      "processed_precision": 1.0,
+      "processed_recall": 1.0,
+      "processed_fpr": null
+    },
+    "news": {
+      "n": 6,
+      "tp": 0,
+      "fp": 1,
+      "tn": 5,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": null,
+      "f1": 0.0,
+      "fpr": 0.16666666666666666,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0,
+        0.7934506882081973
+      ],
+      "fpr_ci": [
+        0.030053369411815023,
+        0.5635028250257673
+      ],
+      "p50_ms": 0.9255,
+      "p95_ms": 6644.011,
+      "processed_n": 6,
+      "processed_precision": 0.0,
+      "processed_recall": null,
+      "processed_fpr": 0.16666666666666666
+    },
+    "ordinary": {
+      "n": 10,
+      "tp": 0,
+      "fp": 0,
+      "tn": 10,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "fpr": 0.0,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": null,
+      "fpr_ci": [
+        0,
+        0.2775328030260577
+      ],
+      "p50_ms": 0.8665,
+      "p95_ms": 4607.466,
+      "processed_n": 10,
+      "processed_precision": null,
+      "processed_recall": null,
+      "processed_fpr": 0.0
+    },
+    "translit": {
+      "n": 2,
+      "tp": 2,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": null,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0.3423802239546494,
+        1
+      ],
+      "fpr_ci": null,
+      "p50_ms": 627.2955,
+      "p95_ms": 1254.328,
+      "processed_n": 2,
+      "processed_precision": 1.0,
+      "processed_recall": 1.0,
+      "processed_fpr": null
+    },
+    "unresolved": {
+      "n": 4,
+      "tp": 0,
+      "fp": 0,
+      "tn": 0,
+      "fn": 4,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fpr": null,
+      "coverage": 0.0,
+      "insufficient": 4,
+      "precision_ci": null,
+      "fpr_ci": null,
+      "p50_ms": 602.7825,
+      "p95_ms": 6711.782,
+      "processed_n": 0,
+      "processed_precision": null,
+      "processed_recall": null,
+      "processed_fpr": null
+    },
+    "warning": {
+      "n": 10,
+      "tp": 0,
+      "fp": 2,
+      "tn": 8,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": null,
+      "f1": 0.0,
+      "fpr": 0.2,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0,
+        0.6576197760453506
+      ],
+      "fpr_ci": [
+        0.05668215093776685,
+        0.5098375308778678
+      ],
+      "p50_ms": 0.979,
+      "p95_ms": 6863.127,
+      "processed_n": 10,
+      "processed_precision": 0.0,
+      "processed_recall": null,
+      "processed_fpr": 0.2
+    },
+    "kk": {
+      "n": 24,
+      "tp": 8,
+      "fp": 2,
+      "tn": 10,
+      "fn": 4,
+      "precision": 0.8,
+      "recall": 0.6666666666666666,
+      "f1": 0.7272727272727273,
+      "fpr": 0.16666666666666666,
+      "coverage": 0.9166666666666666,
+      "insufficient": 2,
+      "precision_ci": [
+        0.4901624691221323,
+        0.9433178490622331
+      ],
+      "fpr_ci": [
+        0.04696514175692082,
+        0.4480308646118111
+      ],
+      "p50_ms": 1.0470000000000002,
+      "p95_ms": 4607.466,
+      "processed_n": 22,
+      "processed_precision": 0.8,
+      "processed_recall": 0.7272727272727273,
+      "processed_fpr": 0.18181818181818182
+    },
+    "mixed": {
+      "n": 18,
+      "tp": 8,
+      "fp": 1,
+      "tn": 7,
+      "fn": 2,
+      "precision": 0.8888888888888888,
+      "recall": 0.8,
+      "f1": 0.8421052631578947,
+      "fpr": 0.125,
+      "coverage": 0.8888888888888888,
+      "insufficient": 2,
+      "precision_ci": [
+        0.565000291629209,
+        0.9801091125830901
+      ],
+      "fpr_ci": [
+        0.022417491199971912,
+        0.47088818505608376
+      ],
+      "p50_ms": 0.976,
+      "p95_ms": 6863.127,
+      "processed_n": 16,
+      "processed_precision": 0.8888888888888888,
+      "processed_recall": 0.8888888888888888,
+      "processed_fpr": 0.14285714285714285
+    },
+    "other": {
+      "n": 2,
+      "tp": 2,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": null,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0.3423802239546494,
+        1
+      ],
+      "fpr_ci": null,
+      "p50_ms": 627.2955,
+      "p95_ms": 1254.328,
+      "processed_n": 2,
+      "processed_precision": 1.0,
+      "processed_recall": 1.0,
+      "processed_fpr": null
+    },
+    "ru": {
+      "n": 36,
+      "tp": 12,
+      "fp": 2,
+      "tn": 18,
+      "fn": 4,
+      "precision": 0.8571428571428571,
+      "recall": 0.75,
+      "f1": 0.8,
+      "fpr": 0.1,
+      "coverage": 0.8888888888888888,
+      "insufficient": 4,
+      "precision_ci": [
+        0.600586202762663,
+        0.959906079092351
+      ],
+      "fpr_ci": [
+        0.02786648096169142,
+        0.3010336471864123
+      ],
+      "p50_ms": 0.979,
+      "p95_ms": 5398.005,
+      "processed_n": 32,
+      "processed_precision": 0.8571428571428571,
+      "processed_recall": 0.8571428571428571,
+      "processed_fpr": 0.1111111111111111
+    },
+    "image": {
+      "n": 32,
+      "tp": 12,
+      "fp": 3,
+      "tn": 13,
+      "fn": 4,
+      "precision": 0.8,
+      "recall": 0.75,
+      "f1": 0.7741935483870968,
+      "fpr": 0.1875,
+      "coverage": 0.875,
+      "insufficient": 4,
+      "precision_ci": [
+        0.5481455107594471,
+        0.9295245070826608
+      ],
+      "fpr_ci": [
+        0.06591599019788683,
+        0.4300888116754912
+      ],
+      "p50_ms": 1699.6664999999998,
+      "p95_ms": 6863.127,
+      "processed_n": 28,
+      "processed_precision": 0.8,
+      "processed_recall": 0.8571428571428571,
+      "processed_fpr": 0.21428571428571427
+    },
+    "text": {
+      "n": 48,
+      "tp": 18,
+      "fp": 2,
+      "tn": 22,
+      "fn": 6,
+      "precision": 0.9,
+      "recall": 0.75,
+      "f1": 0.8181818181818182,
+      "fpr": 0.08333333333333333,
+      "coverage": 0.9166666666666666,
+      "insufficient": 4,
+      "precision_ci": [
+        0.6989663528135878,
+        0.9721335190383086
+      ],
+      "fpr_ci": [
+        0.023158815087796644,
+        0.2584880237049766
+      ],
+      "p50_ms": 0.708,
+      "p95_ms": 1.193,
+      "processed_n": 44,
+      "processed_precision": 0.9,
+      "processed_recall": 0.8181818181818182,
+      "processed_fpr": 0.09090909090909091
+    },
+    "qr": {
+      "n": 4,
+      "tp": 2,
+      "fp": 0,
+      "tn": 2,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0.0,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0.3423802239546494,
+        1
+      ],
+      "fpr_ci": [
+        0,
+        0.6576197760453506
+      ],
+      "p50_ms": 1689.0149999999999,
+      "p95_ms": 1976.173,
+      "processed_n": 4,
+      "processed_precision": 1.0,
+      "processed_recall": 1.0,
+      "processed_fpr": 0.0
+    }
+  },
+  "versions": {
+    "rules": "rules-2.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "qr": "qr-1.0"
+  },
+  "errors": [
+    {
+      "id": "ef07259a5ab354cc",
+      "truth": 1,
+      "predicted": 0,
+      "score": 0,
+      "sufficient": true,
+      "title": "DEMO. Вечерний эфир переехал в казино. Присоединяйся к игре за столом рулетки, приглашение FA41F0FC."
+    },
+    {
+      "id": "6006e11a94c28fd2",
+      "truth": 1,
+      "predicted": 0,
+      "score": 0,
+      "sufficient": true,
+      "title": "DEMO. Казиноға жаңа қонақтарды шақырамыз. Қосыл, кодты енгіз: FC1E8B75."
+    },
+    {
+      "id": "af0a2b3b3554f017",
+      "truth": 1,
+      "predicted": 0,
+      "score": 0,
+      "sufficient": true,
+      "title": "DEMO. Клубқа шақыру келді. Приглашаем зарегистрироваться и получить бонус по карточке. https://tbd43411a20.test/entry/27a666"
+    },
+    {
+      "id": "dfb23da656e2083c",
+      "truth": 1,
+      "predicted": 0,
+      "score": 15,
+      "sufficient": true,
+      "title": "DEMO. Күмәнді жарнамадан сақ болыңыз. Бірақ осы казиноға қосыл, бүгін бонус беріледі. https://t34fafb82af.test/entry/385699"
+    },
+    {
+      "id": "8add4ad4ebe0d1c7",
+      "truth": 1,
+      "predicted": 0,
+      "score": 0,
+      "sufficient": false,
+      "title": "DEMO. Приглашение в закрытый денежный клуб. Жми и забирай приветственный бонус. https://tb40cfbb950.test/entry/94882d"
+    },
+    {
+      "id": "2de6ac573f7b5a29",
+      "truth": 1,
+      "predicted": 0,
+      "score": 0,
+      "sufficient": false,
+      "title": "DEMO. Жабық клубқа тіркелуге болады. Кешкі сыйлықты алу үшін өтіңіз. https://t949fe37914.test/entry/c53876"
+    },
+    {
+      "id": "54e5aa8f619fc1fb",
+      "truth": 1,
+      "predicted": 0,
+      "score": 0,
+      "sufficient": false,
+      "title": "DEMO. Ойын кешіне шақыру: переходи, бонус беріледі. Страница пока отвечает с ошибкой. https://td3ababe56b.test/entry/2a5956"
+    },
+    {
+      "id": "de02e96bba11768b",
+      "truth": 1,
+      "predicted": 0,
+      "score": 0,
+      "sufficient": false,
+      "title": "DEMO. Твой доступ к партнерской игре ждет. Регистрируйся по приглашению, забирай бонус. https://t93dba53830.test/entry/3a7cca"
+    },
+    {
+      "id": "4e4a9d69c97a0cf9",
+      "truth": 1,
+      "predicted": 0,
+      "score": 0,
+      "sufficient": true,
+      "title": "DEMO. Кешкі топтың жаңа мекені төменде. Қалаған адамға жеке сыйлық қарастырылған. https://t2f6d0c3884.test/entry/b043f5"
+    },
+    {
+      "id": "3384f855ce918fad",
+      "truth": 1,
+      "predicted": 0,
+      "score": 0,
+      "sufficient": true,
+      "title": "DEMO. Любимый ведущий уже там, подарок внутри личного кабинета. Адрес оставлю под постом. https://tc24f53e2c4.test/entry/5d136a"
+    },
+    {
+      "id": "8b20891f1f8ee67f",
+      "truth": 0,
+      "predicted": 1,
+      "score": 80,
+      "sufficient": true,
+      "title": "DEMO. Родители, будьте осторожны: сообщение «Играй в казино и забирай бонус» ведет на опасную страницу. Не регистрируйтесь. https://tcb228688b9.test/entry/6bdbe3"
+    },
+    {
+      "id": "ee6b5b91b9d218aa",
+      "truth": 0,
+      "predicted": 1,
+      "score": 80,
+      "sufficient": true,
+      "title": "DEMO. Ескерту: мына жарнамадағы «тіркел де бонус ал» сөзіне сенбеңіз. Құмар ойынға қосылмаңыз. https://t58f250b1eb.test/entry/346df0"
+    },
+    {
+      "id": "9e134cb0d363fddb",
+      "truth": 0,
+      "predicted": 1,
+      "score": 80,
+      "sufficient": true,
+      "title": "DEMO. Репортаж о сетевых объявлениях. Редакция приводит скриншот «тіркел, казино бонус береді» для обсуждения. https://t1f5e606148.test/entry/d6bf0b"
+    },
+    {
+      "id": "f095a2200acd1c04",
+      "truth": 0,
+      "predicted": 1,
+      "score": 80,
+      "sufficient": true,
+      "title": "DEMO. Обучение фактчекингу: сравните цитаты «Но заходи в казино» и «Но забирай бонус». Обе нужны для разбора манипуляций."
+    },
+    {
+      "id": "1dd6710d37ceb41b",
+      "truth": 0,
+      "predicted": 1,
+      "score": 75,
+      "sufficient": true,
+      "title": "DEMO. Тегін ойынға қосыл: бұл ықтималдықты үйренуге арналған жаттығу, ақша мен ұтыс жоқ. https://t95541f459c.test/entry/5b9f20"
+    }
+  ],
+  "ocr_cer": 0.026169706582077717,
+  "ocr_cer_definition": "Levenshtein character edits / reference characters; whitespace collapsed, case retained; can exceed 1.",
+  "model_initialization_ms": 3432.9116999997495,
+  "core_hashes": {
+    "backend/__init__.py": "cab7e34e197ae110487f67fb05f231deab0a474dab2e42cbe3b02825dd660767",
+    "backend/analysis.py": "bbf08dfc332f2cb392fadfa0fc7683805e76865c934a793d454f25e19099706a",
+    "backend/app.py": "1683e08e91c990729a47f1b3325f70b7990409c328ab3e2462ec2af2818452d5",
+    "backend/config.py": "b142bc9d6ae7c6569b7c8f3cf65d2365c8b062f203639e1e03191c49d6f61712",
+    "backend/evaluations.py": "647e0041bda49df051ed294c0aaea580279ccd8a9272fcef584d027d12a040d7",
+    "backend/exports.py": "f5aacdc85412e3125e09a6bd489c8ef292d967079eccd3d83b0b68b427e72ab3",
+    "backend/graph.py": "e27e5676a70a0d31f5513f017fb65b9e6aaf69fe780ca9f02ece76f5520872bc",
+    "backend/limits.py": "bc9b82ee5bdb10c6274300c075c7dae1c2baeb9a4b0bf6287358795394d9fcac",
+    "backend/links.py": "e919dac16d60d756715786bd7bb5e8565d0b5f540a24ef320c4c1b9464105749",
+    "backend/ocr.py": "cd6dda0581bd9f0e573294c64ce6ddc0ba64db4e54f52bc1864c31f93facf504",
+    "backend/pipeline.py": "f972c1c2c3ec9f69431c82350e5a8c04b73bb030170b275f4a6be0efda642f07",
+    "backend/providers.py": "c74e98525c60893b7350d425c6d36f0e90cf9312f1b42eec1c0b6e3ad210840d",
+    "backend/qr.py": "f4e4d2f9db9ac65f8e7d82d1874fe6df22ee9368f30a7f3a06395a68e412947f",
+    "backend/schemas.py": "8e94190e7d96f81decdb472124973ea0c8cfa7aa15cf626ae5f9e36812c9f899",
+    "backend/storage.py": "cc495b417fd533aaab13bce2e5009713f838d98cf449277c02d96764d3946f38",
+    "backend/weights.json": "0340efeb3bbde44b2b4187423f655c3f847aab78481512389f30dea4c20f5099",
+    "models-manifest.json": "d4bb3eb1be953003a32331066e3cc7876ceecc72a82fd9144360a621b590a9a0",
+    "requirements.lock.txt": "aadee977e8f609c9ef4cb528a18fbd3ea9506616dcbc4bb9802d625cc534f8df",
+    "scripts/evaluate_v2.py": "3281ae52e9436d4e2870aa8fcccc799d63aa7184d4b9ed61428951e100ba6473"
+  },
+  "data_hashes": {
+    "datasets/synthetic-v2/images/009db85bd4785f94.jpg": "d100da8cb4fac184b6992cfab4877aba578339d91213236fb130f8f35ff41f62",
+    "datasets/synthetic-v2/images/0d8f5de188854c4e.jpg": "8624977ce6c8442e098051e2c027fb7f5ee42060dca463012a601da6de9b6e1b",
+    "datasets/synthetic-v2/images/1682d23c0c2b1cfd.jpg": "1191dd421651079d9f25b4a9761aa169dfdcb39ba812810d49cfd5c368b06ef6",
+    "datasets/synthetic-v2/images/1dc39eb8b1c45227.jpg": "1feca6b1cd86aaaa0d80d9f1a1f99df9de49e4547d85681a2589f32025ac900a",
+    "datasets/synthetic-v2/images/1ea5c74ec9353cfc.jpg": "2c9035d99da25998c6dee34b6015231c663f4369eb8205c9fd2f17cb1ba67126",
+    "datasets/synthetic-v2/images/2e62e1a3ae3d63dd.jpg": "3a6f96a8bfc4a50207a2da7775f0e7eeb946f2a1425867a02230f8bb605edb98",
+    "datasets/synthetic-v2/images/3009c33852802087.jpg": "a960864b9df2fbf60ccc3a5d520994e4aad4694cd2fd947ddb47792e0ae08ece",
+    "datasets/synthetic-v2/images/408722a2f13d71d6.jpg": "5a2da876cc33dcb44c2d5f844bee51314c32db601b14cc3edad06f6bf86fc7f6",
+    "datasets/synthetic-v2/images/56c415d5e1131c04.jpg": "5201614c9c9a038bc7cb4d421cf120becd17ae41ae0363e1b436505f2afd8b3d",
+    "datasets/synthetic-v2/images/5b39ab931cc42bbf.jpg": "a41724ffd90d50e3f1d96dae6b4c128661f08ac8f2e6e402056e417ae0b82905",
+    "datasets/synthetic-v2/images/5d050e9f90f28b48.jpg": "5bb998f2cd656b5945cd7f04635bcb25272445fefbd9e131a44ca6b564518201",
+    "datasets/synthetic-v2/images/6587be63efb33687.jpg": "8b0016792a87c6721500f6ac82cce1a7f47c1af0983a7354ede35a68cdedf062",
+    "datasets/synthetic-v2/images/7302b565c101fabf.jpg": "9934fff1a410db3a9a477b9bc7acc4b21357e0dbc0a5438c9691a9f54a38f077",
+    "datasets/synthetic-v2/images/73da469b75b7fbfb.jpg": "54466b959db24b9eb8bce36ba66b73b3e3a764ffaca2314fb49c6de548ce8eff",
+    "datasets/synthetic-v2/images/745f1a9f1971f271.jpg": "e8b65dd8cdb4563770601b7bd0e76009be7ca66c6d7f4296efc1697c7d17dc3f",
+    "datasets/synthetic-v2/images/7c3f9f79f1f7d463.jpg": "887838ee7f8a31973767bf752459c65381c7b69e1e4ae4c17ec73f1fa4556383",
+    "datasets/synthetic-v2/images/802862e4de3d7b5d.jpg": "fa0d6b590be6b75ae4498fe669599f11ed89ba066527798daebd1abd6a541ccc",
+    "datasets/synthetic-v2/images/8a15a3ce2c0d61f3.jpg": "50641b79166861f70575786673188c0f76591eb08c8d733405ee42bf77787bbc",
+    "datasets/synthetic-v2/images/8dea1f7a354ffe74.jpg": "bab5a6f929c25e90fc8fcc11af28cac3242a0f4de7608587d088b306cb1c4012",
+    "datasets/synthetic-v2/images/8fc735bbe783c3d2.jpg": "f944f3ef44d40884b5b05e29d1ed72e89ca044a79d4cbc7e73a2257148385c4c",
+    "datasets/synthetic-v2/images/9633da44051a08e8.jpg": "4e5967f86728714319393cdc7cd7a2334a20ad29dd5ff27fdcabea5b85b15aff",
+    "datasets/synthetic-v2/images/9ea58da6d35cea91.jpg": "3b28b9efbef8cea14c4c77599c8ce84e2089e0c64239a6cbab1e09057afca5b7",
+    "datasets/synthetic-v2/images/a0191c908998108a.jpg": "9b5b6671cff6ad75ccf31a47f8cc3d02ce790861fb1dc5c91001e6fbdb2e2834",
+    "datasets/synthetic-v2/images/a0667881f0e0fb85.jpg": "cf22fb572b386d4a997322967fb876cf997bbcc28057523794180d7d8dfe32da",
+    "datasets/synthetic-v2/images/a260064e75773eef.jpg": "ccb93d21f9657357ec921ae9da21c7625ca00fa592fdc70367f6cbecbf7d42b9",
+    "datasets/synthetic-v2/images/add5899c3e0abec2.jpg": "72d32305a77f148fd44c16b058072f6e25e89c02a9dc416a2f7a56c84e876fd7",
+    "datasets/synthetic-v2/images/b4b47f2f5422c363.jpg": "5074b70236659ed60d680644b436f957af259c3955208211e8442e6bf22358e9",
+    "datasets/synthetic-v2/images/bf16847a6f823fc7.jpg": "dcdeb12eec861304a97bf40f140675a1e22b3d8317024a9d0cdb96b2c6e2c969",
+    "datasets/synthetic-v2/images/c1fdd651bcb76ca1.jpg": "16d8107e6da84bdb959ce8268a7d868c6e1c4aa448e712a919b7f3193809fa46",
+    "datasets/synthetic-v2/images/d478e3a27182e27e.jpg": "4942e4f3a4e3eeb826de0e18f107db7a67d6d370269e20b3754aae0de901de2b",
+    "datasets/synthetic-v2/images/f328da4d1c7839e5.jpg": "957942c88ab71c423aab8cc1699ad524ceffd87220290eb06f1ff362d89262f9",
+    "datasets/synthetic-v2/images/ff0e560165637aa7.jpg": "160d16902ec5f775565bc2a980b9e6bb8ca1d7e3e95fe34b81a3765842753649",
+    "datasets/synthetic-v2/test-annotations.jsonl": "cf15565414e51dfd952b27251f03142075a6fb12ddf5758f9f679e73b5801975",
+    "datasets/synthetic-v2/test-pages.json": "e09b8f3f298e94262c8562c96d380d5535f9fae7f1b04d82fdcfd635d33a35bc",
+    "datasets/synthetic-v2/test.jsonl": "98eb9f6cb6584a003577c994e40dc05a5d3afda8a396ac152e78928da8a99412"
+  },
+  "limitations": [
+    "Авторская синтетическая разметка; независимой экспертной проверки и реального пилота нет.",
+    "Dev доступен для настройки. Новый final test используется после фиксации ядра и имеет другие семейства и кампании.",
+    "Отказы на положительных случаях остаются в FN и общем recall; покрытие и показатели обработанных приведены отдельно.",
+    "Wilson 95%: интервалы не учитывают всю зависимость авторских шаблонов; это не гарантия качества.",
+    "Baseline не читает изображения. В OCR/full кэш содержимого выключен, модель предварительно загружена.",
+    "Gemini не оценивался без ключа. Все страницы — собственный синтетический транспорт без сетевых запросов."
+  ],
+  "runtime": "Windows / Python 3.12 / CPU"
+}

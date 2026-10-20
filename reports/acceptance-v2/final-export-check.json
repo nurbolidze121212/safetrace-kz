@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "87362756b12a9a0331e620dec6134d1d0ba682fd07978f96e5e59cf7051b808d",
+  "case_id": "b17298fdf8b048f5ae3558477223e76a",
+  "score": 90,
+  "history_snapshots": 3,
+  "files": [
+    {
+      "path": "case.json",
+      "ok": true
+    },
+    {
+      "path": "originals/01-text.txt",
+      "ok": true
+    },
+    {
+      "path": "originals/01.png",
+      "ok": true
+    },
+    {
+      "path": "originals/02-text.txt",
+      "ok": true
+    },
+    {
+      "path": "report.html",
+      "ok": true
+    }
+  ]
+}

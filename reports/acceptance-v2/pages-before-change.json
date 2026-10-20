@@ -1,0 +1,26 @@
+{
+  "https://go.safetrace.test/r/q7": {
+    "status": 302,
+    "headers": {"location": "https://hub.safetrace.test/offer"}
+  },
+  "https://hub.safetrace.test/offer": {
+    "status": 200,
+    "body": "<html><body><h1>Клуб вечерних возможностей</h1><p>Синтетический стенд DEMO. Откройте партнерское предложение.</p><a href=\"https://arena.safetrace.test/welcome?ref=QALA7\">Забрать предложение</a></body></html>"
+  },
+  "https://arena.safetrace.test/welcome?ref=QALA7": {
+    "status": 200,
+    "body": "<html><body><h1>DEMO: игровой зал</h1><p>Синтетическая страница: слоты, рулетка, депозит, бонус 200% и фриспины. Регистрация и платежи не реализованы.</p></body></html>"
+  },
+  "https://go.safetrace.test/r/second": {
+    "status": 307,
+    "headers": {"location": "https://arena.safetrace.test/welcome?ref=QALA7"}
+  },
+  "https://go.safetrace.test/loop": {
+    "status": 302,
+    "headers": {"location": "https://go.safetrace.test/loop"}
+  },
+  "https://shop.safetrace.test/items?ref=QALA7": {
+    "status": 200,
+    "body": "<h1>DEMO: магазин книг</h1><p>Бонус на покупку учебника. Партнерская программа магазина.</p>"
+  }
+}

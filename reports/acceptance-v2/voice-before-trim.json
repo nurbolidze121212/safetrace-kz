@@ -1,0 +1,8 @@
+{
+  "voice": "Microsoft Irina Desktop",
+  "rate": 0,
+  "duration_seconds": 369.41786848072564,
+  "sample_rate": 22050,
+  "synthetic_voice_not_human_rehearsal": true,
+  "path": "data\\rehearsal\\pitch.wav"
+}

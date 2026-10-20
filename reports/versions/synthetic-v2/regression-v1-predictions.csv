@@ -1,0 +1,291 @@
+﻿id,variant,score,sufficient,predicted,elapsed_ms,status,ocr_text,ocr_rotations,provider,rules,ocr_model,qr_version,qr_decoded_count,contributions,truth,category,language,image
+b2c863184d7dd397,baseline,0,False,0,3.418,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,direct,ru,True
+b2c863184d7dd397,ocr,80,True,1,1359.249,completed,"Слоты на вечер: регистрируйся и получай приветственный бонус по коду
+SB7GAL.",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,ru,True
+b2c863184d7dd397,full,80,True,1,1199.781,completed,"Слоты на вечер: регистрируйся и получай приветственный бонус по коду
+SB7GAL.",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,ru,True
+32a517b8fd6e7586,baseline,100,True,1,0.36,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,ru,False
+32a517b8fd6e7586,ocr,80,True,1,0.251,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,ru,False
+32a517b8fd6e7586,full,80,True,1,0.229,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,ru,False
+74e4555da3426caa,baseline,0,True,0,0.324,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,kk,False
+74e4555da3426caa,ocr,80,True,1,0.215,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,kk,False
+74e4555da3426caa,full,80,True,1,0.21,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,kk,False
+a65c43a05e8a183c,baseline,0,False,0,0.19,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,direct,kk,True
+a65c43a05e8a183c,ocr,80,True,1,1566.093,completed,"DЕМО · Рулетка үстеліне қосыл, алғашқы бонус дайын. Арнайы код:
+ZQ89UB.",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,kk,True
+a65c43a05e8a183c,full,80,True,1,1538.191,completed,"DЕМО · Рулетка үстеліне қосыл, алғашқы бонус дайын. Арнайы код:
+ZQ89UB.",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,kk,True
+a61421df6b6bc379,baseline,100,True,1,0.552,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,mixed,False
+a61421df6b6bc379,ocr,80,True,1,0.351,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,mixed,False
+a61421df6b6bc379,full,80,True,1,0.314,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,mixed,False
+15d6ded4440a2888,baseline,100,True,1,0.525,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,mixed,False
+15d6ded4440a2888,ocr,80,True,1,0.358,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,mixed,False
+15d6ded4440a2888,full,80,True,1,0.271,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,mixed,False
+90f56afe730999e9,baseline,0,False,0,0.252,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,direct,ru,True
+90f56afe730999e9,ocr,80,True,1,784.514,completed,Для новых гостей казино — бонус. Переходи к регистрации сегодня.,[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,ru,True
+90f56afe730999e9,full,80,True,1,772.181,completed,Для новых гостей казино — бонус. Переходи к регистрации сегодня.,[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,ru,True
+184d0615a3a145cc,baseline,100,True,1,0.4,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,ru,False
+184d0615a3a145cc,ocr,80,True,1,0.274,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,ru,False
+184d0615a3a145cc,full,80,True,1,0.22,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,direct,ru,False
+7739ff8db3fd4b61,baseline,0,True,0,0.387,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,direct,kk,False
+7739ff8db3fd4b61,ocr,0,True,0,0.24,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,direct,kk,False
+7739ff8db3fd4b61,full,0,True,0,0.233,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,direct,kk,False
+70a2ed05eb5047b4,baseline,0,False,0,0.232,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,direct,kk,True
+70a2ed05eb5047b4,ocr,0,True,0,1247.624,completed,"DЕМО · Депозит салуға тіркел, сыйлық ал. Бугінгі ұтыс туралы ақпарат
+осында.",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,direct,kk,True
+70a2ed05eb5047b4,full,0,True,0,1299.372,completed,"DЕМО · Депозит салуға тіркел, сыйлық ал. Бугінгі ұтыс туралы ақпарат
+осында.",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,direct,kk,True
+a3fd4b6d2a885e60,baseline,0,True,0,0.413,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,ru,False
+a3fd4b6d2a885e60,ocr,0,True,0,0.268,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,ru,False
+a3fd4b6d2a885e60,full,80,True,1,1.496,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,hidden,ru,False
+7938316b07df70c3,baseline,0,True,0,0.394,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,ru,False
+7938316b07df70c3,ocr,0,True,0,0.285,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,ru,False
+7938316b07df70c3,full,80,True,1,1.073,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,hidden,ru,False
+b187589a13c54d9c,baseline,0,False,0,0.243,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,kk,True
+b187589a13c54d9c,ocr,0,True,0,1297.629,completed,"Тек бүгінгі ұсыныс. Тркел де бонус ал, мекенжайды сақта:
+https://nc0f88044c.test/s/0",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,kk,True
+b187589a13c54d9c,full,80,True,1,1275.046,completed,"Тек бүгінгі ұсыныс. Тркел де бонус ал, мекенжайды сақта:
+https://nc0f88044c.test/s/0",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,hidden,kk,True
+149d8e03e34f70de,baseline,0,True,0,0.602,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,kk,False
+149d8e03e34f70de,ocr,0,True,0,0.307,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,kk,False
+149d8e03e34f70de,full,80,True,1,1.113,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,hidden,kk,False
+94afa50302959b53,baseline,0,True,0,0.383,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,mixed,False
+94afa50302959b53,ocr,0,True,0,0.254,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,mixed,False
+94afa50302959b53,full,80,True,1,5.765,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,hidden,mixed,False
+bfa6746f30046a3e,baseline,0,False,0,0.325,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,mixed,True
+bfa6746f30046a3e,ocr,0,True,0,1409.124,completed,"DЕМО · Кешкі жоспар дайын. Жми на приглашение и забирай бонус!
+https://n0302fe4ec.test/s/1",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,mixed,True
+bfa6746f30046a3e,full,80,True,1,1430.08,completed,"DЕМО · Кешкі жоспар дайын. Жми на приглашение и забирай бонус!
+https://n0302fe4ec.test/s/1",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,hidden,mixed,True
+cc154c652b3014db,baseline,0,True,0,0.371,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,ru,False
+cc154c652b3014db,ocr,0,True,0,0.247,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,ru,False
+cc154c652b3014db,full,80,True,1,0.973,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,hidden,ru,False
+2755594c2abe1ce9,baseline,0,True,0,0.39,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,ru,False
+2755594c2abe1ce9,ocr,0,True,0,0.257,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,ru,False
+2755594c2abe1ce9,full,80,True,1,0.99,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,hidden,ru,False
+5aedf42eef70fdc5,baseline,0,False,0,0.187,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,kk,True
+5aedf42eef70fdc5,ocr,0,True,0,1170.139,completed,"Бізбен бірге баста! Сыйлық сілтемеде, тіркелуге асық:
+https://n74b2ae4d2.test/s/0",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,kk,True
+5aedf42eef70fdc5,full,80,True,1,1209.23,completed,"Бізбен бірге баста! Сыйлық сілтемеде, тіркелуге асық:
+https://n74b2ae4d2.test/s/0",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,hidden,kk,True
+cd902c811e79fbc7,baseline,0,True,0,0.467,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,kk,False
+cd902c811e79fbc7,ocr,0,True,0,0.309,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,kk,False
+cd902c811e79fbc7,full,80,True,1,1.208,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,hidden,kk,False
+b8cdc723287efa1e,baseline,0,True,0,0.432,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,multihop,ru,False
+b8cdc723287efa1e,ocr,0,True,0,0.262,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,multihop,ru,False
+b8cdc723287efa1e,full,80,True,1,6.28,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,multihop,ru,False
+2dd933078c2a6bb6,baseline,0,False,0,0.385,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,multihop,ru,True
+2dd933078c2a6bb6,ocr,0,True,0,1460.9,completed,"DЕМО · Все спрашивали адрес. Переходи через страницу клуба, получишь
+6oнyc AVEP69. https://n2592f51fe.test/s/1",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,multihop,ru,True
+2dd933078c2a6bb6,full,65,True,1,1396.588,completed,"DЕМО · Все спрашивали адрес. Переходи через страницу клуба, получишь
+6oнyc AVEP69. https://n2592f51fe.test/s/1",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['destination_and_call'],1,multihop,ru,True
+4d33597ee3722324,baseline,0,True,0,0.352,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,multihop,mixed,False
+4d33597ee3722324,ocr,0,True,0,0.223,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,multihop,mixed,False
+4d33597ee3722324,full,80,True,1,0.916,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,multihop,mixed,False
+312b5e9b258c9032,baseline,0,True,0,0.357,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,multihop,mixed,False
+312b5e9b258c9032,ocr,0,True,0,0.255,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,multihop,mixed,False
+312b5e9b258c9032,full,80,True,1,0.961,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,multihop,mixed,False
+cf4383fb8a262790,baseline,0,False,0,0.185,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,multihop,kk,True
+cf4383fb8a262790,ocr,0,True,0,1052.235,completed,"Жеке шақыру: косыл, сыйлык ал. Серіктес беттен өте аласың:
+https://n8a9e2b4a5.test/s/0",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,multihop,kk,True
+cf4383fb8a262790,full,65,True,1,1138.135,completed,"Жеке шақыру: косыл, сыйлык ал. Серіктес беттен өте аласың:
+https://n8a9e2b4a5.test/s/0",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['destination_and_call'],1,multihop,kk,True
+bf74ce1266243e9f,baseline,0,True,0,0.425,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,multihop,kk,False
+bf74ce1266243e9f,ocr,0,True,0,0.281,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,multihop,kk,False
+bf74ce1266243e9f,full,80,True,1,1.132,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,multihop,kk,False
+e9e2bf4728a670b1,baseline,0,True,0,0.331,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,translit,mixed,False
+e9e2bf4728a670b1,ocr,0,True,0,0.225,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,translit,mixed,False
+e9e2bf4728a670b1,full,80,True,1,4.855,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,translit,mixed,False
+316015846f8977fe,baseline,0,False,0,0.207,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,translit,mixed,True
+316015846f8977fe,ocr,0,True,0,1200.222,completed,"DEMO · Zabirai bonus, perehodi po ssylke. Qazaqsha da bar.
+https://n13b35a00a.test/s/1",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,translit,mixed,True
+316015846f8977fe,full,80,True,1,1146.193,completed,"DEMO · Zabirai bonus, perehodi po ssylke. Qazaqsha da bar.
+https://n13b35a00a.test/s/1",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion']",1,translit,mixed,True
+c5d65a4123e61cbc,baseline,0,True,0,0.318,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,translit,ru,False
+c5d65a4123e61cbc,ocr,80,True,1,0.215,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,translit,ru,False
+c5d65a4123e61cbc,full,80,True,1,0.202,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,translit,ru,False
+36b17c4fb627df41,baseline,0,True,0,0.385,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,translit,ru,False
+36b17c4fb627df41,ocr,80,True,1,0.232,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,translit,ru,False
+36b17c4fb627df41,full,80,True,1,0.22,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion']",1,translit,ru,False
+c8e336214ee34966,baseline,0,False,0,0.202,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,unresolved,ru,True
+c8e336214ee34966,ocr,0,True,0,1161.151,completed,"Место встречи поменялось. Переходи за бонусом в новый клуб:
+https://n137f5b2c9.test/s/0",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,unresolved,ru,True
+c8e336214ee34966,full,0,False,0,1168.107,partial,"Место встречи поменялось. Переходи за бонусом в новый клуб:
+https://n137f5b2c9.test/s/0",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,unresolved,ru,True
+48875409b24d3df5,baseline,0,True,0,0.392,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,unresolved,ru,False
+48875409b24d3df5,ocr,0,True,0,0.23,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,unresolved,ru,False
+48875409b24d3df5,full,0,False,0,0.308,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,unresolved,ru,False
+0bb80f3d6cad4966,baseline,0,True,0,0.428,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,unresolved,kk,False
+0bb80f3d6cad4966,ocr,0,True,0,0.244,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,unresolved,kk,False
+0bb80f3d6cad4966,full,0,False,0,0.319,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,unresolved,kk,False
+fbd372b43cec6b60,baseline,0,False,0,0.42,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,unresolved,kk,True
+fbd372b43cec6b60,ocr,0,True,0,1202.073,completed,"DЕМО · Бугін ғана тіркел, бонус ал. Ескі сілтеме істемесе, күте тұр:
+https://n75f96ab9d.test/s/1",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,unresolved,kk,True
+fbd372b43cec6b60,full,0,False,0,1176.098,partial,"DЕМО · Бугін ғана тіркел, бонус ал. Ескі сілтеме істемесе, күте тұр:
+https://n75f96ab9d.test/s/1",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,unresolved,kk,True
+3439ee680e8ba0d1,baseline,100,True,1,0.459,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'contradictory_context']",1,contradictory,ru,False
+3439ee680e8ba0d1,ocr,80,True,1,0.292,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'contradictory_context']",1,contradictory,ru,False
+3439ee680e8ba0d1,full,80,True,1,1.063,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'contradictory_context']",1,contradictory,ru,False
+357a4592d4cb6a35,baseline,100,True,1,0.525,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'contradictory_context']",1,contradictory,ru,False
+357a4592d4cb6a35,ocr,80,True,1,0.334,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'contradictory_context']",1,contradictory,ru,False
+357a4592d4cb6a35,full,80,True,1,1.323,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'contradictory_context']",1,contradictory,ru,False
+04b81a06fae332c3,baseline,0,False,0,0.335,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,direct,ru,True
+04b81a06fae332c3,ocr,90,True,1,1298.98,completed,"Играй в слоты: обещаем выигрыш и приветственные фриспины каждому
+гостю.",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'promise_in_promotion']",1,direct,ru,True
+04b81a06fae332c3,full,90,True,1,1319.927,completed,"Играй в слоты: обещаем выигрыш и приветственные фриспины каждому
+гостю.",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'promise_in_promotion']",1,direct,ru,True
+6a7946758d456063,baseline,100,True,1,0.588,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'promise_in_promotion']",1,direct,ru,False
+6a7946758d456063,ocr,90,True,1,0.409,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'promise_in_promotion']",1,direct,ru,False
+6a7946758d456063,full,90,True,1,0.322,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'promise_in_promotion']",1,direct,ru,False
+8079b8a0227b11ea,baseline,0,True,0,0.475,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,mixed,False
+8079b8a0227b11ea,ocr,0,True,0,0.303,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,mixed,False
+8079b8a0227b11ea,full,90,True,1,1.245,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'promise_in_promotion']",1,hidden,mixed,False
+30825c097fe3f14a,baseline,0,False,0,0.311,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,mixed,True
+30825c097fe3f14a,ocr,0,True,0,1349.584,completed,"DЕМО · Твой шанс на ұтыс. Переходи сюда и забирай бонус от команды.
+https://n994613945.test/s/1",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],1,hidden,mixed,True
+30825c097fe3f14a,full,90,True,1,1307.217,completed,"DЕМО · Твой шанс на ұтыс. Переходи сюда и забирай бонус от команды.
+https://n994613945.test/s/1",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'promise_in_promotion']",1,hidden,mixed,True
+acae12ef94697aec,baseline,100,True,1,0.598,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,warning,ru,False
+acae12ef94697aec,ocr,15,True,0,0.283,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,warning,ru,False
+acae12ef94697aec,full,15,True,0,1.03,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'alternative_context']",0,warning,ru,False
+b71673c805f6fa51,baseline,100,True,1,0.406,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,warning,ru,False
+b71673c805f6fa51,ocr,15,True,0,0.29,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,warning,ru,False
+b71673c805f6fa51,full,15,True,0,1.008,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'alternative_context']",0,warning,ru,False
+61f3cbe4a6cf9001,baseline,0,False,0,0.18,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,warning,kk,True
+61f3cbe4a6cf9001,ocr,0,True,0,1376.775,completed,"Сақ бол! Алаяқтар «бонус ал, тіркел» деп жазады. Ақша жібермеңіз.
+Мыcaл: https://n25ce5d36b.test/s/0",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,warning,kk,True
+61f3cbe4a6cf9001,full,15,True,0,1333.63,completed,"Сақ бол! Алаяқтар «бонус ал, тіркел» деп жазады. Ақша жібермеңіз.
+Мыcaл: https://n25ce5d36b.test/s/0",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'alternative_context']",0,warning,kk,True
+49bce060ce1d2a68,baseline,0,True,0,0.496,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,warning,kk,False
+49bce060ce1d2a68,ocr,0,True,0,0.286,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,warning,kk,False
+49bce060ce1d2a68,full,15,True,0,1.081,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'alternative_context']",0,warning,kk,False
+19b798d7c28fbac9,baseline,100,True,1,0.395,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,warning,mixed,False
+19b798d7c28fbac9,ocr,15,True,0,0.273,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,warning,mixed,False
+19b798d7c28fbac9,full,15,True,0,1.019,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'alternative_context']",0,warning,mixed,False
+07b9690ba40d8f11,baseline,0,False,0,0.221,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,warning,mixed,True
+07b9690ba40d8f11,ocr,15,True,0,1301.0,completed,"DЕМО · Это скам: «переходи и получи бонус в слотах». Сілтемеге
+өтпеңiз. https://n0c30f7fad.test/s/1",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,warning,mixed,True
+07b9690ba40d8f11,full,15,True,0,1281.499,completed,"DЕМО · Это скам: «переходи и получи бонус в слотах». Сілтемеге
+өтпеңiз. https://n0c30f7fad.test/s/1",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'alternative_context']",0,warning,mixed,True
+97db1bdeef210b3f,baseline,100,True,1,0.357,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,warning,ru,False
+97db1bdeef210b3f,ocr,0,True,0,0.248,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,warning,ru,False
+97db1bdeef210b3f,full,0,True,0,1.006,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,warning,ru,False
+278e04aea73b06cc,baseline,100,True,1,0.377,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,warning,ru,False
+278e04aea73b06cc,ocr,0,True,0,0.256,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,warning,ru,False
+278e04aea73b06cc,full,0,True,0,0.99,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,warning,ru,False
+c65d0240314bad3e,baseline,0,False,0,0.195,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,news,ru,True
+c65d0240314bad3e,ocr,15,True,0,1159.758,completed,"Корреспондент изучил, как блогеры пишут «забирай бонус в казино».
+Адрec из публикации: https://ncc86db3ac.test/s/0",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,news,ru,True
+c65d0240314bad3e,full,15,True,0,1204.877,completed,"Корреспондент изучил, как блогеры пишут «забирай бонус в казино».
+Адрec из публикации: https://ncc86db3ac.test/s/0",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'alternative_context']",0,news,ru,True
+3a468c9b574fe814,baseline,100,True,1,0.498,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,news,ru,False
+3a468c9b574fe814,ocr,15,True,0,0.291,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,news,ru,False
+3a468c9b574fe814,full,15,True,0,1.095,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'alternative_context']",0,news,ru,False
+ad90f6e57741ac5d,baseline,100,True,1,0.491,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,news,kk,False
+ad90f6e57741ac5d,ocr,0,True,0,0.243,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,news,kk,False
+ad90f6e57741ac5d,full,0,True,0,1.073,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,news,kk,False
+eb36c9377fd45683,baseline,0,False,0,0.227,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,news,kk,True
+eb36c9377fd45683,ocr,0,True,0,1393.163,completed,"ДЕМО · Жаңалық: мамандар құмар ойын жарнамасын зерттеді. Мақалада
+бонус туралы мысал бaр. https://n2c17c61d2.test/s/1",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,news,kk,True
+eb36c9377fd45683,full,0,True,0,1361.794,completed,"ДЕМО · Жаңалық: мамандар құмар ойын жарнамасын зерттеді. Мақалада
+бонус туралы мысал бaр. https://n2c17c61d2.test/s/1",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,news,kk,True
+36f3b487ff700ff6,baseline,100,True,1,0.376,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,news,mixed,False
+36f3b487ff700ff6,ocr,15,True,0,0.262,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,news,mixed,False
+36f3b487ff700ff6,full,15,True,0,0.95,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'alternative_context']",0,news,mixed,False
+4e819beb977e4a11,baseline,100,True,1,0.38,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,news,mixed,False
+4e819beb977e4a11,ocr,15,True,0,0.271,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,news,mixed,False
+4e819beb977e4a11,full,15,True,0,0.99,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'alternative_context']",0,news,mixed,False
+7b134e1258dd88d4,baseline,0,False,0,0.184,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,education,ru,True
+7b134e1258dd88d4,ocr,15,True,0,1394.848,completed,"Образовательный разбор: почему «переходи в казино, забирай бонус»
+нельзя считать надежным обещанием. httрs://n01dddаbоь.test/s/0",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,education,ru,True
+7b134e1258dd88d4,full,15,True,0,1389.473,completed,"Образовательный разбор: почему «переходи в казино, забирай бонус»
+нельзя считать надежным обещанием. httрs://n01dddаbоь.test/s/0",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,education,ru,True
+6644579a73535d1c,baseline,100,True,1,0.485,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,education,ru,False
+6644579a73535d1c,ocr,15,True,0,0.312,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,education,ru,False
+6644579a73535d1c,full,15,True,0,1.139,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'alternative_context']",0,education,ru,False
+a45382d41d620d4a,baseline,0,True,0,0.372,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,education,kk,False
+a45382d41d620d4a,ocr,0,True,0,0.26,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,education,kk,False
+a45382d41d620d4a,full,15,True,0,5.241,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'alternative_context']",0,education,kk,False
+0a4c3410873d0d90,baseline,0,False,0,0.217,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,education,kk,True
+0a4c3410873d0d90,ocr,0,True,0,1141.305,completed,"DЕМО · Медиасауат сабағы. «Тіркел, бонус ал» деген жарнаманы
+талдаймыз. https://n303d01d00.test/s/1",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,['alternative_context'],0,education,kk,True
+0a4c3410873d0d90,full,15,True,0,1162.775,completed,"DЕМО · Медиасауат сабағы. «Тіркел, бонус ал» деген жарнаманы
+талдаймыз. https://n303d01d00.test/s/1",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['destination_and_call', 'bonus_in_promotion', 'alternative_context']",0,education,kk,True
+82aedc3972374c90,baseline,100,True,1,0.381,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'alternative_context']",0,education,mixed,False
+82aedc3972374c90,ocr,0,True,0,0.246,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'alternative_context']",0,education,mixed,False
+82aedc3972374c90,full,0,True,0,0.234,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'alternative_context']",0,education,mixed,False
+42726c31d43f82aa,baseline,100,True,1,0.381,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'alternative_context']",0,education,mixed,False
+42726c31d43f82aa,ocr,0,True,0,0.246,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'alternative_context']",0,education,mixed,False
+42726c31d43f82aa,full,0,True,0,0.236,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'alternative_context']",0,education,mixed,False
+ef542759b8d93582,baseline,0,False,0,0.205,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,free_game,ru,True
+ef542759b8d93582,ocr,15,True,0,1392.501,completed,"Поиграем в учебные слоты: бесплатная игра без денежных ставок. Играй
+и получай бонусные очки.",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,free_game,ru,True
+ef542759b8d93582,full,15,True,0,1309.132,completed,"Поиграем в учебные слоты: бесплатная игра без денежных ставок. Играй
+и получай бонусные очки.",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,free_game,ru,True
+f623b4c9aa89d0d1,baseline,100,True,1,0.409,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,free_game,ru,False
+f623b4c9aa89d0d1,ocr,15,True,0,0.266,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,free_game,ru,False
+f623b4c9aa89d0d1,full,15,True,0,0.251,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,free_game,ru,False
+ea8e402bac497b3b,baseline,0,True,0,0.41,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,free_game,kk,False
+ea8e402bac497b3b,ocr,15,True,0,0.248,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,free_game,kk,False
+ea8e402bac497b3b,full,15,True,0,0.235,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,free_game,kk,False
+a81ef40e19c1b553,baseline,0,False,0,0.206,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,free_game,kk,True
+a81ef40e19c1b553,ocr,15,True,0,1282.802,completed,"DЕМО · Тегін ойын, ақшасыз рулетка. Қосыл, бонус ұпайларын ал. Ақша
+төлеу жок.",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,free_game,kk,True
+a81ef40e19c1b553,full,15,True,0,1469.701,completed,"DЕМО · Тегін ойын, ақшасыз рулетка. Қосыл, бонус ұпайларын ал. Ақша
+төлеу жок.",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,"['gambling_and_call', 'bonus_in_promotion', 'alternative_context']",0,free_game,kk,True
+44c77e393d61abd9,baseline,0,True,0,0.503,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,affiliate,ru,False
+44c77e393d61abd9,ocr,0,True,0,0.302,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,affiliate,ru,False
+44c77e393d61abd9,full,0,True,0,1.183,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,affiliate,ru,False
+09aebeeea974b24f,baseline,0,True,0,0.513,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,affiliate,ru,False
+09aebeeea974b24f,ocr,0,True,0,0.311,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,affiliate,ru,False
+09aebeeea974b24f,full,0,True,0,1.19,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,affiliate,ru,False
+0b80c6e1710a22e2,baseline,0,False,0,0.244,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,affiliate,mixed,True
+0b80c6e1710a22e2,ocr,0,True,0,1237.498,completed,"Киім дүкені: забирай бонус при покупке куртки. Біздің серіктес
+cілтемеміз: https://ne840462d7.test/s/0",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,affiliate,mixed,True
+0b80c6e1710a22e2,full,0,True,0,1174.183,completed,"Киім дүкені: забирай бонус при покупке куртки. Біздің серіктес
+cілтемеміз: https://ne840462d7.test/s/0",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,affiliate,mixed,True
+e9ba5d100c708fe0,baseline,0,True,0,0.492,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,affiliate,mixed,False
+e9ba5d100c708fe0,ocr,0,True,0,0.356,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,affiliate,mixed,False
+e9ba5d100c708fe0,full,0,True,0,1.174,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,affiliate,mixed,False
+9f0f7e071666f083,baseline,0,True,0,0.4,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,ru,False
+9f0f7e071666f083,ocr,0,True,0,0.182,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,ru,False
+9f0f7e071666f083,full,0,True,0,0.144,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,ru,False
+7497e7ceaddedf23,baseline,0,False,0,0.296,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,ru,True
+7497e7ceaddedf23,ocr,0,True,0,1444.702,completed,"DЕМО · Волонтеры открывают клуб настольных игр. Приносите шахматы и
+друзей.",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,ru,True
+7497e7ceaddedf23,full,0,True,0,1425.391,completed,"DЕМО · Волонтеры открывают клуб настольных игр. Приносите шахматы и
+друзей.",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,ru,True
+b412c411216360af,baseline,0,True,0,0.451,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,kk,False
+b412c411216360af,ocr,0,True,0,0.189,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,kk,False
+b412c411216360af,full,0,True,0,0.221,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,kk,False
+f579641337ea805f,baseline,0,True,0,0.271,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,kk,False
+f579641337ea805f,ocr,0,True,0,0.163,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,kk,False
+f579641337ea805f,full,0,True,0,0.154,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,kk,False
+737c8265fd0d4aa1,baseline,0,False,0,0.199,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,mixed,True
+737c8265fd0d4aa1,ocr,0,True,0,1168.928,completed,"Бонус к зарплате начислен. Кұттықтаймыз! Никаких регистраций и
+переводов.",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,mixed,True
+737c8265fd0d4aa1,full,0,True,0,1187.38,completed,"Бонус к зарплате начислен. Кұттықтаймыз! Никаких регистраций и
+переводов.",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,mixed,True
+c6514c2dace06455,baseline,0,True,0,0.314,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,mixed,False
+c6514c2dace06455,ocr,0,True,0,0.182,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,mixed,False
+c6514c2dace06455,full,0,True,0,0.172,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ordinary,mixed,False
+62f8b62f01740ae3,baseline,0,True,0,0.419,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,ru,False
+62f8b62f01740ae3,ocr,0,True,0,0.24,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,ru,False
+62f8b62f01740ae3,full,0,False,0,0.318,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,ru,False
+610b17daec622ffc,baseline,0,False,0,0.23,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,ru,True
+610b17daec622ffc,ocr,0,True,0,1355.525,completed,"ДЕМО · Короткая ссылка без пояснений. Автор пишет только «смотри
+cюда». https://n457ddc071.test/s/1",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,ru,True
+610b17daec622ffc,full,0,False,0,1343.594,partial,"ДЕМО · Короткая ссылка без пояснений. Автор пишет только «смотри
+cюда». https://n457ddc071.test/s/1",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,ru,True
+c344e92f7fb5fbf9,baseline,0,True,0,0.331,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,kk,False
+c344e92f7fb5fbf9,ocr,0,True,0,0.169,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,kk,False
+c344e92f7fb5fbf9,full,0,False,0,0.247,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,kk,False
+7e0f8786c46707c5,baseline,0,True,0,0.344,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,kk,False
+7e0f8786c46707c5,ocr,0,True,0,0.187,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,kk,False
+7e0f8786c46707c5,full,0,False,0,0.283,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,kk,False
+4a57c37af56bb185,baseline,0,False,0,0.244,partial,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,mixed,True
+4a57c37af56bb185,ocr,0,True,0,693.106,completed,"Промокод 884хХС. Больше информации нет, источник пока неизвестен.",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,mixed,True
+4a57c37af56bb185,full,0,True,0,732.561,completed,"Промокод 884хХС. Больше информации нет, источник пока неизвестен.",[0],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,mixed,True
+4afa1cc730b91a54,baseline,0,True,0,0.347,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,mixed,False
+4afa1cc730b91a54,ocr,0,True,0,0.202,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,mixed,False
+4afa1cc730b91a54,full,0,True,0,0.184,completed,,[],local_rule,rules-2.0,cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0,qr-1.0,0,[],0,ambiguous,mixed,False

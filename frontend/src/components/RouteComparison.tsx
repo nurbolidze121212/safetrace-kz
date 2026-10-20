@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { ArrowUpRight, History } from 'lucide-react'
-import type { Case, Observation } from '../types'
+import type { Case, Observation, Relation } from '../types'
 import type { ObservationChange } from '../comparison'
 import { compareObservations } from '../comparison'
 import { date, isActive, methods } from '../lib'
@@ -27,18 +27,19 @@ export default function RouteComparison({ current }: { current: Case }) {
     </> : <Empty title="Пока одно наблюдение"><p>После повторного анализа здесь можно проверить, изменились ли ответы, переходы и текст страниц.</p></Empty>}
     {detail && <Dialog title="Сравнение сохраненных ответов" onClose={() => setDetail(undefined)} drawer>
       <p className="dialog-intro">Просмотр архива не выполняет новый сетевой запрос.</p><div className="source-url"><code>{detail.url}</code></div>
-      <ObservationPanel title="Предыдущее наблюдение" observation={detail.before} />
-      <ObservationPanel title="Текущее наблюдение" observation={detail.after} />
+      <ObservationPanel title="Предыдущее наблюдение" observation={detail.before} relations={(previous?.trace?.relations || []).filter(r => r.from === detail.url)} />
+      <ObservationPanel title="Текущее наблюдение" observation={detail.after} relations={(current.trace.relations || []).filter(r => r.from === detail.url)} />
       <p className="footnote">Различия относятся к сохраненным наблюдениям; причина изменения требует ручной проверки.</p>
     </Dialog>}
   </details>
 }
 
-function ObservationPanel({ title, observation }: { title: string; observation?: Observation }) {
+function ObservationPanel({ title, observation, relations }: { title: string; observation?: Observation; relations: Relation[] }) {
   return <article className="evidence-item"><h3>{title}</h3>{observation ? <>
     <dl><dt>Время</dt><dd>{date(observation.at)} · UTC+5</dd><dt>Метод</dt><dd>{methods[observation.method] || observation.method}</dd><dt>Ответ</dt><dd>{observation.status_code ? 'HTTP ' + observation.status_code : 'Нет ответа'}</dd></dl>
     {observation.stop && <p className="warning-text">{observation.stop}</p>}
     {observation.location && <div className="source-url"><span>Переход</span><code>{observation.location}</code></div>}
+    {relations.length > 0 && <div className="comparison-links"><h4>Сохраненные переходы</h4>{relations.map((relation, i) => <div className="source-url" key={i}><span>{relation.type === 'redirects' ? 'HTTP-переход' : 'Ссылка на странице'}</span><code>{relation.to}</code>{relation.quote && <small>«{relation.quote}»</small>}</div>)}</div>}
     <blockquote>{observation.text || 'Сохраненного текста нет.'}</blockquote><details className="technical-details"><summary>Идентификатор источника</summary><code>{observation.evidence_id}</code></details>
   </> : <p>В этом анализе адрес не наблюдался.</p>}</article>
 }

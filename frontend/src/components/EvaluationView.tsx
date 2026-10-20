@@ -7,7 +7,7 @@ const variantNames: Record<string, string> = { baseline: 'Ключевые сл�
 const sliceNames: Record<string, string> = { ru: 'Русский', kk: 'Казахский', mixed: 'Смешанный', image: 'С изображением', text: 'Текст', translit: 'Транслит', warning: 'Предупреждения', news: 'Новости', education: 'Образовательные', free_game: 'Бесплатная игра', ordinary: 'Обычная реклама', hidden: 'Скрытое продвижение', direct: 'Прямое продвижение', unresolved: 'Неразрешимые ссылки', multihop: 'Многошаговый маршрут' }
 const recall = (m: Metrics) => m.tp + m.fn ? pct(m.recall) : '—'
 const fpr = (m: Metrics) => m.fp + m.tn ? pct(m.fpr) : '—'
-function sliceLabel(key: string) { return key.split(':').map(part => sliceNames[part] || ({ language: 'Язык', kind: 'Тип', format: 'Формат', scenario: 'Сценарий', affiliate: 'Партнерская программа', ambiguous: 'Неоднозначные', contradictory: 'Противоречивые', unseen_domains: 'Незнакомые домены' } as Record<string, string>)[part] || part).join(' · ') }
+function sliceLabel(key: string) { return key.split(':').map(part => sliceNames[part] || ({ qr: 'С QR-кодом', other: 'Транслит / другой язык', language: 'Язык', kind: 'Тип', format: 'Формат', scenario: 'Сценарий', affiliate: 'Партнерская программа', ambiguous: 'Неоднозначные', contradictory: 'Противоречивые', unseen_domains: 'Незнакомые домены' } as Record<string, string>)[part] || part).join(' · ') }
 
 export default function EvaluationView({ data, onVersion }: { data?: Evaluation; onVersion: (version: string) => void }) {
   const full = data?.variants?.full
