@@ -1,0 +1,61 @@
+{
+  "core_files": 20,
+  "data_files": 37,
+  "model_files": 6,
+  "archive_matches_frozen_core": true,
+  "working_core_matches": true,
+  "input_count": 80,
+  "prediction_count": 240,
+  "unlabelled_predictions_do_not_contain_truth": true,
+  "metrics_recount": {
+    "baseline": {
+      "n": 80,
+      "tp": 12,
+      "fp": 18,
+      "tn": 22,
+      "fn": 28,
+      "precision": 0.4,
+      "recall": 0.3,
+      "f1": 0.34285714285714286,
+      "fpr": 0.45,
+      "coverage": 0.6,
+      "insufficient": 32,
+      "processed_n": 48,
+      "p50_ms": 1.396,
+      "p95_ms": 1.986
+    },
+    "ocr": {
+      "n": 80,
+      "tp": 15,
+      "fp": 1,
+      "tn": 39,
+      "fn": 25,
+      "precision": 0.9375,
+      "recall": 0.375,
+      "f1": 0.5357142857142857,
+      "fpr": 0.025,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "processed_n": 80,
+      "p50_ms": 1.3885,
+      "p95_ms": 6677.675
+    },
+    "full": {
+      "n": 80,
+      "tp": 32,
+      "fp": 1,
+      "tn": 39,
+      "fn": 8,
+      "precision": 0.9696969696969697,
+      "recall": 0.8,
+      "f1": 0.8767123287671232,
+      "fpr": 0.025,
+      "coverage": 0.8625,
+      "insufficient": 11,
+      "processed_n": 69,
+      "p50_ms": 2.0325,
+      "p95_ms": 6815.203
+    }
+  },
+  "evaluation_sha256": "0fba5a8af129621ae21f1f2bedfc609e3f12e759b46f8d7bac6bc6da8bb609e1"
+}
