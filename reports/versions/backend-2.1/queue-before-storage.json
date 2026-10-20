@@ -1,0 +1,22 @@
+{
+  "label": "before-storage",
+  "cases": 150,
+  "iterations": 7,
+  "history_quote_bytes_per_case": 225000,
+  "median_ms": 249.022,
+  "max_ms": 300.676,
+  "measurements_ms": [
+    238.09,
+    244.601,
+    300.676,
+    240.651,
+    269.539,
+    249.022,
+    257.131
+  ],
+  "sqlite_connections_per_listing": 151,
+  "python_peak_allocated_bytes": 34689600,
+  "result_bytes": 51040,
+  "database_bytes": 31703040,
+  "note": "Synthetic stored documents; direct API handler, no OCR/network or browser timing."
+}

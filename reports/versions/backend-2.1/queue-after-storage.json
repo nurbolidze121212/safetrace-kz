@@ -1,0 +1,22 @@
+{
+  "label": "after-storage",
+  "cases": 150,
+  "iterations": 7,
+  "history_quote_bytes_per_case": 225000,
+  "median_ms": 56.736,
+  "max_ms": 71.182,
+  "measurements_ms": [
+    71.182,
+    55.375,
+    55.266,
+    54.861,
+    56.736,
+    61.258,
+    58.206
+  ],
+  "sqlite_connections_per_listing": 1,
+  "python_peak_allocated_bytes": 180782,
+  "result_bytes": 51040,
+  "database_bytes": 33992704,
+  "note": "Synthetic stored documents; direct API handler, no OCR/network or browser timing."
+}

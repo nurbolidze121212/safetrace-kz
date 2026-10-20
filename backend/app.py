@@ -140,28 +140,7 @@ def image(image_id: str):
 
 @app.get("/api/cases")
 def cases():
-    docs = sorted(storage.all_cases(), key=lambda d: d["created_at"], reverse=True)
-    return [
-        {
-            k: d.get(k)
-            for k in (
-                "id",
-                "title",
-                "mode",
-                "status",
-                "created_at",
-                "score",
-                "progress",
-                "stage",
-                "sufficient_data",
-            )
-        }
-        | {
-            "material_count": len(d["materials"]),
-            "decision": (storage.decisions(d["id"]) or [{}])[-1].get("decision"),
-        }
-        for d in docs
-    ]
+    return storage.case_summaries()
 
 
 @app.post("/api/cases", status_code=201)
