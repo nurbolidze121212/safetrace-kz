@@ -11,7 +11,7 @@ def package(doc):
     report = {
         **doc,
         "decisions": storage.decisions(doc["id"]),
-        "graph": build_graph(doc, storage.all_cases()),
+        "graph": build_graph(doc, storage.graph_peers(doc)),
     }
     files = {"case.json": json.dumps(report, ensure_ascii=False, indent=2).encode()}
     for i, material in enumerate(doc["materials"], 1):

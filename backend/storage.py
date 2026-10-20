@@ -102,6 +102,33 @@ def case_summaries():
         ]
 
 
+def graph_peers(doc):
+    scopes = {item["scope"] for item in doc.get("identifiers", [])}
+    if not scopes:
+        return []
+    fields = ("id", "title", "mode", "identifiers", "evidence", "materials")
+    with connect() as conn:
+        # Keep both small projections on one read snapshot, including concurrent case updates.
+        conn.execute("BEGIN")
+        selected = []
+        for row in conn.execute("""
+            SELECT id, json_extract(document, '$.mode', '$.identifiers') AS match_data
+            FROM cases WHERE id != ?
+        """, (doc["id"],)):
+            mode, identifiers = json.loads(row["match_data"])
+            if mode == doc["mode"] and any(item["scope"] in scopes for item in identifiers or []):
+                selected.append(row["id"])
+        if not selected:
+            return []
+        rows = conn.execute("""
+            SELECT json_extract(c.document, '$.id', '$.title', '$.mode', '$.identifiers',
+                                '$.evidence', '$.materials') AS peer
+            FROM cases c WHERE c.id IN (SELECT value FROM json_each(?))
+            ORDER BY c.rowid
+        """, (json.dumps(selected),))
+        return [dict(zip(fields, json.loads(row["peer"]), strict=True)) for row in rows]
+
+
 def decisions(case_id):
     with connect() as conn:
         return [

@@ -166,7 +166,7 @@ def detail(case_id: str):
         **doc,
         "trace": doc.get("trace") or {"observations": [], "relations": [], "requests": 0},
         "decisions": storage.decisions(case_id),
-        "graph": build_graph(doc, storage.all_cases())
+        "graph": build_graph(doc, storage.graph_peers(doc))
         if doc.get("evidence")
         else {"nodes": [], "edges": [], "evidence": []},
     }

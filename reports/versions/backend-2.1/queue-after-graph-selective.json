@@ -1,0 +1,23 @@
+{
+  "label": "after-graph-selective",
+  "target": "graph",
+  "cases": 150,
+  "iterations": 7,
+  "history_quote_bytes_per_case": 225000,
+  "median_ms": 68.209,
+  "max_ms": 72.529,
+  "measurements_ms": [
+    65.73,
+    67.122,
+    68.209,
+    68.157,
+    72.529,
+    68.752,
+    71.074
+  ],
+  "sqlite_connections_per_listing": 3,
+  "python_peak_allocated_bytes": 456674,
+  "result_bytes": 228883,
+  "database_bytes": 34058240,
+  "note": "Synthetic stored documents; direct API handler, no OCR/network or browser timing."
+}
