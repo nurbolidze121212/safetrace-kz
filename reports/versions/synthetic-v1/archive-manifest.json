@@ -1,0 +1,18 @@
+{
+  "dataset": "synthetic-v1",
+  "source_git_commit": "a47f1f2",
+  "purpose": "Historical frozen result; test-v1 is a regression set for later configurations.",
+  "source_hash_count": 63,
+  "archive_sha256": "4462bddc2b3d83d1b742052750aec00edbde5ed7d9bf0318c75ae67afb3735c7",
+  "report_hashes": {
+    "test-freeze.json": "2c8e2055a850634e29ab469faf1b44b4bc994e9419a3c8e06adea969a57ee830",
+    "evaluation.json": "207879587376ed9eabd8d2b4b1d4a8f5cebd7ebaabbe8d0dc1b2e18d986d1e4d",
+    "dev-evaluation.json": "d545e193556c7752cfefd880ad6d5313c383f81339e7644b4d72f3a34aa91bd9",
+    "EVALUATION.md": "7f6fda8940fb73b85d760fd941258fb9a213958bcc895ddf7c68da0f1ad59943",
+    "evaluation-predictions.csv": "255fcbba273113cc724d331976ea0e766e4908ba7318a830a7a99d588870d920",
+    "evaluation-predictions.json": "545f967e48b86e137b816b16d49c249fdd0f2edeabe3eac290bec7d9c5c6151a",
+    "dev-evaluation-predictions.csv": "10ebd79341898ff5e6da3bbf338d4c6e3c87326c0972f68823c24829644d40e3",
+    "dev-evaluation-predictions.json": "55ff5d35430730b0bcedf9b07fe5f9d06f5f490569ea5790c49ae11fcf4afc0d"
+  },
+  "prediction_snapshot_note": "Raw predictions copied byte-for-byte from a47f1f2; stored beside the unchanged source ZIP."
+}
