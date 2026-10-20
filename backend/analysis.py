@@ -41,6 +41,20 @@ def sentence_span(text, position):
     return start, position + end.start() if end else len(text)
 
 
+def contrast_clause_span(text, position, quoted_spans):
+    start, end = sentence_span(text, position)
+    clause_start = start
+    for match in re.finditer(r"\b(?:но|однако|бірақ|зато)\b", text[start:end], re.I):
+        left, right = start + match.start(), start + match.end()
+        if any(a <= left < b for a, b in quoted_spans):
+            continue
+        if left > position:
+            end = left
+            break
+        clause_start = right
+    return clause_start, end
+
+
 def non_gambling_usage(text, match):
     """Narrow lexical exclusions, scoped to the occurrence, never a document blacklist."""
     word = match.group().casefold()
@@ -104,10 +118,6 @@ def local_context(sources: dict[str, str]) -> ContextExtraction:
                     # Keep original offsets; do not turn a negative imperative into a positive one.
                     if re.search(r"\b(?:не|никогда\s+не|ешқашан)\s+$", text[: match.start()], re.I):
                         continue
-                    if not any(start <= match.start() < end for start, end in quoted_spans):
-                        prefix = re.split(r"[.!?\n]", text[: match.start()])[-1]
-                        if re.search(r"\b(?:но|однако|бірақ|зато)\b[^.!?\n]{0,70}$", prefix, re.I):
-                            standalone_calls.append(match.group())
                 claims.append(
                     Claim(
                         kind=kind,
@@ -121,13 +131,14 @@ def local_context(sources: dict[str, str]) -> ContextExtraction:
                 accepted += 1
                 if accepted == 3:
                     break
-    # An alternative word in another sentence cannot erase an explicit commercial call.
+    # A contrast word alone does not make an informational call commercial.
+    # Require an unquoted game reference in the call's own sentence/contrast clause.
     # Free-game context persists unless there is an explicit transition or money invitation.
     for call in (c for c in claims if c.kind == "call_to_action"):
         if any(start <= call.start < end for start, end in source_quotes[call.source_id]):
             continue
         text = sources[call.source_id]
-        start, end = sentence_span(text, call.start)
+        start, end = contrast_clause_span(text, call.start, source_quotes[call.source_id])
         sentence_claims = [c for c in claims if c.source_id == call.source_id and start <= c.start < end]
         sentence_kinds = {c.kind for c in sentence_claims}
         game_unquoted = any(

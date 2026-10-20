@@ -1,0 +1,106 @@
+FFFFFF.........FF                                                        [100%]
+================================== FAILURES ===================================
+_ test_contrast_does_not_turn_information_call_into_promotion[\u041e\u0441\u0442\u043e\u0440\u043e\u0436\u043d\u043e: \u043a\u0430\u0437\u0438\u043d\u043e \u043e\u043f\u0430\u0441\u043d\u043e, \u043d\u043e \u043f\u0435\u0440\u0435\u0445\u043e\u0434\u0438 \u043a \u043d\u0430\u0448\u0435\u0439 \u043f\u0430\u043c\u044f\u0442\u043a\u0435.] _
+
+text = 'Осторожно: казино опасно, но переходи к нашей памятке.'
+
+    @pytest.mark.parametrize("text", NEGATIVES)
+    def test_contrast_does_not_turn_information_call_into_promotion(text):
+        result = local_context({"m": text})
+>       assert not result.contradictions
+E       AssertionError: assert not ['Альтернативный контекст соседствует с самостоятельным рекламным призывом.']
+E        +  where ['Альтернативный контекст соседствует с самостоятельным рекламным призывом.'] = ContextExtraction(language='ru', context='warning', claims=[Claim(kind='gambling', quote='казино', source_id='m', expl...ным призывом.'], limitations=['Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.']).contradictions
+
+tests\test_contrast_scope.py:36: AssertionError
+_ test_contrast_does_not_turn_information_call_into_promotion[\u041d\u043e\u0432\u043e\u0441\u0442\u044c \u043e \u043a\u0430\u0437\u0438\u043d\u043e, \u043e\u0434\u043d\u0430\u043a\u043e \u0437\u0430\u0445\u043e\u0434\u0438 \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443 \u0440\u0430\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f.] _
+
+text = 'Новость о казино, однако заходи на страницу расследования.'
+
+    @pytest.mark.parametrize("text", NEGATIVES)
+    def test_contrast_does_not_turn_information_call_into_promotion(text):
+        result = local_context({"m": text})
+>       assert not result.contradictions
+E       AssertionError: assert not ['Альтернативный контекст соседствует с самостоятельным рекламным призывом.']
+E        +  where ['Альтернативный контекст соседствует с самостоятельным рекламным призывом.'] = ContextExtraction(language='ru', context='news', claims=[Claim(kind='gambling', quote='казино', source_id='m', explana...ным призывом.'], limitations=['Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.']).contradictions
+
+tests\test_contrast_scope.py:36: AssertionError
+_ test_contrast_does_not_turn_information_call_into_promotion[\u0423\u0447\u0435\u0431\u043d\u044b\u0439 \u0440\u0430\u0437\u0431\u043e\u0440: \u043a\u0430\u0437\u0438\u043d\u043e \u043e\u0431\u0435\u0449\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441, \u0437\u0430\u0442\u043e \u0437\u0430\u0431\u0438\u0440\u0430\u0439 \u043d\u0430\u0448 \u043a\u043e\u043d\u0441\u043f\u0435\u043a\u0442.] _
+
+text = 'Учебный разбор: казино обещает бонус, зато забирай наш конспект.'
+
+    @pytest.mark.parametrize("text", NEGATIVES)
+    def test_contrast_does_not_turn_information_call_into_promotion(text):
+        result = local_context({"m": text})
+>       assert not result.contradictions
+E       AssertionError: assert not ['Альтернативный контекст соседствует с самостоятельным рекламным призывом.']
+E        +  where ['Альтернативный контекст соседствует с самостоятельным рекламным призывом.'] = ContextExtraction(language='ru', context='education', claims=[Claim(kind='gambling', quote='казино', source_id='m', ex...ным призывом.'], limitations=['Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.']).contradictions
+
+tests\test_contrast_scope.py:36: AssertionError
+_ test_contrast_does_not_turn_information_call_into_promotion[\u041a\u0430\u0437\u0438\u043d\u043e \u049b\u0430\u0443\u0456\u043f\u0442\u0456, \u0431\u0456\u0440\u0430\u049b \u0441\u0430\u0431\u0430\u049b\u049b\u0430 \u0442\u0456\u0440\u043a\u0435\u043b.] _
+
+text = 'Казино қауіпті, бірақ сабаққа тіркел.'
+
+    @pytest.mark.parametrize("text", NEGATIVES)
+    def test_contrast_does_not_turn_information_call_into_promotion(text):
+        result = local_context({"m": text})
+>       assert not result.contradictions
+E       AssertionError: assert not ['Альтернативный контекст соседствует с самостоятельным рекламным призывом.']
+E        +  where ['Альтернативный контекст соседствует с самостоятельным рекламным призывом.'] = ContextExtraction(language='kk', context='warning', claims=[Claim(kind='gambling', quote='Казино', source_id='m', expl...ным призывом.'], limitations=['Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.']).contradictions
+
+tests\test_contrast_scope.py:36: AssertionError
+_ test_contrast_does_not_turn_information_call_into_promotion[\u0411\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u0430\u044f \u0438\u0433\u0440\u0430: \u0432\u0438\u0440\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0435 \u043a\u0430\u0437\u0438\u043d\u043e, \u043d\u043e \u0438\u0433\u0440\u0430\u0439\u0442\u0435 \u0431\u0435\u0437 \u0434\u0435\u043d\u0435\u0436\u043d\u044b\u0445 \u0441\u0442\u0430\u0432\u043e\u043a.] _
+
+text = 'Бесплатная игра: виртуальное казино, но играйте без денежных ставок.'
+
+    @pytest.mark.parametrize("text", NEGATIVES)
+    def test_contrast_does_not_turn_information_call_into_promotion(text):
+        result = local_context({"m": text})
+>       assert not result.contradictions
+E       AssertionError: assert not ['Альтернативный контекст соседствует с самостоятельным рекламным призывом.']
+E        +  where ['Альтернативный контекст соседствует с самостоятельным рекламным призывом.'] = ContextExtraction(language='ru', context='free_game', claims=[Claim(kind='gambling', quote='казино', source_id='m', ex...ным призывом.'], limitations=['Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.']).contradictions
+
+tests\test_contrast_scope.py:36: AssertionError
+_ test_contrast_does_not_turn_information_call_into_promotion[\u0422\u0435\u0433\u0456\u043d \u043e\u0439\u044b\u043d: \u043a\u0430\u0437\u0438\u043d\u043e, \u0431\u0456\u0440\u0430\u049b \u0442\u0456\u0440\u043a\u0435\u043b, \u0430\u049b\u0448\u0430\u0441\u044b\u0437 \u043e\u0439\u043d\u0430.] _
+
+text = 'Тегін ойын: казино, бірақ тіркел, ақшасыз ойна.'
+
+    @pytest.mark.parametrize("text", NEGATIVES)
+    def test_contrast_does_not_turn_information_call_into_promotion(text):
+        result = local_context({"m": text})
+>       assert not result.contradictions
+E       AssertionError: assert not ['Альтернативный контекст соседствует с самостоятельным рекламным призывом.']
+E        +  where ['Альтернативный контекст соседствует с самостоятельным рекламным призывом.'] = ContextExtraction(language='kk', context='free_game', claims=[Claim(kind='gambling', quote='казино', source_id='m', ex...ным призывом.'], limitations=['Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.']).contradictions
+
+tests\test_contrast_scope.py:36: AssertionError
+_ test_independent_game_call_in_own_clause_still_counts[\u041f\u0435\u0440\u0435\u0445\u043e\u0434\u0438 \u0432 \u043a\u0430\u0437\u0438\u043d\u043e, \u043d\u043e \u043e\u0441\u0442\u043e\u0440\u043e\u0436\u043d\u043e: \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u044b \u043f\u0440\u043e\u0438\u0433\u0440\u044b\u0448\u0438.] _
+
+text = 'Переходи в казино, но осторожно: возможны проигрыши.'
+
+    @pytest.mark.parametrize("text", POSITIVES)
+    def test_independent_game_call_in_own_clause_still_counts(text):
+        result = local_context({"m": text})
+>       assert result.contradictions
+E       AssertionError: assert []
+E        +  where [] = ContextExtraction(language='ru', context='warning', claims=[Claim(kind='gambling', quote='казино', source_id='m', expl...ntradictions=[], limitations=['Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.']).contradictions
+
+tests\test_contrast_scope.py:47: AssertionError
+_____ test_information_contrast_on_destination_does_not_create_game_route _____
+
+    def test_information_contrast_on_destination_does_not_create_game_route():
+        url = "https://contrast-dev.test/page"
+        doc = pipeline.new_case(CaseInput(title="Граница страницы", mode="synthetic", materials=[MaterialInput(text="Переходи по ссылке, забирай бонус.", url=url)]))
+        pipeline.analyze(doc, fetch=SyntheticTransport({url: {"status": 200, "body": f"<p>{NEGATIVES[0]}</p>"}}))
+>       assert doc["score"]["value"] < 65
+E       assert 80 < 65
+
+tests\test_contrast_scope.py:59: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/test_contrast_scope.py::test_contrast_does_not_turn_information_call_into_promotion[\u041e\u0441\u0442\u043e\u0440\u043e\u0436\u043d\u043e: \u043a\u0430\u0437\u0438\u043d\u043e \u043e\u043f\u0430\u0441\u043d\u043e, \u043d\u043e \u043f\u0435\u0440\u0435\u0445\u043e\u0434\u0438 \u043a \u043d\u0430\u0448\u0435\u0439 \u043f\u0430\u043c\u044f\u0442\u043a\u0435.]
+FAILED tests/test_contrast_scope.py::test_contrast_does_not_turn_information_call_into_promotion[\u041d\u043e\u0432\u043e\u0441\u0442\u044c \u043e \u043a\u0430\u0437\u0438\u043d\u043e, \u043e\u0434\u043d\u0430\u043a\u043e \u0437\u0430\u0445\u043e\u0434\u0438 \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443 \u0440\u0430\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f.]
+FAILED tests/test_contrast_scope.py::test_contrast_does_not_turn_information_call_into_promotion[\u0423\u0447\u0435\u0431\u043d\u044b\u0439 \u0440\u0430\u0437\u0431\u043e\u0440: \u043a\u0430\u0437\u0438\u043d\u043e \u043e\u0431\u0435\u0449\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441, \u0437\u0430\u0442\u043e \u0437\u0430\u0431\u0438\u0440\u0430\u0439 \u043d\u0430\u0448 \u043a\u043e\u043d\u0441\u043f\u0435\u043a\u0442.]
+FAILED tests/test_contrast_scope.py::test_contrast_does_not_turn_information_call_into_promotion[\u041a\u0430\u0437\u0438\u043d\u043e \u049b\u0430\u0443\u0456\u043f\u0442\u0456, \u0431\u0456\u0440\u0430\u049b \u0441\u0430\u0431\u0430\u049b\u049b\u0430 \u0442\u0456\u0440\u043a\u0435\u043b.]
+FAILED tests/test_contrast_scope.py::test_contrast_does_not_turn_information_call_into_promotion[\u0411\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u0430\u044f \u0438\u0433\u0440\u0430: \u0432\u0438\u0440\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0435 \u043a\u0430\u0437\u0438\u043d\u043e, \u043d\u043e \u0438\u0433\u0440\u0430\u0439\u0442\u0435 \u0431\u0435\u0437 \u0434\u0435\u043d\u0435\u0436\u043d\u044b\u0445 \u0441\u0442\u0430\u0432\u043e\u043a.]
+FAILED tests/test_contrast_scope.py::test_contrast_does_not_turn_information_call_into_promotion[\u0422\u0435\u0433\u0456\u043d \u043e\u0439\u044b\u043d: \u043a\u0430\u0437\u0438\u043d\u043e, \u0431\u0456\u0440\u0430\u049b \u0442\u0456\u0440\u043a\u0435\u043b, \u0430\u049b\u0448\u0430\u0441\u044b\u0437 \u043e\u0439\u043d\u0430.]
+FAILED tests/test_contrast_scope.py::test_independent_game_call_in_own_clause_still_counts[\u041f\u0435\u0440\u0435\u0445\u043e\u0434\u0438 \u0432 \u043a\u0430\u0437\u0438\u043d\u043e, \u043d\u043e \u043e\u0441\u0442\u043e\u0440\u043e\u0436\u043d\u043e: \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u044b \u043f\u0440\u043e\u0438\u0433\u0440\u044b\u0448\u0438.]
+FAILED tests/test_contrast_scope.py::test_information_contrast_on_destination_does_not_create_game_route
+8 failed, 9 passed in 0.62s
