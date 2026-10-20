@@ -512,7 +512,6 @@ def analyze(
     scopes = {}
     for token in doc["identifiers"]:
         scopes.setdefault(token["scope"], set()).add(token["material_id"])
-    material_scores = []
     for mat in doc["materials"]:
         own_sources = {key: text for key, text in sources.items() if key in (mat["id"], mat["id"] + "-ocr")}
         own_claims = [c for c in claims if c["source_id"] in own_sources]
@@ -540,24 +539,31 @@ def analyze(
             and not mat.get("image_integrity_failed")
             and not (missing_route and not strong_source_context and variant == "full")
         )
-        material_scores.append(mat["score"])
-    doc["score"] = max(material_scores, key=lambda s: s["value"])
+    all_sufficient = all(m["sufficient_data"] for m in doc["materials"])
+    known_high = [m for m in doc["materials"] if m["sufficient_data"] and m["score"]["level"] == "high"]
+    winner = max(known_high or doc["materials"], key=lambda m: m["score"]["value"])
+    doc["score"] = {**winner["score"], "material_id": winner["id"]}
     doc["score"]["aggregation"] = (
-        "Максимальный приоритет отдельного материала; признаки разных материалов не смешиваются."
+        "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный "
+        "предварительный индекс. Признаки разных материалов не смешиваются."
     )
     if variant == "baseline":
         hit = bool(re.search(r"казино|casino|слот|ставк|фриспин|құмар", "\n".join(sources.values()), re.I))
         doc["score"].update(value=100 if hit else 0, level="high" if hit else "low")
-    enough = all(m["sufficient_data"] for m in doc["materials"])
-    if not enough:
+        doc["score"].pop("material_id", None)
+        doc["score"]["aggregation"] = "Baseline по ключевым словам во всех доступных текстах случая."
+    enough = all_sufficient or bool(known_high)
+    if not all_sufficient:
         doc["limitations"].append(
+            "Часть материалов не проверена полностью; высокий приоритет основан на достаточных данных другого материала."
+            if known_high else
             "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
         )
     doc["sufficient_data"] = enough
     doc["stages"]["priority"] = "completed"
     doc.update(
         status="partial"
-        if any(s == "partial" for s in doc["stages"].values()) or not enough
+        if any(s == "partial" for s in doc["stages"].values()) or not all_sufficient
         else "completed",
         progress=100,
         elapsed_ms=round((time.perf_counter() - started) * 1000, 1),

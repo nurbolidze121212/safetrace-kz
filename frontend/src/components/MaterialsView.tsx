@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 import { ArrowUpRight, FileText, QrCode, ScanText, ZoomIn, ZoomOut } from 'lucide-react'
 import type { Case, Material } from '../types'
-import { date } from '../lib'
-import { Empty, Highlight } from './UI'
+import { contexts, date, isActive } from '../lib'
+import { Empty, Highlight, PriorityBadge } from './UI'
 
 export function OriginalImage({ material, selected, onSelect, compact = false }: { material: Material; selected?: string; onSelect?: (id: string) => void; compact?: boolean }) {
   const [zoom, setZoom] = useState(1)
@@ -40,6 +40,7 @@ export default function MaterialsView({ current, materialId, selectedEvidence, o
   return <section className="materials-workspace">
     <div className="material-switcher" aria-label="Выбор материала">{current.materials.map((m, i) => <button key={m.id} aria-pressed={material.id === m.id} className={material.id === m.id ? 'selected' : ''} onClick={() => { onMaterial(m.id); setLineId(undefined) }}><FileText size={16} /><span>Материал {i + 1}<small>{m.source}</small></span></button>)}</div>
     <div className="material-heading"><div><h2>{material.source}</h2><p>Источник заявлен при импорте; авторство не проверено.{material.published_at ? ' · ' + date(material.published_at) : ''}</p></div><span className="badge">{material.image_id ? 'Текст + изображение' : 'Текст / URL'}</span></div>
+    {material.score && <div className="case-meta" aria-label="Оценка материала"><span>{isActive(current.status) ? 'Предыдущая оценка материала' : 'Оценка этого материала'}</span><PriorityBadge item={material} />{material.context && <span>Контекст: {contexts[material.context.context] || material.context.context}</span>}{current.score?.material_id === material.id && <span>Определяет индекс случая</span>}</div>}
     <div className={'material-columns ' + (material.image_id ? '' : 'text-only')}>
       <div className="original-column">
         {material.text && <section className="source-block"><div className="section-title"><FileText size={17} /><h3>Текст публикации</h3></div><div className="source-text"><Highlight text={material.text} claims={claims} /></div>{quotes.length > 0 && <p className="field-hint"><span className="highlight-key" />Выделены цитаты, подтвержденные в источнике</p>}</section>}

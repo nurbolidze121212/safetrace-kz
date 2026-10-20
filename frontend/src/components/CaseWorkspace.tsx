@@ -21,6 +21,8 @@ export default function CaseWorkspace({ current, view, busy, onView, onBack, onO
   const [originalEvidence, setOriginalEvidence] = useState<string>()
   const [exporting, setExporting] = useState(false), [exportError, setExportError] = useState('')
   const active = isActive(current.status)
+  const priorityMaterial = current.materials.find(m => m.id === current.score?.material_id)
+  const priorityContext = priorityMaterial?.context || current.context
   const selectedView = tabs.some(t => t.id === view) ? view : 'materials'
   function openMaterial(id: string, evidenceId?: string) {
     setMaterialId(id); setOriginalEvidence(evidenceId); setEvidenceIds([]); onView('materials')
@@ -62,7 +64,7 @@ export default function CaseWorkspace({ current, view, busy, onView, onBack, onO
     </section>
     <details className="reasons-panel" open={current.sufficient_data === false}>
       <summary><Info size={17} /><span>{current.sufficient_data === false ? 'Почему данных недостаточно' : 'Почему такой приоритет'}<small>{current.score?.contributions.length || 0} подтвержденных вкладов · {methods[current.provider || 'local_rule']}</small></span></summary>
-      <div className="reasons-body"><div className="reason-list">{current.score?.contributions.map(c => <button key={c.key} disabled={!c.evidence_ids.length} onClick={() => setEvidenceIds(c.evidence_ids)}><span>{c.title}</span><strong>{c.weight > 0 ? '+' : ''}{c.weight}</strong><ArrowUpRight size={16} /></button>)}{!current.score?.contributions.length && <p>Подтвержденных вкладов пока нет.</p>}</div><div><h3>Контекст и ограничения</h3><p>{contexts[current.context?.context || ''] || 'Контекст еще не определен'}{current.context?.language ? ' · ' + current.context.language.toUpperCase() : ''}</p>{current.context?.contradictions.map((c, i) => <p className="warning-text" key={i}>{c}</p>)}<ul>{current.limitations.map((l, i) => <li key={i}>{l}</li>)}</ul></div></div>
+      <div className="reasons-body"><div className="reason-list">{current.score?.contributions.map(c => <button key={c.key} disabled={!c.evidence_ids.length} onClick={() => setEvidenceIds(c.evidence_ids)}><span>{c.title}</span><strong>{c.weight > 0 ? '+' : ''}{c.weight}</strong><ArrowUpRight size={16} /></button>)}{!current.score?.contributions.length && <p>Подтвержденных вкладов пока нет.</p>}</div><div><h3>{priorityMaterial ? 'Контекст материала' : 'Контекст и ограничения'}</h3>{priorityMaterial && <button className="text-button" onClick={() => openMaterial(priorityMaterial.id)}>Индекс по материалу: {priorityMaterial.source} <ArrowUpRight size={15} /></button>}<p>{contexts[priorityContext?.context || ''] || 'Контекст еще не определен'}{priorityContext?.language ? ' · ' + priorityContext.language.toUpperCase() : ''}</p>{priorityContext?.contradictions.map((c, i) => <p className="warning-text" key={i}>{c}</p>)}<ul>{current.limitations.map((l, i) => <li key={i}>{l}</li>)}</ul></div></div>
     </details>
     <div className="workspace-tabs" role="tablist" aria-label="Разделы случая" onKeyDown={handleTabs}>{tabs.map(({ id, name, Icon }) => <button key={id} id={'tab-' + id} role="tab" aria-selected={selectedView === id} aria-controls={'panel-' + id} tabIndex={selectedView === id ? 0 : -1} onClick={() => onView(id)}><Icon size={18} />{name}{id === 'materials' && <span>{current.materials.length}</span>}</button>)}</div>
     {selectedView !== 'review' && <div className="workspace-panel" id={'panel-' + selectedView} role="tabpanel" aria-labelledby={'tab-' + selectedView}>
