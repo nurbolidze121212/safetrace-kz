@@ -8,7 +8,7 @@ import socket
 import ssl
 import time
 from collections import deque
-from urllib.parse import parse_qsl, urldefrag, urljoin, urlsplit, urlunsplit
+from urllib.parse import parse_qsl, urljoin, urlsplit, urlunsplit
 
 from bs4 import BeautifulSoup
 
@@ -46,7 +46,22 @@ def validate_url(url: str):
 
 def normalized(url):
     p = validate_url(url)
-    return urlunsplit((p.scheme.lower(), p.netloc.lower(), p.path or "/", p.query, ""))
+    value = urlunsplit((p.scheme.lower(), p.netloc.lower(), p.path or "/", p.query, ""))
+    return value + ("?" if empty_query(url) else "")
+
+
+def empty_query(url):
+    return url.split("#", 1)[0].endswith("?") and not urlsplit(url).query
+
+
+def resolve_reference(base, reference):
+    resolved = urljoin(base, reference)
+    if empty_query(reference):
+        p = urlsplit(resolved)
+        resolved = urlunsplit((p.scheme, p.netloc, p.path, "", "")) + "?"
+        if "#" in reference:
+            resolved += "#" + reference.split("#", 1)[1]
+    return resolved
 
 
 def public_ip(ip):
@@ -105,6 +120,8 @@ def live_fetch(url):
     conn = PinnedHTTP(p.hostname, ip, p.port or (443 if p.scheme == "https" else 80), p.scheme == "https")
     try:
         target = urlunsplit(("", "", p.path or "/", p.query, ""))
+        if empty_query(url):
+            target += "?"
         conn.request(
             "GET",
             target,
@@ -147,11 +164,10 @@ class SyntheticTransport:
     def __init__(self, pages=None):
         if pages is None:
             pages = json.loads((ROOT / "fixtures" / "pages.json").read_text(encoding="utf-8"))
-        self.pages = pages
+        self.pages = {normalized(url): entry for url, entry in pages.items()}
 
     def __call__(self, url):
-        validate_url(url)
-        entry = self.pages.get(urldefrag(url)[0])
+        entry = self.pages.get(normalized(url))
         if entry is None:
             raise LinkBlocked("Синтетический стенд: адрес не найден")
         return entry["status"], entry.get("headers", {}), entry.get("body", "").encode()
@@ -172,7 +188,7 @@ def visible_html(body, base_url):
     for a in soup.find_all("a", href=True):
         label = a.get_text(" ", strip=True)
         if label:
-            links.append({"url": urljoin(base_url, a["href"]), "quote": label[:300]})
+            links.append({"url": resolve_reference(base_url, a["href"]), "quote": label[:300]})
     return soup.get_text(" ", strip=True)[:20000], links[:8]
 
 
@@ -213,6 +229,25 @@ def trace(urls, fetch=live_fetch, cancelled=lambda: False):
     ]
     seen, observations, relations = {}, [], []
     started, requests = time.monotonic(), 0
+
+    def enqueue_outgoing(observation, ancestors, key):
+        url, depth = observation["url"], observation["depth"]
+        if observation.get("location"):
+            queue.append((observation["location"], depth + 1, url, "redirects",
+                          observation["location_header"], (*ancestors, key)))
+            return
+        links = observation.get("links", [])
+        if len(links) > 3:
+            observation["budget_warning"] = (
+                "На странице проверяются первые 3 видимые ссылки; остальные не проверены."
+            )
+            unvisited.extend(
+                {"url": link["url"], "from": url, "type": "page_link", "reason": "page_link_limit"}
+                for link in links[3:]
+            )
+        for link in links[:3]:
+            queue.append((link["url"], depth + 1, url, "page_link", link["quote"], (*ancestors, key)))
+
     while queue and len(observations) < MAX_REQUESTS and requests < MAX_REQUESTS:
         if cancelled():
             break
@@ -243,18 +278,20 @@ def trace(urls, fetch=live_fetch, cancelled=lambda: False):
             if key in ancestors:
                 observation["stop"] = "Цикл"
                 continue
-            if key in seen:
-                previous = seen[key]
-                observation.update({k: v for k, v in previous.items() if k not in ("id", "depth")})
-                observation["reused_from"] = previous["id"]
-                continue
-            seen[key] = observation
             if depth > MAX_DEPTH:
                 observation["stop"] = "Лимит глубины"
                 continue
             if time.monotonic() - started > 35:
                 observation["stop"] = "Лимит времени случая"
                 break
+            if key in seen:
+                previous = seen[key]
+                observation.update({k: v for k, v in previous.items() if k not in ("id", "depth", "url")})
+                observation["reused_from"] = previous["id"]
+                if url != previous["url"] and not observation["stop"]:
+                    enqueue_outgoing(observation, ancestors, key)
+                continue
+            seen[key] = observation
             observation["attempts"] = []
             for attempt in range(2):
                 requests += 1
@@ -281,26 +318,15 @@ def trace(urls, fetch=live_fetch, cancelled=lambda: False):
                 if not headers.get("location"):
                     observation["stop"] = "Редирект без Location"
                     continue
-                destination = urljoin(url, headers["location"])
-                observation["location"] = destination
-                queue.append(
-                    (destination, depth + 1, url, "redirects", headers["location"], (*ancestors, key))
-                )
+                observation["location"] = resolve_reference(url, headers["location"])
+                observation["location_header"] = headers["location"]
+                enqueue_outgoing(observation, ancestors, key)
             elif status >= 400:
                 observation["stop"] = f"HTTP {status}"
             else:
                 text, links = visible_html(body, url)
                 observation.update(text=text, links=links)
-                if len(links) > 3:
-                    observation["budget_warning"] = (
-                        "На странице проверяются первые 3 видимые ссылки; остальные не проверены."
-                    )
-                    unvisited.extend(
-                        {"url": link["url"], "from": url, "type": "page_link", "reason": "page_link_limit"}
-                        for link in links[3:]
-                    )
-                for link in links[:3]:
-                    queue.append((link["url"], depth + 1, url, "page_link", link["quote"], (*ancestors, key)))
+                enqueue_outgoing(observation, ancestors, key)
         except (ValueError, OSError, http.client.HTTPException) as exc:
             observation["stop"] = (
                 str(exc)[:200] if isinstance(exc, LinkBlocked) else "Сеть недоступна / таймаут"
