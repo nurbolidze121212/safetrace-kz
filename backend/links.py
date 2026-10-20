@@ -10,7 +10,7 @@ import ssl
 import time
 from collections import deque
 from email.message import Message
-from urllib.parse import parse_qsl, urljoin, urlsplit, urlunsplit
+from urllib.parse import parse_qsl, quote, urljoin, urlsplit, urlunsplit
 
 from bs4 import BeautifulSoup
 
@@ -25,6 +25,12 @@ class LinkBlocked(ValueError):
 def validate_url(url: str):
     if len(url) > 2048 or re.search(r"[\s\\\x00-\x1f\x7f]", url):
         raise LinkBlocked("Неоднозначный или слишком длинный URL")
+    if re.search(r"%(?![0-9a-fA-F]{2})", url):
+        raise LinkBlocked("Некорректное percent-кодирование URL")
+    try:
+        url.encode("utf-8")
+    except UnicodeError as exc:
+        raise LinkBlocked("URL содержит некорректный Unicode") from exc
     try:
         p = urlsplit(url)
         port = p.port
@@ -48,8 +54,15 @@ def validate_url(url: str):
 
 def normalized(url):
     p = validate_url(url)
-    value = urlunsplit((p.scheme.lower(), p.netloc.lower(), p.path or "/", p.query, ""))
-    return value + ("?" if empty_query(url) else "")
+    return f"{p.scheme.lower()}://{p.netloc.lower()}" + request_target(p, url)
+
+
+def request_target(parts, original_url):
+    # Preserve existing escapes and query delimiters; encode only the wire target.
+    path = quote(parts.path or "/", safe="/%:@!$&'()*+,;=-._~")
+    query = quote(parts.query, safe="/%?:@!$&'()*+,;=-._~")
+    target = path + ("?" + query if query else "")
+    return target + ("?" if empty_query(original_url) else "")
 
 
 def empty_query(url):
@@ -121,9 +134,7 @@ def live_fetch(url):
     p, ip = resolve_public(url)
     conn = PinnedHTTP(p.hostname, ip, p.port or (443 if p.scheme == "https" else 80), p.scheme == "https")
     try:
-        target = urlunsplit(("", "", p.path or "/", p.query, ""))
-        if empty_query(url):
-            target += "?"
+        target = request_target(p, url)
         conn.request(
             "GET",
             target,
@@ -296,17 +307,19 @@ def extract_urls(text, limit=12):
 def identifiers(url):
     try:
         p = validate_url(url)
-    except LinkBlocked:
+        pairs = parse_qsl(p.query, keep_blank_values=False, errors="strict")
+    except (LinkBlocked, UnicodeError):
         return []
+    path = quote(p.path or "/", safe="/%:@!$&'()*+,;=-._~")
     return [
         {
             "domain": p.hostname.lower(),
-            "parameter": k.lower(),
+            "parameter": k,
             "value": v,
-            "scope": f"{p.hostname.lower()}|{p.path or '/'}|{k.lower()}|{v}",
+            "scope": f"{p.hostname.lower()}|{path}|{k}|{v}",
             "url": url,
         }
-        for k, v in parse_qsl(p.query, keep_blank_values=False)
+        for k, v in pairs
         if k.lower() in ("ref", "referral", "aff", "affiliate", "promo", "code", "partner")
         and 2 <= len(v) <= 100
     ]
