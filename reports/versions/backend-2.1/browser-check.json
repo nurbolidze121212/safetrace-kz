@@ -1,0 +1,14 @@
+{
+  "case_id": "6d1e93a1cfa54d5aa29f0c274411ac49",
+  "status": "completed",
+  "score": 90,
+  "pipeline": "pipeline-2.1",
+  "materials": 2,
+  "ocr_lines": 3,
+  "qr_codes": 1,
+  "history": 1,
+  "observations": 5,
+  "verified_files": 5,
+  "no_dangling_graph_evidence": true,
+  "export_sha256": "314ad4190a1193cfdf8747af86f9df1a78fe50ccc002b82ad57f5d3226dc33df"
+}

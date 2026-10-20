@@ -176,14 +176,14 @@ def visible_html(body, base_url):
     return soup.get_text(" ", strip=True)[:20000], links[:8]
 
 
-def extract_urls(text):
+def extract_urls(text, limit=12):
     urls = []
     for value in re.findall(r"https?://[^\s<>\"'«»]+", text):
         value = value.rstrip(".,;!")
         while value.endswith(")") and value.count(")") > value.count("("):
             value = value[:-1]
         urls.append(value)
-    return list(dict.fromkeys(urls))[:12]
+    return list(dict.fromkeys(urls))[:limit]
 
 
 def identifiers(url):
@@ -207,6 +207,10 @@ def identifiers(url):
 
 def trace(urls, fetch=live_fetch, cancelled=lambda: False):
     queue = deque((u, 0, None, "contains_link", u, ()) for u in urls[:12])
+    unvisited = [
+        {"url": url, "from": None, "type": "contains_link", "reason": "initial_url_limit"}
+        for url in urls[12:]
+    ]
     seen, observations, relations = {}, [], []
     started, requests = time.monotonic(), 0
     while queue and len(observations) < MAX_REQUESTS and requests < MAX_REQUESTS:
@@ -287,12 +291,27 @@ def trace(urls, fetch=live_fetch, cancelled=lambda: False):
             else:
                 text, links = visible_html(body, url)
                 observation.update(text=text, links=links)
+                if len(links) > 3:
+                    observation["budget_warning"] = (
+                        "На странице проверяются первые 3 видимые ссылки; остальные не проверены."
+                    )
+                    unvisited.extend(
+                        {"url": link["url"], "from": url, "type": "page_link", "reason": "page_link_limit"}
+                        for link in links[3:]
+                    )
                 for link in links[:3]:
                     queue.append((link["url"], depth + 1, url, "page_link", link["quote"], (*ancestors, key)))
         except (ValueError, OSError, http.client.HTTPException) as exc:
             observation["stop"] = (
                 str(exc)[:200] if isinstance(exc, LinkBlocked) else "Сеть недоступна / таймаут"
             )
-    if queue and observations:
-        observations[-1]["budget_warning"] = "Остались непроверенные ссылки: лимит запросов или отмена"
-    return {"observations": observations, "relations": relations, "requests": requests}
+    unvisited.extend(
+        {"url": url, "from": parent, "type": kind, "reason": "case_budget_or_cancellation"}
+        for url, _, parent, kind, _, _ in queue
+    )
+    if unvisited and observations:
+        warning = "Остались непроверенные ссылки: ограничения обхода или отмена."
+        observations[-1]["budget_warning"] = " ".join(
+            filter(None, (observations[-1].get("budget_warning"), warning))
+        )
+    return {"observations": observations, "relations": relations, "requests": requests, "unvisited": unvisited}

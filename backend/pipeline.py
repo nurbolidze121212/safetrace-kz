@@ -193,7 +193,7 @@ def analyze(
     for mat in doc["materials"]:
         for key in (
             "source_evidence_id", "normalized_text", "ocr", "qr", "urls", "promo_codes",
-            "content_evidence_ids", "reachable_urls", "score", "context", "sufficient_data",
+            "content_evidence_ids", "reachable_urls", "score", "context", "sufficient_data", "urls_limited",
         ):
             mat.pop(key, None)
     doc.update(
@@ -378,7 +378,16 @@ def analyze(
                     note="Код из текста без подтвержденной области назначения.",
                 )
                 mat["promo_codes"].append({"value": code, "evidence_id": eid})
-            for url in extract_urls(mat["text"] if source_id == mat["id"] else sources.get(source_id, "")):
+            extracted = extract_urls(
+                mat["text"] if source_id == mat["id"] else sources.get(source_id, ""), limit=13
+            )
+            if len(extracted) > 12:
+                mat["urls_limited"] = True
+                doc["stages"]["features"] = "partial"
+                doc["limitations"].append(
+                    "Из одного текстового/OCR-источника извлечены первые 12 ссылок; остальные не проверены."
+                )
+            for url in extracted[:12]:
                 mat["urls"].append(url)
                 evidence(
                     url,
@@ -485,7 +494,10 @@ def analyze(
         mat["context"] = own_context.model_dump()
         own_observations = [o for o in doc["trace"]["observations"] if o["url"] in mat["reachable_urls"]]
         any_page = any(o["text"] for o in own_observations)
-        missing_route = bool(mat["urls"]) and not any_page
+        missing_route = (bool(mat["urls"]) and not any_page) or mat.get("urls_limited", False) or any(
+            item["url"] in mat["urls"] or item["from"] in mat["reachable_urls"]
+            for item in doc["trace"].get("unvisited", [])
+        )
         strong_source_context = any(c["kind"] == "gambling" for c in own_claims) or own_context.context in (
             "warning",
             "news",
