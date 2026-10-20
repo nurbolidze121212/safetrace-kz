@@ -1,0 +1,11 @@
+{
+  "qa_port": 8766,
+  "isolated_data": true,
+  "changed_image_rejected": true,
+  "stayed_in_app": true,
+  "retry_after_restore_downloaded": true,
+  "error_cleared_after_retry": true,
+  "verified_manifest_files": 4,
+  "original_matches_saved_hash": true,
+  "zip_sha256": "4c24357fd66a1fb79ce6957e6d82b75be95d507670862a05040175df48c67d74"
+}

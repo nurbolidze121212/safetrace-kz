@@ -27,6 +27,14 @@ STAGES = ["originals", "ocr", "features", "links", "graph", "priority"]
 LOGGER = logging.getLogger(__name__)
 
 
+def _material_record(material):
+    mat = material.model_dump(mode="json")
+    mat.update(id=uuid.uuid4().hex, original_sha256=storage.digest(mat["text"]))
+    if mat.get("image_id"):
+        _, mat["image_sha256"] = storage.read_image(mat["image_id"])
+    return mat
+
+
 def new_case(payload):
     case_id = uuid.uuid4().hex
     doc = {
@@ -48,10 +56,7 @@ def new_case(payload):
         },
     }
     for m in payload.materials:
-        mat = m.model_dump(mode="json")
-        mat.update(id=uuid.uuid4().hex)
-        mat["original_sha256"] = storage.digest(mat["text"])
-        doc["materials"].append(mat)
+        doc["materials"].append(_material_record(m))
     storage.save(doc)
     return doc
 
@@ -71,9 +76,7 @@ def add_materials(case_id, materials):
             raise ValueError("Не более 20 материалов в случае.")
         previous = deepcopy(doc)
         for material in materials:
-            mat = material.model_dump(mode="json")
-            mat.update(id=uuid.uuid4().hex, original_sha256=storage.digest(mat["text"]))
-            doc["materials"].append(mat)
+            doc["materials"].append(_material_record(material))
         try:
             storage.save(doc)
             submit(case_id)
@@ -194,6 +197,7 @@ def analyze(
         for key in (
             "source_evidence_id", "normalized_text", "ocr", "qr", "urls", "promo_codes",
             "content_evidence_ids", "reachable_urls", "score", "context", "sufficient_data", "urls_limited",
+            "image_integrity_failed", "text_integrity_failed",
         ):
             mat.pop(key, None)
     doc.update(
@@ -251,6 +255,12 @@ def analyze(
     if not stage("originals"):
         return doc
     for mat in doc["materials"]:
+        if mat.get("original_sha256") and storage.digest(mat["text"]) != mat["original_sha256"]:
+            mat["text_integrity_failed"] = True
+            sources[mat["id"]] = ""
+            doc["stages"]["originals"] = "partial"
+            doc["limitations"].append("Оригинал текста изменен: SHA-256 не совпадает. Этот материал не анализировался.")
+            continue
         mat["source_evidence_id"] = evidence(
             mat["source"],
             mat["id"],
@@ -263,12 +273,21 @@ def analyze(
     if not stage("ocr"):
         return doc
     for mat in doc["materials"]:
+        if mat.get("text_integrity_failed"):
+            continue
         mat.pop("ocr", None)
         mat.pop("qr", None)
         if mat.get("image_id") and variant != "baseline":
             try:
+                _, fingerprint = storage.read_image(mat["image_id"], mat.get("image_sha256"))
+                mat["image_sha256"] = fingerprint
+            except storage.OriginalIntegrityError as exc:
+                mat["image_integrity_failed"] = True
+                doc["limitations"].append(str(exc) + " Анализ этого изображения пропущен.")
+                doc["stages"]["ocr"] = "partial"
+                continue
+            try:
                 path = DATA / "originals" / mat["image_id"]
-                mat["image_sha256"] = storage.digest(path.read_bytes())
                 mat["ocr"] = recognize(path, use_cache=use_ocr_cache)
                 source_id = mat["id"] + "-ocr"
                 sources[source_id] = mat["ocr"]["text"]
@@ -354,6 +373,8 @@ def analyze(
         mat["urls"] = []
         mat["promo_codes"] = []
         mat["content_evidence_ids"] = []
+        if mat.get("text_integrity_failed"):
+            continue
         for source_id in (mat["id"], mat["id"] + "-ocr"):
             if sources.get(source_id, "").strip():
                 mat["content_evidence_ids"].append(
@@ -504,8 +525,10 @@ def analyze(
             "education",
             "free_game",
         )
-        mat["sufficient_data"] = bool(any(t.strip() for t in own_sources.values())) and not (
-            missing_route and not strong_source_context and variant == "full"
+        mat["sufficient_data"] = (
+            bool(any(t.strip() for t in own_sources.values()))
+            and not mat.get("image_integrity_failed")
+            and not (missing_route and not strong_source_context and variant == "full")
         )
         material_scores.append(mat["score"])
     doc["score"] = max(material_scores, key=lambda s: s["value"])

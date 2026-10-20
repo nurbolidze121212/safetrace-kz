@@ -1,11 +1,12 @@
 import hashlib
 import json
+import re
 import sqlite3
 import threading
 from contextlib import contextmanager
 from datetime import UTC, datetime
 
-from .config import DATA
+from .config import DATA, MAX_IMAGE
 
 LOCK = threading.RLock()
 
@@ -16,6 +17,26 @@ def now() -> str:
 
 def digest(value: bytes | str) -> str:
     return hashlib.sha256(value.encode() if isinstance(value, str) else value).hexdigest()
+
+
+class OriginalIntegrityError(ValueError):
+    """Safe, user-facing integrity failure without disclosing a filesystem path."""
+
+
+def read_image(image_id, expected_sha256=None):
+    if not re.fullmatch(r"[a-f0-9]{32}\.(png|jpg|webp)", image_id):
+        raise OriginalIntegrityError("Некорректный идентификатор оригинала изображения.")
+    try:
+        with (DATA / "originals" / image_id).open("rb") as original:
+            data = original.read(MAX_IMAGE + 1)
+    except OSError:
+        raise OriginalIntegrityError("Оригинал изображения отсутствует или недоступен.") from None
+    if len(data) > MAX_IMAGE:
+        raise OriginalIntegrityError("Оригинал изображения изменен: превышен сохраненный лимит размера.")
+    actual = digest(data)
+    if expected_sha256 is not None and actual != expected_sha256:
+        raise OriginalIntegrityError("Оригинал изображения изменен: SHA-256 не совпадает с сохраненным.")
+    return data, actual
 
 
 @contextmanager

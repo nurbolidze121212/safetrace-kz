@@ -3,6 +3,7 @@ import type { KeyboardEvent } from 'react'
 import { ArrowLeft, ArrowUpRight, Check, CheckCheck, Download, FileText, GitBranch, History, Info, Network, Plus, RotateCcw, Square } from 'lucide-react'
 import type { Case } from '../types'
 import { contexts, date, decisions, errorMessage, isActive, methods, modes, stageNames } from '../lib'
+import { fetchExport } from '../export'
 import { Loading, PriorityBadge, Status } from './UI'
 import MaterialsView from './MaterialsView'
 import RouteView from './RouteView'
@@ -18,10 +19,23 @@ export default function CaseWorkspace({ current, view, busy, onView, onBack, onO
   const [materialId, setMaterialId] = useState(current.materials[0]?.id || '')
   const [evidenceIds, setEvidenceIds] = useState<string[]>([])
   const [originalEvidence, setOriginalEvidence] = useState<string>()
+  const [exporting, setExporting] = useState(false), [exportError, setExportError] = useState('')
   const active = isActive(current.status)
   const selectedView = tabs.some(t => t.id === view) ? view : 'materials'
   function openMaterial(id: string, evidenceId?: string) {
     setMaterialId(id); setOriginalEvidence(evidenceId); setEvidenceIds([]); onView('materials')
+  }
+  async function exportCase() {
+    setExporting(true); setExportError('')
+    try {
+      const file = await fetchExport(current.id)
+      const url = URL.createObjectURL(file)
+      const link = document.createElement('a')
+      link.href = url; link.download = 'safetrace-' + current.id.slice(0, 8) + '.zip'
+      document.body.append(link); link.click(); link.remove()
+      window.setTimeout(() => URL.revokeObjectURL(url), 60_000)
+    } catch (error) { setExportError(errorMessage(error)) }
+    finally { setExporting(false) }
   }
   function handleTabs(e: KeyboardEvent<HTMLDivElement>) {
     const keys = ['ArrowRight', 'ArrowLeft', 'Home', 'End']
@@ -37,8 +51,9 @@ export default function CaseWorkspace({ current, view, busy, onView, onBack, onO
     <header className="case-heading"><div><h1>{current.title}</h1><div className="case-meta"><span className={'mode-label ' + current.mode}>{modes[current.mode]}</span><span>{date(current.created_at)} · UTC+5</span><span>{current.materials.length} мат.</span></div></div><div className="actions">
       <button disabled={active || busy || current.mode === 'replay'} onClick={onAdd}><Plus size={16} />Материал</button>
       <button disabled={busy || current.mode === 'replay'} onClick={onRetry}>{active ? <Square size={15} /> : <RotateCcw size={15} />}{active ? 'Отменить' : 'Повторить анализ'}</button>
-      <a className="primary button" href={'/api/cases/' + current.id + '/export'}><Download size={17} />Экспорт</a>
+      <button className="primary" disabled={exporting} aria-busy={exporting} onClick={() => void exportCase()}><Download size={17} />{exporting ? 'Подготовка…' : 'Экспорт'}</button>
     </div></header>
+    {exportError && <div className="alert error" role="alert">{exportError}</div>}
     {(current.mode === 'synthetic' || current.mode === 'replay') && <div className="mode-banner"><Info size={16} /><span>{current.mode === 'replay' ? 'Сохраненный повтор. OCR, модель и сеть не вызываются заново.' : 'Синтетический стенд. Публикации, адреса и страницы созданы для демонстрации.'}</span></div>}
     <section className="case-summary" aria-label="Результат анализа">
       <div className="priority-summary"><div className={'priority-value ' + (current.sufficient_data === false ? 'unknown' : current.score?.level || '')}>{current.sufficient_data === false ? '—' : current.score?.value ?? '…'}<small>/ 100</small></div><div><span className="field-hint">{active && current.score ? 'Предыдущий индекс · обновляется' : 'Приоритет ручной проверки'}</span><PriorityBadge item={current} /><small>Индекс, не вероятность нарушения</small></div></div>

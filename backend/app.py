@@ -151,7 +151,10 @@ def create(payload: CaseInput):
     with pipeline.QUEUE_LOCK:
         if len(pipeline.ACTIVE) >= 8:
             raise HTTPException(429, "Очередь заполнена.")
-        doc = pipeline.new_case(payload)
+        try:
+            doc = pipeline.new_case(payload)
+        except storage.OriginalIntegrityError as exc:
+            raise HTTPException(422, str(exc)) from None
         pipeline.submit(doc["id"])
     return {"id": doc["id"]}
 
@@ -208,8 +211,12 @@ def decide(case_id: str, payload: DecisionInput):
 
 @app.get("/api/cases/{case_id}/export")
 def export(case_id: str):
+    try:
+        archive = package(require_case(case_id))
+    except storage.OriginalIntegrityError as exc:
+        raise HTTPException(409, str(exc) + " Экспорт остановлен; восстановите исходный материал.") from None
     return Response(
-        package(require_case(case_id)),
+        archive,
         media_type="application/zip",
         headers={"Content-Disposition": f'attachment; filename="safetrace-{case_id[:8]}.zip"'},
     )
