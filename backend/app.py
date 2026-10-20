@@ -182,6 +182,7 @@ def detail(case_id: str):
     doc = require_case(case_id)
     return {
         **doc,
+        "trace": doc.get("trace") or {"observations": [], "relations": [], "requests": 0},
         "decisions": storage.decisions(case_id),
         "graph": build_graph(doc, storage.all_cases())
         if doc.get("evidence")

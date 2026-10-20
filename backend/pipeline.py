@@ -1,4 +1,5 @@
 import io
+import logging
 import re
 import threading
 import time
@@ -23,6 +24,7 @@ FUTURES: dict[str, Future] = {}
 ACTIVE = set()
 QUEUE_LOCK = threading.RLock()
 STAGES = ["originals", "ocr", "features", "links", "graph", "priority"]
+LOGGER = logging.getLogger(__name__)
 
 
 def new_case(payload):
@@ -38,6 +40,7 @@ def new_case(payload):
         "materials": [],
         "stages": {stage: "pending" for stage in STAGES},
         "evidence": [],
+        "trace": {"observations": [], "relations": [], "requests": 0},
         "limitations": [],
         "history": [],
         "versions": {
@@ -58,18 +61,25 @@ def add_materials(case_id, materials):
         if case_id in ACTIVE:
             raise ValueError("Дождитесь завершения или отмены текущего анализа.")
         doc = storage.get(case_id)
+        if doc is None:
+            raise ValueError("Случай не найден.")
         if doc["mode"] == "replay":
             raise ValueError("Сохраненный повтор неизменяем; создайте новый анализ.")
         if len(ACTIVE) >= 8:
             raise ValueError("Очередь заполнена: максимум 8 задач.")
         if len(doc["materials"]) + len(materials) > 20:
             raise ValueError("Не более 20 материалов в случае.")
+        previous = deepcopy(doc)
         for material in materials:
             mat = material.model_dump(mode="json")
             mat.update(id=uuid.uuid4().hex, original_sha256=storage.digest(mat["text"]))
             doc["materials"].append(mat)
-        storage.save(doc)
-        submit(case_id)
+        try:
+            storage.save(doc)
+            submit(case_id)
+        except Exception:
+            storage.save(previous)
+            raise
 
 
 def submit(case_id):
@@ -82,7 +92,12 @@ def submit(case_id):
         if doc is None:
             raise ValueError("Случай не найден.")
         previous = deepcopy(doc)
-        if doc.get("score") is not None:
+        last = doc["history"][-1] if doc["history"] else {}
+        already_archived = (
+            doc.get("analysis_id") == last.get("analysis_id")
+            and doc.get("analyzed_at") == last.get("at")
+        )
+        if doc.get("score") is not None and not already_archived:
             doc["history"].append(
                 {
                     "at": doc.get("analyzed_at"),
@@ -130,21 +145,37 @@ def recover():
     for doc in storage.all_cases():
         if doc["status"] in ("pending", "running"):
             doc.update(status="partial", stage="interrupted")
+            for key, value in doc["stages"].items():
+                if value in ("pending", "running"):
+                    doc["stages"][key] = "cancelled"
             doc["limitations"].append("Приложение перезапущено: нажмите «Повторить анализ».")
             storage.save(doc)
 
 
 def _run(case_id):
-    doc = storage.get(case_id)
-    event = CANCELS[case_id]
+    doc = None
     try:
+        doc = storage.get(case_id)
+        if doc is None:
+            raise ValueError("Missing queued case")
+        event = CANCELS[case_id]
         analyze(doc, cancelled=event.is_set, checkpoint=storage.save)
-    except Exception:
-        doc.update(status="error")
-        doc["limitations"].append("Ошибка обработки. Оригиналы сохранены; доступен повтор.")
-        if doc.get("stage") in doc["stages"]:
-            doc["stages"][doc["stage"]] = "error"
-        storage.save(doc)
+    except Exception as exc:
+        # Exception text may contain provider credentials or source content; log only safe metadata.
+        LOGGER.warning("Analysis %s failed (%s)", case_id, type(exc).__name__)
+        try:
+            doc = doc or storage.get(case_id)
+            if doc is not None:
+                doc.update(status="error")
+                doc["limitations"].append("Ошибка обработки. Оригиналы сохранены; доступен повтор.")
+                for key, value in doc["stages"].items():
+                    if value in ("pending", "running"):
+                        doc["stages"][key] = "cancelled"
+                if doc.get("stage") in doc["stages"]:
+                    doc["stages"][doc["stage"]] = "error"
+                storage.save(doc)
+        except Exception as persist_error:
+            LOGGER.warning("Could not persist failure for %s (%s)", case_id, type(persist_error).__name__)
     finally:
         with QUEUE_LOCK:
             ACTIVE.discard(case_id)
@@ -156,19 +187,30 @@ def analyze(
     doc, cancelled=lambda: False, checkpoint=lambda doc: None, variant="full", fetch=None, use_ocr_cache=True
 ):
     started = time.perf_counter()
+    # A new attempt owns a new evidence namespace. Keep originals/history, never derived old fields.
+    for key in ("score", "sufficient_data", "elapsed_ms", "context", "claims", "rejected_claims", "provider", "graph"):
+        doc.pop(key, None)
+    for mat in doc["materials"]:
+        for key in (
+            "source_evidence_id", "normalized_text", "ocr", "qr", "urls", "promo_codes",
+            "content_evidence_ids", "reachable_urls", "score", "context", "sufficient_data",
+        ):
+            mat.pop(key, None)
     doc.update(
         evidence=[],
         limitations=[],
         identifiers=[],
         analyzed_at=storage.now(),
         status="running",
+        stage="originals",
+        progress=0,
+        stages={stage: "pending" for stage in STAGES},
         trace={"observations": [], "relations": []},
         versions={
             "rules": RULE_VERSION, "ocr": OCR_VERSION, "qr": QR_VERSION, "pipeline": PIPELINE_VERSION
         },
     )
     doc["analysis_id"] = uuid.uuid4().hex[:12]
-    doc.pop("score", None)
     if doc["mode"] in ("synthetic", "replay"):
         doc["limitations"].append("Синтетический стенд: материалы и страницы созданы для демонстрации.")
     doc["limitations"].append("Индекс не является вероятностью нарушения или юридическим заключением.")
