@@ -1,0 +1,18 @@
+{
+  "id": "fc9f81769f7c4bd1bb97b352aad8e953",
+  "status": "partial",
+  "score": 80,
+  "material_id": "9229c1c20b83475db6479b6fc70a825e",
+  "material_sufficient": [
+    true,
+    true,
+    false
+  ],
+  "history_scores": [
+    0,
+    80
+  ],
+  "manifest_files": 5,
+  "sha256": "a4c2c8edbcd4c043812fd940c453b9af0a34a53e42673e88529561e84fac5071",
+  "winning_evidence_belongs_to_winning_material": true
+}
