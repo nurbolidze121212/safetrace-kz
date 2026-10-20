@@ -1,0 +1,1696 @@
+{
+  "id": "fc9f81769f7c4bd1bb97b352aad8e953",
+  "title": "Контекст v3 · разные материалы и неполный маршрут",
+  "mode": "synthetic",
+  "created_at": "2026-10-20T23:01:03.432439+00:00",
+  "status": "partial",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "DEMO. Осторожно: мошенники рекламируют казино. Не играйте.",
+      "url": "",
+      "source": "DEMO · предупреждение",
+      "published_at": null,
+      "image_id": null,
+      "id": "c57dd266c59a43dcace5a62ea9aedbdf",
+      "original_sha256": "130b7238d5bef0f288f6815061c3e2581f80cd027d5e7a862694d9ce10bedae7",
+      "source_evidence_id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e1",
+      "normalized_text": "demo. осторожно: мошенники рекламируют казино. не играйте.",
+      "urls": [],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e15"
+      ],
+      "reachable_urls": [],
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [
+          {
+            "key": "alternative_context",
+            "title": "Альтернативный контекст: предупреждение",
+            "weight": -65,
+            "evidence_ids": [
+              "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e5",
+              "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e6",
+              "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e7"
+            ]
+          }
+        ],
+        "version": "rules-3.0-dev",
+        "weights": {
+          "version": "weights-3.0-dev",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "ru",
+        "context": "warning",
+        "claims": [
+          {
+            "kind": "gambling",
+            "quote": "казино",
+            "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+            "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+            "start": 39,
+            "end": 45
+          },
+          {
+            "kind": "warning",
+            "quote": "Осторожно",
+            "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+            "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+            "start": 6,
+            "end": 15
+          },
+          {
+            "kind": "warning",
+            "quote": "мошенники",
+            "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+            "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+            "start": 17,
+            "end": 26
+          },
+          {
+            "kind": "warning",
+            "quote": "Не играйте",
+            "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+            "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+            "start": 47,
+            "end": 57
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    },
+    {
+      "text": "DEMO. Играй в казино и забирай бонус!",
+      "url": "",
+      "source": "DEMO · предложение",
+      "published_at": null,
+      "image_id": null,
+      "id": "9229c1c20b83475db6479b6fc70a825e",
+      "original_sha256": "925f195174e495febc1a3eda528897171f8e632ae4c369eafdc6b33f24dab426",
+      "source_evidence_id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e2",
+      "normalized_text": "demo. играй в казино и забирай бонус!",
+      "urls": [],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e16"
+      ],
+      "reachable_urls": [],
+      "score": {
+        "value": 80,
+        "level": "high",
+        "contributions": [
+          {
+            "key": "gambling_and_call",
+            "title": "Игровая лексика + призыв",
+            "weight": 65,
+            "evidence_ids": [
+              "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e8",
+              "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e9",
+              "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e11"
+            ]
+          },
+          {
+            "key": "bonus_in_promotion",
+            "title": "Бонус в рекламном контексте",
+            "weight": 15,
+            "evidence_ids": [
+              "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e10"
+            ]
+          }
+        ],
+        "version": "rules-3.0-dev",
+        "weights": {
+          "version": "weights-3.0-dev",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "ru",
+        "context": "promotion",
+        "claims": [
+          {
+            "kind": "gambling",
+            "quote": "казино",
+            "source_id": "9229c1c20b83475db6479b6fc70a825e",
+            "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+            "start": 14,
+            "end": 20
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "Играй",
+            "source_id": "9229c1c20b83475db6479b6fc70a825e",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 6,
+            "end": 11
+          },
+          {
+            "kind": "bonus",
+            "quote": "бонус",
+            "source_id": "9229c1c20b83475db6479b6fc70a825e",
+            "explanation": "Упоминание бонуса или промокода.",
+            "start": 31,
+            "end": 36
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "забирай",
+            "source_id": "9229c1c20b83475db6479b6fc70a825e",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 23,
+            "end": 30
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    },
+    {
+      "text": "DEMO. Переходи по ссылке и забирай бонус.",
+      "url": "https://unavailable.safetrace.test/entry",
+      "source": "DEMO · неизвестное назначение",
+      "published_at": null,
+      "image_id": null,
+      "id": "584d54f80b7f4072ae44cf77269922ea",
+      "original_sha256": "ed3607d32d20e84a152e2507d28bd4e7824715cc96504afd99f5a8dbf4bd6e81",
+      "source_evidence_id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e3",
+      "normalized_text": "demo. переходи по ссылке и забирай бонус.",
+      "urls": [
+        "https://unavailable.safetrace.test/entry"
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e17"
+      ],
+      "reachable_urls": [
+        "https://unavailable.safetrace.test/entry"
+      ],
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-3.0-dev",
+        "weights": {
+          "version": "weights-3.0-dev",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "ru",
+        "context": "promotion",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "Переходи",
+            "source_id": "584d54f80b7f4072ae44cf77269922ea",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 6,
+            "end": 14
+          },
+          {
+            "kind": "bonus",
+            "quote": "бонус",
+            "source_id": "584d54f80b7f4072ae44cf77269922ea",
+            "explanation": "Упоминание бонуса или промокода.",
+            "start": 35,
+            "end": 40
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "забирай",
+            "source_id": "584d54f80b7f4072ae44cf77269922ea",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 27,
+            "end": 34
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": false
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "partial",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e1",
+      "quote": "DEMO · предупреждение",
+      "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+      "method": "user_supplied",
+      "at": "2026-10-20T23:01:25.944931+00:00",
+      "material_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e2",
+      "quote": "DEMO · предложение",
+      "source_id": "9229c1c20b83475db6479b6fc70a825e",
+      "method": "user_supplied",
+      "at": "2026-10-20T23:01:25.944931+00:00",
+      "material_id": "9229c1c20b83475db6479b6fc70a825e",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e3",
+      "quote": "DEMO · неизвестное назначение",
+      "source_id": "584d54f80b7f4072ae44cf77269922ea",
+      "method": "user_supplied",
+      "at": "2026-10-20T23:01:25.944931+00:00",
+      "material_id": "584d54f80b7f4072ae44cf77269922ea",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e4",
+      "quote": "казино",
+      "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+      "method": "local_rule",
+      "at": "2026-10-20T23:01:25.981916+00:00",
+      "start": 39,
+      "end": 45,
+      "material_id": "c57dd266c59a43dcace5a62ea9aedbdf"
+    },
+    {
+      "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e5",
+      "quote": "Осторожно",
+      "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+      "method": "local_rule",
+      "at": "2026-10-20T23:01:25.981916+00:00",
+      "start": 6,
+      "end": 15,
+      "material_id": "c57dd266c59a43dcace5a62ea9aedbdf"
+    },
+    {
+      "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e6",
+      "quote": "мошенники",
+      "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+      "method": "local_rule",
+      "at": "2026-10-20T23:01:25.981916+00:00",
+      "start": 17,
+      "end": 26,
+      "material_id": "c57dd266c59a43dcace5a62ea9aedbdf"
+    },
+    {
+      "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e7",
+      "quote": "Не играйте",
+      "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+      "method": "local_rule",
+      "at": "2026-10-20T23:01:25.981916+00:00",
+      "start": 47,
+      "end": 57,
+      "material_id": "c57dd266c59a43dcace5a62ea9aedbdf"
+    },
+    {
+      "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e8",
+      "quote": "казино",
+      "source_id": "9229c1c20b83475db6479b6fc70a825e",
+      "method": "local_rule",
+      "at": "2026-10-20T23:01:25.981916+00:00",
+      "start": 14,
+      "end": 20,
+      "material_id": "9229c1c20b83475db6479b6fc70a825e"
+    },
+    {
+      "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e9",
+      "quote": "Играй",
+      "source_id": "9229c1c20b83475db6479b6fc70a825e",
+      "method": "local_rule",
+      "at": "2026-10-20T23:01:25.981916+00:00",
+      "start": 6,
+      "end": 11,
+      "material_id": "9229c1c20b83475db6479b6fc70a825e"
+    },
+    {
+      "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e10",
+      "quote": "бонус",
+      "source_id": "9229c1c20b83475db6479b6fc70a825e",
+      "method": "local_rule",
+      "at": "2026-10-20T23:01:25.981916+00:00",
+      "start": 31,
+      "end": 36,
+      "material_id": "9229c1c20b83475db6479b6fc70a825e"
+    },
+    {
+      "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e11",
+      "quote": "забирай",
+      "source_id": "9229c1c20b83475db6479b6fc70a825e",
+      "method": "local_rule",
+      "at": "2026-10-20T23:01:25.981916+00:00",
+      "start": 23,
+      "end": 30,
+      "material_id": "9229c1c20b83475db6479b6fc70a825e"
+    },
+    {
+      "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e12",
+      "quote": "Переходи",
+      "source_id": "584d54f80b7f4072ae44cf77269922ea",
+      "method": "local_rule",
+      "at": "2026-10-20T23:01:25.981916+00:00",
+      "start": 6,
+      "end": 14,
+      "material_id": "584d54f80b7f4072ae44cf77269922ea"
+    },
+    {
+      "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e13",
+      "quote": "бонус",
+      "source_id": "584d54f80b7f4072ae44cf77269922ea",
+      "method": "local_rule",
+      "at": "2026-10-20T23:01:25.981916+00:00",
+      "start": 35,
+      "end": 40,
+      "material_id": "584d54f80b7f4072ae44cf77269922ea"
+    },
+    {
+      "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e14",
+      "quote": "забирай",
+      "source_id": "584d54f80b7f4072ae44cf77269922ea",
+      "method": "local_rule",
+      "at": "2026-10-20T23:01:25.981916+00:00",
+      "start": 27,
+      "end": 34,
+      "material_id": "584d54f80b7f4072ae44cf77269922ea"
+    },
+    {
+      "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e15",
+      "quote": "DEMO. Осторожно: мошенники рекламируют казино. Не играйте.",
+      "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+      "method": "source_text",
+      "at": "2026-10-20T23:01:25.981916+00:00",
+      "material_id": "c57dd266c59a43dcace5a62ea9aedbdf"
+    },
+    {
+      "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e16",
+      "quote": "DEMO. Играй в казино и забирай бонус!",
+      "source_id": "9229c1c20b83475db6479b6fc70a825e",
+      "method": "source_text",
+      "at": "2026-10-20T23:01:25.981916+00:00",
+      "material_id": "9229c1c20b83475db6479b6fc70a825e"
+    },
+    {
+      "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e17",
+      "quote": "DEMO. Переходи по ссылке и забирай бонус.\nhttps://unavailable.safetrace.test/entry",
+      "source_id": "584d54f80b7f4072ae44cf77269922ea",
+      "method": "source_text",
+      "at": "2026-10-20T23:01:25.981916+00:00",
+      "material_id": "584d54f80b7f4072ae44cf77269922ea"
+    },
+    {
+      "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e18",
+      "quote": "https://unavailable.safetrace.test/entry",
+      "source_id": "584d54f80b7f4072ae44cf77269922ea",
+      "method": "source_text",
+      "at": "2026-10-20T23:01:25.981916+00:00",
+      "material_id": "584d54f80b7f4072ae44cf77269922ea",
+      "note": "Адрес из отдельного поля URL сохранен без обрезки параметров."
+    },
+    {
+      "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e19",
+      "quote": "Синтетический стенд: адрес не найден",
+      "source_id": "https://unavailable.safetrace.test/entry",
+      "method": "synthetic_transport",
+      "at": "2026-10-20T23:01:25.987935+00:00",
+      "url": "https://unavailable.safetrace.test/entry",
+      "status_code": null,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e20",
+      "quote": "https://unavailable.safetrace.test/entry",
+      "source_id": "https://unavailable.safetrace.test/entry",
+      "method": "synthetic_transport",
+      "at": "2026-10-20T23:01:25.987935+00:00",
+      "url": "https://unavailable.safetrace.test/entry",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://unavailable.safetrace.test/entry",
+        "at": "2026-10-20T23:01:25.987935+00:00",
+        "status_code": null,
+        "text": "",
+        "stop": "Синтетический стенд: адрес не найден",
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [],
+        "evidence_id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e19"
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://unavailable.safetrace.test/entry",
+        "type": "contains_link",
+        "quote": "https://unavailable.safetrace.test/entry",
+        "observation_id": "obs-0",
+        "at": "2026-10-20T23:01:25.987935+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e20"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+    "Непроверенный участок: Синтетический стенд: адрес не найден",
+    "Часть материалов не проверена полностью; высокий приоритет основан на достаточных данных другого материала."
+  ],
+  "history": [
+    {
+      "at": "2026-10-20T23:01:03.465118+00:00",
+      "analysis_id": "7610e5871504",
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [
+          {
+            "key": "alternative_context",
+            "title": "Альтернативный контекст: предупреждение",
+            "weight": -65,
+            "evidence_ids": [
+              "fc9f81769f7c4bd1bb97b352aad8e953-7610e5871504-e3",
+              "fc9f81769f7c4bd1bb97b352aad8e953-7610e5871504-e4",
+              "fc9f81769f7c4bd1bb97b352aad8e953-7610e5871504-e5"
+            ]
+          }
+        ],
+        "version": "rules-3.0-dev",
+        "weights": {
+          "version": "weights-3.0-dev",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+        "material_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+        "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+      },
+      "trace": {
+        "observations": [],
+        "relations": [],
+        "requests": 0,
+        "unvisited": []
+      },
+      "mode": "synthetic",
+      "evidence": [
+        {
+          "id": "fc9f81769f7c4bd1bb97b352aad8e953-7610e5871504-e1",
+          "quote": "DEMO · предупреждение",
+          "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+          "method": "user_supplied",
+          "at": "2026-10-20T23:01:03.480132+00:00",
+          "material_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+          "note": "Источник заявлен при импорте; авторство не проверено."
+        },
+        {
+          "id": "fc9f81769f7c4bd1bb97b352aad8e953-7610e5871504-e2",
+          "quote": "казино",
+          "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+          "method": "local_rule",
+          "at": "2026-10-20T23:01:03.506665+00:00",
+          "start": 39,
+          "end": 45,
+          "material_id": "c57dd266c59a43dcace5a62ea9aedbdf"
+        },
+        {
+          "id": "fc9f81769f7c4bd1bb97b352aad8e953-7610e5871504-e3",
+          "quote": "Осторожно",
+          "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+          "method": "local_rule",
+          "at": "2026-10-20T23:01:03.506665+00:00",
+          "start": 6,
+          "end": 15,
+          "material_id": "c57dd266c59a43dcace5a62ea9aedbdf"
+        },
+        {
+          "id": "fc9f81769f7c4bd1bb97b352aad8e953-7610e5871504-e4",
+          "quote": "мошенники",
+          "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+          "method": "local_rule",
+          "at": "2026-10-20T23:01:03.506665+00:00",
+          "start": 17,
+          "end": 26,
+          "material_id": "c57dd266c59a43dcace5a62ea9aedbdf"
+        },
+        {
+          "id": "fc9f81769f7c4bd1bb97b352aad8e953-7610e5871504-e5",
+          "quote": "Не играйте",
+          "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+          "method": "local_rule",
+          "at": "2026-10-20T23:01:03.506665+00:00",
+          "start": 47,
+          "end": 57,
+          "material_id": "c57dd266c59a43dcace5a62ea9aedbdf"
+        },
+        {
+          "id": "fc9f81769f7c4bd1bb97b352aad8e953-7610e5871504-e6",
+          "quote": "DEMO. Осторожно: мошенники рекламируют казино. Не играйте.",
+          "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+          "method": "source_text",
+          "at": "2026-10-20T23:01:03.506665+00:00",
+          "material_id": "c57dd266c59a43dcace5a62ea9aedbdf"
+        }
+      ],
+      "materials": [
+        {
+          "text": "DEMO. Осторожно: мошенники рекламируют казино. Не играйте.",
+          "url": "",
+          "source": "DEMO · предупреждение",
+          "published_at": null,
+          "image_id": null,
+          "id": "c57dd266c59a43dcace5a62ea9aedbdf",
+          "original_sha256": "130b7238d5bef0f288f6815061c3e2581f80cd027d5e7a862694d9ce10bedae7",
+          "source_evidence_id": "fc9f81769f7c4bd1bb97b352aad8e953-7610e5871504-e1",
+          "normalized_text": "demo. осторожно: мошенники рекламируют казино. не играйте.",
+          "urls": [],
+          "promo_codes": [],
+          "content_evidence_ids": [
+            "fc9f81769f7c4bd1bb97b352aad8e953-7610e5871504-e6"
+          ],
+          "reachable_urls": [],
+          "score": {
+            "value": 0,
+            "level": "low",
+            "contributions": [
+              {
+                "key": "alternative_context",
+                "title": "Альтернативный контекст: предупреждение",
+                "weight": -65,
+                "evidence_ids": [
+                  "fc9f81769f7c4bd1bb97b352aad8e953-7610e5871504-e3",
+                  "fc9f81769f7c4bd1bb97b352aad8e953-7610e5871504-e4",
+                  "fc9f81769f7c4bd1bb97b352aad8e953-7610e5871504-e5"
+                ]
+              }
+            ],
+            "version": "rules-3.0-dev",
+            "weights": {
+              "version": "weights-3.0-dev",
+              "high_threshold": 65,
+              "medium_threshold": 35,
+              "gambling_and_call": 65,
+              "destination_and_call": 65,
+              "bonus_in_promotion": 15,
+              "promise_in_promotion": 10,
+              "repeated_referral_in_promotion": 10,
+              "alternative_context": -65,
+              "contradictory_context": 0,
+              "destination_alternative_context": 0
+            },
+            "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+          },
+          "context": {
+            "language": "ru",
+            "context": "warning",
+            "claims": [
+              {
+                "kind": "gambling",
+                "quote": "казино",
+                "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+                "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+                "start": 39,
+                "end": 45
+              },
+              {
+                "kind": "warning",
+                "quote": "Осторожно",
+                "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+                "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+                "start": 6,
+                "end": 15
+              },
+              {
+                "kind": "warning",
+                "quote": "мошенники",
+                "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+                "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+                "start": 17,
+                "end": 26
+              },
+              {
+                "kind": "warning",
+                "quote": "Не играйте",
+                "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+                "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+                "start": 47,
+                "end": 57
+              }
+            ],
+            "contradictions": [],
+            "limitations": [
+              "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+            ]
+          },
+          "sufficient_data": true
+        }
+      ],
+      "versions": {
+        "rules": "rules-3.0-dev",
+        "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "qr": "qr-1.0",
+        "pipeline": "pipeline-2.1"
+      }
+    },
+    {
+      "at": "2026-10-20T23:01:13.288384+00:00",
+      "analysis_id": "0a1f16196769",
+      "score": {
+        "value": 80,
+        "level": "high",
+        "contributions": [
+          {
+            "key": "gambling_and_call",
+            "title": "Игровая лексика + призыв",
+            "weight": 65,
+            "evidence_ids": [
+              "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e7",
+              "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e8",
+              "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e10"
+            ]
+          },
+          {
+            "key": "bonus_in_promotion",
+            "title": "Бонус в рекламном контексте",
+            "weight": 15,
+            "evidence_ids": [
+              "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e9"
+            ]
+          }
+        ],
+        "version": "rules-3.0-dev",
+        "weights": {
+          "version": "weights-3.0-dev",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+        "material_id": "9229c1c20b83475db6479b6fc70a825e",
+        "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+      },
+      "trace": {
+        "observations": [],
+        "relations": [],
+        "requests": 0,
+        "unvisited": []
+      },
+      "mode": "synthetic",
+      "evidence": [
+        {
+          "id": "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e1",
+          "quote": "DEMO · предупреждение",
+          "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+          "method": "user_supplied",
+          "at": "2026-10-20T23:01:13.298433+00:00",
+          "material_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+          "note": "Источник заявлен при импорте; авторство не проверено."
+        },
+        {
+          "id": "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e2",
+          "quote": "DEMO · предложение",
+          "source_id": "9229c1c20b83475db6479b6fc70a825e",
+          "method": "user_supplied",
+          "at": "2026-10-20T23:01:13.298433+00:00",
+          "material_id": "9229c1c20b83475db6479b6fc70a825e",
+          "note": "Источник заявлен при импорте; авторство не проверено."
+        },
+        {
+          "id": "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e3",
+          "quote": "казино",
+          "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+          "method": "local_rule",
+          "at": "2026-10-20T23:01:13.312937+00:00",
+          "start": 39,
+          "end": 45,
+          "material_id": "c57dd266c59a43dcace5a62ea9aedbdf"
+        },
+        {
+          "id": "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e4",
+          "quote": "Осторожно",
+          "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+          "method": "local_rule",
+          "at": "2026-10-20T23:01:13.312937+00:00",
+          "start": 6,
+          "end": 15,
+          "material_id": "c57dd266c59a43dcace5a62ea9aedbdf"
+        },
+        {
+          "id": "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e5",
+          "quote": "мошенники",
+          "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+          "method": "local_rule",
+          "at": "2026-10-20T23:01:13.312937+00:00",
+          "start": 17,
+          "end": 26,
+          "material_id": "c57dd266c59a43dcace5a62ea9aedbdf"
+        },
+        {
+          "id": "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e6",
+          "quote": "Не играйте",
+          "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+          "method": "local_rule",
+          "at": "2026-10-20T23:01:13.312937+00:00",
+          "start": 47,
+          "end": 57,
+          "material_id": "c57dd266c59a43dcace5a62ea9aedbdf"
+        },
+        {
+          "id": "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e7",
+          "quote": "казино",
+          "source_id": "9229c1c20b83475db6479b6fc70a825e",
+          "method": "local_rule",
+          "at": "2026-10-20T23:01:13.312937+00:00",
+          "start": 14,
+          "end": 20,
+          "material_id": "9229c1c20b83475db6479b6fc70a825e"
+        },
+        {
+          "id": "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e8",
+          "quote": "Играй",
+          "source_id": "9229c1c20b83475db6479b6fc70a825e",
+          "method": "local_rule",
+          "at": "2026-10-20T23:01:13.312937+00:00",
+          "start": 6,
+          "end": 11,
+          "material_id": "9229c1c20b83475db6479b6fc70a825e"
+        },
+        {
+          "id": "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e9",
+          "quote": "бонус",
+          "source_id": "9229c1c20b83475db6479b6fc70a825e",
+          "method": "local_rule",
+          "at": "2026-10-20T23:01:13.312937+00:00",
+          "start": 31,
+          "end": 36,
+          "material_id": "9229c1c20b83475db6479b6fc70a825e"
+        },
+        {
+          "id": "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e10",
+          "quote": "забирай",
+          "source_id": "9229c1c20b83475db6479b6fc70a825e",
+          "method": "local_rule",
+          "at": "2026-10-20T23:01:13.312937+00:00",
+          "start": 23,
+          "end": 30,
+          "material_id": "9229c1c20b83475db6479b6fc70a825e"
+        },
+        {
+          "id": "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e11",
+          "quote": "DEMO. Осторожно: мошенники рекламируют казино. Не играйте.",
+          "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+          "method": "source_text",
+          "at": "2026-10-20T23:01:13.312937+00:00",
+          "material_id": "c57dd266c59a43dcace5a62ea9aedbdf"
+        },
+        {
+          "id": "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e12",
+          "quote": "DEMO. Играй в казино и забирай бонус!",
+          "source_id": "9229c1c20b83475db6479b6fc70a825e",
+          "method": "source_text",
+          "at": "2026-10-20T23:01:13.312937+00:00",
+          "material_id": "9229c1c20b83475db6479b6fc70a825e"
+        }
+      ],
+      "materials": [
+        {
+          "text": "DEMO. Осторожно: мошенники рекламируют казино. Не играйте.",
+          "url": "",
+          "source": "DEMO · предупреждение",
+          "published_at": null,
+          "image_id": null,
+          "id": "c57dd266c59a43dcace5a62ea9aedbdf",
+          "original_sha256": "130b7238d5bef0f288f6815061c3e2581f80cd027d5e7a862694d9ce10bedae7",
+          "source_evidence_id": "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e1",
+          "normalized_text": "demo. осторожно: мошенники рекламируют казино. не играйте.",
+          "urls": [],
+          "promo_codes": [],
+          "content_evidence_ids": [
+            "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e11"
+          ],
+          "reachable_urls": [],
+          "score": {
+            "value": 0,
+            "level": "low",
+            "contributions": [
+              {
+                "key": "alternative_context",
+                "title": "Альтернативный контекст: предупреждение",
+                "weight": -65,
+                "evidence_ids": [
+                  "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e4",
+                  "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e5",
+                  "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e6"
+                ]
+              }
+            ],
+            "version": "rules-3.0-dev",
+            "weights": {
+              "version": "weights-3.0-dev",
+              "high_threshold": 65,
+              "medium_threshold": 35,
+              "gambling_and_call": 65,
+              "destination_and_call": 65,
+              "bonus_in_promotion": 15,
+              "promise_in_promotion": 10,
+              "repeated_referral_in_promotion": 10,
+              "alternative_context": -65,
+              "contradictory_context": 0,
+              "destination_alternative_context": 0
+            },
+            "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+          },
+          "context": {
+            "language": "ru",
+            "context": "warning",
+            "claims": [
+              {
+                "kind": "gambling",
+                "quote": "казино",
+                "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+                "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+                "start": 39,
+                "end": 45
+              },
+              {
+                "kind": "warning",
+                "quote": "Осторожно",
+                "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+                "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+                "start": 6,
+                "end": 15
+              },
+              {
+                "kind": "warning",
+                "quote": "мошенники",
+                "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+                "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+                "start": 17,
+                "end": 26
+              },
+              {
+                "kind": "warning",
+                "quote": "Не играйте",
+                "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+                "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+                "start": 47,
+                "end": 57
+              }
+            ],
+            "contradictions": [],
+            "limitations": [
+              "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+            ]
+          },
+          "sufficient_data": true
+        },
+        {
+          "text": "DEMO. Играй в казино и забирай бонус!",
+          "url": "",
+          "source": "DEMO · предложение",
+          "published_at": null,
+          "image_id": null,
+          "id": "9229c1c20b83475db6479b6fc70a825e",
+          "original_sha256": "925f195174e495febc1a3eda528897171f8e632ae4c369eafdc6b33f24dab426",
+          "source_evidence_id": "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e2",
+          "normalized_text": "demo. играй в казино и забирай бонус!",
+          "urls": [],
+          "promo_codes": [],
+          "content_evidence_ids": [
+            "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e12"
+          ],
+          "reachable_urls": [],
+          "score": {
+            "value": 80,
+            "level": "high",
+            "contributions": [
+              {
+                "key": "gambling_and_call",
+                "title": "Игровая лексика + призыв",
+                "weight": 65,
+                "evidence_ids": [
+                  "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e7",
+                  "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e8",
+                  "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e10"
+                ]
+              },
+              {
+                "key": "bonus_in_promotion",
+                "title": "Бонус в рекламном контексте",
+                "weight": 15,
+                "evidence_ids": [
+                  "fc9f81769f7c4bd1bb97b352aad8e953-0a1f16196769-e9"
+                ]
+              }
+            ],
+            "version": "rules-3.0-dev",
+            "weights": {
+              "version": "weights-3.0-dev",
+              "high_threshold": 65,
+              "medium_threshold": 35,
+              "gambling_and_call": 65,
+              "destination_and_call": 65,
+              "bonus_in_promotion": 15,
+              "promise_in_promotion": 10,
+              "repeated_referral_in_promotion": 10,
+              "alternative_context": -65,
+              "contradictory_context": 0,
+              "destination_alternative_context": 0
+            },
+            "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+          },
+          "context": {
+            "language": "ru",
+            "context": "promotion",
+            "claims": [
+              {
+                "kind": "gambling",
+                "quote": "казино",
+                "source_id": "9229c1c20b83475db6479b6fc70a825e",
+                "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+                "start": 14,
+                "end": 20
+              },
+              {
+                "kind": "call_to_action",
+                "quote": "Играй",
+                "source_id": "9229c1c20b83475db6479b6fc70a825e",
+                "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+                "start": 6,
+                "end": 11
+              },
+              {
+                "kind": "bonus",
+                "quote": "бонус",
+                "source_id": "9229c1c20b83475db6479b6fc70a825e",
+                "explanation": "Упоминание бонуса или промокода.",
+                "start": 31,
+                "end": 36
+              },
+              {
+                "kind": "call_to_action",
+                "quote": "забирай",
+                "source_id": "9229c1c20b83475db6479b6fc70a825e",
+                "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+                "start": 23,
+                "end": 30
+              }
+            ],
+            "contradictions": [],
+            "limitations": [
+              "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+            ]
+          },
+          "sufficient_data": true
+        }
+      ],
+      "versions": {
+        "rules": "rules-3.0-dev",
+        "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "qr": "qr-1.0",
+        "pipeline": "pipeline-2.1"
+      }
+    }
+  ],
+  "versions": {
+    "rules": "rules-3.0-dev",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.1"
+  },
+  "identifiers": [],
+  "analyzed_at": "2026-10-20T23:01:25.936918+00:00",
+  "analysis_id": "aad90e6a6e60",
+  "context": {
+    "language": "ru",
+    "context": "warning",
+    "claims": [
+      {
+        "kind": "gambling",
+        "quote": "казино",
+        "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+        "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+        "start": 39,
+        "end": 45
+      },
+      {
+        "kind": "warning",
+        "quote": "Осторожно",
+        "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+        "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+        "start": 6,
+        "end": 15
+      },
+      {
+        "kind": "gambling",
+        "quote": "казино",
+        "source_id": "9229c1c20b83475db6479b6fc70a825e",
+        "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+        "start": 14,
+        "end": 20
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "Играй",
+        "source_id": "9229c1c20b83475db6479b6fc70a825e",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 6,
+        "end": 11
+      },
+      {
+        "kind": "bonus",
+        "quote": "бонус",
+        "source_id": "9229c1c20b83475db6479b6fc70a825e",
+        "explanation": "Упоминание бонуса или промокода.",
+        "start": 31,
+        "end": 36
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "Переходи",
+        "source_id": "584d54f80b7f4072ae44cf77269922ea",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 6,
+        "end": 14
+      },
+      {
+        "kind": "bonus",
+        "quote": "бонус",
+        "source_id": "584d54f80b7f4072ae44cf77269922ea",
+        "explanation": "Упоминание бонуса или промокода.",
+        "start": 35,
+        "end": 40
+      },
+      {
+        "kind": "warning",
+        "quote": "мошенники",
+        "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+        "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+        "start": 17,
+        "end": 26
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "забирай",
+        "source_id": "9229c1c20b83475db6479b6fc70a825e",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 23,
+        "end": 30
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "забирай",
+        "source_id": "584d54f80b7f4072ae44cf77269922ea",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 27,
+        "end": 34
+      },
+      {
+        "kind": "warning",
+        "quote": "Не играйте",
+        "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+        "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+        "start": 47,
+        "end": 57
+      }
+    ],
+    "contradictions": [
+      "Альтернативный контекст соседствует с самостоятельным рекламным призывом."
+    ],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "gambling",
+      "quote": "казино",
+      "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+      "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+      "start": 39,
+      "end": 45,
+      "evidence_id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e4"
+    },
+    {
+      "kind": "warning",
+      "quote": "Осторожно",
+      "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+      "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+      "start": 6,
+      "end": 15,
+      "evidence_id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e5"
+    },
+    {
+      "kind": "warning",
+      "quote": "мошенники",
+      "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+      "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+      "start": 17,
+      "end": 26,
+      "evidence_id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e6"
+    },
+    {
+      "kind": "warning",
+      "quote": "Не играйте",
+      "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+      "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+      "start": 47,
+      "end": 57,
+      "evidence_id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e7"
+    },
+    {
+      "kind": "gambling",
+      "quote": "казино",
+      "source_id": "9229c1c20b83475db6479b6fc70a825e",
+      "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+      "start": 14,
+      "end": 20,
+      "evidence_id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e8"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "Играй",
+      "source_id": "9229c1c20b83475db6479b6fc70a825e",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 6,
+      "end": 11,
+      "evidence_id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e9"
+    },
+    {
+      "kind": "bonus",
+      "quote": "бонус",
+      "source_id": "9229c1c20b83475db6479b6fc70a825e",
+      "explanation": "Упоминание бонуса или промокода.",
+      "start": 31,
+      "end": 36,
+      "evidence_id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e10"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "забирай",
+      "source_id": "9229c1c20b83475db6479b6fc70a825e",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 23,
+      "end": 30,
+      "evidence_id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e11"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "Переходи",
+      "source_id": "584d54f80b7f4072ae44cf77269922ea",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 6,
+      "end": 14,
+      "evidence_id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e12"
+    },
+    {
+      "kind": "bonus",
+      "quote": "бонус",
+      "source_id": "584d54f80b7f4072ae44cf77269922ea",
+      "explanation": "Упоминание бонуса или промокода.",
+      "start": 35,
+      "end": 40,
+      "evidence_id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e13"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "забирай",
+      "source_id": "584d54f80b7f4072ae44cf77269922ea",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 27,
+      "end": 34,
+      "evidence_id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e14"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-5782428dde6c84f6",
+        "type": "material",
+        "label": "DEMO · предупреждение",
+        "evidence_ids": [
+          "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e1"
+        ],
+        "case_id": "fc9f81769f7c4bd1bb97b352aad8e953",
+        "material_id": "c57dd266c59a43dcace5a62ea9aedbdf"
+      },
+      {
+        "id": "source-c57cb4513651e1b0",
+        "type": "source",
+        "label": "DEMO · предупреждение",
+        "evidence_ids": [
+          "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e1"
+        ]
+      },
+      {
+        "id": "material-3304c09dd87877e7",
+        "type": "material",
+        "label": "DEMO · предложение",
+        "evidence_ids": [
+          "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e2"
+        ],
+        "case_id": "fc9f81769f7c4bd1bb97b352aad8e953",
+        "material_id": "9229c1c20b83475db6479b6fc70a825e"
+      },
+      {
+        "id": "source-b6b4b0bc8ddb5172",
+        "type": "source",
+        "label": "DEMO · предложение",
+        "evidence_ids": [
+          "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e2"
+        ]
+      },
+      {
+        "id": "material-9d7eb61986f43d91",
+        "type": "material",
+        "label": "DEMO · неизвестное назначение",
+        "evidence_ids": [
+          "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e3"
+        ],
+        "case_id": "fc9f81769f7c4bd1bb97b352aad8e953",
+        "material_id": "584d54f80b7f4072ae44cf77269922ea"
+      },
+      {
+        "id": "source-475e2641dcf0dfb7",
+        "type": "source",
+        "label": "DEMO · неизвестное назначение",
+        "evidence_ids": [
+          "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e3"
+        ]
+      },
+      {
+        "id": "url-6cbb657c1ed4490a",
+        "type": "url",
+        "label": "https://unavailable.safetrace.test/entry",
+        "evidence_ids": [
+          "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e18",
+          "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e19"
+        ]
+      },
+      {
+        "id": "observation-264ed5e3c50b8bfd",
+        "type": "observation",
+        "label": "Разрыв маршрута",
+        "evidence_ids": [
+          "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e19"
+        ],
+        "stopped": true
+      },
+      {
+        "id": "domain-b29bb699fa6adfed",
+        "type": "domain",
+        "label": "unavailable.safetrace.test",
+        "evidence_ids": [
+          "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e19"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-f7d1a56abe36f70313",
+        "source": "source-c57cb4513651e1b0",
+        "target": "material-5782428dde6c84f6",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e1"
+        ],
+        "at": "2026-10-20T23:01:25.936918+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-b32c2992f1550c5307",
+        "source": "source-b6b4b0bc8ddb5172",
+        "target": "material-3304c09dd87877e7",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e2"
+        ],
+        "at": "2026-10-20T23:01:25.936918+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-b8ffb21e46592df6ec",
+        "source": "source-475e2641dcf0dfb7",
+        "target": "material-9d7eb61986f43d91",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e3"
+        ],
+        "at": "2026-10-20T23:01:25.936918+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-54bbf1a961a3551501",
+        "source": "material-9d7eb61986f43d91",
+        "target": "url-6cbb657c1ed4490a",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e18"
+        ],
+        "at": "2026-10-20T23:01:25.936918+00:00",
+        "method": "source_text",
+        "status": "observed"
+      },
+      {
+        "id": "edge-7e8d8672e1173e2211",
+        "source": "url-6cbb657c1ed4490a",
+        "target": "observation-264ed5e3c50b8bfd",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e19"
+        ],
+        "at": "2026-10-20T23:01:25.936918+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-e3780c934563849c12",
+        "source": "url-6cbb657c1ed4490a",
+        "target": "domain-b29bb699fa6adfed",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e19"
+        ],
+        "at": "2026-10-20T23:01:25.936918+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e1",
+        "quote": "DEMO · предупреждение",
+        "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+        "method": "user_supplied",
+        "at": "2026-10-20T23:01:25.944931+00:00",
+        "material_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e2",
+        "quote": "DEMO · предложение",
+        "source_id": "9229c1c20b83475db6479b6fc70a825e",
+        "method": "user_supplied",
+        "at": "2026-10-20T23:01:25.944931+00:00",
+        "material_id": "9229c1c20b83475db6479b6fc70a825e",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e3",
+        "quote": "DEMO · неизвестное назначение",
+        "source_id": "584d54f80b7f4072ae44cf77269922ea",
+        "method": "user_supplied",
+        "at": "2026-10-20T23:01:25.944931+00:00",
+        "material_id": "584d54f80b7f4072ae44cf77269922ea",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e4",
+        "quote": "казино",
+        "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+        "method": "local_rule",
+        "at": "2026-10-20T23:01:25.981916+00:00",
+        "start": 39,
+        "end": 45,
+        "material_id": "c57dd266c59a43dcace5a62ea9aedbdf"
+      },
+      {
+        "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e5",
+        "quote": "Осторожно",
+        "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+        "method": "local_rule",
+        "at": "2026-10-20T23:01:25.981916+00:00",
+        "start": 6,
+        "end": 15,
+        "material_id": "c57dd266c59a43dcace5a62ea9aedbdf"
+      },
+      {
+        "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e6",
+        "quote": "мошенники",
+        "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+        "method": "local_rule",
+        "at": "2026-10-20T23:01:25.981916+00:00",
+        "start": 17,
+        "end": 26,
+        "material_id": "c57dd266c59a43dcace5a62ea9aedbdf"
+      },
+      {
+        "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e7",
+        "quote": "Не играйте",
+        "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+        "method": "local_rule",
+        "at": "2026-10-20T23:01:25.981916+00:00",
+        "start": 47,
+        "end": 57,
+        "material_id": "c57dd266c59a43dcace5a62ea9aedbdf"
+      },
+      {
+        "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e8",
+        "quote": "казино",
+        "source_id": "9229c1c20b83475db6479b6fc70a825e",
+        "method": "local_rule",
+        "at": "2026-10-20T23:01:25.981916+00:00",
+        "start": 14,
+        "end": 20,
+        "material_id": "9229c1c20b83475db6479b6fc70a825e"
+      },
+      {
+        "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e9",
+        "quote": "Играй",
+        "source_id": "9229c1c20b83475db6479b6fc70a825e",
+        "method": "local_rule",
+        "at": "2026-10-20T23:01:25.981916+00:00",
+        "start": 6,
+        "end": 11,
+        "material_id": "9229c1c20b83475db6479b6fc70a825e"
+      },
+      {
+        "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e10",
+        "quote": "бонус",
+        "source_id": "9229c1c20b83475db6479b6fc70a825e",
+        "method": "local_rule",
+        "at": "2026-10-20T23:01:25.981916+00:00",
+        "start": 31,
+        "end": 36,
+        "material_id": "9229c1c20b83475db6479b6fc70a825e"
+      },
+      {
+        "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e11",
+        "quote": "забирай",
+        "source_id": "9229c1c20b83475db6479b6fc70a825e",
+        "method": "local_rule",
+        "at": "2026-10-20T23:01:25.981916+00:00",
+        "start": 23,
+        "end": 30,
+        "material_id": "9229c1c20b83475db6479b6fc70a825e"
+      },
+      {
+        "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e12",
+        "quote": "Переходи",
+        "source_id": "584d54f80b7f4072ae44cf77269922ea",
+        "method": "local_rule",
+        "at": "2026-10-20T23:01:25.981916+00:00",
+        "start": 6,
+        "end": 14,
+        "material_id": "584d54f80b7f4072ae44cf77269922ea"
+      },
+      {
+        "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e13",
+        "quote": "бонус",
+        "source_id": "584d54f80b7f4072ae44cf77269922ea",
+        "method": "local_rule",
+        "at": "2026-10-20T23:01:25.981916+00:00",
+        "start": 35,
+        "end": 40,
+        "material_id": "584d54f80b7f4072ae44cf77269922ea"
+      },
+      {
+        "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e14",
+        "quote": "забирай",
+        "source_id": "584d54f80b7f4072ae44cf77269922ea",
+        "method": "local_rule",
+        "at": "2026-10-20T23:01:25.981916+00:00",
+        "start": 27,
+        "end": 34,
+        "material_id": "584d54f80b7f4072ae44cf77269922ea"
+      },
+      {
+        "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e15",
+        "quote": "DEMO. Осторожно: мошенники рекламируют казино. Не играйте.",
+        "source_id": "c57dd266c59a43dcace5a62ea9aedbdf",
+        "method": "source_text",
+        "at": "2026-10-20T23:01:25.981916+00:00",
+        "material_id": "c57dd266c59a43dcace5a62ea9aedbdf"
+      },
+      {
+        "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e16",
+        "quote": "DEMO. Играй в казино и забирай бонус!",
+        "source_id": "9229c1c20b83475db6479b6fc70a825e",
+        "method": "source_text",
+        "at": "2026-10-20T23:01:25.981916+00:00",
+        "material_id": "9229c1c20b83475db6479b6fc70a825e"
+      },
+      {
+        "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e17",
+        "quote": "DEMO. Переходи по ссылке и забирай бонус.\nhttps://unavailable.safetrace.test/entry",
+        "source_id": "584d54f80b7f4072ae44cf77269922ea",
+        "method": "source_text",
+        "at": "2026-10-20T23:01:25.981916+00:00",
+        "material_id": "584d54f80b7f4072ae44cf77269922ea"
+      },
+      {
+        "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e18",
+        "quote": "https://unavailable.safetrace.test/entry",
+        "source_id": "584d54f80b7f4072ae44cf77269922ea",
+        "method": "source_text",
+        "at": "2026-10-20T23:01:25.981916+00:00",
+        "material_id": "584d54f80b7f4072ae44cf77269922ea",
+        "note": "Адрес из отдельного поля URL сохранен без обрезки параметров."
+      },
+      {
+        "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e19",
+        "quote": "Синтетический стенд: адрес не найден",
+        "source_id": "https://unavailable.safetrace.test/entry",
+        "method": "synthetic_transport",
+        "at": "2026-10-20T23:01:25.987935+00:00",
+        "url": "https://unavailable.safetrace.test/entry",
+        "status_code": null,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e20",
+        "quote": "https://unavailable.safetrace.test/entry",
+        "source_id": "https://unavailable.safetrace.test/entry",
+        "method": "synthetic_transport",
+        "at": "2026-10-20T23:01:25.987935+00:00",
+        "url": "https://unavailable.safetrace.test/entry",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-20T23:21:59.549574+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 80,
+    "level": "high",
+    "contributions": [
+      {
+        "key": "gambling_and_call",
+        "title": "Игровая лексика + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e8",
+          "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e9",
+          "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e11"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "fc9f81769f7c4bd1bb97b352aad8e953-aad90e6a6e60-e10"
+        ]
+      }
+    ],
+    "version": "rules-3.0-dev",
+    "weights": {
+      "version": "weights-3.0-dev",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "9229c1c20b83475db6479b6fc70a825e",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 66.8,
+  "decisions": []
+}

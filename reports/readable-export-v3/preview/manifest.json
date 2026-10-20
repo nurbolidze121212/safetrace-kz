@@ -1,0 +1,31 @@
+{
+  "schema": "safetrace-export-1",
+  "created_at": "2026-10-20T23:21:59.552573+00:00",
+  "files": [
+    {
+      "path": "case.json",
+      "bytes": 67320,
+      "sha256": "fbd1b16e8cd0d29a238db58ddd49a3697ec9945d8f42a1aa98b95c1556137381"
+    },
+    {
+      "path": "originals/01-text.txt",
+      "bytes": 102,
+      "sha256": "130b7238d5bef0f288f6815061c3e2581f80cd027d5e7a862694d9ce10bedae7"
+    },
+    {
+      "path": "originals/02-text.txt",
+      "bytes": 62,
+      "sha256": "925f195174e495febc1a3eda528897171f8e632ae4c369eafdc6b33f24dab426"
+    },
+    {
+      "path": "originals/03-text.txt",
+      "bytes": 70,
+      "sha256": "ed3607d32d20e84a152e2507d28bd4e7824715cc96504afd99f5a8dbf4bd6e81"
+    },
+    {
+      "path": "report.html",
+      "bytes": 107325,
+      "sha256": "f8c910e54d553aeb1c475ea7cd788f5b394f4e1fc35fa1720aefdfeafc018802"
+    }
+  ]
+}
