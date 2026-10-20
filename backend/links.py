@@ -1,5 +1,6 @@
 """Bounded URL observation. Live DNS is checked AND pinned at connection time."""
 
+import codecs
 import http.client
 import ipaddress
 import json
@@ -8,6 +9,7 @@ import socket
 import ssl
 import time
 from collections import deque
+from email.message import Message
 from urllib.parse import parse_qsl, urljoin, urlsplit, urlunsplit
 
 from bs4 import BeautifulSoup
@@ -153,7 +155,7 @@ def live_fetch(url):
             body.extend(chunk)
         if len(body) > MAX_BODY:
             raise LinkBlocked("Ответ превышает 256 KiB")
-        return response.status, {"content-type": kind, "connected-ip": ip}, bytes(body)
+        return response.status, {"content-type": headers["content-type"], "connected-ip": ip}, bytes(body)
     finally:
         conn.close()
 
@@ -173,8 +175,71 @@ class SyntheticTransport:
         return entry["status"], entry.get("headers", {}), entry.get("body", "").encode()
 
 
+def _charset(content_type):
+    message = Message()
+    message["content-type"] = content_type
+    return message.get_content_charset()
+
+
+def page_content(body, base_url, content_type="text/html"):
+    """Bounded text extraction, with explicit decoding failures instead of guesses."""
+    kind = content_type.split(";", 1)[0].strip().lower()
+    result = {"text": "", "links": [], "content_type": content_type, "stop": None}
+    if kind not in ("text/html", "text/plain"):
+        return {**result, "stop": "Ответ не является HTML или обычным текстом"}
+    encoding, source = _charset(content_type), "http"
+    if body.startswith((codecs.BOM_UTF32_LE, codecs.BOM_UTF32_BE)):
+        encoding, source = "utf-32", "bom"
+    elif body.startswith(codecs.BOM_UTF8):
+        encoding, source = "utf-8-sig", "bom"
+    elif body.startswith((codecs.BOM_UTF16_LE, codecs.BOM_UTF16_BE)):
+        encoding, source = "utf-16", "bom"
+    elif not encoding and kind == "text/html":
+        # Read declarations, not similarly worded comments or script strings.
+        prescan = BeautifulSoup(body[:1024].decode("latin-1"), "html.parser")
+        for meta in prescan.find_all("meta"):
+            encoding = meta.get("charset")
+            if not encoding and meta.get("http-equiv", "").lower() == "content-type":
+                encoding = _charset(meta.get("content", ""))
+            if encoding:
+                source = "meta"
+                if encoding.lower() in ("utf-16", "utf-16le", "utf-16be"):
+                    encoding = "utf-8"
+                break
+    if not encoding:
+        encoding, source = "utf-8", "default"
+    result.update(encoding=encoding[:80], encoding_source=source)
+    try:
+        codec = codecs.lookup(encoding).name
+        # These text codecs cover the RU/KK workflow. Arbitrary Python transform
+        # codecs and unsupported encodings must not manufacture page evidence.
+        if codec in ("ascii", "iso8859-1"):
+            codec = "cp1252"
+        if codec not in {
+            "utf-8", "utf-8-sig", "utf-16", "utf-16-le", "utf-16-be",
+            "cp1251", "cp1252", "cp866", "koi8-r", "koi8-u", "iso8859-5",
+        }:
+            raise LookupError
+        text = body.decode(codec, errors="strict")
+        result["encoding"] = codec
+    except (LookupError, UnicodeError):
+        result["stop"] = "Кодировка страницы не поддерживается или текст поврежден"
+        return result
+    if kind == "text/html":
+        text, result["links"] = _visible_html(text, base_url)
+    result["text"] = text[:20000]
+    if len(text) > 20000:
+        result.update(text_truncated=True, content_warning="Текст страницы ограничен 20 000 символами.")
+    return result
+
+
 def visible_html(body, base_url):
-    soup = BeautifulSoup(body.decode("utf-8", errors="replace"), "html.parser")
+    result = page_content(body, base_url)
+    return result["text"], result["links"]
+
+
+def _visible_html(text, base_url):
+    soup = BeautifulSoup(text, "html.parser")
     for el in soup(["script", "style", "template", "noscript", "iframe", "object", "svg"]):
         el.decompose()
     for el in list(soup.find_all(True)):
@@ -189,7 +254,7 @@ def visible_html(body, base_url):
         label = a.get_text(" ", strip=True)
         if label:
             links.append({"url": resolve_reference(base_url, a["href"]), "quote": label[:300]})
-    return soup.get_text(" ", strip=True)[:20000], links[:8]
+    return soup.get_text(" ", strip=True), links[:8]
 
 
 def extract_urls(text, limit=12):
@@ -324,9 +389,9 @@ def trace(urls, fetch=live_fetch, cancelled=lambda: False):
             elif status >= 400:
                 observation["stop"] = f"HTTP {status}"
             else:
-                text, links = visible_html(body, url)
-                observation.update(text=text, links=links)
-                enqueue_outgoing(observation, ancestors, key)
+                observation.update(page_content(body, url, headers.get("content-type", "text/html")))
+                if not observation["stop"]:
+                    enqueue_outgoing(observation, ancestors, key)
         except (ValueError, OSError, http.client.HTTPException) as exc:
             observation["stop"] = (
                 str(exc)[:200] if isinstance(exc, LinkBlocked) else "Сеть недоступна / таймаут"

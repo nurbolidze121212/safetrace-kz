@@ -452,6 +452,9 @@ def analyze(
         if obs.get("budget_warning"):
             doc["limitations"].append(obs["budget_warning"])
             doc["stages"]["links"] = "partial"
+        if obs.get("content_warning"):
+            doc["limitations"].append(obs["content_warning"])
+            doc["stages"]["links"] = "partial"
         if obs["text"]:
             pc, _ = verify_claims(local_context({obs["url"]: obs["text"]}), {obs["url"]: obs["text"]})
             for claim in pc:
@@ -515,7 +518,9 @@ def analyze(
         mat["context"] = own_context.model_dump()
         own_observations = [o for o in doc["trace"]["observations"] if o["url"] in mat["reachable_urls"]]
         any_page = any(o["text"] for o in own_observations)
-        missing_route = (bool(mat["urls"]) and not any_page) or mat.get("urls_limited", False) or any(
+        missing_route = (bool(mat["urls"]) and not any_page) or any(
+            o.get("stop") or o.get("text_truncated") for o in own_observations
+        ) or mat.get("urls_limited", False) or any(
             item["url"] in mat["urls"] or item["from"] in mat["reachable_urls"]
             for item in doc["trace"].get("unvisited", [])
         )
