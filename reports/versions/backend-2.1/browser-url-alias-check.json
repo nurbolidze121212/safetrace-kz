@@ -1,0 +1,18 @@
+{
+  "case_id": "df03ebebbb424ae184c9f04500c0a90d",
+  "status": "completed",
+  "materials": 2,
+  "http_requests": 3,
+  "observations": 5,
+  "both_routes_reach_destination": true,
+  "both_material_scores": [
+    90,
+    90
+  ],
+  "raw_alias_preserved": true,
+  "history_count": 1,
+  "all_graph_evidence_exists": true,
+  "graph_evidence_count_including_peers": 65,
+  "verified_manifest_files": 4,
+  "zip_sha256": "fc0a5b27510938516a7f7ef3c8b7f78e606ee6e8afbee531c5e6f922ce24db72"
+}

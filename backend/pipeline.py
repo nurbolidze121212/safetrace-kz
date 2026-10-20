@@ -477,6 +477,7 @@ def analyze(
             rel["method"],
             url=rel["from"] or rel["to"],
             relation=rel["type"],
+            **{key: rel[key] for key in ("href", "base_href", "document_base") if key in rel},
         )
     # Reachability from each original material keeps scoped identifiers attributable.
     for mat in doc["materials"]:

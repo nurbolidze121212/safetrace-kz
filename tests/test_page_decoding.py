@@ -27,7 +27,7 @@ def test_declared_cyrillic_encoding_preserves_text_and_link_quotes(declaration):
     content_type = 'text/html; charset="windows-1251"' if declaration == "header" else "text/html"
     obs = observe(body, content_type)
     assert obs["text"] == text + " Получить бонус"
-    assert obs["links"][0] == {"url": "https://page.test/offer", "quote": "Получить бонус"}
+    assert obs["links"][0] == {"url": "https://page.test/offer", "quote": "Получить бонус", "href": "/offer"}
     assert obs["encoding"] == "cp1251"
     assert obs["encoding_source"] == ("http" if declaration == "header" else "meta")
     assert not obs["stop"]

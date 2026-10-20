@@ -226,7 +226,8 @@ def page_content(body, base_url, content_type="text/html"):
         result["stop"] = "Кодировка страницы не поддерживается или текст поврежден"
         return result
     if kind == "text/html":
-        text, result["links"] = _visible_html(text, base_url)
+        text, result["links"], metadata = _visible_html(text, base_url)
+        result.update(metadata)
     result["text"] = text[:20000]
     if len(text) > 20000:
         result.update(text_truncated=True, content_warning="Текст страницы ограничен 20 000 символами.")
@@ -242,6 +243,14 @@ def _visible_html(text, base_url):
     soup = BeautifulSoup(text, "html.parser")
     for el in soup(["script", "style", "template", "noscript", "iframe", "object", "svg"]):
         el.decompose()
+    metadata = {"document_base": base_url}
+    base = soup.find("base", href=True)
+    if base:
+        metadata["base_href"] = base["href"]
+        try:
+            metadata["document_base"] = resolve_reference(base_url, base["href"].strip(" \t\r\n\f"))
+        except ValueError as exc:
+            raise LinkBlocked("Некорректный базовый адрес HTML-страницы") from exc
     for el in list(soup.find_all(True)):
         if el.attrs is not None and (
             el.has_attr("hidden")
@@ -249,12 +258,29 @@ def _visible_html(text, base_url):
             or re.search(r"display\s*:\s*none|visibility\s*:\s*hidden", el.get("style", ""), re.I)
         ):
             el.decompose()
-    links = []
+    links, seen = [], set()
     for a in soup.find_all("a", href=True):
         label = a.get_text(" ", strip=True)
-        if label:
-            links.append({"url": resolve_reference(base_url, a["href"]), "quote": label[:300]})
-    return soup.get_text(" ", strip=True), links[:8]
+        href = a["href"].strip(" \t\r\n\f")
+        if not label or not href:
+            continue
+        if re.match(r"^(mailto|tel):", href, re.I):
+            metadata["non_web_link_count"] = metadata.get("non_web_link_count", 0) + 1
+            continue
+        try:
+            destination = resolve_reference(metadata["document_base"], href)
+        except ValueError:
+            destination = href  # The trace will retain and block the malformed URL.
+        if href.startswith("#"):
+            try:
+                if normalized(destination) == normalized(base_url):
+                    continue
+            except LinkBlocked:
+                pass
+        if destination not in seen:
+            seen.add(destination)
+            links.append({"url": destination, "quote": label[:300], "href": a["href"]})
+    return soup.get_text(" ", strip=True), links[:8], metadata
 
 
 def extract_urls(text, limit=12):
@@ -287,7 +313,7 @@ def identifiers(url):
 
 
 def trace(urls, fetch=live_fetch, cancelled=lambda: False):
-    queue = deque((u, 0, None, "contains_link", u, ()) for u in urls[:12])
+    queue = deque((u, 0, None, "contains_link", u, (), {}) for u in urls[:12])
     unvisited = [
         {"url": url, "from": None, "type": "contains_link", "reason": "initial_url_limit"}
         for url in urls[12:]
@@ -299,7 +325,7 @@ def trace(urls, fetch=live_fetch, cancelled=lambda: False):
         url, depth = observation["url"], observation["depth"]
         if observation.get("location"):
             queue.append((observation["location"], depth + 1, url, "redirects",
-                          observation["location_header"], (*ancestors, key)))
+                          observation["location_header"], (*ancestors, key), {}))
             return
         links = observation.get("links", [])
         if len(links) > 3:
@@ -311,12 +337,15 @@ def trace(urls, fetch=live_fetch, cancelled=lambda: False):
                 for link in links[3:]
             )
         for link in links[:3]:
-            queue.append((link["url"], depth + 1, url, "page_link", link["quote"], (*ancestors, key)))
+            attributes = {"href": link["href"], "document_base": observation["document_base"]}
+            if "base_href" in observation:
+                attributes["base_href"] = observation["base_href"]
+            queue.append((link["url"], depth + 1, url, "page_link", link["quote"], (*ancestors, key), attributes))
 
     while queue and len(observations) < MAX_REQUESTS and requests < MAX_REQUESTS:
         if cancelled():
             break
-        url, depth, parent, relation, quote, ancestors = queue.popleft()
+        url, depth, parent, relation, quote, ancestors, attributes = queue.popleft()
         observation = {
             "id": f"obs-{len(observations)}",
             "url": url,
@@ -336,6 +365,7 @@ def trace(urls, fetch=live_fetch, cancelled=lambda: False):
                 "quote": quote,
                 "observation_id": observation["id"],
                 "at": observation["at"],
+                **attributes,
             }
         )
         try:
@@ -398,7 +428,7 @@ def trace(urls, fetch=live_fetch, cancelled=lambda: False):
             )
     unvisited.extend(
         {"url": url, "from": parent, "type": kind, "reason": "case_budget_or_cancellation"}
-        for url, _, parent, kind, _, _ in queue
+        for url, _, parent, kind, _, _, _ in queue
     )
     if unvisited and observations:
         warning = "Остались непроверенные ссылки: ограничения обхода или отмена."

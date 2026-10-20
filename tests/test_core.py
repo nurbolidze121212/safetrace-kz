@@ -121,7 +121,7 @@ def test_html_is_data_and_hidden_links_ignored():
         "https://a.test",
     )
     assert "steal" not in text and "hidden" not in text
-    assert links == [{"url": "https://a.test/ok", "quote": "visible"}]
+    assert links == [{"url": "https://a.test/ok", "quote": "visible", "href": "/ok"}]
 
 
 def test_url_identity_and_scope():
