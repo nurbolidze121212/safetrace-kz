@@ -1,0 +1,17 @@
+{
+  "source_commit": "84b4e98",
+  "report_hashes": {
+    "reports/versions/synthetic-v2/core-freeze.json": "64213d0f15f8b40b35223890680a0cfd02aa827c8fd97d03ee85ef7a82fbc872",
+    "reports/versions/synthetic-v2/data-freeze.json": "e4a6ae2cee3c3daceca446973ab5a0a9f1710be704202ec8efd075ad219edc32",
+    "reports/versions/synthetic-v2/evaluation-core-source.zip": "1236be805c84266845f0ae37c1f3c2751a896edab9475c88626d047c3bda4661",
+    "reports/versions/synthetic-v2/evaluation-predictions.csv": "806be2fc1a1094ca49073f978820f5e7504fd4c81d9f18e11e41cef4fa333856",
+    "reports/versions/synthetic-v2/evaluation-predictions.json": "014d4486cc80e843c87455db848dae786974b9432fb613d90d092ac13189e8ca",
+    "reports/versions/synthetic-v2/evaluation-unlabelled-predictions.json": "5081f4881c2dd7d187632f46f4f3a71b62206dee0578fbf1a09b22b8cea39429",
+    "reports/versions/synthetic-v2/evaluation.json": "2566fddde977a282bdb827868128c8566c60f6b9647a06c9f573b6a98afef477",
+    "reports/versions/synthetic-v2/regression-v1-core-source.zip": "1236be805c84266845f0ae37c1f3c2751a896edab9475c88626d047c3bda4661",
+    "reports/versions/synthetic-v2/regression-v1-predictions.csv": "5ee8dba5040bda79e6fafac0168a80b1e7da620598c64448a2480027bb88b75b",
+    "reports/versions/synthetic-v2/regression-v1-predictions.json": "6af9e7168290986cb6ec11abad69f465d29cf83375ece31e6637f9a05bbb06da",
+    "reports/versions/synthetic-v2/regression-v1-unlabelled-predictions.json": "1b8e7a68d947568e67e5c1008c18cedb8680b03cde0bea1fd9ca8f6f93e7cc3c",
+    "reports/versions/synthetic-v2/regression-v1.json": "63a6ca58e6120cde84076ceb38ad85a27b4ad5562f0dd831e81d54272e2aa916"
+  }
+}

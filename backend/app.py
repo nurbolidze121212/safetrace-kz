@@ -15,6 +15,7 @@ from .config import (
     MAX_IMAGE,
     MODEL_DIR,
     OCR_VERSION,
+    PIPELINE_VERSION,
     QR_VERSION,
     ROOT,
     RULE_VERSION,
@@ -36,7 +37,7 @@ async def lifespan(app):
     yield
 
 
-app = FastAPI(title="SafeTrace KZ", version="2.0.0", lifespan=lifespan)
+app = FastAPI(title="SafeTrace KZ", version="2.1.0", lifespan=lifespan)
 app.add_middleware(BodyLimitMiddleware)
 
 
@@ -84,7 +85,10 @@ def check_images(materials):
 def health():
     return {
         "status": "ok",
-        "versions": {"rules": RULE_VERSION, "ocr": OCR_VERSION, "qr": QR_VERSION},
+        "app_version": app.version,
+        "versions": {
+            "rules": RULE_VERSION, "ocr": OCR_VERSION, "qr": QR_VERSION, "pipeline": PIPELINE_VERSION
+        },
         "provider_available": bool(os.getenv("GEMINI_API_KEY")) and not offline(),
         "model": os.getenv("GEMINI_MODEL", "gemini-3.8-flash"),
         "offline": offline(),

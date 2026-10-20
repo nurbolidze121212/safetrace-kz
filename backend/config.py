@@ -10,6 +10,7 @@ MODEL_DIR = ROOT / "models"
 RULE_VERSION = "rules-2.0"
 OCR_VERSION = "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0"
 QR_VERSION = "qr-1.0"
+PIPELINE_VERSION = "pipeline-2.1"
 MAX_IMAGE = 8 * 1024 * 1024
 MAX_TEXT = 20000
 MAX_MATERIALS = 20

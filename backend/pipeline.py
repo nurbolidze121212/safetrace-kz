@@ -3,13 +3,14 @@ import re
 import threading
 import time
 import uuid
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import Future, ThreadPoolExecutor
+from copy import deepcopy
 
 from PIL import Image, ImageOps
 
 from . import storage
 from .analysis import local_context, normalize_text, score, verify_claims
-from .config import DATA, OCR_VERSION, QR_VERSION, RULE_VERSION
+from .config import DATA, OCR_VERSION, PIPELINE_VERSION, QR_VERSION, RULE_VERSION
 from .graph import build_graph
 from .links import SyntheticTransport, extract_urls, identifiers, live_fetch, trace
 from .ocr import recognize
@@ -18,6 +19,7 @@ from .qr import decode as decode_qr
 
 EXECUTOR = ThreadPoolExecutor(max_workers=1, thread_name_prefix="safetrace")
 CANCELS: dict[str, threading.Event] = {}
+FUTURES: dict[str, Future] = {}
 ACTIVE = set()
 QUEUE_LOCK = threading.RLock()
 STAGES = ["originals", "ocr", "features", "links", "graph", "priority"]
@@ -38,7 +40,9 @@ def new_case(payload):
         "evidence": [],
         "limitations": [],
         "history": [],
-        "versions": {"rules": RULE_VERSION, "ocr": OCR_VERSION, "qr": QR_VERSION},
+        "versions": {
+            "rules": RULE_VERSION, "ocr": OCR_VERSION, "qr": QR_VERSION, "pipeline": PIPELINE_VERSION
+        },
     }
     for m in payload.materials:
         mat = m.model_dump(mode="json")
@@ -74,9 +78,10 @@ def submit(case_id):
             return
         if len(ACTIVE) >= 8:
             raise ValueError("Очередь заполнена: максимум 8 задач.")
-        ACTIVE.add(case_id)
-        CANCELS[case_id] = threading.Event()
         doc = storage.get(case_id)
+        if doc is None:
+            raise ValueError("Случай не найден.")
+        previous = deepcopy(doc)
         if doc.get("score") is not None:
             doc["history"].append(
                 {
@@ -90,14 +95,35 @@ def submit(case_id):
                     "versions": doc.get("versions"),
                 }
             )
-        doc.update(status="pending", progress=0, stages={s: "pending" for s in STAGES})
-        storage.save(doc)
-        EXECUTOR.submit(_run, case_id)
+        doc.update(status="pending", stage="originals", progress=0, stages={s: "pending" for s in STAGES})
+        ACTIVE.add(case_id)
+        CANCELS[case_id] = threading.Event()
+        try:
+            storage.save(doc)
+            FUTURES[case_id] = EXECUTOR.submit(_run, case_id)
+        except Exception:
+            ACTIVE.discard(case_id)
+            CANCELS.pop(case_id, None)
+            FUTURES.pop(case_id, None)
+            storage.save(previous)
+            raise
 
 
 def cancel(case_id):
-    if event := CANCELS.get(case_id):
-        event.set()
+    with QUEUE_LOCK:
+        if event := CANCELS.get(case_id):
+            event.set()
+            future = FUTURES.get(case_id)
+            if future is not None and future.cancel():
+                # A waiting job has no writer. Persist cancellation and immediately free its slot.
+                try:
+                    doc = storage.get(case_id)
+                    doc.update(status="cancelled", stages={s: "cancelled" for s in STAGES})
+                    storage.save(doc)
+                finally:
+                    ACTIVE.discard(case_id)
+                    CANCELS.pop(case_id, None)
+                    FUTURES.pop(case_id, None)
 
 
 def recover():
@@ -123,6 +149,7 @@ def _run(case_id):
         with QUEUE_LOCK:
             ACTIVE.discard(case_id)
             CANCELS.pop(case_id, None)
+            FUTURES.pop(case_id, None)
 
 
 def analyze(
@@ -136,7 +163,9 @@ def analyze(
         analyzed_at=storage.now(),
         status="running",
         trace={"observations": [], "relations": []},
-        versions={"rules": RULE_VERSION, "ocr": OCR_VERSION, "qr": QR_VERSION},
+        versions={
+            "rules": RULE_VERSION, "ocr": OCR_VERSION, "qr": QR_VERSION, "pipeline": PIPELINE_VERSION
+        },
     )
     doc["analysis_id"] = uuid.uuid4().hex[:12]
     doc.pop("score", None)
