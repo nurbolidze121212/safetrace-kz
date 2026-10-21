@@ -44,12 +44,12 @@ export default function App() {
         if (stopped) return
         setCases(list); setReady(true); setQueueError('')
         delay = list.some(c => isActive(c.status)) ? 2000 : 12000
-        if (!environmentReady) {
-          try {
-            const [info, examples] = await Promise.all([api<Health>('/health'), api<Demo[]>('/demos')])
-            if (!stopped) { setHealth(info); setDemos(examples); setEnvironmentError(''); environmentReady = true }
-          } catch (e) { if (!stopped) { setEnvironmentError(errorMessage(e)); delay = 6000 } }
-        }
+        try {
+          // A fast server restart can occur between polls without a failed request.
+          // Refresh runtime versions with each successful queue read as well.
+          const [info, examples] = await Promise.all([api<Health>('/health'), environmentReady ? Promise.resolve(undefined) : api<Demo[]>('/demos')])
+          if (!stopped) { setHealth(info); if (examples) setDemos(examples); setEnvironmentError(''); environmentReady = true }
+        } catch (e) { if (!stopped) { setEnvironmentError(errorMessage(e)); delay = 6000 } }
       } catch (e) { if (!stopped) { setQueueError(errorMessage(e)); environmentReady = false } }
       finally { if (!stopped) timer = setTimeout(poll, delay) }
     }

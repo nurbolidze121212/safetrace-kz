@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-21T06:54:37.369384+05:00",
+  "isolated_server": "127.0.0.1:8767",
+  "case": "4131fe31da734750a5abb2ecc5b1a8f9",
+  "before": {
+    "restart_seconds": 6.5679093,
+    "health_rules": "rules-3.0-probe",
+    "ui_rules": "rules-3.0",
+    "ui_badge": "Записанные версии совпадают",
+    "network_errors": 0,
+    "still_stale_after_next_successful_queue_reads": true
+  },
+  "after": {
+    "restart_seconds": 6.6005097,
+    "health_rules": "rules-3.0",
+    "ui_rules": "rules-3.0",
+    "ui_badge": "Записанные версии совпадают",
+    "previous_ui_rules": "rules-3.0-probe",
+    "updated_without_page_reload": true,
+    "network_errors": 0
+  },
+  "fix": "Read runtime health on each successful queue poll; demo catalog is still reused.",
+  "test_fixture": "Only a version-label string in the isolated copied config changed temporarily. No analyses ran while the probe label was active. The copied config was restored byte-for-byte. Main core and data did not change.",
+  "verification": {
+    "frontend_tests": 21,
+    "eslint": "passed",
+    "typescript": "passed",
+    "production_build": "passed"
+  },
+  "temporary_server_stopped": true,
+  "temporary_tab_closed": true,
+  "screenshots": [
+    "runtime-version-stale.png",
+    "runtime-version-refreshed.png"
+  ]
+}
