@@ -12,6 +12,8 @@
 
 Комплект защиты: [шесть слайдов PPTX](deliverables/SafeTrace-KZ-defense-v3.pptx), [сценарий демонстрации](docs/DEMO_V3.md), [текст выступления](docs/PITCH.md), [ответы на вопросы](docs/FAQ.md).
 
+Для передачи и установки в другой папке — [короткая инструкция HANDOFF](docs/HANDOFF.md).
+
 ## Запуск на этом компьютере
 
 Откройте PowerShell:

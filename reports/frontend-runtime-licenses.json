@@ -1,0 +1,47 @@
+{
+  "packages": [
+    {
+      "package": "react",
+      "version": "19.3.1",
+      "file": "licenses/frontend/react-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "source": "frontend/node_modules/react/LICENSE"
+    },
+    {
+      "package": "react-dom",
+      "version": "19.3.1",
+      "file": "licenses/frontend/react-dom-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "source": "frontend/node_modules/react-dom/LICENSE"
+    },
+    {
+      "package": "scheduler",
+      "version": "0.28.0",
+      "file": "licenses/frontend/scheduler-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "source": "frontend/node_modules/scheduler/LICENSE"
+    },
+    {
+      "package": "cytoscape",
+      "version": "3.34.4",
+      "file": "licenses/frontend/cytoscape-LICENSE.txt",
+      "sha256": "eb319c6e6f233607f71e8e2f450391751883cfc0eeb3ca7ef574c13d1d9c2203",
+      "source": "frontend/node_modules/cytoscape/LICENSE"
+    },
+    {
+      "package": "lucide-react",
+      "version": "1.60.0",
+      "file": "licenses/frontend/lucide-react-LICENSE.txt",
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+      "source": "frontend/node_modules/lucide-react/LICENSE"
+    },
+    {
+      "package": "vite",
+      "version": "8.3.4",
+      "file": "licenses/frontend/vite-LICENSE.txt",
+      "sha256": "a47172e44a86a7e2cd1c16282341f7726ec60caafe3a6166fe3e0602005b6fa6",
+      "source": "frontend/node_modules/vite/LICENSE.md"
+    }
+  ],
+  "method": "Byte-for-byte copies from the locally installed packages locked by frontend/package-lock.json. Vite includes its bundled third-party notices."
+}

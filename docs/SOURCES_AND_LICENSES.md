@@ -2,6 +2,8 @@
 
 Проверено при реализации 20–21 октября 2026. Зависимости зафиксированы в `requirements.lock.txt` и `frontend/package-lock.json`; полный машинный перечень установленного окружения и лицензионных метаданных — `reports/dependencies.json`. Метаданные не заменяют полный текст лицензии конкретного пакета.
 
+Для передачи собранного интерфейса сохранены [полные лицензионные файлы React, React DOM, Scheduler, Cytoscape, Lucide и Vite](../licenses/frontend/README.md), скопированные из установленных пакетов без изменений.
+
 | Компонент | Источник | Лицензия основного проекта |
 |---|---|---|
 | PaddleOCR / PaddlePaddle | [OCR API](https://www.paddleocr.ai/main/en/version3.x/pipeline_usage/OCR.html), [языки](https://github.com/PaddlePaddle/PaddleOCR/blob/main/docs/version3.x/algorithm/PP-OCRv5/PP-OCRv5_multi_languages.en.md) | Apache-2.0 |
