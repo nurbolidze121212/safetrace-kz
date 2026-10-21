@@ -5,7 +5,7 @@ import { api, errorMessage } from '../lib'
 import type { CreateInput, Health } from '../types'
 import { Dialog } from './UI'
 
-export default function CreateDialog({ adding, mode: parentMode, health, close, onSubmit }: { adding: boolean; mode?: string; health?: Health; close: () => void; onSubmit: (data: CreateInput) => Promise<void> }) {
+export default function CreateDialog({ adding, mode: parentMode, caseTitle, health, close, onSubmit }: { adding: boolean; mode?: string; caseTitle?: string; health?: Health; close: () => void; onSubmit: (data: CreateInput) => Promise<void> }) {
   const [text, setText] = useState(''), [url, setUrl] = useState(''), [title, setTitle] = useState(''), [source, setSource] = useState('')
   const [mode, setMode] = useState(parentMode || 'local'), [imageId, setImageId] = useState<string | null>(null)
   const [filename, setFilename] = useState(''), [uploading, setUploading] = useState(false), [sending, setSending] = useState(false), [error, setError] = useState('')
@@ -28,6 +28,7 @@ export default function CreateDialog({ adding, mode: parentMode, health, close, 
     catch (e) { setError(errorMessage(e)) } finally { setSending(false) }
   }
   return <Dialog title={adding ? 'Добавить материал' : 'Новый анализ'} onClose={close} busy={busy}>
+    {adding && <p className="dialog-target"><span>Материал для случая</span><strong>{caseTitle}</strong></p>}
     <p className="dialog-intro">Добавьте текст, ссылку или изображение. Система сохранит оригинал и покажет источники каждого вывода.</p>
     <form onSubmit={submit}>
       <fieldset disabled={busy}>

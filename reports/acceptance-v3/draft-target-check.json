@@ -1,0 +1,72 @@
+{
+  "checked_at": "2026-10-21T01:10:51.702280+00:00",
+  "isolated_server": "http://127.0.0.1:8767",
+  "opened_for": "4131fe31da734750a5abb2ecc5b1a8f9",
+  "browser_back_to": "496bd70a156840eba53951597ef54826",
+  "before": {
+    "4131fe31da734750a5abb2ecc5b1a8f9": {
+      "materials": 2,
+      "title": "V3 · скрытый маршрут из нового QR"
+    },
+    "496bd70a156840eba53951597ef54826": {
+      "materials": 1,
+      "title": "V3 · приглашение к памятке"
+    }
+  },
+  "after_bug_reproduction": {
+    "4131fe31da734750a5abb2ecc5b1a8f9": {
+      "materials": 2,
+      "title": "V3 · скрытый маршрут из нового QR",
+      "status": "completed"
+    },
+    "496bd70a156840eba53951597ef54826": {
+      "materials": 2,
+      "title": "V3 · приглашение к памятке",
+      "status": "completed"
+    }
+  },
+  "main_unchanged_counts": {
+    "4131fe31da734750a5abb2ecc5b1a8f9": {
+      "materials": 2,
+      "title": "V3 · скрытый маршрут из нового QR",
+      "status": "completed"
+    },
+    "496bd70a156840eba53951597ef54826": {
+      "materials": 1,
+      "title": "V3 · приглашение к памятке",
+      "status": "completed"
+    }
+  },
+  "bug_reproduced": true,
+  "fixed_checked_at": "2026-10-21T01:12:29.748790+00:00",
+  "after_fix": {
+    "4131fe31da734750a5abb2ecc5b1a8f9": {
+      "materials": 3,
+      "title": "V3 · скрытый маршрут из нового QR",
+      "status": "completed"
+    },
+    "496bd70a156840eba53951597ef54826": {
+      "materials": 2,
+      "title": "V3 · приглашение к памятке",
+      "status": "completed"
+    }
+  },
+  "main_after_fix": {
+    "4131fe31da734750a5abb2ecc5b1a8f9": {
+      "materials": 2,
+      "title": "V3 · скрытый маршрут из нового QR",
+      "status": "completed"
+    },
+    "496bd70a156840eba53951597ef54826": {
+      "materials": 1,
+      "title": "V3 · приглашение к памятке",
+      "status": "completed"
+    }
+  },
+  "browser_back_preserved_bound_target": true,
+  "dialog_showed_original_case_title": true,
+  "correct_original_case_received_material": true,
+  "other_case_unchanged_after_fix": true,
+  "frontend_tests_passed": 18,
+  "lint_typecheck_build_passed": true
+}

@@ -8,6 +8,8 @@ import CaseWorkspace from './components/CaseWorkspace'
 import EvaluationView from './components/EvaluationView'
 import { Loading } from './components/UI'
 
+type FormSession = { kind: 'create' } | { kind: 'add'; caseId: string; caseTitle: string; mode: string }
+
 function readRoute() {
   const hash = window.location.hash.slice(1)
   const [path, query] = hash.split('?')
@@ -18,7 +20,7 @@ export default function App() {
   const [route, setRoute] = useState(readRoute)
   const [cases, setCases] = useState<Summary[]>([]), [health, setHealth] = useState<Health>(), [demos, setDemos] = useState<Demo[]>([])
   const [current, setCurrent] = useState<Case>(), [evaluation, setEvaluation] = useState<Evaluation>()
-  const [form, setForm] = useState<'create' | 'add' | null>(null), [error, setError] = useState(''), [busy, setBusy] = useState(false), [ready, setReady] = useState(false)
+  const [form, setForm] = useState<FormSession | null>(null), [error, setError] = useState(''), [busy, setBusy] = useState(false), [ready, setReady] = useState(false)
   const mainRef = useRef<HTMLElement>(null)
   const caseGeneration = useRef(0)
   const [caseRefresh, setCaseRefresh] = useState(0)
@@ -81,7 +83,7 @@ export default function App() {
     <a className="skip-link" href="#main-content" onClick={e => { e.preventDefault(); mainRef.current?.focus() }}>К содержимому</a>
     <aside className="sidebar">
       <a href="#queue" className="brand" aria-label="SafeTrace KZ — очередь проверки"><span className="brandmark"><ShieldCheck size={24} /></span><span>SafeTrace<span className="brand-country">KZ</span><small>ПРОВЕРКА РЕКЛАМНЫХ МАРШРУТОВ</small></span></a>
-      <button aria-label="Новый анализ" className="sidebar-create" onClick={() => setForm('create')}><Plus size={19} /><span>Новый анализ</span></button>
+      <button aria-label="Новый анализ" className="sidebar-create" onClick={() => setForm({ kind: 'create' })}><Plus size={19} /><span>Новый анализ</span></button>
       <div className="nav-label">Рабочая среда</div>
       <nav aria-label="Основная навигация"><a className={route.page !== 'evaluation' ? 'nav active' : 'nav'} href="#queue" aria-label="Очередь проверки" aria-current={route.page === 'queue' ? 'page' : undefined}><Inbox size={19} /><span>Очередь проверки</span><b>{cases.length}</b></a><a className={route.page === 'evaluation' ? 'nav active' : 'nav'} href="#evaluation" aria-label="Оценка качества" aria-current={route.page === 'evaluation' ? 'page' : undefined}><ChartNoAxesCombined size={19} /><span>Оценка качества</span></a></nav>
       {cases.length > 0 && <div className="recent-cases"><div className="nav-label">Недавние случаи</div>{cases.slice(0, 3).map(c => <a href={'#case/' + c.id} key={c.id} className={route.id === c.id ? 'recent active' : 'recent'}><span className="recent-dot" /><span>{c.title}</span><ChevronRight size={14} /></a>)}</div>}
@@ -91,14 +93,14 @@ export default function App() {
       <header className="topbar"><div><span>SafeTrace KZ</span><ChevronRight size={14} /><strong>{route.page === 'evaluation' ? 'Оценка качества' : route.page === 'case' ? 'Исследование случая' : 'Очередь проверки'}</strong></div><span className="local-tag"><span />{health?.offline ? 'Офлайн' : 'Локально'}<span className="topbar-separator" />UTC+5</span></header>
       <main id="main-content" tabIndex={-1} ref={mainRef}>
         {error && <div className="alert error" role="alert"><span>{error}</span><button className="icon-button" aria-label="Закрыть ошибку" onClick={() => setError('')}><X size={18} /></button></div>}
-        {route.page === 'queue' && (ready ? <QueueView cases={cases} demos={demos} busy={busy} onCreate={() => setForm('create')} onOpen={open} onDemo={(id, replay = false) => void run(async () => { const result = await post<{ id: string }>('/demos/' + id + '?replay=' + replay); open(result.id); await reload() })} onImport={file => void run(async () => { const body = new FormData(); body.append('file', file); const result = await api<{ id: string }>('/import', { method: 'POST', body }); open(result.id); await reload() })} /> : <Loading>Загрузка очереди…</Loading>)}
-        {route.page === 'case' && (current && current.id === route.id ? <CaseWorkspace key={current.id} current={current} view={route.view} busy={busy} onView={view => navigate('case/' + current.id + '?view=' + view)} onBack={() => navigate('queue')} onOpen={open} onAdd={() => setForm('add')} onRetry={() => void run(async () => { await post('/cases/' + current.id + (isActive(current.status) ? '/cancel' : '/retry')); await refreshCase(current.id); await reload() })} onDecision={async (decision, comment) => { await post('/cases/' + current.id + '/decision', { decision, comment }); await refreshCase(current.id); await reload() }} /> : <Loading>Загрузка случая…</Loading>)}
+        {route.page === 'queue' && (ready ? <QueueView cases={cases} demos={demos} busy={busy} onCreate={() => setForm({ kind: 'create' })} onOpen={open} onDemo={(id, replay = false) => void run(async () => { const result = await post<{ id: string }>('/demos/' + id + '?replay=' + replay); open(result.id); await reload() })} onImport={file => void run(async () => { const body = new FormData(); body.append('file', file); const result = await api<{ id: string }>('/import', { method: 'POST', body }); open(result.id); await reload() })} /> : <Loading>Загрузка очереди…</Loading>)}
+        {route.page === 'case' && (current && current.id === route.id ? <CaseWorkspace key={current.id} current={current} view={route.view} busy={busy} onView={view => navigate('case/' + current.id + '?view=' + view)} onBack={() => navigate('queue')} onOpen={open} onAdd={() => setForm({ kind: 'add', caseId: current.id, caseTitle: current.title, mode: current.mode })} onRetry={() => void run(async () => { await post('/cases/' + current.id + (isActive(current.status) ? '/cancel' : '/retry')); await refreshCase(current.id); await reload() })} onDecision={async (decision, comment) => { await post('/cases/' + current.id + '/decision', { decision, comment }); await refreshCase(current.id); await reload() }} /> : <Loading>Загрузка случая…</Loading>)}
         {route.page === 'evaluation' && <EvaluationView data={!route.evaluationVersion || evaluation?.evaluation_id === route.evaluationVersion ? evaluation : undefined} onVersion={version => navigate('evaluation?version=' + encodeURIComponent(version))} />}
         <footer className="app-footer"><span>SafeTrace KZ · рабочая среда аналитика</span><a href="#evaluation">Методика и ограничения <ArrowUpRight size={14} /></a></footer>
       </main>
     </div>
-    {form && <CreateDialog adding={form === 'add'} mode={form === 'add' ? current?.mode : undefined} health={health} close={() => setForm(null)} onSubmit={async data => {
-      const result = form === 'add' && current ? await post<{ id: string }>('/cases/' + current.id + '/materials', data.materials[0]) : await post<{ id: string }>('/cases', data)
+    {form && <CreateDialog adding={form.kind === 'add'} mode={form.kind === 'add' ? form.mode : undefined} caseTitle={form.kind === 'add' ? form.caseTitle : undefined} health={health} close={() => setForm(null)} onSubmit={async data => {
+      const result = form.kind === 'add' ? await post<{ id: string }>('/cases/' + form.caseId + '/materials', data.materials[0]) : await post<{ id: string }>('/cases', data)
       setForm(null); open(result.id); await refreshCase(result.id); await reload()
     }} />}
   </div>
