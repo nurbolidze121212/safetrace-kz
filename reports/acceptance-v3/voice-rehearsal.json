@@ -5,5 +5,5 @@
   "sample_rate": 22050,
   "synthetic_voice_not_human_rehearsal": true,
   "path": "data/rehearsal/v3/pitch.wav",
-  "pitch_text_sha256": "06ba494b74e5ee15772e4d7d7e756bb7303e0b090f500515a65a75a63c304c91"
+  "pitch_text_sha256": "827b822753fa04c5ea1d1382f1e9eed548d41d7a3f93db5f000895b174c86bb1"
 }

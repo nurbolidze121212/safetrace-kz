@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-21T00:25:10.851Z",
+  "viewport_1440x900_no_document_overflow": true,
+  "viewport_680x900_no_document_overflow": true,
+  "narrow_tables_scroll_inside_containers": true,
+  "actual_200_percent_browser_zoom_tested": false,
+  "keyboard": [
+    "Home to materials",
+    "ArrowRight to route and graph",
+    "Space selects case scope",
+    "End to review",
+    "Shift+Tab remains inside native dialog",
+    "Escape closes dialog and restores trigger"
+  ],
+  "new_console_warnings_or_errors": 0,
+  "temporary_viewport_reset": true,
+  "graph_zoom_buttons_clicked_without_errors": true
+}

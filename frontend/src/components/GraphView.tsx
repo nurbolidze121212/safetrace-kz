@@ -61,7 +61,7 @@ export default function GraphView({ data, caseId, onEvidence, onOpen }: { data: 
         { selector: ':selected', style: { 'border-width': 3, 'border-color': '#2459c4', 'line-color': '#2459c4', 'target-arrow-color': '#2459c4' } },
         { selector: '.dim', style: { 'opacity': .15 } },
       ],
-      minZoom: .2, maxZoom: 2.5, wheelSensitivity: .16,
+      minZoom: .2, maxZoom: 2.5,
     })
     instance.on('tap', 'node,edge', event => { setFocus(event.target.id()); selection.current(event.target.data('evidence_ids') || []) })
     if (instance.zoom() > 1) { instance.zoom(1); instance.center() }

@@ -9,6 +9,8 @@ powershell -ExecutionPolicy Bypass -File .\scripts\start.ps1 -Offline
 
 Если сервер уже работает, открыть http://127.0.0.1:8765 без второго запуска. Для фонового старта добавить `-Background`; foreground останавливается Ctrl+C. Порт можно явно изменить параметром `-Port`.
 
+Перед показом: `.\.venv\Scripts\python.exe scripts\preflight.py --server`. Без запущенного сервера — та же команда без `--server`. Она проверяет установку и файлы без нового OCR; результат текущего компьютера сохранен в `reports/acceptance-v3/preflight.json`.
+
 ## Проверенные примеры
 
 | Пример | Адрес | Что уже проверено |
