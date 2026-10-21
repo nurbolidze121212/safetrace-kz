@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-10-21T06:40:47.781414+05:00",
+  "changes": "Expose recorded analysis versions without changing analysis or saved data",
+  "cases": {
+    "historical": "c1982e9bb36d4448a18b9aa67380a154",
+    "current_v3": "4131fe31da734750a5abb2ecc5b1a8f9",
+    "replay": "f4c5ee9b338546b98c0fe3202fef8fa2"
+  },
+  "checks": {
+    "old_result_difference_visible": true,
+    "current_all_four_recorded_versions_match": true,
+    "missing_metadata_not_claimed_as_match": true,
+    "replay_advice_create_new_analysis": true,
+    "replay_retry_disabled": true,
+    "metadata_hidden_while_active": "code inspection",
+    "narrow_viewport": {
+      "width": 360,
+      "height": 800,
+      "document_client_width": 345,
+      "document_scroll_width": 345,
+      "table_region_client_width": 205,
+      "table_scroll_width": 520,
+      "scroll_left_after_two_arrow_right_keys": 35.2000007629
+    },
+    "viewport_reset": true,
+    "main_data_mutations": false
+  },
+  "verification": {
+    "frontend_tests": 21,
+    "eslint": "passed",
+    "typescript": "passed",
+    "production_build": "passed"
+  },
+  "screenshots": [
+    "version-details-desktop.png",
+    "version-details-current.png",
+    "version-details-360.png",
+    "version-details-replay.png"
+  ],
+  "limits": [
+    "Viewport resizing is not an actual 200% browser zoom check.",
+    "Matching recorded version strings does not independently attest to all files or model hashes."
+  ]
+}

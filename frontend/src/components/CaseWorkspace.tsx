@@ -9,13 +9,15 @@ import { Loading, PriorityBadge, Status } from './UI'
 import MaterialsView from './MaterialsView'
 import RouteView from './RouteView'
 import EvidenceDrawer from './EvidenceDrawer'
+import AnalysisDetails from './AnalysisDetails'
 
 const GraphView = lazy(() => import('./GraphView'))
 const tabs = [{ id: 'materials', name: 'Материалы', Icon: FileText }, { id: 'route', name: 'Маршрут', Icon: GitBranch }, { id: 'graph', name: 'Граф связей', Icon: Network }, { id: 'review', name: 'Решение', Icon: CheckCheck }]
 
-export default function CaseWorkspace({ current, view, busy, onView, onBack, onOpen, onAdd, onRetry, onDecision }: {
+export default function CaseWorkspace({ current, runtimeVersions, view, busy, onView, onBack, onOpen, onAdd, onRetry, onDecision }: {
   current: Case; view: string; busy: boolean; onView: (view: string) => void; onBack: () => void; onOpen: (id: string) => void;
   onAdd: () => void; onRetry: () => void; onDecision: (decision: string, comment: string) => Promise<void>;
+  runtimeVersions?: Record<string, string>;
 }) {
   const [materialId, setMaterialId] = useState(current.materials[0]?.id || '')
   const [evidenceIds, setEvidenceIds] = useState<string[]>([])
@@ -70,6 +72,7 @@ export default function CaseWorkspace({ current, view, busy, onView, onBack, onO
       <summary><Info size={17} /><span>{current.sufficient_data === false ? 'Почему данных недостаточно' : 'Почему такой приоритет'}<small>Подтвержденные основания: {current.score?.contributions.length || 0} · {methods[current.provider || 'local_rule']}</small></span></summary>
       <div className="reasons-body"><div className="reason-list">{current.score?.contributions.map(c => <button key={c.key} disabled={!c.evidence_ids.length} onClick={() => setEvidenceIds(c.evidence_ids)}><span>{c.title}</span><strong>{c.weight > 0 ? '+' : ''}{c.weight}</strong><ArrowUpRight size={16} /></button>)}{!current.score?.contributions.length && <p>Подтвержденных вкладов пока нет.</p>}</div><div><h3>{priorityMaterial ? 'Контекст материала' : 'Контекст и ограничения'}</h3>{priorityMaterial && <button className="text-button" onClick={() => openMaterial(priorityMaterial.id)}>Индекс по материалу: {priorityMaterial.source} <ArrowUpRight size={15} /></button>}<p>{contexts[priorityContext?.context || ''] || 'Контекст еще не определен'}{priorityContext?.language ? ' · ' + priorityContext.language.toUpperCase() : ''}</p>{priorityContext?.contradictions.map((c, i) => <p className="warning-text" key={i}>{c}</p>)}<ul>{current.limitations.map((l, i) => <li key={i}>{l}</li>)}</ul></div></div>
     </details>
+    <AnalysisDetails current={current} runtimeVersions={runtimeVersions} />
     <div className="workspace-tabs" role="tablist" aria-label="Разделы случая" onKeyDown={handleTabs}>{tabs.map(({ id, name, Icon }) => <button key={id} id={'tab-' + id} role="tab" aria-selected={selectedView === id} aria-controls={'panel-' + id} tabIndex={selectedView === id ? 0 : -1} onClick={() => onView(id)}><Icon size={18} />{name}{id === 'materials' && <span>{current.materials.length}</span>}</button>)}</div>
     {selectedView !== 'review' && <div className="workspace-panel" id={'panel-' + selectedView} role="tabpanel" aria-labelledby={'tab-' + selectedView}>
       {selectedView === 'materials' && <MaterialsView key={materialId + (originalEvidence || '')} current={current} materialId={materialId} selectedEvidence={originalEvidence} onMaterial={id => { setMaterialId(id); setOriginalEvidence(undefined) }} onEvidence={setEvidenceIds} />}

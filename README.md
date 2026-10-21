@@ -148,7 +148,7 @@ npm.cmd --prefix frontend run lint
 npm.cmd --prefix frontend run build
 ```
 
-Текущая v3: 256 Python-тестов (ядро, проверка установки, резервирование и запуск), 18 frontend-тестов; Ruff, TypeScript, ESLint и сборка проходят. [Новый test-v3](reports/EVALUATION_V3.md): TP32 / FP1 / TN39 / FN8, F1 87,67%, p95 6,815 с на CPU с настоящим OCR и синтетическими переходами. CER 2,78%. В архиве — точный оцененный код, SHA данных, исходные предсказания и разбор девяти ошибок. Кэш OCR при оценке выключен. Облачный SDK проверен подменой; живого вызова Gemini нет.
+Текущая v3: 256 Python-тестов (ядро, проверка установки, резервирование и запуск), 21 frontend-тест; Ruff, TypeScript, ESLint и сборка проходят. [Новый test-v3](reports/EVALUATION_V3.md): TP32 / FP1 / TN39 / FN8, F1 87,67%, p95 6,815 с на CPU с настоящим OCR и синтетическими переходами. CER 2,78%. В архиве — точный оцененный код, SHA данных, исходные предсказания и разбор девяти ошибок. Кэш OCR при оценке выключен. Облачный SDK проверен подменой; живого вызова Gemini нет.
 
 ```powershell
 .\.venv\Scripts\python.exe scripts\verify_version_v3.py

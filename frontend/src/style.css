@@ -266,6 +266,21 @@ td small { display: block; font-size: 12px; margin-top: 5px }
 .dialog-intro { font-size: 14px; color: var(--muted); margin-bottom: 24px }.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px }.dialog .field-hint { font-weight: 400; font-size: 12px }
 .dialog-target { display: grid; gap: 5px; padding: 12px 14px; border-left: 3px solid var(--accent); background: #f3f6fc; overflow-wrap: anywhere }
 .dialog-target > span { font-size: 12px; color: var(--muted) }.dialog-target > strong { font-size: 14px }
+.analysis-details { margin: 14px 0; border: 1px solid var(--line); border-radius: 6px; background: var(--surface) }
+.analysis-details > summary { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; padding: 12px 16px; cursor: pointer; font-size: 13px; font-weight: 600 }
+.analysis-details > summary::after { content: '+'; color: var(--muted) }.analysis-details[open] > summary::after { content: '−' }
+.analysis-details[open] > summary { border-bottom: 1px solid var(--line) }
+.historical-version { color: var(--warning); background: #fff4de }
+.analysis-details-body { padding: 16px; font-size: 13px }.analysis-details-body > p { margin: 12px 0 }
+.analysis-identifiers { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 0 0 12px }
+.analysis-identifiers dt { color: var(--muted); font-size: 12px }.analysis-identifiers dd { margin: 4px 0 0; overflow-wrap: anywhere }
+.analysis-version-scroll { overflow-x: auto }.analysis-version-scroll:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px }
+.analysis-scroll-hint { display: none; color: var(--muted); font-size: 12px }
+.analysis-details table { width: 100%; min-width: 520px; table-layout: fixed; border-collapse: collapse; font-size: 12px }
+.analysis-details th, .analysis-details td { padding: 10px 8px; text-align: left; white-space: normal; overflow-wrap: anywhere; border-bottom: 1px solid var(--line) }
+.analysis-details th:first-child { width: 20% }.analysis-details thead { color: var(--muted); background: #f6f8fb }
+.analysis-details .version-difference { background: #fffaf0 }
+@media (max-width:760px) { .analysis-scroll-hint { display: block } }
 .dialog-actions { display: flex; align-items: center; justify-content: flex-end; gap: 10px; border-top: 1px solid var(--line); padding-top: 18px; margin-top: 24px }
 .upload-area { display: flex; align-items: center; gap: 16px; border: 1px dashed #9fb5d6; background: #f6f9fe; border-radius: 7px; padding: 16px; margin-bottom: 20px; color: #5279ad }.upload-area > div { min-width: 0 }.upload-area small { display: block; font-size: 12px; font-weight: 400 }.upload-area strong { display: block; color: var(--ink); font-size: 14px; overflow-wrap: anywhere }.upload-area img { width: 100px; height: 70px; object-fit: contain; background: #e4ebf5; border: 1px solid var(--line); border-radius: 4px }.upload-area .text-button { font-size: 14px }
 .mode-explanation { padding: 11px 13px; background: #f2f5fa; border-radius: 5px }

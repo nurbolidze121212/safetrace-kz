@@ -24,7 +24,7 @@ export type Case = Summary & {
   elapsed_ms?: number; stages: Record<string, string>; versions?: Record<string, string>;
   analysis_id?: string; analyzed_at?: string; history?: AnalysisSnapshot[];
 }
-export type Health = { provider_available: boolean; ocr_installed: boolean; offline: boolean; allowed_hosts: string[]; local_mode: string }
+export type Health = { versions?: Record<string, string>; provider_available: boolean; ocr_installed: boolean; offline: boolean; allowed_hosts: string[]; local_mode: string }
 export type Demo = { id: string; title: string; subtitle: string }
 export type Metrics = { n: number; tp: number; fp: number; tn: number; fn: number; precision: number | null; recall: number | null; f1: number | null; fpr: number | null; processed_n?: number; processed_precision?: number | null; processed_recall?: number | null; processed_fpr?: number | null; coverage: number; insufficient: number; precision_ci: number[]; fpr_ci: number[]; p50_ms: number; p95_ms: number }
 export type Evaluation = { available: boolean; message?: string; dataset_version?: string; evaluation_id?: string; evaluation_label?: string; versions?: Record<string, string>; available_versions?: { id: string; label: string; test_count: number; rules?: string; full?: Metrics }[]; limitations?: string[]; variants?: Record<string, Metrics>; slices?: Record<string, Metrics>; errors?: { id: string; truth: number; predicted: number; title: string }[]; image_count?: number; test_count?: number; frozen_at?: string; ocr_cer?: number | null; model_initialization_ms?: number; ocr_timing?: { n: number; p50_ms: number | null; p95_ms: number | null; share_of_full_image_time: number | null } }
