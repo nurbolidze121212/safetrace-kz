@@ -224,7 +224,11 @@ def main() -> int:
         "Используйте каталог с ASCII-путем и заново выполните setup.ps1",
     )
     check("Зависимости", lambda: verify_dependencies(ROOT), "Выполните scripts\\setup.ps1")
-    check("Модели OCR", lambda: verify_models(ROOT), "Выполните scripts\\prepare_models.py через .venv")
+    check(
+        "Модели OCR",
+        lambda: verify_models(ROOT),
+        "Остановите сервер и выполните .venv\\Scripts\\python.exe scripts\\prepare_models.py --repair; прежние файлы сохранятся",
+    )
     check(
         "Frontend",
         lambda: verify_frontend(ROOT / "frontend"),

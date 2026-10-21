@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-21T02:03:41.910441+00:00",
+  "before": {
+    "damaged_file": "PP-OCRv5_mobile_det/inference.pdiparams",
+    "normal_command_repeated_hash_failure": true,
+    "old_bytes": "interrupted local copy"
+  },
+  "after": {
+    "repair_results": [
+      {
+        "model": "PP-OCRv5_mobile_det",
+        "action": "repaired",
+        "source": "verified cache",
+        "previous_files": "C:\\Users\\nurbo\\Desktop\\vvv\\safetrace-kz\\tmp\\model-repair-check\\models\\.replaced-PP-OCRv5_mobile_det-520f2ecb5e7542aa89cb1d131ca27bd2"
+      },
+      {
+        "model": "cyrillic_PP-OCRv5_mobile_rec",
+        "action": "verified"
+      }
+    ],
+    "six_model_hashes_match_frozen_manifest": true,
+    "previous_damaged_bytes_preserved": true,
+    "production_models_unchanged": true,
+    "frozen_manifest_unchanged": true,
+    "normal_cli_exit": 0
+  },
+  "official_archive_check": {
+    "model": "PP-OCRv5_mobile_det",
+    "source": "https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/PP-OCRv5_mobile_det_infer.tar",
+    "file_count": 3,
+    "expanded_bytes": 4923617,
+    "all_pinned_hashes_match": true
+  },
+  "targeted_tests": {
+    "passed": 11,
+    "seconds": 0.28
+  },
+  "limits": [
+    "Model preparation is an installation operation; stop the server before repair.",
+    "Network is needed when a matching local cache is unavailable.",
+    "This does not alter OCR weights or the frozen evaluation."
+  ]
+}
