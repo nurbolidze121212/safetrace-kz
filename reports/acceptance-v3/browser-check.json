@@ -23,5 +23,9 @@
   "warning_case_id": "496bd70a156840eba53951597ef54826",
   "warning_score": 0,
   "warning_quotes_opened": true,
-  "final_zip_checked": true
+  "final_zip_checked": true,
+  "graph_case_scope_verified": true,
+  "case_matching_edges": 1,
+  "all_edges": 52,
+  "context_caption_clarified": true
 }

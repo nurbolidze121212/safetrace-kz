@@ -5,7 +5,7 @@ export const methods: Record<string, string> = { local_rule: 'Локальное
 export const edgeNames: Record<string, string> = { published: 'Заявленный источник', contains_link: 'Содержит ссылку', redirects: 'HTTP-переход', page_link: 'Ссылка на странице', contains_identifier: 'Содержит идентификатор', matching_identifier: 'Совпадение идентификатора', observed: 'Наблюдение', on_domain: 'Домен' }
 export const stageNames: Record<string, string> = { originals: 'Оригинал', ocr: 'OCR', features: 'Признаки', links: 'Переходы', graph: 'Связи', priority: 'Приоритет', interrupted: 'Прервано перезапуском' }
 export const decisions: Record<string, string> = { confirmed: 'Подтвердить признаки', false_positive: 'Ложное срабатывание', needs_data: 'Нужны данные' }
-export const contexts: Record<string, string> = { promotion: 'Продвижение', warning: 'Предупреждение', news: 'Новость', education: 'Образовательный разбор', free_game: 'Бесплатная игра', ordinary: 'Обычный контекст', affiliate: 'Партнерское предложение', ambiguous: 'Неоднозначно' }
+export const contexts: Record<string, string> = { promotion: 'Рекламный контекст', warning: 'Предупреждение', news: 'Новость', education: 'Образовательный разбор', free_game: 'Бесплатная игра', ordinary: 'Обычный контекст', affiliate: 'Партнерское предложение', ambiguous: 'Неоднозначно' }
 export const date = (value: string) => {
   const d = new Date(value)
   return Number.isNaN(d.getTime()) ? 'Дата не указана' : new Intl.DateTimeFormat('ru-RU', { timeZone: 'Asia/Qyzylorda', day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' }).format(d)

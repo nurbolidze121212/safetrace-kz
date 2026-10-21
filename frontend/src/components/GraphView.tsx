@@ -3,9 +3,10 @@ import cytoscape from 'cytoscape'
 import { ArrowRight, ArrowUpRight, Focus, Maximize2, Minus, Plus } from 'lucide-react'
 import type { GraphData } from '../types'
 import { edgeNames } from '../lib'
+import { graphScopeEdges } from '../graphScope'
+import type { GraphScope } from '../graphScope'
 import { Empty } from './UI'
 
-const mainTypes = new Set(['contains_link', 'redirects', 'page_link', 'contains_identifier'])
 const shortEdges: Record<string, string> = { contains_link: 'URL', redirects: 'HTTP', page_link: 'HTML', contains_identifier: 'Код', matching_identifier: 'Совпадение', observed: 'Ответ', on_domain: 'Домен', published: 'Источник' }
 function nodeLabel(label: string) {
   let readable = label
@@ -18,15 +19,16 @@ function nodeLabel(label: string) {
 }
 export default function GraphView({ data, caseId, onEvidence, onOpen }: { data: GraphData; caseId: string; onEvidence: (ids: string[]) => void; onOpen: (id: string) => void }) {
   const container = useRef<HTMLDivElement>(null), cy = useRef<cytoscape.Core | null>(null), selection = useRef(onEvidence)
-  const [scope, setScope] = useState('route'), [filter, setFilter] = useState('all'), [focus, setFocus] = useState('')
+  const [scope, setScope] = useState<GraphScope>('route'), [filter, setFilter] = useState('all'), [focus, setFocus] = useState('')
   const graphKey = JSON.stringify({ nodes: data.nodes, edges: data.edges })
-  const edges = data.edges.filter(e => (scope === 'all' || mainTypes.has(e.type)) && (filter === 'all' || e.type === filter))
+  const scopedEdges = graphScopeEdges(data, caseId, scope)
+  const edges = scopedEdges.filter(e => filter === 'all' || e.type === filter)
   const related = [...new Map(data.nodes.filter(n => n.case_id && n.case_id !== caseId).map(n => [n.case_id!, n])).values()]
   useEffect(() => { selection.current = onEvidence }, [onEvidence])
   useEffect(() => {
     if (!container.current) return
     const stable = JSON.parse(graphKey) as GraphData
-    const shown = stable.edges.filter(e => (scope === 'all' || mainTypes.has(e.type)) && (filter === 'all' || e.type === filter))
+    const shown = graphScopeEdges(stable, caseId, scope).filter(e => filter === 'all' || e.type === filter)
     const ids = new Set(shown.flatMap(e => [e.source, e.target]))
     const nodes = stable.nodes.filter(n => ids.has(n.id))
     const ranks = new Map<string, number>()
@@ -67,7 +69,7 @@ export default function GraphView({ data, caseId, onEvidence, onOpen }: { data: 
     const observer = new ResizeObserver(() => instance.resize())
     observer.observe(container.current)
     return () => { observer.disconnect(); instance.destroy(); cy.current = null }
-  }, [graphKey, scope, filter])
+  }, [graphKey, caseId, scope, filter])
   function focusPath(id: string) {
     const instance = cy.current
     if (!instance) return
@@ -83,7 +85,8 @@ export default function GraphView({ data, caseId, onEvidence, onOpen }: { data: 
   }
   return <section className="graph-workspace">
     <header className="workspace-heading"><div><h2>Связи и их основания</h2><p>Выберите узел или стрелку. Все связи доступны также в списке под графом.</p></div><span className="badge">{data.nodes.length} узлов · {data.edges.length} связей</span></header>
-    <div className="graph-tools"><div className="segmented"><button aria-pressed={scope === 'route'} onClick={() => { setScope('route'); setFilter('all'); setFocus('') }}>Основной маршрут</button><button aria-pressed={scope === 'all'} onClick={() => { setScope('all'); setFocus('') }}>Все связи</button></div><select aria-label="Тип связи" value={filter} onChange={e => { setFilter(e.target.value); setFocus('') }}><option value="all">Все типы связей</option>{[...new Set(data.edges.filter(e => scope === 'all' || mainTypes.has(e.type)).map(e => e.type))].map(t => <option key={t} value={t}>{edgeNames[t]}</option>)}</select><button disabled={!focus} onClick={() => focusPath(focus)}><Focus size={16} />Фокус</button></div>
+    <div className="graph-tools"><div className="segmented" aria-label="Область графа">{([{ id: 'route', label: 'Основной маршрут' }, { id: 'case', label: 'Этот случай' }, { id: 'all', label: 'Все связи' }] as const).map(item => <button key={item.id} aria-pressed={scope === item.id} onClick={() => { setScope(item.id); setFilter('all'); setFocus('') }}>{item.label}</button>)}</div><select aria-label="Тип связи" value={filter} onChange={e => { setFilter(e.target.value); setFocus('') }}><option value="all">Все типы связей</option>{[...new Set(scopedEdges.map(e => e.type))].map(t => <option key={t} value={t}>{edgeNames[t]}</option>)}</select><button disabled={!focus} onClick={() => focusPath(focus)}><Focus size={16} />Фокус</button></div>
+    {scope === 'case' && <p className="field-hint">Показаны материалы этого случая и их основания. Совпадения с другими случаями доступны в режиме «Все связи».</p>}
     {edges.length ? <div className="graph-stage"><div className="graph-canvas" ref={container} aria-label="Интерактивный граф связей" /><div className="graph-zoom"><button aria-label="Увеличить граф" onClick={() => zoom(1.25)}><Plus size={18} /></button><button aria-label="Уменьшить граф" onClick={() => zoom(.8)}><Minus size={18} /></button><button aria-label="Вписать весь граф" onClick={() => { cy.current?.elements().removeClass('dim'); cy.current?.fit(undefined, 35) }}><Maximize2 size={18} /></button></div><div className="graph-legend"><span><i />Наблюдение</span><span><i className="dashed" />Предполагаемая связь</span></div></div> : <Empty title="Связей этого типа пока нет" />}
     <p className="field-hint">HTTP — редирект. HTML — ссылка на странице. Полные адреса и основания доступны в списке связей.</p>
     <div className="edge-list-heading"><h3>Проверить связь</h3><span>{edges.length} показано</span></div>
