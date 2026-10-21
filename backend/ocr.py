@@ -235,5 +235,11 @@ def recognize(path, use_cache=True):
         "coordinate_space": "EXIF-oriented image pixels",
         "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
     }
+    # Both recognizers share a CPU work lock. Secondary alternatives are retained
+    # separately and must be confirmed by the analyst before any network request.
+    from .ocr_urls import review_addresses
+
+    with _lock:
+        output['url_readings'] = review_addresses(path, output)
     put_cache("ocr|" + key, output)
     return output

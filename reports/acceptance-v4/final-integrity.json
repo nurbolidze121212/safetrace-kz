@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-21T21:27:14.267922+00:00",
+  "ok": true,
+  "core_files": 22,
+  "data_files": 36,
+  "historical_files": 218,
+  "independently_recounted_confusion": {
+    "v3": {
+      "tp": 31,
+      "fp": 9,
+      "tn": 31,
+      "fn": 9
+    },
+    "v4": {
+      "tp": 30,
+      "fp": 2,
+      "tn": 38,
+      "fn": 10
+    }
+  },
+  "scope": "File integrity and arithmetic, not independent labeling or external validation"
+}

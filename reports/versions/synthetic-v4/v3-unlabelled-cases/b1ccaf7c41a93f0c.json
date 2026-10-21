@@ -1,0 +1,855 @@
+{
+  "id": "e4b291e2074c492bb05ce94d059913c5",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:48:53.807877+00:00",
+  "status": "partial",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "",
+      "url": "",
+      "source": "DEMO · материал b1ccaf",
+      "published_at": null,
+      "image_id": "7ebe7f8eecedfb6d43741bd0bbc38519.png",
+      "id": "3d83c83dfc904e5896837610ba03acce",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "7ebe7f8eecedfb6d43741bd0bbc38519cd9ce3c445208c3fd2cb1761ccaf7e60",
+      "source_evidence_id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e1",
+      "normalized_text": "",
+      "ocr": {
+        "text": "DEMO. Календарь встреч указан отдельно: https://kfd4с6f6854.test/7c1aaa3. Заходи за новым\nбонусом через личное приглашение https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "lines": [
+          {
+            "text": "DEMO. Календарь встреч указан отдельно: https://kfd4с6f6854.test/7c1aaa3. Заходи за новым",
+            "confidence": 0.9839766621589661,
+            "polygon": [
+              [
+                28.0,
+                25.0
+              ],
+              [
+                909.0,
+                26.0
+              ],
+              [
+                909.0,
+                50.0
+              ],
+              [
+                28.0,
+                50.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: https://kfd4с6f6854.test/7c1aaa3."
+            ],
+            "evidence_id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e2"
+          },
+          {
+            "text": "бонусом через личное приглашение https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+            "confidence": 0.9870095252990723,
+            "polygon": [
+              [
+                27.0,
+                58.0
+              ],
+              [
+                869.0,
+                57.0
+              ],
+              [
+                869.0,
+                86.0
+              ],
+              [
+                27.0,
+                87.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726"
+            ],
+            "evidence_id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e3"
+          }
+        ],
+        "raw_text": "DEMO. Календарь встреч указан отдельно: https://kfd4с6f6854.test/7c1aaa3. Заходи за новым\nбонусом через личное приглашение https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "raw_lines": [
+          {
+            "text": "DEMO. Календарь встреч указан отдельно: https://kfd4с6f6854.test/7c1aaa3. Заходи за новым",
+            "confidence": 0.9839766621589661,
+            "polygon": [
+              [
+                28.0,
+                25.0
+              ],
+              [
+                909.0,
+                26.0
+              ],
+              [
+                909.0,
+                50.0
+              ],
+              [
+                28.0,
+                50.0
+              ]
+            ]
+          },
+          {
+            "text": "бонусом через личное приглашение https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+            "confidence": 0.9870095252990723,
+            "polygon": [
+              [
+                27.0,
+                58.0
+              ],
+              [
+                869.0,
+                57.0
+              ],
+              [
+                869.0,
+                86.0
+              ],
+              [
+                27.0,
+                87.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 145,
+            "mean_confidence": 0.9854826355802602,
+            "score": 138.77716651893562,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1120,
+        "height": 136,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически."
+      },
+      "qr": {
+        "codes": [],
+        "width": 1120,
+        "height": 136,
+        "version": "qr-1.0",
+        "decoder": "OpenCV 4.10.0",
+        "cache_hit": false,
+        "elapsed_ms": 126.99,
+        "limitations": "До 8 QR-кодов, изображение до 1600 px по длинной стороне. Мелкие, поврежденные и составные QR могут не читаться. Декодирование не подтверждает безопасность адреса."
+      },
+      "urls": [
+        "https://kfd4с6f6854.test/7c1aaa3",
+        "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726"
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e6"
+      ],
+      "reachable_urls": [
+        "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "https://kfd4с6f6854.test/7c1aaa3"
+      ],
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-3.0",
+        "weights": {
+          "version": "weights-3.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "ru",
+        "context": "promotion",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "Заходи",
+            "source_id": "3d83c83dfc904e5896837610ba03acce-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 74,
+            "end": 80
+          },
+          {
+            "kind": "bonus",
+            "quote": "бонусом",
+            "source_id": "3d83c83dfc904e5896837610ba03acce-ocr",
+            "explanation": "Упоминание бонуса или промокода.",
+            "start": 90,
+            "end": 97
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": false
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "partial",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e1",
+      "quote": "DEMO · материал b1ccaf",
+      "source_id": "3d83c83dfc904e5896837610ba03acce",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:48:53.824879+00:00",
+      "material_id": "3d83c83dfc904e5896837610ba03acce",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e2",
+      "quote": "DEMO. Календарь встреч указан отдельно: https://kfd4с6f6854.test/7c1aaa3. Заходи за новым",
+      "source_id": "3d83c83dfc904e5896837610ba03acce-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:48:57.050232+00:00",
+      "material_id": "3d83c83dfc904e5896837610ba03acce",
+      "polygon": [
+        [
+          28.0,
+          25.0
+        ],
+        [
+          909.0,
+          26.0
+        ],
+        [
+          909.0,
+          50.0
+        ],
+        [
+          28.0,
+          50.0
+        ]
+      ],
+      "confidence": 0.9839766621589661
+    },
+    {
+      "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e3",
+      "quote": "бонусом через личное приглашение https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+      "source_id": "3d83c83dfc904e5896837610ba03acce-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:48:57.050232+00:00",
+      "material_id": "3d83c83dfc904e5896837610ba03acce",
+      "polygon": [
+        [
+          27.0,
+          58.0
+        ],
+        [
+          869.0,
+          57.0
+        ],
+        [
+          869.0,
+          86.0
+        ],
+        [
+          27.0,
+          87.0
+        ]
+      ],
+      "confidence": 0.9870095252990723
+    },
+    {
+      "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e4",
+      "quote": "Заходи",
+      "source_id": "3d83c83dfc904e5896837610ba03acce-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:48:57.189687+00:00",
+      "start": 74,
+      "end": 80,
+      "material_id": "3d83c83dfc904e5896837610ba03acce"
+    },
+    {
+      "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e5",
+      "quote": "бонусом",
+      "source_id": "3d83c83dfc904e5896837610ba03acce-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:48:57.189687+00:00",
+      "start": 90,
+      "end": 97,
+      "material_id": "3d83c83dfc904e5896837610ba03acce"
+    },
+    {
+      "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e6",
+      "quote": "DEMO. Календарь встреч указан отдельно: https://kfd4с6f6854.test/7c1aaa3. Заходи за новым\nбонусом через личное приглашение https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+      "source_id": "3d83c83dfc904e5896837610ba03acce-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:48:57.189687+00:00",
+      "material_id": "3d83c83dfc904e5896837610ba03acce"
+    },
+    {
+      "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e7",
+      "quote": "https://kfd4с6f6854.test/7c1aaa3",
+      "source_id": "3d83c83dfc904e5896837610ba03acce-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:48:57.189687+00:00",
+      "material_id": "3d83c83dfc904e5896837610ba03acce"
+    },
+    {
+      "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e8",
+      "quote": "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+      "source_id": "3d83c83dfc904e5896837610ba03acce-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:48:57.189687+00:00",
+      "material_id": "3d83c83dfc904e5896837610ba03acce"
+    },
+    {
+      "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e9",
+      "quote": "Используйте явное ASCII/punycode имя узла",
+      "source_id": "https://kfd4с6f6854.test/7c1aaa3",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:48:57.189687+00:00",
+      "url": "https://kfd4с6f6854.test/7c1aaa3",
+      "status_code": null,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e10",
+      "quote": "Синтетический стенд: адрес не найден",
+      "source_id": "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:48:57.189687+00:00",
+      "url": "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+      "status_code": null,
+      "observation_id": "obs-1"
+    },
+    {
+      "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e11",
+      "quote": "https://kfd4с6f6854.test/7c1aaa3",
+      "source_id": "https://kfd4с6f6854.test/7c1aaa3",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:48:57.189687+00:00",
+      "url": "https://kfd4с6f6854.test/7c1aaa3",
+      "relation": "contains_link"
+    },
+    {
+      "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e12",
+      "quote": "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+      "source_id": "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:48:57.189687+00:00",
+      "url": "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://kfd4с6f6854.test/7c1aaa3",
+        "at": "2026-10-21T20:48:57.189687+00:00",
+        "status_code": null,
+        "text": "",
+        "stop": "Используйте явное ASCII/punycode имя узла",
+        "depth": 0,
+        "method": "synthetic_transport",
+        "evidence_id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e9"
+      },
+      {
+        "id": "obs-1",
+        "url": "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "at": "2026-10-21T20:48:57.189687+00:00",
+        "status_code": null,
+        "text": "",
+        "stop": "Синтетический стенд: адрес не найден",
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [],
+        "evidence_id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e10"
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://kfd4с6f6854.test/7c1aaa3",
+        "type": "contains_link",
+        "quote": "https://kfd4с6f6854.test/7c1aaa3",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:48:57.189687+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e11"
+      },
+      {
+        "from": null,
+        "to": "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "type": "contains_link",
+        "quote": "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "observation_id": "obs-1",
+        "at": "2026-10-21T20:48:57.189687+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e12"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+    "Непроверенный участок: Используйте явное ASCII/punycode имя узла",
+    "Непроверенный участок: Синтетический стенд: адрес не найден",
+    "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-3.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.1"
+  },
+  "identifiers": [],
+  "analyzed_at": "2026-10-21T20:48:53.824879+00:00",
+  "analysis_id": "49d9e80de222",
+  "context": {
+    "language": "ru",
+    "context": "promotion",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "Заходи",
+        "source_id": "3d83c83dfc904e5896837610ba03acce-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 74,
+        "end": 80
+      },
+      {
+        "kind": "bonus",
+        "quote": "бонусом",
+        "source_id": "3d83c83dfc904e5896837610ba03acce-ocr",
+        "explanation": "Упоминание бонуса или промокода.",
+        "start": 90,
+        "end": 97
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "Заходи",
+      "source_id": "3d83c83dfc904e5896837610ba03acce-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 74,
+      "end": 80,
+      "evidence_id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e4"
+    },
+    {
+      "kind": "bonus",
+      "quote": "бонусом",
+      "source_id": "3d83c83dfc904e5896837610ba03acce-ocr",
+      "explanation": "Упоминание бонуса или промокода.",
+      "start": 90,
+      "end": 97,
+      "evidence_id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e5"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-76c8c412987b0c09",
+        "type": "material",
+        "label": "DEMO · материал b1ccaf",
+        "evidence_ids": [
+          "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e1"
+        ],
+        "case_id": "e4b291e2074c492bb05ce94d059913c5",
+        "material_id": "3d83c83dfc904e5896837610ba03acce"
+      },
+      {
+        "id": "source-d0afb18d49d4b5e2",
+        "type": "source",
+        "label": "DEMO · материал b1ccaf",
+        "evidence_ids": [
+          "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e1"
+        ]
+      },
+      {
+        "id": "url-27268b83f0788516",
+        "type": "url",
+        "label": "https://kfd4с6f6854.test/7c1aaa3",
+        "evidence_ids": [
+          "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e7",
+          "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e9"
+        ]
+      },
+      {
+        "id": "url-1e22f7355ee5d111",
+        "type": "url",
+        "label": "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "evidence_ids": [
+          "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e8",
+          "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e10"
+        ]
+      },
+      {
+        "id": "observation-0a86230824f8ec71",
+        "type": "observation",
+        "label": "Разрыв маршрута",
+        "evidence_ids": [
+          "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e9"
+        ],
+        "stopped": true
+      },
+      {
+        "id": "domain-464a4ff74b2c7846",
+        "type": "domain",
+        "label": "kfd4с6f6854.test",
+        "evidence_ids": [
+          "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e9"
+        ]
+      },
+      {
+        "id": "observation-d72792eb134ac83a",
+        "type": "observation",
+        "label": "Разрыв маршрута",
+        "evidence_ids": [
+          "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e10"
+        ],
+        "stopped": true
+      },
+      {
+        "id": "domain-bbad8366e80deecb",
+        "type": "domain",
+        "label": "k012a2d97f5.test",
+        "evidence_ids": [
+          "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e10"
+        ]
+      },
+      {
+        "id": "identifier-fe84e4a6446e5e38",
+        "type": "identifier",
+        "label": "ref=T80D5726",
+        "evidence_ids": [
+          "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e10"
+        ],
+        "scope": "k012a2d97f5.test|/a%D1%81%D1%81%D0%B5ss/430d1c|ref|T80D5726"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-da54b8cbffaeb60b3d",
+        "source": "source-d0afb18d49d4b5e2",
+        "target": "material-76c8c412987b0c09",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e1"
+        ],
+        "at": "2026-10-21T20:48:53.824879+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-89c5c0eca0c517657b",
+        "source": "material-76c8c412987b0c09",
+        "target": "url-27268b83f0788516",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e7"
+        ],
+        "at": "2026-10-21T20:48:53.824879+00:00",
+        "method": "ocr",
+        "status": "observed"
+      },
+      {
+        "id": "edge-22c613856958261b94",
+        "source": "material-76c8c412987b0c09",
+        "target": "url-1e22f7355ee5d111",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e8"
+        ],
+        "at": "2026-10-21T20:48:53.824879+00:00",
+        "method": "ocr",
+        "status": "observed"
+      },
+      {
+        "id": "edge-da39358ebe9d035097",
+        "source": "url-27268b83f0788516",
+        "target": "observation-0a86230824f8ec71",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e9"
+        ],
+        "at": "2026-10-21T20:48:53.824879+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-a6cd05ebb2b2b51747",
+        "source": "url-27268b83f0788516",
+        "target": "domain-464a4ff74b2c7846",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e9"
+        ],
+        "at": "2026-10-21T20:48:53.824879+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-5fcf4731d56d9110e5",
+        "source": "url-1e22f7355ee5d111",
+        "target": "observation-d72792eb134ac83a",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e10"
+        ],
+        "at": "2026-10-21T20:48:53.824879+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-d14039028a9351578d",
+        "source": "url-1e22f7355ee5d111",
+        "target": "domain-bbad8366e80deecb",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e10"
+        ],
+        "at": "2026-10-21T20:48:53.824879+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-14363b55b05ebefe3f",
+        "source": "url-1e22f7355ee5d111",
+        "target": "identifier-fe84e4a6446e5e38",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e10"
+        ],
+        "at": "2026-10-21T20:48:53.824879+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e1",
+        "quote": "DEMO · материал b1ccaf",
+        "source_id": "3d83c83dfc904e5896837610ba03acce",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:48:53.824879+00:00",
+        "material_id": "3d83c83dfc904e5896837610ba03acce",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e2",
+        "quote": "DEMO. Календарь встреч указан отдельно: https://kfd4с6f6854.test/7c1aaa3. Заходи за новым",
+        "source_id": "3d83c83dfc904e5896837610ba03acce-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:48:57.050232+00:00",
+        "material_id": "3d83c83dfc904e5896837610ba03acce",
+        "polygon": [
+          [
+            28.0,
+            25.0
+          ],
+          [
+            909.0,
+            26.0
+          ],
+          [
+            909.0,
+            50.0
+          ],
+          [
+            28.0,
+            50.0
+          ]
+        ],
+        "confidence": 0.9839766621589661
+      },
+      {
+        "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e3",
+        "quote": "бонусом через личное приглашение https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "source_id": "3d83c83dfc904e5896837610ba03acce-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:48:57.050232+00:00",
+        "material_id": "3d83c83dfc904e5896837610ba03acce",
+        "polygon": [
+          [
+            27.0,
+            58.0
+          ],
+          [
+            869.0,
+            57.0
+          ],
+          [
+            869.0,
+            86.0
+          ],
+          [
+            27.0,
+            87.0
+          ]
+        ],
+        "confidence": 0.9870095252990723
+      },
+      {
+        "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e4",
+        "quote": "Заходи",
+        "source_id": "3d83c83dfc904e5896837610ba03acce-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:48:57.189687+00:00",
+        "start": 74,
+        "end": 80,
+        "material_id": "3d83c83dfc904e5896837610ba03acce"
+      },
+      {
+        "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e5",
+        "quote": "бонусом",
+        "source_id": "3d83c83dfc904e5896837610ba03acce-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:48:57.189687+00:00",
+        "start": 90,
+        "end": 97,
+        "material_id": "3d83c83dfc904e5896837610ba03acce"
+      },
+      {
+        "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e6",
+        "quote": "DEMO. Календарь встреч указан отдельно: https://kfd4с6f6854.test/7c1aaa3. Заходи за новым\nбонусом через личное приглашение https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "source_id": "3d83c83dfc904e5896837610ba03acce-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:48:57.189687+00:00",
+        "material_id": "3d83c83dfc904e5896837610ba03acce"
+      },
+      {
+        "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e7",
+        "quote": "https://kfd4с6f6854.test/7c1aaa3",
+        "source_id": "3d83c83dfc904e5896837610ba03acce-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:48:57.189687+00:00",
+        "material_id": "3d83c83dfc904e5896837610ba03acce"
+      },
+      {
+        "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e8",
+        "quote": "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "source_id": "3d83c83dfc904e5896837610ba03acce-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:48:57.189687+00:00",
+        "material_id": "3d83c83dfc904e5896837610ba03acce"
+      },
+      {
+        "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e9",
+        "quote": "Используйте явное ASCII/punycode имя узла",
+        "source_id": "https://kfd4с6f6854.test/7c1aaa3",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:48:57.189687+00:00",
+        "url": "https://kfd4с6f6854.test/7c1aaa3",
+        "status_code": null,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e10",
+        "quote": "Синтетический стенд: адрес не найден",
+        "source_id": "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:48:57.189687+00:00",
+        "url": "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "status_code": null,
+        "observation_id": "obs-1"
+      },
+      {
+        "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e11",
+        "quote": "https://kfd4с6f6854.test/7c1aaa3",
+        "source_id": "https://kfd4с6f6854.test/7c1aaa3",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:48:57.189687+00:00",
+        "url": "https://kfd4с6f6854.test/7c1aaa3",
+        "relation": "contains_link"
+      },
+      {
+        "id": "e4b291e2074c492bb05ce94d059913c5-49d9e80de222-e12",
+        "quote": "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "source_id": "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:48:57.189687+00:00",
+        "url": "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:48:57.189687+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [],
+    "version": "rules-3.0",
+    "weights": {
+      "version": "weights-3.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "3d83c83dfc904e5896837610ba03acce",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": false,
+  "elapsed_ms": 3365.6
+}

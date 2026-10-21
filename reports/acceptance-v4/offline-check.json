@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-21T21:02:59.433431+00:00",
+  "ok": true,
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "network_guard": "socket.create_connection/getaddrinfo/socket.connect denied before model imports",
+  "blocked_attempts": 0,
+  "real_ocr": true,
+  "score": 80,
+  "observations": 3,
+  "zip_manifest_and_original_verified": true,
+  "zip_bytes": 38466,
+  "secondary_ocr_review_available_offline": true,
+  "limits": "Process-level network denial on this machine after dependency/model installation; no claim of live websites, cloud or another physical PC."
+}

@@ -1,0 +1,659 @@
+{
+  "id": "52fcfa2e1f1043869a8afefa2fe2aca2",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:26:26.001146+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "Переходи к расписанию: https://smoke-s7.test/a. Приложение: https://smoke-b4.test/b",
+      "url": "",
+      "source": "Авторский dev-материал",
+      "published_at": null,
+      "image_id": null,
+      "id": "0f244e63a7294f3ea830982b0161b584",
+      "original_sha256": "29bcdbbc6ad484fbe93bcad00b187616befc0ef4ef889e7f20829e0d4605066f",
+      "source_evidence_id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e1",
+      "normalized_text": "переходи к расписанию: https://smoke-s7.test/a. приложение: https://smoke-b4.test/b",
+      "urls": [
+        "https://smoke-s7.test/a",
+        "https://smoke-b4.test/b"
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e3"
+      ],
+      "reachable_urls": [
+        "https://smoke-b4.test/b",
+        "https://smoke-s7.test/a"
+      ],
+      "score": {
+        "value": 65,
+        "level": "high",
+        "contributions": [
+          {
+            "key": "destination_and_call",
+            "title": "Игровые признаки на странице + призыв",
+            "weight": 65,
+            "evidence_ids": [
+              "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e2",
+              "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e8",
+              "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e9"
+            ]
+          }
+        ],
+        "version": "rules-3.0",
+        "weights": {
+          "version": "weights-3.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "ru",
+        "context": "affiliate",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "Переходи",
+            "source_id": "0f244e63a7294f3ea830982b0161b584",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 0,
+            "end": 8
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e1",
+      "quote": "Авторский dev-материал",
+      "source_id": "0f244e63a7294f3ea830982b0161b584",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:26:26.018150+00:00",
+      "material_id": "0f244e63a7294f3ea830982b0161b584",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e2",
+      "quote": "Переходи",
+      "source_id": "0f244e63a7294f3ea830982b0161b584",
+      "method": "local_rule",
+      "at": "2026-10-21T20:26:26.025155+00:00",
+      "start": 0,
+      "end": 8,
+      "material_id": "0f244e63a7294f3ea830982b0161b584"
+    },
+    {
+      "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e3",
+      "quote": "Переходи к расписанию: https://smoke-s7.test/a. Приложение: https://smoke-b4.test/b",
+      "source_id": "0f244e63a7294f3ea830982b0161b584",
+      "method": "source_text",
+      "at": "2026-10-21T20:26:26.025155+00:00",
+      "material_id": "0f244e63a7294f3ea830982b0161b584"
+    },
+    {
+      "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e4",
+      "quote": "https://smoke-s7.test/a",
+      "source_id": "0f244e63a7294f3ea830982b0161b584",
+      "method": "source_text",
+      "at": "2026-10-21T20:26:26.026161+00:00",
+      "material_id": "0f244e63a7294f3ea830982b0161b584"
+    },
+    {
+      "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e5",
+      "quote": "https://smoke-b4.test/b",
+      "source_id": "0f244e63a7294f3ea830982b0161b584",
+      "method": "source_text",
+      "at": "2026-10-21T20:26:26.026161+00:00",
+      "material_id": "0f244e63a7294f3ea830982b0161b584"
+    },
+    {
+      "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e6",
+      "quote": "Календарь встреч.",
+      "source_id": "https://smoke-s7.test/a",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:26:26.027154+00:00",
+      "url": "https://smoke-s7.test/a",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e7",
+      "quote": "Казино, слоты.",
+      "source_id": "https://smoke-b4.test/b",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:26:26.027154+00:00",
+      "url": "https://smoke-b4.test/b",
+      "status_code": 200,
+      "observation_id": "obs-1"
+    },
+    {
+      "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e8",
+      "quote": "Казино",
+      "source_id": "https://smoke-b4.test/b",
+      "method": "local_rule",
+      "at": "2026-10-21T20:26:26.028234+00:00",
+      "start": 0,
+      "end": 6,
+      "url": "https://smoke-b4.test/b"
+    },
+    {
+      "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e9",
+      "quote": "слоты",
+      "source_id": "https://smoke-b4.test/b",
+      "method": "local_rule",
+      "at": "2026-10-21T20:26:26.028234+00:00",
+      "start": 8,
+      "end": 13,
+      "url": "https://smoke-b4.test/b"
+    },
+    {
+      "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e10",
+      "quote": "https://smoke-s7.test/a",
+      "source_id": "https://smoke-s7.test/a",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:26:26.028234+00:00",
+      "url": "https://smoke-s7.test/a",
+      "relation": "contains_link"
+    },
+    {
+      "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e11",
+      "quote": "https://smoke-b4.test/b",
+      "source_id": "https://smoke-b4.test/b",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:26:26.028234+00:00",
+      "url": "https://smoke-b4.test/b",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://smoke-s7.test/a",
+        "at": "2026-10-21T20:26:26.026161+00:00",
+        "status_code": 200,
+        "text": "Календарь встреч.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:26:26.026161+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "9b5371bc2ae6c88036ae9858d2964fd0b22e8f40bc65ba876180eae8fa99e49c",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://smoke-s7.test/a",
+        "evidence_id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e6",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      },
+      {
+        "id": "obs-1",
+        "url": "https://smoke-b4.test/b",
+        "at": "2026-10-21T20:26:26.026161+00:00",
+        "status_code": 200,
+        "text": "Казино, слоты.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:26:26.027154+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "b3d4abe19db2fc0e6c96f2f6111ef8587cfa88ec82490b174a4d536a9ab63735",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://smoke-b4.test/b",
+        "evidence_id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e7",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [
+            {
+              "kind": "gambling",
+              "quote": "Казино",
+              "source_id": "https://smoke-b4.test/b",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 0,
+              "end": 6
+            },
+            {
+              "kind": "gambling",
+              "quote": "слоты",
+              "source_id": "https://smoke-b4.test/b",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 8,
+              "end": 13
+            }
+          ],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://smoke-s7.test/a",
+        "type": "contains_link",
+        "quote": "https://smoke-s7.test/a",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:26:26.026161+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e10"
+      },
+      {
+        "from": null,
+        "to": "https://smoke-b4.test/b",
+        "type": "contains_link",
+        "quote": "https://smoke-b4.test/b",
+        "observation_id": "obs-1",
+        "at": "2026-10-21T20:26:26.026161+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e11"
+      }
+    ],
+    "requests": 2,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-3.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.1"
+  },
+  "identifiers": [],
+  "analyzed_at": "2026-10-21T20:26:26.018150+00:00",
+  "analysis_id": "b113cc0cff56",
+  "context": {
+    "language": "ru",
+    "context": "affiliate",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "Переходи",
+        "source_id": "0f244e63a7294f3ea830982b0161b584",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 0,
+        "end": 8
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "Переходи",
+      "source_id": "0f244e63a7294f3ea830982b0161b584",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 0,
+      "end": 8,
+      "evidence_id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e2"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-2777925560705ef2",
+        "type": "material",
+        "label": "Авторский dev-материал",
+        "evidence_ids": [
+          "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e1"
+        ],
+        "case_id": "52fcfa2e1f1043869a8afefa2fe2aca2",
+        "material_id": "0f244e63a7294f3ea830982b0161b584"
+      },
+      {
+        "id": "source-92ca73bc031a790f",
+        "type": "source",
+        "label": "Авторский dev-материал",
+        "evidence_ids": [
+          "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e1"
+        ]
+      },
+      {
+        "id": "url-d5494e0950c3f2c3",
+        "type": "url",
+        "label": "https://smoke-s7.test/a",
+        "evidence_ids": [
+          "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e4",
+          "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e6"
+        ]
+      },
+      {
+        "id": "url-fc3bc130e78d4bd8",
+        "type": "url",
+        "label": "https://smoke-b4.test/b",
+        "evidence_ids": [
+          "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e5",
+          "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e7"
+        ]
+      },
+      {
+        "id": "observation-7e5924e6f03ac20c",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e6"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-6fe536d66ea4779f",
+        "type": "domain",
+        "label": "smoke-s7.test",
+        "evidence_ids": [
+          "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e6"
+        ]
+      },
+      {
+        "id": "observation-64a7d5e890c99e0f",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e7"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-f99e31f0dfc839d5",
+        "type": "domain",
+        "label": "smoke-b4.test",
+        "evidence_ids": [
+          "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e7"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-9ae7ae427a590bd946",
+        "source": "source-92ca73bc031a790f",
+        "target": "material-2777925560705ef2",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e1"
+        ],
+        "at": "2026-10-21T20:26:26.018150+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-81a04b6e2fd469a475",
+        "source": "material-2777925560705ef2",
+        "target": "url-d5494e0950c3f2c3",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e4"
+        ],
+        "at": "2026-10-21T20:26:26.018150+00:00",
+        "method": "source_text",
+        "status": "observed"
+      },
+      {
+        "id": "edge-aeeb5035758770e196",
+        "source": "material-2777925560705ef2",
+        "target": "url-fc3bc130e78d4bd8",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e5"
+        ],
+        "at": "2026-10-21T20:26:26.018150+00:00",
+        "method": "source_text",
+        "status": "observed"
+      },
+      {
+        "id": "edge-2064bc44ad712d65ec",
+        "source": "url-d5494e0950c3f2c3",
+        "target": "observation-7e5924e6f03ac20c",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e6"
+        ],
+        "at": "2026-10-21T20:26:26.018150+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-3bd42df2e63721213e",
+        "source": "url-d5494e0950c3f2c3",
+        "target": "domain-6fe536d66ea4779f",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e6"
+        ],
+        "at": "2026-10-21T20:26:26.018150+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-1b69a38bab01958420",
+        "source": "url-fc3bc130e78d4bd8",
+        "target": "observation-64a7d5e890c99e0f",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e7"
+        ],
+        "at": "2026-10-21T20:26:26.018150+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-507a81ce73881eafe3",
+        "source": "url-fc3bc130e78d4bd8",
+        "target": "domain-f99e31f0dfc839d5",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e7"
+        ],
+        "at": "2026-10-21T20:26:26.018150+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e1",
+        "quote": "Авторский dev-материал",
+        "source_id": "0f244e63a7294f3ea830982b0161b584",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:26:26.018150+00:00",
+        "material_id": "0f244e63a7294f3ea830982b0161b584",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e2",
+        "quote": "Переходи",
+        "source_id": "0f244e63a7294f3ea830982b0161b584",
+        "method": "local_rule",
+        "at": "2026-10-21T20:26:26.025155+00:00",
+        "start": 0,
+        "end": 8,
+        "material_id": "0f244e63a7294f3ea830982b0161b584"
+      },
+      {
+        "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e3",
+        "quote": "Переходи к расписанию: https://smoke-s7.test/a. Приложение: https://smoke-b4.test/b",
+        "source_id": "0f244e63a7294f3ea830982b0161b584",
+        "method": "source_text",
+        "at": "2026-10-21T20:26:26.025155+00:00",
+        "material_id": "0f244e63a7294f3ea830982b0161b584"
+      },
+      {
+        "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e4",
+        "quote": "https://smoke-s7.test/a",
+        "source_id": "0f244e63a7294f3ea830982b0161b584",
+        "method": "source_text",
+        "at": "2026-10-21T20:26:26.026161+00:00",
+        "material_id": "0f244e63a7294f3ea830982b0161b584"
+      },
+      {
+        "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e5",
+        "quote": "https://smoke-b4.test/b",
+        "source_id": "0f244e63a7294f3ea830982b0161b584",
+        "method": "source_text",
+        "at": "2026-10-21T20:26:26.026161+00:00",
+        "material_id": "0f244e63a7294f3ea830982b0161b584"
+      },
+      {
+        "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e6",
+        "quote": "Календарь встреч.",
+        "source_id": "https://smoke-s7.test/a",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:26:26.027154+00:00",
+        "url": "https://smoke-s7.test/a",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e7",
+        "quote": "Казино, слоты.",
+        "source_id": "https://smoke-b4.test/b",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:26:26.027154+00:00",
+        "url": "https://smoke-b4.test/b",
+        "status_code": 200,
+        "observation_id": "obs-1"
+      },
+      {
+        "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e8",
+        "quote": "Казино",
+        "source_id": "https://smoke-b4.test/b",
+        "method": "local_rule",
+        "at": "2026-10-21T20:26:26.028234+00:00",
+        "start": 0,
+        "end": 6,
+        "url": "https://smoke-b4.test/b"
+      },
+      {
+        "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e9",
+        "quote": "слоты",
+        "source_id": "https://smoke-b4.test/b",
+        "method": "local_rule",
+        "at": "2026-10-21T20:26:26.028234+00:00",
+        "start": 8,
+        "end": 13,
+        "url": "https://smoke-b4.test/b"
+      },
+      {
+        "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e10",
+        "quote": "https://smoke-s7.test/a",
+        "source_id": "https://smoke-s7.test/a",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:26:26.028234+00:00",
+        "url": "https://smoke-s7.test/a",
+        "relation": "contains_link"
+      },
+      {
+        "id": "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e11",
+        "quote": "https://smoke-b4.test/b",
+        "source_id": "https://smoke-b4.test/b",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:26:26.028234+00:00",
+        "url": "https://smoke-b4.test/b",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:26:26.029154+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 65,
+    "level": "high",
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e2",
+          "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e8",
+          "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e9"
+        ]
+      }
+    ],
+    "version": "rules-3.0",
+    "weights": {
+      "version": "weights-3.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "0f244e63a7294f3ea830982b0161b584",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 10.9
+}

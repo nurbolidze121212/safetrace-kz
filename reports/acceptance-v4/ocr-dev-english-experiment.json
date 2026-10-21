@@ -1,0 +1,5318 @@
+{
+  "provenance": "author_synthetic_development",
+  "rows": [
+    {
+      "id": "4e5798a8e5e9c4a22bff",
+      "image": "4e5798a8e5e9c4a22bff.png",
+      "url": "https://m42e8f.example/item?ref=R7e31",
+      "language": "ru",
+      "font_size": 24,
+      "style": "plain",
+      "caption": "Переходи по приглашению, бонус внутри.",
+      "provenance": "author_synthetic_development",
+      "base": {
+        "text": "Переходи по приглашению, бонус внутри.\nhttps://m42e8f.example/item?ref=R7e31",
+        "urls": [
+          "https://m42e8f.example/item?ref=R7e31"
+        ],
+        "exact_url": true,
+        "seconds": 5.409392300000036,
+        "lines": [
+          {
+            "text": "Переходи по приглашению, бонус внутри.",
+            "confidence": 0.9968015551567078,
+            "polygon": [
+              [
+                23.0,
+                20.0
+              ],
+              [
+                490.0,
+                22.0
+              ],
+              [
+                490.0,
+                50.0
+              ],
+              [
+                23.0,
+                48.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": false,
+            "warnings": []
+          },
+          {
+            "text": "https://m42e8f.example/item?ref=R7e31",
+            "confidence": 0.994796633720398,
+            "polygon": [
+              [
+                24.0,
+                85.0
+              ],
+              [
+                449.0,
+                83.0
+              ],
+              [
+                449.0,
+                112.0
+              ],
+              [
+                24.0,
+                113.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_lines": [
+          {
+            "text": "Переходи по приглашению, бонус внутри.",
+            "confidence": 0.9968015551567078,
+            "polygon": [
+              [
+                23.0,
+                20.0
+              ],
+              [
+                490.0,
+                22.0
+              ],
+              [
+                490.0,
+                50.0
+              ],
+              [
+                23.0,
+                48.0
+              ]
+            ]
+          },
+          {
+            "text": "https://m42e8f.example/item?ref=R7e31",
+            "confidence": 0.994796633720398,
+            "polygon": [
+              [
+                24.0,
+                85.0
+              ],
+              [
+                449.0,
+                83.0
+              ],
+              [
+                449.0,
+                112.0
+              ],
+              [
+                24.0,
+                113.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0
+      },
+      "full_scale2": {
+        "text": "Переходи по приглашению, бонус внутри.\nhttps://m42e8f.example/item?ref=R7e31",
+        "quality": {
+          "characters": 62,
+          "mean_confidence": 0.9936834016153889,
+          "score": 60.83770375058807,
+          "vertical_fraction": 0.0
+        },
+        "exact_url": true,
+        "seconds": 2.2511664000003293
+      },
+      "crops_scale2": [
+        {
+          "text": "https://m42e8f.example/item?ref=R7e31",
+          "quality": {
+            "characters": 30,
+            "mean_confidence": 0.9997387528419495,
+            "score": 29.97649389774753,
+            "vertical_fraction": 0.0
+          },
+          "exact_url": true
+        }
+      ],
+      "english": [
+        {
+          "original_line": {
+            "text": "https://m42e8f.example/item?ref=R7e31",
+            "confidence": 0.994796633720398,
+            "polygon": [
+              [
+                24.0,
+                85.0
+              ],
+              [
+                449.0,
+                83.0
+              ],
+              [
+                449.0,
+                112.0
+              ],
+              [
+                24.0,
+                113.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://m42e8f.example/item?ref=R7e31",
+              "confidence": 0.9835050702095032,
+              "urls": [
+                "https://m42e8f.example/item?ref=R7e31"
+              ],
+              "exact_url": true,
+              "seconds": 0.3880839999997079
+            },
+            {
+              "text": "https://m42e8f.example/item?ref=R7e31",
+              "confidence": 0.9780648946762085,
+              "urls": [
+                "https://m42e8f.example/item?ref=R7e31"
+              ],
+              "exact_url": true,
+              "seconds": 0.316494899999725
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8351248d5841ce22e3e6",
+      "image": "8351248d5841ce22e3e6.png",
+      "url": "https://q8ed17.example/entry?ref=Q2k84",
+      "language": "kk",
+      "font_size": 22,
+      "style": "plain",
+      "caption": "Сілтемеге өтіңіз, сыйлық алыңыз.",
+      "provenance": "author_synthetic_development",
+      "base": {
+        "text": "Сілтемеге өтіңіз, сыйлық алыңыз.\nhttps://q8ed17.example/entry?ref=Q2k84",
+        "urls": [
+          "https://q8ed17.example/entry?ref=Q2k84"
+        ],
+        "exact_url": true,
+        "seconds": 1.291350599999987,
+        "lines": [
+          {
+            "text": "Сілтемеге өтіңіз, сыйлық алыңыз.",
+            "confidence": 0.9975537061691284,
+            "polygon": [
+              [
+                25.0,
+                20.0
+              ],
+              [
+                368.0,
+                21.0
+              ],
+              [
+                368.0,
+                44.0
+              ],
+              [
+                25.0,
+                43.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": false,
+            "warnings": []
+          },
+          {
+            "text": "https://q8ed17.example/entry?ref=Q2k84",
+            "confidence": 0.9953792095184326,
+            "polygon": [
+              [
+                23.0,
+                84.0
+              ],
+              [
+                419.0,
+                83.0
+              ],
+              [
+                419.0,
+                109.0
+              ],
+              [
+                23.0,
+                110.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_lines": [
+          {
+            "text": "Сілтемеге өтіңіз, сыйлық алыңыз.",
+            "confidence": 0.9975537061691284,
+            "polygon": [
+              [
+                25.0,
+                20.0
+              ],
+              [
+                368.0,
+                21.0
+              ],
+              [
+                368.0,
+                44.0
+              ],
+              [
+                25.0,
+                43.0
+              ]
+            ]
+          },
+          {
+            "text": "https://q8ed17.example/entry?ref=Q2k84",
+            "confidence": 0.9953792095184326,
+            "polygon": [
+              [
+                23.0,
+                84.0
+              ],
+              [
+                419.0,
+                83.0
+              ],
+              [
+                419.0,
+                109.0
+              ],
+              [
+                23.0,
+                110.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0
+      },
+      "full_scale2": {
+        "text": "Сілтемеге өтіңіз, сыйлық алыңыз.\nhttps://q8ed17.example/entry?ref=Q2k84",
+        "quality": {
+          "characters": 58,
+          "mean_confidence": 0.9799603480717232,
+          "score": 54.58254499847229,
+          "vertical_fraction": 0.0
+        },
+        "exact_url": true,
+        "seconds": 2.1518606000004183
+      },
+      "crops_scale2": [
+        {
+          "text": "https://q8ed17.example/entry?ref=Q2k84",
+          "quality": {
+            "characters": 31,
+            "mean_confidence": 0.9989380836486816,
+            "score": 30.901346615174646,
+            "vertical_fraction": 0.0
+          },
+          "exact_url": true
+        }
+      ],
+      "english": [
+        {
+          "original_line": {
+            "text": "https://q8ed17.example/entry?ref=Q2k84",
+            "confidence": 0.9953792095184326,
+            "polygon": [
+              [
+                23.0,
+                84.0
+              ],
+              [
+                419.0,
+                83.0
+              ],
+              [
+                419.0,
+                109.0
+              ],
+              [
+                23.0,
+                110.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://q8ed17.example/entry?ref=Q2k84",
+              "confidence": 0.9935383200645447,
+              "urls": [
+                "https://q8ed17.example/entry?ref=Q2k84"
+              ],
+              "exact_url": true,
+              "seconds": 0.4028155999999399
+            },
+            {
+              "text": "https://q8ed17.example/entry?ref=Q2k84",
+              "confidence": 0.9824274778366089,
+              "urls": [
+                "https://q8ed17.example/entry?ref=Q2k84"
+              ],
+              "exact_url": true,
+              "seconds": 0.34599900000011985
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2fe26bc83a618b1fa461",
+      "image": "2fe26bc83a618b1fa461.jpg",
+      "url": "https://n73b5e.example/join?code=N8p20",
+      "language": "mixed",
+      "font_size": 18,
+      "style": "jpeg",
+      "caption": "Кешкі кездесу: заходи по ссылке.",
+      "provenance": "author_synthetic_development",
+      "base": {
+        "text": "Кешкі кездесу: заходи по ссылке.\nhttps://n73b5e.example/join?code=N8p20",
+        "urls": [
+          "https://n73b5e.example/join?code=N8p20"
+        ],
+        "exact_url": true,
+        "seconds": 1.2614748000000873,
+        "lines": [
+          {
+            "text": "Кешкі кездесу: заходи по ссылке.",
+            "confidence": 0.9912427067756653,
+            "polygon": [
+              [
+                23.0,
+                19.0
+              ],
+              [
+                305.0,
+                20.0
+              ],
+              [
+                305.0,
+                42.0
+              ],
+              [
+                23.0,
+                41.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": false,
+            "warnings": []
+          },
+          {
+            "text": "https://n73b5e.example/join?code=N8p20",
+            "confidence": 0.9852506518363953,
+            "polygon": [
+              [
+                25.0,
+                84.0
+              ],
+              [
+                358.0,
+                84.0
+              ],
+              [
+                358.0,
+                106.0
+              ],
+              [
+                25.0,
+                106.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_lines": [
+          {
+            "text": "Кешкі кездесу: заходи по ссылке.",
+            "confidence": 0.9912427067756653,
+            "polygon": [
+              [
+                23.0,
+                19.0
+              ],
+              [
+                305.0,
+                20.0
+              ],
+              [
+                305.0,
+                42.0
+              ],
+              [
+                23.0,
+                41.0
+              ]
+            ]
+          },
+          {
+            "text": "https://n73b5e.example/join?code=N8p20",
+            "confidence": 0.9852506518363953,
+            "polygon": [
+              [
+                25.0,
+                84.0
+              ],
+              [
+                358.0,
+                84.0
+              ],
+              [
+                358.0,
+                106.0
+              ],
+              [
+                25.0,
+                106.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0
+      },
+      "full_scale2": {
+        "text": "Кешкі кездесу: заходи по ссылке.\nhttps://n73b5e.example/join?code=N8p20",
+        "quality": {
+          "characters": 57,
+          "mean_confidence": 0.9959695213719418,
+          "score": 56.31356314944237,
+          "vertical_fraction": 0.0
+        },
+        "exact_url": true,
+        "seconds": 2.020938500000284
+      },
+      "crops_scale2": [
+        {
+          "text": "https://n73b5e.example/join?code=N8p20",
+          "quality": {
+            "characters": 31,
+            "mean_confidence": 0.9968910217285156,
+            "score": 30.711763003551546,
+            "vertical_fraction": 0.0
+          },
+          "exact_url": true
+        }
+      ],
+      "english": [
+        {
+          "original_line": {
+            "text": "https://n73b5e.example/join?code=N8p20",
+            "confidence": 0.9852506518363953,
+            "polygon": [
+              [
+                25.0,
+                84.0
+              ],
+              [
+                358.0,
+                84.0
+              ],
+              [
+                358.0,
+                106.0
+              ],
+              [
+                25.0,
+                106.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://n73b5e.example/join?code=N8p20",
+              "confidence": 0.9982688426971436,
+              "urls": [
+                "https://n73b5e.example/join?code=N8p20"
+              ],
+              "exact_url": true,
+              "seconds": 0.3742141000002448
+            },
+            {
+              "text": "https://n73b5e.example/join?code=N8p20",
+              "confidence": 0.9957929849624634,
+              "urls": [
+                "https://n73b5e.example/join?code=N8p20"
+              ],
+              "exact_url": true,
+              "seconds": 0.3535160999999789
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "581843b765f345288416",
+      "image": "581843b765f345288416.jpg",
+      "url": "https://r2ce90.example/invite?tag=M4e93",
+      "language": "ru",
+      "font_size": 16,
+      "style": "jpeg",
+      "caption": "Не переходите: это рекламный адрес.",
+      "provenance": "author_synthetic_development",
+      "base": {
+        "text": "Не переходите: это рекламный адрес.\nhttps://r2ce90.example/invite?tag=M4e93",
+        "urls": [
+          "https://r2ce90.example/invite?tag=M4e93"
+        ],
+        "exact_url": true,
+        "seconds": 1.6388676999999916,
+        "lines": [
+          {
+            "text": "Не переходите: это рекламный адрес.",
+            "confidence": 0.9820191264152527,
+            "polygon": [
+              [
+                22.0,
+                17.0
+              ],
+              [
+                310.0,
+                19.0
+              ],
+              [
+                310.0,
+                40.0
+              ],
+              [
+                22.0,
+                38.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": false,
+            "warnings": []
+          },
+          {
+            "text": "https://r2ce90.example/invite?tag=M4e93",
+            "confidence": 0.9969455003738403,
+            "polygon": [
+              [
+                24.0,
+                84.0
+              ],
+              [
+                317.0,
+                84.0
+              ],
+              [
+                317.0,
+                103.0
+              ],
+              [
+                24.0,
+                103.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_lines": [
+          {
+            "text": "Не переходите: это рекламный адрес.",
+            "confidence": 0.9820191264152527,
+            "polygon": [
+              [
+                22.0,
+                17.0
+              ],
+              [
+                310.0,
+                19.0
+              ],
+              [
+                310.0,
+                40.0
+              ],
+              [
+                22.0,
+                38.0
+              ]
+            ]
+          },
+          {
+            "text": "https://r2ce90.example/invite?tag=M4e93",
+            "confidence": 0.9969455003738403,
+            "polygon": [
+              [
+                24.0,
+                84.0
+              ],
+              [
+                317.0,
+                84.0
+              ],
+              [
+                317.0,
+                103.0
+              ],
+              [
+                24.0,
+                103.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0
+      },
+      "full_scale2": {
+        "text": "Не переходите: это рекламный адрес.\nhttps:/r2ce90.example/invite?tag=M4e93",
+        "quality": {
+          "characters": 61,
+          "mean_confidence": 0.9859096427432826,
+          "score": 58.46214632449632,
+          "vertical_fraction": 0.0
+        },
+        "exact_url": false,
+        "seconds": 2.270643199999995
+      },
+      "crops_scale2": [
+        {
+          "text": "https://r2ce90.example/invite?tag=M4e93",
+          "quality": {
+            "characters": 32,
+            "mean_confidence": 0.9883877635002136,
+            "score": 30.89812021662013,
+            "vertical_fraction": 0.0
+          },
+          "exact_url": true
+        }
+      ],
+      "english": [
+        {
+          "original_line": {
+            "text": "https://r2ce90.example/invite?tag=M4e93",
+            "confidence": 0.9969455003738403,
+            "polygon": [
+              [
+                24.0,
+                84.0
+              ],
+              [
+                317.0,
+                84.0
+              ],
+              [
+                317.0,
+                103.0
+              ],
+              [
+                24.0,
+                103.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://r2ce90.example/invite?tag=M4e93",
+              "confidence": 0.9855313301086426,
+              "urls": [
+                "https://r2ce90.example/invite?tag=M4e93"
+              ],
+              "exact_url": true,
+              "seconds": 0.35344620000023497
+            },
+            {
+              "text": "https://r2ce90.example/invite?tag=M4e93",
+              "confidence": 0.9854696989059448,
+              "urls": [
+                "https://r2ce90.example/invite?tag=M4e93"
+              ],
+              "exact_url": true,
+              "seconds": 0.33424280000008366
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2ea746de3dd8eeff3dd1",
+      "image": "2ea746de3dd8eeff3dd1.png",
+      "url": "https://v86e3a.example/read?ref=H6a12",
+      "language": "kk",
+      "font_size": 28,
+      "style": "dark",
+      "caption": "Қауіпсіздік сабағына арналған мысал.",
+      "provenance": "author_synthetic_development",
+      "base": {
+        "text": "Қауіпсіздік сабағына арналған мысал.\nhttps://v86e3a.example/read?ref=H6a12",
+        "urls": [
+          "https://v86e3a.example/read?ref=H6a12"
+        ],
+        "exact_url": true,
+        "seconds": 1.4629089999998541,
+        "lines": [
+          {
+            "text": "Қауіпсіздік сабағына арналған мысал.",
+            "confidence": 0.9883561730384827,
+            "polygon": [
+              [
+                23.0,
+                22.0
+              ],
+              [
+                520.0,
+                22.0
+              ],
+              [
+                520.0,
+                53.0
+              ],
+              [
+                23.0,
+                53.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": false,
+            "warnings": []
+          },
+          {
+            "text": "https://v86e3a.example/read?ref=H6a12",
+            "confidence": 0.9993317127227783,
+            "polygon": [
+              [
+                24.0,
+                87.0
+              ],
+              [
+                534.0,
+                87.0
+              ],
+              [
+                534.0,
+                118.0
+              ],
+              [
+                24.0,
+                118.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_lines": [
+          {
+            "text": "Қауіпсіздік сабағына арналған мысал.",
+            "confidence": 0.9883561730384827,
+            "polygon": [
+              [
+                23.0,
+                22.0
+              ],
+              [
+                520.0,
+                22.0
+              ],
+              [
+                520.0,
+                53.0
+              ],
+              [
+                23.0,
+                53.0
+              ]
+            ]
+          },
+          {
+            "text": "https://v86e3a.example/read?ref=H6a12",
+            "confidence": 0.9993317127227783,
+            "polygon": [
+              [
+                24.0,
+                87.0
+              ],
+              [
+                534.0,
+                87.0
+              ],
+              [
+                534.0,
+                118.0
+              ],
+              [
+                24.0,
+                118.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0
+      },
+      "full_scale2": {
+        "text": "Қауіпсіздік сабағына арналған мысал.\nhttps://v86e3a.example/read?ref=H6a12",
+        "quality": {
+          "characters": 62,
+          "mean_confidence": 0.9949416787393631,
+          "score": 61.06708965931256,
+          "vertical_fraction": 0.0
+        },
+        "exact_url": true,
+        "seconds": 2.34062589999985
+      },
+      "crops_scale2": [
+        {
+          "text": "https://v86e3a.example/read?ref=H6a12",
+          "quality": {
+            "characters": 30,
+            "mean_confidence": 0.999485969543457,
+            "score": 29.953761035294427,
+            "vertical_fraction": 0.0
+          },
+          "exact_url": true
+        }
+      ],
+      "english": [
+        {
+          "original_line": {
+            "text": "https://v86e3a.example/read?ref=H6a12",
+            "confidence": 0.9993317127227783,
+            "polygon": [
+              [
+                24.0,
+                87.0
+              ],
+              [
+                534.0,
+                87.0
+              ],
+              [
+                534.0,
+                118.0
+              ],
+              [
+                24.0,
+                118.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://v86e3a.example/read?ref=H6a12",
+              "confidence": 0.9998278021812439,
+              "urls": [
+                "https://v86e3a.example/read?ref=H6a12"
+              ],
+              "exact_url": true,
+              "seconds": 0.35603360000004614
+            },
+            {
+              "text": "https://v86e3a.example/read?ref=H6a12",
+              "confidence": 0.9998282194137573,
+              "urls": [
+                "https://v86e3a.example/read?ref=H6a12"
+              ],
+              "exact_url": true,
+              "seconds": 0.42917709999983344
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a53deb9ea2cbdfcdca67",
+      "image": "a53deb9ea2cbdfcdca67.png",
+      "url": "https://a5e02c.example/post?ref=W9x65",
+      "language": "mixed",
+      "font_size": 20,
+      "style": "rotate",
+      "caption": "Ескерту: исследование рекламных переходов.",
+      "provenance": "author_synthetic_development",
+      "base": {
+        "text": "Ескерту: исследование рекламных переходов.\nhttps://a5e02c.example/post?ref=W9x65",
+        "urls": [
+          "https://a5e02c.example/post?ref=W9x65"
+        ],
+        "exact_url": true,
+        "seconds": 6.738378300000022,
+        "lines": [
+          {
+            "text": "Ескерту: исследование рекламных переходов.",
+            "confidence": 0.9923827648162842,
+            "polygon": [
+              [
+                22.0,
+                734.0
+              ],
+              [
+                22.0,
+                299.0
+              ],
+              [
+                44.0,
+                299.0
+              ],
+              [
+                44.0,
+                734.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": false,
+            "warnings": []
+          },
+          {
+            "text": "https://a5e02c.example/post?ref=W9x65",
+            "confidence": 0.9988446831703186,
+            "polygon": [
+              [
+                86.0,
+                734.0
+              ],
+              [
+                86.0,
+                373.0
+              ],
+              [
+                109.0,
+                373.0
+              ],
+              [
+                109.0,
+                734.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_lines": [
+          {
+            "text": "Ескерту: исследование рекламных переходов.",
+            "confidence": 0.9923827648162842,
+            "polygon": [
+              [
+                22.0,
+                734.0
+              ],
+              [
+                22.0,
+                299.0
+              ],
+              [
+                44.0,
+                299.0
+              ],
+              [
+                44.0,
+                734.0
+              ]
+            ]
+          },
+          {
+            "text": "https://a5e02c.example/post?ref=W9x65",
+            "confidence": 0.9988446831703186,
+            "polygon": [
+              [
+                86.0,
+                734.0
+              ],
+              [
+                86.0,
+                373.0
+              ],
+              [
+                109.0,
+                373.0
+              ],
+              [
+                109.0,
+                734.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 270
+      },
+      "full_scale2": {
+        "text": "Ескерту: исследование рекламных переходов.\nhttps://a5e02c.example/post?ref=W9x65",
+        "quality": {
+          "characters": 67,
+          "mean_confidence": 0.9914081532563737,
+          "score": 65.29563891508216,
+          "vertical_fraction": 0.0
+        },
+        "exact_url": true,
+        "seconds": 2.430753099999947
+      },
+      "crops_scale2": [
+        {
+          "text": "https://a5e02c.example/post?ref=W9x65",
+          "quality": {
+            "characters": 30,
+            "mean_confidence": 0.9990348815917969,
+            "score": 29.913223147111598,
+            "vertical_fraction": 0.0
+          },
+          "exact_url": true
+        }
+      ],
+      "english": [
+        {
+          "original_line": {
+            "text": "https://a5e02c.example/post?ref=W9x65",
+            "confidence": 0.9988446831703186,
+            "polygon": [
+              [
+                86.0,
+                734.0
+              ],
+              [
+                86.0,
+                373.0
+              ],
+              [
+                109.0,
+                373.0
+              ],
+              [
+                109.0,
+                734.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://a5e02c.example/post?ref=W9x65",
+              "confidence": 0.9993852972984314,
+              "urls": [
+                "https://a5e02c.example/post?ref=W9x65"
+              ],
+              "exact_url": true,
+              "seconds": 0.3609548999997969
+            },
+            {
+              "text": "https://a5e02c.example/post?ref=W9x65",
+              "confidence": 0.9983140230178833,
+              "urls": [
+                "https://a5e02c.example/post?ref=W9x65"
+              ],
+              "exact_url": true,
+              "seconds": 0.3580675999996856
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "72013707b25341e53c5c",
+      "image": "72013707b25341e53c5c.png",
+      "url": "https://p4d9ef.example/item?ref=A3n78",
+      "language": "ru",
+      "font_size": 14,
+      "style": "plain",
+      "caption": "Забирай предложение в личном разделе.",
+      "provenance": "author_synthetic_development",
+      "base": {
+        "text": "Забирай предложение в личном разделе.\nhttps://p4d9ef.example/item?ref=A3n78",
+        "urls": [
+          "https://p4d9ef.example/item?ref=A3n78"
+        ],
+        "exact_url": true,
+        "seconds": 1.5193083000003753,
+        "lines": [
+          {
+            "text": "Забирай предложение в личном разделе.",
+            "confidence": 0.9959671497344971,
+            "polygon": [
+              [
+                23.0,
+                17.0
+              ],
+              [
+                300.0,
+                19.0
+              ],
+              [
+                300.0,
+                38.0
+              ],
+              [
+                23.0,
+                36.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": false,
+            "warnings": []
+          },
+          {
+            "text": "https://p4d9ef.example/item?ref=A3n78",
+            "confidence": 0.997183084487915,
+            "polygon": [
+              [
+                25.0,
+                84.0
+              ],
+              [
+                275.0,
+                84.0
+              ],
+              [
+                275.0,
+                100.0
+              ],
+              [
+                25.0,
+                100.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_lines": [
+          {
+            "text": "Забирай предложение в личном разделе.",
+            "confidence": 0.9959671497344971,
+            "polygon": [
+              [
+                23.0,
+                17.0
+              ],
+              [
+                300.0,
+                19.0
+              ],
+              [
+                300.0,
+                38.0
+              ],
+              [
+                23.0,
+                36.0
+              ]
+            ]
+          },
+          {
+            "text": "https://p4d9ef.example/item?ref=A3n78",
+            "confidence": 0.997183084487915,
+            "polygon": [
+              [
+                25.0,
+                84.0
+              ],
+              [
+                275.0,
+                84.0
+              ],
+              [
+                275.0,
+                100.0
+              ],
+              [
+                25.0,
+                100.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0
+      },
+      "full_scale2": {
+        "text": "Забирай предложение в личном разделе.\nhttps://p4d9ef.example/item?ref=A3n78",
+        "quality": {
+          "characters": 62,
+          "mean_confidence": 0.9924412388955394,
+          "score": 60.609844347974985,
+          "vertical_fraction": 0.0
+        },
+        "exact_url": true,
+        "seconds": 2.3634797999998227
+      },
+      "crops_scale2": [
+        {
+          "text": "https://p4d9ef.example/item?ref=A3n78",
+          "quality": {
+            "characters": 30,
+            "mean_confidence": 0.9954021573066711,
+            "score": 29.588093855795783,
+            "vertical_fraction": 0.0
+          },
+          "exact_url": true
+        }
+      ],
+      "english": [
+        {
+          "original_line": {
+            "text": "https://p4d9ef.example/item?ref=A3n78",
+            "confidence": 0.997183084487915,
+            "polygon": [
+              [
+                25.0,
+                84.0
+              ],
+              [
+                275.0,
+                84.0
+              ],
+              [
+                275.0,
+                100.0
+              ],
+              [
+                25.0,
+                100.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://p4d9ef.example/item?ref=A3n78",
+              "confidence": 0.9992837905883789,
+              "urls": [
+                "https://p4d9ef.example/item?ref=A3n78"
+              ],
+              "exact_url": true,
+              "seconds": 0.3450723000000835
+            },
+            {
+              "text": "https://p4d9ef.example/item?ref=A3n78",
+              "confidence": 0.9993298649787903,
+              "urls": [
+                "https://p4d9ef.example/item?ref=A3n78"
+              ],
+              "exact_url": true,
+              "seconds": 0.32311920000029204
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c266903c241b7302399d",
+      "image": "c266903c241b7302399d.jpg",
+      "url": "https://s7e2c1.example/list?ref=K4u37",
+      "language": "kk",
+      "font_size": 32,
+      "style": "jpeg",
+      "caption": "Жаңа топқа қосыл, шарттары сілтемеде.",
+      "provenance": "author_synthetic_development",
+      "base": {
+        "text": "Жаңа топқа қосыл, шарттары сілтемеде.\nhttps://s7e2c1.example/list?ref=K4u37",
+        "urls": [
+          "https://s7e2c1.example/list?ref=K4u37"
+        ],
+        "exact_url": true,
+        "seconds": 1.4735703999999714,
+        "lines": [
+          {
+            "text": "Жаңа топқа қосыл, шарттары сілтемеде.",
+            "confidence": 0.9926908612251282,
+            "polygon": [
+              [
+                22.0,
+                20.0
+              ],
+              [
+                638.0,
+                23.0
+              ],
+              [
+                638.0,
+                62.0
+              ],
+              [
+                22.0,
+                59.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": false,
+            "warnings": []
+          },
+          {
+            "text": "https://s7e2c1.example/list?ref=K4u37",
+            "confidence": 0.9911025762557983,
+            "polygon": [
+              [
+                23.0,
+                85.0
+              ],
+              [
+                574.0,
+                85.0
+              ],
+              [
+                574.0,
+                123.0
+              ],
+              [
+                23.0,
+                123.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_lines": [
+          {
+            "text": "Жаңа топқа қосыл, шарттары сілтемеде.",
+            "confidence": 0.9926908612251282,
+            "polygon": [
+              [
+                22.0,
+                20.0
+              ],
+              [
+                638.0,
+                23.0
+              ],
+              [
+                638.0,
+                62.0
+              ],
+              [
+                22.0,
+                59.0
+              ]
+            ]
+          },
+          {
+            "text": "https://s7e2c1.example/list?ref=K4u37",
+            "confidence": 0.9911025762557983,
+            "polygon": [
+              [
+                23.0,
+                85.0
+              ],
+              [
+                574.0,
+                85.0
+              ],
+              [
+                574.0,
+                123.0
+              ],
+              [
+                23.0,
+                123.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0
+      },
+      "full_scale2": {
+        "text": "Жаңа топқа қосыл, шарттары сілтемеде.\nhttps://s7e2c1.example/list?ref=K4u37",
+        "quality": {
+          "characters": 61,
+          "mean_confidence": 0.9852724094859889,
+          "score": 58.347895889918576,
+          "vertical_fraction": 0.0
+        },
+        "exact_url": true,
+        "seconds": 2.2020940000002156
+      },
+      "crops_scale2": [
+        {
+          "text": "https://s7e2c1.example/list?ref=K4u37",
+          "quality": {
+            "characters": 30,
+            "mean_confidence": 0.9801766872406006,
+            "score": 28.251034891955232,
+            "vertical_fraction": 0.0
+          },
+          "exact_url": true
+        }
+      ],
+      "english": [
+        {
+          "original_line": {
+            "text": "https://s7e2c1.example/list?ref=K4u37",
+            "confidence": 0.9911025762557983,
+            "polygon": [
+              [
+                23.0,
+                85.0
+              ],
+              [
+                574.0,
+                85.0
+              ],
+              [
+                574.0,
+                123.0
+              ],
+              [
+                23.0,
+                123.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://s7e2c1.example/list?ref=K4u37",
+              "confidence": 0.9886128306388855,
+              "urls": [
+                "https://s7e2c1.example/list?ref=K4u37"
+              ],
+              "exact_url": true,
+              "seconds": 0.32690420000017184
+            },
+            {
+              "text": "https://s7e2c1.example/list?ref=K4u37",
+              "confidence": 0.998485267162323,
+              "urls": [
+                "https://s7e2c1.example/list?ref=K4u37"
+              ],
+              "exact_url": true,
+              "seconds": 0.37297929999976986
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "62054734432771cd9382",
+      "image": "62054734432771cd9382.png",
+      "url": "https://j09ea4.example/calendar?ref=J5r62",
+      "language": "ru",
+      "font_size": 24,
+      "style": "blur",
+      "caption": "Расписание и правила встречи.",
+      "provenance": "author_synthetic_development",
+      "base": {
+        "text": "Расписание и правила встречи.\nhttps://j09ea4.example/calendar?ref=J5r62",
+        "urls": [
+          "https://j09ea4.example/calendar?ref=J5r62"
+        ],
+        "exact_url": true,
+        "seconds": 1.5590680000000248,
+        "lines": [
+          {
+            "text": "Расписание и правила встречи.",
+            "confidence": 0.9751814007759094,
+            "polygon": [
+              [
+                23.0,
+                21.0
+              ],
+              [
+                376.0,
+                23.0
+              ],
+              [
+                376.0,
+                48.0
+              ],
+              [
+                23.0,
+                46.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": false,
+            "warnings": []
+          },
+          {
+            "text": "https://j09ea4.example/calendar?ref=J5r62",
+            "confidence": 0.9985460638999939,
+            "polygon": [
+              [
+                24.0,
+                85.0
+              ],
+              [
+                476.0,
+                85.0
+              ],
+              [
+                476.0,
+                113.0
+              ],
+              [
+                24.0,
+                113.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_lines": [
+          {
+            "text": "Расписание и правила встречи.",
+            "confidence": 0.9751814007759094,
+            "polygon": [
+              [
+                23.0,
+                21.0
+              ],
+              [
+                376.0,
+                23.0
+              ],
+              [
+                376.0,
+                48.0
+              ],
+              [
+                23.0,
+                46.0
+              ]
+            ]
+          },
+          {
+            "text": "https://j09ea4.example/calendar?ref=J5r62",
+            "confidence": 0.9985460638999939,
+            "polygon": [
+              [
+                24.0,
+                85.0
+              ],
+              [
+                476.0,
+                85.0
+              ],
+              [
+                476.0,
+                113.0
+              ],
+              [
+                24.0,
+                113.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0
+      },
+      "full_scale2": {
+        "text": "Расписание и правила встречи.\nhttps:/j09ea4.example/calendar?ref=J5r62",
+        "quality": {
+          "characters": 59,
+          "mean_confidence": 0.9845641679682974,
+          "score": 56.33458051377792,
+          "vertical_fraction": 0.0
+        },
+        "exact_url": false,
+        "seconds": 2.4006484000001365
+      },
+      "crops_scale2": [
+        {
+          "text": "https://j09ea4.example/calendar?ref=J5r62",
+          "quality": {
+            "characters": 34,
+            "mean_confidence": 0.9989742040634155,
+            "score": 33.8954761080137,
+            "vertical_fraction": 0.0
+          },
+          "exact_url": true
+        }
+      ],
+      "english": [
+        {
+          "original_line": {
+            "text": "https://j09ea4.example/calendar?ref=J5r62",
+            "confidence": 0.9985460638999939,
+            "polygon": [
+              [
+                24.0,
+                85.0
+              ],
+              [
+                476.0,
+                85.0
+              ],
+              [
+                476.0,
+                113.0
+              ],
+              [
+                24.0,
+                113.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://j09ea4.example/calendar?ref=J5r62",
+              "confidence": 0.9993953108787537,
+              "urls": [
+                "https://j09ea4.example/calendar?ref=J5r62"
+              ],
+              "exact_url": true,
+              "seconds": 0.4090739000002941
+            },
+            {
+              "text": "https://j09ea4.example/calendar?ref=J5r62",
+              "confidence": 0.9994324445724487,
+              "urls": [
+                "https://j09ea4.example/calendar?ref=J5r62"
+              ],
+              "exact_url": true,
+              "seconds": 0.3569539000000077
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d7aa7d090b2f348e5a54",
+      "image": "d7aa7d090b2f348e5a54.png",
+      "url": "https://b4e8d0.example/articles?ref=T7c28",
+      "language": "mixed",
+      "font_size": 18,
+      "style": "dark",
+      "caption": "Казино туралы мақала. Не регистрируйся.",
+      "provenance": "author_synthetic_development",
+      "base": {
+        "text": "Казино туралы мақала. Не регистрируйся.\nhttps://b4e8d0.example/articles?ref=T7c28",
+        "urls": [
+          "https://b4e8d0.example/articles?ref=T7c28"
+        ],
+        "exact_url": true,
+        "seconds": 1.5535682999998244,
+        "lines": [
+          {
+            "text": "Казино туралы мақала. Не регистрируйся.",
+            "confidence": 0.9946756362915039,
+            "polygon": [
+              [
+                24.0,
+                20.0
+              ],
+              [
+                379.0,
+                22.0
+              ],
+              [
+                379.0,
+                43.0
+              ],
+              [
+                24.0,
+                41.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": false,
+            "warnings": []
+          },
+          {
+            "text": "https://b4e8d0.example/articles?ref=T7c28",
+            "confidence": 0.9990047216415405,
+            "polygon": [
+              [
+                25.0,
+                86.0
+              ],
+              [
+                366.0,
+                86.0
+              ],
+              [
+                366.0,
+                105.0
+              ],
+              [
+                25.0,
+                105.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_lines": [
+          {
+            "text": "Казино туралы мақала. Не регистрируйся.",
+            "confidence": 0.9946756362915039,
+            "polygon": [
+              [
+                24.0,
+                20.0
+              ],
+              [
+                379.0,
+                22.0
+              ],
+              [
+                379.0,
+                43.0
+              ],
+              [
+                24.0,
+                41.0
+              ]
+            ]
+          },
+          {
+            "text": "https://b4e8d0.example/articles?ref=T7c28",
+            "confidence": 0.9990047216415405,
+            "polygon": [
+              [
+                25.0,
+                86.0
+              ],
+              [
+                366.0,
+                86.0
+              ],
+              [
+                366.0,
+                105.0
+              ],
+              [
+                25.0,
+                105.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0
+      },
+      "full_scale2": {
+        "text": "Казино туралы мақала. Не регистрируйся.\nhttps://b4e8d0.example/articles?ref=T7c28",
+        "quality": {
+          "characters": 67,
+          "mean_confidence": 0.9986356301094169,
+          "score": 66.72613601964034,
+          "vertical_fraction": 0.0
+        },
+        "exact_url": true,
+        "seconds": 2.1564030999998067
+      },
+      "crops_scale2": [
+        {
+          "text": "https://b4e8d0.example/articles?ref=T7c28",
+          "quality": {
+            "characters": 34,
+            "mean_confidence": 0.9991582632064819,
+            "score": 33.91421509590858,
+            "vertical_fraction": 0.0
+          },
+          "exact_url": true
+        }
+      ],
+      "english": [
+        {
+          "original_line": {
+            "text": "https://b4e8d0.example/articles?ref=T7c28",
+            "confidence": 0.9990047216415405,
+            "polygon": [
+              [
+                25.0,
+                86.0
+              ],
+              [
+                366.0,
+                86.0
+              ],
+              [
+                366.0,
+                105.0
+              ],
+              [
+                25.0,
+                105.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://b4e8d0.example/articles?ref=T7c28",
+              "confidence": 0.9841554164886475,
+              "urls": [
+                "https://b4e8d0.example/articles?ref=T7c28"
+              ],
+              "exact_url": true,
+              "seconds": 0.37897350000002916
+            },
+            {
+              "text": "https://b4e8d0.example/articles?ref=T7c28",
+              "confidence": 0.9888756275177002,
+              "urls": [
+                "https://b4e8d0.example/articles?ref=T7c28"
+              ],
+              "exact_url": true,
+              "seconds": 0.4076512999999977
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eae848125609a6d1d618",
+      "image": "eae848125609a6d1d618.png",
+      "url": "https://f53ec7.example/notes?ref=V6m19",
+      "language": "ru",
+      "font_size": 24,
+      "style": "wrapped",
+      "caption": "Читайте разбор подозрительной публикации.",
+      "provenance": "author_synthetic_development",
+      "base": {
+        "text": "Читайте разбор подозрительной публикации.\nhttps://f53ec7.example\n/notes?ref=V6m19",
+        "urls": [
+          "https://f53ec7.example"
+        ],
+        "exact_url": false,
+        "seconds": 2.106413099999827,
+        "lines": [
+          {
+            "text": "Читайте разбор подозрительной публикации.",
+            "confidence": 0.9954065680503845,
+            "polygon": [
+              [
+                24.0,
+                19.0
+              ],
+              [
+                528.0,
+                20.0
+              ],
+              [
+                528.0,
+                48.0
+              ],
+              [
+                24.0,
+                47.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": false,
+            "warnings": []
+          },
+          {
+            "text": "https://f53ec7.example",
+            "confidence": 0.9843423962593079,
+            "polygon": [
+              [
+                24.0,
+                86.0
+              ],
+              [
+                265.0,
+                86.0
+              ],
+              [
+                265.0,
+                112.0
+              ],
+              [
+                24.0,
+                112.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          },
+          {
+            "text": "/notes?ref=V6m19",
+            "confidence": 0.9997066855430603,
+            "polygon": [
+              [
+                23.0,
+                121.0
+              ],
+              [
+                222.0,
+                121.0
+              ],
+              [
+                222.0,
+                146.0
+              ],
+              [
+                23.0,
+                146.0
+              ]
+            ],
+            "segment_indices": [
+              2
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_lines": [
+          {
+            "text": "Читайте разбор подозрительной публикации.",
+            "confidence": 0.9954065680503845,
+            "polygon": [
+              [
+                24.0,
+                19.0
+              ],
+              [
+                528.0,
+                20.0
+              ],
+              [
+                528.0,
+                48.0
+              ],
+              [
+                24.0,
+                47.0
+              ]
+            ]
+          },
+          {
+            "text": "https://f53ec7.example",
+            "confidence": 0.9843423962593079,
+            "polygon": [
+              [
+                24.0,
+                86.0
+              ],
+              [
+                265.0,
+                86.0
+              ],
+              [
+                265.0,
+                112.0
+              ],
+              [
+                24.0,
+                112.0
+              ]
+            ]
+          },
+          {
+            "text": "/notes?ref=V6m19",
+            "confidence": 0.9997066855430603,
+            "polygon": [
+              [
+                23.0,
+                121.0
+              ],
+              [
+                222.0,
+                121.0
+              ],
+              [
+                222.0,
+                146.0
+              ],
+              [
+                23.0,
+                146.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0
+      },
+      "full_scale2": {
+        "text": "Читайте разбор подозрительной публикации.\nhttps://f53ec7.example\n/notes?ref=V6m19",
+        "quality": {
+          "characters": 68,
+          "mean_confidence": 0.9917978144743863,
+          "score": 66.35011793324128,
+          "vertical_fraction": 0.0
+        },
+        "exact_url": false,
+        "seconds": 2.8417928999997457
+      },
+      "crops_scale2": [
+        {
+          "text": "https://f53ec7.example",
+          "quality": {
+            "characters": 18,
+            "mean_confidence": 0.9982982873916626,
+            "score": 17.908263805041518,
+            "vertical_fraction": 0.0
+          },
+          "exact_url": false
+        }
+      ],
+      "english": [
+        {
+          "original_line": {
+            "text": "https://f53ec7.example",
+            "confidence": 0.9843423962593079,
+            "polygon": [
+              [
+                24.0,
+                86.0
+              ],
+              [
+                265.0,
+                86.0
+              ],
+              [
+                265.0,
+                112.0
+              ],
+              [
+                24.0,
+                112.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://f53ec7.example",
+              "confidence": 0.9998786449432373,
+              "urls": [
+                "https://f53ec7.example"
+              ],
+              "exact_url": false,
+              "seconds": 0.20982550000007905
+            },
+            {
+              "text": "https://f53ec7.example",
+              "confidence": 0.9999009966850281,
+              "urls": [
+                "https://f53ec7.example"
+              ],
+              "exact_url": false,
+              "seconds": 0.21696130000009362
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1438ca80c60cb99a5f02",
+      "image": "1438ca80c60cb99a5f02.png",
+      "url": "https://d98e26.example/item?ref=D8e53",
+      "language": "kk",
+      "font_size": 20,
+      "style": "rotate",
+      "caption": "Бонус туралы толық мәлімет осы бетте.",
+      "provenance": "author_synthetic_development",
+      "base": {
+        "text": "Бонус туралы толық мәлімет осы бетте.\nhttps://d98e26.example/item?ref=D8e53",
+        "urls": [
+          "https://d98e26.example/item?ref=D8e53"
+        ],
+        "exact_url": true,
+        "seconds": 5.413356900000053,
+        "lines": [
+          {
+            "text": "Бонус туралы толық мәлімет осы бетте.",
+            "confidence": 0.989815354347229,
+            "polygon": [
+              [
+                22.0,
+                734.0
+              ],
+              [
+                22.0,
+                361.0
+              ],
+              [
+                43.0,
+                361.0
+              ],
+              [
+                43.0,
+                734.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": false,
+            "warnings": []
+          },
+          {
+            "text": "https://d98e26.example/item?ref=D8e53",
+            "confidence": 0.9994900822639465,
+            "polygon": [
+              [
+                85.0,
+                734.0
+              ],
+              [
+                85.0,
+                377.0
+              ],
+              [
+                108.0,
+                377.0
+              ],
+              [
+                108.0,
+                734.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_lines": [
+          {
+            "text": "Бонус туралы толық мәлімет осы бетте.",
+            "confidence": 0.989815354347229,
+            "polygon": [
+              [
+                22.0,
+                734.0
+              ],
+              [
+                22.0,
+                361.0
+              ],
+              [
+                43.0,
+                361.0
+              ],
+              [
+                43.0,
+                734.0
+              ]
+            ]
+          },
+          {
+            "text": "https://d98e26.example/item?ref=D8e53",
+            "confidence": 0.9994900822639465,
+            "polygon": [
+              [
+                85.0,
+                734.0
+              ],
+              [
+                85.0,
+                377.0
+              ],
+              [
+                108.0,
+                377.0
+              ],
+              [
+                108.0,
+                734.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 270
+      },
+      "full_scale2": {
+        "text": "Бонус туралы толық мәлімет осы бетте.\nhttps://d98e26.example/item?ref=D8e53",
+        "quality": {
+          "characters": 61,
+          "mean_confidence": 0.9812077918990714,
+          "score": 57.62524856396721,
+          "vertical_fraction": 0.0
+        },
+        "exact_url": true,
+        "seconds": 2.1895134999999755
+      },
+      "crops_scale2": [
+        {
+          "text": "https://d98e26.example/item?ref=D8e53",
+          "quality": {
+            "characters": 30,
+            "mean_confidence": 0.9994757175445557,
+            "score": 29.95283931317507,
+            "vertical_fraction": 0.0
+          },
+          "exact_url": true
+        }
+      ],
+      "english": [
+        {
+          "original_line": {
+            "text": "https://d98e26.example/item?ref=D8e53",
+            "confidence": 0.9994900822639465,
+            "polygon": [
+              [
+                85.0,
+                734.0
+              ],
+              [
+                85.0,
+                377.0
+              ],
+              [
+                108.0,
+                377.0
+              ],
+              [
+                108.0,
+                734.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://d98e26.example/item?ref=D8e53",
+              "confidence": 0.9973613619804382,
+              "urls": [
+                "https://d98e26.example/item?ref=D8e53"
+              ],
+              "exact_url": true,
+              "seconds": 0.34411199999976816
+            },
+            {
+              "text": "https://d98e26.example/item?ref=D8e53",
+              "confidence": 0.9926276206970215,
+              "urls": [
+                "https://d98e26.example/item?ref=D8e53"
+              ],
+              "exact_url": true,
+              "seconds": 0.3448518999998669
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "82a48b8825429d58e958",
+      "image": "82a48b8825429d58e958.png",
+      "url": "https://z21ad6.example/памятка?ref=C2p47",
+      "language": "ru",
+      "font_size": 24,
+      "style": "plain",
+      "caption": "Пример международного адреса.",
+      "provenance": "author_synthetic_development",
+      "base": {
+        "text": "Пример международного адреса.\nhttps://z21ad6.ехаmрӀe/памятка?ref=C2р47",
+        "urls": [
+          "https://z21ad6.ехаmрӀe/памятка?ref=C2р47"
+        ],
+        "exact_url": false,
+        "seconds": 1.341790299999957,
+        "lines": [
+          {
+            "text": "Пример международного адреса.",
+            "confidence": 0.9986617565155029,
+            "polygon": [
+              [
+                26.0,
+                22.0
+              ],
+              [
+                395.0,
+                22.0
+              ],
+              [
+                395.0,
+                48.0
+              ],
+              [
+                26.0,
+                48.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": false,
+            "warnings": []
+          },
+          {
+            "text": "https://z21ad6.ехаmрӀe/памятка?ref=C2р47",
+            "confidence": 0.9302234649658203,
+            "polygon": [
+              [
+                25.0,
+                85.0
+              ],
+              [
+                493.0,
+                85.0
+              ],
+              [
+                493.0,
+                113.0
+              ],
+              [
+                25.0,
+                113.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: https://z21ad6.ехаmрӀe/памятка?ref=C2р47"
+            ]
+          }
+        ],
+        "raw_lines": [
+          {
+            "text": "Пример международного адреса.",
+            "confidence": 0.9986617565155029,
+            "polygon": [
+              [
+                26.0,
+                22.0
+              ],
+              [
+                395.0,
+                22.0
+              ],
+              [
+                395.0,
+                48.0
+              ],
+              [
+                26.0,
+                48.0
+              ]
+            ]
+          },
+          {
+            "text": "https://z21ad6.ехаmрӀe/памятка?ref=C2р47",
+            "confidence": 0.9302234649658203,
+            "polygon": [
+              [
+                25.0,
+                85.0
+              ],
+              [
+                493.0,
+                85.0
+              ],
+              [
+                493.0,
+                113.0
+              ],
+              [
+                25.0,
+                113.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0
+      },
+      "full_scale2": {
+        "text": "Пример международного адреса.\nhttps://z21ad6.ехаmрle/памяткa?ref=C2p47",
+        "quality": {
+          "characters": 59,
+          "mean_confidence": 0.9496264871904405,
+          "score": 50.760535325886586,
+          "vertical_fraction": 0.0
+        },
+        "exact_url": false,
+        "seconds": 2.138129200000094
+      },
+      "crops_scale2": [
+        {
+          "text": "https://z21ad6.ехаmрle/памяткa?ref=C2р47",
+          "quality": {
+            "characters": 33,
+            "mean_confidence": 0.9313005208969116,
+            "score": 26.655294027456662,
+            "vertical_fraction": 0.0
+          },
+          "exact_url": false
+        }
+      ],
+      "english": [
+        {
+          "original_line": {
+            "text": "https://z21ad6.ехаmрӀe/памятка?ref=C2р47",
+            "confidence": 0.9302234649658203,
+            "polygon": [
+              [
+                25.0,
+                85.0
+              ],
+              [
+                493.0,
+                85.0
+              ],
+              [
+                493.0,
+                113.0
+              ],
+              [
+                25.0,
+                113.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://z21ad6.example/namaTka?ref=C2p47",
+              "confidence": 0.9852834939956665,
+              "urls": [
+                "https://z21ad6.example/namaTka?ref=C2p47"
+              ],
+              "exact_url": false,
+              "seconds": 0.41423980000035954
+            },
+            {
+              "text": "https://z21ad6.example/namaTa?ref=C2p47",
+              "confidence": 0.9886692762374878,
+              "urls": [
+                "https://z21ad6.example/namaTa?ref=C2p47"
+              ],
+              "exact_url": false,
+              "seconds": 0.38226540000005116
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06c92b611033947f5fa9",
+      "image": "06c92b611033947f5fa9.png",
+      "url": "https://k3be78.example/info?ref=B5i41",
+      "language": "mixed",
+      "font_size": 16,
+      "style": "blur",
+      "caption": "Ойын туралы ескерту. Материал для проверки.",
+      "provenance": "author_synthetic_development",
+      "base": {
+        "text": "Ойын туралы ескерту. Материал для проверки.\nhttps://k3be78.example/info?ref=B5i41",
+        "urls": [
+          "https://k3be78.example/info?ref=B5i41"
+        ],
+        "exact_url": true,
+        "seconds": 1.4545781000001625,
+        "lines": [
+          {
+            "text": "Ойын туралы ескерту. Материал для проверки.",
+            "confidence": 0.9764290452003479,
+            "polygon": [
+              [
+                23.0,
+                17.0
+              ],
+              [
+                376.0,
+                19.0
+              ],
+              [
+                376.0,
+                40.0
+              ],
+              [
+                23.0,
+                38.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": false,
+            "warnings": []
+          },
+          {
+            "text": "https://k3be78.example/info?ref=B5i41",
+            "confidence": 0.9968489408493042,
+            "polygon": [
+              [
+                24.0,
+                83.0
+              ],
+              [
+                296.0,
+                82.0
+              ],
+              [
+                296.0,
+                102.0
+              ],
+              [
+                24.0,
+                103.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_lines": [
+          {
+            "text": "Ойын туралы ескерту. Материал для проверки.",
+            "confidence": 0.9764290452003479,
+            "polygon": [
+              [
+                23.0,
+                17.0
+              ],
+              [
+                376.0,
+                19.0
+              ],
+              [
+                376.0,
+                40.0
+              ],
+              [
+                23.0,
+                38.0
+              ]
+            ]
+          },
+          {
+            "text": "https://k3be78.example/info?ref=B5i41",
+            "confidence": 0.9968489408493042,
+            "polygon": [
+              [
+                24.0,
+                83.0
+              ],
+              [
+                296.0,
+                82.0
+              ],
+              [
+                296.0,
+                102.0
+              ],
+              [
+                24.0,
+                103.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0
+      },
+      "full_scale2": {
+        "text": "Ойын туралы ескерту. Материал для проверки.\nhttps://k3be78.example/info?ref=B5i41",
+        "quality": {
+          "characters": 66,
+          "mean_confidence": 0.9888158657334067,
+          "score": 63.81182011921816,
+          "vertical_fraction": 0.0
+        },
+        "exact_url": true,
+        "seconds": 2.40076979999958
+      },
+      "crops_scale2": [
+        {
+          "text": "https://k3be78.example/info?ref=B5i41",
+          "quality": {
+            "characters": 30,
+            "mean_confidence": 0.99751877784729,
+            "score": 29.777243629692904,
+            "vertical_fraction": 0.0
+          },
+          "exact_url": true
+        }
+      ],
+      "english": [
+        {
+          "original_line": {
+            "text": "https://k3be78.example/info?ref=B5i41",
+            "confidence": 0.9968489408493042,
+            "polygon": [
+              [
+                24.0,
+                83.0
+              ],
+              [
+                296.0,
+                82.0
+              ],
+              [
+                296.0,
+                102.0
+              ],
+              [
+                24.0,
+                103.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://k3be78.example/info?ref=B5i41",
+              "confidence": 0.9879274964332581,
+              "urls": [
+                "https://k3be78.example/info?ref=B5i41"
+              ],
+              "exact_url": true,
+              "seconds": 0.2797427999998945
+            },
+            {
+              "text": "https://k3be78.example/info?ref=B5i41",
+              "confidence": 0.9973942637443542,
+              "urls": [
+                "https://k3be78.example/info?ref=B5i41"
+              ],
+              "exact_url": true,
+              "seconds": 0.30294250000042666
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6d6c21dc521dc4218907",
+      "image": "6d6c21dc521dc4218907.png",
+      "url": "https://c78e49.example/entry?ref=P1d96",
+      "language": "kk",
+      "font_size": 30,
+      "style": "dark",
+      "caption": "Деректі тексеріңіз. Сілтеме төменде.",
+      "provenance": "author_synthetic_development",
+      "base": {
+        "text": "Деректі тексеріңіз. Сілтеме төменде.\nhttps://c78e49.example/entry?ref=P1d96",
+        "urls": [
+          "https://c78e49.example/entry?ref=P1d96"
+        ],
+        "exact_url": true,
+        "seconds": 1.3032533999999032,
+        "lines": [
+          {
+            "text": "Деректі тексеріңіз. Сілтеме төменде.",
+            "confidence": 0.997040867805481,
+            "polygon": [
+              [
+                22.0,
+                22.0
+              ],
+              [
+                546.0,
+                22.0
+              ],
+              [
+                546.0,
+                59.0
+              ],
+              [
+                22.0,
+                59.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": false,
+            "warnings": []
+          },
+          {
+            "text": "https://c78e49.example/entry?ref=P1d96",
+            "confidence": 0.9879639148712158,
+            "polygon": [
+              [
+                23.0,
+                86.0
+              ],
+              [
+                571.0,
+                84.0
+              ],
+              [
+                571.0,
+                120.0
+              ],
+              [
+                23.0,
+                122.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_lines": [
+          {
+            "text": "Деректі тексеріңіз. Сілтеме төменде.",
+            "confidence": 0.997040867805481,
+            "polygon": [
+              [
+                22.0,
+                22.0
+              ],
+              [
+                546.0,
+                22.0
+              ],
+              [
+                546.0,
+                59.0
+              ],
+              [
+                22.0,
+                59.0
+              ]
+            ]
+          },
+          {
+            "text": "https://c78e49.example/entry?ref=P1d96",
+            "confidence": 0.9879639148712158,
+            "polygon": [
+              [
+                23.0,
+                86.0
+              ],
+              [
+                571.0,
+                84.0
+              ],
+              [
+                571.0,
+                120.0
+              ],
+              [
+                23.0,
+                122.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0
+      },
+      "full_scale2": {
+        "text": "Деректі тексеріңіз. Сілтеме төменде.\nhttps://c78e49.example/entry?ref=P1d96",
+        "quality": {
+          "characters": 62,
+          "mean_confidence": 0.9984755218029022,
+          "score": 61.717039417027564,
+          "vertical_fraction": 0.0
+        },
+        "exact_url": true,
+        "seconds": 2.050585100000262
+      },
+      "crops_scale2": [
+        {
+          "text": "https://c78e49.example/entry?ref=P1d96",
+          "quality": {
+            "characters": 31,
+            "mean_confidence": 0.9926313161849976,
+            "score": 30.319749669678504,
+            "vertical_fraction": 0.0
+          },
+          "exact_url": true
+        }
+      ],
+      "english": [
+        {
+          "original_line": {
+            "text": "https://c78e49.example/entry?ref=P1d96",
+            "confidence": 0.9879639148712158,
+            "polygon": [
+              [
+                23.0,
+                86.0
+              ],
+              [
+                571.0,
+                84.0
+              ],
+              [
+                571.0,
+                120.0
+              ],
+              [
+                23.0,
+                122.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://c78e49.example/entry?ref=P1d96",
+              "confidence": 0.9757153391838074,
+              "urls": [
+                "https://c78e49.example/entry?ref=P1d96"
+              ],
+              "exact_url": true,
+              "seconds": 0.33299680000027365
+            },
+            {
+              "text": "https://c78e49.example/entry?ref=P1d96",
+              "confidence": 0.9821674227714539,
+              "urls": [
+                "https://c78e49.example/entry?ref=P1d96"
+              ],
+              "exact_url": true,
+              "seconds": 0.3681661999999051
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4748b217be5485ebcc31",
+      "image": "4748b217be5485ebcc31.png",
+      "url": "https://w6a3e2.example/tutorial?ref=L9q34",
+      "language": "ru",
+      "font_size": 26,
+      "style": "plain",
+      "caption": "Играй бесплатно, переходи к инструкции.",
+      "provenance": "author_synthetic_development",
+      "base": {
+        "text": "Играй бесплатно, переходи к инструкции.\nhttps://w6a3e2.example/tutorial?ref=L9q34",
+        "urls": [
+          "https://w6a3e2.example/tutorial?ref=L9q34"
+        ],
+        "exact_url": true,
+        "seconds": 1.403390599999966,
+        "lines": [
+          {
+            "text": "Играй бесплатно, переходи к инструкции.",
+            "confidence": 0.9903756380081177,
+            "polygon": [
+              [
+                23.0,
+                21.0
+              ],
+              [
+                525.0,
+                23.0
+              ],
+              [
+                524.0,
+                53.0
+              ],
+              [
+                23.0,
+                50.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": false,
+            "warnings": []
+          },
+          {
+            "text": "https://w6a3e2.example/tutorial?ref=L9q34",
+            "confidence": 0.9996154308319092,
+            "polygon": [
+              [
+                24.0,
+                86.0
+              ],
+              [
+                507.0,
+                86.0
+              ],
+              [
+                507.0,
+                115.0
+              ],
+              [
+                24.0,
+                115.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_lines": [
+          {
+            "text": "Играй бесплатно, переходи к инструкции.",
+            "confidence": 0.9903756380081177,
+            "polygon": [
+              [
+                23.0,
+                21.0
+              ],
+              [
+                525.0,
+                23.0
+              ],
+              [
+                524.0,
+                53.0
+              ],
+              [
+                23.0,
+                50.0
+              ]
+            ]
+          },
+          {
+            "text": "https://w6a3e2.example/tutorial?ref=L9q34",
+            "confidence": 0.9996154308319092,
+            "polygon": [
+              [
+                24.0,
+                86.0
+              ],
+              [
+                507.0,
+                86.0
+              ],
+              [
+                507.0,
+                115.0
+              ],
+              [
+                24.0,
+                115.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0
+      },
+      "full_scale2": {
+        "text": "Играй бесплатно, переходи к инструкции.\nhttps://w6a3e2.example/tutorial?ref=L9q34",
+        "quality": {
+          "characters": 67,
+          "mean_confidence": 0.990289395424857,
+          "score": 65.08263154842994,
+          "vertical_fraction": 0.0
+        },
+        "exact_url": true,
+        "seconds": 2.117180599999756
+      },
+      "crops_scale2": [
+        {
+          "text": "https://w6a3e2.example/tutorial?ref=L9q34",
+          "quality": {
+            "characters": 34,
+            "mean_confidence": 0.9995720982551575,
+            "score": 33.95637269555233,
+            "vertical_fraction": 0.0
+          },
+          "exact_url": true
+        }
+      ],
+      "english": [
+        {
+          "original_line": {
+            "text": "https://w6a3e2.example/tutorial?ref=L9q34",
+            "confidence": 0.9996154308319092,
+            "polygon": [
+              [
+                24.0,
+                86.0
+              ],
+              [
+                507.0,
+                86.0
+              ],
+              [
+                507.0,
+                115.0
+              ],
+              [
+                24.0,
+                115.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://w6a3e2.example/tutorial?ref=L9q34",
+              "confidence": 0.9997855424880981,
+              "urls": [
+                "https://w6a3e2.example/tutorial?ref=L9q34"
+              ],
+              "exact_url": true,
+              "seconds": 0.4034391999998661
+            },
+            {
+              "text": "https://w6a3e2.example/tutorial?ref=L9q34",
+              "confidence": 0.9997890591621399,
+              "urls": [
+                "https://w6a3e2.example/tutorial?ref=L9q34"
+              ],
+              "exact_url": true,
+              "seconds": 0.41183230000024196
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1a6797ed7f4e5b35e487",
+      "image": "1a6797ed7f4e5b35e487.png",
+      "url": "https://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07",
+      "language": "ru",
+      "font_size": 29,
+      "style": "inline",
+      "caption": "Новая группа открыта, заходи по ссылке и получай бонус.",
+      "base": {
+        "text": "DЕМО. Новая группа открыта, заходи по ссылке и получай бонус.\nhttps://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07",
+        "lines": [
+          {
+            "text": "DЕМО. Новая группа открыта, заходи по ссылке и получай бонус.",
+            "confidence": 0.985955536365509,
+            "polygon": [
+              [
+                30.0,
+                28.0
+              ],
+              [
+                928.0,
+                29.0
+              ],
+              [
+                928.0,
+                67.0
+              ],
+              [
+                30.0,
+                66.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМО."
+            ]
+          },
+          {
+            "text": "https://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07",
+            "confidence": 0.9892778992652893,
+            "polygon": [
+              [
+                32.0,
+                77.0
+              ],
+              [
+                714.0,
+                76.0
+              ],
+              [
+                714.0,
+                109.0
+              ],
+              [
+                32.0,
+                110.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_text": "DЕМО. Новая группа открыта, заходи по ссылке и получай бонус.\nhttps://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07",
+        "raw_lines": [
+          {
+            "text": "DЕМО. Новая группа открыта, заходи по ссылке и получай бонус.",
+            "confidence": 0.985955536365509,
+            "polygon": [
+              [
+                30.0,
+                28.0
+              ],
+              [
+                928.0,
+                29.0
+              ],
+              [
+                928.0,
+                67.0
+              ],
+              [
+                30.0,
+                66.0
+              ]
+            ]
+          },
+          {
+            "text": "https://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07",
+            "confidence": 0.9892778992652893,
+            "polygon": [
+              [
+                32.0,
+                77.0
+              ],
+              [
+                714.0,
+                76.0
+              ],
+              [
+                714.0,
+                109.0
+              ],
+              [
+                32.0,
+                110.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 90,
+            "mean_confidence": 0.9874690572420756,
+            "score": 86.65959498213945,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1180,
+        "height": 191,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "urls": [
+          "https://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07"
+        ],
+        "exact_url": true,
+        "seconds": 3.8723068000003877
+      },
+      "english": [
+        {
+          "original_line": {
+            "text": "https://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07",
+            "confidence": 0.9892778992652893,
+            "polygon": [
+              [
+                32.0,
+                77.0
+              ],
+              [
+                714.0,
+                76.0
+              ],
+              [
+                714.0,
+                109.0
+              ],
+              [
+                32.0,
+                110.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07",
+              "confidence": 0.9978571534156799,
+              "urls": [
+                "https://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07"
+              ],
+              "exact_url": true,
+              "seconds": 0.475612799999908
+            },
+            {
+              "text": "https://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07",
+              "confidence": 0.9965447187423706,
+              "urls": [
+                "https://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07"
+              ],
+              "exact_url": true,
+              "seconds": 0.49238900000000285
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ed4acaaf275bd3267d10",
+      "image": "ed4acaaf275bd3267d10.png",
+      "url": "https://n82df64ae30.test/entry/ae3e681",
+      "language": "kk",
+      "font_size": 29,
+      "style": "inline",
+      "caption": "Кешкі ұсыныс бар: тіркеліп, сыйлық алыңыз.",
+      "base": {
+        "text": "DЕМO. Кешкі ұсыныс бар: тіркеліп, сыйлық алыңыз.\nhttps://n82df64ae30.test/entry/ae3e681",
+        "lines": [
+          {
+            "text": "DЕМO. Кешкі ұсыныс бар: тіркеліп, сыйлық алыңыз.",
+            "confidence": 0.9667611718177795,
+            "polygon": [
+              [
+                33.0,
+                29.0
+              ],
+              [
+                739.0,
+                32.0
+              ],
+              [
+                738.0,
+                63.0
+              ],
+              [
+                33.0,
+                60.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМO."
+            ]
+          },
+          {
+            "text": "https://n82df64ae30.test/entry/ae3e681",
+            "confidence": 0.997948169708252,
+            "polygon": [
+              [
+                32.0,
+                77.0
+              ],
+              [
+                535.0,
+                76.0
+              ],
+              [
+                535.0,
+                109.0
+              ],
+              [
+                32.0,
+                110.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_text": "DЕМO. Кешкі ұсыныс бар: тіркеліп, сыйлық алыңыз.\nhttps://n82df64ae30.test/entry/ae3e681",
+        "raw_lines": [
+          {
+            "text": "DЕМO. Кешкі ұсыныс бар: тіркеліп, сыйлық алыңыз.",
+            "confidence": 0.9667611718177795,
+            "polygon": [
+              [
+                33.0,
+                29.0
+              ],
+              [
+                739.0,
+                32.0
+              ],
+              [
+                738.0,
+                63.0
+              ],
+              [
+                33.0,
+                60.0
+              ]
+            ]
+          },
+          {
+            "text": "https://n82df64ae30.test/entry/ae3e681",
+            "confidence": 0.997948169708252,
+            "polygon": [
+              [
+                32.0,
+                77.0
+              ],
+              [
+                535.0,
+                76.0
+              ],
+              [
+                535.0,
+                109.0
+              ],
+              [
+                32.0,
+                110.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 70,
+            "mean_confidence": 0.9810180851391384,
+            "score": 66.1387557385366,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1180,
+        "height": 191,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "urls": [
+          "https://n82df64ae30.test/entry/ae3e681"
+        ],
+        "exact_url": true,
+        "seconds": 2.116010500000357
+      },
+      "english": [
+        {
+          "original_line": {
+            "text": "https://n82df64ae30.test/entry/ae3e681",
+            "confidence": 0.997948169708252,
+            "polygon": [
+              [
+                32.0,
+                77.0
+              ],
+              [
+                535.0,
+                76.0
+              ],
+              [
+                535.0,
+                109.0
+              ],
+              [
+                32.0,
+                110.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://n82df64ae30.test/entry/ae3e681",
+              "confidence": 0.9935196042060852,
+              "urls": [
+                "https://n82df64ae30.test/entry/ae3e681"
+              ],
+              "exact_url": true,
+              "seconds": 0.3404665999996723
+            },
+            {
+              "text": "https://n82df64ae30.test/entry/ae3e681",
+              "confidence": 0.9867094159126282,
+              "urls": [
+                "https://n82df64ae30.test/entry/ae3e681"
+              ],
+              "exact_url": true,
+              "seconds": 0.3303736000002573
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "80a46facac36772007da",
+      "image": "80a46facac36772007da.png",
+      "url": "https://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD",
+      "language": "mixed",
+      "font_size": 20,
+      "style": "inline",
+      "caption": "Достар, переходи в новый раздел, бонус ждёт.",
+      "base": {
+        "text": "DЕМО. Достар, переходи в новый раздел, бонус ждёт.\nhttps://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD",
+        "lines": [
+          {
+            "text": "DЕМО. Достар, переходи в новый раздел, бонус ждёт.",
+            "confidence": 0.9751516580581665,
+            "polygon": [
+              [
+                33.0,
+                29.0
+              ],
+              [
+                545.0,
+                29.0
+              ],
+              [
+                545.0,
+                53.0
+              ],
+              [
+                33.0,
+                53.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМО."
+            ]
+          },
+          {
+            "text": "https://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD",
+            "confidence": 0.9930598139762878,
+            "polygon": [
+              [
+                32.0,
+                76.0
+              ],
+              [
+                503.0,
+                75.0
+              ],
+              [
+                503.0,
+                98.0
+              ],
+              [
+                32.0,
+                99.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_text": "DЕМО. Достар, переходи в новый раздел, бонус ждёт.\nhttps://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD",
+        "raw_lines": [
+          {
+            "text": "DЕМО. Достар, переходи в новый раздел, бонус ждёт.",
+            "confidence": 0.9751516580581665,
+            "polygon": [
+              [
+                33.0,
+                29.0
+              ],
+              [
+                545.0,
+                29.0
+              ],
+              [
+                545.0,
+                53.0
+              ],
+              [
+                33.0,
+                53.0
+              ]
+            ]
+          },
+          {
+            "text": "https://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD",
+            "confidence": 0.9930598139762878,
+            "polygon": [
+              [
+                32.0,
+                76.0
+              ],
+              [
+                503.0,
+                75.0
+              ],
+              [
+                503.0,
+                98.0
+              ],
+              [
+                32.0,
+                99.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 80,
+            "mean_confidence": 0.9843295879662037,
+            "score": 76.31665398594274,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1180,
+        "height": 191,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "urls": [
+          "https://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD"
+        ],
+        "exact_url": true,
+        "seconds": 1.9595922000003156
+      },
+      "english": [
+        {
+          "original_line": {
+            "text": "https://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD",
+            "confidence": 0.9930598139762878,
+            "polygon": [
+              [
+                32.0,
+                76.0
+              ],
+              [
+                503.0,
+                75.0
+              ],
+              [
+                503.0,
+                98.0
+              ],
+              [
+                32.0,
+                99.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD",
+              "confidence": 0.9992979168891907,
+              "urls": [
+                "https://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD"
+              ],
+              "exact_url": true,
+              "seconds": 0.43506909999996424
+            },
+            {
+              "text": "https://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD",
+              "confidence": 0.9993586540222168,
+              "urls": [
+                "https://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD"
+              ],
+              "exact_url": true,
+              "seconds": 0.4440417000000707
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0c3e75618692f8201a63",
+      "image": "0c3e75618692f8201a63.png",
+      "url": "https://n5e9b3c7a61.test/entry/39ec28f",
+      "language": "ru",
+      "font_size": 26,
+      "style": "inline",
+      "caption": "Осторожно, не переходите: рекламная рассылка.",
+      "base": {
+        "text": "DЕМО. Осторожно, не переходите: рекламная рассылка.\nhttps://n5e9b3c7a61.test/entry/39ec28f",
+        "lines": [
+          {
+            "text": "DЕМО. Осторожно, не переходите: рекламная рассылка.",
+            "confidence": 0.9918023943901062,
+            "polygon": [
+              [
+                32.0,
+                28.0
+              ],
+              [
+                715.0,
+                30.0
+              ],
+              [
+                715.0,
+                60.0
+              ],
+              [
+                32.0,
+                58.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМО."
+            ]
+          },
+          {
+            "text": "https://n5e9b3c7a61.test/entry/39ec28f",
+            "confidence": 0.9995525479316711,
+            "polygon": [
+              [
+                33.0,
+                76.0
+              ],
+              [
+                472.0,
+                76.0
+              ],
+              [
+                472.0,
+                105.0
+              ],
+              [
+                33.0,
+                105.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_text": "DЕМО. Осторожно, не переходите: рекламная рассылка.\nhttps://n5e9b3c7a61.test/entry/39ec28f",
+        "raw_lines": [
+          {
+            "text": "DЕМО. Осторожно, не переходите: рекламная рассылка.",
+            "confidence": 0.9918023943901062,
+            "polygon": [
+              [
+                32.0,
+                28.0
+              ],
+              [
+                715.0,
+                30.0
+              ],
+              [
+                715.0,
+                60.0
+              ],
+              [
+                32.0,
+                58.0
+              ]
+            ]
+          },
+          {
+            "text": "https://n5e9b3c7a61.test/entry/39ec28f",
+            "confidence": 0.9995525479316711,
+            "polygon": [
+              [
+                33.0,
+                76.0
+              ],
+              [
+                472.0,
+                76.0
+              ],
+              [
+                472.0,
+                105.0
+              ],
+              [
+                33.0,
+                105.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 74,
+            "mean_confidence": 0.99515381213781,
+            "score": 72.93260966798758,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1180,
+        "height": 191,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "urls": [
+          "https://n5e9b3c7a61.test/entry/39ec28f"
+        ],
+        "exact_url": true,
+        "seconds": 2.173757199999727
+      },
+      "english": [
+        {
+          "original_line": {
+            "text": "https://n5e9b3c7a61.test/entry/39ec28f",
+            "confidence": 0.9995525479316711,
+            "polygon": [
+              [
+                33.0,
+                76.0
+              ],
+              [
+                472.0,
+                76.0
+              ],
+              [
+                472.0,
+                105.0
+              ],
+              [
+                33.0,
+                105.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://n5e9b3c7a61.test/entry/39ec28f",
+              "confidence": 0.9877555966377258,
+              "urls": [
+                "https://n5e9b3c7a61.test/entry/39ec28f"
+              ],
+              "exact_url": true,
+              "seconds": 0.33553840000013224
+            },
+            {
+              "text": "https://n5e9b3c7a61.test/entry/39ec28f",
+              "confidence": 0.9789848327636719,
+              "urls": [
+                "https://n5e9b3c7a61.test/entry/39ec28f"
+              ],
+              "exact_url": true,
+              "seconds": 0.3711137000000235
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10373a350f6b607d6d71",
+      "image": "10373a350f6b607d6d71.png",
+      "url": "https://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2",
+      "language": "kk",
+      "font_size": 24,
+      "style": "inline",
+      "caption": "Біздің мақалада мысал бар, бұл тек ескерту.",
+      "base": {
+        "text": "DEМО. Біздің мақалада мысал бар, бұл тек ескерту.\nhttps://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2",
+        "lines": [
+          {
+            "text": "DEМО. Біздің мақалада мысал бар, бұл тек ескерту.",
+            "confidence": 0.969050407409668,
+            "polygon": [
+              [
+                32.0,
+                28.0
+              ],
+              [
+                619.0,
+                30.0
+              ],
+              [
+                619.0,
+                57.0
+              ],
+              [
+                32.0,
+                55.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DEМО."
+            ]
+          },
+          {
+            "text": "https://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2",
+            "confidence": 0.9900377988815308,
+            "polygon": [
+              [
+                32.0,
+                76.0
+              ],
+              [
+                602.0,
+                75.0
+              ],
+              [
+                602.0,
+                102.0
+              ],
+              [
+                32.0,
+                103.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_text": "DEМО. Біздің мақалада мысал бар, бұл тек ескерту.\nhttps://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2",
+        "raw_lines": [
+          {
+            "text": "DEМО. Біздің мақалада мысал бар, бұл тек ескерту.",
+            "confidence": 0.969050407409668,
+            "polygon": [
+              [
+                32.0,
+                28.0
+              ],
+              [
+                619.0,
+                30.0
+              ],
+              [
+                619.0,
+                57.0
+              ],
+              [
+                32.0,
+                55.0
+              ]
+            ]
+          },
+          {
+            "text": "https://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2",
+            "confidence": 0.9900377988815308,
+            "polygon": [
+              [
+                32.0,
+                76.0
+              ],
+              [
+                602.0,
+                75.0
+              ],
+              [
+                602.0,
+                102.0
+              ],
+              [
+                32.0,
+                103.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 80,
+            "mean_confidence": 0.9798064455389977,
+            "score": 75.2766290344023,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1180,
+        "height": 191,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "urls": [
+          "https://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2"
+        ],
+        "exact_url": true,
+        "seconds": 2.161616800000047
+      },
+      "english": [
+        {
+          "original_line": {
+            "text": "https://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2",
+            "confidence": 0.9900377988815308,
+            "polygon": [
+              [
+                32.0,
+                76.0
+              ],
+              [
+                602.0,
+                75.0
+              ],
+              [
+                602.0,
+                102.0
+              ],
+              [
+                32.0,
+                103.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2",
+              "confidence": 0.9900111556053162,
+              "urls": [
+                "https://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2"
+              ],
+              "exact_url": true,
+              "seconds": 0.5032606999998279
+            },
+            {
+              "text": "https://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2",
+              "confidence": 0.9878750443458557,
+              "urls": [
+                "https://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2"
+              ],
+              "exact_url": true,
+              "seconds": 0.508640000000014
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8c271c99d4df1f33b0a6",
+      "image": "8c271c99d4df1f33b0a6.png",
+      "url": "https://n7c15e8d2a4.test/entry/e1b6c93",
+      "language": "mixed",
+      "font_size": 29,
+      "style": "inline",
+      "caption": "Кешке қосыл, подарок участнику внутри.",
+      "base": {
+        "text": "DЕМО. Кешке қосыл, подарок участнику внутри.\nhttps://n7c15e8d2a4.test/entry/e1b6c93",
+        "lines": [
+          {
+            "text": "DЕМО. Кешке қосыл, подарок участнику внутри.",
+            "confidence": 0.9863882064819336,
+            "polygon": [
+              [
+                31.0,
+                28.0
+              ],
+              [
+                686.0,
+                33.0
+              ],
+              [
+                685.0,
+                67.0
+              ],
+              [
+                31.0,
+                62.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМО."
+            ]
+          },
+          {
+            "text": "https://n7c15e8d2a4.test/entry/e1b6c93",
+            "confidence": 0.9995426535606384,
+            "polygon": [
+              [
+                32.0,
+                78.0
+              ],
+              [
+                543.0,
+                78.0
+              ],
+              [
+                543.0,
+                111.0
+              ],
+              [
+                32.0,
+                111.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_text": "DЕМО. Кешке қосыл, подарок участнику внутри.\nhttps://n7c15e8d2a4.test/entry/e1b6c93",
+        "raw_lines": [
+          {
+            "text": "DЕМО. Кешке қосыл, подарок участнику внутри.",
+            "confidence": 0.9863882064819336,
+            "polygon": [
+              [
+                31.0,
+                28.0
+              ],
+              [
+                686.0,
+                33.0
+              ],
+              [
+                685.0,
+                67.0
+              ],
+              [
+                31.0,
+                62.0
+              ]
+            ]
+          },
+          {
+            "text": "https://n7c15e8d2a4.test/entry/e1b6c93",
+            "confidence": 0.9995426535606384,
+            "polygon": [
+              [
+                32.0,
+                78.0
+              ],
+              [
+                543.0,
+                78.0
+              ],
+              [
+                543.0,
+                111.0
+              ],
+              [
+                32.0,
+                111.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 68,
+            "mean_confidence": 0.9925785345189712,
+            "score": 66.50596066617864,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1180,
+        "height": 191,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "urls": [
+          "https://n7c15e8d2a4.test/entry/e1b6c93"
+        ],
+        "exact_url": true,
+        "seconds": 1.9288197999999284
+      },
+      "english": [
+        {
+          "original_line": {
+            "text": "https://n7c15e8d2a4.test/entry/e1b6c93",
+            "confidence": 0.9995426535606384,
+            "polygon": [
+              [
+                32.0,
+                78.0
+              ],
+              [
+                543.0,
+                78.0
+              ],
+              [
+                543.0,
+                111.0
+              ],
+              [
+                32.0,
+                111.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://n7c15e8d2a4.test/entry/e1b6c93",
+              "confidence": 0.9836195707321167,
+              "urls": [
+                "https://n7c15e8d2a4.test/entry/e1b6c93"
+              ],
+              "exact_url": true,
+              "seconds": 0.3714367000002312
+            },
+            {
+              "text": "https://n7c15e8d2a4.test/entry/e1b6c93",
+              "confidence": 0.9903140068054199,
+              "urls": [
+                "https://n7c15e8d2a4.test/entry/e1b6c93"
+              ],
+              "exact_url": true,
+              "seconds": 0.36096950000001016
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7c7f81759fd80e60cd18",
+      "image": "7c7f81759fd80e60cd18.png",
+      "url": "https://n92de84ac10.test/item/7e430bc?ref=F1D3E87",
+      "language": "ru",
+      "font_size": 29,
+      "style": "inline",
+      "caption": "Нажимай на приглашение, активируй код.",
+      "base": {
+        "text": "DЕМО. Нажимай на приглашение, активируй код.\nhttps://n92de84ac10.test/item/7e430bc?ref=F1D3E87",
+        "lines": [
+          {
+            "text": "DЕМО. Нажимай на приглашение, активируй код.",
+            "confidence": 0.9765205979347229,
+            "polygon": [
+              [
+                31.0,
+                28.0
+              ],
+              [
+                702.0,
+                32.0
+              ],
+              [
+                701.0,
+                65.0
+              ],
+              [
+                31.0,
+                61.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМО."
+            ]
+          },
+          {
+            "text": "https://n92de84ac10.test/item/7e430bc?ref=F1D3E87",
+            "confidence": 0.9957662224769592,
+            "polygon": [
+              [
+                32.0,
+                78.0
+              ],
+              [
+                720.0,
+                77.0
+              ],
+              [
+                720.0,
+                107.0
+              ],
+              [
+                32.0,
+                108.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_text": "DЕМО. Нажимай на приглашение, активируй код.\nhttps://n92de84ac10.test/item/7e430bc?ref=F1D3E87",
+        "raw_lines": [
+          {
+            "text": "DЕМО. Нажимай на приглашение, активируй код.",
+            "confidence": 0.9765205979347229,
+            "polygon": [
+              [
+                31.0,
+                28.0
+              ],
+              [
+                702.0,
+                32.0
+              ],
+              [
+                701.0,
+                65.0
+              ],
+              [
+                31.0,
+                61.0
+              ]
+            ]
+          },
+          {
+            "text": "https://n92de84ac10.test/item/7e430bc?ref=F1D3E87",
+            "confidence": 0.9957662224769592,
+            "polygon": [
+              [
+                32.0,
+                78.0
+              ],
+              [
+                720.0,
+                77.0
+              ],
+              [
+                720.0,
+                107.0
+              ],
+              [
+                32.0,
+                108.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 77,
+            "mean_confidence": 0.9867682681455241,
+            "score": 74.00474410405057,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1180,
+        "height": 191,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "urls": [
+          "https://n92de84ac10.test/item/7e430bc?ref=F1D3E87"
+        ],
+        "exact_url": true,
+        "seconds": 2.298166599999604
+      },
+      "english": [
+        {
+          "original_line": {
+            "text": "https://n92de84ac10.test/item/7e430bc?ref=F1D3E87",
+            "confidence": 0.9957662224769592,
+            "polygon": [
+              [
+                32.0,
+                78.0
+              ],
+              [
+                720.0,
+                77.0
+              ],
+              [
+                720.0,
+                107.0
+              ],
+              [
+                32.0,
+                108.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://n92de84ac10.test/item/7e430bc?ref=F1D3E87",
+              "confidence": 0.9990725517272949,
+              "urls": [
+                "https://n92de84ac10.test/item/7e430bc?ref=F1D3E87"
+              ],
+              "exact_url": true,
+              "seconds": 0.5318498999999974
+            },
+            {
+              "text": "https://n92de84ac10.test/item/7e430bc?ref=F1D3E87",
+              "confidence": 0.9990512132644653,
+              "urls": [
+                "https://n92de84ac10.test/item/7e430bc?ref=F1D3E87"
+              ],
+              "exact_url": true,
+              "seconds": 0.5419905999997354
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39f4690418a0f3591479",
+      "image": "39f4690418a0f3591479.png",
+      "url": "https://n1e730f4ab6.test/entry/5ce29d8",
+      "language": "kk",
+      "font_size": 20,
+      "style": "inline",
+      "caption": "Құпия клубқа қосыл, мәлімет жеке бетте.",
+      "base": {
+        "text": "DЕМО. Құпия клубқа қосыл, мәлімет жеке бетте.\nhttps://n1e730f4ab6.test/entry/5ce29d8",
+        "lines": [
+          {
+            "text": "DЕМО. Құпия клубқа қосыл, мәлімет жеке бетте.",
+            "confidence": 0.9614405035972595,
+            "polygon": [
+              [
+                34.0,
+                27.0
+              ],
+              [
+                488.0,
+                27.0
+              ],
+              [
+                488.0,
+                51.0
+              ],
+              [
+                34.0,
+                51.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМО."
+            ]
+          },
+          {
+            "text": "https://n1e730f4ab6.test/entry/5ce29d8",
+            "confidence": 0.9951463937759399,
+            "polygon": [
+              [
+                32.0,
+                76.0
+              ],
+              [
+                385.0,
+                75.0
+              ],
+              [
+                385.0,
+                98.0
+              ],
+              [
+                32.0,
+                100.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_text": "DЕМО. Құпия клубқа қосыл, мәлімет жеке бетте.\nhttps://n1e730f4ab6.test/entry/5ce29d8",
+        "raw_lines": [
+          {
+            "text": "DЕМО. Құпия клубқа қосыл, мәлімет жеке бетте.",
+            "confidence": 0.9614405035972595,
+            "polygon": [
+              [
+                34.0,
+                27.0
+              ],
+              [
+                488.0,
+                27.0
+              ],
+              [
+                488.0,
+                51.0
+              ],
+              [
+                34.0,
+                51.0
+              ]
+            ]
+          },
+          {
+            "text": "https://n1e730f4ab6.test/entry/5ce29d8",
+            "confidence": 0.9951463937759399,
+            "polygon": [
+              [
+                32.0,
+                76.0
+              ],
+              [
+                385.0,
+                75.0
+              ],
+              [
+                385.0,
+                98.0
+              ],
+              [
+                32.0,
+                100.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 68,
+            "mean_confidence": 0.977302098975462,
+            "score": 63.530400268314246,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1180,
+        "height": 191,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "urls": [
+          "https://n1e730f4ab6.test/entry/5ce29d8"
+        ],
+        "exact_url": true,
+        "seconds": 2.0473563999998987
+      },
+      "english": [
+        {
+          "original_line": {
+            "text": "https://n1e730f4ab6.test/entry/5ce29d8",
+            "confidence": 0.9951463937759399,
+            "polygon": [
+              [
+                32.0,
+                76.0
+              ],
+              [
+                385.0,
+                75.0
+              ],
+              [
+                385.0,
+                98.0
+              ],
+              [
+                32.0,
+                100.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://n1e730f4ab6.test/entry/5ce29d8",
+              "confidence": 0.9836140871047974,
+              "urls": [
+                "https://n1e730f4ab6.test/entry/5ce29d8"
+              ],
+              "exact_url": true,
+              "seconds": 0.31566579999980604
+            },
+            {
+              "text": "https://n1e730f4ab6.test/entry/5ce29d8",
+              "confidence": 0.999748945236206,
+              "urls": [
+                "https://n1e730f4ab6.test/entry/5ce29d8"
+              ],
+              "exact_url": true,
+              "seconds": 0.31303710000020146
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ae390b0fe510bb919867",
+      "image": "ae390b0fe510bb919867.png",
+      "url": "https://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1",
+      "language": "mixed",
+      "font_size": 29,
+      "style": "inline",
+      "caption": "Қауіпсіздік: не регистрируйтесь по этому адресу.",
+      "base": {
+        "text": "DЕМО. Қауіпсіздік: не регистрируйтесь по этому адресу.\nhttps://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1",
+        "lines": [
+          {
+            "text": "DЕМО. Қауіпсіздік: не регистрируйтесь по этому адресу.",
+            "confidence": 0.9832368493080139,
+            "polygon": [
+              [
+                32.0,
+                28.0
+              ],
+              [
+                795.0,
+                32.0
+              ],
+              [
+                795.0,
+                66.0
+              ],
+              [
+                32.0,
+                62.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМО."
+            ]
+          },
+          {
+            "text": "https://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1",
+            "confidence": 0.9985751509666443,
+            "polygon": [
+              [
+                33.0,
+                78.0
+              ],
+              [
+                719.0,
+                77.0
+              ],
+              [
+                719.0,
+                107.0
+              ],
+              [
+                33.0,
+                108.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_text": "DЕМО. Қауіпсіздік: не регистрируйтесь по этому адресу.\nhttps://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1",
+        "raw_lines": [
+          {
+            "text": "DЕМО. Қауіпсіздік: не регистрируйтесь по этому адресу.",
+            "confidence": 0.9832368493080139,
+            "polygon": [
+              [
+                32.0,
+                28.0
+              ],
+              [
+                795.0,
+                32.0
+              ],
+              [
+                795.0,
+                66.0
+              ],
+              [
+                32.0,
+                62.0
+              ]
+            ]
+          },
+          {
+            "text": "https://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1",
+            "confidence": 0.9985751509666443,
+            "polygon": [
+              [
+                33.0,
+                78.0
+              ],
+              [
+                719.0,
+                77.0
+              ],
+              [
+                719.0,
+                107.0
+              ],
+              [
+                33.0,
+                108.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 86,
+            "mean_confidence": 0.9905492954475935,
+            "score": 83.59969128321518,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1180,
+        "height": 191,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "urls": [
+          "https://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1"
+        ],
+        "exact_url": true,
+        "seconds": 2.1294332000002214
+      },
+      "english": [
+        {
+          "original_line": {
+            "text": "https://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1",
+            "confidence": 0.9985751509666443,
+            "polygon": [
+              [
+                33.0,
+                78.0
+              ],
+              [
+                719.0,
+                77.0
+              ],
+              [
+                719.0,
+                107.0
+              ],
+              [
+                33.0,
+                108.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1",
+              "confidence": 0.994414210319519,
+              "urls": [
+                "https://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1"
+              ],
+              "exact_url": true,
+              "seconds": 0.5604599999996935
+            },
+            {
+              "text": "https://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1",
+              "confidence": 0.9966049194335938,
+              "urls": [
+                "https://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1"
+              ],
+              "exact_url": true,
+              "seconds": 0.5322879999998804
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "be47cd38796dde7497b1",
+      "image": "be47cd38796dde7497b1.png",
+      "url": "https://n8e274bc6d0.test/entry/7a1ee94",
+      "language": "ru",
+      "font_size": 22,
+      "style": "inline",
+      "caption": "Пример адреса из статьи о мошеннических письмах.",
+      "base": {
+        "text": "DЕМО. Пример адреса из статьи о мошеннических письмах.\nhttps://n8e274bc6d0.test/entry/7a1ee94",
+        "lines": [
+          {
+            "text": "DЕМО. Пример адреса из статьи о мошеннических письмах.",
+            "confidence": 0.9769222140312195,
+            "polygon": [
+              [
+                34.0,
+                30.0
+              ],
+              [
+                649.0,
+                30.0
+              ],
+              [
+                649.0,
+                53.0
+              ],
+              [
+                34.0,
+                53.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМО."
+            ]
+          },
+          {
+            "text": "https://n8e274bc6d0.test/entry/7a1ee94",
+            "confidence": 0.9991269111633301,
+            "polygon": [
+              [
+                34.0,
+                77.0
+              ],
+              [
+                415.0,
+                77.0
+              ],
+              [
+                415.0,
+                100.0
+              ],
+              [
+                34.0,
+                100.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_text": "DЕМО. Пример адреса из статьи о мошеннических письмах.\nhttps://n8e274bc6d0.test/entry/7a1ee94",
+        "raw_lines": [
+          {
+            "text": "DЕМО. Пример адреса из статьи о мошеннических письмах.",
+            "confidence": 0.9769222140312195,
+            "polygon": [
+              [
+                34.0,
+                30.0
+              ],
+              [
+                649.0,
+                30.0
+              ],
+              [
+                649.0,
+                53.0
+              ],
+              [
+                34.0,
+                53.0
+              ]
+            ]
+          },
+          {
+            "text": "https://n8e274bc6d0.test/entry/7a1ee94",
+            "confidence": 0.9991269111633301,
+            "polygon": [
+              [
+                34.0,
+                77.0
+              ],
+              [
+                415.0,
+                77.0
+              ],
+              [
+                415.0,
+                100.0
+              ],
+              [
+                34.0,
+                100.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 77,
+            "mean_confidence": 0.9861501401120966,
+            "score": 73.87210130268357,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1180,
+        "height": 191,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "urls": [
+          "https://n8e274bc6d0.test/entry/7a1ee94"
+        ],
+        "exact_url": true,
+        "seconds": 2.4670695999998316
+      },
+      "english": [
+        {
+          "original_line": {
+            "text": "https://n8e274bc6d0.test/entry/7a1ee94",
+            "confidence": 0.9991269111633301,
+            "polygon": [
+              [
+                34.0,
+                77.0
+              ],
+              [
+                415.0,
+                77.0
+              ],
+              [
+                415.0,
+                100.0
+              ],
+              [
+                34.0,
+                100.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://n8e274bc6d0.test/entry/7a1ee94",
+              "confidence": 0.9859656095504761,
+              "urls": [
+                "https://n8e274bc6d0.test/entry/7a1ee94"
+              ],
+              "exact_url": true,
+              "seconds": 0.3564496999997573
+            },
+            {
+              "text": "https://n8e274bc6d0.test/entry/7a1ee94",
+              "confidence": 0.9862103462219238,
+              "urls": [
+                "https://n8e274bc6d0.test/entry/7a1ee94"
+              ],
+              "exact_url": true,
+              "seconds": 0.3885597000003145
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "71fc89db8cf5062ff9ff",
+      "image": "71fc89db8cf5062ff9ff.png",
+      "url": "https://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4",
+      "language": "kk",
+      "font_size": 27,
+      "style": "inline",
+      "caption": "Сілтемеге өтіңіз де жаңа бонус алыңыз.",
+      "base": {
+        "text": "DEМO. Сілтемеге өтіңіз де жаңа бонус алыңыз.\nhttps://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4",
+        "lines": [
+          {
+            "text": "DEМO. Сілтемеге өтіңіз де жаңа бонус алыңыз.",
+            "confidence": 0.96603924036026,
+            "polygon": [
+              [
+                32.0,
+                27.0
+              ],
+              [
+                635.0,
+                30.0
+              ],
+              [
+                635.0,
+                60.0
+              ],
+              [
+                32.0,
+                57.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DEМO."
+            ]
+          },
+          {
+            "text": "https://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4",
+            "confidence": 0.9897559881210327,
+            "polygon": [
+              [
+                33.0,
+                77.0
+              ],
+              [
+                687.0,
+                77.0
+              ],
+              [
+                687.0,
+                106.0
+              ],
+              [
+                33.0,
+                106.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": []
+          }
+        ],
+        "raw_text": "DEМO. Сілтемеге өтіңіз де жаңа бонус алыңыз.\nhttps://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4",
+        "raw_lines": [
+          {
+            "text": "DEМO. Сілтемеге өтіңіз де жаңа бонус алыңыз.",
+            "confidence": 0.96603924036026,
+            "polygon": [
+              [
+                32.0,
+                27.0
+              ],
+              [
+                635.0,
+                30.0
+              ],
+              [
+                635.0,
+                60.0
+              ],
+              [
+                32.0,
+                57.0
+              ]
+            ]
+          },
+          {
+            "text": "https://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4",
+            "confidence": 0.9897559881210327,
+            "polygon": [
+              [
+                33.0,
+                77.0
+              ],
+              [
+                687.0,
+                77.0
+              ],
+              [
+                687.0,
+                106.0
+              ],
+              [
+                33.0,
+                106.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 77,
+            "mean_confidence": 0.9786676385185935,
+            "score": 72.20823795000199,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1180,
+        "height": 191,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "urls": [
+          "https://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4"
+        ],
+        "exact_url": true,
+        "seconds": 2.1678313000002163
+      },
+      "english": [
+        {
+          "original_line": {
+            "text": "https://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4",
+            "confidence": 0.9897559881210327,
+            "polygon": [
+              [
+                33.0,
+                77.0
+              ],
+              [
+                687.0,
+                77.0
+              ],
+              [
+                687.0,
+                106.0
+              ],
+              [
+                33.0,
+                106.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4",
+              "confidence": 0.999642014503479,
+              "urls": [
+                "https://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4"
+              ],
+              "exact_url": true,
+              "seconds": 0.5079729999997653
+            },
+            {
+              "text": "https://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4",
+              "confidence": 0.9996452927589417,
+              "urls": [
+                "https://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4"
+              ],
+              "exact_url": true,
+              "seconds": 0.5033472999998594
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "64405907e1f8e69226df",
+      "image": "64405907e1f8e69226df.png",
+      "url": "https://n48a2d37ce1.test/мақала?ref=N7e32",
+      "language": "mixed",
+      "font_size": 26,
+      "style": "inline",
+      "caption": "Бұл — пример международного пути, сохраните адрес.",
+      "base": {
+        "text": "DЕМО. Бұл — пример международного пути, сохраните адрес.\nhttps://n48a2d37ce1.test/мақала?ref=N7e32",
+        "lines": [
+          {
+            "text": "DЕМО. Бұл — пример международного пути, сохраните адрес.",
+            "confidence": 0.9918621778488159,
+            "polygon": [
+              [
+                31.0,
+                27.0
+              ],
+              [
+                788.0,
+                30.0
+              ],
+              [
+                788.0,
+                63.0
+              ],
+              [
+                31.0,
+                60.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМО."
+            ]
+          },
+          {
+            "text": "https://n48a2d37ce1.test/мақала?ref=N7e32",
+            "confidence": 0.9853973388671875,
+            "polygon": [
+              [
+                33.0,
+                77.0
+              ],
+              [
+                539.0,
+                77.0
+              ],
+              [
+                539.0,
+                106.0
+              ],
+              [
+                33.0,
+                106.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: https://n48a2d37ce1.test/мақала?ref=N7e32"
+            ]
+          }
+        ],
+        "raw_text": "DЕМО. Бұл — пример международного пути, сохраните адрес.\nhttps://n48a2d37ce1.test/мақала?ref=N7e32",
+        "raw_lines": [
+          {
+            "text": "DЕМО. Бұл — пример международного пути, сохраните адрес.",
+            "confidence": 0.9918621778488159,
+            "polygon": [
+              [
+                31.0,
+                27.0
+              ],
+              [
+                788.0,
+                30.0
+              ],
+              [
+                788.0,
+                63.0
+              ],
+              [
+                31.0,
+                60.0
+              ]
+            ]
+          },
+          {
+            "text": "https://n48a2d37ce1.test/мақала?ref=N7e32",
+            "confidence": 0.9853973388671875,
+            "polygon": [
+              [
+                33.0,
+                77.0
+              ],
+              [
+                539.0,
+                77.0
+              ],
+              [
+                539.0,
+                106.0
+              ],
+              [
+                33.0,
+                106.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 79,
+            "mean_confidence": 0.9890798420845708,
+            "score": 76.44248295893826,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1180,
+        "height": 191,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "urls": [
+          "https://n48a2d37ce1.test/мақала?ref=N7e32"
+        ],
+        "exact_url": true,
+        "seconds": 2.2830141999997977
+      },
+      "english": [
+        {
+          "original_line": {
+            "text": "https://n48a2d37ce1.test/мақала?ref=N7e32",
+            "confidence": 0.9853973388671875,
+            "polygon": [
+              [
+                33.0,
+                77.0
+              ],
+              [
+                539.0,
+                77.0
+              ],
+              [
+                539.0,
+                106.0
+              ],
+              [
+                33.0,
+                106.0
+              ]
+            ]
+          },
+          "attempts": [
+            {
+              "text": "https://n48a2d37ce1.test/makaJa?ref=N7e32",
+              "confidence": 0.9653283357620239,
+              "urls": [
+                "https://n48a2d37ce1.test/makaJa?ref=N7e32"
+              ],
+              "exact_url": false,
+              "seconds": 0.40519640000002255
+            },
+            {
+              "text": "https://n48a2d37ce1.test/makaJa?ref=N7e32",
+              "confidence": 0.9774161577224731,
+              "urls": [
+                "https://n48a2d37ce1.test/makaJa?ref=N7e32"
+              ],
+              "exact_url": false,
+              "seconds": 0.41621340000028795
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "pptx": {
+    "path": "deliverables\\SafeTrace-KZ-defense-v4.pptx",
+    "sha256": "6a65ae76caa035b5c5a6e8092c3b5e6575f70acee57498e53054651213f19782",
+    "slides_visually_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "receipt": "tmp/defense-v4/validation-r3.json",
+    "slide_3_native_crop_verified": true
+  },
+  "pdf": {
+    "path": "output/pdf/SafeTrace-KZ-report-v4.pdf",
+    "sha256": "5e4fa0ecb52ba8d563ab3a5328fa0d28ded7b018b3ce0ab9c8baebaf7b67a60f",
+    "pages_visually_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_sha256": "e145818a2e4b261223c69bab4ae4cd01fc679275dbbe7eab465b3d44fcfe8720",
+    "revision": "Clarified preserved HTTP extracted text and hash; full body not retained. All five rerendered pages reviewed."
+  }
+}

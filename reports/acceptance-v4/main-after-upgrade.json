@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "before_equals_after": true,
+  "snapshot": {
+    "tables": {
+      "cases": {
+        "n": 21,
+        "sha256": "27ee659bdf4eae393491752c2f0aed8b0c86dbbd38d507aa26ec8a618b92279e"
+      },
+      "decisions": {
+        "n": 7,
+        "sha256": "61ed030609325e5ec821c988b70aa3c9cae077724f4ca4409ee51c1be6addcf9"
+      },
+      "cache": {
+        "n": 7,
+        "sha256": "aa52df98ab7b762929803d10a15e81fa159666470121c4787d9bec7a68e50f34"
+      }
+    },
+    "originals": {
+      "1906ed135669470fba82967471de8c10.png": "eb842c457c0b2a94f0a888ab845124302b0b1446ea43fa9c7acf4ea98c43d199",
+      "1f3fa63aa15f4765a95fdd76731343c7.png": "c82dc13402b24b43afa87eb13b56d894e325712e957572419576e4c1b050aaa8",
+      "5130750d32dd40fcbf2f1340905aee9f.png": "0205ed7750507f16890340da43a193450d0395bde7deb9423024929173a0092f",
+      "89dac380e91a4ee29479ae173f179e05.png": "7118af9a7062e6981f83cdd2b37283daaff23ced7e0090f732c1fff61320bd52",
+      "9bd6cd6c037041b48530eff40ec168bd.png": "eb842c457c0b2a94f0a888ab845124302b0b1446ea43fa9c7acf4ea98c43d199",
+      "b550c48813e04fcaa0682f1b723c17f5.png": "c82dc13402b24b43afa87eb13b56d894e325712e957572419576e4c1b050aaa8",
+      "f111272ed93345d19435a9e9a3b73e3e.png": "c82dc13402b24b43afa87eb13b56d894e325712e957572419576e4c1b050aaa8"
+    }
+  },
+  "health": {
+    "status": "ok",
+    "app_version": "2.2.1",
+    "versions": {
+      "rules": "rules-4.0",
+      "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+      "qr": "qr-1.0",
+      "pipeline": "pipeline-2.2.1"
+    },
+    "provider_available": false,
+    "model": "gemini-3.8-flash",
+    "offline": true,
+    "allowed_hosts": [],
+    "ocr_installed": true,
+    "local_mode": "OCR + правила + разрешенные переходы; ограниченное понимание контекста"
+  }
+}

@@ -1,0 +1,672 @@
+{
+  "id": "92980db3946d44939d20c937f726cc8a",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:52:24.238064+00:00",
+  "status": "partial",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "",
+      "url": "",
+      "source": "DEMO · материал 3c7772",
+      "published_at": null,
+      "image_id": "bf8571872ae29875d6dbe41261398077.png",
+      "id": "bb0bf92fb62740c7a2300e30c3c78e34",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "bf8571872ae29875d6dbe41261398077b6bfe2ff301d422c640db8df8426fcca",
+      "source_evidence_id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e1",
+      "normalized_text": "",
+      "ocr": {
+        "text": "DЕМО. Для подписчиков оставили отдельный проход. Жми на приглашение и активируй бонус\nновичка: https://k114950d3e5.test/шақыру/909ea5?ref=T267C244",
+        "lines": [
+          {
+            "text": "DЕМО. Для подписчиков оставили отдельный проход. Жми на приглашение и активируй бонус",
+            "confidence": 0.9903960227966309,
+            "polygon": [
+              [
+                28.0,
+                23.0
+              ],
+              [
+                924.0,
+                26.0
+              ],
+              [
+                924.0,
+                51.0
+              ],
+              [
+                28.0,
+                49.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМО."
+            ],
+            "evidence_id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e2"
+          },
+          {
+            "text": "новичка: https://k114950d3e5.test/шақыру/909ea5?ref=T267C244",
+            "confidence": 0.9846232533454895,
+            "polygon": [
+              [
+                27.0,
+                60.0
+              ],
+              [
+                626.0,
+                58.0
+              ],
+              [
+                626.0,
+                84.0
+              ],
+              [
+                27.0,
+                85.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: https://k114950d3e5.test/шақыру/909ea5?ref=T267C244"
+            ],
+            "evidence_id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e3"
+          }
+        ],
+        "raw_text": "DЕМО. Для подписчиков оставили отдельный проход. Жми на приглашение и активируй бонус\nновичка: https://k114950d3e5.test/шақыру/909ea5?ref=T267C244",
+        "raw_lines": [
+          {
+            "text": "DЕМО. Для подписчиков оставили отдельный проход. Жми на приглашение и активируй бонус",
+            "confidence": 0.9903960227966309,
+            "polygon": [
+              [
+                28.0,
+                23.0
+              ],
+              [
+                924.0,
+                26.0
+              ],
+              [
+                924.0,
+                51.0
+              ],
+              [
+                28.0,
+                49.0
+              ]
+            ]
+          },
+          {
+            "text": "новичка: https://k114950d3e5.test/шақыру/909ea5?ref=T267C244",
+            "confidence": 0.9846232533454895,
+            "polygon": [
+              [
+                27.0,
+                60.0
+              ],
+              [
+                626.0,
+                58.0
+              ],
+              [
+                626.0,
+                84.0
+              ],
+              [
+                27.0,
+                85.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 122,
+            "mean_confidence": 0.9880301336773106,
+            "score": 117.67417306679062,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1120,
+        "height": 136,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "url_readings": [
+          {
+            "raw_url": "https://k114950d3e5.test/шақыру/909ea5?ref=T267C244",
+            "line_indices": [
+              1
+            ],
+            "needs_review": true,
+            "reasons": [
+              "В адресе есть нелатинские символы: возможны как ошибка OCR, так и настоящий международный путь."
+            ],
+            "suggestions": [],
+            "method": "primary_ocr",
+            "auto_follow": false,
+            "secondary_attempts": [
+              {
+                "text": "HoBn4ka: https:/k114950d3e5.test/waKblpy/909ea5?ref=T267C244",
+                "confidence": 0.9606183767318726,
+                "urls": [],
+                "scale": 1
+              },
+              {
+                "text": "HoBn4ka: https:/k114950d3e5.test/waKblpy/909ea5?ref=T267C244",
+                "confidence": 0.9586431980133057,
+                "urls": [],
+                "scale": 2
+              }
+            ]
+          }
+        ]
+      },
+      "qr": {
+        "codes": [],
+        "width": 1120,
+        "height": 136,
+        "version": "qr-1.0",
+        "decoder": "OpenCV 4.10.0",
+        "cache_hit": false,
+        "elapsed_ms": 139.05,
+        "limitations": "До 8 QR-кодов, изображение до 1600 px по длинной стороне. Мелкие, поврежденные и составные QR могут не читаться. Декодирование не подтверждает безопасность адреса."
+      },
+      "urls": [],
+      "url_reviews": [
+        {
+          "raw_url": "https://k114950d3e5.test/шақыру/909ea5?ref=T267C244",
+          "line_indices": [
+            1
+          ],
+          "needs_review": true,
+          "reasons": [
+            "В адресе есть нелатинские символы: возможны как ошибка OCR, так и настоящий международный путь."
+          ],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": false,
+          "secondary_attempts": [
+            {
+              "text": "HoBn4ka: https:/k114950d3e5.test/waKblpy/909ea5?ref=T267C244",
+              "confidence": 0.9606183767318726,
+              "urls": [],
+              "scale": 1
+            },
+            {
+              "text": "HoBn4ka: https:/k114950d3e5.test/waKblpy/909ea5?ref=T267C244",
+              "confidence": 0.9586431980133057,
+              "urls": [],
+              "scale": 2
+            }
+          ],
+          "source_evidence_ids": [
+            "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e8",
+            "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e3"
+          ],
+          "selected_url": null
+        }
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e7"
+      ],
+      "url_review_incomplete": true,
+      "content_fingerprint": "731fdefae7ae2ca7bd28ee9a1e955eba219fa0688c7a786c44864a9018a189d1",
+      "reachable_urls": [],
+      "call_bindings": [],
+      "attribution_incomplete": false,
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "mixed",
+        "context": "promotion",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "Жми",
+            "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 49,
+            "end": 52
+          },
+          {
+            "kind": "bonus",
+            "quote": "бонус",
+            "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+            "explanation": "Упоминание бонуса или промокода.",
+            "start": 80,
+            "end": 85
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "активируй",
+            "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 70,
+            "end": 79
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": false
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "partial",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e1",
+      "quote": "DEMO · материал 3c7772",
+      "source_id": "bb0bf92fb62740c7a2300e30c3c78e34",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:52:29.037722+00:00",
+      "material_id": "bb0bf92fb62740c7a2300e30c3c78e34",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e2",
+      "quote": "DЕМО. Для подписчиков оставили отдельный проход. Жми на приглашение и активируй бонус",
+      "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:52:33.683065+00:00",
+      "material_id": "bb0bf92fb62740c7a2300e30c3c78e34",
+      "polygon": [
+        [
+          28.0,
+          23.0
+        ],
+        [
+          924.0,
+          26.0
+        ],
+        [
+          924.0,
+          51.0
+        ],
+        [
+          28.0,
+          49.0
+        ]
+      ],
+      "confidence": 0.9903960227966309
+    },
+    {
+      "id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e3",
+      "quote": "новичка: https://k114950d3e5.test/шақыру/909ea5?ref=T267C244",
+      "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:52:33.683065+00:00",
+      "material_id": "bb0bf92fb62740c7a2300e30c3c78e34",
+      "polygon": [
+        [
+          27.0,
+          60.0
+        ],
+        [
+          626.0,
+          58.0
+        ],
+        [
+          626.0,
+          84.0
+        ],
+        [
+          27.0,
+          85.0
+        ]
+      ],
+      "confidence": 0.9846232533454895
+    },
+    {
+      "id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e4",
+      "quote": "Жми",
+      "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:52:33.840108+00:00",
+      "start": 49,
+      "end": 52,
+      "material_id": "bb0bf92fb62740c7a2300e30c3c78e34"
+    },
+    {
+      "id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e5",
+      "quote": "бонус",
+      "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:52:33.840108+00:00",
+      "start": 80,
+      "end": 85,
+      "material_id": "bb0bf92fb62740c7a2300e30c3c78e34"
+    },
+    {
+      "id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e6",
+      "quote": "активируй",
+      "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:52:33.840108+00:00",
+      "start": 70,
+      "end": 79,
+      "material_id": "bb0bf92fb62740c7a2300e30c3c78e34"
+    },
+    {
+      "id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e7",
+      "quote": "DЕМО. Для подписчиков оставили отдельный проход. Жми на приглашение и активируй бонус\nновичка: https://k114950d3e5.test/шақыру/909ea5?ref=T267C244",
+      "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:52:33.840108+00:00",
+      "material_id": "bb0bf92fb62740c7a2300e30c3c78e34"
+    },
+    {
+      "id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e8",
+      "quote": "https://k114950d3e5.test/шақыру/909ea5?ref=T267C244",
+      "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:52:33.840108+00:00",
+      "material_id": "bb0bf92fb62740c7a2300e30c3c78e34"
+    }
+  ],
+  "trace": {
+    "observations": [],
+    "relations": [],
+    "requests": 0,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+    "Сомнительный OCR-адрес не открывался. Сверьте его с оригиналом и явно уточните в карточке материала.",
+    "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "analysis_assisted": false,
+  "identifiers": [],
+  "analyzed_at": "2026-10-21T20:52:29.037722+00:00",
+  "analysis_id": "75fe7ea7354d",
+  "context": {
+    "language": "mixed",
+    "context": "promotion",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "Жми",
+        "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 49,
+        "end": 52
+      },
+      {
+        "kind": "bonus",
+        "quote": "бонус",
+        "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+        "explanation": "Упоминание бонуса или промокода.",
+        "start": 80,
+        "end": 85
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "активируй",
+        "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 70,
+        "end": 79
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "Жми",
+      "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 49,
+      "end": 52,
+      "evidence_id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e4"
+    },
+    {
+      "kind": "bonus",
+      "quote": "бонус",
+      "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+      "explanation": "Упоминание бонуса или промокода.",
+      "start": 80,
+      "end": 85,
+      "evidence_id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e5"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "активируй",
+      "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 70,
+      "end": 79,
+      "evidence_id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e6"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-7189493815248c0b",
+        "type": "material",
+        "label": "DEMO · материал 3c7772",
+        "evidence_ids": [
+          "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e1"
+        ],
+        "case_id": "92980db3946d44939d20c937f726cc8a",
+        "material_id": "bb0bf92fb62740c7a2300e30c3c78e34"
+      },
+      {
+        "id": "source-d9c5c0405d62cde2",
+        "type": "source",
+        "label": "DEMO · материал 3c7772",
+        "evidence_ids": [
+          "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e1"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-fb6f80bdad254b8f99",
+        "source": "source-d9c5c0405d62cde2",
+        "target": "material-7189493815248c0b",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e1"
+        ],
+        "at": "2026-10-21T20:52:29.037722+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e1",
+        "quote": "DEMO · материал 3c7772",
+        "source_id": "bb0bf92fb62740c7a2300e30c3c78e34",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:52:29.037722+00:00",
+        "material_id": "bb0bf92fb62740c7a2300e30c3c78e34",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e2",
+        "quote": "DЕМО. Для подписчиков оставили отдельный проход. Жми на приглашение и активируй бонус",
+        "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:52:33.683065+00:00",
+        "material_id": "bb0bf92fb62740c7a2300e30c3c78e34",
+        "polygon": [
+          [
+            28.0,
+            23.0
+          ],
+          [
+            924.0,
+            26.0
+          ],
+          [
+            924.0,
+            51.0
+          ],
+          [
+            28.0,
+            49.0
+          ]
+        ],
+        "confidence": 0.9903960227966309
+      },
+      {
+        "id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e3",
+        "quote": "новичка: https://k114950d3e5.test/шақыру/909ea5?ref=T267C244",
+        "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:52:33.683065+00:00",
+        "material_id": "bb0bf92fb62740c7a2300e30c3c78e34",
+        "polygon": [
+          [
+            27.0,
+            60.0
+          ],
+          [
+            626.0,
+            58.0
+          ],
+          [
+            626.0,
+            84.0
+          ],
+          [
+            27.0,
+            85.0
+          ]
+        ],
+        "confidence": 0.9846232533454895
+      },
+      {
+        "id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e4",
+        "quote": "Жми",
+        "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:52:33.840108+00:00",
+        "start": 49,
+        "end": 52,
+        "material_id": "bb0bf92fb62740c7a2300e30c3c78e34"
+      },
+      {
+        "id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e5",
+        "quote": "бонус",
+        "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:52:33.840108+00:00",
+        "start": 80,
+        "end": 85,
+        "material_id": "bb0bf92fb62740c7a2300e30c3c78e34"
+      },
+      {
+        "id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e6",
+        "quote": "активируй",
+        "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:52:33.840108+00:00",
+        "start": 70,
+        "end": 79,
+        "material_id": "bb0bf92fb62740c7a2300e30c3c78e34"
+      },
+      {
+        "id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e7",
+        "quote": "DЕМО. Для подписчиков оставили отдельный проход. Жми на приглашение и активируй бонус\nновичка: https://k114950d3e5.test/шақыру/909ea5?ref=T267C244",
+        "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:52:33.840108+00:00",
+        "material_id": "bb0bf92fb62740c7a2300e30c3c78e34"
+      },
+      {
+        "id": "92980db3946d44939d20c937f726cc8a-75fe7ea7354d-e8",
+        "quote": "https://k114950d3e5.test/шақыру/909ea5?ref=T267C244",
+        "source_id": "bb0bf92fb62740c7a2300e30c3c78e34-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:52:33.840108+00:00",
+        "material_id": "bb0bf92fb62740c7a2300e30c3c78e34"
+      }
+    ],
+    "generated_at": "2026-10-21T20:52:33.840108+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [],
+    "version": "rules-4.0",
+    "weights": {
+      "version": "weights-4.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "bb0bf92fb62740c7a2300e30c3c78e34",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": false,
+  "elapsed_ms": 4803.8
+}

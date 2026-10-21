@@ -1,0 +1,600 @@
+{
+  "id": "f9a0a3413ae4488a9d15b67f12179bf5",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:55:41.700672+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "DEMO. Кеше шыққан материалда оператордың мәлімдемесі келтірілген: «Забирай бонус в казино». Цитата нужна для разбора, не для участия. https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+      "url": "",
+      "source": "DEMO · материал 117d8c",
+      "published_at": null,
+      "image_id": null,
+      "id": "e1115dda64e545569496094413ad0811",
+      "original_sha256": "26a1a6027ffce23160551d239df16173d10e8582d43bb823d41bde2baaac8d3f",
+      "source_evidence_id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e1",
+      "normalized_text": "demo. кеше шыққан материалда оператордың мәлімдемесі келтірілген: «забирай бонус в казино». цитата нужна для разбора, не для участия. https://k0911bf7673.test/visit/b7ebd2?ref=t2868956",
+      "urls": [
+        "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956"
+      ],
+      "url_reviews": [],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e5"
+      ],
+      "content_fingerprint": "9d032174962c8900fecaa09e63e6b3da569a2f378a5e7d14940dc6ce8e5c47c2",
+      "reachable_urls": [
+        "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956"
+      ],
+      "call_bindings": [],
+      "attribution_incomplete": false,
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "mixed",
+        "context": "promotion",
+        "claims": [
+          {
+            "kind": "gambling",
+            "quote": "казино",
+            "source_id": "e1115dda64e545569496094413ad0811",
+            "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+            "start": 83,
+            "end": 89
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "Забирай",
+            "source_id": "e1115dda64e545569496094413ad0811",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 67,
+            "end": 74
+          },
+          {
+            "kind": "bonus",
+            "quote": "бонус",
+            "source_id": "e1115dda64e545569496094413ad0811",
+            "explanation": "Упоминание бонуса или промокода.",
+            "start": 75,
+            "end": 80
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e1",
+      "quote": "DEMO · материал 117d8c",
+      "source_id": "e1115dda64e545569496094413ad0811",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:55:41.715193+00:00",
+      "material_id": "e1115dda64e545569496094413ad0811",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e2",
+      "quote": "казино",
+      "source_id": "e1115dda64e545569496094413ad0811",
+      "method": "local_rule",
+      "at": "2026-10-21T20:55:41.715193+00:00",
+      "start": 83,
+      "end": 89,
+      "material_id": "e1115dda64e545569496094413ad0811"
+    },
+    {
+      "id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e3",
+      "quote": "Забирай",
+      "source_id": "e1115dda64e545569496094413ad0811",
+      "method": "local_rule",
+      "at": "2026-10-21T20:55:41.715193+00:00",
+      "start": 67,
+      "end": 74,
+      "material_id": "e1115dda64e545569496094413ad0811"
+    },
+    {
+      "id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e4",
+      "quote": "бонус",
+      "source_id": "e1115dda64e545569496094413ad0811",
+      "method": "local_rule",
+      "at": "2026-10-21T20:55:41.715193+00:00",
+      "start": 75,
+      "end": 80,
+      "material_id": "e1115dda64e545569496094413ad0811"
+    },
+    {
+      "id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e5",
+      "quote": "DEMO. Кеше шыққан материалда оператордың мәлімдемесі келтірілген: «Забирай бонус в казино». Цитата нужна для разбора, не для участия. https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+      "source_id": "e1115dda64e545569496094413ad0811",
+      "method": "source_text",
+      "at": "2026-10-21T20:55:41.715193+00:00",
+      "material_id": "e1115dda64e545569496094413ad0811"
+    },
+    {
+      "id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e6",
+      "quote": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+      "source_id": "e1115dda64e545569496094413ad0811",
+      "method": "source_text",
+      "at": "2026-10-21T20:55:41.715193+00:00",
+      "material_id": "e1115dda64e545569496094413ad0811"
+    },
+    {
+      "id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e7",
+      "quote": "Игровой кабинет Онлайн-казино. Депозит для игры на деньги, игровые автоматы и джекпот.",
+      "source_id": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:55:41.716192+00:00",
+      "url": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e8",
+      "quote": "казино",
+      "source_id": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+      "method": "local_rule",
+      "at": "2026-10-21T20:55:41.716192+00:00",
+      "start": 23,
+      "end": 29,
+      "url": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956"
+    },
+    {
+      "id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e9",
+      "quote": "джекпот",
+      "source_id": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+      "method": "local_rule",
+      "at": "2026-10-21T20:55:41.716192+00:00",
+      "start": 78,
+      "end": 85,
+      "url": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956"
+    },
+    {
+      "id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e10",
+      "quote": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+      "source_id": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:55:41.716192+00:00",
+      "url": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+        "at": "2026-10-21T20:55:41.715193+00:00",
+        "status_code": 200,
+        "text": "Игровой кабинет Онлайн-казино. Депозит для игры на деньги, игровые автоматы и джекпот.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:55:41.715193+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "4fb602931035d8ddd9819ed110b30691a3a0f5d0ea9e8260a20f3704b3502897",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+        "evidence_id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e7",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [
+            {
+              "kind": "gambling",
+              "quote": "казино",
+              "source_id": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 23,
+              "end": 29
+            },
+            {
+              "kind": "gambling",
+              "quote": "джекпот",
+              "source_id": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 78,
+              "end": 85
+            }
+          ],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+        "type": "contains_link",
+        "quote": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:55:41.715193+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e10"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "analysis_assisted": false,
+  "identifiers": [
+    {
+      "domain": "k0911bf7673.test",
+      "parameter": "ref",
+      "value": "T2868956",
+      "scope": "k0911bf7673.test|/visit/b7ebd2|ref|T2868956",
+      "url": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+      "material_id": "e1115dda64e545569496094413ad0811",
+      "evidence_id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e7"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:55:41.715193+00:00",
+  "analysis_id": "154609465a56",
+  "context": {
+    "language": "mixed",
+    "context": "promotion",
+    "claims": [
+      {
+        "kind": "gambling",
+        "quote": "казино",
+        "source_id": "e1115dda64e545569496094413ad0811",
+        "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+        "start": 83,
+        "end": 89
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "Забирай",
+        "source_id": "e1115dda64e545569496094413ad0811",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 67,
+        "end": 74
+      },
+      {
+        "kind": "bonus",
+        "quote": "бонус",
+        "source_id": "e1115dda64e545569496094413ad0811",
+        "explanation": "Упоминание бонуса или промокода.",
+        "start": 75,
+        "end": 80
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "gambling",
+      "quote": "казино",
+      "source_id": "e1115dda64e545569496094413ad0811",
+      "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+      "start": 83,
+      "end": 89,
+      "evidence_id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e2"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "Забирай",
+      "source_id": "e1115dda64e545569496094413ad0811",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 67,
+      "end": 74,
+      "evidence_id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e3"
+    },
+    {
+      "kind": "bonus",
+      "quote": "бонус",
+      "source_id": "e1115dda64e545569496094413ad0811",
+      "explanation": "Упоминание бонуса или промокода.",
+      "start": 75,
+      "end": 80,
+      "evidence_id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e4"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-d57ab3320c85c66a",
+        "type": "material",
+        "label": "DEMO · материал 117d8c",
+        "evidence_ids": [
+          "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e1"
+        ],
+        "case_id": "f9a0a3413ae4488a9d15b67f12179bf5",
+        "material_id": "e1115dda64e545569496094413ad0811"
+      },
+      {
+        "id": "source-d07a9db590198295",
+        "type": "source",
+        "label": "DEMO · материал 117d8c",
+        "evidence_ids": [
+          "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e1"
+        ]
+      },
+      {
+        "id": "url-c364f5fd2dcf0816",
+        "type": "url",
+        "label": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+        "evidence_ids": [
+          "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e6",
+          "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e7"
+        ]
+      },
+      {
+        "id": "observation-0b6deaa1af40f601",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e7"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-b102bdcafcc8478f",
+        "type": "domain",
+        "label": "k0911bf7673.test",
+        "evidence_ids": [
+          "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e7"
+        ]
+      },
+      {
+        "id": "identifier-53fcc521620e4bc6",
+        "type": "identifier",
+        "label": "ref=T2868956",
+        "evidence_ids": [
+          "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e7"
+        ],
+        "scope": "k0911bf7673.test|/visit/b7ebd2|ref|T2868956"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-784607103dda190731",
+        "source": "source-d07a9db590198295",
+        "target": "material-d57ab3320c85c66a",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e1"
+        ],
+        "at": "2026-10-21T20:55:41.715193+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-86630a7d982ff495cc",
+        "source": "material-d57ab3320c85c66a",
+        "target": "url-c364f5fd2dcf0816",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e6"
+        ],
+        "at": "2026-10-21T20:55:41.715193+00:00",
+        "method": "source_text",
+        "status": "observed"
+      },
+      {
+        "id": "edge-00ece31eab540417cf",
+        "source": "url-c364f5fd2dcf0816",
+        "target": "observation-0b6deaa1af40f601",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e7"
+        ],
+        "at": "2026-10-21T20:55:41.715193+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-d3d8d149c84bd5fb7e",
+        "source": "url-c364f5fd2dcf0816",
+        "target": "domain-b102bdcafcc8478f",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e7"
+        ],
+        "at": "2026-10-21T20:55:41.715193+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-f64c413617b1572fca",
+        "source": "url-c364f5fd2dcf0816",
+        "target": "identifier-53fcc521620e4bc6",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e7"
+        ],
+        "at": "2026-10-21T20:55:41.715193+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e1",
+        "quote": "DEMO · материал 117d8c",
+        "source_id": "e1115dda64e545569496094413ad0811",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:55:41.715193+00:00",
+        "material_id": "e1115dda64e545569496094413ad0811",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e2",
+        "quote": "казино",
+        "source_id": "e1115dda64e545569496094413ad0811",
+        "method": "local_rule",
+        "at": "2026-10-21T20:55:41.715193+00:00",
+        "start": 83,
+        "end": 89,
+        "material_id": "e1115dda64e545569496094413ad0811"
+      },
+      {
+        "id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e3",
+        "quote": "Забирай",
+        "source_id": "e1115dda64e545569496094413ad0811",
+        "method": "local_rule",
+        "at": "2026-10-21T20:55:41.715193+00:00",
+        "start": 67,
+        "end": 74,
+        "material_id": "e1115dda64e545569496094413ad0811"
+      },
+      {
+        "id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e4",
+        "quote": "бонус",
+        "source_id": "e1115dda64e545569496094413ad0811",
+        "method": "local_rule",
+        "at": "2026-10-21T20:55:41.715193+00:00",
+        "start": 75,
+        "end": 80,
+        "material_id": "e1115dda64e545569496094413ad0811"
+      },
+      {
+        "id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e5",
+        "quote": "DEMO. Кеше шыққан материалда оператордың мәлімдемесі келтірілген: «Забирай бонус в казино». Цитата нужна для разбора, не для участия. https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+        "source_id": "e1115dda64e545569496094413ad0811",
+        "method": "source_text",
+        "at": "2026-10-21T20:55:41.715193+00:00",
+        "material_id": "e1115dda64e545569496094413ad0811"
+      },
+      {
+        "id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e6",
+        "quote": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+        "source_id": "e1115dda64e545569496094413ad0811",
+        "method": "source_text",
+        "at": "2026-10-21T20:55:41.715193+00:00",
+        "material_id": "e1115dda64e545569496094413ad0811"
+      },
+      {
+        "id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e7",
+        "quote": "Игровой кабинет Онлайн-казино. Депозит для игры на деньги, игровые автоматы и джекпот.",
+        "source_id": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:55:41.716192+00:00",
+        "url": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e8",
+        "quote": "казино",
+        "source_id": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+        "method": "local_rule",
+        "at": "2026-10-21T20:55:41.716192+00:00",
+        "start": 23,
+        "end": 29,
+        "url": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956"
+      },
+      {
+        "id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e9",
+        "quote": "джекпот",
+        "source_id": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+        "method": "local_rule",
+        "at": "2026-10-21T20:55:41.716192+00:00",
+        "start": 78,
+        "end": 85,
+        "url": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956"
+      },
+      {
+        "id": "f9a0a3413ae4488a9d15b67f12179bf5-154609465a56-e10",
+        "quote": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+        "source_id": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:55:41.716192+00:00",
+        "url": "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:55:41.716192+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [],
+    "version": "rules-4.0",
+    "weights": {
+      "version": "weights-4.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "e1115dda64e545569496094413ad0811",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 1.6
+}

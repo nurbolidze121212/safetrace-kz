@@ -1,7 +1,8 @@
 {
   "models": [
     "PP-OCRv5_mobile_det",
-    "cyrillic_PP-OCRv5_mobile_rec"
+    "cyrillic_PP-OCRv5_mobile_rec",
+    "en_PP-OCRv5_mobile_rec"
   ],
   "source": "https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/",
   "files": {
@@ -10,6 +11,9 @@
     "PP-OCRv5_mobile_det/inference.yml": "98069072e1b6b37d727fd9d9f11725faa46d6ea0de012f2ed26caea011c37699",
     "cyrillic_PP-OCRv5_mobile_rec/inference.json": "5d90f1bfca52d80c01de176c5238fae2459995a99ff1dbfe5319ab4ed1735df2",
     "cyrillic_PP-OCRv5_mobile_rec/inference.pdiparams": "434dc9fa2a99fa3653e08f8cf793ae56be7dd41c35c4980e6255147cc02bbc80",
-    "cyrillic_PP-OCRv5_mobile_rec/inference.yml": "5c76cc91fa98410178a09f498db10050d0ec1634a660053d3005ab7be581f501"
+    "cyrillic_PP-OCRv5_mobile_rec/inference.yml": "5c76cc91fa98410178a09f498db10050d0ec1634a660053d3005ab7be581f501",
+    "en_PP-OCRv5_mobile_rec/inference.json": "fd1b6ec722ea841a72d3ba43e527df1d1066d5d7808e0503ee3eec7265188753",
+    "en_PP-OCRv5_mobile_rec/inference.pdiparams": "3ec8a97ed6cefe8568d3e2ee90bb193299b566a7661aa4fd52d224b96b59f66b",
+    "en_PP-OCRv5_mobile_rec/inference.yml": "27e91d0582f40168aa218303c76e184bc78fa7a5d105aad0cfbad8458b441067"
   }
 }

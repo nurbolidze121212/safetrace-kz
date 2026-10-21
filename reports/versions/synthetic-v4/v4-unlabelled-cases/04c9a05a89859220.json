@@ -1,0 +1,549 @@
+{
+  "id": "8d55e375435e4d7f97cd8f0a6b19f498",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:57:08.423177+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "DEMO. Кітапхана серіктестік бағдарламасын ашты. Қосылып, досыңызбен бірге кітапқа жеңілдік алыңыз: https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+      "url": "",
+      "source": "DEMO · материал 04c9a0",
+      "published_at": null,
+      "image_id": null,
+      "id": "82b78594fca44bd3baaabdc2a8774944",
+      "original_sha256": "54d825e692dde83274736951f933dd51a6d8ceeb1f61a74bf1a46a24bcfc73a7",
+      "source_evidence_id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e1",
+      "normalized_text": "demo. кітапхана серіктестік бағдарламасын ашты. қосылып, досыңызбен бірге кітапқа жеңілдік алыңыз: https://k744afad206.test/invite/8631eb?ref=t2c9f8fb",
+      "urls": [
+        "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB"
+      ],
+      "url_reviews": [],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e4"
+      ],
+      "content_fingerprint": "08d99a70aed23d300ce8203d846e4830cc051a8f81bd3ab5b65764a4c68a071e",
+      "reachable_urls": [
+        "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB"
+      ],
+      "call_bindings": [
+        {
+          "call_evidence_id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e2",
+          "source_id": "82b78594fca44bd3baaabdc2a8774944",
+          "start": 48,
+          "end": 55,
+          "quote": "Қосылып",
+          "scope_start": 47,
+          "scope_end": 150,
+          "method": "same_clause",
+          "status": "bound",
+          "candidate_urls": [
+            "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB"
+          ],
+          "root_url": "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+          "root_evidence_ids": [
+            "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e5"
+          ],
+          "route_evidence_ids": [
+            "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e6"
+          ],
+          "destination_evidence_ids": [],
+          "reachable_urls": [
+            "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB"
+          ]
+        },
+        {
+          "call_evidence_id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e3",
+          "source_id": "82b78594fca44bd3baaabdc2a8774944",
+          "start": 91,
+          "end": 97,
+          "quote": "алыңыз",
+          "scope_start": 47,
+          "scope_end": 150,
+          "method": "same_clause",
+          "status": "bound",
+          "candidate_urls": [
+            "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB"
+          ],
+          "root_url": "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+          "root_evidence_ids": [
+            "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e5"
+          ],
+          "route_evidence_ids": [
+            "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e6"
+          ],
+          "destination_evidence_ids": [],
+          "reachable_urls": [
+            "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB"
+          ]
+        }
+      ],
+      "attribution_incomplete": false,
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "kk",
+        "context": "affiliate",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "Қосылып",
+            "source_id": "82b78594fca44bd3baaabdc2a8774944",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 48,
+            "end": 55
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "алыңыз",
+            "source_id": "82b78594fca44bd3baaabdc2a8774944",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 91,
+            "end": 97
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e1",
+      "quote": "DEMO · материал 04c9a0",
+      "source_id": "82b78594fca44bd3baaabdc2a8774944",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:57:08.444186+00:00",
+      "material_id": "82b78594fca44bd3baaabdc2a8774944",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e2",
+      "quote": "Қосылып",
+      "source_id": "82b78594fca44bd3baaabdc2a8774944",
+      "method": "local_rule",
+      "at": "2026-10-21T20:57:08.444186+00:00",
+      "start": 48,
+      "end": 55,
+      "material_id": "82b78594fca44bd3baaabdc2a8774944"
+    },
+    {
+      "id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e3",
+      "quote": "алыңыз",
+      "source_id": "82b78594fca44bd3baaabdc2a8774944",
+      "method": "local_rule",
+      "at": "2026-10-21T20:57:08.444186+00:00",
+      "start": 91,
+      "end": 97,
+      "material_id": "82b78594fca44bd3baaabdc2a8774944"
+    },
+    {
+      "id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e4",
+      "quote": "DEMO. Кітапхана серіктестік бағдарламасын ашты. Қосылып, досыңызбен бірге кітапқа жеңілдік алыңыз: https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+      "source_id": "82b78594fca44bd3baaabdc2a8774944",
+      "method": "source_text",
+      "at": "2026-10-21T20:57:08.444186+00:00",
+      "material_id": "82b78594fca44bd3baaabdc2a8774944"
+    },
+    {
+      "id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e5",
+      "quote": "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+      "source_id": "82b78594fca44bd3baaabdc2a8774944",
+      "method": "source_text",
+      "at": "2026-10-21T20:57:08.444186+00:00",
+      "material_id": "82b78594fca44bd3baaabdc2a8774944"
+    },
+    {
+      "id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e6",
+      "quote": "Қызмет кестесі Кітапхана, дәрігер қабылдауы және оқу үйірмесіне жазылу.",
+      "source_id": "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:57:08.445197+00:00",
+      "url": "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e7",
+      "quote": "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+      "source_id": "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:57:08.445197+00:00",
+      "url": "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+        "at": "2026-10-21T20:57:08.444186+00:00",
+        "status_code": 200,
+        "text": "Қызмет кестесі Кітапхана, дәрігер қабылдауы және оқу үйірмесіне жазылу.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:57:08.444186+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "7b203a52bd249a89192e6b9437cbc2179b0e8c639d03a8f587edf6d65eb90e2e",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+        "evidence_id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e6",
+        "context": {
+          "language": "kk",
+          "context": "ambiguous",
+          "claims": [],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+        "type": "contains_link",
+        "quote": "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:57:08.444186+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e7"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "analysis_assisted": false,
+  "identifiers": [
+    {
+      "domain": "k744afad206.test",
+      "parameter": "ref",
+      "value": "T2C9F8FB",
+      "scope": "k744afad206.test|/invite/8631eb|ref|T2C9F8FB",
+      "url": "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+      "material_id": "82b78594fca44bd3baaabdc2a8774944",
+      "evidence_id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e6"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:57:08.444186+00:00",
+  "analysis_id": "56dba667ad51",
+  "context": {
+    "language": "kk",
+    "context": "affiliate",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "Қосылып",
+        "source_id": "82b78594fca44bd3baaabdc2a8774944",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 48,
+        "end": 55
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "алыңыз",
+        "source_id": "82b78594fca44bd3baaabdc2a8774944",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 91,
+        "end": 97
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "Қосылып",
+      "source_id": "82b78594fca44bd3baaabdc2a8774944",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 48,
+      "end": 55,
+      "evidence_id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e2"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "алыңыз",
+      "source_id": "82b78594fca44bd3baaabdc2a8774944",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 91,
+      "end": 97,
+      "evidence_id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e3"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-c91cac6ed88ac3b1",
+        "type": "material",
+        "label": "DEMO · материал 04c9a0",
+        "evidence_ids": [
+          "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e1"
+        ],
+        "case_id": "8d55e375435e4d7f97cd8f0a6b19f498",
+        "material_id": "82b78594fca44bd3baaabdc2a8774944"
+      },
+      {
+        "id": "source-338631bcc33fd458",
+        "type": "source",
+        "label": "DEMO · материал 04c9a0",
+        "evidence_ids": [
+          "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e1"
+        ]
+      },
+      {
+        "id": "url-cc4122c5b5faa142",
+        "type": "url",
+        "label": "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+        "evidence_ids": [
+          "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e5",
+          "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e6"
+        ]
+      },
+      {
+        "id": "observation-2358b06a4b466e09",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e6"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-869a263bc73ee73d",
+        "type": "domain",
+        "label": "k744afad206.test",
+        "evidence_ids": [
+          "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e6"
+        ]
+      },
+      {
+        "id": "identifier-46ec402033172f15",
+        "type": "identifier",
+        "label": "ref=T2C9F8FB",
+        "evidence_ids": [
+          "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e6"
+        ],
+        "scope": "k744afad206.test|/invite/8631eb|ref|T2C9F8FB"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-a16fb17a7bc3c7e154",
+        "source": "source-338631bcc33fd458",
+        "target": "material-c91cac6ed88ac3b1",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e1"
+        ],
+        "at": "2026-10-21T20:57:08.444186+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-a37ef47614a5c5456b",
+        "source": "material-c91cac6ed88ac3b1",
+        "target": "url-cc4122c5b5faa142",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e5"
+        ],
+        "at": "2026-10-21T20:57:08.444186+00:00",
+        "method": "source_text",
+        "status": "observed"
+      },
+      {
+        "id": "edge-5755e71af0d39b31dd",
+        "source": "url-cc4122c5b5faa142",
+        "target": "observation-2358b06a4b466e09",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e6"
+        ],
+        "at": "2026-10-21T20:57:08.444186+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-6b5fc48fd29faf5b39",
+        "source": "url-cc4122c5b5faa142",
+        "target": "domain-869a263bc73ee73d",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e6"
+        ],
+        "at": "2026-10-21T20:57:08.444186+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-20b17bf6614bd207f4",
+        "source": "url-cc4122c5b5faa142",
+        "target": "identifier-46ec402033172f15",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e6"
+        ],
+        "at": "2026-10-21T20:57:08.444186+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e1",
+        "quote": "DEMO · материал 04c9a0",
+        "source_id": "82b78594fca44bd3baaabdc2a8774944",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:57:08.444186+00:00",
+        "material_id": "82b78594fca44bd3baaabdc2a8774944",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e2",
+        "quote": "Қосылып",
+        "source_id": "82b78594fca44bd3baaabdc2a8774944",
+        "method": "local_rule",
+        "at": "2026-10-21T20:57:08.444186+00:00",
+        "start": 48,
+        "end": 55,
+        "material_id": "82b78594fca44bd3baaabdc2a8774944"
+      },
+      {
+        "id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e3",
+        "quote": "алыңыз",
+        "source_id": "82b78594fca44bd3baaabdc2a8774944",
+        "method": "local_rule",
+        "at": "2026-10-21T20:57:08.444186+00:00",
+        "start": 91,
+        "end": 97,
+        "material_id": "82b78594fca44bd3baaabdc2a8774944"
+      },
+      {
+        "id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e4",
+        "quote": "DEMO. Кітапхана серіктестік бағдарламасын ашты. Қосылып, досыңызбен бірге кітапқа жеңілдік алыңыз: https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+        "source_id": "82b78594fca44bd3baaabdc2a8774944",
+        "method": "source_text",
+        "at": "2026-10-21T20:57:08.444186+00:00",
+        "material_id": "82b78594fca44bd3baaabdc2a8774944"
+      },
+      {
+        "id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e5",
+        "quote": "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+        "source_id": "82b78594fca44bd3baaabdc2a8774944",
+        "method": "source_text",
+        "at": "2026-10-21T20:57:08.444186+00:00",
+        "material_id": "82b78594fca44bd3baaabdc2a8774944"
+      },
+      {
+        "id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e6",
+        "quote": "Қызмет кестесі Кітапхана, дәрігер қабылдауы және оқу үйірмесіне жазылу.",
+        "source_id": "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:57:08.445197+00:00",
+        "url": "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "8d55e375435e4d7f97cd8f0a6b19f498-56dba667ad51-e7",
+        "quote": "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+        "source_id": "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:57:08.445197+00:00",
+        "url": "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:57:08.445197+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [],
+    "version": "rules-4.0",
+    "weights": {
+      "version": "weights-4.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "82b78594fca44bd3baaabdc2a8774944",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 2.3
+}

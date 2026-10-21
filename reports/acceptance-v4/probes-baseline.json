@@ -1,0 +1,308 @@
+{
+  "kind": "authored-development-probes",
+  "label": "baseline",
+  "at": "2026-10-21T19:26:27.367083+00:00",
+  "versions": {
+    "rules": "rules-3.0",
+    "pipeline": "pipeline-2.1"
+  },
+  "automatic_positive": "score >= high_threshold AND sufficient_data",
+  "probes": [
+    {
+      "id": "unrelated_branch",
+      "expected": false,
+      "predicted": true,
+      "score": 65,
+      "sufficient": true,
+      "contributions": [
+        {
+          "key": "destination_and_call",
+          "title": "Игровые признаки на странице + призыв",
+          "weight": 65,
+          "evidence_ids": [
+            "ff4a5eff30304d0a875c7ad8a4fb99d1-e4f50db809be-e2",
+            "ff4a5eff30304d0a875c7ad8a4fb99d1-e4f50db809be-e8",
+            "ff4a5eff30304d0a875c7ad8a4fb99d1-e4f50db809be-e9",
+            "ff4a5eff30304d0a875c7ad8a4fb99d1-e4f50db809be-e10"
+          ]
+        }
+      ],
+      "case_id": "ff4a5eff30304d0a875c7ad8a4fb99d1"
+    },
+    {
+      "id": "own_branch",
+      "expected": true,
+      "predicted": true,
+      "score": 80,
+      "sufficient": true,
+      "contributions": [
+        {
+          "key": "destination_and_call",
+          "title": "Игровые признаки на странице + призыв",
+          "weight": 65,
+          "evidence_ids": [
+            "4e78f2a9351c4a2cab57605c11c34792-a2b974e959e7-e2",
+            "4e78f2a9351c4a2cab57605c11c34792-a2b974e959e7-e4",
+            "4e78f2a9351c4a2cab57605c11c34792-a2b974e959e7-e10",
+            "4e78f2a9351c4a2cab57605c11c34792-a2b974e959e7-e11",
+            "4e78f2a9351c4a2cab57605c11c34792-a2b974e959e7-e12"
+          ]
+        },
+        {
+          "key": "bonus_in_promotion",
+          "title": "Бонус в рекламном контексте",
+          "weight": 15,
+          "evidence_ids": [
+            "4e78f2a9351c4a2cab57605c11c34792-a2b974e959e7-e3"
+          ]
+        }
+      ],
+      "case_id": "4e78f2a9351c4a2cab57605c11c34792"
+    },
+    {
+      "id": "wrapped_money_transition",
+      "expected": true,
+      "predicted": false,
+      "score": 15,
+      "sufficient": true,
+      "contributions": [
+        {
+          "key": "gambling_and_call",
+          "title": "Игровая лексика + призыв",
+          "weight": 65,
+          "evidence_ids": [
+            "452d9839fbeb4178a62b0fb293908ef9-cd0a711f112d-e2",
+            "452d9839fbeb4178a62b0fb293908ef9-cd0a711f112d-e3",
+            "452d9839fbeb4178a62b0fb293908ef9-cd0a711f112d-e6"
+          ]
+        },
+        {
+          "key": "bonus_in_promotion",
+          "title": "Бонус в рекламном контексте",
+          "weight": 15,
+          "evidence_ids": [
+            "452d9839fbeb4178a62b0fb293908ef9-cd0a711f112d-e4"
+          ]
+        },
+        {
+          "key": "alternative_context",
+          "title": "Альтернативный контекст: бесплатная игра",
+          "weight": -65,
+          "evidence_ids": [
+            "452d9839fbeb4178a62b0fb293908ef9-cd0a711f112d-e5"
+          ]
+        }
+      ],
+      "case_id": "452d9839fbeb4178a62b0fb293908ef9"
+    },
+    {
+      "id": "information_object",
+      "expected": false,
+      "predicted": true,
+      "score": 75,
+      "sufficient": true,
+      "contributions": [
+        {
+          "key": "gambling_and_call",
+          "title": "Игровая лексика + призыв",
+          "weight": 65,
+          "evidence_ids": [
+            "e48ad88c72c742a78f991ef660a3d569-eabadedccb54-e2",
+            "e48ad88c72c742a78f991ef660a3d569-eabadedccb54-e3"
+          ]
+        },
+        {
+          "key": "promise_in_promotion",
+          "title": "Обещание выигрыша",
+          "weight": 10,
+          "evidence_ids": [
+            "e48ad88c72c742a78f991ef660a3d569-eabadedccb54-e4"
+          ]
+        }
+      ],
+      "case_id": "e48ad88c72c742a78f991ef660a3d569"
+    },
+    {
+      "id": "quoted_warning",
+      "expected": false,
+      "predicted": false,
+      "score": 15,
+      "sufficient": true,
+      "contributions": [
+        {
+          "key": "gambling_and_call",
+          "title": "Игровая лексика + призыв",
+          "weight": 65,
+          "evidence_ids": [
+            "5513934761eb44999617ca25138082ab-c96ca74a518d-e2",
+            "5513934761eb44999617ca25138082ab-c96ca74a518d-e3",
+            "5513934761eb44999617ca25138082ab-c96ca74a518d-e6"
+          ]
+        },
+        {
+          "key": "bonus_in_promotion",
+          "title": "Бонус в рекламном контексте",
+          "weight": 15,
+          "evidence_ids": [
+            "5513934761eb44999617ca25138082ab-c96ca74a518d-e4"
+          ]
+        },
+        {
+          "key": "alternative_context",
+          "title": "Альтернативный контекст: предупреждение",
+          "weight": -65,
+          "evidence_ids": [
+            "5513934761eb44999617ca25138082ab-c96ca74a518d-e5"
+          ]
+        }
+      ],
+      "case_id": "5513934761eb44999617ca25138082ab"
+    },
+    {
+      "id": "separate_promotion",
+      "expected": true,
+      "predicted": true,
+      "score": 80,
+      "sufficient": true,
+      "contributions": [
+        {
+          "key": "gambling_and_call",
+          "title": "Игровая лексика + призыв",
+          "weight": 65,
+          "evidence_ids": [
+            "d3e773c5fba24c57bd5186935a63f8e0-6974e5f20785-e2",
+            "d3e773c5fba24c57bd5186935a63f8e0-6974e5f20785-e3",
+            "d3e773c5fba24c57bd5186935a63f8e0-6974e5f20785-e6"
+          ]
+        },
+        {
+          "key": "bonus_in_promotion",
+          "title": "Бонус в рекламном контексте",
+          "weight": 15,
+          "evidence_ids": [
+            "d3e773c5fba24c57bd5186935a63f8e0-6974e5f20785-e4"
+          ]
+        },
+        {
+          "key": "contradictory_context",
+          "title": "Самостоятельный призыв при контексте: предупреждение",
+          "weight": 0,
+          "evidence_ids": [
+            "d3e773c5fba24c57bd5186935a63f8e0-6974e5f20785-e5"
+          ]
+        }
+      ],
+      "case_id": "d3e773c5fba24c57bd5186935a63f8e0"
+    },
+    {
+      "id": "single",
+      "expected": true,
+      "predicted": true,
+      "score": 80,
+      "sufficient": true,
+      "contributions": [
+        {
+          "key": "destination_and_call",
+          "title": "Игровые признаки на странице + призыв",
+          "weight": 65,
+          "evidence_ids": [
+            "30c82896b6dd440c9b8351355a5cefc7-b88f42e0ffef-e2",
+            "30c82896b6dd440c9b8351355a5cefc7-b88f42e0ffef-e4",
+            "30c82896b6dd440c9b8351355a5cefc7-b88f42e0ffef-e8",
+            "30c82896b6dd440c9b8351355a5cefc7-b88f42e0ffef-e9",
+            "30c82896b6dd440c9b8351355a5cefc7-b88f42e0ffef-e10"
+          ]
+        },
+        {
+          "key": "bonus_in_promotion",
+          "title": "Бонус в рекламном контексте",
+          "weight": 15,
+          "evidence_ids": [
+            "30c82896b6dd440c9b8351355a5cefc7-b88f42e0ffef-e3"
+          ]
+        }
+      ],
+      "case_id": "30c82896b6dd440c9b8351355a5cefc7"
+    },
+    {
+      "id": "duplicate",
+      "expected": true,
+      "predicted": true,
+      "score": 90,
+      "sufficient": true,
+      "contributions": [
+        {
+          "key": "destination_and_call",
+          "title": "Игровые признаки на странице + призыв",
+          "weight": 65,
+          "evidence_ids": [
+            "60a6df89b76f4060997125574540ccab-fdfc235d6f3e-e3",
+            "60a6df89b76f4060997125574540ccab-fdfc235d6f3e-e5",
+            "60a6df89b76f4060997125574540ccab-fdfc235d6f3e-e14",
+            "60a6df89b76f4060997125574540ccab-fdfc235d6f3e-e15",
+            "60a6df89b76f4060997125574540ccab-fdfc235d6f3e-e16"
+          ]
+        },
+        {
+          "key": "bonus_in_promotion",
+          "title": "Бонус в рекламном контексте",
+          "weight": 15,
+          "evidence_ids": [
+            "60a6df89b76f4060997125574540ccab-fdfc235d6f3e-e4"
+          ]
+        },
+        {
+          "key": "repeated_referral_in_promotion",
+          "title": "Повтор идентификатора в материалах",
+          "weight": 10,
+          "evidence_ids": [
+            "60a6df89b76f4060997125574540ccab-fdfc235d6f3e-e3",
+            "60a6df89b76f4060997125574540ccab-fdfc235d6f3e-e4",
+            "60a6df89b76f4060997125574540ccab-fdfc235d6f3e-e5"
+          ]
+        }
+      ],
+      "case_id": "60a6df89b76f4060997125574540ccab"
+    },
+    {
+      "id": "different",
+      "expected": true,
+      "predicted": true,
+      "score": 90,
+      "sufficient": true,
+      "contributions": [
+        {
+          "key": "destination_and_call",
+          "title": "Игровые признаки на странице + призыв",
+          "weight": 65,
+          "evidence_ids": [
+            "f37627e5b5cb4ff497bf48e0da6e91d3-f1a08c0182c8-e3",
+            "f37627e5b5cb4ff497bf48e0da6e91d3-f1a08c0182c8-e5",
+            "f37627e5b5cb4ff497bf48e0da6e91d3-f1a08c0182c8-e14",
+            "f37627e5b5cb4ff497bf48e0da6e91d3-f1a08c0182c8-e15",
+            "f37627e5b5cb4ff497bf48e0da6e91d3-f1a08c0182c8-e16"
+          ]
+        },
+        {
+          "key": "bonus_in_promotion",
+          "title": "Бонус в рекламном контексте",
+          "weight": 15,
+          "evidence_ids": [
+            "f37627e5b5cb4ff497bf48e0da6e91d3-f1a08c0182c8-e4"
+          ]
+        },
+        {
+          "key": "repeated_referral_in_promotion",
+          "title": "Повтор идентификатора в материалах",
+          "weight": 10,
+          "evidence_ids": [
+            "f37627e5b5cb4ff497bf48e0da6e91d3-f1a08c0182c8-e3",
+            "f37627e5b5cb4ff497bf48e0da6e91d3-f1a08c0182c8-e4",
+            "f37627e5b5cb4ff497bf48e0da6e91d3-f1a08c0182c8-e5"
+          ]
+        }
+      ],
+      "case_id": "f37627e5b5cb4ff497bf48e0da6e91d3"
+    }
+  ]
+}

@@ -138,6 +138,39 @@ def test_repeated_waiting_cancellation_does_not_duplicate_previous_analysis(held
     assert current["history"][0]["materials"] == previous_materials
 
 
+def test_retry_archives_unscored_cancelled_analysis_with_original_evidence(held_executor):
+    doc = make_case()
+    checkpoints = 0
+
+    def stopped():
+        nonlocal checkpoints
+        checkpoints += 1
+        return checkpoints >= 2
+
+    pipeline.analyze(doc, cancelled=stopped)
+    assert doc["status"] == "cancelled" and doc.get("score") is None
+    old = deepcopy(doc)
+    storage.save(doc)
+    pipeline.submit(doc["id"])
+    executor, release = held_executor
+    release.set()
+    executor.submit(lambda: None).result(timeout=3)
+    current = storage.get(doc["id"])
+    assert current["status"] == "completed"
+    assert len(current["history"]) == 1
+    prior = current["history"][0]
+    assert prior["status"] == "cancelled" and prior["score"] is None
+    assert prior["analysis_id"] == old["analysis_id"]
+    assert prior["materials"] == old["materials"]
+    assert prior["evidence"] == old["evidence"]
+    assert prior["stages"] == old["stages"]
+    from backend.report_html import render
+
+    exported = render(current).decode("utf-8")
+    assert "Предыдущие анализы" in exported and "Отменен" in exported
+    assert "Еще не оценен" in exported
+
+
 def test_failed_addition_rolls_back_materials_and_analysis(monkeypatch):
     class RejectingExecutor:
         def submit(self, *args):

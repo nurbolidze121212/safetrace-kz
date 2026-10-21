@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-21T20:47:15.852468+00:00",
+  "before_first_predictions": true,
+  "audit": "data-audit.json",
+  "near_duplicate_candidates_reviewed": 0,
+  "authored_texts_reviewed": 80,
+  "sample_images_visually_reviewed": [
+    15,
+    30,
+    71
+  ],
+  "annotation_qa": "reports/acceptance-v4/data-authoring-qa/changes.json",
+  "conclusion": "Author-synthetic data accepted for the predeclared comparison; no independent human annotation. Sentence punctuation removed from expected addresses before freeze; input bytes unchanged."
+}

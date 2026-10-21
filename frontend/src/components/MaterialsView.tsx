@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 import { ArrowUpRight, FileText, QrCode, ScanText, ZoomIn, ZoomOut } from 'lucide-react'
-import type { Case, Material } from '../types'
+import type { Case, Material, URLCorrectionRequest } from '../types'
 import { contexts, date, isActive } from '../lib'
 import { Empty, Highlight, PriorityBadge } from './UI'
+import URLReview from './URLReview'
 
 export function OriginalImage({ material, selected, onSelect, compact = false }: { material: Material; selected?: string; onSelect?: (id: string) => void; compact?: boolean }) {
   const [zoom, setZoom] = useState(1)
@@ -30,7 +31,7 @@ export function OriginalImage({ material, selected, onSelect, compact = false }:
   </div>
 }
 
-export default function MaterialsView({ current, materialId, selectedEvidence, onMaterial, onEvidence }: { current: Case; materialId: string; selectedEvidence?: string; onMaterial: (id: string) => void; onEvidence: (ids: string[]) => void }) {
+export default function MaterialsView({ current, materialId, selectedEvidence, onMaterial, onEvidence, onCorrect }: { current: Case; materialId: string; selectedEvidence?: string; onMaterial: (id: string) => void; onEvidence: (ids: string[]) => void; onCorrect: (value: URLCorrectionRequest) => Promise<void> }) {
   const material = current.materials.find(m => m.id === materialId) || current.materials[0]
   const [lineId, setLineId] = useState<string>()
   const selected = lineId || selectedEvidence
@@ -40,6 +41,7 @@ export default function MaterialsView({ current, materialId, selectedEvidence, o
   return <section className="materials-workspace">
     <div className="material-switcher" aria-label="Выбор материала">{current.materials.map((m, i) => <button key={m.id} aria-pressed={material.id === m.id} className={material.id === m.id ? 'selected' : ''} onClick={() => { onMaterial(m.id); setLineId(undefined) }}><FileText size={16} /><span>Материал {i + 1}<small>{m.source}</small></span></button>)}</div>
     <div className="material-heading"><div><h2>{material.source}</h2><p>Источник заявлен при импорте; авторство не проверено.{material.published_at ? ' · ' + date(material.published_at) : ''}</p></div><span className="badge">{material.image_id ? 'Текст + изображение' : 'Текст / URL'}</span></div>
+    {material.duplicate_of && <p className="alert">Содержание совпадает с другим материалом этого случая. Копия сохранена, но не учитывается как независимое подтверждение. <button className="text-button" onClick={() => onMaterial(material.duplicate_of!)}>Открыть первый материал</button></p>}
     {material.score && <div className="case-meta" aria-label="Оценка материала"><span>{isActive(current.status) ? 'Предыдущая оценка материала' : 'Оценка этого материала'}</span><PriorityBadge item={material} />{material.context && <span>Контекст: {contexts[material.context.context] || material.context.context}</span>}{current.score?.material_id === material.id && <span>Определяет индекс случая</span>}</div>}
     {material.context?.context === 'promotion' && <p className="field-hint material-context-note">Рекламная лексика и призыв в материале сами по себе не подтверждают игровое назначение. Оно проверяется отдельно по маршруту.</p>}
     <div className={'material-columns ' + (material.image_id ? '' : 'text-only')}>
@@ -47,6 +49,7 @@ export default function MaterialsView({ current, materialId, selectedEvidence, o
         {material.text && <section className="source-block"><div className="section-title"><FileText size={17} /><h3>Текст публикации</h3></div><div className="source-text"><Highlight text={material.text} claims={claims} /></div>{quotes.length > 0 && <p className="field-hint"><span className="highlight-key" />Выделены цитаты, подтвержденные в источнике</p>}</section>}
         {material.url && <div className="source-url"><span className="field-hint">Исходная ссылка</span><code>{material.url}</code></div>}
         <OriginalImage key={material.id} material={material} selected={selected} onSelect={setLineId} />
+        <URLReview current={current} material={material} onEvidence={onEvidence} onCorrect={onCorrect} />
         {material.qr && <section className="qr-results"><div className="section-title"><QrCode size={18} /><h3>QR-коды</h3><span className="badge">{material.qr.codes.length}</span></div>
           {material.qr.codes.length ? <><p className="field-hint">Содержимое декодировано из изображения. HTTP/HTTPS-адреса проходят ту же проверку переходов, что и текстовые ссылки.</p>{material.qr.codes.map(code => <article className="qr-result" key={code.evidence_id}><code>{code.text}</code>{code.truncated && <p className="warning-text">Показаны первые 2048 символов; адрес не передается в проверку.</p>}{code.reason && <p className="warning-text">{code.reason}. Содержимое показано как текст.</p>}<button className="text-button" onClick={() => onEvidence([code.evidence_id])}>Источник QR <ArrowUpRight size={14} /></button></article>)}</> : <p className="field-hint">QR-коды не распознаны. Это не исключает мелкий или поврежденный код.</p>}
         </section>}
@@ -66,5 +69,11 @@ export default function MaterialsView({ current, materialId, selectedEvidence, o
         : quotes.length ? <div className="claim-list">{(current.claims || []).filter(c => c.source_id === material.id).map(c => <button key={c.evidence_id} onClick={() => onEvidence([c.evidence_id])}><span>«{c.quote}»</span><ArrowUpRight size={16} /></button>)}</div> : <Empty title="Подтвержденных признаков нет"><p>Отсутствие признаков само по себе не гарантирует безопасность материала.</p></Empty>}
       </div>
     </div>
+    {!!material.call_bindings?.length && <section className="call-bindings" aria-label="Призыв и его назначение"><h3>К какому адресу относится призыв</h3><p className="field-hint">Основание связано с конкретной ветвью. Источники других адресов не подтверждают этот призыв.</p>
+      {material.call_bindings.map(binding => <article key={binding.call_evidence_id}><strong>«{binding.quote}»</strong>
+        {binding.root_url ? <><code>{binding.root_url}</code><p className="field-hint">{binding.method === 'single_material_target' ? 'Предположение по единственному адресу материала; проверьте эту связь.' : 'Адрес находится в той же области текста, что и призыв.'}{binding.destination_evidence_ids.length ? ' В этой ветви найдены игровые признаки.' : 'Игровое назначение этой ветвью не подтверждено.'}</p></> : <p className="warning-text">Связь с конкретным адресом не установлена. Сверьте призыв и ссылки в исходном материале.</p>}
+        <button className="text-button" onClick={() => onEvidence([...new Set([binding.call_evidence_id, ...binding.root_evidence_ids, ...binding.route_evidence_ids, ...binding.destination_evidence_ids])])}>Показать основания связи <ArrowUpRight size={14} /></button>
+      </article>)}
+    </section>}
   </section>
 }

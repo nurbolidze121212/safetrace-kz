@@ -1,0 +1,4610 @@
+[
+  {
+    "id": "0004d381b6ff9f45",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 18939.392,
+    "ocr_elapsed_ms": 18809.163,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМО. Ночная сессия открывается в десять. Играй в казино, пополняй счёт\nи получай приветственный бонус:\nhttps://k2b5cd709d3.test/invite/4e7553?ref=TDFD34D7",
+        "text": "DЕМО. Ночная сессия открывается в десять. Играй в казино, пополняй счёт\nи получай приветственный бонус:\nhttps://k2b5cd709d3.test/invite/4e7553?ref=TDFD34D7",
+        "raw_urls": [
+          "https://k2b5cd709d3.test/invite/4e7553?ref=TDFD34D7"
+        ],
+        "automatic_urls": [
+          "https://k2b5cd709d3.test/invite/4e7553?ref=TDFD34D7"
+        ],
+        "candidates": [
+          "https://k2b5cd709d3.test/invite/4e7553?ref=TDFD34D7"
+        ],
+        "roots": [
+          "https://k2b5cd709d3.test/invite/4e7553?ref=TDFD34D7"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 270
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "5b6ded4ee844420fba11a83264636ccb-2e77bf46551a-e6",
+          "5b6ded4ee844420fba11a83264636ccb-2e77bf46551a-e8",
+          "5b6ded4ee844420fba11a83264636ccb-2e77bf46551a-e12",
+          "5b6ded4ee844420fba11a83264636ccb-2e77bf46551a-e13",
+          "5b6ded4ee844420fba11a83264636ccb-2e77bf46551a-e14"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "5b6ded4ee844420fba11a83264636ccb-2e77bf46551a-e7"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "ru",
+    "category": "direct",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "3215e7bac5f5259c",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 4085.738,
+    "ocr_elapsed_ms": 3993.516,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМО. Кешкі айналым басталды. Казиноға тіркеліңіз, ақша салып ойнаңыз.\nЖаңа қатысушыға сыйлық бар. QR төменде.",
+        "text": "DЕМО. Кешкі айналым басталды. Казиноға тіркеліңіз, ақша салып ойнаңыз.\nЖаңа қатысушыға сыйлық бар. QR төменде.",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://kd5876c1da5.test/visit/2ed426?ref=TCC76F6B"
+        ],
+        "qr_payloads": [
+          "https://kd5876c1da5.test/visit/2ed426?ref=TCC76F6B"
+        ],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "07e5f0a892034acbaa016567588e2784-540251942eed-e6",
+          "07e5f0a892034acbaa016567588e2784-540251942eed-e10",
+          "07e5f0a892034acbaa016567588e2784-540251942eed-e13"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "07e5f0a892034acbaa016567588e2784-540251942eed-e7"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "kk",
+    "category": "direct",
+    "image": true,
+    "qr": true
+  },
+  {
+    "id": "86eec75c88ea2b2e",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 3.135,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "9e1a172157b84f548506e3f2c16773ab-6ea45a55e746-e3",
+          "9e1a172157b84f548506e3f2c16773ab-6ea45a55e746-e5",
+          "9e1a172157b84f548506e3f2c16773ab-6ea45a55e746-e9",
+          "9e1a172157b84f548506e3f2c16773ab-6ea45a55e746-e10"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "9e1a172157b84f548506e3f2c16773ab-6ea45a55e746-e4"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "mixed",
+    "category": "direct",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "8aeaa53297c18a1c",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 3.447,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "e26239d8c7ef4010a0f251ad5bac0ab4-63afb3367c3a-e3",
+          "e26239d8c7ef4010a0f251ad5bac0ab4-63afb3367c3a-e5",
+          "e26239d8c7ef4010a0f251ad5bac0ab4-63afb3367c3a-e9",
+          "e26239d8c7ef4010a0f251ad5bac0ab4-63afb3367c3a-e10",
+          "e26239d8c7ef4010a0f251ad5bac0ab4-63afb3367c3a-e11"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "e26239d8c7ef4010a0f251ad5bac0ab4-63afb3367c3a-e4"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "translit",
+    "category": "direct",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "49affb3e65f67571",
+    "variant": "full",
+    "score": 65,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 3.84,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://kee4d9f2b83.test/invite/4d1f1b?ref=TAC0D277"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "4e5ced69167d4983a86e939b54b1883d-436c702a8fdd-e3",
+          "4e5ced69167d4983a86e939b54b1883d-436c702a8fdd-e7",
+          "4e5ced69167d4983a86e939b54b1883d-436c702a8fdd-e10"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "ru",
+    "category": "direct",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "77bd82e9e901544e",
+    "variant": "full",
+    "score": 75,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "partial",
+    "elapsed_ms": 6543.961,
+    "ocr_elapsed_ms": 6449.044,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DEМO. Біздің казино жаңа ойыншыларды күтеді. Тіркеліп, алғашқы ұтысқа\nқатысыңыз. Толық шарттар:\nhttps://kfe552bcf22.test\n/visit/f20c4a?ref=T2891C48",
+        "text": "DEМO. Біздің казино жаңа ойыншыларды күтеді. Тіркеліп, алғашқы ұтысқа\nқатысыңыз. Толық шарттар:\nhttps://kfe552bcf22.test\n/visit/f20c4a?ref=T2891C48",
+        "raw_urls": [
+          "https://kfe552bcf22.test"
+        ],
+        "automatic_urls": [
+          "https://kfe552bcf22.test"
+        ],
+        "candidates": [
+          "https://kfe552bcf22.test"
+        ],
+        "roots": [
+          "https://kfe552bcf22.test"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "gambling_and_call",
+        "title": "Игровая лексика + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "d2245f657dd64a999e48ba3ad9c66558-b60e001a4c04-e6",
+          "d2245f657dd64a999e48ba3ad9c66558-b60e001a4c04-e7"
+        ]
+      },
+      {
+        "key": "promise_in_promotion",
+        "title": "Обещание выигрыша",
+        "weight": 10,
+        "evidence_ids": [
+          "d2245f657dd64a999e48ba3ad9c66558-b60e001a4c04-e8"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+      "Непроверенный участок: Синтетический стенд: адрес не найден"
+    ],
+    "truth": 1,
+    "language": "kk",
+    "category": "direct",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "c39218c419aa0d92",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "partial",
+    "elapsed_ms": 3251.035,
+    "ocr_elapsed_ms": 3106.179,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DEМО. Жаңа бөлім жұмыс істейді: заходи в казино и забирай фриспины после\nпополнения. Meкенжай: https://k9017043ee0.test/сard/39677c?ref=T95BD621",
+        "text": "DEМО. Жаңа бөлім жұмыс істейді: заходи в казино и забирай фриспины после\nпополнения. Meкенжай: https://k9017043ee0.test/сard/39677c?ref=T95BD621",
+        "raw_urls": [
+          "https://k9017043ee0.test/сard/39677c?ref=T95BD621"
+        ],
+        "automatic_urls": [
+          "https://k9017043ee0.test/сard/39677c?ref=T95BD621"
+        ],
+        "candidates": [
+          "https://k9017043ee0.test/сard/39677c?ref=T95BD621"
+        ],
+        "roots": [
+          "https://k9017043ee0.test/сard/39677c?ref=T95BD621"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "gambling_and_call",
+        "title": "Игровая лексика + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "dbad81c55f064dfea2ae344ee04bb884-0abace6301ba-e4",
+          "dbad81c55f064dfea2ae344ee04bb884-0abace6301ba-e5",
+          "dbad81c55f064dfea2ae344ee04bb884-0abace6301ba-e7",
+          "dbad81c55f064dfea2ae344ee04bb884-0abace6301ba-e8"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "dbad81c55f064dfea2ae344ee04bb884-0abace6301ba-e6"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+      "Непроверенный участок: Синтетический стенд: адрес не найден"
+    ],
+    "truth": 1,
+    "language": "mixed",
+    "category": "direct",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "efcd6f05c534bb02",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 2.963,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://kbfa274b71b.test/access/7ce729?ref=T2452394"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "e1df2b9516a547c3b85324890d38563d-79d0fe05b61c-e3",
+          "e1df2b9516a547c3b85324890d38563d-79d0fe05b61c-e8",
+          "e1df2b9516a547c3b85324890d38563d-79d0fe05b61c-e11"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "e1df2b9516a547c3b85324890d38563d-79d0fe05b61c-e4"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "ru",
+    "category": "direct",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "bdf82814b6b52e08",
+    "variant": "full",
+    "score": 65,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 2.547,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k7435fa4aff.test/invite/5b72ab?ref=T36A0DEF"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "fc0a7cb0c9fb476885b92b765d044fb3-b325e39a4200-e2",
+          "fc0a7cb0c9fb476885b92b765d044fb3-b325e39a4200-e6",
+          "fc0a7cb0c9fb476885b92b765d044fb3-b325e39a4200-e7"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "ru",
+    "category": "hidden",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "d7d74f3a372b05f3",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 3.038,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://kfce3d8abf3.test/visit/1444e9?ref=T22C8986"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "9d1c911c51514922ba10a5c458775fb4-16f682d7c0a0-e2",
+          "9d1c911c51514922ba10a5c458775fb4-16f682d7c0a0-e4",
+          "9d1c911c51514922ba10a5c458775fb4-16f682d7c0a0-e5",
+          "9d1c911c51514922ba10a5c458775fb4-16f682d7c0a0-e9",
+          "9d1c911c51514922ba10a5c458775fb4-16f682d7c0a0-e10",
+          "9d1c911c51514922ba10a5c458775fb4-16f682d7c0a0-e11"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "9d1c911c51514922ba10a5c458775fb4-16f682d7c0a0-e3"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "kk",
+    "category": "hidden",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "b4e3d0093675af43",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 3758.055,
+    "ocr_elapsed_ms": 3575.012,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМО. Кешкі тізім жаңарды. Регистрируйся по карточке участника и забирай\nбонус дo 3aкpытия: https://k8b52cb563f.test/card/d4d911?ref=TBE1491F",
+        "text": "DЕМО. Кешкі тізім жаңарды. Регистрируйся по карточке участника и забирай\nбонус дo 3aкpытия: https://k8b52cb563f.test/card/d4d911?ref=TBE1491F",
+        "raw_urls": [
+          "https://k8b52cb563f.test/card/d4d911?ref=TBE1491F"
+        ],
+        "automatic_urls": [
+          "https://k8b52cb563f.test/card/d4d911?ref=TBE1491F"
+        ],
+        "candidates": [
+          "https://k8b52cb563f.test/card/d4d911?ref=TBE1491F"
+        ],
+        "roots": [
+          "https://k8b52cb563f.test/card/d4d911?ref=TBE1491F"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "215dbdd6ac4b4725b0dbad25ec94b84d-ab8cc7cbc183-e4",
+          "215dbdd6ac4b4725b0dbad25ec94b84d-ab8cc7cbc183-e6",
+          "215dbdd6ac4b4725b0dbad25ec94b84d-ab8cc7cbc183-e10",
+          "215dbdd6ac4b4725b0dbad25ec94b84d-ab8cc7cbc183-e13"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "215dbdd6ac4b4725b0dbad25ec94b84d-ab8cc7cbc183-e5"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "mixed",
+    "category": "hidden",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "ac1c9878c1b8f34e",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 5712.851,
+    "ocr_elapsed_ms": 5636.905,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМО. На странице приглашений появилась ваша карточка. Переходи по\nадресу, затем забирай бонус в профиле:\nhttps://k960d2d93a1.test/access/7692b2?ref=TA531615",
+        "text": "DЕМО. На странице приглашений появилась ваша карточка. Переходи по\nадресу, затем забирай бонус в профиле:\nhttps://k960d2d93a1.test/access/7692b2?ref=TA531615",
+        "raw_urls": [
+          "https://k960d2d93a1.test/access/7692b2?ref=TA531615"
+        ],
+        "automatic_urls": [
+          "https://k960d2d93a1.test/access/7692b2?ref=TA531615"
+        ],
+        "candidates": [
+          "https://k960d2d93a1.test/access/7692b2?ref=TA531615"
+        ],
+        "roots": [
+          "https://k960d2d93a1.test/access/7692b2?ref=TA531615",
+          "https://k22cba0b12b.test/e7743b0"
+        ],
+        "qr_payloads": [
+          "https://k22cba0b12b.test/e7743b0"
+        ],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "1440286d3e8640a1a0f297bd0f0e4b3f-dd11a62a2a68-e6",
+          "1440286d3e8640a1a0f297bd0f0e4b3f-dd11a62a2a68-e8",
+          "1440286d3e8640a1a0f297bd0f0e4b3f-dd11a62a2a68-e12",
+          "1440286d3e8640a1a0f297bd0f0e4b3f-dd11a62a2a68-e13"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "1440286d3e8640a1a0f297bd0f0e4b3f-dd11a62a2a68-e7"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "ru",
+    "category": "hidden",
+    "image": true,
+    "qr": true
+  },
+  {
+    "id": "65dfa72d57835ed2",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 3.171,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://ke9d663b89f.test/invite/f4138c?ref=T6643793"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "0e8958509b5043a69ae3aa33f06e4cde-7fdb0a362360-e2",
+          "0e8958509b5043a69ae3aa33f06e4cde-7fdb0a362360-e7",
+          "0e8958509b5043a69ae3aa33f06e4cde-7fdb0a362360-e8",
+          "0e8958509b5043a69ae3aa33f06e4cde-7fdb0a362360-e9"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "0e8958509b5043a69ae3aa33f06e4cde-7fdb0a362360-e3"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "translit",
+    "category": "hidden",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "5491d1ea73f5e074",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 2.924,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://kb964b34b9b.test/visit/a197a5?ref=T801365B"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "2b70e00631344b42b4c6eb44a77ca0b7-6a79c0bba0ce-e2",
+          "2b70e00631344b42b4c6eb44a77ca0b7-6a79c0bba0ce-e4",
+          "2b70e00631344b42b4c6eb44a77ca0b7-6a79c0bba0ce-e8",
+          "2b70e00631344b42b4c6eb44a77ca0b7-6a79c0bba0ce-e11"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "2b70e00631344b42b4c6eb44a77ca0b7-6a79c0bba0ce-e3"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "kk",
+    "category": "hidden",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "15ef9e21cfebecd6",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 3.215,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k16813745fe.test/card/7fffe9?ref=T4ACAA06"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "5d56c72fb39b4b4485913c82f61caad5-ebbdc429d661-e2",
+          "5d56c72fb39b4b4485913c82f61caad5-ebbdc429d661-e7",
+          "5d56c72fb39b4b4485913c82f61caad5-ebbdc429d661-e8"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "5d56c72fb39b4b4485913c82f61caad5-ebbdc429d661-e3"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "mixed",
+    "category": "hidden",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "3c777223d5c78e6d",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 3738.778,
+    "ocr_elapsed_ms": 3571.42,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМО. Для подписчиков оставили отдельный проход. Жми на приглашение и активируй бонус\nновичка: https://k114950d3e5.test/шақыру/909ea5?ref=T267C244",
+        "text": "DЕМО. Для подписчиков оставили отдельный проход. Жми на приглашение и активируй бонус\nновичка: https://k114950d3e5.test/шақыру/909ea5?ref=T267C244",
+        "raw_urls": [
+          "https://k114950d3e5.test/шақыру/909ea5?ref=T267C244"
+        ],
+        "automatic_urls": [
+          "https://k114950d3e5.test/шақыру/909ea5?ref=T267C244"
+        ],
+        "candidates": [
+          "https://k114950d3e5.test/шақыру/909ea5?ref=T267C244"
+        ],
+        "roots": [
+          "https://k114950d3e5.test/шақыру/909ea5?ref=T267C244"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "8c19575646c94ca092eb11fc3c4c74ce-2335cbbaf5e4-e4",
+          "8c19575646c94ca092eb11fc3c4c74ce-2335cbbaf5e4-e6",
+          "8c19575646c94ca092eb11fc3c4c74ce-2335cbbaf5e4-e10",
+          "8c19575646c94ca092eb11fc3c4c74ce-2335cbbaf5e4-e11",
+          "8c19575646c94ca092eb11fc3c4c74ce-2335cbbaf5e4-e12"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "8c19575646c94ca092eb11fc3c4c74ce-2335cbbaf5e4-e5"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "ru",
+    "category": "hidden",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "0caa7849d90e4ac7",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 3310.688,
+    "ocr_elapsed_ms": 3155.728,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМО. Алдымен шақыру парағын ашыңыз. Соңғы батырма арқылы тіркеліп,\nсыйлық aлыңыз: https://k9e377783e7.test/invite/c30227?ref=TCA2332C",
+        "text": "DЕМО. Алдымен шақыру парағын ашыңыз. Соңғы батырма арқылы тіркеліп,\nсыйлық aлыңыз: https://k9e377783e7.test/invite/c30227?ref=TCA2332C",
+        "raw_urls": [
+          "https://k9e377783e7.test/invite/c30227?ref=TCA2332C"
+        ],
+        "automatic_urls": [
+          "https://k9e377783e7.test/invite/c30227?ref=TCA2332C"
+        ],
+        "candidates": [
+          "https://k9e377783e7.test/invite/c30227?ref=TCA2332C"
+        ],
+        "roots": [
+          "https://k9e377783e7.test/invite/c30227?ref=TCA2332C"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "de98316315fa461daa39ad33e45e152e-9f7d5937d621-e4",
+          "de98316315fa461daa39ad33e45e152e-9f7d5937d621-e11",
+          "de98316315fa461daa39ad33e45e152e-9f7d5937d621-e14"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "de98316315fa461daa39ad33e45e152e-9f7d5937d621-e5"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "kk",
+    "category": "multihop",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "de5708b21f000b50",
+    "variant": "full",
+    "score": 65,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 3.946,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://ka1e22d850a.test/visit/901c6c?ref=TB07CF5E"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "f858bfb1b9a84047bca42e53209178c6-6468e4952ff2-e2",
+          "f858bfb1b9a84047bca42e53209178c6-6468e4952ff2-e3",
+          "f858bfb1b9a84047bca42e53209178c6-6468e4952ff2-e9",
+          "f858bfb1b9a84047bca42e53209178c6-6468e4952ff2-e10"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "ru",
+    "category": "multihop",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "99abb2d7ec987f17",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 4.931,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k12b856ee3b.test/card/d8db7e?ref=T784B02B"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "236c223dfc81493aaec7b04bb667bf72-27e147768c5e-e2",
+          "236c223dfc81493aaec7b04bb667bf72-27e147768c5e-e4",
+          "236c223dfc81493aaec7b04bb667bf72-27e147768c5e-e10",
+          "236c223dfc81493aaec7b04bb667bf72-27e147768c5e-e11",
+          "236c223dfc81493aaec7b04bb667bf72-27e147768c5e-e12"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "236c223dfc81493aaec7b04bb667bf72-27e147768c5e-e3"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "mixed",
+    "category": "multihop",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "e773f999943b4a38",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 5.303,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k0203a88ccf.test/access/5bf4f7?ref=T8D16E7F"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "d41582dc7029490db6d5dfe68c82a869-820ed3605fcc-e2",
+          "d41582dc7029490db6d5dfe68c82a869-820ed3605fcc-e4",
+          "d41582dc7029490db6d5dfe68c82a869-820ed3605fcc-e10",
+          "d41582dc7029490db6d5dfe68c82a869-820ed3605fcc-e13"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "d41582dc7029490db6d5dfe68c82a869-820ed3605fcc-e3"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "translit",
+    "category": "multihop",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "12a87911aaa87f63",
+    "variant": "full",
+    "score": 65,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 18527.181,
+    "ocr_elapsed_ms": 18409.981,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМО. Кнопка участия теперь на второй странице. Регистрируйся через этот\nпереход, подарок будет на конечной площадке:\nhttps://k214f1509bf.test/invite/0ea758?ref=TD7D52CE",
+        "text": "DЕМО. Кнопка участия теперь на второй странице. Регистрируйся через этот\nпереход, подарок будет на конечной площадке:\nhttps://k214f1509bf.test/invite/0ea758?ref=TD7D52CE",
+        "raw_urls": [
+          "https://k214f1509bf.test/invite/0ea758?ref=TD7D52CE"
+        ],
+        "automatic_urls": [
+          "https://k214f1509bf.test/invite/0ea758?ref=TD7D52CE"
+        ],
+        "candidates": [
+          "https://k214f1509bf.test/invite/0ea758?ref=TD7D52CE"
+        ],
+        "roots": [
+          "https://k214f1509bf.test/invite/0ea758?ref=TD7D52CE"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 270
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "930c6b390262412c973e5de17f12b379-900cd354e273-e5",
+          "930c6b390262412c973e5de17f12b379-900cd354e273-e11",
+          "930c6b390262412c973e5de17f12b379-900cd354e273-e12"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "ru",
+    "category": "multihop",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "d1d650782ea45cda",
+    "variant": "full",
+    "score": 65,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 3545.61,
+    "ocr_elapsed_ms": 3468.481,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМО. Қатысушы жолы жаңарды. Переходи к карточке клуба и активируй\nпредложение после навигации: QR төменде.",
+        "text": "DЕМО. Қатысушы жолы жаңарды. Переходи к карточке клуба и активируй\nпредложение после навигации: QR төменде.",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A"
+        ],
+        "qr_payloads": [
+          "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A"
+        ],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e5",
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e6",
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e11",
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e12",
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e13"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "mixed",
+    "category": "multihop",
+    "image": true,
+    "qr": true
+  },
+  {
+    "id": "83a01ccc619c4f94",
+    "variant": "full",
+    "score": 65,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 3.534,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k1bee884f69.test/card/f7e3fc?ref=T04D075B"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "140dea068fc44fe485ea71e993ca079a-7749f7e5aa59-e2",
+          "140dea068fc44fe485ea71e993ca079a-7749f7e5aa59-e8",
+          "140dea068fc44fe485ea71e993ca079a-7749f7e5aa59-e11"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "kk",
+    "category": "multihop",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "cc307f28a1d259c8",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 4.832,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://kc3aefb2c84.test/access/fda122?ref=T4FE7B68"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "7c183b64fec04dffa731e5c29692f2d2-9b2cdb2b0c99-e2",
+          "7c183b64fec04dffa731e5c29692f2d2-9b2cdb2b0c99-e9",
+          "7c183b64fec04dffa731e5c29692f2d2-9b2cdb2b0c99-e10"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "7c183b64fec04dffa731e5c29692f2d2-9b2cdb2b0c99-e3"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "ru",
+    "category": "multihop",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "e9ef63ff4d2b821b",
+    "variant": "full",
+    "score": 15,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 3.458,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k85247efe93.test/invite/9f06c8?ref=T9129B8B"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "9c4e65dc9fec45b9aef84a62beffa4c9-52be3ddee889-e2",
+          "9c4e65dc9fec45b9aef84a62beffa4c9-52be3ddee889-e5",
+          "9c4e65dc9fec45b9aef84a62beffa4c9-52be3ddee889-e9",
+          "9c4e65dc9fec45b9aef84a62beffa4c9-52be3ddee889-e10",
+          "9c4e65dc9fec45b9aef84a62beffa4c9-52be3ddee889-e11"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "9c4e65dc9fec45b9aef84a62beffa4c9-52be3ddee889-e3"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: предупреждение",
+        "weight": -65,
+        "evidence_ids": [
+          "9c4e65dc9fec45b9aef84a62beffa4c9-52be3ddee889-e4"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "ru",
+    "category": "contradictory",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "84d6857a821e80ec",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "partial",
+    "elapsed_ms": 5668.968,
+    "ocr_elapsed_ms": 5556.259,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DEМO. Алаяқ хабарламалардан сақ болыңыз. Біздің өз клубымызға\nтіркеліңіз, қатысушыға сыйлық дайын:\nhttps://kcb022a6146.test\n/visit/4b848d?ref=T127E63A",
+        "text": "DEМO. Алаяқ хабарламалардан сақ болыңыз. Біздің өз клубымызға\nтіркеліңіз, қатысушыға сыйлық дайын:\nhttps://kcb022a6146.test\n/visit/4b848d?ref=T127E63A",
+        "raw_urls": [
+          "https://kcb022a6146.test"
+        ],
+        "automatic_urls": [
+          "https://kcb022a6146.test"
+        ],
+        "candidates": [
+          "https://kcb022a6146.test"
+        ],
+        "roots": [
+          "https://kcb022a6146.test"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: предупреждение",
+        "weight": -65,
+        "evidence_ids": [
+          "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e8",
+          "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e9"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+      "Непроверенный участок: Синтетический стенд: адрес не найден"
+    ],
+    "truth": 1,
+    "language": "kk",
+    "category": "contradictory",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "fb7e57af87190840",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 4317.628,
+    "ocr_elapsed_ms": 4208.938,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DEМО. Учебная часть встречи закончилась. Енді казиноға тіркеліп, ақшаға\nойнаңыз; бонус ждёт на странице\nhttps://k2929a95f77.test/card/efdeea?ref=T4322540",
+        "text": "DEМО. Учебная часть встречи закончилась. Енді казиноға тіркеліп, ақшаға\nойнаңыз; бонус ждёт на странице\nhttps://k2929a95f77.test/card/efdeea?ref=T4322540",
+        "raw_urls": [
+          "https://k2929a95f77.test/card/efdeea?ref=T4322540"
+        ],
+        "automatic_urls": [
+          "https://k2929a95f77.test/card/efdeea?ref=T4322540"
+        ],
+        "candidates": [
+          "https://k2929a95f77.test/card/efdeea?ref=T4322540"
+        ],
+        "roots": [
+          "https://k2929a95f77.test/card/efdeea?ref=T4322540"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "f3555809931b43cbabc1b6b1a3da20b1-b6d12440a7ac-e6",
+          "f3555809931b43cbabc1b6b1a3da20b1-b6d12440a7ac-e12",
+          "f3555809931b43cbabc1b6b1a3da20b1-b6d12440a7ac-e13"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "f3555809931b43cbabc1b6b1a3da20b1-b6d12440a7ac-e7"
+        ]
+      },
+      {
+        "key": "contradictory_context",
+        "title": "Самостоятельный призыв при контексте: образовательный разбор",
+        "weight": 0,
+        "evidence_ids": [
+          "f3555809931b43cbabc1b6b1a3da20b1-b6d12440a7ac-e8"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "mixed",
+    "category": "contradictory",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "477e0394d65d9e20",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 3.062,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k26cbc9ca23.test/access/d13a1c?ref=T4455C72"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "d40a32c51623405085cebb679485e3bd-a9cd3a4b9063-e3",
+          "d40a32c51623405085cebb679485e3bd-a9cd3a4b9063-e5",
+          "d40a32c51623405085cebb679485e3bd-a9cd3a4b9063-e9",
+          "d40a32c51623405085cebb679485e3bd-a9cd3a4b9063-e10",
+          "d40a32c51623405085cebb679485e3bd-a9cd3a4b9063-e11"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "d40a32c51623405085cebb679485e3bd-a9cd3a4b9063-e4"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "ru",
+    "category": "contradictory",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "d80e5bcc8cc245bd",
+    "variant": "full",
+    "score": 10,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 2.841,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://kb2d4fa31df.test/invite/7dd7de?ref=TE100328"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "65a4866e27d2440e8fe934d02491cfe8-86037cdc75cf-e3",
+          "65a4866e27d2440e8fe934d02491cfe8-86037cdc75cf-e9",
+          "65a4866e27d2440e8fe934d02491cfe8-86037cdc75cf-e12"
+        ]
+      },
+      {
+        "key": "promise_in_promotion",
+        "title": "Обещание выигрыша",
+        "weight": 10,
+        "evidence_ids": [
+          "65a4866e27d2440e8fe934d02491cfe8-86037cdc75cf-e4"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: бесплатная игра",
+        "weight": -65,
+        "evidence_ids": [
+          "65a4866e27d2440e8fe934d02491cfe8-86037cdc75cf-e5"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "kk",
+    "category": "contradictory",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "0a81de97b519cc14",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 4.175,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k3c900406a3.test/visit/94a641?ref=TAB7E57F"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "c3d2aafc26b44f1a90853b6f26c1e1e8-560a14138da4-e2",
+          "c3d2aafc26b44f1a90853b6f26c1e1e8-560a14138da4-e4",
+          "c3d2aafc26b44f1a90853b6f26c1e1e8-560a14138da4-e8",
+          "c3d2aafc26b44f1a90853b6f26c1e1e8-560a14138da4-e9"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "c3d2aafc26b44f1a90853b6f26c1e1e8-560a14138da4-e3"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "mixed",
+    "category": "contradictory",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "faeeacb96f43a9e6",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 4501.377,
+    "ocr_elapsed_ms": 4353.799,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМО. Доступны два равноправных входа для новых участников.\nPeгистрируйся чеpeз https://ka1020a22ab.test/card/ed9990?ref=T9BC0232\nили https://kcfd5586c55.test/13b5baa; предложение одинаковое.",
+        "text": "DЕМО. Доступны два равноправных входа для новых участников.\nPeгистрируйся чеpeз https://ka1020a22ab.test/card/ed9990?ref=T9BC0232\nили https://kcfd5586c55.test/13b5baa; предложение одинаковое.",
+        "raw_urls": [
+          "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+          "https://kcfd5586c55.test/13b5baa"
+        ],
+        "automatic_urls": [
+          "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+          "https://kcfd5586c55.test/13b5baa"
+        ],
+        "candidates": [
+          "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+          "https://kcfd5586c55.test/13b5baa"
+        ],
+        "roots": [
+          "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+          "https://kcfd5586c55.test/13b5baa"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "ru",
+    "category": "multiple_targets",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "c3857e7147cbbb40",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 5175.684,
+    "ocr_elapsed_ms": 5091.425,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМО. Қауіп туралы мақала бөлек жарияланды. Наш клуб принимает новичков:\nпереходи по этому адресу и забирай бонус\nhttps://k291b7a6f44.test/access/1dbce6?ref=TCBCC32C",
+        "text": "DЕМО. Қауіп туралы мақала бөлек жарияланды. Наш клуб принимает новичков:\nпереходи по этому адресу и забирай бонус\nhttps://k291b7a6f44.test/access/1dbce6?ref=TCBCC32C",
+        "raw_urls": [
+          "https://k291b7a6f44.test/access/1dbce6?ref=TCBCC32C"
+        ],
+        "automatic_urls": [
+          "https://k291b7a6f44.test/access/1dbce6?ref=TCBCC32C"
+        ],
+        "candidates": [
+          "https://k291b7a6f44.test/access/1dbce6?ref=TCBCC32C"
+        ],
+        "roots": [
+          "https://k291b7a6f44.test/access/1dbce6?ref=TCBCC32C",
+          "https://k3c445438cb.test/69c7eb3"
+        ],
+        "qr_payloads": [
+          "https://k3c445438cb.test/69c7eb3"
+        ],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "620c5d819e05412bb537558229dd9f3f-98477fbf8334-e6",
+          "620c5d819e05412bb537558229dd9f3f-98477fbf8334-e8",
+          "620c5d819e05412bb537558229dd9f3f-98477fbf8334-e12",
+          "620c5d819e05412bb537558229dd9f3f-98477fbf8334-e15"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "620c5d819e05412bb537558229dd9f3f-98477fbf8334-e7"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "mixed",
+    "category": "contradictory",
+    "image": true,
+    "qr": true
+  },
+  {
+    "id": "24fe1c47004094e5",
+    "variant": "full",
+    "score": 90,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 4.364,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://kd8e94f13d3.test/invite/523527?ref=T012A498"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      },
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://kd8e94f13d3.test/invite/523527?ref=T012A498"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "8f6760c8fdc14af7bc449d7823ab275b-3ba4f42649ed-e3",
+          "8f6760c8fdc14af7bc449d7823ab275b-3ba4f42649ed-e13",
+          "8f6760c8fdc14af7bc449d7823ab275b-3ba4f42649ed-e14"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "8f6760c8fdc14af7bc449d7823ab275b-3ba4f42649ed-e4"
+        ]
+      },
+      {
+        "key": "repeated_referral_in_promotion",
+        "title": "Повтор идентификатора в материалах",
+        "weight": 10,
+        "evidence_ids": [
+          "8f6760c8fdc14af7bc449d7823ab275b-3ba4f42649ed-e3",
+          "8f6760c8fdc14af7bc449d7823ab275b-3ba4f42649ed-e4"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "mixed",
+    "category": "repeated",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "cc6de2fcb47abbb8",
+    "variant": "full",
+    "score": 90,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 3.878,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k3e33fb31e2.test/visit/7793d7?ref=TF50EB29"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      },
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k3e33fb31e2.test/visit/7793d7?ref=TF50EB29"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "8325a23558874b09987b5c99bdb86ea9-f351e5cea537-e3",
+          "8325a23558874b09987b5c99bdb86ea9-f351e5cea537-e5",
+          "8325a23558874b09987b5c99bdb86ea9-f351e5cea537-e13",
+          "8325a23558874b09987b5c99bdb86ea9-f351e5cea537-e14",
+          "8325a23558874b09987b5c99bdb86ea9-f351e5cea537-e15"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "8325a23558874b09987b5c99bdb86ea9-f351e5cea537-e4"
+        ]
+      },
+      {
+        "key": "repeated_referral_in_promotion",
+        "title": "Повтор идентификатора в материалах",
+        "weight": 10,
+        "evidence_ids": [
+          "8325a23558874b09987b5c99bdb86ea9-f351e5cea537-e3",
+          "8325a23558874b09987b5c99bdb86ea9-f351e5cea537-e4",
+          "8325a23558874b09987b5c99bdb86ea9-f351e5cea537-e5"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "mixed",
+    "category": "repeated",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "d3499a7c3f973ff7",
+    "variant": "full",
+    "score": 90,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 4.004,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k76ec2e535c.test/card/6e7bcc?ref=T06F65C5"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      },
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k76ec2e535c.test/card/6e7bcc?ref=T06F65C5"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "808064cde28a40fbba6a51e03133e982-eedd4099eca7-e3",
+          "808064cde28a40fbba6a51e03133e982-eedd4099eca7-e5",
+          "808064cde28a40fbba6a51e03133e982-eedd4099eca7-e14",
+          "808064cde28a40fbba6a51e03133e982-eedd4099eca7-e17"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "808064cde28a40fbba6a51e03133e982-eedd4099eca7-e4"
+        ]
+      },
+      {
+        "key": "repeated_referral_in_promotion",
+        "title": "Повтор идентификатора в материалах",
+        "weight": 10,
+        "evidence_ids": [
+          "808064cde28a40fbba6a51e03133e982-eedd4099eca7-e3",
+          "808064cde28a40fbba6a51e03133e982-eedd4099eca7-e4",
+          "808064cde28a40fbba6a51e03133e982-eedd4099eca7-e5"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 1,
+    "language": "mixed",
+    "category": "duplicate",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "b1ccaf7c41a93f0c",
+    "variant": "full",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "status": "partial",
+    "elapsed_ms": 3367.162,
+    "ocr_elapsed_ms": 3221.272,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DEMO. Календарь встреч указан отдельно: https://kfd4с6f6854.test/7c1aaa3. Заходи за новым\nбонусом через личное приглашение https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "text": "DEMO. Календарь встреч указан отдельно: https://kfd4с6f6854.test/7c1aaa3. Заходи за новым\nбонусом через личное приглашение https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "raw_urls": [
+          "https://kfd4с6f6854.test/7c1aaa3",
+          "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726"
+        ],
+        "automatic_urls": [
+          "https://kfd4с6f6854.test/7c1aaa3",
+          "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726"
+        ],
+        "candidates": [
+          "https://kfd4с6f6854.test/7c1aaa3",
+          "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726"
+        ],
+        "roots": [
+          "https://kfd4с6f6854.test/7c1aaa3",
+          "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+      "Непроверенный участок: Используйте явное ASCII/punycode имя узла",
+      "Непроверенный участок: Синтетический стенд: адрес не найден",
+      "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+    ],
+    "truth": 1,
+    "language": "ru",
+    "category": "branched_positive",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "2cd921d29a62bb73",
+    "variant": "full",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "status": "partial",
+    "elapsed_ms": 2653.578,
+    "ocr_elapsed_ms": 2526.063,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМО. Достар, жаңа орын ашылды. Заходи в клуб через приглашение и\nзабирай свoй бoнус: https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+        "text": "DЕМО. Достар, жаңа орын ашылды. Заходи в клуб через приглашение и\nзабирай свoй бoнус: https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+        "raw_urls": [
+          "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC"
+        ],
+        "automatic_urls": [
+          "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC"
+        ],
+        "candidates": [
+          "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC"
+        ],
+        "roots": [
+          "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+      "Непроверенный участок: Синтетический стенд: адрес не найден",
+      "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+    ],
+    "truth": 1,
+    "language": "mixed",
+    "category": "unresolved",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "1d3cefba9d1553f1",
+    "variant": "full",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "status": "partial",
+    "elapsed_ms": 3.893,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k7dbac844e1.test/visit/d22b71?ref=TAEBA65C"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+      "Непроверенный участок: Синтетический стенд: адрес не найден",
+      "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+    ],
+    "truth": 1,
+    "language": "kk",
+    "category": "unresolved",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "75e4f49adc4c53a7",
+    "variant": "full",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "status": "partial",
+    "elapsed_ms": 2.038,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k835cf86b25.test/card/035458?ref=T7E5E653"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+      "Непроверенный участок: Синтетический стенд: адрес не найден",
+      "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+    ],
+    "truth": 1,
+    "language": "translit",
+    "category": "unresolved",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "b9b7b0b240c102ee",
+    "variant": "full",
+    "score": 0,
+    "sufficient": false,
+    "predicted": 0,
+    "status": "partial",
+    "elapsed_ms": 1.786,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://kb9960937a5.test/access/a05bc2?ref=TF486CD3"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+      "Непроверенный участок: Синтетический стенд: адрес не найден",
+      "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+    ],
+    "truth": 1,
+    "language": "ru",
+    "category": "unresolved",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "f64ed25ceb43ca79",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 15259.876,
+    "ocr_elapsed_ms": 15150.701,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМО. Эту рассылку прислал неизвестный. Не регистрируйтесь в казино и не\nпополняйте счёт по указанному адресу:\nhttps://kc1880d29c1.test/invite/9d3ad6?ref=T6A2033E",
+        "text": "DЕМО. Эту рассылку прислал неизвестный. Не регистрируйтесь в казино и не\nпополняйте счёт по указанному адресу:\nhttps://kc1880d29c1.test/invite/9d3ad6?ref=T6A2033E",
+        "raw_urls": [
+          "https://kc1880d29c1.test/invite/9d3ad6?ref=T6A2033E"
+        ],
+        "automatic_urls": [
+          "https://kc1880d29c1.test/invite/9d3ad6?ref=T6A2033E"
+        ],
+        "candidates": [
+          "https://kc1880d29c1.test/invite/9d3ad6?ref=T6A2033E"
+        ],
+        "roots": [
+          "https://kc1880d29c1.test/invite/9d3ad6?ref=T6A2033E"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 270
+      }
+    ],
+    "contributions": [],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "ru",
+    "category": "warning",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "6adfd17b1de5bb94",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 3429.073,
+    "ocr_elapsed_ms": 3354.952,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DEМО. Бұл код қауіпті казиноға апарады. Ақша жібермеңіз, сілтемеге\nөтпеңіз. Алаяқ хабарламаға мысал: QR төменде.",
+        "text": "DEМО. Бұл код қауіпті казиноға апарады. Ақша жібермеңіз, сілтемеге\nөтпеңіз. Алаяқ хабарламаға мысал: QR төменде.",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9"
+        ],
+        "qr_payloads": [
+          "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9"
+        ],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: предупреждение",
+        "weight": -65,
+        "evidence_ids": [
+          "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e6",
+          "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e7",
+          "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e8"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "kk",
+    "category": "warning",
+    "image": true,
+    "qr": true
+  },
+  {
+    "id": "75f54e61ab4b93bc",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 2.828,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://kf2c7e90dc2.test/card/5420dd?ref=TCD3F62C"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: предупреждение",
+        "weight": -65,
+        "evidence_ids": [
+          "a9d2c884f730499cb0676d85c71c8a4d-3e908e010e28-e4"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "mixed",
+    "category": "warning",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "2e4528e78ebff84d",
+    "variant": "full",
+    "score": 15,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 3.849,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k71e3066e63.test/access/21713a?ref=T872C8F2"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "c83ae76f1ae949638d1689a670d33c1e-ada9253ef3f7-e3",
+          "c83ae76f1ae949638d1689a670d33c1e-ada9253ef3f7-e9",
+          "c83ae76f1ae949638d1689a670d33c1e-ada9253ef3f7-e12"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "c83ae76f1ae949638d1689a670d33c1e-ada9253ef3f7-e4"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: предупреждение",
+        "weight": -65,
+        "evidence_ids": [
+          "c83ae76f1ae949638d1689a670d33c1e-ada9253ef3f7-e5"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "translit",
+    "category": "warning",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "bdc2c82c6105b4fc",
+    "variant": "full",
+    "score": 75,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 2.941,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k3e141727dd.test/invite/79345b?ref=T28394AB"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "a01dcfbf2a0d42bf89f09eb75f52c2dd-8692e03f390d-e3",
+          "a01dcfbf2a0d42bf89f09eb75f52c2dd-8692e03f390d-e8",
+          "a01dcfbf2a0d42bf89f09eb75f52c2dd-8692e03f390d-e9"
+        ]
+      },
+      {
+        "key": "promise_in_promotion",
+        "title": "Обещание выигрыша",
+        "weight": 10,
+        "evidence_ids": [
+          "a01dcfbf2a0d42bf89f09eb75f52c2dd-8692e03f390d-e4"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "ru",
+    "category": "warning",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "a25d730910fd9e33",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "partial",
+    "elapsed_ms": 6519.972,
+    "ocr_elapsed_ms": 6428.698,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DEМO. Алаяқтар ұтысқа уәде беріп отыр. Казиноға тіркелмеңіз және ақша\nсалмаңыз. Зерттелген мекенжай:\nhttps://k94b743a453.test\n/visit/4e2518?ref=TEDD9D56",
+        "text": "DEМO. Алаяқтар ұтысқа уәде беріп отыр. Казиноға тіркелмеңіз және ақша\nсалмаңыз. Зерттелген мекенжай:\nhttps://k94b743a453.test\n/visit/4e2518?ref=TEDD9D56",
+        "raw_urls": [
+          "https://k94b743a453.test"
+        ],
+        "automatic_urls": [
+          "https://k94b743a453.test"
+        ],
+        "candidates": [
+          "https://k94b743a453.test"
+        ],
+        "roots": [
+          "https://k94b743a453.test"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: предупреждение",
+        "weight": -65,
+        "evidence_ids": [
+          "a46055eaf5e6491b8b4c0350145255e0-b497b13744c8-e8"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+      "Непроверенный участок: Синтетический стенд: адрес не найден"
+    ],
+    "truth": 0,
+    "language": "kk",
+    "category": "warning",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "3189b6c01cae5be1",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 4121.387,
+    "ocr_elapsed_ms": 4009.315,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DEМО. Қауіпсіздік хабарламасы. Не переходите к депозиту: это чужое\nказино, а не наш сервис. Проверяемый адрес\nhttps://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+        "text": "DEМО. Қауіпсіздік хабарламасы. Не переходите к депозиту: это чужое\nказино, а не наш сервис. Проверяемый адрес\nhttps://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+        "raw_urls": [
+          "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916"
+        ],
+        "automatic_urls": [
+          "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916"
+        ],
+        "candidates": [
+          "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916"
+        ],
+        "roots": [
+          "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: предупреждение",
+        "weight": -65,
+        "evidence_ids": [
+          "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e6"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "mixed",
+    "category": "warning",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "d571855fa0bb551b",
+    "variant": "full",
+    "score": 65,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 71.579,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k1cacebcfaf.test/access/7d8a02?ref=TA293B65"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "9513aba723094eefb572cc97fc7b72df-c36e87ddcaab-e3",
+          "9513aba723094eefb572cc97fc7b72df-c36e87ddcaab-e7",
+          "9513aba723094eefb572cc97fc7b72df-c36e87ddcaab-e8"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "ru",
+    "category": "negation",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "7dcb2158bb4758f4",
+    "variant": "full",
+    "score": 15,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 3.271,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k8eec1cb1dd.test/invite/a8550d?ref=TAEE9854"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "f5b5dd5cbe0f433da2eaa86b768ea85e-c1d7a3ac14d9-e3",
+          "f5b5dd5cbe0f433da2eaa86b768ea85e-c1d7a3ac14d9-e10",
+          "f5b5dd5cbe0f433da2eaa86b768ea85e-c1d7a3ac14d9-e11",
+          "f5b5dd5cbe0f433da2eaa86b768ea85e-c1d7a3ac14d9-e12"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "f5b5dd5cbe0f433da2eaa86b768ea85e-c1d7a3ac14d9-e4"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: новость",
+        "weight": -65,
+        "evidence_ids": [
+          "f5b5dd5cbe0f433da2eaa86b768ea85e-c1d7a3ac14d9-e5",
+          "f5b5dd5cbe0f433da2eaa86b768ea85e-c1d7a3ac14d9-e6"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "ru",
+    "category": "news",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "832ddc4ca9099f20",
+    "variant": "full",
+    "score": 15,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 4.831,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://kfa68e25bbb.test/visit/cca5e2?ref=TDF3E0EC"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "18ea3b708709461bba2882dce609916e-a5d3d963f9bc-e3",
+          "18ea3b708709461bba2882dce609916e-a5d3d963f9bc-e6",
+          "18ea3b708709461bba2882dce609916e-a5d3d963f9bc-e10",
+          "18ea3b708709461bba2882dce609916e-a5d3d963f9bc-e13"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "18ea3b708709461bba2882dce609916e-a5d3d963f9bc-e4"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: новость",
+        "weight": -65,
+        "evidence_ids": [
+          "18ea3b708709461bba2882dce609916e-a5d3d963f9bc-e5"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "kk",
+    "category": "news",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "9c2202dacd6f8794",
+    "variant": "full",
+    "score": 15,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 4123.843,
+    "ocr_elapsed_ms": 3991.524,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМО. Журналист выяснил, куда ведёт чужая реклама. «Переходи и забирай\nбонус» — текст рекламодателя, не редакции. Сілтеме:\nhttps://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+        "text": "DЕМО. Журналист выяснил, куда ведёт чужая реклама. «Переходи и забирай\nбонус» — текст рекламодателя, не редакции. Сілтеме:\nhttps://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+        "raw_urls": [
+          "https://k3651d5f3a9.test/card/018664?ref=T62B16B4"
+        ],
+        "automatic_urls": [
+          "https://k3651d5f3a9.test/card/018664?ref=T62B16B4"
+        ],
+        "candidates": [
+          "https://k3651d5f3a9.test/card/018664?ref=T62B16B4"
+        ],
+        "roots": [
+          "https://k3651d5f3a9.test/card/018664?ref=T62B16B4"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "68d55dae8dfe4b189739dda1eff4712b-abf114d08494-e5",
+          "68d55dae8dfe4b189739dda1eff4712b-abf114d08494-e8",
+          "68d55dae8dfe4b189739dda1eff4712b-abf114d08494-e12",
+          "68d55dae8dfe4b189739dda1eff4712b-abf114d08494-e13"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "68d55dae8dfe4b189739dda1eff4712b-abf114d08494-e6"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: новость",
+        "weight": -65,
+        "evidence_ids": [
+          "68d55dae8dfe4b189739dda1eff4712b-abf114d08494-e7"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "mixed",
+    "category": "news",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "2db085044d616b62",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "partial",
+    "elapsed_ms": 6280.653,
+    "ocr_elapsed_ms": 6198.328,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМО. В новости обсуждается схема рекламы. Заходи к расписанию\nпубличного обсуждения\nhttps://kad83989df9.test/aссess/fd02f0?ref=TDEC7AEA. Oтдельный QR\nприложен к архиву источников.",
+        "text": "DЕМО. В новости обсуждается схема рекламы. Заходи к расписанию\nпубличного обсуждения\nhttps://kad83989df9.test/aссess/fd02f0?ref=TDEC7AEA. Oтдельный QR\nприложен к архиву источников.",
+        "raw_urls": [
+          "https://kad83989df9.test/aссess/fd02f0?ref=TDEC7AEA"
+        ],
+        "automatic_urls": [
+          "https://kad83989df9.test/aссess/fd02f0?ref=TDEC7AEA"
+        ],
+        "candidates": [
+          "https://kad83989df9.test/aссess/fd02f0?ref=TDEC7AEA"
+        ],
+        "roots": [
+          "https://kad83989df9.test/aссess/fd02f0?ref=TDEC7AEA",
+          "https://ke5c97362fa.test/6420dc9"
+        ],
+        "qr_payloads": [
+          "https://ke5c97362fa.test/6420dc9"
+        ],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "4a26621016814747a9f5308157ae0604-0ae133155e6e-e7",
+          "4a26621016814747a9f5308157ae0604-0ae133155e6e-e13",
+          "4a26621016814747a9f5308157ae0604-0ae133155e6e-e14",
+          "4a26621016814747a9f5308157ae0604-0ae133155e6e-e15"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: новость",
+        "weight": -65,
+        "evidence_ids": [
+          "4a26621016814747a9f5308157ae0604-0ae133155e6e-e8"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+      "Непроверенный участок: Синтетический стенд: адрес не найден"
+    ],
+    "truth": 0,
+    "language": "ru",
+    "category": "news",
+    "image": true,
+    "qr": true
+  },
+  {
+    "id": "b665d0f4b1677181",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 2.647,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k7615e06399.test/invite/2cea53?ref=TF91AD2C"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "748597572dfc4afc9b608b24db5066da-6067c7fc15c2-e3",
+          "748597572dfc4afc9b608b24db5066da-6067c7fc15c2-e8",
+          "748597572dfc4afc9b608b24db5066da-6067c7fc15c2-e11"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: новость",
+        "weight": -65,
+        "evidence_ids": [
+          "748597572dfc4afc9b608b24db5066da-6067c7fc15c2-e4"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "kk",
+    "category": "news",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "117d8c64148624fa",
+    "variant": "full",
+    "score": 80,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 2.74,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k0911bf7673.test/visit/b7ebd2?ref=T2868956"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "f585f96cbd4741a99eb96b7fcc941137-244cf0db4d45-e3",
+          "f585f96cbd4741a99eb96b7fcc941137-244cf0db4d45-e8",
+          "f585f96cbd4741a99eb96b7fcc941137-244cf0db4d45-e9"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "f585f96cbd4741a99eb96b7fcc941137-244cf0db4d45-e4"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "mixed",
+    "category": "news",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "5c7e7a55591d1064",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 2.859,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://kca41691610.test/card/d29be1?ref=TDC5959A"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "ru",
+    "category": "news",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "bcb94196607aa5e5",
+    "variant": "full",
+    "score": 65,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "partial",
+    "elapsed_ms": 3381.138,
+    "ocr_elapsed_ms": 3210.663,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DEMO. Novost redaktsii: fraza «perehodi v kazino» vzyata iz reklamy. Eto tsitata, a ne sovet\nchitatelju. Istochnik https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+        "text": "DEMO. Novost redaktsii: fraza «perehodi v kazino» vzyata iz reklamy. Eto tsitata, a ne sovet\nchitatelju. Istochnik https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+        "raw_urls": [
+          "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570"
+        ],
+        "automatic_urls": [
+          "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570"
+        ],
+        "candidates": [
+          "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570"
+        ],
+        "roots": [
+          "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "gambling_and_call",
+        "title": "Игровая лексика + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e4",
+          "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e5"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+      "Непроверенный участок: Синтетический стенд: адрес не найден"
+    ],
+    "truth": 0,
+    "language": "translit",
+    "category": "news",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "7d5d9bd06088cb3e",
+    "variant": "full",
+    "score": 10,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 4728.454,
+    "ocr_elapsed_ms": 4609.834,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМО. Бүгін медиасауат сабағы. Переходи к нашему конспекту исследования:\nтам разобрана реклама казино и обещания выигрыша.\nhttps://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "text": "DЕМО. Бүгін медиасауат сабағы. Переходи к нашему конспекту исследования:\nтам разобрана реклама казино и обещания выигрыша.\nhttps://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "raw_urls": [
+          "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5"
+        ],
+        "automatic_urls": [
+          "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5"
+        ],
+        "candidates": [
+          "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5"
+        ],
+        "roots": [
+          "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "gambling_and_call",
+        "title": "Игровая лексика + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e5",
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e6"
+        ]
+      },
+      {
+        "key": "destination_alternative_context",
+        "title": "Альтернативный контекст страницы: не подтверждает игровой адрес",
+        "weight": 0,
+        "evidence_ids": [
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e16",
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e17",
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e18"
+        ]
+      },
+      {
+        "key": "promise_in_promotion",
+        "title": "Обещание выигрыша",
+        "weight": 10,
+        "evidence_ids": [
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e7"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: образовательный разбор",
+        "weight": -65,
+        "evidence_ids": [
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e8",
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e9"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "mixed",
+    "category": "education",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "e110a71ec11f6a15",
+    "variant": "full",
+    "score": 65,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 3.744,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k67ebefca4b.test/visit/0e6b86?ref=T48B5FA1"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "gambling_and_call",
+        "title": "Игровая лексика + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "4845640fff4940b0939c4a0e5a285041-4ea4ef631871-e2",
+          "4845640fff4940b0939c4a0e5a285041-4ea4ef631871-e3"
+        ]
+      },
+      {
+        "key": "destination_alternative_context",
+        "title": "Альтернативный контекст страницы: не подтверждает игровой адрес",
+        "weight": 0,
+        "evidence_ids": [
+          "4845640fff4940b0939c4a0e5a285041-4ea4ef631871-e9",
+          "4845640fff4940b0939c4a0e5a285041-4ea4ef631871-e10",
+          "4845640fff4940b0939c4a0e5a285041-4ea4ef631871-e11"
+        ]
+      },
+      {
+        "key": "contradictory_context",
+        "title": "Самостоятельный призыв при контексте: образовательный разбор",
+        "weight": 0,
+        "evidence_ids": [
+          "4845640fff4940b0939c4a0e5a285041-4ea4ef631871-e4"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "ru",
+    "category": "education",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "0e66f75258dbb58d",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 3.661,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k7f7ae42e45.test/card/16b9d2?ref=T87DE476"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "gambling_and_call",
+        "title": "Игровая лексика + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "dc1c7b33825843e48d0412c67f0bc256-41f8262615e1-e2",
+          "dc1c7b33825843e48d0412c67f0bc256-41f8262615e1-e3"
+        ]
+      },
+      {
+        "key": "destination_alternative_context",
+        "title": "Альтернативный контекст страницы: не подтверждает игровой адрес",
+        "weight": 0,
+        "evidence_ids": [
+          "dc1c7b33825843e48d0412c67f0bc256-41f8262615e1-e12",
+          "dc1c7b33825843e48d0412c67f0bc256-41f8262615e1-e13",
+          "dc1c7b33825843e48d0412c67f0bc256-41f8262615e1-e14"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: образовательный разбор",
+        "weight": -65,
+        "evidence_ids": [
+          "dc1c7b33825843e48d0412c67f0bc256-41f8262615e1-e4",
+          "dc1c7b33825843e48d0412c67f0bc256-41f8262615e1-e5"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "kk",
+    "category": "education",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "00ba1c729aa2dbeb",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 3.193,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k62a2226a82.test/access/4f299f?ref=T31DC39E"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_alternative_context",
+        "title": "Альтернативный контекст страницы: не подтверждает игровой адрес",
+        "weight": 0,
+        "evidence_ids": [
+          "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e9",
+          "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e10",
+          "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e11"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: образовательный разбор",
+        "weight": -65,
+        "evidence_ids": [
+          "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e4"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "mixed",
+    "category": "education",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "207d5c54fa1b1837",
+    "variant": "full",
+    "score": 10,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 18828.441,
+    "ocr_elapsed_ms": 18720.134,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМО. Казино часто обещает лёгкий выигрыш. Здесь же регистрируйся на\nобразовательный урок по распознаванию таких обещаний:\nhttps://ke549ea21dc.test/invite/2821cb?ref=T6E68797",
+        "text": "DЕМО. Казино часто обещает лёгкий выигрыш. Здесь же регистрируйся на\nобразовательный урок по распознаванию таких обещаний:\nhttps://ke549ea21dc.test/invite/2821cb?ref=T6E68797",
+        "raw_urls": [
+          "https://ke549ea21dc.test/invite/2821cb?ref=T6E68797"
+        ],
+        "automatic_urls": [
+          "https://ke549ea21dc.test/invite/2821cb?ref=T6E68797"
+        ],
+        "candidates": [
+          "https://ke549ea21dc.test/invite/2821cb?ref=T6E68797"
+        ],
+        "roots": [
+          "https://ke549ea21dc.test/invite/2821cb?ref=T6E68797"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 270
+      }
+    ],
+    "contributions": [
+      {
+        "key": "gambling_and_call",
+        "title": "Игровая лексика + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "8181a81e081b4efe979b84c632a9c562-becb0e48ebd2-e5",
+          "8181a81e081b4efe979b84c632a9c562-becb0e48ebd2-e6"
+        ]
+      },
+      {
+        "key": "destination_alternative_context",
+        "title": "Альтернативный контекст страницы: не подтверждает игровой адрес",
+        "weight": 0,
+        "evidence_ids": [
+          "8181a81e081b4efe979b84c632a9c562-becb0e48ebd2-e16",
+          "8181a81e081b4efe979b84c632a9c562-becb0e48ebd2-e17",
+          "8181a81e081b4efe979b84c632a9c562-becb0e48ebd2-e18"
+        ]
+      },
+      {
+        "key": "promise_in_promotion",
+        "title": "Обещание выигрыша",
+        "weight": 10,
+        "evidence_ids": [
+          "8181a81e081b4efe979b84c632a9c562-becb0e48ebd2-e7"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: образовательный разбор",
+        "weight": -65,
+        "evidence_ids": [
+          "8181a81e081b4efe979b84c632a9c562-becb0e48ebd2-e8",
+          "8181a81e081b4efe979b84c632a9c562-becb0e48ebd2-e9"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "ru",
+    "category": "education",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "b61bd4c654e49d01",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 3522.287,
+    "ocr_elapsed_ms": 3440.914,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМО. Оқу мысалында казино атауы кездеседі. Сабаққа ғана қосылыңыз,\nнұсқаулық QR-кодта берілген. QR төменде.",
+        "text": "DЕМО. Оқу мысалында казино атауы кездеседі. Сабаққа ғана қосылыңыз,\nнұсқаулық QR-кодта берілген. QR төменде.",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0"
+        ],
+        "qr_payloads": [
+          "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0"
+        ],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "gambling_and_call",
+        "title": "Игровая лексика + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e5",
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e6"
+        ]
+      },
+      {
+        "key": "destination_alternative_context",
+        "title": "Альтернативный контекст страницы: не подтверждает игровой адрес",
+        "weight": 0,
+        "evidence_ids": [
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e11",
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e12",
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e13"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: образовательный разбор",
+        "weight": -65,
+        "evidence_ids": [
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e7"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "kk",
+    "category": "education",
+    "image": true,
+    "qr": true
+  },
+  {
+    "id": "2156b1e377ed4aff",
+    "variant": "full",
+    "score": 65,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 3.285,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k30f2f73190.test/card/94bf5b?ref=TD9400DC",
+          "https://kadfd8638d1.test/8f93116"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "a88df564735e48b192297fa734e4b132-04b812187250-e2",
+          "a88df564735e48b192297fa734e4b132-04b812187250-e8",
+          "a88df564735e48b192297fa734e4b132-04b812187250-e9"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "mixed",
+    "category": "education",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "fc9d87dbe33227b1",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 2.907,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://ka29a5b5e1d.test/access/692046?ref=T7EC57EC"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "gambling_and_call",
+        "title": "Игровая лексика + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "68824041684845609b277c1bb4647f65-7bf75b8be003-e2",
+          "68824041684845609b277c1bb4647f65-7bf75b8be003-e3",
+          "68824041684845609b277c1bb4647f65-7bf75b8be003-e5"
+        ]
+      },
+      {
+        "key": "destination_alternative_context",
+        "title": "Альтернативный контекст страницы: не подтверждает игровой адрес",
+        "weight": 0,
+        "evidence_ids": [
+          "68824041684845609b277c1bb4647f65-7bf75b8be003-e10",
+          "68824041684845609b277c1bb4647f65-7bf75b8be003-e11",
+          "68824041684845609b277c1bb4647f65-7bf75b8be003-e12"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: образовательный разбор",
+        "weight": -65,
+        "evidence_ids": [
+          "68824041684845609b277c1bb4647f65-7bf75b8be003-e4"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "ru",
+    "category": "education",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "a302738c9e93afd0",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 2.92,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "gambling_and_call",
+        "title": "Игровая лексика + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e2",
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e3"
+        ]
+      },
+      {
+        "key": "destination_alternative_context",
+        "title": "Альтернативный контекст страницы: не подтверждает игровой адрес",
+        "weight": 0,
+        "evidence_ids": [
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e12",
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e13",
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e14"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: образовательный разбор",
+        "weight": -65,
+        "evidence_ids": [
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e4",
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e5",
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e6",
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e7"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "ru",
+    "category": "free_game",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "ec6181bb90de039c",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "partial",
+    "elapsed_ms": 5963.541,
+    "ocr_elapsed_ms": 5858.76,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМO. Тегін ойын: барлық ұпай виртуалды, ақша төлеу де, ақша алу да жоқ.\nОйын бөлмесіне қосылыңыз:\nhttps://k2c60892213.test\n/visit/1a0ccb?ref=T78FEA0A",
+        "text": "DЕМO. Тегін ойын: барлық ұпай виртуалды, ақша төлеу де, ақша алу да жоқ.\nОйын бөлмесіне қосылыңыз:\nhttps://k2c60892213.test\n/visit/1a0ccb?ref=T78FEA0A",
+        "raw_urls": [
+          "https://k2c60892213.test"
+        ],
+        "automatic_urls": [
+          "https://k2c60892213.test"
+        ],
+        "candidates": [
+          "https://k2c60892213.test"
+        ],
+        "roots": [
+          "https://k2c60892213.test"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: бесплатная игра",
+        "weight": -65,
+        "evidence_ids": [
+          "7ee179bb4c38431ebdf9ea7efd8a8c43-0c51327cdd8b-e7"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+      "Непроверенный участок: Синтетический стенд: адрес не найден"
+    ],
+    "truth": 0,
+    "language": "kk",
+    "category": "free_game",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "aab7fba8a870c321",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 4183.996,
+    "ocr_elapsed_ms": 4077.318,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМО. Бесплатная игра для друзей. Тіркеліп, виртуалды бонус алыңыз; ақша\nсалуға болмайды. Тренажёр осында\nhttps://kffde72ff94.test/card/734a60?ref=TA6630C4",
+        "text": "DЕМО. Бесплатная игра для друзей. Тіркеліп, виртуалды бонус алыңыз; ақша\nсалуға болмайды. Тренажёр осында\nhttps://kffde72ff94.test/card/734a60?ref=TA6630C4",
+        "raw_urls": [
+          "https://kffde72ff94.test/card/734a60?ref=TA6630C4"
+        ],
+        "automatic_urls": [
+          "https://kffde72ff94.test/card/734a60?ref=TA6630C4"
+        ],
+        "candidates": [
+          "https://kffde72ff94.test/card/734a60?ref=TA6630C4"
+        ],
+        "roots": [
+          "https://kffde72ff94.test/card/734a60?ref=TA6630C4"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_alternative_context",
+        "title": "Альтернативный контекст страницы: не подтверждает игровой адрес",
+        "weight": 0,
+        "evidence_ids": [
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e13",
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e14",
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e15"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: бесплатная игра",
+        "weight": -65,
+        "evidence_ids": [
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e7"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "mixed",
+    "category": "free_game",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "bfae132210f06018",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 2.687,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "ru",
+    "category": "affiliate",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "04c9a05a89859220",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 2.963,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k744afad206.test/invite/8631eb?ref=T2C9F8FB"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "kk",
+    "category": "affiliate",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "273fc30fad4dbf09",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 2.731,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "mixed",
+    "category": "affiliate",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "9af4d3cddca66463",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 3793.406,
+    "ocr_elapsed_ms": 3684.371,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DEMO. Besplatnaya igra dlya kruzhka, tolko virtualnye fishki. Join now,\nno money deposits or cash prizes:\nhttps://k4cd46aeda3.test/card/150b28?ref=TC1037DF",
+        "text": "DEMO. Besplatnaya igra dlya kruzhka, tolko virtualnye fishki. Join now,\nno money deposits or cash prizes:\nhttps://k4cd46aeda3.test/card/150b28?ref=TC1037DF",
+        "raw_urls": [
+          "https://k4cd46aeda3.test/card/150b28?ref=TC1037DF"
+        ],
+        "automatic_urls": [
+          "https://k4cd46aeda3.test/card/150b28?ref=TC1037DF"
+        ],
+        "candidates": [
+          "https://k4cd46aeda3.test/card/150b28?ref=TC1037DF"
+        ],
+        "roots": [
+          "https://k4cd46aeda3.test/card/150b28?ref=TC1037DF"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_alternative_context",
+        "title": "Альтернативный контекст страницы: не подтверждает игровой адрес",
+        "weight": 0,
+        "evidence_ids": [
+          "c408395291e040969703eda7395d7f65-14ceb1425c70-e10",
+          "c408395291e040969703eda7395d7f65-14ceb1425c70-e11",
+          "c408395291e040969703eda7395d7f65-14ceb1425c70-e12"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "translit",
+    "category": "free_game",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "a5507c7b76437c6c",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 5325.094,
+    "ocr_elapsed_ms": 5207.078,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМО. Тегін ойын бөлмесі осында. Играй бесплатно без денежных ставок:\nhttps://kdea4eb2e3d.test/access/293ff8?ref=T45B4F70. Koд из чужой\nрекламной подборки приложен отдельно.",
+        "text": "DЕМО. Тегін ойын бөлмесі осында. Играй бесплатно без денежных ставок:\nhttps://kdea4eb2e3d.test/access/293ff8?ref=T45B4F70. Koд из чужой\nрекламной подборки приложен отдельно.",
+        "raw_urls": [
+          "https://kdea4eb2e3d.test/access/293ff8?ref=T45B4F70"
+        ],
+        "automatic_urls": [
+          "https://kdea4eb2e3d.test/access/293ff8?ref=T45B4F70"
+        ],
+        "candidates": [
+          "https://kdea4eb2e3d.test/access/293ff8?ref=T45B4F70"
+        ],
+        "roots": [
+          "https://kdea4eb2e3d.test/access/293ff8?ref=T45B4F70",
+          "https://k5f2a876be6.test/d363a2c"
+        ],
+        "qr_payloads": [
+          "https://k5f2a876be6.test/d363a2c"
+        ],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "400ead40e6194c4e8da2da23effdd782-4d2f84509fde-e6",
+          "400ead40e6194c4e8da2da23effdd782-4d2f84509fde-e16",
+          "400ead40e6194c4e8da2da23effdd782-4d2f84509fde-e17"
+        ]
+      },
+      {
+        "key": "destination_alternative_context",
+        "title": "Альтернативный контекст страницы: не подтверждает игровой адрес",
+        "weight": 0,
+        "evidence_ids": [
+          "400ead40e6194c4e8da2da23effdd782-4d2f84509fde-e13",
+          "400ead40e6194c4e8da2da23effdd782-4d2f84509fde-e14"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: бесплатная игра",
+        "weight": -65,
+        "evidence_ids": [
+          "400ead40e6194c4e8da2da23effdd782-4d2f84509fde-e7",
+          "400ead40e6194c4e8da2da23effdd782-4d2f84509fde-e8"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "mixed",
+    "category": "free_game",
+    "image": true,
+    "qr": true
+  },
+  {
+    "id": "08dc3ffe6fef5970",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 3.685,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k510baa09c3.test/invite/af1f42?ref=TEF4785E"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "ru",
+    "category": "ordinary",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "151c8611ab8a24e7",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 4.444,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k22090be09b.test/visit/d6145e?ref=TFFC480A"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "kk",
+    "category": "ordinary",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "845a04f4774aad40",
+    "variant": "full",
+    "score": 65,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 6.627,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k34f924db63.test/card/84bd3a?ref=T42EF513"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "gambling_and_call",
+        "title": "Игровая лексика + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "46a7ef46cc624bdbb1b33468f185c530-e299308fcb8a-e2",
+          "46a7ef46cc624bdbb1b33468f185c530-e299308fcb8a-e3"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "mixed",
+    "category": "ordinary",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "e0b2b68a6e20b422",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 4251.275,
+    "ocr_elapsed_ms": 4114.848,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМО. На консультацию освободился слот записи. Регистрируйся на приём в выбранное время\nчеpез календарь: https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+        "text": "DЕМО. На консультацию освободился слот записи. Регистрируйся на приём в выбранное время\nчеpез календарь: https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+        "raw_urls": [
+          "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0"
+        ],
+        "automatic_urls": [
+          "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0"
+        ],
+        "candidates": [
+          "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0"
+        ],
+        "roots": [
+          "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "ru",
+    "category": "ordinary",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "99db31e16f554d89",
+    "variant": "full",
+    "score": 65,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 5242.068,
+    "ocr_elapsed_ms": 5129.908,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": true,
+        "raw_text": "DЕМО. Еріктілерге жаңа ауысым керек. Заходи по адресу записи на смену\nhttps://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81. Aдреc из отдельной\nжалобы: https://k74aa14700f.test/c676e96",
+        "text": "DЕМО. Еріктілерге жаңа ауысым керек. Заходи по адресу записи на смену\nhttps://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81. Aдреc из отдельной\nжалобы: https://k74aa14700f.test/c676e96",
+        "raw_urls": [
+          "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+          "https://k74aa14700f.test/c676e96"
+        ],
+        "automatic_urls": [
+          "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+          "https://k74aa14700f.test/c676e96"
+        ],
+        "candidates": [
+          "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+          "https://k74aa14700f.test/c676e96"
+        ],
+        "roots": [
+          "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+          "https://k74aa14700f.test/c676e96"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e5",
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e11",
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e14"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "mixed",
+    "category": "branched_negative",
+    "image": true,
+    "qr": false
+  },
+  {
+    "id": "5ce328665eda2a5e",
+    "variant": "full",
+    "score": 65,
+    "sufficient": true,
+    "predicted": 1,
+    "status": "completed",
+    "elapsed_ms": 4.302,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k5c4db1c58d.test/visit/14fa28?ref=TEE7367D",
+          "https://ke69ddc9e5c.test/9c9e56c"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "11751e2910854ff89605ecf8d096a0f0-4deb20f14363-e2",
+          "11751e2910854ff89605ecf8d096a0f0-4deb20f14363-e8",
+          "11751e2910854ff89605ecf8d096a0f0-4deb20f14363-e9"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "ru",
+    "category": "branched_negative",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "a74707512c28535b",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 3.364,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "gambling_and_call",
+        "title": "Игровая лексика + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "418b56dede5d48e69d9e71f089a93bb7-e83cfecd8c2c-e2",
+          "418b56dede5d48e69d9e71f089a93bb7-e83cfecd8c2c-e3"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: образовательный разбор",
+        "weight": -65,
+        "evidence_ids": [
+          "418b56dede5d48e69d9e71f089a93bb7-e83cfecd8c2c-e4"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "kk",
+    "category": "negation",
+    "image": false,
+    "qr": false
+  },
+  {
+    "id": "25ac5ff32489c49f",
+    "variant": "full",
+    "score": 0,
+    "sufficient": true,
+    "predicted": 0,
+    "status": "completed",
+    "elapsed_ms": 2.93,
+    "ocr_elapsed_ms": 0,
+    "analysis_assisted": false,
+    "materials": [
+      {
+        "image": false,
+        "raw_text": "",
+        "text": "",
+        "raw_urls": [],
+        "automatic_urls": [],
+        "candidates": [],
+        "roots": [
+          "https://kf3f1259682.test/access/b0c018?ref=TB776F57"
+        ],
+        "qr_payloads": [],
+        "url_reviews": [],
+        "rotation_ccw": 0
+      }
+    ],
+    "contributions": [
+      {
+        "key": "gambling_and_call",
+        "title": "Игровая лексика + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "f57c3246caae47839854501b9354dfd2-d6c2c53b702a-e2",
+          "f57c3246caae47839854501b9354dfd2-d6c2c53b702a-e3",
+          "f57c3246caae47839854501b9354dfd2-d6c2c53b702a-e5",
+          "f57c3246caae47839854501b9354dfd2-d6c2c53b702a-e6"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: образовательный разбор",
+        "weight": -65,
+        "evidence_ids": [
+          "f57c3246caae47839854501b9354dfd2-d6c2c53b702a-e4"
+        ]
+      }
+    ],
+    "limitations": [
+      "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+      "Индекс не является вероятностью нарушения или юридическим заключением.",
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ],
+    "truth": 0,
+    "language": "mixed",
+    "category": "negation",
+    "image": false,
+    "qr": false
+  }
+]

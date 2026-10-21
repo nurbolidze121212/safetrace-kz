@@ -14,3 +14,5 @@ tmp/
 *.tsbuildinfo
 .venv-setup-check/
 deliverables/releases/
+.chart-data-*/
+deliverables/SafeTrace-KZ-defense-v4-r3.pptx

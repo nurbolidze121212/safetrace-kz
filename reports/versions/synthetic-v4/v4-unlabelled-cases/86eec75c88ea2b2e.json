@@ -1,0 +1,748 @@
+{
+  "id": "dff6969d737a4fc7a978758597790bfd",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:51:42.865432+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "DEMO. Бүгін арнайы ұсыныс: активируй промокод и играй в слоты на деньги. Қатысу мекенжайы: https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+      "url": "",
+      "source": "DEMO · материал 86eec7",
+      "published_at": null,
+      "image_id": null,
+      "id": "f0854f6c049a491e88c1db2d3a211682",
+      "original_sha256": "b8c840d2e4c5759cbdc25bf368617ca3461440fba694323db3d4f897d2227250",
+      "source_evidence_id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e1",
+      "normalized_text": "demo. бүгін арнайы ұсыныс: активируй промокод и играй в слоты на деньги. қатысу мекенжайы: https://ka091ea31dc.test/card/777a52?ref=t5ac11ec",
+      "urls": [
+        "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC"
+      ],
+      "url_reviews": [],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e6"
+      ],
+      "content_fingerprint": "1e534bbd2fc4fa511c1ba9bfab55c615d3fc52710e94866726dcbb8b06d6af24",
+      "reachable_urls": [
+        "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC"
+      ],
+      "call_bindings": [
+        {
+          "call_evidence_id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e3",
+          "source_id": "f0854f6c049a491e88c1db2d3a211682",
+          "start": 27,
+          "end": 36,
+          "quote": "активируй",
+          "scope_start": 5,
+          "scope_end": 71,
+          "method": "single_material_target",
+          "status": "bound",
+          "candidate_urls": [
+            "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC"
+          ],
+          "root_url": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+          "root_evidence_ids": [
+            "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e7"
+          ],
+          "route_evidence_ids": [
+            "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e8"
+          ],
+          "destination_evidence_ids": [
+            "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e9",
+            "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e10"
+          ],
+          "reachable_urls": [
+            "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC"
+          ],
+          "independent_commercial_call": true
+        },
+        {
+          "call_evidence_id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e5",
+          "source_id": "f0854f6c049a491e88c1db2d3a211682",
+          "start": 48,
+          "end": 53,
+          "quote": "играй",
+          "scope_start": 5,
+          "scope_end": 71,
+          "method": "single_material_target",
+          "status": "bound",
+          "candidate_urls": [
+            "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC"
+          ],
+          "root_url": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+          "root_evidence_ids": [
+            "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e7"
+          ],
+          "route_evidence_ids": [
+            "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e8"
+          ],
+          "destination_evidence_ids": [
+            "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e9",
+            "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e10"
+          ],
+          "reachable_urls": [
+            "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC"
+          ],
+          "independent_commercial_call": true
+        }
+      ],
+      "attribution_incomplete": false,
+      "score": {
+        "value": 80,
+        "level": "high",
+        "contributions": [
+          {
+            "key": "destination_and_call",
+            "title": "Игровые признаки на странице + призыв",
+            "weight": 65,
+            "evidence_ids": [
+              "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e3",
+              "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e5",
+              "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e9",
+              "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e10",
+              "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e7",
+              "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e8"
+            ]
+          },
+          {
+            "key": "bonus_in_promotion",
+            "title": "Бонус в рекламном контексте",
+            "weight": 15,
+            "evidence_ids": [
+              "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e4"
+            ]
+          }
+        ],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "mixed",
+        "context": "promotion",
+        "claims": [
+          {
+            "kind": "gambling",
+            "quote": "слоты",
+            "source_id": "f0854f6c049a491e88c1db2d3a211682",
+            "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+            "start": 56,
+            "end": 61
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "активируй",
+            "source_id": "f0854f6c049a491e88c1db2d3a211682",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 27,
+            "end": 36
+          },
+          {
+            "kind": "bonus",
+            "quote": "промокод",
+            "source_id": "f0854f6c049a491e88c1db2d3a211682",
+            "explanation": "Упоминание бонуса или промокода.",
+            "start": 37,
+            "end": 45
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "играй",
+            "source_id": "f0854f6c049a491e88c1db2d3a211682",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 48,
+            "end": 53
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e1",
+      "quote": "DEMO · материал 86eec7",
+      "source_id": "f0854f6c049a491e88c1db2d3a211682",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:51:42.885429+00:00",
+      "material_id": "f0854f6c049a491e88c1db2d3a211682",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e2",
+      "quote": "слоты",
+      "source_id": "f0854f6c049a491e88c1db2d3a211682",
+      "method": "local_rule",
+      "at": "2026-10-21T20:51:42.885429+00:00",
+      "start": 56,
+      "end": 61,
+      "material_id": "f0854f6c049a491e88c1db2d3a211682"
+    },
+    {
+      "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e3",
+      "quote": "активируй",
+      "source_id": "f0854f6c049a491e88c1db2d3a211682",
+      "method": "local_rule",
+      "at": "2026-10-21T20:51:42.885429+00:00",
+      "start": 27,
+      "end": 36,
+      "material_id": "f0854f6c049a491e88c1db2d3a211682"
+    },
+    {
+      "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e4",
+      "quote": "промокод",
+      "source_id": "f0854f6c049a491e88c1db2d3a211682",
+      "method": "local_rule",
+      "at": "2026-10-21T20:51:42.885429+00:00",
+      "start": 37,
+      "end": 45,
+      "material_id": "f0854f6c049a491e88c1db2d3a211682"
+    },
+    {
+      "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e5",
+      "quote": "играй",
+      "source_id": "f0854f6c049a491e88c1db2d3a211682",
+      "method": "local_rule",
+      "at": "2026-10-21T20:51:42.885429+00:00",
+      "start": 48,
+      "end": 53,
+      "material_id": "f0854f6c049a491e88c1db2d3a211682"
+    },
+    {
+      "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e6",
+      "quote": "DEMO. Бүгін арнайы ұсыныс: активируй промокод и играй в слоты на деньги. Қатысу мекенжайы: https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+      "source_id": "f0854f6c049a491e88c1db2d3a211682",
+      "method": "source_text",
+      "at": "2026-10-21T20:51:42.885429+00:00",
+      "material_id": "f0854f6c049a491e88c1db2d3a211682"
+    },
+    {
+      "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e7",
+      "quote": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+      "source_id": "f0854f6c049a491e88c1db2d3a211682",
+      "method": "source_text",
+      "at": "2026-10-21T20:51:42.885429+00:00",
+      "material_id": "f0854f6c049a491e88c1db2d3a211682"
+    },
+    {
+      "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e8",
+      "quote": "Игровой кабинет Онлайн-казино. Депозит для игры на деньги, игровые автоматы и джекпот.",
+      "source_id": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:51:42.886428+00:00",
+      "url": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e9",
+      "quote": "казино",
+      "source_id": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+      "method": "local_rule",
+      "at": "2026-10-21T20:51:42.886428+00:00",
+      "start": 23,
+      "end": 29,
+      "url": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC"
+    },
+    {
+      "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e10",
+      "quote": "джекпот",
+      "source_id": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+      "method": "local_rule",
+      "at": "2026-10-21T20:51:42.886428+00:00",
+      "start": 78,
+      "end": 85,
+      "url": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC"
+    },
+    {
+      "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e11",
+      "quote": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+      "source_id": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:51:42.886428+00:00",
+      "url": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+        "at": "2026-10-21T20:51:42.885429+00:00",
+        "status_code": 200,
+        "text": "Игровой кабинет Онлайн-казино. Депозит для игры на деньги, игровые автоматы и джекпот.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:51:42.885429+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "4fb602931035d8ddd9819ed110b30691a3a0f5d0ea9e8260a20f3704b3502897",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+        "evidence_id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e8",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [
+            {
+              "kind": "gambling",
+              "quote": "казино",
+              "source_id": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 23,
+              "end": 29
+            },
+            {
+              "kind": "gambling",
+              "quote": "джекпот",
+              "source_id": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 78,
+              "end": 85
+            }
+          ],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+        "type": "contains_link",
+        "quote": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:51:42.885429+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e11"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "analysis_assisted": false,
+  "identifiers": [
+    {
+      "domain": "ka091ea31dc.test",
+      "parameter": "ref",
+      "value": "T5AC11EC",
+      "scope": "ka091ea31dc.test|/card/777a52|ref|T5AC11EC",
+      "url": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+      "material_id": "f0854f6c049a491e88c1db2d3a211682",
+      "evidence_id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e8"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:51:42.885429+00:00",
+  "analysis_id": "45d23d72fe4c",
+  "context": {
+    "language": "mixed",
+    "context": "promotion",
+    "claims": [
+      {
+        "kind": "gambling",
+        "quote": "слоты",
+        "source_id": "f0854f6c049a491e88c1db2d3a211682",
+        "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+        "start": 56,
+        "end": 61
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "активируй",
+        "source_id": "f0854f6c049a491e88c1db2d3a211682",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 27,
+        "end": 36
+      },
+      {
+        "kind": "bonus",
+        "quote": "промокод",
+        "source_id": "f0854f6c049a491e88c1db2d3a211682",
+        "explanation": "Упоминание бонуса или промокода.",
+        "start": 37,
+        "end": 45
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "играй",
+        "source_id": "f0854f6c049a491e88c1db2d3a211682",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 48,
+        "end": 53
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "gambling",
+      "quote": "слоты",
+      "source_id": "f0854f6c049a491e88c1db2d3a211682",
+      "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+      "start": 56,
+      "end": 61,
+      "evidence_id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e2"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "активируй",
+      "source_id": "f0854f6c049a491e88c1db2d3a211682",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 27,
+      "end": 36,
+      "evidence_id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e3"
+    },
+    {
+      "kind": "bonus",
+      "quote": "промокод",
+      "source_id": "f0854f6c049a491e88c1db2d3a211682",
+      "explanation": "Упоминание бонуса или промокода.",
+      "start": 37,
+      "end": 45,
+      "evidence_id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e4"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "играй",
+      "source_id": "f0854f6c049a491e88c1db2d3a211682",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 48,
+      "end": 53,
+      "evidence_id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e5"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-ca690391a7d64ccf",
+        "type": "material",
+        "label": "DEMO · материал 86eec7",
+        "evidence_ids": [
+          "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e1"
+        ],
+        "case_id": "dff6969d737a4fc7a978758597790bfd",
+        "material_id": "f0854f6c049a491e88c1db2d3a211682"
+      },
+      {
+        "id": "source-08dfd857e1a3e041",
+        "type": "source",
+        "label": "DEMO · материал 86eec7",
+        "evidence_ids": [
+          "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e1"
+        ]
+      },
+      {
+        "id": "url-a7a775a2a5f746fb",
+        "type": "url",
+        "label": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+        "evidence_ids": [
+          "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e7",
+          "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e8"
+        ]
+      },
+      {
+        "id": "observation-abb25cb1b616e5a8",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e8"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-8bfb60719aa35032",
+        "type": "domain",
+        "label": "ka091ea31dc.test",
+        "evidence_ids": [
+          "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e8"
+        ]
+      },
+      {
+        "id": "identifier-3bfb7a663d1793e8",
+        "type": "identifier",
+        "label": "ref=T5AC11EC",
+        "evidence_ids": [
+          "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e8"
+        ],
+        "scope": "ka091ea31dc.test|/card/777a52|ref|T5AC11EC"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-eae01c25589c27d1c3",
+        "source": "source-08dfd857e1a3e041",
+        "target": "material-ca690391a7d64ccf",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e1"
+        ],
+        "at": "2026-10-21T20:51:42.885429+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-e1be6c6aedfeb56d15",
+        "source": "material-ca690391a7d64ccf",
+        "target": "url-a7a775a2a5f746fb",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e7"
+        ],
+        "at": "2026-10-21T20:51:42.885429+00:00",
+        "method": "source_text",
+        "status": "observed"
+      },
+      {
+        "id": "edge-2917d9d8c032106bad",
+        "source": "url-a7a775a2a5f746fb",
+        "target": "observation-abb25cb1b616e5a8",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e8"
+        ],
+        "at": "2026-10-21T20:51:42.885429+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-cc9b178d0fb8fc9adb",
+        "source": "url-a7a775a2a5f746fb",
+        "target": "domain-8bfb60719aa35032",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e8"
+        ],
+        "at": "2026-10-21T20:51:42.885429+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-3a2e58b6ba29d93ecc",
+        "source": "url-a7a775a2a5f746fb",
+        "target": "identifier-3bfb7a663d1793e8",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e8"
+        ],
+        "at": "2026-10-21T20:51:42.885429+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e1",
+        "quote": "DEMO · материал 86eec7",
+        "source_id": "f0854f6c049a491e88c1db2d3a211682",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:51:42.885429+00:00",
+        "material_id": "f0854f6c049a491e88c1db2d3a211682",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e2",
+        "quote": "слоты",
+        "source_id": "f0854f6c049a491e88c1db2d3a211682",
+        "method": "local_rule",
+        "at": "2026-10-21T20:51:42.885429+00:00",
+        "start": 56,
+        "end": 61,
+        "material_id": "f0854f6c049a491e88c1db2d3a211682"
+      },
+      {
+        "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e3",
+        "quote": "активируй",
+        "source_id": "f0854f6c049a491e88c1db2d3a211682",
+        "method": "local_rule",
+        "at": "2026-10-21T20:51:42.885429+00:00",
+        "start": 27,
+        "end": 36,
+        "material_id": "f0854f6c049a491e88c1db2d3a211682"
+      },
+      {
+        "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e4",
+        "quote": "промокод",
+        "source_id": "f0854f6c049a491e88c1db2d3a211682",
+        "method": "local_rule",
+        "at": "2026-10-21T20:51:42.885429+00:00",
+        "start": 37,
+        "end": 45,
+        "material_id": "f0854f6c049a491e88c1db2d3a211682"
+      },
+      {
+        "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e5",
+        "quote": "играй",
+        "source_id": "f0854f6c049a491e88c1db2d3a211682",
+        "method": "local_rule",
+        "at": "2026-10-21T20:51:42.885429+00:00",
+        "start": 48,
+        "end": 53,
+        "material_id": "f0854f6c049a491e88c1db2d3a211682"
+      },
+      {
+        "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e6",
+        "quote": "DEMO. Бүгін арнайы ұсыныс: активируй промокод и играй в слоты на деньги. Қатысу мекенжайы: https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+        "source_id": "f0854f6c049a491e88c1db2d3a211682",
+        "method": "source_text",
+        "at": "2026-10-21T20:51:42.885429+00:00",
+        "material_id": "f0854f6c049a491e88c1db2d3a211682"
+      },
+      {
+        "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e7",
+        "quote": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+        "source_id": "f0854f6c049a491e88c1db2d3a211682",
+        "method": "source_text",
+        "at": "2026-10-21T20:51:42.885429+00:00",
+        "material_id": "f0854f6c049a491e88c1db2d3a211682"
+      },
+      {
+        "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e8",
+        "quote": "Игровой кабинет Онлайн-казино. Депозит для игры на деньги, игровые автоматы и джекпот.",
+        "source_id": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:51:42.886428+00:00",
+        "url": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e9",
+        "quote": "казино",
+        "source_id": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+        "method": "local_rule",
+        "at": "2026-10-21T20:51:42.886428+00:00",
+        "start": 23,
+        "end": 29,
+        "url": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC"
+      },
+      {
+        "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e10",
+        "quote": "джекпот",
+        "source_id": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+        "method": "local_rule",
+        "at": "2026-10-21T20:51:42.886428+00:00",
+        "start": 78,
+        "end": 85,
+        "url": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC"
+      },
+      {
+        "id": "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e11",
+        "quote": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+        "source_id": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:51:42.886428+00:00",
+        "url": "https://ka091ea31dc.test/card/777a52?ref=T5AC11EC",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:51:42.886428+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 80,
+    "level": "high",
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e3",
+          "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e5",
+          "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e9",
+          "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e10",
+          "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e7",
+          "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e8"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "dff6969d737a4fc7a978758597790bfd-45d23d72fe4c-e4"
+        ]
+      }
+    ],
+    "version": "rules-4.0",
+    "weights": {
+      "version": "weights-4.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "f0854f6c049a491e88c1db2d3a211682",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 2.0
+}

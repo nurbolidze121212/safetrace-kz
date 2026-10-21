@@ -1,0 +1,799 @@
+{
+  "id": "846c02ec54224b14a2bdba24e471bf47",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:54:13.576136+00:00",
+  "status": "partial",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "",
+      "url": "",
+      "source": "DEMO · материал 2cd921",
+      "published_at": null,
+      "image_id": "76fa830da0d5d34a7641ea474e22eb4d.png",
+      "id": "cf9326e1c30747b7863d7f0e89041b39",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "76fa830da0d5d34a7641ea474e22eb4d4026fc36470b8a351373267c1c239b2e",
+      "source_evidence_id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e1",
+      "normalized_text": "",
+      "ocr": {
+        "text": "DЕМО. Достар, жаңа орын ашылды. Заходи в клуб через приглашение и\nзабирай свoй бoнус: https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+        "lines": [
+          {
+            "text": "DЕМО. Достар, жаңа орын ашылды. Заходи в клуб через приглашение и",
+            "confidence": 0.9897481799125671,
+            "polygon": [
+              [
+                28.0,
+                24.0
+              ],
+              [
+                906.0,
+                26.0
+              ],
+              [
+                906.0,
+                57.0
+              ],
+              [
+                28.0,
+                55.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМО."
+            ],
+            "evidence_id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e2"
+          },
+          {
+            "text": "забирай свoй бoнус: https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+            "confidence": 0.9757418632507324,
+            "polygon": [
+              [
+                28.0,
+                66.0
+              ],
+              [
+                888.0,
+                65.0
+              ],
+              [
+                888.0,
+                96.0
+              ],
+              [
+                28.0,
+                97.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: свoй",
+              "Смешение алфавитов в токене: бoнус:"
+            ],
+            "evidence_id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e3"
+          }
+        ],
+        "raw_text": "DЕМО. Достар, жаңа орын ашылды. Заходи в клуб через приглашение и\nзабирай свoй бoнус: https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+        "raw_lines": [
+          {
+            "text": "DЕМО. Достар, жаңа орын ашылды. Заходи в клуб через приглашение и",
+            "confidence": 0.9897481799125671,
+            "polygon": [
+              [
+                28.0,
+                24.0
+              ],
+              [
+                906.0,
+                26.0
+              ],
+              [
+                906.0,
+                57.0
+              ],
+              [
+                28.0,
+                55.0
+              ]
+            ]
+          },
+          {
+            "text": "забирай свoй бoнус: https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+            "confidence": 0.9757418632507324,
+            "polygon": [
+              [
+                28.0,
+                66.0
+              ],
+              [
+                888.0,
+                65.0
+              ],
+              [
+                888.0,
+                96.0
+              ],
+              [
+                28.0,
+                97.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 111,
+            "mean_confidence": 0.9823033809661865,
+            "score": 105.22668011125418,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1120,
+        "height": 148,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "url_readings": [
+          {
+            "raw_url": "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+            "line_indices": [
+              1
+            ],
+            "needs_review": false,
+            "reasons": [],
+            "suggestions": [],
+            "method": "primary_ocr",
+            "auto_follow": true
+          }
+        ]
+      },
+      "qr": {
+        "codes": [],
+        "width": 1120,
+        "height": 148,
+        "version": "qr-1.0",
+        "decoder": "OpenCV 4.10.0",
+        "cache_hit": false,
+        "elapsed_ms": 133.89,
+        "limitations": "До 8 QR-кодов, изображение до 1600 px по длинной стороне. Мелкие, поврежденные и составные QR могут не читаться. Декодирование не подтверждает безопасность адреса."
+      },
+      "urls": [
+        "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC"
+      ],
+      "url_reviews": [
+        {
+          "raw_url": "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true,
+          "source_evidence_ids": [
+            "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e7",
+            "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e3"
+          ],
+          "selected_url": "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC"
+        }
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e6"
+      ],
+      "content_fingerprint": "7f46740a54cfc3eedca23c9f6d4bbe185f6eec27229f1b833ff505ab463d8203",
+      "reachable_urls": [
+        "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC"
+      ],
+      "call_bindings": [
+        {
+          "call_evidence_id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e4",
+          "source_id": "cf9326e1c30747b7863d7f0e89041b39-ocr",
+          "start": 32,
+          "end": 38,
+          "quote": "Заходи",
+          "scope_start": 31,
+          "scope_end": 137,
+          "method": "same_clause",
+          "status": "bound",
+          "candidate_urls": [
+            "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC"
+          ],
+          "root_url": "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+          "root_evidence_ids": [
+            "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e7"
+          ],
+          "route_evidence_ids": [
+            "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e8"
+          ],
+          "destination_evidence_ids": [],
+          "reachable_urls": [
+            "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC"
+          ]
+        },
+        {
+          "call_evidence_id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e5",
+          "source_id": "cf9326e1c30747b7863d7f0e89041b39-ocr",
+          "start": 66,
+          "end": 73,
+          "quote": "забирай",
+          "scope_start": 31,
+          "scope_end": 137,
+          "method": "same_clause",
+          "status": "bound",
+          "candidate_urls": [
+            "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC"
+          ],
+          "root_url": "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+          "root_evidence_ids": [
+            "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e7"
+          ],
+          "route_evidence_ids": [
+            "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e8"
+          ],
+          "destination_evidence_ids": [],
+          "reachable_urls": [
+            "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC"
+          ]
+        }
+      ],
+      "attribution_incomplete": false,
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "kk",
+        "context": "affiliate",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "Заходи",
+            "source_id": "cf9326e1c30747b7863d7f0e89041b39-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 32,
+            "end": 38
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "забирай",
+            "source_id": "cf9326e1c30747b7863d7f0e89041b39-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 66,
+            "end": 73
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": false
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "partial",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e1",
+      "quote": "DEMO · материал 2cd921",
+      "source_id": "cf9326e1c30747b7863d7f0e89041b39",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:54:16.462801+00:00",
+      "material_id": "cf9326e1c30747b7863d7f0e89041b39",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e2",
+      "quote": "DЕМО. Достар, жаңа орын ашылды. Заходи в клуб через приглашение и",
+      "source_id": "cf9326e1c30747b7863d7f0e89041b39-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:54:19.265224+00:00",
+      "material_id": "cf9326e1c30747b7863d7f0e89041b39",
+      "polygon": [
+        [
+          28.0,
+          24.0
+        ],
+        [
+          906.0,
+          26.0
+        ],
+        [
+          906.0,
+          57.0
+        ],
+        [
+          28.0,
+          55.0
+        ]
+      ],
+      "confidence": 0.9897481799125671
+    },
+    {
+      "id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e3",
+      "quote": "забирай свoй бoнус: https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+      "source_id": "cf9326e1c30747b7863d7f0e89041b39-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:54:19.265224+00:00",
+      "material_id": "cf9326e1c30747b7863d7f0e89041b39",
+      "polygon": [
+        [
+          28.0,
+          66.0
+        ],
+        [
+          888.0,
+          65.0
+        ],
+        [
+          888.0,
+          96.0
+        ],
+        [
+          28.0,
+          97.0
+        ]
+      ],
+      "confidence": 0.9757418632507324
+    },
+    {
+      "id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e4",
+      "quote": "Заходи",
+      "source_id": "cf9326e1c30747b7863d7f0e89041b39-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:54:19.432768+00:00",
+      "start": 32,
+      "end": 38,
+      "material_id": "cf9326e1c30747b7863d7f0e89041b39"
+    },
+    {
+      "id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e5",
+      "quote": "забирай",
+      "source_id": "cf9326e1c30747b7863d7f0e89041b39-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:54:19.432768+00:00",
+      "start": 66,
+      "end": 73,
+      "material_id": "cf9326e1c30747b7863d7f0e89041b39"
+    },
+    {
+      "id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e6",
+      "quote": "DЕМО. Достар, жаңа орын ашылды. Заходи в клуб через приглашение и\nзабирай свoй бoнус: https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+      "source_id": "cf9326e1c30747b7863d7f0e89041b39-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:54:19.432768+00:00",
+      "material_id": "cf9326e1c30747b7863d7f0e89041b39"
+    },
+    {
+      "id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e7",
+      "quote": "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+      "source_id": "cf9326e1c30747b7863d7f0e89041b39-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:54:19.432768+00:00",
+      "material_id": "cf9326e1c30747b7863d7f0e89041b39"
+    },
+    {
+      "id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e8",
+      "quote": "Синтетический стенд: адрес не найден",
+      "source_id": "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:54:19.432768+00:00",
+      "url": "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+      "status_code": null,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e9",
+      "quote": "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+      "source_id": "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:54:19.432768+00:00",
+      "url": "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+        "at": "2026-10-21T20:54:19.432768+00:00",
+        "status_code": null,
+        "text": "",
+        "stop": "Синтетический стенд: адрес не найден",
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [],
+        "evidence_id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e8"
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+        "type": "contains_link",
+        "quote": "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:54:19.432768+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e9"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+    "Непроверенный участок: Синтетический стенд: адрес не найден",
+    "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "analysis_assisted": false,
+  "identifiers": [],
+  "analyzed_at": "2026-10-21T20:54:16.462801+00:00",
+  "analysis_id": "e19cabab7d69",
+  "context": {
+    "language": "kk",
+    "context": "affiliate",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "Заходи",
+        "source_id": "cf9326e1c30747b7863d7f0e89041b39-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 32,
+        "end": 38
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "забирай",
+        "source_id": "cf9326e1c30747b7863d7f0e89041b39-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 66,
+        "end": 73
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "Заходи",
+      "source_id": "cf9326e1c30747b7863d7f0e89041b39-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 32,
+      "end": 38,
+      "evidence_id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e4"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "забирай",
+      "source_id": "cf9326e1c30747b7863d7f0e89041b39-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 66,
+      "end": 73,
+      "evidence_id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e5"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-fb765a6f05276604",
+        "type": "material",
+        "label": "DEMO · материал 2cd921",
+        "evidence_ids": [
+          "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e1"
+        ],
+        "case_id": "846c02ec54224b14a2bdba24e471bf47",
+        "material_id": "cf9326e1c30747b7863d7f0e89041b39"
+      },
+      {
+        "id": "source-c4c78fd358eb2151",
+        "type": "source",
+        "label": "DEMO · материал 2cd921",
+        "evidence_ids": [
+          "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e1"
+        ]
+      },
+      {
+        "id": "url-54fff6908ee1c6b5",
+        "type": "url",
+        "label": "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+        "evidence_ids": [
+          "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e7",
+          "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e8"
+        ]
+      },
+      {
+        "id": "observation-afa8c9073b5eaf41",
+        "type": "observation",
+        "label": "Разрыв маршрута",
+        "evidence_ids": [
+          "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e8"
+        ],
+        "stopped": true
+      },
+      {
+        "id": "domain-5d3c1bc66db1066c",
+        "type": "domain",
+        "label": "kfa3d242a2b.test",
+        "evidence_ids": [
+          "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e8"
+        ]
+      },
+      {
+        "id": "identifier-e573eda5bbfe836d",
+        "type": "identifier",
+        "label": "ref=TE5666FC",
+        "evidence_ids": [
+          "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e8"
+        ],
+        "scope": "kfa3d242a2b.test|/invite/32f394|ref|TE5666FC"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-baaf739af86c5fde19",
+        "source": "source-c4c78fd358eb2151",
+        "target": "material-fb765a6f05276604",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e1"
+        ],
+        "at": "2026-10-21T20:54:16.462801+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-cecbbaae5a435b9c9d",
+        "source": "material-fb765a6f05276604",
+        "target": "url-54fff6908ee1c6b5",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e7"
+        ],
+        "at": "2026-10-21T20:54:16.462801+00:00",
+        "method": "ocr",
+        "status": "observed"
+      },
+      {
+        "id": "edge-729822849ed64ca268",
+        "source": "url-54fff6908ee1c6b5",
+        "target": "observation-afa8c9073b5eaf41",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e8"
+        ],
+        "at": "2026-10-21T20:54:16.462801+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-47f4630e6af3bb077d",
+        "source": "url-54fff6908ee1c6b5",
+        "target": "domain-5d3c1bc66db1066c",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e8"
+        ],
+        "at": "2026-10-21T20:54:16.462801+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-cec6586da19601f4ba",
+        "source": "url-54fff6908ee1c6b5",
+        "target": "identifier-e573eda5bbfe836d",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e8"
+        ],
+        "at": "2026-10-21T20:54:16.462801+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e1",
+        "quote": "DEMO · материал 2cd921",
+        "source_id": "cf9326e1c30747b7863d7f0e89041b39",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:54:16.462801+00:00",
+        "material_id": "cf9326e1c30747b7863d7f0e89041b39",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e2",
+        "quote": "DЕМО. Достар, жаңа орын ашылды. Заходи в клуб через приглашение и",
+        "source_id": "cf9326e1c30747b7863d7f0e89041b39-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:54:19.265224+00:00",
+        "material_id": "cf9326e1c30747b7863d7f0e89041b39",
+        "polygon": [
+          [
+            28.0,
+            24.0
+          ],
+          [
+            906.0,
+            26.0
+          ],
+          [
+            906.0,
+            57.0
+          ],
+          [
+            28.0,
+            55.0
+          ]
+        ],
+        "confidence": 0.9897481799125671
+      },
+      {
+        "id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e3",
+        "quote": "забирай свoй бoнус: https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+        "source_id": "cf9326e1c30747b7863d7f0e89041b39-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:54:19.265224+00:00",
+        "material_id": "cf9326e1c30747b7863d7f0e89041b39",
+        "polygon": [
+          [
+            28.0,
+            66.0
+          ],
+          [
+            888.0,
+            65.0
+          ],
+          [
+            888.0,
+            96.0
+          ],
+          [
+            28.0,
+            97.0
+          ]
+        ],
+        "confidence": 0.9757418632507324
+      },
+      {
+        "id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e4",
+        "quote": "Заходи",
+        "source_id": "cf9326e1c30747b7863d7f0e89041b39-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:54:19.432768+00:00",
+        "start": 32,
+        "end": 38,
+        "material_id": "cf9326e1c30747b7863d7f0e89041b39"
+      },
+      {
+        "id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e5",
+        "quote": "забирай",
+        "source_id": "cf9326e1c30747b7863d7f0e89041b39-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:54:19.432768+00:00",
+        "start": 66,
+        "end": 73,
+        "material_id": "cf9326e1c30747b7863d7f0e89041b39"
+      },
+      {
+        "id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e6",
+        "quote": "DЕМО. Достар, жаңа орын ашылды. Заходи в клуб через приглашение и\nзабирай свoй бoнус: https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+        "source_id": "cf9326e1c30747b7863d7f0e89041b39-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:54:19.432768+00:00",
+        "material_id": "cf9326e1c30747b7863d7f0e89041b39"
+      },
+      {
+        "id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e7",
+        "quote": "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+        "source_id": "cf9326e1c30747b7863d7f0e89041b39-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:54:19.432768+00:00",
+        "material_id": "cf9326e1c30747b7863d7f0e89041b39"
+      },
+      {
+        "id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e8",
+        "quote": "Синтетический стенд: адрес не найден",
+        "source_id": "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:54:19.432768+00:00",
+        "url": "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+        "status_code": null,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "846c02ec54224b14a2bdba24e471bf47-e19cabab7d69-e9",
+        "quote": "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+        "source_id": "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:54:19.432768+00:00",
+        "url": "https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:54:19.433771+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [],
+    "version": "rules-4.0",
+    "weights": {
+      "version": "weights-4.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "cf9326e1c30747b7863d7f0e89041b39",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": false,
+  "elapsed_ms": 2971.5
+}

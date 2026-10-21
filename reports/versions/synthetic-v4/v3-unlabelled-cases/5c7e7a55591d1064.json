@@ -1,0 +1,533 @@
+{
+  "id": "c95e1142915345c2b46f746d050d6dd5",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:49:40.017662+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "DEMO. Редакционная заметка описывает закрытый рекламный кабинет казино. Приглашений читателю нет; адрес опубликован как проверяемая ссылка https://kca41691610.test/card/d29be1?ref=TDC5959A",
+      "url": "",
+      "source": "DEMO · материал 5c7e7a",
+      "published_at": null,
+      "image_id": null,
+      "id": "1ba5eab2d8934a2bb9721d03f2ea04c5",
+      "original_sha256": "b752282b980945b6715b6c80c63b91865a631ce7f0fdc1b62fac222347d3cce3",
+      "source_evidence_id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e1",
+      "normalized_text": "demo. редакционная заметка описывает закрытый рекламный кабинет казино. приглашений читателю нет; адрес опубликован как проверяемая ссылка https://kca41691610.test/card/d29be1?ref=tdc5959a",
+      "urls": [
+        "https://kca41691610.test/card/d29be1?ref=TDC5959A"
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e3"
+      ],
+      "reachable_urls": [
+        "https://kca41691610.test/card/d29be1?ref=TDC5959A"
+      ],
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-3.0",
+        "weights": {
+          "version": "weights-3.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "ru",
+        "context": "ambiguous",
+        "claims": [
+          {
+            "kind": "gambling",
+            "quote": "казино",
+            "source_id": "1ba5eab2d8934a2bb9721d03f2ea04c5",
+            "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+            "start": 64,
+            "end": 70
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e1",
+      "quote": "DEMO · материал 5c7e7a",
+      "source_id": "1ba5eab2d8934a2bb9721d03f2ea04c5",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:49:40.030662+00:00",
+      "material_id": "1ba5eab2d8934a2bb9721d03f2ea04c5",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e2",
+      "quote": "казино",
+      "source_id": "1ba5eab2d8934a2bb9721d03f2ea04c5",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:40.031662+00:00",
+      "start": 64,
+      "end": 70,
+      "material_id": "1ba5eab2d8934a2bb9721d03f2ea04c5"
+    },
+    {
+      "id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e3",
+      "quote": "DEMO. Редакционная заметка описывает закрытый рекламный кабинет казино. Приглашений читателю нет; адрес опубликован как проверяемая ссылка https://kca41691610.test/card/d29be1?ref=TDC5959A",
+      "source_id": "1ba5eab2d8934a2bb9721d03f2ea04c5",
+      "method": "source_text",
+      "at": "2026-10-21T20:49:40.031662+00:00",
+      "material_id": "1ba5eab2d8934a2bb9721d03f2ea04c5"
+    },
+    {
+      "id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e4",
+      "quote": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+      "source_id": "1ba5eab2d8934a2bb9721d03f2ea04c5",
+      "method": "source_text",
+      "at": "2026-10-21T20:49:40.031662+00:00",
+      "material_id": "1ba5eab2d8934a2bb9721d03f2ea04c5"
+    },
+    {
+      "id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e5",
+      "quote": "Казино для участников Слоты, рулетка и денежные ставки. Пополнение депозитом.",
+      "source_id": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:49:40.031662+00:00",
+      "url": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e6",
+      "quote": "Казино",
+      "source_id": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:40.032662+00:00",
+      "start": 0,
+      "end": 6,
+      "url": "https://kca41691610.test/card/d29be1?ref=TDC5959A"
+    },
+    {
+      "id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e7",
+      "quote": "Слоты",
+      "source_id": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:40.032662+00:00",
+      "start": 22,
+      "end": 27,
+      "url": "https://kca41691610.test/card/d29be1?ref=TDC5959A"
+    },
+    {
+      "id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e8",
+      "quote": "рулетка",
+      "source_id": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:40.032662+00:00",
+      "start": 29,
+      "end": 36,
+      "url": "https://kca41691610.test/card/d29be1?ref=TDC5959A"
+    },
+    {
+      "id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e9",
+      "quote": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+      "source_id": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:49:40.032662+00:00",
+      "url": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+        "at": "2026-10-21T20:49:40.031662+00:00",
+        "status_code": 200,
+        "text": "Казино для участников Слоты, рулетка и денежные ставки. Пополнение депозитом.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:49:40.031662+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "0b7371d32d8b9fd125cdc3b12b44add98fe0091419e8bdffdf1be58e58892200",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+        "evidence_id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e5",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [
+            {
+              "kind": "gambling",
+              "quote": "Казино",
+              "source_id": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 0,
+              "end": 6
+            },
+            {
+              "kind": "gambling",
+              "quote": "Слоты",
+              "source_id": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 22,
+              "end": 27
+            },
+            {
+              "kind": "gambling",
+              "quote": "рулетка",
+              "source_id": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 29,
+              "end": 36
+            }
+          ],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+        "type": "contains_link",
+        "quote": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:49:40.031662+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e9"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-3.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.1"
+  },
+  "identifiers": [
+    {
+      "domain": "kca41691610.test",
+      "parameter": "ref",
+      "value": "TDC5959A",
+      "scope": "kca41691610.test|/card/d29be1|ref|TDC5959A",
+      "url": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+      "material_id": "1ba5eab2d8934a2bb9721d03f2ea04c5",
+      "evidence_id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e5"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:49:40.030662+00:00",
+  "analysis_id": "3a72241d5496",
+  "context": {
+    "language": "ru",
+    "context": "ambiguous",
+    "claims": [
+      {
+        "kind": "gambling",
+        "quote": "казино",
+        "source_id": "1ba5eab2d8934a2bb9721d03f2ea04c5",
+        "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+        "start": 64,
+        "end": 70
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "gambling",
+      "quote": "казино",
+      "source_id": "1ba5eab2d8934a2bb9721d03f2ea04c5",
+      "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+      "start": 64,
+      "end": 70,
+      "evidence_id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e2"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-2a512f81fdb8861e",
+        "type": "material",
+        "label": "DEMO · материал 5c7e7a",
+        "evidence_ids": [
+          "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e1"
+        ],
+        "case_id": "c95e1142915345c2b46f746d050d6dd5",
+        "material_id": "1ba5eab2d8934a2bb9721d03f2ea04c5"
+      },
+      {
+        "id": "source-fa79498d0306f1db",
+        "type": "source",
+        "label": "DEMO · материал 5c7e7a",
+        "evidence_ids": [
+          "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e1"
+        ]
+      },
+      {
+        "id": "url-d889ae257e29491f",
+        "type": "url",
+        "label": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+        "evidence_ids": [
+          "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e4",
+          "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e5"
+        ]
+      },
+      {
+        "id": "observation-c4794d613b03fd15",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e5"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-175fcf8c0555dfc9",
+        "type": "domain",
+        "label": "kca41691610.test",
+        "evidence_ids": [
+          "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e5"
+        ]
+      },
+      {
+        "id": "identifier-65162d576c4faa68",
+        "type": "identifier",
+        "label": "ref=TDC5959A",
+        "evidence_ids": [
+          "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e5"
+        ],
+        "scope": "kca41691610.test|/card/d29be1|ref|TDC5959A"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-aa134a414ece2e9442",
+        "source": "source-fa79498d0306f1db",
+        "target": "material-2a512f81fdb8861e",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e1"
+        ],
+        "at": "2026-10-21T20:49:40.030662+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-44cbc251022e6cad6a",
+        "source": "material-2a512f81fdb8861e",
+        "target": "url-d889ae257e29491f",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e4"
+        ],
+        "at": "2026-10-21T20:49:40.030662+00:00",
+        "method": "source_text",
+        "status": "observed"
+      },
+      {
+        "id": "edge-ab2c20d6ddf6eda25c",
+        "source": "url-d889ae257e29491f",
+        "target": "observation-c4794d613b03fd15",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e5"
+        ],
+        "at": "2026-10-21T20:49:40.030662+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-b68cd6e93ad62810fe",
+        "source": "url-d889ae257e29491f",
+        "target": "domain-175fcf8c0555dfc9",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e5"
+        ],
+        "at": "2026-10-21T20:49:40.030662+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-f4109eef902652ff18",
+        "source": "url-d889ae257e29491f",
+        "target": "identifier-65162d576c4faa68",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e5"
+        ],
+        "at": "2026-10-21T20:49:40.030662+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e1",
+        "quote": "DEMO · материал 5c7e7a",
+        "source_id": "1ba5eab2d8934a2bb9721d03f2ea04c5",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:49:40.030662+00:00",
+        "material_id": "1ba5eab2d8934a2bb9721d03f2ea04c5",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e2",
+        "quote": "казино",
+        "source_id": "1ba5eab2d8934a2bb9721d03f2ea04c5",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:40.031662+00:00",
+        "start": 64,
+        "end": 70,
+        "material_id": "1ba5eab2d8934a2bb9721d03f2ea04c5"
+      },
+      {
+        "id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e3",
+        "quote": "DEMO. Редакционная заметка описывает закрытый рекламный кабинет казино. Приглашений читателю нет; адрес опубликован как проверяемая ссылка https://kca41691610.test/card/d29be1?ref=TDC5959A",
+        "source_id": "1ba5eab2d8934a2bb9721d03f2ea04c5",
+        "method": "source_text",
+        "at": "2026-10-21T20:49:40.031662+00:00",
+        "material_id": "1ba5eab2d8934a2bb9721d03f2ea04c5"
+      },
+      {
+        "id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e4",
+        "quote": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+        "source_id": "1ba5eab2d8934a2bb9721d03f2ea04c5",
+        "method": "source_text",
+        "at": "2026-10-21T20:49:40.031662+00:00",
+        "material_id": "1ba5eab2d8934a2bb9721d03f2ea04c5"
+      },
+      {
+        "id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e5",
+        "quote": "Казино для участников Слоты, рулетка и денежные ставки. Пополнение депозитом.",
+        "source_id": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:49:40.031662+00:00",
+        "url": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e6",
+        "quote": "Казино",
+        "source_id": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:40.032662+00:00",
+        "start": 0,
+        "end": 6,
+        "url": "https://kca41691610.test/card/d29be1?ref=TDC5959A"
+      },
+      {
+        "id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e7",
+        "quote": "Слоты",
+        "source_id": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:40.032662+00:00",
+        "start": 22,
+        "end": 27,
+        "url": "https://kca41691610.test/card/d29be1?ref=TDC5959A"
+      },
+      {
+        "id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e8",
+        "quote": "рулетка",
+        "source_id": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:40.032662+00:00",
+        "start": 29,
+        "end": 36,
+        "url": "https://kca41691610.test/card/d29be1?ref=TDC5959A"
+      },
+      {
+        "id": "c95e1142915345c2b46f746d050d6dd5-3a72241d5496-e9",
+        "quote": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+        "source_id": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:49:40.032662+00:00",
+        "url": "https://kca41691610.test/card/d29be1?ref=TDC5959A",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:49:40.032662+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [],
+    "version": "rules-3.0",
+    "weights": {
+      "version": "weights-3.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "1ba5eab2d8934a2bb9721d03f2ea04c5",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 1.9
+}

@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-10-21T20:41:52.062562+00:00",
+  "core_freeze_sha256": "74d21984c7d1c48230ee6786e74221a058846b017665ba90d1ecd18472d03d5c",
+  "generator_sha256": "e7214caed5d1359cd9be6195fbefe49801206952c10a245585cd7614a7608213",
+  "n": 80,
+  "positive": 40,
+  "image_cases": 32,
+  "qr_cases": 8,
+  "purpose": "Fresh author-synthetic final inputs. No predictions computed by the generator. Independent validation unavailable."
+}

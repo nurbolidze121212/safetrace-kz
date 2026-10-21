@@ -1,0 +1,1032 @@
+{
+  "dataset_version": "synthetic-v4",
+  "evaluation_version": "v3-on-v4",
+  "test_count": 80,
+  "image_count": 32,
+  "threshold": 65,
+  "frozen_at": "2026-10-21T20:37:49.116343+00:00",
+  "versions": {
+    "rules": "rules-3.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "pipeline": "pipeline-2.1",
+    "qr": "qr-1.0"
+  },
+  "core_hashes": {
+    "backend/__init__.py": "cab7e34e197ae110487f67fb05f231deab0a474dab2e42cbe3b02825dd660767",
+    "backend/analysis.py": "bf8ba12cb987c50c4807cba1a83e04169c2cde16be8fde25e7fbd4c2b3087931",
+    "backend/app.py": "572a75cd2dd0a58814df2eb41b3661f4396750dca3c723382482fecc3e70897c",
+    "backend/config.py": "fa19a5973cc972e75ba265a9244cb1a968a455ef6413e4fb2f86da7b577a5582",
+    "backend/evaluations.py": "e67992cbc186a7b91201a4e39099aa4aaf9cff8f7f86e83e40a4603ec1148976",
+    "backend/exports.py": "2c7efe90d8505a219755010de0243317a5c65f0fe24fdb7159190a81f981d45d",
+    "backend/graph.py": "e27e5676a70a0d31f5513f017fb65b9e6aaf69fe780ca9f02ece76f5520872bc",
+    "backend/limits.py": "bc9b82ee5bdb10c6274300c075c7dae1c2baeb9a4b0bf6287358795394d9fcac",
+    "backend/links.py": "8989f0cd4c00e92fbda6fd945fd51b6e3afaf306adaafa5558a6acae3e649de2",
+    "backend/ocr.py": "cd6dda0581bd9f0e573294c64ce6ddc0ba64db4e54f52bc1864c31f93facf504",
+    "backend/pipeline.py": "504c224365101ca2a72815aa8a3edbe645da77f6ac70e21d3ed82c3ccfe59644",
+    "backend/providers.py": "de23a984a3222f6038a8b4dee73a1f927e0e466c107e9bdb2ac182b39bf64667",
+    "backend/qr.py": "f4e4d2f9db9ac65f8e7d82d1874fe6df22ee9368f30a7f3a06395a68e412947f",
+    "backend/report_html.py": "a3b73aff6ea35035a72869ead817d7cfa5653553958b64b4ad7209f6cb170382",
+    "backend/schemas.py": "9e8f288c483aabaedd249c2b7376289f5bb33bf17411226cf3748abeb4322cde",
+    "backend/storage.py": "eb774a2f97440ffdc587835a5438f3490d487f5162d4654f9637d7c85d3dac55",
+    "backend/weights.json": "6c1516b3296f8cac06fbf63504c28185231b2bf62d37db4d2cbc89bf0d98b411",
+    "models-manifest.json": "d4bb3eb1be953003a32331066e3cc7876ceecc72a82fd9144360a621b590a9a0",
+    "requirements.lock.txt": "aadee977e8f609c9ef4cb528a18fbd3ea9506616dcbc4bb9802d625cc534f8df"
+  },
+  "data_hashes": {
+    "annotations.jsonl": "57e99b0941325c98c5157670815c147a8a019a92a634265a28b87d73358a1fe2",
+    "images/03a9a4a17969e35aea2b.png": "7ebe7f8eecedfb6d43741bd0bbc38519cd9ce3c445208c3fd2cb1761ccaf7e60",
+    "images/09f70d0287c915db1607.png": "6d66a74fd5f009dd2c16fa91d1344091a115d951ca3aeebd579508abab64644a",
+    "images/1293edb19bbbaafa66fe.png": "2e9f5a9f73fa81e3883f0608e8a9c174df6abe965929fd22a18379ce15be3cf2",
+    "images/1e188cd0c9e952529cc8.jpg": "1d906752533cb56554f6aa361ed2807ccd24091411c9768bab1a16df49eed3f5",
+    "images/21959e92603a99c289f0.jpg": "d58f1a966052111f11d347a4ed46b1f37b75054dc8866e04a17e691f714dc03d",
+    "images/2430f4d2d3c1db98cf50.png": "4eeb02b94f9681838c23078fe87748e3cbf24abeb9176bb20a91c16ca4120c8c",
+    "images/2c63a0cbee68f242ff2a.png": "e7a45c2b501a4161080289faae6cdaff5730b3cc2ae23aaf60eb16ad753df947",
+    "images/351cadb015044c1de83a.png": "be93aafa1bf4411cf4876fc786ecef13b9db5cb73c81f09944b0c78e27a0d856",
+    "images/39d18d68367045220e23.png": "de88af0bbcb3781502b8b8dd82bc7efeb6c31ad177392cb1a9e4412538b1b852",
+    "images/4433824c5df1b8ce5601.png": "c758a2c1b20689c40b6ecdb0092e13053e1a921d41bebd1ab26b6727627c9c46",
+    "images/5f2d70a97fb3609a7181.png": "ad7b0dbc61897dd96b8d1931579d7e49d0817beb8a2b6cf314e43f653d8ba1f0",
+    "images/639898a10ce0faec8776.jpg": "d2f1672e37c07b42639288260753488fa2073119be4211aa35b2835a91f4b525",
+    "images/68016c7afc2ca1c3132d.png": "f0d3a29045f9baa8eafe2456308cdd0c613ec612cd1e24a3ab92765abda60d0e",
+    "images/72ee08105941cbadc83a.png": "8d364d7d70992e9976d527199728ae3dde759b81f5b453be3b7cd176aa6ff319",
+    "images/75519ef87ac3085e72cc.jpg": "f7440de5d20c229f6b590c0175ea6aa781d81f1d21875ee9b8ff04e98a336b23",
+    "images/81944ecad2398508f12d.png": "73a9f1009218c5110f6343e9169d889ec7a43bfd359da362554c1fc2645c6f66",
+    "images/819cc1e344c23bbda7b7.png": "a6861bb46acc3a00f79b678608130a186178f103f1f0f1aec72e8cb996e27c19",
+    "images/872ae87f14ac42338d38.png": "5016de6b0efd0dee570d86763a60ae616498f99df2735c4c6805879a9a026951",
+    "images/8d997ed65423cb715fc0.png": "b25f13d8a7ff916e3458eb9c2f6d99cb0af0222ff51b60e4768b4a3fe499fa2f",
+    "images/8f1d336ad33eb16a7a42.png": "6578e5758ac4c96e3cd9cb2dd056b6d49763b4c9e35f27e57ba49357b90d492d",
+    "images/9917be37e8e91b10cf76.png": "53513d6a1d713e5babbfc234f2e3f4f3a6d305801890c1fa5edc56d16effc33a",
+    "images/a11d39683480082fb337.png": "9d6dbded1e90d466c47a23e0db419f18538ff30918582c5f1ac0703394ad7da8",
+    "images/bc6d16fd33f6d8b6bc74.png": "7164aa91e594abb8b2c8f1915564185720b908ddc761e3608ed7fa9b13ecb994",
+    "images/cab3935261fca8be036a.png": "fef1ca55c990b19ceff8637726fbf3a687f187041816387eb3cb34f263d2ad2e",
+    "images/cc02726faaa87bf64b36.png": "cdda9fca5f6bdf0091959373fbc1b2679c05e86dc56d4c9d34979d34f8bc0e11",
+    "images/cceea70b05ee73a00f9f.png": "76fa830da0d5d34a7641ea474e22eb4d4026fc36470b8a351373267c1c239b2e",
+    "images/e9a4da13ddeb1086a14f.png": "dca8c67f7cb6b5e541c2e5d395a8a2e1066452a22433d5a3065ead0906991850",
+    "images/ec4ee503f23755bb039d.png": "77bccb2230b821b6ddc97ff4849aba6eab83c3fa3623a1c1563f5cd0d8196702",
+    "images/edc537d4953f517fead5.png": "48f769b3f362523a709cc38f869210e9cf292ccba4862dd48339f8f296733044",
+    "images/ee928109fefdccb70d58.png": "bf8571872ae29875d6dbe41261398077b6bfe2ff301d422c640db8df8426fcca",
+    "images/f2531700dacfdd995cec.png": "bc1bc31ab6062e63569166d65f4af86281888271a57a383529768549eac18137",
+    "images/f3dadb3581cae5a47416.png": "366b3330f76ef10198075b60fda26d35e09b20eac172f781f946b46818c6d1b6",
+    "inputs.jsonl": "ea7ba43ce4892e9082d7569c940e57467d3f0c24e65ea2780db980bb84ed3a5b",
+    "metadata.json": "78dc67099cfbb0f2f54221fc6ac1f7b2a342fccc564163880c7ef36b6a0dc522",
+    "pages.json": "1f6c23538864264d492083d55315f0fb49d5564a6cd43140fc3732a9451f8339"
+  },
+  "variants": {
+    "full": {
+      "n": 80,
+      "p50_ms": 4.333,
+      "p95_ms": 6543.961,
+      "tp": 31,
+      "fp": 9,
+      "tn": 31,
+      "fn": 9,
+      "precision": 0.775,
+      "recall": 0.775,
+      "f1": 0.775,
+      "fpr": 0.225,
+      "coverage": 0.9375,
+      "insufficient": 5,
+      "precision_ci": [
+        0.6249690312905765,
+        0.8768390873572685
+      ],
+      "recall_ci": [
+        0.6249690312905765,
+        0.8768390873572685
+      ],
+      "fpr_ci": [
+        0.12316091264273149,
+        0.37503096870942354
+      ],
+      "processed_n": 75,
+      "processed_precision": 0.775,
+      "processed_recall": 0.8857142857142857,
+      "processed_fpr": 0.225
+    }
+  },
+  "slices": {
+    "language:kk": {
+      "n": 19,
+      "p50_ms": 4.444,
+      "p95_ms": 6543.961,
+      "tp": 6,
+      "fp": 0,
+      "tn": 10,
+      "fn": 3,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "fpr": 0.0,
+      "coverage": 0.9473684210526315,
+      "insufficient": 1,
+      "precision_ci": [
+        0.6096657083436265,
+        1
+      ],
+      "recall_ci": [
+        0.35420213352505864,
+        0.8794161825659264
+      ],
+      "fpr_ci": [
+        0,
+        0.2775328030260577
+      ],
+      "processed_n": 18,
+      "processed_precision": 1.0,
+      "processed_recall": 0.75,
+      "processed_fpr": 0.0
+    },
+    "language:mixed": {
+      "n": 26,
+      "p50_ms": 5.779,
+      "p95_ms": 5242.068,
+      "tp": 12,
+      "fp": 4,
+      "tn": 9,
+      "fn": 1,
+      "precision": 0.75,
+      "recall": 0.9230769230769231,
+      "f1": 0.8275862068965517,
+      "fpr": 0.3076923076923077,
+      "coverage": 0.9615384615384616,
+      "insufficient": 1,
+      "precision_ci": [
+        0.5050168327029684,
+        0.8981793257983292
+      ],
+      "recall_ci": [
+        0.666860488286395,
+        0.986289578909774
+      ],
+      "fpr_ci": [
+        0.12680703567070326,
+        0.5763065701492199
+      ],
+      "processed_n": 25,
+      "processed_precision": 0.75,
+      "processed_recall": 1.0,
+      "processed_fpr": 0.3076923076923077
+    },
+    "language:ru": {
+      "n": 28,
+      "p50_ms": 3.893,
+      "p95_ms": 18828.441,
+      "tp": 10,
+      "fp": 4,
+      "tn": 10,
+      "fn": 4,
+      "precision": 0.7142857142857143,
+      "recall": 0.7142857142857143,
+      "f1": 0.7142857142857143,
+      "fpr": 0.2857142857142857,
+      "coverage": 0.9285714285714286,
+      "insufficient": 2,
+      "precision_ci": [
+        0.45350915474002584,
+        0.8827862143729825
+      ],
+      "recall_ci": [
+        0.45350915474002584,
+        0.8827862143729825
+      ],
+      "fpr_ci": [
+        0.11721378562701742,
+        0.5464908452599742
+      ],
+      "processed_n": 26,
+      "processed_precision": 0.7142857142857143,
+      "processed_recall": 0.8333333333333334,
+      "processed_fpr": 0.2857142857142857
+    },
+    "language:translit": {
+      "n": 7,
+      "p50_ms": 3.849,
+      "p95_ms": 3793.406,
+      "tp": 3,
+      "fp": 1,
+      "tn": 2,
+      "fn": 1,
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75,
+      "fpr": 0.3333333333333333,
+      "coverage": 0.8571428571428571,
+      "insufficient": 1,
+      "precision_ci": [
+        0.3006418400969081,
+        0.954412739704631
+      ],
+      "recall_ci": [
+        0.3006418400969081,
+        0.954412739704631
+      ],
+      "fpr_ci": [
+        0.06149194402093078,
+        0.7923404011921757
+      ],
+      "processed_n": 6,
+      "processed_precision": 0.75,
+      "processed_recall": 1.0,
+      "processed_fpr": 0.3333333333333333
+    },
+    "category:affiliate": {
+      "n": 3,
+      "p50_ms": 2.731,
+      "p95_ms": 2.963,
+      "tp": 0,
+      "fp": 0,
+      "tn": 3,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "fpr": 0.0,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": null,
+      "recall_ci": null,
+      "fpr_ci": [
+        0,
+        0.5614970356393196
+      ],
+      "processed_n": 3,
+      "processed_precision": null,
+      "processed_recall": null,
+      "processed_fpr": 0.0
+    },
+    "category:branched_negative": {
+      "n": 2,
+      "p50_ms": 2623.185,
+      "p95_ms": 5242.068,
+      "tp": 0,
+      "fp": 2,
+      "tn": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": null,
+      "f1": 0.0,
+      "fpr": 1.0,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0,
+        0.6576197760453506
+      ],
+      "recall_ci": null,
+      "fpr_ci": [
+        0.3423802239546494,
+        1
+      ],
+      "processed_n": 2,
+      "processed_precision": 0.0,
+      "processed_recall": null,
+      "processed_fpr": 1.0
+    },
+    "category:branched_positive": {
+      "n": 1,
+      "p50_ms": 3367.162,
+      "p95_ms": 3367.162,
+      "tp": 0,
+      "fp": 0,
+      "tn": 0,
+      "fn": 1,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fpr": null,
+      "coverage": 0.0,
+      "insufficient": 1,
+      "precision_ci": null,
+      "recall_ci": [
+        0,
+        0.7934506882081973
+      ],
+      "fpr_ci": null,
+      "processed_n": 0,
+      "processed_precision": null,
+      "processed_recall": null,
+      "processed_fpr": null
+    },
+    "category:contradictory": {
+      "n": 7,
+      "p50_ms": 4.175,
+      "p95_ms": 5668.968,
+      "tp": 4,
+      "fp": 0,
+      "tn": 0,
+      "fn": 3,
+      "precision": 1.0,
+      "recall": 0.5714285714285714,
+      "f1": 0.7272727272727273,
+      "fpr": null,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0.5101091596030786,
+        0.9999999999999999
+      ],
+      "recall_ci": [
+        0.25045836275303557,
+        0.8417801460075546
+      ],
+      "fpr_ci": null,
+      "processed_n": 7,
+      "processed_precision": 1.0,
+      "processed_recall": 0.5714285714285714,
+      "processed_fpr": null
+    },
+    "category:direct": {
+      "n": 8,
+      "p50_ms": 1627.4375,
+      "p95_ms": 18939.392,
+      "tp": 8,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": null,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0.6755924316585924,
+        1
+      ],
+      "recall_ci": [
+        0.6755924316585924,
+        1
+      ],
+      "fpr_ci": null,
+      "processed_n": 8,
+      "processed_precision": 1.0,
+      "processed_recall": 1.0,
+      "processed_fpr": null
+    },
+    "category:duplicate": {
+      "n": 1,
+      "p50_ms": 4.004,
+      "p95_ms": 4.004,
+      "tp": 1,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": null,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0.2065493117918027,
+        1
+      ],
+      "recall_ci": [
+        0.2065493117918027,
+        1
+      ],
+      "fpr_ci": null,
+      "processed_n": 1,
+      "processed_precision": 1.0,
+      "processed_recall": 1.0,
+      "processed_fpr": null
+    },
+    "category:education": {
+      "n": 8,
+      "p50_ms": 3.7025,
+      "p95_ms": 18828.441,
+      "tp": 0,
+      "fp": 2,
+      "tn": 6,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": null,
+      "f1": 0.0,
+      "fpr": 0.25,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0,
+        0.6576197760453506
+      ],
+      "recall_ci": null,
+      "fpr_ci": [
+        0.07147921209795555,
+        0.5907245720727483
+      ],
+      "processed_n": 8,
+      "processed_precision": 0.0,
+      "processed_recall": null,
+      "processed_fpr": 0.25
+    },
+    "category:free_game": {
+      "n": 5,
+      "p50_ms": 4183.996,
+      "p95_ms": 5963.541,
+      "tp": 0,
+      "fp": 0,
+      "tn": 5,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "fpr": 0.0,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": null,
+      "recall_ci": null,
+      "fpr_ci": [
+        0,
+        0.43448246865939283
+      ],
+      "processed_n": 5,
+      "processed_precision": null,
+      "processed_recall": null,
+      "processed_fpr": 0.0
+    },
+    "category:hidden": {
+      "n": 8,
+      "p50_ms": 3.1929999999999996,
+      "p95_ms": 5712.851,
+      "tp": 8,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": null,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0.6755924316585924,
+        1
+      ],
+      "recall_ci": [
+        0.6755924316585924,
+        1
+      ],
+      "fpr_ci": null,
+      "processed_n": 8,
+      "processed_precision": 1.0,
+      "processed_recall": 1.0,
+      "processed_fpr": null
+    },
+    "category:multihop": {
+      "n": 8,
+      "p50_ms": 5.117,
+      "p95_ms": 18527.181,
+      "tp": 8,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": null,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0.6755924316585924,
+        1
+      ],
+      "recall_ci": [
+        0.6755924316585924,
+        1
+      ],
+      "fpr_ci": null,
+      "processed_n": 8,
+      "processed_precision": 1.0,
+      "processed_recall": 1.0,
+      "processed_fpr": null
+    },
+    "category:multiple_targets": {
+      "n": 1,
+      "p50_ms": 4501.377,
+      "p95_ms": 4501.377,
+      "tp": 0,
+      "fp": 0,
+      "tn": 0,
+      "fn": 1,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fpr": null,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": null,
+      "recall_ci": [
+        0,
+        0.7934506882081973
+      ],
+      "fpr_ci": null,
+      "processed_n": 1,
+      "processed_precision": null,
+      "processed_recall": 0.0,
+      "processed_fpr": null
+    },
+    "category:negation": {
+      "n": 3,
+      "p50_ms": 3.364,
+      "p95_ms": 71.579,
+      "tp": 0,
+      "fp": 1,
+      "tn": 2,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": null,
+      "f1": 0.0,
+      "fpr": 0.3333333333333333,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0,
+        0.7934506882081973
+      ],
+      "recall_ci": null,
+      "fpr_ci": [
+        0.06149194402093078,
+        0.7923404011921757
+      ],
+      "processed_n": 3,
+      "processed_precision": 0.0,
+      "processed_recall": null,
+      "processed_fpr": 0.3333333333333333
+    },
+    "category:news": {
+      "n": 8,
+      "p50_ms": 4.051,
+      "p95_ms": 6280.653,
+      "tp": 0,
+      "fp": 2,
+      "tn": 6,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": null,
+      "f1": 0.0,
+      "fpr": 0.25,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0,
+        0.6576197760453506
+      ],
+      "recall_ci": null,
+      "fpr_ci": [
+        0.07147921209795555,
+        0.5907245720727483
+      ],
+      "processed_n": 8,
+      "processed_precision": 0.0,
+      "processed_recall": null,
+      "processed_fpr": 0.25
+    },
+    "category:ordinary": {
+      "n": 4,
+      "p50_ms": 5.5355,
+      "p95_ms": 4251.275,
+      "tp": 0,
+      "fp": 1,
+      "tn": 3,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": null,
+      "f1": 0.0,
+      "fpr": 0.25,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0,
+        0.7934506882081973
+      ],
+      "recall_ci": null,
+      "fpr_ci": [
+        0.04558726029536886,
+        0.6993581599030918
+      ],
+      "processed_n": 4,
+      "processed_precision": 0.0,
+      "processed_recall": null,
+      "processed_fpr": 0.25
+    },
+    "category:repeated": {
+      "n": 2,
+      "p50_ms": 4.121,
+      "p95_ms": 4.364,
+      "tp": 2,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": null,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0.3423802239546494,
+        1
+      ],
+      "recall_ci": [
+        0.3423802239546494,
+        1
+      ],
+      "fpr_ci": null,
+      "processed_n": 2,
+      "processed_precision": 1.0,
+      "processed_recall": 1.0,
+      "processed_fpr": null
+    },
+    "category:unresolved": {
+      "n": 4,
+      "p50_ms": 2.9654999999999996,
+      "p95_ms": 2653.578,
+      "tp": 0,
+      "fp": 0,
+      "tn": 0,
+      "fn": 4,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fpr": null,
+      "coverage": 0.0,
+      "insufficient": 4,
+      "precision_ci": null,
+      "recall_ci": [
+        0,
+        0.4898908403969213
+      ],
+      "fpr_ci": null,
+      "processed_n": 0,
+      "processed_precision": null,
+      "processed_recall": null,
+      "processed_fpr": null
+    },
+    "category:warning": {
+      "n": 7,
+      "p50_ms": 3429.073,
+      "p95_ms": 15259.876,
+      "tp": 0,
+      "fp": 1,
+      "tn": 6,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": null,
+      "f1": 0.0,
+      "fpr": 0.14285714285714285,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0,
+        0.7934506882081973
+      ],
+      "recall_ci": null,
+      "fpr_ci": [
+        0.025679624057823897,
+        0.5131278321392249
+      ],
+      "processed_n": 7,
+      "processed_precision": 0.0,
+      "processed_recall": null,
+      "processed_fpr": 0.14285714285714285
+    },
+    "image": {
+      "n": 32,
+      "p50_ms": 4284.451499999999,
+      "p95_ms": 18828.441,
+      "tp": 12,
+      "fp": 2,
+      "tn": 14,
+      "fn": 4,
+      "precision": 0.8571428571428571,
+      "recall": 0.75,
+      "f1": 0.8,
+      "fpr": 0.125,
+      "coverage": 0.9375,
+      "insufficient": 2,
+      "precision_ci": [
+        0.600586202762663,
+        0.959906079092351
+      ],
+      "recall_ci": [
+        0.5050168327029684,
+        0.8981793257983292
+      ],
+      "fpr_ci": [
+        0.03497748742626902,
+        0.36022827482178466
+      ],
+      "processed_n": 30,
+      "processed_precision": 0.8571428571428571,
+      "processed_recall": 0.8571428571428571,
+      "processed_fpr": 0.125
+    },
+    "text": {
+      "n": 48,
+      "p50_ms": 3.278,
+      "p95_ms": 5.303,
+      "tp": 19,
+      "fp": 7,
+      "tn": 17,
+      "fn": 5,
+      "precision": 0.7307692307692307,
+      "recall": 0.7916666666666666,
+      "f1": 0.76,
+      "fpr": 0.2916666666666667,
+      "coverage": 0.9375,
+      "insufficient": 3,
+      "precision_ci": [
+        0.5391695946498539,
+        0.862955517521567
+      ],
+      "recall_ci": [
+        0.5952954657887158,
+        0.9075517470563429
+      ],
+      "fpr_ci": [
+        0.14914648116318613,
+        0.4916769382332005
+      ],
+      "processed_n": 45,
+      "processed_precision": 0.7307692307692307,
+      "processed_recall": 0.9047619047619048,
+      "processed_fpr": 0.2916666666666667
+    },
+    "qr": {
+      "n": 8,
+      "p50_ms": 4630.711,
+      "p95_ms": 6280.653,
+      "tp": 4,
+      "fp": 0,
+      "tn": 4,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0.0,
+      "coverage": 1.0,
+      "insufficient": 0,
+      "precision_ci": [
+        0.5101091596030786,
+        0.9999999999999999
+      ],
+      "recall_ci": [
+        0.5101091596030786,
+        0.9999999999999999
+      ],
+      "fpr_ci": [
+        0,
+        0.4898908403969213
+      ],
+      "processed_n": 8,
+      "processed_precision": 1.0,
+      "processed_recall": 1.0,
+      "processed_fpr": 0.0
+    }
+  },
+  "extraction": {
+    "raw_url": {
+      "n": 32,
+      "tp": 22,
+      "fp": 9,
+      "fn": 9,
+      "exact_sets": 24,
+      "accepted": 28,
+      "precision": 0.7096774193548387,
+      "recall": 0.7096774193548387
+    },
+    "automatic_url": {
+      "n": 32,
+      "tp": 22,
+      "fp": 9,
+      "fn": 9,
+      "exact_sets": 24,
+      "accepted": 28,
+      "precision": 0.7096774193548387,
+      "recall": 0.7096774193548387
+    },
+    "raw_url_expected": {
+      "n": 28,
+      "tp": 22,
+      "fp": 9,
+      "fn": 9,
+      "exact_sets": 20,
+      "accepted": 28,
+      "precision": 0.7096774193548387,
+      "recall": 0.7096774193548387
+    },
+    "automatic_url_expected": {
+      "n": 28,
+      "tp": 22,
+      "fp": 9,
+      "fn": 9,
+      "exact_sets": 20,
+      "accepted": 28,
+      "precision": 0.7096774193548387,
+      "recall": 0.7096774193548387
+    },
+    "raw_domain": {
+      "n": 32,
+      "tp": 30,
+      "fp": 1,
+      "fn": 1,
+      "exact_sets": 31,
+      "accepted": 28,
+      "precision": 0.967741935483871,
+      "recall": 0.967741935483871
+    },
+    "raw_referral": {
+      "n": 28,
+      "tp": 24,
+      "fp": 0,
+      "fn": 4,
+      "exact_sets": 24,
+      "accepted": 24,
+      "precision": 1.0,
+      "recall": 0.8571428571428571
+    },
+    "qr": {
+      "n": 32,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "exact_sets": 32,
+      "accepted": 8,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "qr_expected": {
+      "n": 8,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "exact_sets": 8,
+      "accepted": 8,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "correct_candidate_available": 20,
+    "candidate_denominator": 28,
+    "definition": "Exact character-preserving URL sets per image; hostname lowercased by urlsplit; referral is the full ordered query-pair tuple. Candidate availability is assisted-review potential, never automatic success."
+  },
+  "model_initialization_ms": 4738.656499999706,
+  "ocr_timing": {
+    "n": 32,
+    "p50_ms": 4161.893,
+    "p95_ms": 18720.134,
+    "share_of_full_image_time": 0.9809659917596432
+  },
+  "errors": [
+    {
+      "id": "e9ef63ff4d2b821b",
+      "truth": 1,
+      "predicted": 0,
+      "score": 15,
+      "sufficient": true,
+      "title": "DEMO. Осторожно с поддельными аккаунтами. Наше отдельное приглашение действует сегодня: регистрируйся и забирай бонус здесь https://k85247efe93.test/invite/9f06c8?ref=T9129B8B"
+    },
+    {
+      "id": "84d6857a821e80ec",
+      "truth": 1,
+      "predicted": 0,
+      "score": 0,
+      "sufficient": true,
+      "title": "DEMO. Алаяқ хабарламалардан сақ болыңыз. Біздің өз клубымызға тіркеліңіз, қатысушыға сыйлық дайын: https://kcb022a6146.test/visit/4b848d?ref=T127E63A"
+    },
+    {
+      "id": "d80e5bcc8cc245bd",
+      "truth": 1,
+      "predicted": 0,
+      "score": 10,
+      "sufficient": true,
+      "title": "DEMO. Тегін ойын тек танысу үшін болды, бірақ қазір ақша салып казиноға қосылыңыз. Ұтысқа жол: https://kb2d4fa31df.test/invite/7dd7de?ref=TE100328"
+    },
+    {
+      "id": "faeeacb96f43a9e6",
+      "truth": 1,
+      "predicted": 0,
+      "score": 0,
+      "sufficient": true,
+      "title": "DEMO. Доступны два равноправных входа для новых участников. Регистрируйся через https://ka1020a22ab.test/card/ed9990?ref=T9BC0232 или https://kcfd5586c55.test/13b5baa; предложение одинаковое."
+    },
+    {
+      "id": "b1ccaf7c41a93f0c",
+      "truth": 1,
+      "predicted": 0,
+      "score": 0,
+      "sufficient": false,
+      "title": "DEMO. Календарь встреч указан отдельно: https://kfd4c6f6854.test/7c1aaa3. Заходи за новым бонусом через личное приглашение https://k012a2d97f5.test/access/430d1c?ref=T80D5726"
+    },
+    {
+      "id": "2cd921d29a62bb73",
+      "truth": 1,
+      "predicted": 0,
+      "score": 0,
+      "sufficient": false,
+      "title": "DEMO. Достар, жаңа орын ашылды. Заходи в клуб через приглашение и забирай свой бонус: https://kfa3d242a2b.test/invite/32f394?ref=TE5666FC"
+    },
+    {
+      "id": "1d3cefba9d1553f1",
+      "truth": 1,
+      "predicted": 0,
+      "score": 0,
+      "sufficient": false,
+      "title": "DEMO. Жеке кабинетке тіркеліп, алғашқы сыйлықты алыңыз. Шақыру тек осы мекенжайда: https://k7dbac844e1.test/visit/d22b71?ref=TAEBA65C"
+    },
+    {
+      "id": "75e4f49adc4c53a7",
+      "truth": 1,
+      "predicted": 0,
+      "score": 0,
+      "sufficient": false,
+      "title": "DEMO. Ostavili neskolko mest dlya novichkov. Perehodi po lichnomu priglasheniyu, zabirai bonus: https://k835cf86b25.test/card/035458?ref=T7E5E653"
+    },
+    {
+      "id": "b9b7b0b240c102ee",
+      "truth": 1,
+      "predicted": 0,
+      "score": 0,
+      "sufficient": false,
+      "title": "DEMO. Приём новых участников заканчивается к полуночи. Регистрируйся по приглашению, предложение закреплено за тобой: https://kb9960937a5.test/access/a05bc2?ref=TF486CD3"
+    },
+    {
+      "id": "bdc2c82c6105b4fc",
+      "truth": 0,
+      "predicted": 1,
+      "score": 75,
+      "sufficient": true,
+      "title": "DEMO. «Регистрируйся и выигрывай в казино» — приманка из подозрительного сообщения. Не повторяйте эти действия. Источник https://k3e141727dd.test/invite/79345b?ref=T28394AB"
+    },
+    {
+      "id": "d571855fa0bb551b",
+      "truth": 0,
+      "predicted": 1,
+      "score": 65,
+      "sufficient": true,
+      "title": "DEMO. Никого не призываем играть или пополнять баланс. Не заходи в казино по адресу из этой жалобы: https://k1cacebcfaf.test/access/7d8a02?ref=TA293B65"
+    },
+    {
+      "id": "117d8c64148624fa",
+      "truth": 0,
+      "predicted": 1,
+      "score": 80,
+      "sufficient": true,
+      "title": "DEMO. Кеше шыққан материалда оператордың мәлімдемесі келтірілген: «Забирай бонус в казино». Цитата нужна для разбора, не для участия. https://k0911bf7673.test/visit/b7ebd2?ref=T2868956"
+    },
+    {
+      "id": "bcb94196607aa5e5",
+      "truth": 0,
+      "predicted": 1,
+      "score": 65,
+      "sufficient": true,
+      "title": "DEMO. Novost redaktsii: fraza «perehodi v kazino» vzyata iz reklamy. Eto tsitata, a ne sovet chitatelju. Istochnik https://ke96f78cfc3.test/памятка/f65f2b?ref=T61E6570"
+    },
+    {
+      "id": "e110a71ec11f6a15",
+      "truth": 0,
+      "predicted": 1,
+      "score": 65,
+      "sufficient": true,
+      "title": "DEMO. Учебная карточка посвящена рискам азартных игр. Заходите за памяткой о безопасности, пример казино разобран внутри: https://k67ebefca4b.test/visit/0e6b86?ref=T48B5FA1"
+    },
+    {
+      "id": "2156b1e377ed4aff",
+      "truth": 0,
+      "predicted": 1,
+      "score": 65,
+      "sufficient": true,
+      "title": "DEMO. Архивтің уақыты өзгерді. Заходи по адресу расписания https://k30f2f73190.test/card/94bf5b?ref=TD9400DC. Исторический игровой адрес упомянут отдельно: https://kadfd8638d1.test/8f93116"
+    },
+    {
+      "id": "845a04f4774aad40",
+      "truth": 0,
+      "predicted": 1,
+      "score": 65,
+      "sufficient": true,
+      "title": "DEMO. Банк жариялаған депозит ставкалары өзгерді. Переходи к таблице условий вклада, это банковский продукт: https://k34f924db63.test/card/84bd3a?ref=T42EF513"
+    },
+    {
+      "id": "99db31e16f554d89",
+      "truth": 0,
+      "predicted": 1,
+      "score": 65,
+      "sufficient": true,
+      "title": "DEMO. Еріктілерге жаңа ауысым керек. Заходи по адресу записи на смену https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81. Адрес из отдельной жалобы: https://k74aa14700f.test/c676e96"
+    },
+    {
+      "id": "5ce328665eda2a5e",
+      "truth": 0,
+      "predicted": 1,
+      "score": 65,
+      "sufficient": true,
+      "title": "DEMO. Переходи в кабинет городского кружка https://k5c4db1c58d.test/visit/14fa28?ref=TEE7367D. В приложении к отчёту приведён ещё один, игровой ресурс: https://ke69ddc9e5c.test/9c9e56c"
+    }
+  ],
+  "limitations": [
+    "Авторская синтетическая разметка; автор данных и правил один. Независимой человеческой оценки нет.",
+    "Порог 65 и обязательная достаточность данных зафиксированы до теста. Положительные отказы включены в FN.",
+    "Внешние сайты и Gemini не оценивались; маршруты предоставлены отдельным синтетическим транспортом.",
+    "95% Wilson не учитывает все зависимости авторского набора; маленькие языковые срезы не доказывают устойчивость.",
+    "OCR-кэш выключен; основная модель загружена заранее. Холодная загрузка, кэш и очередь измерены отдельно.",
+    "Подсказки OCR не исправляют URL автоматически. Ручных исправлений в этих предсказаниях нет."
+  ]
+}

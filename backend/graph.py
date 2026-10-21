@@ -1,4 +1,5 @@
 from .links import identifiers
+from .material_identity import content_fingerprint
 from .storage import digest, now
 
 
@@ -64,7 +65,8 @@ def build_graph(doc, peers=()):
                 uid = node("url", url, url, ids)
                 extraction_methods = {evidence[eid]["method"] for eid in ids}
                 method = next(iter(extraction_methods)) if len(extraction_methods) == 1 else "source_extraction"
-                edge(mid, uid, "contains_link", ids, method)
+                edge(mid, uid, "contains_link", ids, method,
+                     'inferred' if 'manual_correction' in extraction_methods else 'observed')
         for promo in mat.get("promo_codes", []):
             # No verified destination scope: do not merge this code across materials.
             ids = [promo["evidence_id"]]
@@ -105,6 +107,7 @@ def build_graph(doc, peers=()):
             target = node("url", rel["to"])
             edge(source, target, rel["type"], [rel["evidence_id"]], rel["method"])
     groups = {}
+    fingerprints = {m["id"]: content_fingerprint(m) for m in doc["materials"]}
     contents = {
         m["id"]: m.get("content_evidence_ids", [m.get("source_evidence_id")]) for m in doc["materials"]
     }
@@ -113,7 +116,8 @@ def build_graph(doc, peers=()):
     for scope, members in groups.items():
         for left in members:
             for right in members:
-                if left["material_id"] < right["material_id"]:
+                if (left["material_id"] < right["material_id"]
+                        and fingerprints[left["material_id"]] != fingerprints[right["material_id"]]):
                     edge(
                         materials[left["material_id"]],
                         materials[right["material_id"]],
@@ -136,12 +140,14 @@ def build_graph(doc, peers=()):
             continue
         for item in peer.get("identifiers", []):
             for own in groups.get(item["scope"], []):
+                peer_material = next(m for m in peer["materials"] if m["id"] == item["material_id"])
+                if fingerprints[own["material_id"]] == content_fingerprint(peer_material):
+                    continue
                 peer_evidence = next(
                     (e for e in peer.get("evidence", []) if e["id"] == item["evidence_id"]), None
                 )
                 if peer_evidence:
                     evidence[peer_evidence["id"]] = {**peer_evidence, "case_id": peer["id"]}
-                    peer_material = next(m for m in peer["materials"] if m["id"] == item["material_id"])
                     peer_content_ids = peer_material.get(
                         "content_evidence_ids", [peer_material.get("source_evidence_id")]
                     )

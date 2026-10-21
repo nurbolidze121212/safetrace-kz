@@ -1,0 +1,20 @@
+{
+  "case_id": "4c9f2d9d619f470d9b06b0f24eaf216d",
+  "cancelled_snapshot": "cancelled",
+  "unscored_snapshot_retained": true,
+  "current_status": "completed",
+  "ocr_cache_hit": true,
+  "original_sha256": "5b9d250bae97facfee91d99fe4f7bf27ca91b6c1dc904570cc4f06ebba12bdcb",
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "browser_checks": [
+    "Invalid URL showed exact field/scheme instruction and focused URL",
+    "Cancelled during real OCR; original and recognized fragments retained",
+    "Retry reached completed; cancelled snapshot with raw OCR and evidence retained",
+    "Temporary server unavailability showed connection message; restart restored connection"
+  ]
+}

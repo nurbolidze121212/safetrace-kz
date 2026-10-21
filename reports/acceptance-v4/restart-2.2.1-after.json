@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "health": {
+    "status": "ok",
+    "app_version": "2.2.1",
+    "versions": {
+      "rules": "rules-4.0",
+      "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+      "qr": "qr-1.0",
+      "pipeline": "pipeline-2.2.1"
+    },
+    "provider_available": false,
+    "model": "gemini-3.8-flash",
+    "offline": true,
+    "allowed_hosts": [],
+    "ocr_installed": true,
+    "local_mode": "OCR + правила + разрешенные переходы; ограниченное понимание контекста"
+  },
+  "all_rows_and_originals_identical": true,
+  "tables": {
+    "cases": {
+      "n": 24,
+      "sha256": "07adfd675319a2ff7bbfa85097a2575efa8afe91f025267b7121b5937ffd7207"
+    },
+    "decisions": {
+      "n": 8,
+      "sha256": "1156906cfee8cadfbc1326b46c494fd6474125c53d497d6dda346b825afd4084"
+    },
+    "cache": {
+      "n": 13,
+      "sha256": "20f765f7aaa75490ec911c3414e3623d4ce46cb2a8cdf01ceaa589c9bd3fa605"
+    }
+  },
+  "originals": 10,
+  "assisted_case_verified": "aa7d719d0bb74487b852e67969ae077b",
+  "cancelled_history_verified": "4c9f2d9d619f470d9b06b0f24eaf216d"
+}

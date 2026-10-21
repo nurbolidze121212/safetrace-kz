@@ -1,0 +1,320 @@
+{
+  "health": {
+    "status": "ok",
+    "app_version": "2.2.1",
+    "versions": {
+      "rules": "rules-4.0",
+      "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+      "qr": "qr-1.0",
+      "pipeline": "pipeline-2.2.1"
+    },
+    "provider_available": false,
+    "model": "gemini-3.8-flash",
+    "offline": true,
+    "allowed_hosts": [],
+    "ocr_installed": true,
+    "local_mode": "OCR + правила + разрешенные переходы; ограниченное понимание контекста"
+  },
+  "cold": [
+    {
+      "case_id": "551310f70f264c67ac2cf149b94a32b5",
+      "observed_end_to_end_ms": 9956.519200000002,
+      "active_analysis_ms": 9815.0,
+      "queue_wait_ms": 52.001,
+      "ocr_cache_hit": false,
+      "ocr_reported_ms": null,
+      "score": 80,
+      "image_sha256": "26cd3fcb10405999ee11c629b9e0c7c50f3526dba3289475cb974736c65467fd"
+    }
+  ],
+  "cached_retry": [
+    {
+      "case_id": "551310f70f264c67ac2cf149b94a32b5",
+      "observed_end_to_end_ms": 195.80150000001595,
+      "active_analysis_ms": 109.4,
+      "queue_wait_ms": null,
+      "ocr_cache_hit": true,
+      "ocr_reported_ms": null,
+      "score": 80,
+      "image_sha256": "26cd3fcb10405999ee11c629b9e0c7c50f3526dba3289475cb974736c65467fd"
+    }
+  ],
+  "queue": [
+    {
+      "case_id": "8c7b4b425f5244e4bb5a249a5878843c",
+      "observed_end_to_end_ms": 4118.566900000587,
+      "active_analysis_ms": 3419.5,
+      "queue_wait_ms": 48.473,
+      "ocr_cache_hit": false,
+      "ocr_reported_ms": null,
+      "score": 80,
+      "image_sha256": "a8c9f7f59a63633955cf0c35eceb8f1ba3077b2aedaa0d86040395ca45c55de8"
+    },
+    {
+      "case_id": "56f13b98571e4f88ac226487144a765b",
+      "observed_end_to_end_ms": 7407.163500000024,
+      "active_analysis_ms": 3886.2,
+      "queue_wait_ms": 3461.31,
+      "ocr_cache_hit": false,
+      "ocr_reported_ms": null,
+      "score": 80,
+      "image_sha256": "b017b60255b2f821fb4def0c3e4fc4c580967d75d10279e481eb2449f8367bf6"
+    },
+    {
+      "case_id": "8ef7ab074dc54726938540c814a80e2c",
+      "observed_end_to_end_ms": 11228.49640000004,
+      "active_analysis_ms": 3647.6,
+      "queue_wait_ms": 4171.871999999999,
+      "ocr_cache_hit": false,
+      "ocr_reported_ms": null,
+      "score": 80,
+      "image_sha256": "e9e8bda5eda0c6ac0cd508b5c3df3d8e436fbb333dc2e88883507d1b8b160e52"
+    },
+    {
+      "case_id": "53e4178bfed546b8b5408e28e7b2db0d",
+      "observed_end_to_end_ms": 14444.458099999792,
+      "active_analysis_ms": 3553.6,
+      "queue_wait_ms": 7791.304,
+      "ocr_cache_hit": false,
+      "ocr_reported_ms": null,
+      "score": 80,
+      "image_sha256": "1a2a13f3636c1a9661a07482f766e9043320d48d6540975c7805d9d5f506bb83"
+    },
+    {
+      "case_id": "bd648f8c0d9748b5991222aa28df5aef",
+      "observed_end_to_end_ms": 15198.348300000362,
+      "active_analysis_ms": 3234.1,
+      "queue_wait_ms": 11304.562,
+      "ocr_cache_hit": false,
+      "ocr_reported_ms": null,
+      "score": 80,
+      "image_sha256": "00e50ae7db6065b107ddd97447bce8b8e26e2518a85e5cb8f828387c0c3d9e4d"
+    },
+    {
+      "case_id": "e44ba69c477a4cfd9643aed4e8fadc19",
+      "observed_end_to_end_ms": 17850.69199999998,
+      "active_analysis_ms": 3299.8,
+      "queue_wait_ms": 14469.776,
+      "ocr_cache_hit": false,
+      "ocr_reported_ms": null,
+      "score": 80,
+      "image_sha256": "8f3631232ed977ea4ed7defa7a9f577969052fca518837f1a0843e9b23f3a05e"
+    }
+  ],
+  "states": {
+    "cold": [
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "running"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "completed"
+      }
+    ],
+    "cached": [
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "pending"
+      },
+      {
+        "551310f70f264c67ac2cf149b94a32b5": "completed"
+      }
+    ],
+    "queue": [
+      {
+        "8c7b4b425f5244e4bb5a249a5878843c": "completed",
+        "56f13b98571e4f88ac226487144a765b": "running",
+        "8ef7ab074dc54726938540c814a80e2c": "pending",
+        "53e4178bfed546b8b5408e28e7b2db0d": "pending",
+        "bd648f8c0d9748b5991222aa28df5aef": "pending",
+        "e44ba69c477a4cfd9643aed4e8fadc19": "pending"
+      },
+      {
+        "56f13b98571e4f88ac226487144a765b": "completed",
+        "8ef7ab074dc54726938540c814a80e2c": "running",
+        "53e4178bfed546b8b5408e28e7b2db0d": "pending",
+        "bd648f8c0d9748b5991222aa28df5aef": "pending",
+        "e44ba69c477a4cfd9643aed4e8fadc19": "pending"
+      },
+      {
+        "8ef7ab074dc54726938540c814a80e2c": "running",
+        "53e4178bfed546b8b5408e28e7b2db0d": "pending",
+        "bd648f8c0d9748b5991222aa28df5aef": "pending",
+        "e44ba69c477a4cfd9643aed4e8fadc19": "pending"
+      },
+      {
+        "8ef7ab074dc54726938540c814a80e2c": "completed",
+        "53e4178bfed546b8b5408e28e7b2db0d": "running",
+        "bd648f8c0d9748b5991222aa28df5aef": "pending",
+        "e44ba69c477a4cfd9643aed4e8fadc19": "pending"
+      },
+      {
+        "53e4178bfed546b8b5408e28e7b2db0d": "running",
+        "bd648f8c0d9748b5991222aa28df5aef": "running",
+        "e44ba69c477a4cfd9643aed4e8fadc19": "pending"
+      },
+      {
+        "53e4178bfed546b8b5408e28e7b2db0d": "completed",
+        "bd648f8c0d9748b5991222aa28df5aef": "running",
+        "e44ba69c477a4cfd9643aed4e8fadc19": "pending"
+      },
+      {
+        "bd648f8c0d9748b5991222aa28df5aef": "completed",
+        "e44ba69c477a4cfd9643aed4e8fadc19": "running"
+      },
+      {
+        "e44ba69c477a4cfd9643aed4e8fadc19": "running"
+      },
+      {
+        "e44ba69c477a4cfd9643aed4e8fadc19": "completed"
+      }
+    ]
+  },
+  "method": "Fresh isolated offline process; first real image analysis includes lazy primary model load. Then same-case content-cache retry, then six distinct fresh images submitted sequentially without waiting. No cloud or external HTTP. Polling 100 ms adds observation overhead. Queue wait is analyzed_at-created_at only for newly created cases.",
+  "limits": "Small technical workload on one Windows CPU machine; not a capacity, concurrent-user or human-speed benchmark."
+}

@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "candidate_sha256": "e7f27fb2cf46722d95fb2cc117b5678d79ab8acd193addc22102a2c29dd46d7d",
+  "source_files_verified": 1022,
+  "destination": "C:\\Users\\nurbo\\Desktop\\vvv\\safetrace-kz\\tmp\\Transfer check v4",
+  "model_files_copied_and_verified": 9,
+  "restore": {
+    "cases": 23,
+    "decisions": 8,
+    "cache_entries": 9,
+    "active_cases": 0
+  },
+  "all_originals_and_rows_equal": true,
+  "scope": "Different directory on same Windows PC, ASCII path with space. Existing Python environment will be reused by a junction; not a fresh install or another physical machine."
+}

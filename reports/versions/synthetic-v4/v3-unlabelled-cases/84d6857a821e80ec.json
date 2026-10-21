@@ -1,0 +1,1007 @@
+{
+  "id": "ac882e0f081f4630b2f50f54352e4dc8",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:48:33.915424+00:00",
+  "status": "partial",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "",
+      "url": "",
+      "source": "DEMO · материал 84d685",
+      "published_at": null,
+      "image_id": "e7a45c2b501a4161080289faae6cdaff.png",
+      "id": "9c4046c5c2f44faaac9d9cfa5ef9473f",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "e7a45c2b501a4161080289faae6cdaff5730b3cc2ae23aaf60eb16ad753df947",
+      "source_evidence_id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e1",
+      "normalized_text": "",
+      "ocr": {
+        "text": "DEМO. Алаяқ хабарламалардан сақ болыңыз. Біздің өз клубымызға\nтіркеліңіз, қатысушыға сыйлық дайын:\nhttps://kcb022a6146.test\n/visit/4b848d?ref=T127E63A",
+        "lines": [
+          {
+            "text": "DEМO. Алаяқ хабарламалардан сақ болыңыз. Біздің өз клубымызға",
+            "confidence": 0.9820460081100464,
+            "polygon": [
+              [
+                30.0,
+                28.0
+              ],
+              [
+                846.0,
+                28.0
+              ],
+              [
+                846.0,
+                55.0
+              ],
+              [
+                30.0,
+                55.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DEМO."
+            ],
+            "evidence_id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e2"
+          },
+          {
+            "text": "тіркеліңіз, қатысушыға сыйлық дайын:",
+            "confidence": 0.9987829923629761,
+            "polygon": [
+              [
+                28.0,
+                70.0
+              ],
+              [
+                490.0,
+                69.0
+              ],
+              [
+                490.0,
+                96.0
+              ],
+              [
+                28.0,
+                98.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e3"
+          },
+          {
+            "text": "https://kcb022a6146.test",
+            "confidence": 0.9992073178291321,
+            "polygon": [
+              [
+                29.0,
+                109.0
+              ],
+              [
+                308.0,
+                109.0
+              ],
+              [
+                308.0,
+                137.0
+              ],
+              [
+                29.0,
+                137.0
+              ]
+            ],
+            "segment_indices": [
+              2
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e4"
+          },
+          {
+            "text": "/visit/4b848d?ref=T127E63A",
+            "confidence": 0.9983881711959839,
+            "polygon": [
+              [
+                29.0,
+                151.0
+              ],
+              [
+                352.0,
+                151.0
+              ],
+              [
+                352.0,
+                176.0
+              ],
+              [
+                29.0,
+                176.0
+              ]
+            ],
+            "segment_indices": [
+              3
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e5"
+          }
+        ],
+        "raw_text": "DEМO. Алаяқ хабарламалардан сақ болыңыз. Біздің өз клубымызға\nтіркеліңіз, қатысушыға сыйлық дайын:\nhttps://kcb022a6146.test\n/visit/4b848d?ref=T127E63A",
+        "raw_lines": [
+          {
+            "text": "DEМO. Алаяқ хабарламалардан сақ болыңыз. Біздің өз клубымызға",
+            "confidence": 0.9820460081100464,
+            "polygon": [
+              [
+                30.0,
+                28.0
+              ],
+              [
+                846.0,
+                28.0
+              ],
+              [
+                846.0,
+                55.0
+              ],
+              [
+                30.0,
+                55.0
+              ]
+            ]
+          },
+          {
+            "text": "тіркеліңіз, қатысушыға сыйлық дайын:",
+            "confidence": 0.9987829923629761,
+            "polygon": [
+              [
+                28.0,
+                70.0
+              ],
+              [
+                490.0,
+                69.0
+              ],
+              [
+                490.0,
+                96.0
+              ],
+              [
+                28.0,
+                98.0
+              ]
+            ]
+          },
+          {
+            "text": "https://kcb022a6146.test",
+            "confidence": 0.9992073178291321,
+            "polygon": [
+              [
+                29.0,
+                109.0
+              ],
+              [
+                308.0,
+                109.0
+              ],
+              [
+                308.0,
+                137.0
+              ],
+              [
+                29.0,
+                137.0
+              ]
+            ]
+          },
+          {
+            "text": "/visit/4b848d?ref=T127E63A",
+            "confidence": 0.9983881711959839,
+            "polygon": [
+              [
+                29.0,
+                151.0
+              ],
+              [
+                352.0,
+                151.0
+              ],
+              [
+                352.0,
+                176.0
+              ],
+              [
+                29.0,
+                176.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 125,
+            "mean_confidence": 0.9918188104629516,
+            "score": 121.9823856809887,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1120,
+        "height": 230,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически."
+      },
+      "qr": {
+        "codes": [],
+        "width": 1120,
+        "height": 230,
+        "version": "qr-1.0",
+        "decoder": "OpenCV 4.10.0",
+        "cache_hit": false,
+        "elapsed_ms": 92.46,
+        "limitations": "До 8 QR-кодов, изображение до 1600 px по длинной стороне. Мелкие, поврежденные и составные QR могут не читаться. Декодирование не подтверждает безопасность адреса."
+      },
+      "urls": [
+        "https://kcb022a6146.test"
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e10"
+      ],
+      "reachable_urls": [
+        "https://kcb022a6146.test"
+      ],
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [
+          {
+            "key": "alternative_context",
+            "title": "Альтернативный контекст: предупреждение",
+            "weight": -65,
+            "evidence_ids": [
+              "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e8",
+              "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e9"
+            ]
+          }
+        ],
+        "version": "rules-3.0",
+        "weights": {
+          "version": "weights-3.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "kk",
+        "context": "warning",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "тіркеліңіз",
+            "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 62,
+            "end": 72
+          },
+          {
+            "kind": "bonus",
+            "quote": "сыйлық",
+            "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+            "explanation": "Упоминание бонуса или промокода.",
+            "start": 85,
+            "end": 91
+          },
+          {
+            "kind": "warning",
+            "quote": "Алаяқ",
+            "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+            "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+            "start": 6,
+            "end": 11
+          },
+          {
+            "kind": "warning",
+            "quote": "сақ болыңыз",
+            "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+            "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+            "start": 28,
+            "end": 39
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "partial",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e1",
+      "quote": "DEMO · материал 84d685",
+      "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:48:33.933951+00:00",
+      "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e2",
+      "quote": "DEМO. Алаяқ хабарламалардан сақ болыңыз. Біздің өз клубымызға",
+      "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:48:39.494969+00:00",
+      "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f",
+      "polygon": [
+        [
+          30.0,
+          28.0
+        ],
+        [
+          846.0,
+          28.0
+        ],
+        [
+          846.0,
+          55.0
+        ],
+        [
+          30.0,
+          55.0
+        ]
+      ],
+      "confidence": 0.9820460081100464
+    },
+    {
+      "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e3",
+      "quote": "тіркеліңіз, қатысушыға сыйлық дайын:",
+      "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:48:39.494969+00:00",
+      "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f",
+      "polygon": [
+        [
+          28.0,
+          70.0
+        ],
+        [
+          490.0,
+          69.0
+        ],
+        [
+          490.0,
+          96.0
+        ],
+        [
+          28.0,
+          98.0
+        ]
+      ],
+      "confidence": 0.9987829923629761
+    },
+    {
+      "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e4",
+      "quote": "https://kcb022a6146.test",
+      "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:48:39.494969+00:00",
+      "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f",
+      "polygon": [
+        [
+          29.0,
+          109.0
+        ],
+        [
+          308.0,
+          109.0
+        ],
+        [
+          308.0,
+          137.0
+        ],
+        [
+          29.0,
+          137.0
+        ]
+      ],
+      "confidence": 0.9992073178291321
+    },
+    {
+      "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e5",
+      "quote": "/visit/4b848d?ref=T127E63A",
+      "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:48:39.494969+00:00",
+      "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f",
+      "polygon": [
+        [
+          29.0,
+          151.0
+        ],
+        [
+          352.0,
+          151.0
+        ],
+        [
+          352.0,
+          176.0
+        ],
+        [
+          29.0,
+          176.0
+        ]
+      ],
+      "confidence": 0.9983881711959839
+    },
+    {
+      "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e6",
+      "quote": "тіркеліңіз",
+      "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:48:39.600507+00:00",
+      "start": 62,
+      "end": 72,
+      "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f"
+    },
+    {
+      "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e7",
+      "quote": "сыйлық",
+      "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:48:39.600507+00:00",
+      "start": 85,
+      "end": 91,
+      "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f"
+    },
+    {
+      "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e8",
+      "quote": "Алаяқ",
+      "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:48:39.600507+00:00",
+      "start": 6,
+      "end": 11,
+      "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f"
+    },
+    {
+      "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e9",
+      "quote": "сақ болыңыз",
+      "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:48:39.600507+00:00",
+      "start": 28,
+      "end": 39,
+      "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f"
+    },
+    {
+      "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e10",
+      "quote": "DEМO. Алаяқ хабарламалардан сақ болыңыз. Біздің өз клубымызға\nтіркеліңіз, қатысушыға сыйлық дайын:\nhttps://kcb022a6146.test\n/visit/4b848d?ref=T127E63A",
+      "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:48:39.600507+00:00",
+      "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f"
+    },
+    {
+      "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e11",
+      "quote": "https://kcb022a6146.test",
+      "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:48:39.600507+00:00",
+      "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f"
+    },
+    {
+      "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e12",
+      "quote": "Синтетический стенд: адрес не найден",
+      "source_id": "https://kcb022a6146.test",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:48:39.601511+00:00",
+      "url": "https://kcb022a6146.test",
+      "status_code": null,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e13",
+      "quote": "https://kcb022a6146.test",
+      "source_id": "https://kcb022a6146.test",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:48:39.601511+00:00",
+      "url": "https://kcb022a6146.test",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://kcb022a6146.test",
+        "at": "2026-10-21T20:48:39.600507+00:00",
+        "status_code": null,
+        "text": "",
+        "stop": "Синтетический стенд: адрес не найден",
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [],
+        "evidence_id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e12"
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://kcb022a6146.test",
+        "type": "contains_link",
+        "quote": "https://kcb022a6146.test",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:48:39.600507+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e13"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+    "Непроверенный участок: Синтетический стенд: адрес не найден"
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-3.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.1"
+  },
+  "identifiers": [],
+  "analyzed_at": "2026-10-21T20:48:33.933951+00:00",
+  "analysis_id": "7b1270e965c6",
+  "context": {
+    "language": "kk",
+    "context": "warning",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "тіркеліңіз",
+        "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 62,
+        "end": 72
+      },
+      {
+        "kind": "bonus",
+        "quote": "сыйлық",
+        "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+        "explanation": "Упоминание бонуса или промокода.",
+        "start": 85,
+        "end": 91
+      },
+      {
+        "kind": "warning",
+        "quote": "Алаяқ",
+        "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+        "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+        "start": 6,
+        "end": 11
+      },
+      {
+        "kind": "warning",
+        "quote": "сақ болыңыз",
+        "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+        "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+        "start": 28,
+        "end": 39
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "тіркеліңіз",
+      "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 62,
+      "end": 72,
+      "evidence_id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e6"
+    },
+    {
+      "kind": "bonus",
+      "quote": "сыйлық",
+      "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+      "explanation": "Упоминание бонуса или промокода.",
+      "start": 85,
+      "end": 91,
+      "evidence_id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e7"
+    },
+    {
+      "kind": "warning",
+      "quote": "Алаяқ",
+      "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+      "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+      "start": 6,
+      "end": 11,
+      "evidence_id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e8"
+    },
+    {
+      "kind": "warning",
+      "quote": "сақ болыңыз",
+      "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+      "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+      "start": 28,
+      "end": 39,
+      "evidence_id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e9"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-e05e7526f391d104",
+        "type": "material",
+        "label": "DEMO · материал 84d685",
+        "evidence_ids": [
+          "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e1"
+        ],
+        "case_id": "ac882e0f081f4630b2f50f54352e4dc8",
+        "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f"
+      },
+      {
+        "id": "source-962858e65db14769",
+        "type": "source",
+        "label": "DEMO · материал 84d685",
+        "evidence_ids": [
+          "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e1"
+        ]
+      },
+      {
+        "id": "url-523d26c6608b31d6",
+        "type": "url",
+        "label": "https://kcb022a6146.test",
+        "evidence_ids": [
+          "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e4",
+          "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e11",
+          "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e12"
+        ]
+      },
+      {
+        "id": "observation-5ca704d10e5c515e",
+        "type": "observation",
+        "label": "Разрыв маршрута",
+        "evidence_ids": [
+          "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e12"
+        ],
+        "stopped": true
+      },
+      {
+        "id": "domain-e629a3d51dd8fad6",
+        "type": "domain",
+        "label": "kcb022a6146.test",
+        "evidence_ids": [
+          "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e12"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-85858f2bfa1c5c5993",
+        "source": "source-962858e65db14769",
+        "target": "material-e05e7526f391d104",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e1"
+        ],
+        "at": "2026-10-21T20:48:33.933951+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-cf7ade00f86a694c26",
+        "source": "material-e05e7526f391d104",
+        "target": "url-523d26c6608b31d6",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e4",
+          "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e11"
+        ],
+        "at": "2026-10-21T20:48:33.933951+00:00",
+        "method": "ocr",
+        "status": "observed"
+      },
+      {
+        "id": "edge-564729865d20359676",
+        "source": "url-523d26c6608b31d6",
+        "target": "observation-5ca704d10e5c515e",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e12"
+        ],
+        "at": "2026-10-21T20:48:33.933951+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-444745e2ed0bd7817d",
+        "source": "url-523d26c6608b31d6",
+        "target": "domain-e629a3d51dd8fad6",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e12"
+        ],
+        "at": "2026-10-21T20:48:33.933951+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e1",
+        "quote": "DEMO · материал 84d685",
+        "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:48:33.933951+00:00",
+        "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e2",
+        "quote": "DEМO. Алаяқ хабарламалардан сақ болыңыз. Біздің өз клубымызға",
+        "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:48:39.494969+00:00",
+        "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f",
+        "polygon": [
+          [
+            30.0,
+            28.0
+          ],
+          [
+            846.0,
+            28.0
+          ],
+          [
+            846.0,
+            55.0
+          ],
+          [
+            30.0,
+            55.0
+          ]
+        ],
+        "confidence": 0.9820460081100464
+      },
+      {
+        "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e3",
+        "quote": "тіркеліңіз, қатысушыға сыйлық дайын:",
+        "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:48:39.494969+00:00",
+        "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f",
+        "polygon": [
+          [
+            28.0,
+            70.0
+          ],
+          [
+            490.0,
+            69.0
+          ],
+          [
+            490.0,
+            96.0
+          ],
+          [
+            28.0,
+            98.0
+          ]
+        ],
+        "confidence": 0.9987829923629761
+      },
+      {
+        "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e4",
+        "quote": "https://kcb022a6146.test",
+        "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:48:39.494969+00:00",
+        "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f",
+        "polygon": [
+          [
+            29.0,
+            109.0
+          ],
+          [
+            308.0,
+            109.0
+          ],
+          [
+            308.0,
+            137.0
+          ],
+          [
+            29.0,
+            137.0
+          ]
+        ],
+        "confidence": 0.9992073178291321
+      },
+      {
+        "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e5",
+        "quote": "/visit/4b848d?ref=T127E63A",
+        "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:48:39.494969+00:00",
+        "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f",
+        "polygon": [
+          [
+            29.0,
+            151.0
+          ],
+          [
+            352.0,
+            151.0
+          ],
+          [
+            352.0,
+            176.0
+          ],
+          [
+            29.0,
+            176.0
+          ]
+        ],
+        "confidence": 0.9983881711959839
+      },
+      {
+        "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e6",
+        "quote": "тіркеліңіз",
+        "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:48:39.600507+00:00",
+        "start": 62,
+        "end": 72,
+        "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f"
+      },
+      {
+        "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e7",
+        "quote": "сыйлық",
+        "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:48:39.600507+00:00",
+        "start": 85,
+        "end": 91,
+        "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f"
+      },
+      {
+        "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e8",
+        "quote": "Алаяқ",
+        "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:48:39.600507+00:00",
+        "start": 6,
+        "end": 11,
+        "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f"
+      },
+      {
+        "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e9",
+        "quote": "сақ болыңыз",
+        "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:48:39.600507+00:00",
+        "start": 28,
+        "end": 39,
+        "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f"
+      },
+      {
+        "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e10",
+        "quote": "DEМO. Алаяқ хабарламалардан сақ болыңыз. Біздің өз клубымызға\nтіркеліңіз, қатысушыға сыйлық дайын:\nhttps://kcb022a6146.test\n/visit/4b848d?ref=T127E63A",
+        "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:48:39.600507+00:00",
+        "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f"
+      },
+      {
+        "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e11",
+        "quote": "https://kcb022a6146.test",
+        "source_id": "9c4046c5c2f44faaac9d9cfa5ef9473f-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:48:39.600507+00:00",
+        "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f"
+      },
+      {
+        "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e12",
+        "quote": "Синтетический стенд: адрес не найден",
+        "source_id": "https://kcb022a6146.test",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:48:39.601511+00:00",
+        "url": "https://kcb022a6146.test",
+        "status_code": null,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e13",
+        "quote": "https://kcb022a6146.test",
+        "source_id": "https://kcb022a6146.test",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:48:39.601511+00:00",
+        "url": "https://kcb022a6146.test",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:48:39.601511+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: предупреждение",
+        "weight": -65,
+        "evidence_ids": [
+          "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e8",
+          "ac882e0f081f4630b2f50f54352e4dc8-7b1270e965c6-e9"
+        ]
+      }
+    ],
+    "version": "rules-3.0",
+    "weights": {
+      "version": "weights-3.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "9c4046c5c2f44faaac9d9cfa5ef9473f",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 5667.8
+}

@@ -1,0 +1,757 @@
+{
+  "id": "670073cca2d242ad9c45f42bf6dc15c7",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:57:28.123930+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "",
+      "url": "",
+      "source": "DEMO · материал e0b2b6",
+      "published_at": null,
+      "image_id": "dca8c67f7cb6b5e541c2e5d395a8a2e1.png",
+      "id": "a655fca0a9774dc7bfcfa9e3e647fec8",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "dca8c67f7cb6b5e541c2e5d395a8a2e1066452a22433d5a3065ead0906991850",
+      "source_evidence_id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e1",
+      "normalized_text": "",
+      "ocr": {
+        "text": "DЕМО. На консультацию освободился слот записи. Регистрируйся на приём в выбранное время\nчеpез календарь: https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+        "lines": [
+          {
+            "text": "DЕМО. На консультацию освободился слот записи. Регистрируйся на приём в выбранное время",
+            "confidence": 0.9929510354995728,
+            "polygon": [
+              [
+                29.0,
+                26.0
+              ],
+              [
+                937.0,
+                26.0
+              ],
+              [
+                937.0,
+                50.0
+              ],
+              [
+                29.0,
+                50.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМО."
+            ],
+            "evidence_id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e2"
+          },
+          {
+            "text": "чеpез календарь: https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+            "confidence": 0.9648951292037964,
+            "polygon": [
+              [
+                27.0,
+                61.0
+              ],
+              [
+                683.0,
+                57.0
+              ],
+              [
+                683.0,
+                83.0
+              ],
+              [
+                27.0,
+                86.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: чеpез"
+            ],
+            "evidence_id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e3"
+          }
+        ],
+        "raw_text": "DЕМО. На консультацию освободился слот записи. Регистрируйся на приём в выбранное время\nчеpез календарь: https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+        "raw_lines": [
+          {
+            "text": "DЕМО. На консультацию освободился слот записи. Регистрируйся на приём в выбранное время",
+            "confidence": 0.9929510354995728,
+            "polygon": [
+              [
+                29.0,
+                26.0
+              ],
+              [
+                937.0,
+                26.0
+              ],
+              [
+                937.0,
+                50.0
+              ],
+              [
+                29.0,
+                50.0
+              ]
+            ]
+          },
+          {
+            "text": "чеpез календарь: https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+            "confidence": 0.9648951292037964,
+            "polygon": [
+              [
+                27.0,
+                61.0
+              ],
+              [
+                683.0,
+                57.0
+              ],
+              [
+                683.0,
+                83.0
+              ],
+              [
+                27.0,
+                86.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 131,
+            "mean_confidence": 0.9807435037525556,
+            "score": 123.65146804567193,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1120,
+        "height": 136,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "url_readings": [
+          {
+            "raw_url": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+            "line_indices": [
+              1
+            ],
+            "needs_review": false,
+            "reasons": [],
+            "suggestions": [],
+            "method": "primary_ocr",
+            "auto_follow": true
+          }
+        ]
+      },
+      "qr": {
+        "codes": [],
+        "width": 1120,
+        "height": 136,
+        "version": "qr-1.0",
+        "decoder": "OpenCV 4.10.0",
+        "cache_hit": false,
+        "elapsed_ms": 126.98,
+        "limitations": "До 8 QR-кодов, изображение до 1600 px по длинной стороне. Мелкие, поврежденные и составные QR могут не читаться. Декодирование не подтверждает безопасность адреса."
+      },
+      "urls": [
+        "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0"
+      ],
+      "url_reviews": [
+        {
+          "raw_url": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true,
+          "source_evidence_ids": [
+            "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e6",
+            "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e3"
+          ],
+          "selected_url": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0"
+        }
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e5"
+      ],
+      "content_fingerprint": "96b43e9891e903ed874c440da95ea2dc9ebcbffcdcc9d978e614c4dc75cb1d47",
+      "reachable_urls": [
+        "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0"
+      ],
+      "call_bindings": [
+        {
+          "call_evidence_id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e4",
+          "source_id": "a655fca0a9774dc7bfcfa9e3e647fec8-ocr",
+          "start": 47,
+          "end": 60,
+          "quote": "Регистрируйся",
+          "scope_start": 46,
+          "scope_end": 156,
+          "method": "same_clause",
+          "status": "bound",
+          "candidate_urls": [
+            "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0"
+          ],
+          "root_url": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+          "root_evidence_ids": [
+            "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e6"
+          ],
+          "route_evidence_ids": [
+            "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e7"
+          ],
+          "destination_evidence_ids": [],
+          "reachable_urls": [
+            "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0"
+          ]
+        }
+      ],
+      "attribution_incomplete": false,
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "ru",
+        "context": "affiliate",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "Регистрируйся",
+            "source_id": "a655fca0a9774dc7bfcfa9e3e647fec8-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 47,
+            "end": 60
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e1",
+      "quote": "DEMO · материал e0b2b6",
+      "source_id": "a655fca0a9774dc7bfcfa9e3e647fec8",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:57:31.884791+00:00",
+      "material_id": "a655fca0a9774dc7bfcfa9e3e647fec8",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e2",
+      "quote": "DЕМО. На консультацию освободился слот записи. Регистрируйся на приём в выбранное время",
+      "source_id": "a655fca0a9774dc7bfcfa9e3e647fec8-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:57:35.279545+00:00",
+      "material_id": "a655fca0a9774dc7bfcfa9e3e647fec8",
+      "polygon": [
+        [
+          29.0,
+          26.0
+        ],
+        [
+          937.0,
+          26.0
+        ],
+        [
+          937.0,
+          50.0
+        ],
+        [
+          29.0,
+          50.0
+        ]
+      ],
+      "confidence": 0.9929510354995728
+    },
+    {
+      "id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e3",
+      "quote": "чеpез календарь: https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+      "source_id": "a655fca0a9774dc7bfcfa9e3e647fec8-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:57:35.279545+00:00",
+      "material_id": "a655fca0a9774dc7bfcfa9e3e647fec8",
+      "polygon": [
+        [
+          27.0,
+          61.0
+        ],
+        [
+          683.0,
+          57.0
+        ],
+        [
+          683.0,
+          83.0
+        ],
+        [
+          27.0,
+          86.0
+        ]
+      ],
+      "confidence": 0.9648951292037964
+    },
+    {
+      "id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e4",
+      "quote": "Регистрируйся",
+      "source_id": "a655fca0a9774dc7bfcfa9e3e647fec8-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:57:35.419095+00:00",
+      "start": 47,
+      "end": 60,
+      "material_id": "a655fca0a9774dc7bfcfa9e3e647fec8"
+    },
+    {
+      "id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e5",
+      "quote": "DЕМО. На консультацию освободился слот записи. Регистрируйся на приём в выбранное время\nчеpез календарь: https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+      "source_id": "a655fca0a9774dc7bfcfa9e3e647fec8-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:57:35.419095+00:00",
+      "material_id": "a655fca0a9774dc7bfcfa9e3e647fec8"
+    },
+    {
+      "id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e6",
+      "quote": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+      "source_id": "a655fca0a9774dc7bfcfa9e3e647fec8-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:57:35.419095+00:00",
+      "material_id": "a655fca0a9774dc7bfcfa9e3e647fec8"
+    },
+    {
+      "id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e7",
+      "quote": "Городская запись Календарь встреч, регистрация на консультации и расписание кружков.",
+      "source_id": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:57:35.420097+00:00",
+      "url": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e8",
+      "quote": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+      "source_id": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:57:35.420097+00:00",
+      "url": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+        "at": "2026-10-21T20:57:35.419095+00:00",
+        "status_code": 200,
+        "text": "Городская запись Календарь встреч, регистрация на консультации и расписание кружков.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:57:35.419095+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "f0f13ff5c9e851d26f13cc072666bbae8b75c1d4d6bd71a3c585067916820d47",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+        "evidence_id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e7",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+        "type": "contains_link",
+        "quote": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:57:35.419095+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e8"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "analysis_assisted": false,
+  "identifiers": [
+    {
+      "domain": "k8bcf756a18.test",
+      "parameter": "ref",
+      "value": "T66F88E0",
+      "scope": "k8bcf756a18.test|/access/aff3a7|ref|T66F88E0",
+      "url": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+      "material_id": "a655fca0a9774dc7bfcfa9e3e647fec8",
+      "evidence_id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e7"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:57:31.884791+00:00",
+  "analysis_id": "c837ca300243",
+  "context": {
+    "language": "ru",
+    "context": "affiliate",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "Регистрируйся",
+        "source_id": "a655fca0a9774dc7bfcfa9e3e647fec8-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 47,
+        "end": 60
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "Регистрируйся",
+      "source_id": "a655fca0a9774dc7bfcfa9e3e647fec8-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 47,
+      "end": 60,
+      "evidence_id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e4"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-0c386bfa4c17d78c",
+        "type": "material",
+        "label": "DEMO · материал e0b2b6",
+        "evidence_ids": [
+          "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e1"
+        ],
+        "case_id": "670073cca2d242ad9c45f42bf6dc15c7",
+        "material_id": "a655fca0a9774dc7bfcfa9e3e647fec8"
+      },
+      {
+        "id": "source-648727b249975332",
+        "type": "source",
+        "label": "DEMO · материал e0b2b6",
+        "evidence_ids": [
+          "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e1"
+        ]
+      },
+      {
+        "id": "url-e5c85ee94a7c7c46",
+        "type": "url",
+        "label": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+        "evidence_ids": [
+          "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e6",
+          "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e7"
+        ]
+      },
+      {
+        "id": "observation-c0b3c5d8b4e1dad9",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e7"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-a12c59b4748cdb98",
+        "type": "domain",
+        "label": "k8bcf756a18.test",
+        "evidence_ids": [
+          "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e7"
+        ]
+      },
+      {
+        "id": "identifier-52cb548fd8b0c2bd",
+        "type": "identifier",
+        "label": "ref=T66F88E0",
+        "evidence_ids": [
+          "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e7"
+        ],
+        "scope": "k8bcf756a18.test|/access/aff3a7|ref|T66F88E0"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-7ac39a9354c3b006d2",
+        "source": "source-648727b249975332",
+        "target": "material-0c386bfa4c17d78c",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e1"
+        ],
+        "at": "2026-10-21T20:57:31.884791+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-3b6e6183d2f14b52b5",
+        "source": "material-0c386bfa4c17d78c",
+        "target": "url-e5c85ee94a7c7c46",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e6"
+        ],
+        "at": "2026-10-21T20:57:31.884791+00:00",
+        "method": "ocr",
+        "status": "observed"
+      },
+      {
+        "id": "edge-fc15021870fea2d0ad",
+        "source": "url-e5c85ee94a7c7c46",
+        "target": "observation-c0b3c5d8b4e1dad9",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e7"
+        ],
+        "at": "2026-10-21T20:57:31.884791+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-72f495f8670c001e06",
+        "source": "url-e5c85ee94a7c7c46",
+        "target": "domain-a12c59b4748cdb98",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e7"
+        ],
+        "at": "2026-10-21T20:57:31.884791+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-77266fdf94c905cffe",
+        "source": "url-e5c85ee94a7c7c46",
+        "target": "identifier-52cb548fd8b0c2bd",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e7"
+        ],
+        "at": "2026-10-21T20:57:31.884791+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e1",
+        "quote": "DEMO · материал e0b2b6",
+        "source_id": "a655fca0a9774dc7bfcfa9e3e647fec8",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:57:31.884791+00:00",
+        "material_id": "a655fca0a9774dc7bfcfa9e3e647fec8",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e2",
+        "quote": "DЕМО. На консультацию освободился слот записи. Регистрируйся на приём в выбранное время",
+        "source_id": "a655fca0a9774dc7bfcfa9e3e647fec8-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:57:35.279545+00:00",
+        "material_id": "a655fca0a9774dc7bfcfa9e3e647fec8",
+        "polygon": [
+          [
+            29.0,
+            26.0
+          ],
+          [
+            937.0,
+            26.0
+          ],
+          [
+            937.0,
+            50.0
+          ],
+          [
+            29.0,
+            50.0
+          ]
+        ],
+        "confidence": 0.9929510354995728
+      },
+      {
+        "id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e3",
+        "quote": "чеpез календарь: https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+        "source_id": "a655fca0a9774dc7bfcfa9e3e647fec8-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:57:35.279545+00:00",
+        "material_id": "a655fca0a9774dc7bfcfa9e3e647fec8",
+        "polygon": [
+          [
+            27.0,
+            61.0
+          ],
+          [
+            683.0,
+            57.0
+          ],
+          [
+            683.0,
+            83.0
+          ],
+          [
+            27.0,
+            86.0
+          ]
+        ],
+        "confidence": 0.9648951292037964
+      },
+      {
+        "id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e4",
+        "quote": "Регистрируйся",
+        "source_id": "a655fca0a9774dc7bfcfa9e3e647fec8-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:57:35.419095+00:00",
+        "start": 47,
+        "end": 60,
+        "material_id": "a655fca0a9774dc7bfcfa9e3e647fec8"
+      },
+      {
+        "id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e5",
+        "quote": "DЕМО. На консультацию освободился слот записи. Регистрируйся на приём в выбранное время\nчеpез календарь: https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+        "source_id": "a655fca0a9774dc7bfcfa9e3e647fec8-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:57:35.419095+00:00",
+        "material_id": "a655fca0a9774dc7bfcfa9e3e647fec8"
+      },
+      {
+        "id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e6",
+        "quote": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+        "source_id": "a655fca0a9774dc7bfcfa9e3e647fec8-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:57:35.419095+00:00",
+        "material_id": "a655fca0a9774dc7bfcfa9e3e647fec8"
+      },
+      {
+        "id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e7",
+        "quote": "Городская запись Календарь встреч, регистрация на консультации и расписание кружков.",
+        "source_id": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:57:35.420097+00:00",
+        "url": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "670073cca2d242ad9c45f42bf6dc15c7-c837ca300243-e8",
+        "quote": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+        "source_id": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:57:35.420097+00:00",
+        "url": "https://k8bcf756a18.test/access/aff3a7?ref=T66F88E0",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:57:35.421099+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [],
+    "version": "rules-4.0",
+    "weights": {
+      "version": "weights-4.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "a655fca0a9774dc7bfcfa9e3e647fec8",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 3536.5
+}

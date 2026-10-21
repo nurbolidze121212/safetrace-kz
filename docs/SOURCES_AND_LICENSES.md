@@ -8,6 +8,7 @@
 |---|---|---|
 | PaddleOCR / PaddlePaddle | [OCR API](https://www.paddleocr.ai/main/en/version3.x/pipeline_usage/OCR.html), [языки](https://github.com/PaddlePaddle/PaddleOCR/blob/main/docs/version3.x/algorithm/PP-OCRv5/PP-OCRv5_multi_languages.en.md) | Apache-2.0 |
 | Cyrillic recognizer | [Карточка модели](https://huggingface.co/PaddlePaddle/cyrillic_PP-OCRv5_mobile_rec) | Apache-2.0 по model card |
+| English recognizer v4 | [en_PP-OCRv5_mobile_rec](https://huggingface.co/PaddlePaddle/en_PP-OCRv5_mobile_rec) | Apache-2.0 по официальной карточке; сверено 22.10.2026 |
 | Mobile detector | [Карточка модели](https://huggingface.co/PaddlePaddle/PP-OCRv5_mobile_det) | Apache-2.0 по model card |
 | FastAPI | [Официальная документация](https://fastapi.tiangolo.com/) | MIT |
 | Pydantic | [Документация](https://docs.pydantic.dev/latest/) | MIT |
@@ -28,4 +29,6 @@ Gemini: [изображения](https://ai.google.dev/gemini-api/docs/image-und
 
 Изображения и тексты корпуса созданы внутри проекта. Windows Arial используется для локального рендеринга; файл шрифта не включен. Синтетические домены `.test` не принадлежат реальным игровым ресурсам.
 
-Условия хакатона взяты из предоставленной SPEC.md. Локальный PDF существует, но извлечение текста дало поврежденную кириллицу; отдельная визуальная сверка не заявляется. В спецификации: 22 октября 2026, Шымкент, MVP и питч 5 минут; лимит «48 часов» не утверждается.
+Условия хакатона первоначально взяты из SPEC.md. 22 октября дополнительно прочитаны и визуально просмотрены четыре страницы локального PDF; результат — [сопоставление с брифом](HACKATHON_GAP_ANALYSIS.md). В документе: 22 октября 2026, Шымкент, MVP и питч 5 минут; лимит «48 часов» не утверждается. Синтетические данные разрешены; численные ориентиры precision/recall проекта не являются требованиями организаторов.
+
+В v4 добавлена третья локальная модель для предложений при сверке URL. Источник весов — официальный Paddle BOS, URL и SHA-256 всех девяти файлов записаны в models-manifest.json. В архив исходников веса не включены; setup скачивает и проверяет их. Это не изменение лицензии или удалённая отправка изображений.

@@ -1,0 +1,780 @@
+{
+  "id": "a7dcaf75c3404e02b953e32881685c25",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:51:42.892432+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "DEMO. Novyi zal uzhe otkryt. Zaregaisya v kazino, zabirai bonus i nachinai seans: https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+      "url": "",
+      "source": "DEMO · материал 8aeaa5",
+      "published_at": null,
+      "image_id": null,
+      "id": "6382da4606334e558b1c05bd597d4f70",
+      "original_sha256": "deeba8fa141fb40e1d2da2560ad0587355abe6e009001fe6fc2622a8270edf07",
+      "source_evidence_id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e1",
+      "normalized_text": "demo. novyi zal uzhe otkryt. zaregaisya v kazino, zabirai bonus i nachinai seans: https://kd04bd24618.test/access/e4b718?ref=t07d5f0b",
+      "urls": [
+        "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B"
+      ],
+      "url_reviews": [],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e6"
+      ],
+      "content_fingerprint": "7cf3eeb7d2ae88ff6cef36e6b38a592ca7b49122b32075489f097e095105b8d4",
+      "reachable_urls": [
+        "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B"
+      ],
+      "call_bindings": [
+        {
+          "call_evidence_id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e3",
+          "source_id": "6382da4606334e558b1c05bd597d4f70",
+          "start": 29,
+          "end": 39,
+          "quote": "Zaregaisya",
+          "scope_start": 28,
+          "scope_end": 133,
+          "method": "same_clause",
+          "status": "bound",
+          "candidate_urls": [
+            "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B"
+          ],
+          "root_url": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+          "root_evidence_ids": [
+            "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e7"
+          ],
+          "route_evidence_ids": [
+            "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e8"
+          ],
+          "destination_evidence_ids": [
+            "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e9",
+            "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e10",
+            "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e11"
+          ],
+          "reachable_urls": [
+            "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B"
+          ],
+          "independent_commercial_call": true
+        },
+        {
+          "call_evidence_id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e5",
+          "source_id": "6382da4606334e558b1c05bd597d4f70",
+          "start": 50,
+          "end": 57,
+          "quote": "zabirai",
+          "scope_start": 28,
+          "scope_end": 133,
+          "method": "same_clause",
+          "status": "bound",
+          "candidate_urls": [
+            "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B"
+          ],
+          "root_url": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+          "root_evidence_ids": [
+            "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e7"
+          ],
+          "route_evidence_ids": [
+            "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e8"
+          ],
+          "destination_evidence_ids": [
+            "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e9",
+            "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e10",
+            "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e11"
+          ],
+          "reachable_urls": [
+            "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B"
+          ],
+          "independent_commercial_call": true
+        }
+      ],
+      "attribution_incomplete": false,
+      "score": {
+        "value": 80,
+        "level": "high",
+        "contributions": [
+          {
+            "key": "destination_and_call",
+            "title": "Игровые признаки на странице + призыв",
+            "weight": 65,
+            "evidence_ids": [
+              "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e3",
+              "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e5",
+              "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e9",
+              "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e10",
+              "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e11",
+              "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e7",
+              "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e8"
+            ]
+          },
+          {
+            "key": "bonus_in_promotion",
+            "title": "Бонус в рекламном контексте",
+            "weight": 15,
+            "evidence_ids": [
+              "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e4"
+            ]
+          }
+        ],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "other",
+        "context": "promotion",
+        "claims": [
+          {
+            "kind": "gambling",
+            "quote": "kazino",
+            "source_id": "6382da4606334e558b1c05bd597d4f70",
+            "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+            "start": 42,
+            "end": 48
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "Zaregaisya",
+            "source_id": "6382da4606334e558b1c05bd597d4f70",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 29,
+            "end": 39
+          },
+          {
+            "kind": "bonus",
+            "quote": "bonus",
+            "source_id": "6382da4606334e558b1c05bd597d4f70",
+            "explanation": "Упоминание бонуса или промокода.",
+            "start": 58,
+            "end": 63
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "zabirai",
+            "source_id": "6382da4606334e558b1c05bd597d4f70",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 50,
+            "end": 57
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e1",
+      "quote": "DEMO · материал 8aeaa5",
+      "source_id": "6382da4606334e558b1c05bd597d4f70",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:51:42.909429+00:00",
+      "material_id": "6382da4606334e558b1c05bd597d4f70",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e2",
+      "quote": "kazino",
+      "source_id": "6382da4606334e558b1c05bd597d4f70",
+      "method": "local_rule",
+      "at": "2026-10-21T20:51:42.910428+00:00",
+      "start": 42,
+      "end": 48,
+      "material_id": "6382da4606334e558b1c05bd597d4f70"
+    },
+    {
+      "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e3",
+      "quote": "Zaregaisya",
+      "source_id": "6382da4606334e558b1c05bd597d4f70",
+      "method": "local_rule",
+      "at": "2026-10-21T20:51:42.910428+00:00",
+      "start": 29,
+      "end": 39,
+      "material_id": "6382da4606334e558b1c05bd597d4f70"
+    },
+    {
+      "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e4",
+      "quote": "bonus",
+      "source_id": "6382da4606334e558b1c05bd597d4f70",
+      "method": "local_rule",
+      "at": "2026-10-21T20:51:42.910428+00:00",
+      "start": 58,
+      "end": 63,
+      "material_id": "6382da4606334e558b1c05bd597d4f70"
+    },
+    {
+      "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e5",
+      "quote": "zabirai",
+      "source_id": "6382da4606334e558b1c05bd597d4f70",
+      "method": "local_rule",
+      "at": "2026-10-21T20:51:42.910428+00:00",
+      "start": 50,
+      "end": 57,
+      "material_id": "6382da4606334e558b1c05bd597d4f70"
+    },
+    {
+      "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e6",
+      "quote": "DEMO. Novyi zal uzhe otkryt. Zaregaisya v kazino, zabirai bonus i nachinai seans: https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+      "source_id": "6382da4606334e558b1c05bd597d4f70",
+      "method": "source_text",
+      "at": "2026-10-21T20:51:42.910428+00:00",
+      "material_id": "6382da4606334e558b1c05bd597d4f70"
+    },
+    {
+      "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e7",
+      "quote": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+      "source_id": "6382da4606334e558b1c05bd597d4f70",
+      "method": "source_text",
+      "at": "2026-10-21T20:51:42.910428+00:00",
+      "material_id": "6382da4606334e558b1c05bd597d4f70"
+    },
+    {
+      "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e8",
+      "quote": "Казино для участников Слоты, рулетка и денежные ставки. Пополнение депозитом.",
+      "source_id": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:51:42.910428+00:00",
+      "url": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e9",
+      "quote": "Казино",
+      "source_id": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+      "method": "local_rule",
+      "at": "2026-10-21T20:51:42.910428+00:00",
+      "start": 0,
+      "end": 6,
+      "url": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B"
+    },
+    {
+      "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e10",
+      "quote": "Слоты",
+      "source_id": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+      "method": "local_rule",
+      "at": "2026-10-21T20:51:42.910428+00:00",
+      "start": 22,
+      "end": 27,
+      "url": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B"
+    },
+    {
+      "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e11",
+      "quote": "рулетка",
+      "source_id": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+      "method": "local_rule",
+      "at": "2026-10-21T20:51:42.910428+00:00",
+      "start": 29,
+      "end": 36,
+      "url": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B"
+    },
+    {
+      "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e12",
+      "quote": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+      "source_id": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:51:42.910428+00:00",
+      "url": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+        "at": "2026-10-21T20:51:42.910428+00:00",
+        "status_code": 200,
+        "text": "Казино для участников Слоты, рулетка и денежные ставки. Пополнение депозитом.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:51:42.910428+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "0b7371d32d8b9fd125cdc3b12b44add98fe0091419e8bdffdf1be58e58892200",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+        "evidence_id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e8",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [
+            {
+              "kind": "gambling",
+              "quote": "Казино",
+              "source_id": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 0,
+              "end": 6
+            },
+            {
+              "kind": "gambling",
+              "quote": "Слоты",
+              "source_id": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 22,
+              "end": 27
+            },
+            {
+              "kind": "gambling",
+              "quote": "рулетка",
+              "source_id": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 29,
+              "end": 36
+            }
+          ],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+        "type": "contains_link",
+        "quote": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:51:42.910428+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e12"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "analysis_assisted": false,
+  "identifiers": [
+    {
+      "domain": "kd04bd24618.test",
+      "parameter": "ref",
+      "value": "T07D5F0B",
+      "scope": "kd04bd24618.test|/access/e4b718|ref|T07D5F0B",
+      "url": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+      "material_id": "6382da4606334e558b1c05bd597d4f70",
+      "evidence_id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e8"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:51:42.909429+00:00",
+  "analysis_id": "5067ec37c8e3",
+  "context": {
+    "language": "other",
+    "context": "promotion",
+    "claims": [
+      {
+        "kind": "gambling",
+        "quote": "kazino",
+        "source_id": "6382da4606334e558b1c05bd597d4f70",
+        "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+        "start": 42,
+        "end": 48
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "Zaregaisya",
+        "source_id": "6382da4606334e558b1c05bd597d4f70",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 29,
+        "end": 39
+      },
+      {
+        "kind": "bonus",
+        "quote": "bonus",
+        "source_id": "6382da4606334e558b1c05bd597d4f70",
+        "explanation": "Упоминание бонуса или промокода.",
+        "start": 58,
+        "end": 63
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "zabirai",
+        "source_id": "6382da4606334e558b1c05bd597d4f70",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 50,
+        "end": 57
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "gambling",
+      "quote": "kazino",
+      "source_id": "6382da4606334e558b1c05bd597d4f70",
+      "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+      "start": 42,
+      "end": 48,
+      "evidence_id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e2"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "Zaregaisya",
+      "source_id": "6382da4606334e558b1c05bd597d4f70",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 29,
+      "end": 39,
+      "evidence_id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e3"
+    },
+    {
+      "kind": "bonus",
+      "quote": "bonus",
+      "source_id": "6382da4606334e558b1c05bd597d4f70",
+      "explanation": "Упоминание бонуса или промокода.",
+      "start": 58,
+      "end": 63,
+      "evidence_id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e4"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "zabirai",
+      "source_id": "6382da4606334e558b1c05bd597d4f70",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 50,
+      "end": 57,
+      "evidence_id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e5"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-409904a198888e3c",
+        "type": "material",
+        "label": "DEMO · материал 8aeaa5",
+        "evidence_ids": [
+          "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e1"
+        ],
+        "case_id": "a7dcaf75c3404e02b953e32881685c25",
+        "material_id": "6382da4606334e558b1c05bd597d4f70"
+      },
+      {
+        "id": "source-d106388556145719",
+        "type": "source",
+        "label": "DEMO · материал 8aeaa5",
+        "evidence_ids": [
+          "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e1"
+        ]
+      },
+      {
+        "id": "url-9b95d6751939b90b",
+        "type": "url",
+        "label": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+        "evidence_ids": [
+          "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e7",
+          "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e8"
+        ]
+      },
+      {
+        "id": "observation-0637594ee7f27e65",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e8"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-cac8658cc3b5ae4b",
+        "type": "domain",
+        "label": "kd04bd24618.test",
+        "evidence_ids": [
+          "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e8"
+        ]
+      },
+      {
+        "id": "identifier-37eb32b16744016e",
+        "type": "identifier",
+        "label": "ref=T07D5F0B",
+        "evidence_ids": [
+          "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e8"
+        ],
+        "scope": "kd04bd24618.test|/access/e4b718|ref|T07D5F0B"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-8d7548246c56f282d6",
+        "source": "source-d106388556145719",
+        "target": "material-409904a198888e3c",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e1"
+        ],
+        "at": "2026-10-21T20:51:42.909429+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-5b465e4137ab2f30a3",
+        "source": "material-409904a198888e3c",
+        "target": "url-9b95d6751939b90b",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e7"
+        ],
+        "at": "2026-10-21T20:51:42.909429+00:00",
+        "method": "source_text",
+        "status": "observed"
+      },
+      {
+        "id": "edge-ee2590456cf1d09003",
+        "source": "url-9b95d6751939b90b",
+        "target": "observation-0637594ee7f27e65",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e8"
+        ],
+        "at": "2026-10-21T20:51:42.909429+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-da8d2aa116a07597d8",
+        "source": "url-9b95d6751939b90b",
+        "target": "domain-cac8658cc3b5ae4b",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e8"
+        ],
+        "at": "2026-10-21T20:51:42.909429+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-a51dbc92af93ca66b2",
+        "source": "url-9b95d6751939b90b",
+        "target": "identifier-37eb32b16744016e",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e8"
+        ],
+        "at": "2026-10-21T20:51:42.909429+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e1",
+        "quote": "DEMO · материал 8aeaa5",
+        "source_id": "6382da4606334e558b1c05bd597d4f70",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:51:42.909429+00:00",
+        "material_id": "6382da4606334e558b1c05bd597d4f70",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e2",
+        "quote": "kazino",
+        "source_id": "6382da4606334e558b1c05bd597d4f70",
+        "method": "local_rule",
+        "at": "2026-10-21T20:51:42.910428+00:00",
+        "start": 42,
+        "end": 48,
+        "material_id": "6382da4606334e558b1c05bd597d4f70"
+      },
+      {
+        "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e3",
+        "quote": "Zaregaisya",
+        "source_id": "6382da4606334e558b1c05bd597d4f70",
+        "method": "local_rule",
+        "at": "2026-10-21T20:51:42.910428+00:00",
+        "start": 29,
+        "end": 39,
+        "material_id": "6382da4606334e558b1c05bd597d4f70"
+      },
+      {
+        "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e4",
+        "quote": "bonus",
+        "source_id": "6382da4606334e558b1c05bd597d4f70",
+        "method": "local_rule",
+        "at": "2026-10-21T20:51:42.910428+00:00",
+        "start": 58,
+        "end": 63,
+        "material_id": "6382da4606334e558b1c05bd597d4f70"
+      },
+      {
+        "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e5",
+        "quote": "zabirai",
+        "source_id": "6382da4606334e558b1c05bd597d4f70",
+        "method": "local_rule",
+        "at": "2026-10-21T20:51:42.910428+00:00",
+        "start": 50,
+        "end": 57,
+        "material_id": "6382da4606334e558b1c05bd597d4f70"
+      },
+      {
+        "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e6",
+        "quote": "DEMO. Novyi zal uzhe otkryt. Zaregaisya v kazino, zabirai bonus i nachinai seans: https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+        "source_id": "6382da4606334e558b1c05bd597d4f70",
+        "method": "source_text",
+        "at": "2026-10-21T20:51:42.910428+00:00",
+        "material_id": "6382da4606334e558b1c05bd597d4f70"
+      },
+      {
+        "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e7",
+        "quote": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+        "source_id": "6382da4606334e558b1c05bd597d4f70",
+        "method": "source_text",
+        "at": "2026-10-21T20:51:42.910428+00:00",
+        "material_id": "6382da4606334e558b1c05bd597d4f70"
+      },
+      {
+        "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e8",
+        "quote": "Казино для участников Слоты, рулетка и денежные ставки. Пополнение депозитом.",
+        "source_id": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:51:42.910428+00:00",
+        "url": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e9",
+        "quote": "Казино",
+        "source_id": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+        "method": "local_rule",
+        "at": "2026-10-21T20:51:42.910428+00:00",
+        "start": 0,
+        "end": 6,
+        "url": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B"
+      },
+      {
+        "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e10",
+        "quote": "Слоты",
+        "source_id": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+        "method": "local_rule",
+        "at": "2026-10-21T20:51:42.910428+00:00",
+        "start": 22,
+        "end": 27,
+        "url": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B"
+      },
+      {
+        "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e11",
+        "quote": "рулетка",
+        "source_id": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+        "method": "local_rule",
+        "at": "2026-10-21T20:51:42.910428+00:00",
+        "start": 29,
+        "end": 36,
+        "url": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B"
+      },
+      {
+        "id": "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e12",
+        "quote": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+        "source_id": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:51:42.910428+00:00",
+        "url": "https://kd04bd24618.test/access/e4b718?ref=T07D5F0B",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:51:42.911429+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 80,
+    "level": "high",
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e3",
+          "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e5",
+          "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e9",
+          "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e10",
+          "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e11",
+          "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e7",
+          "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e8"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "a7dcaf75c3404e02b953e32881685c25-5067ec37c8e3-e4"
+        ]
+      }
+    ],
+    "version": "rules-4.0",
+    "weights": {
+      "version": "weights-4.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "6382da4606334e558b1c05bd597d4f70",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 1.9
+}

@@ -1,0 +1,162 @@
+{
+  "restoration": {
+    "all_original_rows_and_images_match": true,
+    "snapshot": {
+      "tables": {
+        "cases": {
+          "n": 21,
+          "sha256": "27ee659bdf4eae393491752c2f0aed8b0c86dbbd38d507aa26ec8a618b92279e"
+        },
+        "decisions": {
+          "n": 7,
+          "sha256": "61ed030609325e5ec821c988b70aa3c9cae077724f4ca4409ee51c1be6addcf9"
+        },
+        "cache": {
+          "n": 7,
+          "sha256": "aa52df98ab7b762929803d10a15e81fa159666470121c4787d9bec7a68e50f34"
+        }
+      },
+      "originals": {
+        "1906ed135669470fba82967471de8c10.png": "eb842c457c0b2a94f0a888ab845124302b0b1446ea43fa9c7acf4ea98c43d199",
+        "1f3fa63aa15f4765a95fdd76731343c7.png": "c82dc13402b24b43afa87eb13b56d894e325712e957572419576e4c1b050aaa8",
+        "5130750d32dd40fcbf2f1340905aee9f.png": "0205ed7750507f16890340da43a193450d0395bde7deb9423024929173a0092f",
+        "89dac380e91a4ee29479ae173f179e05.png": "7118af9a7062e6981f83cdd2b37283daaff23ced7e0090f732c1fff61320bd52",
+        "9bd6cd6c037041b48530eff40ec168bd.png": "eb842c457c0b2a94f0a888ab845124302b0b1446ea43fa9c7acf4ea98c43d199",
+        "b550c48813e04fcaa0682f1b723c17f5.png": "c82dc13402b24b43afa87eb13b56d894e325712e957572419576e4c1b050aaa8",
+        "f111272ed93345d19435a9e9a3b73e3e.png": "c82dc13402b24b43afa87eb13b56d894e325712e957572419576e4c1b050aaa8"
+      }
+    }
+  },
+  "health": {
+    "status": "ok",
+    "app_version": "2.1.0",
+    "versions": {
+      "rules": "rules-3.0",
+      "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+      "qr": "qr-1.0",
+      "pipeline": "pipeline-2.1"
+    },
+    "provider_available": false,
+    "model": "gemini-3.8-flash",
+    "offline": true,
+    "allowed_hosts": [],
+    "ocr_installed": true,
+    "local_mode": "OCR + правила + разрешенные переходы; ограниченное понимание контекста"
+  },
+  "initial": {
+    "id": "894e2338f1fa470ba6a98dab858ad43e",
+    "analysis_id": "ea94bc8bf704",
+    "score": {
+      "value": 80,
+      "level": "high",
+      "contributions": [
+        {
+          "key": "destination_and_call",
+          "title": "Игровые признаки на странице + призыв",
+          "weight": 65,
+          "evidence_ids": [
+            "894e2338f1fa470ba6a98dab858ad43e-ea94bc8bf704-e5",
+            "894e2338f1fa470ba6a98dab858ad43e-ea94bc8bf704-e7",
+            "894e2338f1fa470ba6a98dab858ad43e-ea94bc8bf704-e13",
+            "894e2338f1fa470ba6a98dab858ad43e-ea94bc8bf704-e15",
+            "894e2338f1fa470ba6a98dab858ad43e-ea94bc8bf704-e17"
+          ]
+        },
+        {
+          "key": "bonus_in_promotion",
+          "title": "Бонус в рекламном контексте",
+          "weight": 15,
+          "evidence_ids": [
+            "894e2338f1fa470ba6a98dab858ad43e-ea94bc8bf704-e6"
+          ]
+        }
+      ],
+      "version": "rules-3.0",
+      "weights": {
+        "version": "weights-3.0",
+        "high_threshold": 65,
+        "medium_threshold": 35,
+        "gambling_and_call": 65,
+        "destination_and_call": 65,
+        "bonus_in_promotion": 15,
+        "promise_in_promotion": 10,
+        "repeated_referral_in_promotion": 10,
+        "alternative_context": -65,
+        "contradictory_context": 0,
+        "destination_alternative_context": 0
+      },
+      "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+      "material_id": "6b54ad014c7e4235a2a6c040f07d3f5e",
+      "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+    },
+    "urls": [
+      "https://go.safetrace.test/r/q7"
+    ],
+    "route_requests": 3
+  },
+  "final": {
+    "score": {
+      "value": 90,
+      "level": "high",
+      "contributions": [
+        {
+          "key": "destination_and_call",
+          "title": "Игровые признаки на странице + призыв",
+          "weight": 65,
+          "evidence_ids": [
+            "894e2338f1fa470ba6a98dab858ad43e-016c50fe9cbd-e6",
+            "894e2338f1fa470ba6a98dab858ad43e-016c50fe9cbd-e8",
+            "894e2338f1fa470ba6a98dab858ad43e-016c50fe9cbd-e20",
+            "894e2338f1fa470ba6a98dab858ad43e-016c50fe9cbd-e22",
+            "894e2338f1fa470ba6a98dab858ad43e-016c50fe9cbd-e24",
+            "894e2338f1fa470ba6a98dab858ad43e-016c50fe9cbd-e26",
+            "894e2338f1fa470ba6a98dab858ad43e-016c50fe9cbd-e28",
+            "894e2338f1fa470ba6a98dab858ad43e-016c50fe9cbd-e30"
+          ]
+        },
+        {
+          "key": "bonus_in_promotion",
+          "title": "Бонус в рекламном контексте",
+          "weight": 15,
+          "evidence_ids": [
+            "894e2338f1fa470ba6a98dab858ad43e-016c50fe9cbd-e7"
+          ]
+        },
+        {
+          "key": "repeated_referral_in_promotion",
+          "title": "Повтор идентификатора в материалах",
+          "weight": 10,
+          "evidence_ids": [
+            "894e2338f1fa470ba6a98dab858ad43e-016c50fe9cbd-e6",
+            "894e2338f1fa470ba6a98dab858ad43e-016c50fe9cbd-e7",
+            "894e2338f1fa470ba6a98dab858ad43e-016c50fe9cbd-e8"
+          ]
+        }
+      ],
+      "version": "rules-3.0",
+      "weights": {
+        "version": "weights-3.0",
+        "high_threshold": 65,
+        "medium_threshold": 35,
+        "gambling_and_call": 65,
+        "destination_and_call": 65,
+        "bonus_in_promotion": 15,
+        "promise_in_promotion": 10,
+        "repeated_referral_in_promotion": 10,
+        "alternative_context": -65,
+        "contradictory_context": 0,
+        "destination_alternative_context": 0
+      },
+      "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+      "material_id": "6b54ad014c7e4235a2a6c040f07d3f5e",
+      "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+    },
+    "history_count": 2,
+    "decision_count": 1,
+    "archive_sha256": "3f57882c46c6319b90fbc45c24ba7f70dd56e7d616ab70a8f0677bb89cef0782",
+    "archive_files": 5,
+    "ocr_cache_hit": true
+  },
+  "main_data_unchanged": true,
+  "scope": "Real HTTP API and OCR, synthetic route fixture; no browser or real-world quality claim."
+}

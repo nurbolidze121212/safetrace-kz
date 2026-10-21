@@ -1,0 +1,419 @@
+{
+  "id": "d9cef40c801843c3a2b6ac1c4b8035db",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:48:59.906001+00:00",
+  "status": "partial",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "DEMO. Приём новых участников заканчивается к полуночи. Регистрируйся по приглашению, предложение закреплено за тобой: https://kb9960937a5.test/access/a05bc2?ref=TF486CD3",
+      "url": "",
+      "source": "DEMO · материал b9b7b0",
+      "published_at": null,
+      "image_id": null,
+      "id": "f9801cac825141818117cb704893bd76",
+      "original_sha256": "78b75deb52fa5a31802a0d695003cf05ce1388fbfdd2d632f8cc6c7653f44a03",
+      "source_evidence_id": "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e1",
+      "normalized_text": "demo. приём новых участников заканчивается к полуночи. регистрируйся по приглашению, предложение закреплено за тобой: https://kb9960937a5.test/access/a05bc2?ref=tf486cd3",
+      "urls": [
+        "https://kb9960937a5.test/access/a05bc2?ref=TF486CD3"
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e3"
+      ],
+      "reachable_urls": [
+        "https://kb9960937a5.test/access/a05bc2?ref=TF486CD3"
+      ],
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-3.0",
+        "weights": {
+          "version": "weights-3.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "ru",
+        "context": "affiliate",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "Регистрируйся",
+            "source_id": "f9801cac825141818117cb704893bd76",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 55,
+            "end": 68
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": false
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "partial",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e1",
+      "quote": "DEMO · материал b9b7b0",
+      "source_id": "f9801cac825141818117cb704893bd76",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:48:59.920002+00:00",
+      "material_id": "f9801cac825141818117cb704893bd76",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e2",
+      "quote": "Регистрируйся",
+      "source_id": "f9801cac825141818117cb704893bd76",
+      "method": "local_rule",
+      "at": "2026-10-21T20:48:59.920002+00:00",
+      "start": 55,
+      "end": 68,
+      "material_id": "f9801cac825141818117cb704893bd76"
+    },
+    {
+      "id": "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e3",
+      "quote": "DEMO. Приём новых участников заканчивается к полуночи. Регистрируйся по приглашению, предложение закреплено за тобой: https://kb9960937a5.test/access/a05bc2?ref=TF486CD3",
+      "source_id": "f9801cac825141818117cb704893bd76",
+      "method": "source_text",
+      "at": "2026-10-21T20:48:59.920002+00:00",
+      "material_id": "f9801cac825141818117cb704893bd76"
+    },
+    {
+      "id": "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e4",
+      "quote": "https://kb9960937a5.test/access/a05bc2?ref=TF486CD3",
+      "source_id": "f9801cac825141818117cb704893bd76",
+      "method": "source_text",
+      "at": "2026-10-21T20:48:59.920002+00:00",
+      "material_id": "f9801cac825141818117cb704893bd76"
+    },
+    {
+      "id": "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e5",
+      "quote": "Синтетический стенд: адрес не найден",
+      "source_id": "https://kb9960937a5.test/access/a05bc2?ref=TF486CD3",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:48:59.920002+00:00",
+      "url": "https://kb9960937a5.test/access/a05bc2?ref=TF486CD3",
+      "status_code": null,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e6",
+      "quote": "https://kb9960937a5.test/access/a05bc2?ref=TF486CD3",
+      "source_id": "https://kb9960937a5.test/access/a05bc2?ref=TF486CD3",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:48:59.920002+00:00",
+      "url": "https://kb9960937a5.test/access/a05bc2?ref=TF486CD3",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://kb9960937a5.test/access/a05bc2?ref=TF486CD3",
+        "at": "2026-10-21T20:48:59.920002+00:00",
+        "status_code": null,
+        "text": "",
+        "stop": "Синтетический стенд: адрес не найден",
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [],
+        "evidence_id": "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e5"
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://kb9960937a5.test/access/a05bc2?ref=TF486CD3",
+        "type": "contains_link",
+        "quote": "https://kb9960937a5.test/access/a05bc2?ref=TF486CD3",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:48:59.920002+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e6"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+    "Непроверенный участок: Синтетический стенд: адрес не найден",
+    "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-3.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.1"
+  },
+  "identifiers": [],
+  "analyzed_at": "2026-10-21T20:48:59.920002+00:00",
+  "analysis_id": "730336e73efd",
+  "context": {
+    "language": "ru",
+    "context": "affiliate",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "Регистрируйся",
+        "source_id": "f9801cac825141818117cb704893bd76",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 55,
+        "end": 68
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "Регистрируйся",
+      "source_id": "f9801cac825141818117cb704893bd76",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 55,
+      "end": 68,
+      "evidence_id": "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e2"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-1fc8edf768dcadde",
+        "type": "material",
+        "label": "DEMO · материал b9b7b0",
+        "evidence_ids": [
+          "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e1"
+        ],
+        "case_id": "d9cef40c801843c3a2b6ac1c4b8035db",
+        "material_id": "f9801cac825141818117cb704893bd76"
+      },
+      {
+        "id": "source-da73beae49feaa66",
+        "type": "source",
+        "label": "DEMO · материал b9b7b0",
+        "evidence_ids": [
+          "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e1"
+        ]
+      },
+      {
+        "id": "url-ef84cf539c03b565",
+        "type": "url",
+        "label": "https://kb9960937a5.test/access/a05bc2?ref=TF486CD3",
+        "evidence_ids": [
+          "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e4",
+          "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e5"
+        ]
+      },
+      {
+        "id": "observation-550192066cfcac14",
+        "type": "observation",
+        "label": "Разрыв маршрута",
+        "evidence_ids": [
+          "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e5"
+        ],
+        "stopped": true
+      },
+      {
+        "id": "domain-c4c36c1f3559b8a1",
+        "type": "domain",
+        "label": "kb9960937a5.test",
+        "evidence_ids": [
+          "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e5"
+        ]
+      },
+      {
+        "id": "identifier-1bb7955a262e83cd",
+        "type": "identifier",
+        "label": "ref=TF486CD3",
+        "evidence_ids": [
+          "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e5"
+        ],
+        "scope": "kb9960937a5.test|/access/a05bc2|ref|TF486CD3"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-ada93ef4591e14f5e0",
+        "source": "source-da73beae49feaa66",
+        "target": "material-1fc8edf768dcadde",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e1"
+        ],
+        "at": "2026-10-21T20:48:59.920002+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-d804cea6d2e5b5fd19",
+        "source": "material-1fc8edf768dcadde",
+        "target": "url-ef84cf539c03b565",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e4"
+        ],
+        "at": "2026-10-21T20:48:59.920002+00:00",
+        "method": "source_text",
+        "status": "observed"
+      },
+      {
+        "id": "edge-c5ec7335dda2c46d12",
+        "source": "url-ef84cf539c03b565",
+        "target": "observation-550192066cfcac14",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e5"
+        ],
+        "at": "2026-10-21T20:48:59.920002+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-e0cd8fe1e8dcc9975a",
+        "source": "url-ef84cf539c03b565",
+        "target": "domain-c4c36c1f3559b8a1",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e5"
+        ],
+        "at": "2026-10-21T20:48:59.920002+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-044c41eb6690d0207e",
+        "source": "url-ef84cf539c03b565",
+        "target": "identifier-1bb7955a262e83cd",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e5"
+        ],
+        "at": "2026-10-21T20:48:59.920002+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e1",
+        "quote": "DEMO · материал b9b7b0",
+        "source_id": "f9801cac825141818117cb704893bd76",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:48:59.920002+00:00",
+        "material_id": "f9801cac825141818117cb704893bd76",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e2",
+        "quote": "Регистрируйся",
+        "source_id": "f9801cac825141818117cb704893bd76",
+        "method": "local_rule",
+        "at": "2026-10-21T20:48:59.920002+00:00",
+        "start": 55,
+        "end": 68,
+        "material_id": "f9801cac825141818117cb704893bd76"
+      },
+      {
+        "id": "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e3",
+        "quote": "DEMO. Приём новых участников заканчивается к полуночи. Регистрируйся по приглашению, предложение закреплено за тобой: https://kb9960937a5.test/access/a05bc2?ref=TF486CD3",
+        "source_id": "f9801cac825141818117cb704893bd76",
+        "method": "source_text",
+        "at": "2026-10-21T20:48:59.920002+00:00",
+        "material_id": "f9801cac825141818117cb704893bd76"
+      },
+      {
+        "id": "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e4",
+        "quote": "https://kb9960937a5.test/access/a05bc2?ref=TF486CD3",
+        "source_id": "f9801cac825141818117cb704893bd76",
+        "method": "source_text",
+        "at": "2026-10-21T20:48:59.920002+00:00",
+        "material_id": "f9801cac825141818117cb704893bd76"
+      },
+      {
+        "id": "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e5",
+        "quote": "Синтетический стенд: адрес не найден",
+        "source_id": "https://kb9960937a5.test/access/a05bc2?ref=TF486CD3",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:48:59.920002+00:00",
+        "url": "https://kb9960937a5.test/access/a05bc2?ref=TF486CD3",
+        "status_code": null,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "d9cef40c801843c3a2b6ac1c4b8035db-730336e73efd-e6",
+        "quote": "https://kb9960937a5.test/access/a05bc2?ref=TF486CD3",
+        "source_id": "https://kb9960937a5.test/access/a05bc2?ref=TF486CD3",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:48:59.920002+00:00",
+        "url": "https://kb9960937a5.test/access/a05bc2?ref=TF486CD3",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:48:59.920002+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [],
+    "version": "rules-3.0",
+    "weights": {
+      "version": "weights-3.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "f9801cac825141818117cb704893bd76",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": false,
+  "elapsed_ms": 0.9
+}

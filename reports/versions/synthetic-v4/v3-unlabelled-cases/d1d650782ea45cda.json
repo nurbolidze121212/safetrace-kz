@@ -1,0 +1,1231 @@
+{
+  "id": "7d0d392b24074ae0b1cbac5edaa6754b",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:48:30.277952+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "",
+      "url": "",
+      "source": "DEMO · материал d1d650",
+      "published_at": null,
+      "image_id": "77bccb2230b821b6ddc97ff4849aba6e.png",
+      "id": "d8e6ab2a27554d41a66f88e5f14129a8",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "77bccb2230b821b6ddc97ff4849aba6eab83c3fa3623a1c1563f5cd0d8196702",
+      "source_evidence_id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e1",
+      "normalized_text": "",
+      "ocr": {
+        "text": "DЕМО. Қатысушы жолы жаңарды. Переходи к карточке клуба и активируй\nпредложение после навигации: QR төменде.",
+        "lines": [
+          {
+            "text": "DЕМО. Қатысушы жолы жаңарды. Переходи к карточке клуба и активируй",
+            "confidence": 0.987272322177887,
+            "polygon": [
+              [
+                29.0,
+                26.0
+              ],
+              [
+                1009.0,
+                26.0
+              ],
+              [
+                1009.0,
+                58.0
+              ],
+              [
+                29.0,
+                58.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМО."
+            ],
+            "evidence_id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e2"
+          },
+          {
+            "text": "предложение после навигации: QR төменде.",
+            "confidence": 0.9937699437141418,
+            "polygon": [
+              [
+                27.0,
+                72.0
+              ],
+              [
+                621.0,
+                70.0
+              ],
+              [
+                621.0,
+                100.0
+              ],
+              [
+                27.0,
+                102.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e3"
+          }
+        ],
+        "raw_text": "DЕМО. Қатысушы жолы жаңарды. Переходи к карточке клуба и активируй\nпредложение после навигации: QR төменде.",
+        "raw_lines": [
+          {
+            "text": "DЕМО. Қатысушы жолы жаңарды. Переходи к карточке клуба и активируй",
+            "confidence": 0.987272322177887,
+            "polygon": [
+              [
+                29.0,
+                26.0
+              ],
+              [
+                1009.0,
+                26.0
+              ],
+              [
+                1009.0,
+                58.0
+              ],
+              [
+                29.0,
+                58.0
+              ]
+            ]
+          },
+          {
+            "text": "предложение после навигации: QR төменде.",
+            "confidence": 0.9937699437141418,
+            "polygon": [
+              [
+                27.0,
+                72.0
+              ],
+              [
+                621.0,
+                70.0
+              ],
+              [
+                621.0,
+                100.0
+              ],
+              [
+                27.0,
+                102.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 89,
+            "mean_confidence": 0.9897545596187034,
+            "score": 86.29503375885315,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1120,
+        "height": 474,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически."
+      },
+      "qr": {
+        "codes": [
+          {
+            "text": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+            "truncated": false,
+            "valid_url": true,
+            "reason": null,
+            "polygon": [
+              [
+                72.0,
+                170.0
+              ],
+              [
+                273.0,
+                170.0
+              ],
+              [
+                273.3611145019531,
+                371.3260192871094
+              ],
+              [
+                72.0,
+                372.0
+              ]
+            ],
+            "evidence_id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e4"
+          }
+        ],
+        "width": 1120,
+        "height": 474,
+        "version": "qr-1.0",
+        "decoder": "OpenCV 4.10.0",
+        "cache_hit": false,
+        "elapsed_ms": 56.1,
+        "limitations": "До 8 QR-кодов, изображение до 1600 px по длинной стороне. Мелкие, поврежденные и составные QR могут не читаться. Декодирование не подтверждает безопасность адреса."
+      },
+      "urls": [
+        "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A"
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e7",
+        "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e4"
+      ],
+      "reachable_urls": [
+        "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+        "https://k59804888fa.test/start?ref=TEB5C06A",
+        "https://k97c7d650d0.test/70ba81b"
+      ],
+      "score": {
+        "value": 65,
+        "level": "high",
+        "contributions": [
+          {
+            "key": "destination_and_call",
+            "title": "Игровые признаки на странице + призыв",
+            "weight": 65,
+            "evidence_ids": [
+              "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e5",
+              "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e6",
+              "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e11",
+              "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e12",
+              "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e13"
+            ]
+          }
+        ],
+        "version": "rules-3.0",
+        "weights": {
+          "version": "weights-3.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "mixed",
+        "context": "affiliate",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "Переходи",
+            "source_id": "d8e6ab2a27554d41a66f88e5f14129a8-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 29,
+            "end": 37
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "активируй",
+            "source_id": "d8e6ab2a27554d41a66f88e5f14129a8-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 57,
+            "end": 66
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e1",
+      "quote": "DEMO · материал d1d650",
+      "source_id": "d8e6ab2a27554d41a66f88e5f14129a8",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:48:30.301952+00:00",
+      "material_id": "d8e6ab2a27554d41a66f88e5f14129a8",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e2",
+      "quote": "DЕМО. Қатысушы жолы жаңарды. Переходи к карточке клуба и активируй",
+      "source_id": "d8e6ab2a27554d41a66f88e5f14129a8-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:48:33.773905+00:00",
+      "material_id": "d8e6ab2a27554d41a66f88e5f14129a8",
+      "polygon": [
+        [
+          29.0,
+          26.0
+        ],
+        [
+          1009.0,
+          26.0
+        ],
+        [
+          1009.0,
+          58.0
+        ],
+        [
+          29.0,
+          58.0
+        ]
+      ],
+      "confidence": 0.987272322177887
+    },
+    {
+      "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e3",
+      "quote": "предложение после навигации: QR төменде.",
+      "source_id": "d8e6ab2a27554d41a66f88e5f14129a8-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:48:33.773905+00:00",
+      "material_id": "d8e6ab2a27554d41a66f88e5f14129a8",
+      "polygon": [
+        [
+          27.0,
+          72.0
+        ],
+        [
+          621.0,
+          70.0
+        ],
+        [
+          621.0,
+          100.0
+        ],
+        [
+          27.0,
+          102.0
+        ]
+      ],
+      "confidence": 0.9937699437141418
+    },
+    {
+      "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e4",
+      "quote": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+      "source_id": "d8e6ab2a27554d41a66f88e5f14129a8-qr",
+      "method": "qr_decode",
+      "at": "2026-10-21T20:48:33.842421+00:00",
+      "material_id": "d8e6ab2a27554d41a66f88e5f14129a8",
+      "polygon": [
+        [
+          72.0,
+          170.0
+        ],
+        [
+          273.0,
+          170.0
+        ],
+        [
+          273.3611145019531,
+          371.3260192871094
+        ],
+        [
+          72.0,
+          372.0
+        ]
+      ],
+      "note": "Адрес декодирован из QR; безопасность проверяется отдельно."
+    },
+    {
+      "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e5",
+      "quote": "Переходи",
+      "source_id": "d8e6ab2a27554d41a66f88e5f14129a8-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:48:33.843428+00:00",
+      "start": 29,
+      "end": 37,
+      "material_id": "d8e6ab2a27554d41a66f88e5f14129a8"
+    },
+    {
+      "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e6",
+      "quote": "активируй",
+      "source_id": "d8e6ab2a27554d41a66f88e5f14129a8-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:48:33.843428+00:00",
+      "start": 57,
+      "end": 66,
+      "material_id": "d8e6ab2a27554d41a66f88e5f14129a8"
+    },
+    {
+      "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e7",
+      "quote": "DЕМО. Қатысушы жолы жаңарды. Переходи к карточке клуба и активируй\nпредложение после навигации: QR төменде.",
+      "source_id": "d8e6ab2a27554d41a66f88e5f14129a8-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:48:33.843428+00:00",
+      "material_id": "d8e6ab2a27554d41a66f88e5f14129a8"
+    },
+    {
+      "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e8",
+      "quote": "https://k97c7d650d0.test/70ba81b",
+      "source_id": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:48:33.844431+00:00",
+      "url": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+      "status_code": 302,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e9",
+      "quote": "Карточка доступа Продолжить",
+      "source_id": "https://k97c7d650d0.test/70ba81b",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:48:33.844431+00:00",
+      "url": "https://k97c7d650d0.test/70ba81b",
+      "status_code": 200,
+      "observation_id": "obs-1"
+    },
+    {
+      "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e10",
+      "quote": "Казино для участников Слоты, рулетка и денежные ставки. Пополнение депозитом.",
+      "source_id": "https://k59804888fa.test/start?ref=TEB5C06A",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:48:33.844431+00:00",
+      "url": "https://k59804888fa.test/start?ref=TEB5C06A",
+      "status_code": 200,
+      "observation_id": "obs-2"
+    },
+    {
+      "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e11",
+      "quote": "Казино",
+      "source_id": "https://k59804888fa.test/start?ref=TEB5C06A",
+      "method": "local_rule",
+      "at": "2026-10-21T20:48:33.845430+00:00",
+      "start": 0,
+      "end": 6,
+      "url": "https://k59804888fa.test/start?ref=TEB5C06A"
+    },
+    {
+      "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e12",
+      "quote": "Слоты",
+      "source_id": "https://k59804888fa.test/start?ref=TEB5C06A",
+      "method": "local_rule",
+      "at": "2026-10-21T20:48:33.845430+00:00",
+      "start": 22,
+      "end": 27,
+      "url": "https://k59804888fa.test/start?ref=TEB5C06A"
+    },
+    {
+      "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e13",
+      "quote": "рулетка",
+      "source_id": "https://k59804888fa.test/start?ref=TEB5C06A",
+      "method": "local_rule",
+      "at": "2026-10-21T20:48:33.845430+00:00",
+      "start": 29,
+      "end": 36,
+      "url": "https://k59804888fa.test/start?ref=TEB5C06A"
+    },
+    {
+      "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e14",
+      "quote": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+      "source_id": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:48:33.845430+00:00",
+      "url": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+      "relation": "contains_link"
+    },
+    {
+      "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e15",
+      "quote": "https://k97c7d650d0.test/70ba81b",
+      "source_id": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:48:33.845430+00:00",
+      "url": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+      "relation": "redirects"
+    },
+    {
+      "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e16",
+      "quote": "Продолжить",
+      "source_id": "https://k97c7d650d0.test/70ba81b",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:48:33.845430+00:00",
+      "url": "https://k97c7d650d0.test/70ba81b",
+      "relation": "page_link",
+      "href": "https://k59804888fa.test/start?ref=TEB5C06A",
+      "document_base": "https://k97c7d650d0.test/70ba81b"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+        "at": "2026-10-21T20:48:33.843428+00:00",
+        "status_code": 302,
+        "text": "",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:48:33.843428+00:00",
+            "status_code": 302
+          }
+        ],
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "connected_ip": null,
+        "location": "https://k97c7d650d0.test/70ba81b",
+        "location_header": "https://k97c7d650d0.test/70ba81b",
+        "evidence_id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e8"
+      },
+      {
+        "id": "obs-1",
+        "url": "https://k97c7d650d0.test/70ba81b",
+        "at": "2026-10-21T20:48:33.843428+00:00",
+        "status_code": 200,
+        "text": "Карточка доступа Продолжить",
+        "stop": null,
+        "depth": 1,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:48:33.843428+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "ea54ba748d92057b6fb2c8ec0da4e1e2c6b9bbde14db08b6236fa162e274fe5d",
+        "connected_ip": null,
+        "links": [
+          {
+            "url": "https://k59804888fa.test/start?ref=TEB5C06A",
+            "quote": "Продолжить",
+            "href": "https://k59804888fa.test/start?ref=TEB5C06A"
+          }
+        ],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://k97c7d650d0.test/70ba81b",
+        "evidence_id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e9",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      },
+      {
+        "id": "obs-2",
+        "url": "https://k59804888fa.test/start?ref=TEB5C06A",
+        "at": "2026-10-21T20:48:33.844431+00:00",
+        "status_code": 200,
+        "text": "Казино для участников Слоты, рулетка и денежные ставки. Пополнение депозитом.",
+        "stop": null,
+        "depth": 2,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:48:33.844431+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "0b7371d32d8b9fd125cdc3b12b44add98fe0091419e8bdffdf1be58e58892200",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://k59804888fa.test/start?ref=TEB5C06A",
+        "evidence_id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e10",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [
+            {
+              "kind": "gambling",
+              "quote": "Казино",
+              "source_id": "https://k59804888fa.test/start?ref=TEB5C06A",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 0,
+              "end": 6
+            },
+            {
+              "kind": "gambling",
+              "quote": "Слоты",
+              "source_id": "https://k59804888fa.test/start?ref=TEB5C06A",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 22,
+              "end": 27
+            },
+            {
+              "kind": "gambling",
+              "quote": "рулетка",
+              "source_id": "https://k59804888fa.test/start?ref=TEB5C06A",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 29,
+              "end": 36
+            }
+          ],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+        "type": "contains_link",
+        "quote": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:48:33.843428+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e14"
+      },
+      {
+        "from": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+        "to": "https://k97c7d650d0.test/70ba81b",
+        "type": "redirects",
+        "quote": "https://k97c7d650d0.test/70ba81b",
+        "observation_id": "obs-1",
+        "at": "2026-10-21T20:48:33.843428+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e15"
+      },
+      {
+        "from": "https://k97c7d650d0.test/70ba81b",
+        "to": "https://k59804888fa.test/start?ref=TEB5C06A",
+        "type": "page_link",
+        "quote": "Продолжить",
+        "observation_id": "obs-2",
+        "at": "2026-10-21T20:48:33.844431+00:00",
+        "href": "https://k59804888fa.test/start?ref=TEB5C06A",
+        "document_base": "https://k97c7d650d0.test/70ba81b",
+        "method": "synthetic_transport",
+        "evidence_id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e16"
+      }
+    ],
+    "requests": 3,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-3.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.1"
+  },
+  "identifiers": [
+    {
+      "domain": "k59804888fa.test",
+      "parameter": "ref",
+      "value": "TEB5C06A",
+      "scope": "k59804888fa.test|/start|ref|TEB5C06A",
+      "url": "https://k59804888fa.test/start?ref=TEB5C06A",
+      "material_id": "d8e6ab2a27554d41a66f88e5f14129a8",
+      "evidence_id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e10"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:48:30.301952+00:00",
+  "analysis_id": "8192fa2244d9",
+  "context": {
+    "language": "mixed",
+    "context": "affiliate",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "Переходи",
+        "source_id": "d8e6ab2a27554d41a66f88e5f14129a8-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 29,
+        "end": 37
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "активируй",
+        "source_id": "d8e6ab2a27554d41a66f88e5f14129a8-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 57,
+        "end": 66
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "Переходи",
+      "source_id": "d8e6ab2a27554d41a66f88e5f14129a8-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 29,
+      "end": 37,
+      "evidence_id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e5"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "активируй",
+      "source_id": "d8e6ab2a27554d41a66f88e5f14129a8-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 57,
+      "end": 66,
+      "evidence_id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e6"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-79ff8d88f34a45cb",
+        "type": "material",
+        "label": "DEMO · материал d1d650",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e1"
+        ],
+        "case_id": "7d0d392b24074ae0b1cbac5edaa6754b",
+        "material_id": "d8e6ab2a27554d41a66f88e5f14129a8"
+      },
+      {
+        "id": "source-0bc7c7d52c666ed4",
+        "type": "source",
+        "label": "DEMO · материал d1d650",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e1"
+        ]
+      },
+      {
+        "id": "url-cdede590e550eb46",
+        "type": "url",
+        "label": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e4",
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e8"
+        ]
+      },
+      {
+        "id": "observation-53f0d964a1d0cf16",
+        "type": "observation",
+        "label": "HTTP 302",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e8"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-13176462f0332097",
+        "type": "domain",
+        "label": "k27e4452d76.test",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e8"
+        ]
+      },
+      {
+        "id": "identifier-c0b40cd530d0893a",
+        "type": "identifier",
+        "label": "ref=TEB5C06A",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e8"
+        ],
+        "scope": "k27e4452d76.test|/visit/dea3e6|ref|TEB5C06A"
+      },
+      {
+        "id": "url-95d9900fb93a6c13",
+        "type": "url",
+        "label": "https://k97c7d650d0.test/70ba81b",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e9"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "observation-07b4f8b5cd618058",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e9"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-3dd130f4de194293",
+        "type": "domain",
+        "label": "k97c7d650d0.test",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e9"
+        ]
+      },
+      {
+        "id": "url-a7fe1285aa988f83",
+        "type": "url",
+        "label": "https://k59804888fa.test/start?ref=TEB5C06A",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e10"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "observation-eab493c7bdcf2144",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e10"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-417934cf4bbebddd",
+        "type": "domain",
+        "label": "k59804888fa.test",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e10"
+        ]
+      },
+      {
+        "id": "identifier-65659f0d74280fe0",
+        "type": "identifier",
+        "label": "ref=TEB5C06A",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e10"
+        ],
+        "scope": "k59804888fa.test|/start|ref|TEB5C06A"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-d1d56b440720783cf0",
+        "source": "source-0bc7c7d52c666ed4",
+        "target": "material-79ff8d88f34a45cb",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e1"
+        ],
+        "at": "2026-10-21T20:48:30.301952+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-e4cb1d6040b0de9e0a",
+        "source": "material-79ff8d88f34a45cb",
+        "target": "url-cdede590e550eb46",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e4"
+        ],
+        "at": "2026-10-21T20:48:30.301952+00:00",
+        "method": "qr_decode",
+        "status": "observed"
+      },
+      {
+        "id": "edge-58cde771b9dd2d6a72",
+        "source": "url-cdede590e550eb46",
+        "target": "observation-53f0d964a1d0cf16",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e8"
+        ],
+        "at": "2026-10-21T20:48:30.301952+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-cb22ad4539cf77443d",
+        "source": "url-cdede590e550eb46",
+        "target": "domain-13176462f0332097",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e8"
+        ],
+        "at": "2026-10-21T20:48:30.301952+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-52a18c0d112fdf8ccf",
+        "source": "url-cdede590e550eb46",
+        "target": "identifier-c0b40cd530d0893a",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e8"
+        ],
+        "at": "2026-10-21T20:48:30.301952+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-da1a84172be7332140",
+        "source": "url-95d9900fb93a6c13",
+        "target": "observation-07b4f8b5cd618058",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e9"
+        ],
+        "at": "2026-10-21T20:48:30.301952+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-c7ebeb4ecaa420890c",
+        "source": "url-95d9900fb93a6c13",
+        "target": "domain-3dd130f4de194293",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e9"
+        ],
+        "at": "2026-10-21T20:48:30.301952+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-9bd151f87bf0d8c318",
+        "source": "url-a7fe1285aa988f83",
+        "target": "observation-eab493c7bdcf2144",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e10"
+        ],
+        "at": "2026-10-21T20:48:30.301952+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-f33d0aa5bf4b3d02f5",
+        "source": "url-a7fe1285aa988f83",
+        "target": "domain-417934cf4bbebddd",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e10"
+        ],
+        "at": "2026-10-21T20:48:30.301952+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-391db5f6aaad87b9d7",
+        "source": "url-a7fe1285aa988f83",
+        "target": "identifier-65659f0d74280fe0",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e10"
+        ],
+        "at": "2026-10-21T20:48:30.301952+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-aa0265feb95c0244c2",
+        "source": "url-cdede590e550eb46",
+        "target": "url-95d9900fb93a6c13",
+        "type": "redirects",
+        "label": "redirects",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e15"
+        ],
+        "at": "2026-10-21T20:48:30.301952+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-59fd5acc8d21054e52",
+        "source": "url-95d9900fb93a6c13",
+        "target": "url-a7fe1285aa988f83",
+        "type": "page_link",
+        "label": "page_link",
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e16"
+        ],
+        "at": "2026-10-21T20:48:30.301952+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e1",
+        "quote": "DEMO · материал d1d650",
+        "source_id": "d8e6ab2a27554d41a66f88e5f14129a8",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:48:30.301952+00:00",
+        "material_id": "d8e6ab2a27554d41a66f88e5f14129a8",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e2",
+        "quote": "DЕМО. Қатысушы жолы жаңарды. Переходи к карточке клуба и активируй",
+        "source_id": "d8e6ab2a27554d41a66f88e5f14129a8-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:48:33.773905+00:00",
+        "material_id": "d8e6ab2a27554d41a66f88e5f14129a8",
+        "polygon": [
+          [
+            29.0,
+            26.0
+          ],
+          [
+            1009.0,
+            26.0
+          ],
+          [
+            1009.0,
+            58.0
+          ],
+          [
+            29.0,
+            58.0
+          ]
+        ],
+        "confidence": 0.987272322177887
+      },
+      {
+        "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e3",
+        "quote": "предложение после навигации: QR төменде.",
+        "source_id": "d8e6ab2a27554d41a66f88e5f14129a8-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:48:33.773905+00:00",
+        "material_id": "d8e6ab2a27554d41a66f88e5f14129a8",
+        "polygon": [
+          [
+            27.0,
+            72.0
+          ],
+          [
+            621.0,
+            70.0
+          ],
+          [
+            621.0,
+            100.0
+          ],
+          [
+            27.0,
+            102.0
+          ]
+        ],
+        "confidence": 0.9937699437141418
+      },
+      {
+        "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e4",
+        "quote": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+        "source_id": "d8e6ab2a27554d41a66f88e5f14129a8-qr",
+        "method": "qr_decode",
+        "at": "2026-10-21T20:48:33.842421+00:00",
+        "material_id": "d8e6ab2a27554d41a66f88e5f14129a8",
+        "polygon": [
+          [
+            72.0,
+            170.0
+          ],
+          [
+            273.0,
+            170.0
+          ],
+          [
+            273.3611145019531,
+            371.3260192871094
+          ],
+          [
+            72.0,
+            372.0
+          ]
+        ],
+        "note": "Адрес декодирован из QR; безопасность проверяется отдельно."
+      },
+      {
+        "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e5",
+        "quote": "Переходи",
+        "source_id": "d8e6ab2a27554d41a66f88e5f14129a8-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:48:33.843428+00:00",
+        "start": 29,
+        "end": 37,
+        "material_id": "d8e6ab2a27554d41a66f88e5f14129a8"
+      },
+      {
+        "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e6",
+        "quote": "активируй",
+        "source_id": "d8e6ab2a27554d41a66f88e5f14129a8-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:48:33.843428+00:00",
+        "start": 57,
+        "end": 66,
+        "material_id": "d8e6ab2a27554d41a66f88e5f14129a8"
+      },
+      {
+        "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e7",
+        "quote": "DЕМО. Қатысушы жолы жаңарды. Переходи к карточке клуба и активируй\nпредложение после навигации: QR төменде.",
+        "source_id": "d8e6ab2a27554d41a66f88e5f14129a8-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:48:33.843428+00:00",
+        "material_id": "d8e6ab2a27554d41a66f88e5f14129a8"
+      },
+      {
+        "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e8",
+        "quote": "https://k97c7d650d0.test/70ba81b",
+        "source_id": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:48:33.844431+00:00",
+        "url": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+        "status_code": 302,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e9",
+        "quote": "Карточка доступа Продолжить",
+        "source_id": "https://k97c7d650d0.test/70ba81b",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:48:33.844431+00:00",
+        "url": "https://k97c7d650d0.test/70ba81b",
+        "status_code": 200,
+        "observation_id": "obs-1"
+      },
+      {
+        "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e10",
+        "quote": "Казино для участников Слоты, рулетка и денежные ставки. Пополнение депозитом.",
+        "source_id": "https://k59804888fa.test/start?ref=TEB5C06A",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:48:33.844431+00:00",
+        "url": "https://k59804888fa.test/start?ref=TEB5C06A",
+        "status_code": 200,
+        "observation_id": "obs-2"
+      },
+      {
+        "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e11",
+        "quote": "Казино",
+        "source_id": "https://k59804888fa.test/start?ref=TEB5C06A",
+        "method": "local_rule",
+        "at": "2026-10-21T20:48:33.845430+00:00",
+        "start": 0,
+        "end": 6,
+        "url": "https://k59804888fa.test/start?ref=TEB5C06A"
+      },
+      {
+        "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e12",
+        "quote": "Слоты",
+        "source_id": "https://k59804888fa.test/start?ref=TEB5C06A",
+        "method": "local_rule",
+        "at": "2026-10-21T20:48:33.845430+00:00",
+        "start": 22,
+        "end": 27,
+        "url": "https://k59804888fa.test/start?ref=TEB5C06A"
+      },
+      {
+        "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e13",
+        "quote": "рулетка",
+        "source_id": "https://k59804888fa.test/start?ref=TEB5C06A",
+        "method": "local_rule",
+        "at": "2026-10-21T20:48:33.845430+00:00",
+        "start": 29,
+        "end": 36,
+        "url": "https://k59804888fa.test/start?ref=TEB5C06A"
+      },
+      {
+        "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e14",
+        "quote": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+        "source_id": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:48:33.845430+00:00",
+        "url": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+        "relation": "contains_link"
+      },
+      {
+        "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e15",
+        "quote": "https://k97c7d650d0.test/70ba81b",
+        "source_id": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:48:33.845430+00:00",
+        "url": "https://k27e4452d76.test/visit/dea3e6?ref=TEB5C06A",
+        "relation": "redirects"
+      },
+      {
+        "id": "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e16",
+        "quote": "Продолжить",
+        "source_id": "https://k97c7d650d0.test/70ba81b",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:48:33.845430+00:00",
+        "url": "https://k97c7d650d0.test/70ba81b",
+        "relation": "page_link",
+        "href": "https://k59804888fa.test/start?ref=TEB5C06A",
+        "document_base": "https://k97c7d650d0.test/70ba81b"
+      }
+    ],
+    "generated_at": "2026-10-21T20:48:33.845430+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 65,
+    "level": "high",
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e5",
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e6",
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e11",
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e12",
+          "7d0d392b24074ae0b1cbac5edaa6754b-8192fa2244d9-e13"
+        ]
+      }
+    ],
+    "version": "rules-3.0",
+    "weights": {
+      "version": "weights-3.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "d8e6ab2a27554d41a66f88e5f14129a8",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 3544.0
+}

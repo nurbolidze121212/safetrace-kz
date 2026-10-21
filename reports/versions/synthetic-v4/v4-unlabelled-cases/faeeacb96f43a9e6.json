@@ -1,0 +1,1149 @@
+{
+  "id": "bcbafa98f0f64d769dd3a59749d79148",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:53:42.395236+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "",
+      "url": "",
+      "source": "DEMO · материал faeeac",
+      "published_at": null,
+      "image_id": "d58f1a966052111f11d347a4ed46b1f3.jpg",
+      "id": "2a2358977afd4c46acb5c5aa476e8597",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "d58f1a966052111f11d347a4ed46b1f37b75054dc8866e04a17e691f714dc03d",
+      "source_evidence_id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e1",
+      "normalized_text": "",
+      "ocr": {
+        "text": "DЕМО. Доступны два равноправных входа для новых участников.\nPeгистрируйся чеpeз https://ka1020a22ab.test/card/ed9990?ref=T9BC0232\nили https://kcfd5586c55.test/13b5baa; предложение одинаковое.",
+        "lines": [
+          {
+            "text": "DЕМО. Доступны два равноправных входа для новых участников.",
+            "confidence": 0.9913219809532166,
+            "polygon": [
+              [
+                28.0,
+                22.0
+              ],
+              [
+                826.0,
+                25.0
+              ],
+              [
+                826.0,
+                58.0
+              ],
+              [
+                28.0,
+                55.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМО."
+            ],
+            "evidence_id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e2"
+          },
+          {
+            "text": "Peгистрируйся чеpeз https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+            "confidence": 0.9542122483253479,
+            "polygon": [
+              [
+                27.0,
+                66.0
+              ],
+              [
+                896.0,
+                64.0
+              ],
+              [
+                896.0,
+                93.0
+              ],
+              [
+                27.0,
+                96.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: Peгистрируйся",
+              "Смешение алфавитов в токене: чеpeз"
+            ],
+            "evidence_id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e3"
+          },
+          {
+            "text": "или https://kcfd5586c55.test/13b5baa; предложение одинаковое.",
+            "confidence": 0.9854720234870911,
+            "polygon": [
+              [
+                26.0,
+                104.0
+              ],
+              [
+                785.0,
+                105.0
+              ],
+              [
+                785.0,
+                139.0
+              ],
+              [
+                26.0,
+                138.0
+              ]
+            ],
+            "segment_indices": [
+              2
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e4"
+          }
+        ],
+        "raw_text": "DЕМО. Доступны два равноправных входа для новых участников.\nPeгистрируйся чеpeз https://ka1020a22ab.test/card/ed9990?ref=T9BC0232\nили https://kcfd5586c55.test/13b5baa; предложение одинаковое.",
+        "raw_lines": [
+          {
+            "text": "DЕМО. Доступны два равноправных входа для новых участников.",
+            "confidence": 0.9913219809532166,
+            "polygon": [
+              [
+                28.0,
+                22.0
+              ],
+              [
+                826.0,
+                25.0
+              ],
+              [
+                826.0,
+                58.0
+              ],
+              [
+                28.0,
+                55.0
+              ]
+            ]
+          },
+          {
+            "text": "Peгистрируйся чеpeз https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+            "confidence": 0.9542122483253479,
+            "polygon": [
+              [
+                27.0,
+                66.0
+              ],
+              [
+                896.0,
+                64.0
+              ],
+              [
+                896.0,
+                93.0
+              ],
+              [
+                27.0,
+                96.0
+              ]
+            ]
+          },
+          {
+            "text": "или https://kcfd5586c55.test/13b5baa; предложение одинаковое.",
+            "confidence": 0.9854720234870911,
+            "polygon": [
+              [
+                26.0,
+                104.0
+              ],
+              [
+                785.0,
+                105.0
+              ],
+              [
+                785.0,
+                139.0
+              ],
+              [
+                26.0,
+                138.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 160,
+            "mean_confidence": 0.9757730931043624,
+            "score": 148.77990436159922,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1120,
+        "height": 189,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "url_readings": [
+          {
+            "raw_url": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+            "line_indices": [
+              1
+            ],
+            "needs_review": false,
+            "reasons": [],
+            "suggestions": [],
+            "method": "primary_ocr",
+            "auto_follow": true
+          },
+          {
+            "raw_url": "https://kcfd5586c55.test/13b5baa",
+            "line_indices": [
+              2
+            ],
+            "needs_review": false,
+            "reasons": [],
+            "suggestions": [],
+            "method": "primary_ocr",
+            "auto_follow": true
+          }
+        ]
+      },
+      "qr": {
+        "codes": [],
+        "width": 1120,
+        "height": 189,
+        "version": "qr-1.0",
+        "decoder": "OpenCV 4.10.0",
+        "cache_hit": false,
+        "elapsed_ms": 81.67,
+        "limitations": "До 8 QR-кодов, изображение до 1600 px по длинной стороне. Мелкие, поврежденные и составные QR могут не читаться. Декодирование не подтверждает безопасность адреса."
+      },
+      "urls": [
+        "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+        "https://kcfd5586c55.test/13b5baa"
+      ],
+      "url_reviews": [
+        {
+          "raw_url": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true,
+          "source_evidence_ids": [
+            "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e6",
+            "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e3"
+          ],
+          "selected_url": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232"
+        },
+        {
+          "raw_url": "https://kcfd5586c55.test/13b5baa",
+          "line_indices": [
+            2
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true,
+          "source_evidence_ids": [
+            "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e7",
+            "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e4"
+          ],
+          "selected_url": "https://kcfd5586c55.test/13b5baa"
+        }
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e5"
+      ],
+      "content_fingerprint": "302737e579c1d15a4bff1f6951b78da0265664bfccab87be18349f302843eaf0",
+      "reachable_urls": [
+        "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+        "https://kcfd5586c55.test/13b5baa"
+      ],
+      "call_bindings": [],
+      "attribution_incomplete": false,
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "ru",
+        "context": "ambiguous",
+        "claims": [],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e1",
+      "quote": "DEMO · материал faeeac",
+      "source_id": "2a2358977afd4c46acb5c5aa476e8597",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:53:46.317097+00:00",
+      "material_id": "2a2358977afd4c46acb5c5aa476e8597",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e2",
+      "quote": "DЕМО. Доступны два равноправных входа для новых участников.",
+      "source_id": "2a2358977afd4c46acb5c5aa476e8597-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:53:49.964626+00:00",
+      "material_id": "2a2358977afd4c46acb5c5aa476e8597",
+      "polygon": [
+        [
+          28.0,
+          22.0
+        ],
+        [
+          826.0,
+          25.0
+        ],
+        [
+          826.0,
+          58.0
+        ],
+        [
+          28.0,
+          55.0
+        ]
+      ],
+      "confidence": 0.9913219809532166
+    },
+    {
+      "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e3",
+      "quote": "Peгистрируйся чеpeз https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+      "source_id": "2a2358977afd4c46acb5c5aa476e8597-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:53:49.964626+00:00",
+      "material_id": "2a2358977afd4c46acb5c5aa476e8597",
+      "polygon": [
+        [
+          27.0,
+          66.0
+        ],
+        [
+          896.0,
+          64.0
+        ],
+        [
+          896.0,
+          93.0
+        ],
+        [
+          27.0,
+          96.0
+        ]
+      ],
+      "confidence": 0.9542122483253479
+    },
+    {
+      "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e4",
+      "quote": "или https://kcfd5586c55.test/13b5baa; предложение одинаковое.",
+      "source_id": "2a2358977afd4c46acb5c5aa476e8597-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:53:49.964626+00:00",
+      "material_id": "2a2358977afd4c46acb5c5aa476e8597",
+      "polygon": [
+        [
+          26.0,
+          104.0
+        ],
+        [
+          785.0,
+          105.0
+        ],
+        [
+          785.0,
+          139.0
+        ],
+        [
+          26.0,
+          138.0
+        ]
+      ],
+      "confidence": 0.9854720234870911
+    },
+    {
+      "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e5",
+      "quote": "DЕМО. Доступны два равноправных входа для новых участников.\nPeгистрируйся чеpeз https://ka1020a22ab.test/card/ed9990?ref=T9BC0232\nили https://kcfd5586c55.test/13b5baa; предложение одинаковое.",
+      "source_id": "2a2358977afd4c46acb5c5aa476e8597-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:53:50.059141+00:00",
+      "material_id": "2a2358977afd4c46acb5c5aa476e8597"
+    },
+    {
+      "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e6",
+      "quote": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+      "source_id": "2a2358977afd4c46acb5c5aa476e8597-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:53:50.059141+00:00",
+      "material_id": "2a2358977afd4c46acb5c5aa476e8597"
+    },
+    {
+      "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e7",
+      "quote": "https://kcfd5586c55.test/13b5baa",
+      "source_id": "2a2358977afd4c46acb5c5aa476e8597-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:53:50.059141+00:00",
+      "material_id": "2a2358977afd4c46acb5c5aa476e8597"
+    },
+    {
+      "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e8",
+      "quote": "Казино для участников Слоты, рулетка и денежные ставки. Пополнение депозитом.",
+      "source_id": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:53:50.060142+00:00",
+      "url": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e9",
+      "quote": "Казино",
+      "source_id": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+      "method": "local_rule",
+      "at": "2026-10-21T20:53:50.060142+00:00",
+      "start": 0,
+      "end": 6,
+      "url": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232"
+    },
+    {
+      "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e10",
+      "quote": "Слоты",
+      "source_id": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+      "method": "local_rule",
+      "at": "2026-10-21T20:53:50.060142+00:00",
+      "start": 22,
+      "end": 27,
+      "url": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232"
+    },
+    {
+      "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e11",
+      "quote": "рулетка",
+      "source_id": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+      "method": "local_rule",
+      "at": "2026-10-21T20:53:50.060142+00:00",
+      "start": 29,
+      "end": 36,
+      "url": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232"
+    },
+    {
+      "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e12",
+      "quote": "Казино для участников Слоты, рулетка и денежные ставки. Пополнение депозитом.",
+      "source_id": "https://kcfd5586c55.test/13b5baa",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:53:50.060142+00:00",
+      "url": "https://kcfd5586c55.test/13b5baa",
+      "status_code": 200,
+      "observation_id": "obs-1"
+    },
+    {
+      "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e13",
+      "quote": "Казино",
+      "source_id": "https://kcfd5586c55.test/13b5baa",
+      "method": "local_rule",
+      "at": "2026-10-21T20:53:50.061139+00:00",
+      "start": 0,
+      "end": 6,
+      "url": "https://kcfd5586c55.test/13b5baa"
+    },
+    {
+      "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e14",
+      "quote": "Слоты",
+      "source_id": "https://kcfd5586c55.test/13b5baa",
+      "method": "local_rule",
+      "at": "2026-10-21T20:53:50.061139+00:00",
+      "start": 22,
+      "end": 27,
+      "url": "https://kcfd5586c55.test/13b5baa"
+    },
+    {
+      "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e15",
+      "quote": "рулетка",
+      "source_id": "https://kcfd5586c55.test/13b5baa",
+      "method": "local_rule",
+      "at": "2026-10-21T20:53:50.061139+00:00",
+      "start": 29,
+      "end": 36,
+      "url": "https://kcfd5586c55.test/13b5baa"
+    },
+    {
+      "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e16",
+      "quote": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+      "source_id": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:53:50.061139+00:00",
+      "url": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+      "relation": "contains_link"
+    },
+    {
+      "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e17",
+      "quote": "https://kcfd5586c55.test/13b5baa",
+      "source_id": "https://kcfd5586c55.test/13b5baa",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:53:50.061139+00:00",
+      "url": "https://kcfd5586c55.test/13b5baa",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+        "at": "2026-10-21T20:53:50.059141+00:00",
+        "status_code": 200,
+        "text": "Казино для участников Слоты, рулетка и денежные ставки. Пополнение депозитом.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:53:50.059141+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "0b7371d32d8b9fd125cdc3b12b44add98fe0091419e8bdffdf1be58e58892200",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+        "evidence_id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e8",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [
+            {
+              "kind": "gambling",
+              "quote": "Казино",
+              "source_id": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 0,
+              "end": 6
+            },
+            {
+              "kind": "gambling",
+              "quote": "Слоты",
+              "source_id": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 22,
+              "end": 27
+            },
+            {
+              "kind": "gambling",
+              "quote": "рулетка",
+              "source_id": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 29,
+              "end": 36
+            }
+          ],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      },
+      {
+        "id": "obs-1",
+        "url": "https://kcfd5586c55.test/13b5baa",
+        "at": "2026-10-21T20:53:50.060142+00:00",
+        "status_code": 200,
+        "text": "Казино для участников Слоты, рулетка и денежные ставки. Пополнение депозитом.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:53:50.060142+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "0b7371d32d8b9fd125cdc3b12b44add98fe0091419e8bdffdf1be58e58892200",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://kcfd5586c55.test/13b5baa",
+        "evidence_id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e12",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [
+            {
+              "kind": "gambling",
+              "quote": "Казино",
+              "source_id": "https://kcfd5586c55.test/13b5baa",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 0,
+              "end": 6
+            },
+            {
+              "kind": "gambling",
+              "quote": "Слоты",
+              "source_id": "https://kcfd5586c55.test/13b5baa",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 22,
+              "end": 27
+            },
+            {
+              "kind": "gambling",
+              "quote": "рулетка",
+              "source_id": "https://kcfd5586c55.test/13b5baa",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 29,
+              "end": 36
+            }
+          ],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+        "type": "contains_link",
+        "quote": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:53:50.059141+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e16"
+      },
+      {
+        "from": null,
+        "to": "https://kcfd5586c55.test/13b5baa",
+        "type": "contains_link",
+        "quote": "https://kcfd5586c55.test/13b5baa",
+        "observation_id": "obs-1",
+        "at": "2026-10-21T20:53:50.060142+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e17"
+      }
+    ],
+    "requests": 2,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "analysis_assisted": false,
+  "identifiers": [
+    {
+      "domain": "ka1020a22ab.test",
+      "parameter": "ref",
+      "value": "T9BC0232",
+      "scope": "ka1020a22ab.test|/card/ed9990|ref|T9BC0232",
+      "url": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+      "material_id": "2a2358977afd4c46acb5c5aa476e8597",
+      "evidence_id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e8"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:53:46.317097+00:00",
+  "analysis_id": "ba4e8fb2d496",
+  "context": {
+    "language": "ru",
+    "context": "ambiguous",
+    "claims": [],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-2e4ac346cda1a74c",
+        "type": "material",
+        "label": "DEMO · материал faeeac",
+        "evidence_ids": [
+          "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e1"
+        ],
+        "case_id": "bcbafa98f0f64d769dd3a59749d79148",
+        "material_id": "2a2358977afd4c46acb5c5aa476e8597"
+      },
+      {
+        "id": "source-9ff62c5ce53677a8",
+        "type": "source",
+        "label": "DEMO · материал faeeac",
+        "evidence_ids": [
+          "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e1"
+        ]
+      },
+      {
+        "id": "url-2dc37f1467b3e548",
+        "type": "url",
+        "label": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+        "evidence_ids": [
+          "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e6",
+          "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e8"
+        ]
+      },
+      {
+        "id": "url-c64a30e948cda70b",
+        "type": "url",
+        "label": "https://kcfd5586c55.test/13b5baa",
+        "evidence_ids": [
+          "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e7",
+          "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e12"
+        ]
+      },
+      {
+        "id": "observation-c267d7b7811b2454",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e8"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-e9ce632d8f826b83",
+        "type": "domain",
+        "label": "ka1020a22ab.test",
+        "evidence_ids": [
+          "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e8"
+        ]
+      },
+      {
+        "id": "identifier-db34194e07c813fb",
+        "type": "identifier",
+        "label": "ref=T9BC0232",
+        "evidence_ids": [
+          "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e8"
+        ],
+        "scope": "ka1020a22ab.test|/card/ed9990|ref|T9BC0232"
+      },
+      {
+        "id": "observation-f7dec78a43990158",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e12"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-8872971f51a1fd39",
+        "type": "domain",
+        "label": "kcfd5586c55.test",
+        "evidence_ids": [
+          "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e12"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-467d8bb69274d8c94b",
+        "source": "source-9ff62c5ce53677a8",
+        "target": "material-2e4ac346cda1a74c",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e1"
+        ],
+        "at": "2026-10-21T20:53:46.317097+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-44991788de9eef4d82",
+        "source": "material-2e4ac346cda1a74c",
+        "target": "url-2dc37f1467b3e548",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e6"
+        ],
+        "at": "2026-10-21T20:53:46.317097+00:00",
+        "method": "ocr",
+        "status": "observed"
+      },
+      {
+        "id": "edge-607bc90744bea11772",
+        "source": "material-2e4ac346cda1a74c",
+        "target": "url-c64a30e948cda70b",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e7"
+        ],
+        "at": "2026-10-21T20:53:46.317097+00:00",
+        "method": "ocr",
+        "status": "observed"
+      },
+      {
+        "id": "edge-7918a9fecc7df16c30",
+        "source": "url-2dc37f1467b3e548",
+        "target": "observation-c267d7b7811b2454",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e8"
+        ],
+        "at": "2026-10-21T20:53:46.317097+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-89fab76798f242f659",
+        "source": "url-2dc37f1467b3e548",
+        "target": "domain-e9ce632d8f826b83",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e8"
+        ],
+        "at": "2026-10-21T20:53:46.317097+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-697714e1d8b55e1052",
+        "source": "url-2dc37f1467b3e548",
+        "target": "identifier-db34194e07c813fb",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e8"
+        ],
+        "at": "2026-10-21T20:53:46.317097+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-4df4f59dd8b521b4ed",
+        "source": "url-c64a30e948cda70b",
+        "target": "observation-f7dec78a43990158",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e12"
+        ],
+        "at": "2026-10-21T20:53:46.317097+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-58432ac6dd27e14b0f",
+        "source": "url-c64a30e948cda70b",
+        "target": "domain-8872971f51a1fd39",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e12"
+        ],
+        "at": "2026-10-21T20:53:46.317097+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e1",
+        "quote": "DEMO · материал faeeac",
+        "source_id": "2a2358977afd4c46acb5c5aa476e8597",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:53:46.317097+00:00",
+        "material_id": "2a2358977afd4c46acb5c5aa476e8597",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e2",
+        "quote": "DЕМО. Доступны два равноправных входа для новых участников.",
+        "source_id": "2a2358977afd4c46acb5c5aa476e8597-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:53:49.964626+00:00",
+        "material_id": "2a2358977afd4c46acb5c5aa476e8597",
+        "polygon": [
+          [
+            28.0,
+            22.0
+          ],
+          [
+            826.0,
+            25.0
+          ],
+          [
+            826.0,
+            58.0
+          ],
+          [
+            28.0,
+            55.0
+          ]
+        ],
+        "confidence": 0.9913219809532166
+      },
+      {
+        "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e3",
+        "quote": "Peгистрируйся чеpeз https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+        "source_id": "2a2358977afd4c46acb5c5aa476e8597-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:53:49.964626+00:00",
+        "material_id": "2a2358977afd4c46acb5c5aa476e8597",
+        "polygon": [
+          [
+            27.0,
+            66.0
+          ],
+          [
+            896.0,
+            64.0
+          ],
+          [
+            896.0,
+            93.0
+          ],
+          [
+            27.0,
+            96.0
+          ]
+        ],
+        "confidence": 0.9542122483253479
+      },
+      {
+        "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e4",
+        "quote": "или https://kcfd5586c55.test/13b5baa; предложение одинаковое.",
+        "source_id": "2a2358977afd4c46acb5c5aa476e8597-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:53:49.964626+00:00",
+        "material_id": "2a2358977afd4c46acb5c5aa476e8597",
+        "polygon": [
+          [
+            26.0,
+            104.0
+          ],
+          [
+            785.0,
+            105.0
+          ],
+          [
+            785.0,
+            139.0
+          ],
+          [
+            26.0,
+            138.0
+          ]
+        ],
+        "confidence": 0.9854720234870911
+      },
+      {
+        "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e5",
+        "quote": "DЕМО. Доступны два равноправных входа для новых участников.\nPeгистрируйся чеpeз https://ka1020a22ab.test/card/ed9990?ref=T9BC0232\nили https://kcfd5586c55.test/13b5baa; предложение одинаковое.",
+        "source_id": "2a2358977afd4c46acb5c5aa476e8597-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:53:50.059141+00:00",
+        "material_id": "2a2358977afd4c46acb5c5aa476e8597"
+      },
+      {
+        "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e6",
+        "quote": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+        "source_id": "2a2358977afd4c46acb5c5aa476e8597-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:53:50.059141+00:00",
+        "material_id": "2a2358977afd4c46acb5c5aa476e8597"
+      },
+      {
+        "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e7",
+        "quote": "https://kcfd5586c55.test/13b5baa",
+        "source_id": "2a2358977afd4c46acb5c5aa476e8597-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:53:50.059141+00:00",
+        "material_id": "2a2358977afd4c46acb5c5aa476e8597"
+      },
+      {
+        "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e8",
+        "quote": "Казино для участников Слоты, рулетка и денежные ставки. Пополнение депозитом.",
+        "source_id": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:53:50.060142+00:00",
+        "url": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e9",
+        "quote": "Казино",
+        "source_id": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+        "method": "local_rule",
+        "at": "2026-10-21T20:53:50.060142+00:00",
+        "start": 0,
+        "end": 6,
+        "url": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232"
+      },
+      {
+        "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e10",
+        "quote": "Слоты",
+        "source_id": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+        "method": "local_rule",
+        "at": "2026-10-21T20:53:50.060142+00:00",
+        "start": 22,
+        "end": 27,
+        "url": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232"
+      },
+      {
+        "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e11",
+        "quote": "рулетка",
+        "source_id": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+        "method": "local_rule",
+        "at": "2026-10-21T20:53:50.060142+00:00",
+        "start": 29,
+        "end": 36,
+        "url": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232"
+      },
+      {
+        "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e12",
+        "quote": "Казино для участников Слоты, рулетка и денежные ставки. Пополнение депозитом.",
+        "source_id": "https://kcfd5586c55.test/13b5baa",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:53:50.060142+00:00",
+        "url": "https://kcfd5586c55.test/13b5baa",
+        "status_code": 200,
+        "observation_id": "obs-1"
+      },
+      {
+        "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e13",
+        "quote": "Казино",
+        "source_id": "https://kcfd5586c55.test/13b5baa",
+        "method": "local_rule",
+        "at": "2026-10-21T20:53:50.061139+00:00",
+        "start": 0,
+        "end": 6,
+        "url": "https://kcfd5586c55.test/13b5baa"
+      },
+      {
+        "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e14",
+        "quote": "Слоты",
+        "source_id": "https://kcfd5586c55.test/13b5baa",
+        "method": "local_rule",
+        "at": "2026-10-21T20:53:50.061139+00:00",
+        "start": 22,
+        "end": 27,
+        "url": "https://kcfd5586c55.test/13b5baa"
+      },
+      {
+        "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e15",
+        "quote": "рулетка",
+        "source_id": "https://kcfd5586c55.test/13b5baa",
+        "method": "local_rule",
+        "at": "2026-10-21T20:53:50.061139+00:00",
+        "start": 29,
+        "end": 36,
+        "url": "https://kcfd5586c55.test/13b5baa"
+      },
+      {
+        "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e16",
+        "quote": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+        "source_id": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:53:50.061139+00:00",
+        "url": "https://ka1020a22ab.test/card/ed9990?ref=T9BC0232",
+        "relation": "contains_link"
+      },
+      {
+        "id": "bcbafa98f0f64d769dd3a59749d79148-ba4e8fb2d496-e17",
+        "quote": "https://kcfd5586c55.test/13b5baa",
+        "source_id": "https://kcfd5586c55.test/13b5baa",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:53:50.061139+00:00",
+        "url": "https://kcfd5586c55.test/13b5baa",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:53:50.061139+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [],
+    "version": "rules-4.0",
+    "weights": {
+      "version": "weights-4.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "2a2358977afd4c46acb5c5aa476e8597",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 3743.9
+}

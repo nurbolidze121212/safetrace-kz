@@ -1,0 +1,493 @@
+{
+  "id": "1c205802675241048543d812a6ee35a9",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:50:20.927538+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "DEMO. Магазин книг начисляет бонус за друга. Регистрируйся по партнёрской ссылке и получай скидку на бумажные издания: https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71",
+      "url": "",
+      "source": "DEMO · материал bfae13",
+      "published_at": null,
+      "image_id": null,
+      "id": "8d7bcc36c14c482d9017ff53ef021d8f",
+      "original_sha256": "2d9404ac8e8afd8a76d4d4a7f11f72920802e17b65463991d972c3dfc4eea99c",
+      "source_evidence_id": "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e1",
+      "normalized_text": "demo. магазин книг начисляет бонус за друга. регистрируйся по партнёрской ссылке и получай скидку на бумажные издания: https://k24f2aa6f19.test/access/b783bf?ref=te9f4b71",
+      "urls": [
+        "https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71"
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e4"
+      ],
+      "reachable_urls": [
+        "https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71"
+      ],
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-3.0",
+        "weights": {
+          "version": "weights-3.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "ru",
+        "context": "promotion",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "Регистрируйся",
+            "source_id": "8d7bcc36c14c482d9017ff53ef021d8f",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 45,
+            "end": 58
+          },
+          {
+            "kind": "bonus",
+            "quote": "бонус",
+            "source_id": "8d7bcc36c14c482d9017ff53ef021d8f",
+            "explanation": "Упоминание бонуса или промокода.",
+            "start": 29,
+            "end": 34
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e1",
+      "quote": "DEMO · материал bfae13",
+      "source_id": "8d7bcc36c14c482d9017ff53ef021d8f",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:50:20.943546+00:00",
+      "material_id": "8d7bcc36c14c482d9017ff53ef021d8f",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e2",
+      "quote": "Регистрируйся",
+      "source_id": "8d7bcc36c14c482d9017ff53ef021d8f",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:20.943546+00:00",
+      "start": 45,
+      "end": 58,
+      "material_id": "8d7bcc36c14c482d9017ff53ef021d8f"
+    },
+    {
+      "id": "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e3",
+      "quote": "бонус",
+      "source_id": "8d7bcc36c14c482d9017ff53ef021d8f",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:20.943546+00:00",
+      "start": 29,
+      "end": 34,
+      "material_id": "8d7bcc36c14c482d9017ff53ef021d8f"
+    },
+    {
+      "id": "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e4",
+      "quote": "DEMO. Магазин книг начисляет бонус за друга. Регистрируйся по партнёрской ссылке и получай скидку на бумажные издания: https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71",
+      "source_id": "8d7bcc36c14c482d9017ff53ef021d8f",
+      "method": "source_text",
+      "at": "2026-10-21T20:50:20.943546+00:00",
+      "material_id": "8d7bcc36c14c482d9017ff53ef021d8f"
+    },
+    {
+      "id": "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e5",
+      "quote": "https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71",
+      "source_id": "8d7bcc36c14c482d9017ff53ef021d8f",
+      "method": "source_text",
+      "at": "2026-10-21T20:50:20.943546+00:00",
+      "material_id": "8d7bcc36c14c482d9017ff53ef021d8f"
+    },
+    {
+      "id": "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e6",
+      "quote": "Каталог Книги, инструменты и велосипеды. Обычная скидка на товар по партнёрской ссылке.",
+      "source_id": "https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:50:20.944542+00:00",
+      "url": "https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e7",
+      "quote": "https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71",
+      "source_id": "https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:50:20.944542+00:00",
+      "url": "https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71",
+        "at": "2026-10-21T20:50:20.943546+00:00",
+        "status_code": 200,
+        "text": "Каталог Книги, инструменты и велосипеды. Обычная скидка на товар по партнёрской ссылке.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:50:20.943546+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "f30f9491c64bbc50f5f929b2fa18b60d32a0dfcd3f132d657be093e741eb988b",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71",
+        "evidence_id": "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e6",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71",
+        "type": "contains_link",
+        "quote": "https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:50:20.943546+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e7"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-3.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.1"
+  },
+  "identifiers": [
+    {
+      "domain": "k24f2aa6f19.test",
+      "parameter": "ref",
+      "value": "TE9F4B71",
+      "scope": "k24f2aa6f19.test|/access/b783bf|ref|TE9F4B71",
+      "url": "https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71",
+      "material_id": "8d7bcc36c14c482d9017ff53ef021d8f",
+      "evidence_id": "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e6"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:50:20.943546+00:00",
+  "analysis_id": "c3d71ef02c59",
+  "context": {
+    "language": "ru",
+    "context": "promotion",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "Регистрируйся",
+        "source_id": "8d7bcc36c14c482d9017ff53ef021d8f",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 45,
+        "end": 58
+      },
+      {
+        "kind": "bonus",
+        "quote": "бонус",
+        "source_id": "8d7bcc36c14c482d9017ff53ef021d8f",
+        "explanation": "Упоминание бонуса или промокода.",
+        "start": 29,
+        "end": 34
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "Регистрируйся",
+      "source_id": "8d7bcc36c14c482d9017ff53ef021d8f",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 45,
+      "end": 58,
+      "evidence_id": "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e2"
+    },
+    {
+      "kind": "bonus",
+      "quote": "бонус",
+      "source_id": "8d7bcc36c14c482d9017ff53ef021d8f",
+      "explanation": "Упоминание бонуса или промокода.",
+      "start": 29,
+      "end": 34,
+      "evidence_id": "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e3"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-5662228302d50d86",
+        "type": "material",
+        "label": "DEMO · материал bfae13",
+        "evidence_ids": [
+          "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e1"
+        ],
+        "case_id": "1c205802675241048543d812a6ee35a9",
+        "material_id": "8d7bcc36c14c482d9017ff53ef021d8f"
+      },
+      {
+        "id": "source-e28a0c3f0d7c1105",
+        "type": "source",
+        "label": "DEMO · материал bfae13",
+        "evidence_ids": [
+          "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e1"
+        ]
+      },
+      {
+        "id": "url-04a821d102a7dbe6",
+        "type": "url",
+        "label": "https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71",
+        "evidence_ids": [
+          "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e5",
+          "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e6"
+        ]
+      },
+      {
+        "id": "observation-a70ba7d0bb308e8f",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e6"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-3d7e4f911de1cc7e",
+        "type": "domain",
+        "label": "k24f2aa6f19.test",
+        "evidence_ids": [
+          "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e6"
+        ]
+      },
+      {
+        "id": "identifier-ae1326714fe5cea1",
+        "type": "identifier",
+        "label": "ref=TE9F4B71",
+        "evidence_ids": [
+          "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e6"
+        ],
+        "scope": "k24f2aa6f19.test|/access/b783bf|ref|TE9F4B71"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-ab61fdf0b9f0d67ea6",
+        "source": "source-e28a0c3f0d7c1105",
+        "target": "material-5662228302d50d86",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e1"
+        ],
+        "at": "2026-10-21T20:50:20.943546+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-c725d2e83412fc5b8c",
+        "source": "material-5662228302d50d86",
+        "target": "url-04a821d102a7dbe6",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e5"
+        ],
+        "at": "2026-10-21T20:50:20.943546+00:00",
+        "method": "source_text",
+        "status": "observed"
+      },
+      {
+        "id": "edge-7109e1474838a31c67",
+        "source": "url-04a821d102a7dbe6",
+        "target": "observation-a70ba7d0bb308e8f",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e6"
+        ],
+        "at": "2026-10-21T20:50:20.943546+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-cdcfdb0b81682b53bb",
+        "source": "url-04a821d102a7dbe6",
+        "target": "domain-3d7e4f911de1cc7e",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e6"
+        ],
+        "at": "2026-10-21T20:50:20.943546+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-fc41f7a8a88bad336a",
+        "source": "url-04a821d102a7dbe6",
+        "target": "identifier-ae1326714fe5cea1",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e6"
+        ],
+        "at": "2026-10-21T20:50:20.943546+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e1",
+        "quote": "DEMO · материал bfae13",
+        "source_id": "8d7bcc36c14c482d9017ff53ef021d8f",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:50:20.943546+00:00",
+        "material_id": "8d7bcc36c14c482d9017ff53ef021d8f",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e2",
+        "quote": "Регистрируйся",
+        "source_id": "8d7bcc36c14c482d9017ff53ef021d8f",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:20.943546+00:00",
+        "start": 45,
+        "end": 58,
+        "material_id": "8d7bcc36c14c482d9017ff53ef021d8f"
+      },
+      {
+        "id": "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e3",
+        "quote": "бонус",
+        "source_id": "8d7bcc36c14c482d9017ff53ef021d8f",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:20.943546+00:00",
+        "start": 29,
+        "end": 34,
+        "material_id": "8d7bcc36c14c482d9017ff53ef021d8f"
+      },
+      {
+        "id": "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e4",
+        "quote": "DEMO. Магазин книг начисляет бонус за друга. Регистрируйся по партнёрской ссылке и получай скидку на бумажные издания: https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71",
+        "source_id": "8d7bcc36c14c482d9017ff53ef021d8f",
+        "method": "source_text",
+        "at": "2026-10-21T20:50:20.943546+00:00",
+        "material_id": "8d7bcc36c14c482d9017ff53ef021d8f"
+      },
+      {
+        "id": "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e5",
+        "quote": "https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71",
+        "source_id": "8d7bcc36c14c482d9017ff53ef021d8f",
+        "method": "source_text",
+        "at": "2026-10-21T20:50:20.943546+00:00",
+        "material_id": "8d7bcc36c14c482d9017ff53ef021d8f"
+      },
+      {
+        "id": "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e6",
+        "quote": "Каталог Книги, инструменты и велосипеды. Обычная скидка на товар по партнёрской ссылке.",
+        "source_id": "https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:50:20.944542+00:00",
+        "url": "https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "1c205802675241048543d812a6ee35a9-c3d71ef02c59-e7",
+        "quote": "https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71",
+        "source_id": "https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:50:20.944542+00:00",
+        "url": "https://k24f2aa6f19.test/access/b783bf?ref=TE9F4B71",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:50:20.944542+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [],
+    "version": "rules-3.0",
+    "weights": {
+      "version": "weights-3.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "8d7bcc36c14c482d9017ff53ef021d8f",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 1.7
+}

@@ -39,6 +39,7 @@ METHODS = {
     "source_text": "Исходный текст",
     "user_supplied": "Заявлено при импорте",
     "ocr": "OCR",
+    "manual_correction": "Уточнение аналитика",
     "qr_decode": "Декодирование QR",
     "source_extraction": "Извлечено из материала",
     "url_parser": "Разбор URL",
@@ -149,11 +150,36 @@ def render(report):
     ]
     if report.get("status") in ("pending", "running") and score:
         body.append("<p class='notice'>Показан предыдущий индекс. Новый анализ еще не завершен.</p>")
+    if report.get("analysis_assisted"):
+        body.append(
+            "<p class='notice'>Анализ с ручным уточнением адреса. Первичный автоматический результат сохранён в истории; это уточнение не включается в автоматические метрики качества.</p>"
+        )
     if winner:
         body.append(
             f"<p>Индекс определяется <a href='#material-{winner}'>материалом {winner}: {esc(materials[winner - 1]['source'])}</a>.</p>"
         )
     body.append("</section><section id='causes'><h2>Основания приоритета</h2>")
+    if history := report.get("history"):
+        body.append(
+            "<h3>Предыдущие анализы</h3>"
+            + table(
+                ["Начало", "Статус", "Индекс / полнота", "Участие аналитика"],
+                [
+                    (
+                        esc(item.get("at")),
+                        label(STATUSES, item.get("status")),
+                        priority(item),
+                        "Ручное уточнение адреса"
+                        if item.get("analysis_assisted")
+                        else "Автоматический анализ",
+                    )
+                    for item in history
+                ],
+            )
+        )
+        body.append(
+            "<p>Полные сохранённые материалы, основания и этапы предыдущих анализов находятся в history файла case.json. Незавершённый индекс не считается нулевым.</p>"
+        )
     contributions = score.get("contributions", [])
     body.append(
         table(
@@ -197,6 +223,71 @@ def render(report):
         if ocr := material.get("ocr"):
             body.append(
                 f"<h4>Распознанный текст</h4>{quote_block(ocr.get('text'))}<p class='muted'>Модель: {esc(ocr.get('model'))}. Координаты и оценки строк сохранены в JSON.</p>"
+            )
+        if material.get("duplicate_of"):
+            body.append(
+                "<p class='notice'>Содержание совпадает с другим материалом случая; копия не считается независимым подтверждением.</p>"
+            )
+        if readings := material.get("url_reviews"):
+            body.append(
+                "<h4>Сверка OCR-адресов</h4>"
+                + table(
+                    ["Первичное чтение", "Использованный адрес / состояние", "Источники"],
+                    [
+                        (
+                            esc(r["raw_url"]),
+                            esc(r.get("selected_url") or "Не открывался: требуется сверка")
+                            + ("<br>Уточнение аналитика" if r.get("correction_id") else ""),
+                            refs(
+                                r.get("source_evidence_ids", [])
+                                + ([r["selected_evidence_id"]] if r.get("selected_evidence_id") else [])
+                            ),
+                        )
+                        for r in readings
+                    ],
+                )
+            )
+        if corrections := material.get("url_corrections"):
+            body.append(
+                "<h4>История уточнений адресов</h4>"
+                + table(
+                    ["Время", "Первичный адрес → уточнение", "Комментарий"],
+                    [
+                        (
+                            esc(c["at"]),
+                            esc(c["original_url"]) + " → " + esc(c["corrected_url"]),
+                            esc(c["comment"]),
+                        )
+                        for c in corrections
+                    ],
+                )
+            )
+        if bindings := material.get("call_bindings"):
+            body.append(
+                "<h4>Призыв и конкретная ветвь назначения</h4>"
+                + table(
+                    ["Призыв", "Адрес / область", "Основания"],
+                    [
+                        (
+                            esc(b["quote"]),
+                            esc(b.get("root_url") or "Адрес не определён")
+                            + (
+                                "<br>Предположение по единственному адресу материала"
+                                if b["method"] == "single_material_target"
+                                else ""
+                            ),
+                            refs(
+                                [
+                                    b["call_evidence_id"],
+                                    *b["root_evidence_ids"],
+                                    *b["route_evidence_ids"],
+                                    *b["destination_evidence_ids"],
+                                ]
+                            ),
+                        )
+                        for b in bindings
+                    ],
+                )
             )
         if codes := material.get("qr", {}).get("codes"):
             body.append(

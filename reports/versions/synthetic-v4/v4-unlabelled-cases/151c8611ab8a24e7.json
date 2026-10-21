@@ -1,0 +1,479 @@
+{
+  "id": "30b5ebf1087f42d492af22ba60dcaa99",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:57:28.073929+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "DEMO. Дәрігерге жазылу уақыты ашылды. Қабылдау кестесіне тіркеліңіз, төлем кассада ғана жасалады: https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+      "url": "",
+      "source": "DEMO · материал 151c86",
+      "published_at": null,
+      "image_id": null,
+      "id": "46ab8143d9984740858f116c14bf33be",
+      "original_sha256": "c53370f5d24f41640853d8baf899fa6571c61060de0dec9ad55f0a038e892c51",
+      "source_evidence_id": "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e1",
+      "normalized_text": "demo. дәрігерге жазылу уақыты ашылды. қабылдау кестесіне тіркеліңіз, төлем кассада ғана жасалады: https://k22090be09b.test/visit/d6145e?ref=tffc480a",
+      "urls": [
+        "https://k22090be09b.test/visit/d6145e?ref=TFFC480A"
+      ],
+      "url_reviews": [],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e3"
+      ],
+      "content_fingerprint": "bc6e03a8c792c1c72aa560bf86e6b01384aa2a86f9cdd56e2241187ba94ca06c",
+      "reachable_urls": [
+        "https://k22090be09b.test/visit/d6145e?ref=TFFC480A"
+      ],
+      "call_bindings": [
+        {
+          "call_evidence_id": "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e2",
+          "source_id": "46ab8143d9984740858f116c14bf33be",
+          "start": 57,
+          "end": 67,
+          "quote": "тіркеліңіз",
+          "scope_start": 37,
+          "scope_end": 148,
+          "method": "same_clause",
+          "status": "bound",
+          "candidate_urls": [
+            "https://k22090be09b.test/visit/d6145e?ref=TFFC480A"
+          ],
+          "root_url": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+          "root_evidence_ids": [
+            "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e4"
+          ],
+          "route_evidence_ids": [
+            "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e5"
+          ],
+          "destination_evidence_ids": [],
+          "reachable_urls": [
+            "https://k22090be09b.test/visit/d6145e?ref=TFFC480A"
+          ]
+        }
+      ],
+      "attribution_incomplete": false,
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "kk",
+        "context": "affiliate",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "тіркеліңіз",
+            "source_id": "46ab8143d9984740858f116c14bf33be",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 57,
+            "end": 67
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e1",
+      "quote": "DEMO · материал 151c86",
+      "source_id": "46ab8143d9984740858f116c14bf33be",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:57:28.091932+00:00",
+      "material_id": "46ab8143d9984740858f116c14bf33be",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e2",
+      "quote": "тіркеліңіз",
+      "source_id": "46ab8143d9984740858f116c14bf33be",
+      "method": "local_rule",
+      "at": "2026-10-21T20:57:28.092932+00:00",
+      "start": 57,
+      "end": 67,
+      "material_id": "46ab8143d9984740858f116c14bf33be"
+    },
+    {
+      "id": "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e3",
+      "quote": "DEMO. Дәрігерге жазылу уақыты ашылды. Қабылдау кестесіне тіркеліңіз, төлем кассада ғана жасалады: https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+      "source_id": "46ab8143d9984740858f116c14bf33be",
+      "method": "source_text",
+      "at": "2026-10-21T20:57:28.092932+00:00",
+      "material_id": "46ab8143d9984740858f116c14bf33be"
+    },
+    {
+      "id": "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e4",
+      "quote": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+      "source_id": "46ab8143d9984740858f116c14bf33be",
+      "method": "source_text",
+      "at": "2026-10-21T20:57:28.092932+00:00",
+      "material_id": "46ab8143d9984740858f116c14bf33be"
+    },
+    {
+      "id": "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e5",
+      "quote": "Каталог Книги, инструменты и велосипеды. Обычная скидка на товар по партнёрской ссылке.",
+      "source_id": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:57:28.093934+00:00",
+      "url": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e6",
+      "quote": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+      "source_id": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:57:28.093934+00:00",
+      "url": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "at": "2026-10-21T20:57:28.092932+00:00",
+        "status_code": 200,
+        "text": "Каталог Книги, инструменты и велосипеды. Обычная скидка на товар по партнёрской ссылке.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:57:28.092932+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "f30f9491c64bbc50f5f929b2fa18b60d32a0dfcd3f132d657be093e741eb988b",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "evidence_id": "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e5",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "type": "contains_link",
+        "quote": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:57:28.092932+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e6"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "analysis_assisted": false,
+  "identifiers": [
+    {
+      "domain": "k22090be09b.test",
+      "parameter": "ref",
+      "value": "TFFC480A",
+      "scope": "k22090be09b.test|/visit/d6145e|ref|TFFC480A",
+      "url": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+      "material_id": "46ab8143d9984740858f116c14bf33be",
+      "evidence_id": "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e5"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:57:28.091932+00:00",
+  "analysis_id": "4b5d824bb359",
+  "context": {
+    "language": "kk",
+    "context": "affiliate",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "тіркеліңіз",
+        "source_id": "46ab8143d9984740858f116c14bf33be",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 57,
+        "end": 67
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "тіркеліңіз",
+      "source_id": "46ab8143d9984740858f116c14bf33be",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 57,
+      "end": 67,
+      "evidence_id": "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e2"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-2d2571fb0f1af838",
+        "type": "material",
+        "label": "DEMO · материал 151c86",
+        "evidence_ids": [
+          "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e1"
+        ],
+        "case_id": "30b5ebf1087f42d492af22ba60dcaa99",
+        "material_id": "46ab8143d9984740858f116c14bf33be"
+      },
+      {
+        "id": "source-fa42b4d703ab2a44",
+        "type": "source",
+        "label": "DEMO · материал 151c86",
+        "evidence_ids": [
+          "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e1"
+        ]
+      },
+      {
+        "id": "url-d535338b9a385dac",
+        "type": "url",
+        "label": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "evidence_ids": [
+          "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e4",
+          "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e5"
+        ]
+      },
+      {
+        "id": "observation-febf3791925d9479",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e5"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-3cba0aa641bce5a9",
+        "type": "domain",
+        "label": "k22090be09b.test",
+        "evidence_ids": [
+          "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e5"
+        ]
+      },
+      {
+        "id": "identifier-f1f97af7c8789ce0",
+        "type": "identifier",
+        "label": "ref=TFFC480A",
+        "evidence_ids": [
+          "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e5"
+        ],
+        "scope": "k22090be09b.test|/visit/d6145e|ref|TFFC480A"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-e5d4d510d5bc182935",
+        "source": "source-fa42b4d703ab2a44",
+        "target": "material-2d2571fb0f1af838",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e1"
+        ],
+        "at": "2026-10-21T20:57:28.091932+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-48caf7fd7222d1eba5",
+        "source": "material-2d2571fb0f1af838",
+        "target": "url-d535338b9a385dac",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e4"
+        ],
+        "at": "2026-10-21T20:57:28.091932+00:00",
+        "method": "source_text",
+        "status": "observed"
+      },
+      {
+        "id": "edge-e61a10d582385575da",
+        "source": "url-d535338b9a385dac",
+        "target": "observation-febf3791925d9479",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e5"
+        ],
+        "at": "2026-10-21T20:57:28.091932+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-9a8ab06bf68183271f",
+        "source": "url-d535338b9a385dac",
+        "target": "domain-3cba0aa641bce5a9",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e5"
+        ],
+        "at": "2026-10-21T20:57:28.091932+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-fc85c509d3586eb9f5",
+        "source": "url-d535338b9a385dac",
+        "target": "identifier-f1f97af7c8789ce0",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e5"
+        ],
+        "at": "2026-10-21T20:57:28.091932+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e1",
+        "quote": "DEMO · материал 151c86",
+        "source_id": "46ab8143d9984740858f116c14bf33be",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:57:28.091932+00:00",
+        "material_id": "46ab8143d9984740858f116c14bf33be",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e2",
+        "quote": "тіркеліңіз",
+        "source_id": "46ab8143d9984740858f116c14bf33be",
+        "method": "local_rule",
+        "at": "2026-10-21T20:57:28.092932+00:00",
+        "start": 57,
+        "end": 67,
+        "material_id": "46ab8143d9984740858f116c14bf33be"
+      },
+      {
+        "id": "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e3",
+        "quote": "DEMO. Дәрігерге жазылу уақыты ашылды. Қабылдау кестесіне тіркеліңіз, төлем кассада ғана жасалады: https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "source_id": "46ab8143d9984740858f116c14bf33be",
+        "method": "source_text",
+        "at": "2026-10-21T20:57:28.092932+00:00",
+        "material_id": "46ab8143d9984740858f116c14bf33be"
+      },
+      {
+        "id": "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e4",
+        "quote": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "source_id": "46ab8143d9984740858f116c14bf33be",
+        "method": "source_text",
+        "at": "2026-10-21T20:57:28.092932+00:00",
+        "material_id": "46ab8143d9984740858f116c14bf33be"
+      },
+      {
+        "id": "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e5",
+        "quote": "Каталог Книги, инструменты и велосипеды. Обычная скидка на товар по партнёрской ссылке.",
+        "source_id": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:57:28.093934+00:00",
+        "url": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "30b5ebf1087f42d492af22ba60dcaa99-4b5d824bb359-e6",
+        "quote": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "source_id": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:57:28.093934+00:00",
+        "url": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:57:28.093934+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [],
+    "version": "rules-4.0",
+    "weights": {
+      "version": "weights-4.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "46ab8143d9984740858f116c14bf33be",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 2.3
+}

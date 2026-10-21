@@ -1,0 +1,565 @@
+{
+  "id": "e764bd2cfaa34639b89f2327e50c1988",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:54:19.460296+00:00",
+  "status": "partial",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "DEMO. Ostavili neskolko mest dlya novichkov. Perehodi po lichnomu priglasheniyu, zabirai bonus: https://k835cf86b25.test/card/035458?ref=T7E5E653",
+      "url": "",
+      "source": "DEMO · материал 75e4f4",
+      "published_at": null,
+      "image_id": null,
+      "id": "d3bfb477b3f642788c7237ab6764e048",
+      "original_sha256": "086fb7f01f09fc82a2a38cc3dbc9e374ab6cddbf9286b44a590477b4ea289b80",
+      "source_evidence_id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e1",
+      "normalized_text": "demo. ostavili neskolko mest dlya novichkov. perehodi po lichnomu priglasheniyu, zabirai bonus: https://k835cf86b25.test/card/035458?ref=t7e5e653",
+      "urls": [
+        "https://k835cf86b25.test/card/035458?ref=T7E5E653"
+      ],
+      "url_reviews": [],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e5"
+      ],
+      "content_fingerprint": "b4ed02a57a176874d34b3419fd26dd65373226b6bbc037b9eeb4addc311b56ac",
+      "reachable_urls": [
+        "https://k835cf86b25.test/card/035458?ref=T7E5E653"
+      ],
+      "call_bindings": [
+        {
+          "call_evidence_id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e2",
+          "source_id": "d3bfb477b3f642788c7237ab6764e048",
+          "start": 45,
+          "end": 53,
+          "quote": "Perehodi",
+          "scope_start": 44,
+          "scope_end": 145,
+          "method": "same_clause",
+          "status": "bound",
+          "candidate_urls": [
+            "https://k835cf86b25.test/card/035458?ref=T7E5E653"
+          ],
+          "root_url": "https://k835cf86b25.test/card/035458?ref=T7E5E653",
+          "root_evidence_ids": [
+            "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e6"
+          ],
+          "route_evidence_ids": [
+            "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e7"
+          ],
+          "destination_evidence_ids": [],
+          "reachable_urls": [
+            "https://k835cf86b25.test/card/035458?ref=T7E5E653"
+          ]
+        },
+        {
+          "call_evidence_id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e4",
+          "source_id": "d3bfb477b3f642788c7237ab6764e048",
+          "start": 81,
+          "end": 88,
+          "quote": "zabirai",
+          "scope_start": 44,
+          "scope_end": 145,
+          "method": "same_clause",
+          "status": "bound",
+          "candidate_urls": [
+            "https://k835cf86b25.test/card/035458?ref=T7E5E653"
+          ],
+          "root_url": "https://k835cf86b25.test/card/035458?ref=T7E5E653",
+          "root_evidence_ids": [
+            "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e6"
+          ],
+          "route_evidence_ids": [
+            "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e7"
+          ],
+          "destination_evidence_ids": [],
+          "reachable_urls": [
+            "https://k835cf86b25.test/card/035458?ref=T7E5E653"
+          ]
+        }
+      ],
+      "attribution_incomplete": false,
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "other",
+        "context": "promotion",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "Perehodi",
+            "source_id": "d3bfb477b3f642788c7237ab6764e048",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 45,
+            "end": 53
+          },
+          {
+            "kind": "bonus",
+            "quote": "bonus",
+            "source_id": "d3bfb477b3f642788c7237ab6764e048",
+            "explanation": "Упоминание бонуса или промокода.",
+            "start": 89,
+            "end": 94
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "zabirai",
+            "source_id": "d3bfb477b3f642788c7237ab6764e048",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 81,
+            "end": 88
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": false
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "partial",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e1",
+      "quote": "DEMO · материал 75e4f4",
+      "source_id": "d3bfb477b3f642788c7237ab6764e048",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:54:19.477295+00:00",
+      "material_id": "d3bfb477b3f642788c7237ab6764e048",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e2",
+      "quote": "Perehodi",
+      "source_id": "d3bfb477b3f642788c7237ab6764e048",
+      "method": "local_rule",
+      "at": "2026-10-21T20:54:19.477295+00:00",
+      "start": 45,
+      "end": 53,
+      "material_id": "d3bfb477b3f642788c7237ab6764e048"
+    },
+    {
+      "id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e3",
+      "quote": "bonus",
+      "source_id": "d3bfb477b3f642788c7237ab6764e048",
+      "method": "local_rule",
+      "at": "2026-10-21T20:54:19.477295+00:00",
+      "start": 89,
+      "end": 94,
+      "material_id": "d3bfb477b3f642788c7237ab6764e048"
+    },
+    {
+      "id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e4",
+      "quote": "zabirai",
+      "source_id": "d3bfb477b3f642788c7237ab6764e048",
+      "method": "local_rule",
+      "at": "2026-10-21T20:54:19.477295+00:00",
+      "start": 81,
+      "end": 88,
+      "material_id": "d3bfb477b3f642788c7237ab6764e048"
+    },
+    {
+      "id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e5",
+      "quote": "DEMO. Ostavili neskolko mest dlya novichkov. Perehodi po lichnomu priglasheniyu, zabirai bonus: https://k835cf86b25.test/card/035458?ref=T7E5E653",
+      "source_id": "d3bfb477b3f642788c7237ab6764e048",
+      "method": "source_text",
+      "at": "2026-10-21T20:54:19.477295+00:00",
+      "material_id": "d3bfb477b3f642788c7237ab6764e048"
+    },
+    {
+      "id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e6",
+      "quote": "https://k835cf86b25.test/card/035458?ref=T7E5E653",
+      "source_id": "d3bfb477b3f642788c7237ab6764e048",
+      "method": "source_text",
+      "at": "2026-10-21T20:54:19.477295+00:00",
+      "material_id": "d3bfb477b3f642788c7237ab6764e048"
+    },
+    {
+      "id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e7",
+      "quote": "Синтетический стенд: адрес не найден",
+      "source_id": "https://k835cf86b25.test/card/035458?ref=T7E5E653",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:54:19.477295+00:00",
+      "url": "https://k835cf86b25.test/card/035458?ref=T7E5E653",
+      "status_code": null,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e8",
+      "quote": "https://k835cf86b25.test/card/035458?ref=T7E5E653",
+      "source_id": "https://k835cf86b25.test/card/035458?ref=T7E5E653",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:54:19.477295+00:00",
+      "url": "https://k835cf86b25.test/card/035458?ref=T7E5E653",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://k835cf86b25.test/card/035458?ref=T7E5E653",
+        "at": "2026-10-21T20:54:19.477295+00:00",
+        "status_code": null,
+        "text": "",
+        "stop": "Синтетический стенд: адрес не найден",
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [],
+        "evidence_id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e7"
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://k835cf86b25.test/card/035458?ref=T7E5E653",
+        "type": "contains_link",
+        "quote": "https://k835cf86b25.test/card/035458?ref=T7E5E653",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:54:19.477295+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e8"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+    "Непроверенный участок: Синтетический стенд: адрес не найден",
+    "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "analysis_assisted": false,
+  "identifiers": [],
+  "analyzed_at": "2026-10-21T20:54:19.477295+00:00",
+  "analysis_id": "c39d130621ce",
+  "context": {
+    "language": "other",
+    "context": "promotion",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "Perehodi",
+        "source_id": "d3bfb477b3f642788c7237ab6764e048",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 45,
+        "end": 53
+      },
+      {
+        "kind": "bonus",
+        "quote": "bonus",
+        "source_id": "d3bfb477b3f642788c7237ab6764e048",
+        "explanation": "Упоминание бонуса или промокода.",
+        "start": 89,
+        "end": 94
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "zabirai",
+        "source_id": "d3bfb477b3f642788c7237ab6764e048",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 81,
+        "end": 88
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "Perehodi",
+      "source_id": "d3bfb477b3f642788c7237ab6764e048",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 45,
+      "end": 53,
+      "evidence_id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e2"
+    },
+    {
+      "kind": "bonus",
+      "quote": "bonus",
+      "source_id": "d3bfb477b3f642788c7237ab6764e048",
+      "explanation": "Упоминание бонуса или промокода.",
+      "start": 89,
+      "end": 94,
+      "evidence_id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e3"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "zabirai",
+      "source_id": "d3bfb477b3f642788c7237ab6764e048",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 81,
+      "end": 88,
+      "evidence_id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e4"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-32c982ad51c1ffb6",
+        "type": "material",
+        "label": "DEMO · материал 75e4f4",
+        "evidence_ids": [
+          "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e1"
+        ],
+        "case_id": "e764bd2cfaa34639b89f2327e50c1988",
+        "material_id": "d3bfb477b3f642788c7237ab6764e048"
+      },
+      {
+        "id": "source-4cdddb2ab0dd3ab6",
+        "type": "source",
+        "label": "DEMO · материал 75e4f4",
+        "evidence_ids": [
+          "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e1"
+        ]
+      },
+      {
+        "id": "url-6bb652aa77470ff9",
+        "type": "url",
+        "label": "https://k835cf86b25.test/card/035458?ref=T7E5E653",
+        "evidence_ids": [
+          "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e6",
+          "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e7"
+        ]
+      },
+      {
+        "id": "observation-7ece6a0fb12a30a9",
+        "type": "observation",
+        "label": "Разрыв маршрута",
+        "evidence_ids": [
+          "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e7"
+        ],
+        "stopped": true
+      },
+      {
+        "id": "domain-f40309487f368a93",
+        "type": "domain",
+        "label": "k835cf86b25.test",
+        "evidence_ids": [
+          "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e7"
+        ]
+      },
+      {
+        "id": "identifier-0d6e876350687120",
+        "type": "identifier",
+        "label": "ref=T7E5E653",
+        "evidence_ids": [
+          "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e7"
+        ],
+        "scope": "k835cf86b25.test|/card/035458|ref|T7E5E653"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-0c279c953adb36d58c",
+        "source": "source-4cdddb2ab0dd3ab6",
+        "target": "material-32c982ad51c1ffb6",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e1"
+        ],
+        "at": "2026-10-21T20:54:19.477295+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-068a6f0bbecfdbe492",
+        "source": "material-32c982ad51c1ffb6",
+        "target": "url-6bb652aa77470ff9",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e6"
+        ],
+        "at": "2026-10-21T20:54:19.477295+00:00",
+        "method": "source_text",
+        "status": "observed"
+      },
+      {
+        "id": "edge-61444d8381d439fef5",
+        "source": "url-6bb652aa77470ff9",
+        "target": "observation-7ece6a0fb12a30a9",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e7"
+        ],
+        "at": "2026-10-21T20:54:19.477295+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-edd3d8852df3bc7761",
+        "source": "url-6bb652aa77470ff9",
+        "target": "domain-f40309487f368a93",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e7"
+        ],
+        "at": "2026-10-21T20:54:19.477295+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-d0f942bcd4f0785db7",
+        "source": "url-6bb652aa77470ff9",
+        "target": "identifier-0d6e876350687120",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e7"
+        ],
+        "at": "2026-10-21T20:54:19.477295+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e1",
+        "quote": "DEMO · материал 75e4f4",
+        "source_id": "d3bfb477b3f642788c7237ab6764e048",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:54:19.477295+00:00",
+        "material_id": "d3bfb477b3f642788c7237ab6764e048",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e2",
+        "quote": "Perehodi",
+        "source_id": "d3bfb477b3f642788c7237ab6764e048",
+        "method": "local_rule",
+        "at": "2026-10-21T20:54:19.477295+00:00",
+        "start": 45,
+        "end": 53,
+        "material_id": "d3bfb477b3f642788c7237ab6764e048"
+      },
+      {
+        "id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e3",
+        "quote": "bonus",
+        "source_id": "d3bfb477b3f642788c7237ab6764e048",
+        "method": "local_rule",
+        "at": "2026-10-21T20:54:19.477295+00:00",
+        "start": 89,
+        "end": 94,
+        "material_id": "d3bfb477b3f642788c7237ab6764e048"
+      },
+      {
+        "id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e4",
+        "quote": "zabirai",
+        "source_id": "d3bfb477b3f642788c7237ab6764e048",
+        "method": "local_rule",
+        "at": "2026-10-21T20:54:19.477295+00:00",
+        "start": 81,
+        "end": 88,
+        "material_id": "d3bfb477b3f642788c7237ab6764e048"
+      },
+      {
+        "id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e5",
+        "quote": "DEMO. Ostavili neskolko mest dlya novichkov. Perehodi po lichnomu priglasheniyu, zabirai bonus: https://k835cf86b25.test/card/035458?ref=T7E5E653",
+        "source_id": "d3bfb477b3f642788c7237ab6764e048",
+        "method": "source_text",
+        "at": "2026-10-21T20:54:19.477295+00:00",
+        "material_id": "d3bfb477b3f642788c7237ab6764e048"
+      },
+      {
+        "id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e6",
+        "quote": "https://k835cf86b25.test/card/035458?ref=T7E5E653",
+        "source_id": "d3bfb477b3f642788c7237ab6764e048",
+        "method": "source_text",
+        "at": "2026-10-21T20:54:19.477295+00:00",
+        "material_id": "d3bfb477b3f642788c7237ab6764e048"
+      },
+      {
+        "id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e7",
+        "quote": "Синтетический стенд: адрес не найден",
+        "source_id": "https://k835cf86b25.test/card/035458?ref=T7E5E653",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:54:19.477295+00:00",
+        "url": "https://k835cf86b25.test/card/035458?ref=T7E5E653",
+        "status_code": null,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "e764bd2cfaa34639b89f2327e50c1988-c39d130621ce-e8",
+        "quote": "https://k835cf86b25.test/card/035458?ref=T7E5E653",
+        "source_id": "https://k835cf86b25.test/card/035458?ref=T7E5E653",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:54:19.477295+00:00",
+        "url": "https://k835cf86b25.test/card/035458?ref=T7E5E653",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:54:19.477295+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [],
+    "version": "rules-4.0",
+    "weights": {
+      "version": "weights-4.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "d3bfb477b3f642788c7237ab6764e048",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": false,
+  "elapsed_ms": 1.3
+}

@@ -1,0 +1,976 @@
+{
+  "id": "da71bdfda21445ccb14ab7f5d4b2cd64",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:49:25.257400+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "",
+      "url": "",
+      "source": "DEMO · материал 3189b6",
+      "published_at": null,
+      "image_id": "2e9f5a9f73fa81e3883f0608e8a9c174.png",
+      "id": "0c9cd872416a44bbaf3c1401b3996b53",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "2e9f5a9f73fa81e3883f0608e8a9c174df6abe965929fd22a18379ce15be3cf2",
+      "source_evidence_id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e1",
+      "normalized_text": "",
+      "ocr": {
+        "text": "DEМО. Қауіпсіздік хабарламасы. Не переходите к депозиту: это чужое\nказино, а не наш сервис. Проверяемый адрес\nhttps://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+        "lines": [
+          {
+            "text": "DEМО. Қауіпсіздік хабарламасы. Не переходите к депозиту: это чужое",
+            "confidence": 0.9861363768577576,
+            "polygon": [
+              [
+                28.0,
+                25.0
+              ],
+              [
+                877.0,
+                27.0
+              ],
+              [
+                877.0,
+                56.0
+              ],
+              [
+                28.0,
+                54.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DEМО."
+            ],
+            "evidence_id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e2"
+          },
+          {
+            "text": "казино, а не наш сервис. Проверяемый адрес",
+            "confidence": 0.9874097108840942,
+            "polygon": [
+              [
+                28.0,
+                69.0
+              ],
+              [
+                580.0,
+                69.0
+              ],
+              [
+                580.0,
+                95.0
+              ],
+              [
+                28.0,
+                95.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e3"
+          },
+          {
+            "text": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+            "confidence": 0.9938941597938538,
+            "polygon": [
+              [
+                29.0,
+                107.0
+              ],
+              [
+                629.0,
+                107.0
+              ],
+              [
+                629.0,
+                137.0
+              ],
+              [
+                29.0,
+                137.0
+              ]
+            ],
+            "segment_indices": [
+              2
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e4"
+          }
+        ],
+        "raw_text": "DEМО. Қауіпсіздік хабарламасы. Не переходите к депозиту: это чужое\nказино, а не наш сервис. Проверяемый адрес\nhttps://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+        "raw_lines": [
+          {
+            "text": "DEМО. Қауіпсіздік хабарламасы. Не переходите к депозиту: это чужое",
+            "confidence": 0.9861363768577576,
+            "polygon": [
+              [
+                28.0,
+                25.0
+              ],
+              [
+                877.0,
+                27.0
+              ],
+              [
+                877.0,
+                56.0
+              ],
+              [
+                28.0,
+                54.0
+              ]
+            ]
+          },
+          {
+            "text": "казино, а не наш сервис. Проверяемый адрес",
+            "confidence": 0.9874097108840942,
+            "polygon": [
+              [
+                28.0,
+                69.0
+              ],
+              [
+                580.0,
+                69.0
+              ],
+              [
+                580.0,
+                95.0
+              ],
+              [
+                28.0,
+                95.0
+              ]
+            ]
+          },
+          {
+            "text": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+            "confidence": 0.9938941597938538,
+            "polygon": [
+              [
+                29.0,
+                107.0
+              ],
+              [
+                629.0,
+                107.0
+              ],
+              [
+                629.0,
+                137.0
+              ],
+              [
+                29.0,
+                137.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 130,
+            "mean_confidence": 0.9889160880675683,
+            "score": 125.72951777979267,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1120,
+        "height": 189,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически."
+      },
+      "qr": {
+        "codes": [],
+        "width": 1120,
+        "height": 189,
+        "version": "qr-1.0",
+        "decoder": "OpenCV 4.10.0",
+        "cache_hit": false,
+        "elapsed_ms": 93.04,
+        "limitations": "До 8 QR-кодов, изображение до 1600 px по длинной стороне. Мелкие, поврежденные и составные QR могут не читаться. Декодирование не подтверждает безопасность адреса."
+      },
+      "urls": [
+        "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916"
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e7"
+      ],
+      "reachable_urls": [
+        "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916"
+      ],
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [
+          {
+            "key": "alternative_context",
+            "title": "Альтернативный контекст: предупреждение",
+            "weight": -65,
+            "evidence_ids": [
+              "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e6"
+            ]
+          }
+        ],
+        "version": "rules-3.0",
+        "weights": {
+          "version": "weights-3.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "mixed",
+        "context": "warning",
+        "claims": [
+          {
+            "kind": "gambling",
+            "quote": "казино",
+            "source_id": "0c9cd872416a44bbaf3c1401b3996b53-ocr",
+            "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+            "start": 67,
+            "end": 73
+          },
+          {
+            "kind": "warning",
+            "quote": "Не переходите",
+            "source_id": "0c9cd872416a44bbaf3c1401b3996b53-ocr",
+            "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+            "start": 31,
+            "end": 44
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e1",
+      "quote": "DEMO · материал 3189b6",
+      "source_id": "0c9cd872416a44bbaf3c1401b3996b53",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:49:25.274937+00:00",
+      "material_id": "0c9cd872416a44bbaf3c1401b3996b53",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e2",
+      "quote": "DEМО. Қауіпсіздік хабарламасы. Не переходите к депозиту: это чужое",
+      "source_id": "0c9cd872416a44bbaf3c1401b3996b53-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:49:29.287432+00:00",
+      "material_id": "0c9cd872416a44bbaf3c1401b3996b53",
+      "polygon": [
+        [
+          28.0,
+          25.0
+        ],
+        [
+          877.0,
+          27.0
+        ],
+        [
+          877.0,
+          56.0
+        ],
+        [
+          28.0,
+          54.0
+        ]
+      ],
+      "confidence": 0.9861363768577576
+    },
+    {
+      "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e3",
+      "quote": "казино, а не наш сервис. Проверяемый адрес",
+      "source_id": "0c9cd872416a44bbaf3c1401b3996b53-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:49:29.287432+00:00",
+      "material_id": "0c9cd872416a44bbaf3c1401b3996b53",
+      "polygon": [
+        [
+          28.0,
+          69.0
+        ],
+        [
+          580.0,
+          69.0
+        ],
+        [
+          580.0,
+          95.0
+        ],
+        [
+          28.0,
+          95.0
+        ]
+      ],
+      "confidence": 0.9874097108840942
+    },
+    {
+      "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e4",
+      "quote": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+      "source_id": "0c9cd872416a44bbaf3c1401b3996b53-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:49:29.287432+00:00",
+      "material_id": "0c9cd872416a44bbaf3c1401b3996b53",
+      "polygon": [
+        [
+          29.0,
+          107.0
+        ],
+        [
+          629.0,
+          107.0
+        ],
+        [
+          629.0,
+          137.0
+        ],
+        [
+          29.0,
+          137.0
+        ]
+      ],
+      "confidence": 0.9938941597938538
+    },
+    {
+      "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e5",
+      "quote": "казино",
+      "source_id": "0c9cd872416a44bbaf3c1401b3996b53-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:29.392992+00:00",
+      "start": 67,
+      "end": 73,
+      "material_id": "0c9cd872416a44bbaf3c1401b3996b53"
+    },
+    {
+      "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e6",
+      "quote": "Не переходите",
+      "source_id": "0c9cd872416a44bbaf3c1401b3996b53-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:29.392992+00:00",
+      "start": 31,
+      "end": 44,
+      "material_id": "0c9cd872416a44bbaf3c1401b3996b53"
+    },
+    {
+      "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e7",
+      "quote": "DEМО. Қауіпсіздік хабарламасы. Не переходите к депозиту: это чужое\nказино, а не наш сервис. Проверяемый адрес\nhttps://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+      "source_id": "0c9cd872416a44bbaf3c1401b3996b53-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:49:29.392992+00:00",
+      "material_id": "0c9cd872416a44bbaf3c1401b3996b53"
+    },
+    {
+      "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e8",
+      "quote": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+      "source_id": "0c9cd872416a44bbaf3c1401b3996b53-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:49:29.392992+00:00",
+      "material_id": "0c9cd872416a44bbaf3c1401b3996b53"
+    },
+    {
+      "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e9",
+      "quote": "Ойын бөлімі Казиноға тіркелу, ақша салу және ұтысты шығару. Слоты қолжетімді.",
+      "source_id": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:49:29.394007+00:00",
+      "url": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e10",
+      "quote": "Казиноға",
+      "source_id": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:29.395003+00:00",
+      "start": 12,
+      "end": 20,
+      "url": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916"
+    },
+    {
+      "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e11",
+      "quote": "тіркелу",
+      "source_id": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:29.395003+00:00",
+      "start": 21,
+      "end": 28,
+      "url": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916"
+    },
+    {
+      "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e12",
+      "quote": "ұтысты",
+      "source_id": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:29.395003+00:00",
+      "start": 45,
+      "end": 51,
+      "url": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916"
+    },
+    {
+      "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e13",
+      "quote": "Слоты",
+      "source_id": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:29.395003+00:00",
+      "start": 60,
+      "end": 65,
+      "url": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916"
+    },
+    {
+      "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e14",
+      "quote": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+      "source_id": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:49:29.395003+00:00",
+      "url": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+        "at": "2026-10-21T20:49:29.394007+00:00",
+        "status_code": 200,
+        "text": "Ойын бөлімі Казиноға тіркелу, ақша салу және ұтысты шығару. Слоты қолжетімді.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:49:29.394007+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "66cc791cc750db4fa486f7e8b1c2d17adf7b4c958a1927931e8417694644e3a4",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+        "evidence_id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e9",
+        "context": {
+          "language": "kk",
+          "context": "promotion",
+          "claims": [
+            {
+              "kind": "gambling",
+              "quote": "Казиноға",
+              "source_id": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 12,
+              "end": 20
+            },
+            {
+              "kind": "call_to_action",
+              "quote": "тіркелу",
+              "source_id": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+              "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+              "start": 21,
+              "end": 28
+            },
+            {
+              "kind": "promise",
+              "quote": "ұтысты",
+              "source_id": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+              "explanation": "Обещание выигрыша или дохода.",
+              "start": 45,
+              "end": 51
+            },
+            {
+              "kind": "gambling",
+              "quote": "Слоты",
+              "source_id": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 60,
+              "end": 65
+            }
+          ],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+        "type": "contains_link",
+        "quote": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:49:29.394007+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e14"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-3.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.1"
+  },
+  "identifiers": [
+    {
+      "domain": "kb4d1ffd450.test",
+      "parameter": "ref",
+      "value": "TDBC4916",
+      "scope": "kb4d1ffd450.test|/card/071e17|ref|TDBC4916",
+      "url": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+      "material_id": "0c9cd872416a44bbaf3c1401b3996b53",
+      "evidence_id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e9"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:49:25.274937+00:00",
+  "analysis_id": "679f45ce256d",
+  "context": {
+    "language": "mixed",
+    "context": "warning",
+    "claims": [
+      {
+        "kind": "gambling",
+        "quote": "казино",
+        "source_id": "0c9cd872416a44bbaf3c1401b3996b53-ocr",
+        "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+        "start": 67,
+        "end": 73
+      },
+      {
+        "kind": "warning",
+        "quote": "Не переходите",
+        "source_id": "0c9cd872416a44bbaf3c1401b3996b53-ocr",
+        "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+        "start": 31,
+        "end": 44
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "gambling",
+      "quote": "казино",
+      "source_id": "0c9cd872416a44bbaf3c1401b3996b53-ocr",
+      "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+      "start": 67,
+      "end": 73,
+      "evidence_id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e5"
+    },
+    {
+      "kind": "warning",
+      "quote": "Не переходите",
+      "source_id": "0c9cd872416a44bbaf3c1401b3996b53-ocr",
+      "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+      "start": 31,
+      "end": 44,
+      "evidence_id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e6"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-4841b9b8a04be78d",
+        "type": "material",
+        "label": "DEMO · материал 3189b6",
+        "evidence_ids": [
+          "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e1"
+        ],
+        "case_id": "da71bdfda21445ccb14ab7f5d4b2cd64",
+        "material_id": "0c9cd872416a44bbaf3c1401b3996b53"
+      },
+      {
+        "id": "source-5dac3134e2713be6",
+        "type": "source",
+        "label": "DEMO · материал 3189b6",
+        "evidence_ids": [
+          "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e1"
+        ]
+      },
+      {
+        "id": "url-98aa0f2021eec1d4",
+        "type": "url",
+        "label": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+        "evidence_ids": [
+          "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e4",
+          "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e8",
+          "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e9"
+        ]
+      },
+      {
+        "id": "observation-94daaed7241aca24",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e9"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-711cfa2cfc747364",
+        "type": "domain",
+        "label": "kb4d1ffd450.test",
+        "evidence_ids": [
+          "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e9"
+        ]
+      },
+      {
+        "id": "identifier-ae0322405c134e0c",
+        "type": "identifier",
+        "label": "ref=TDBC4916",
+        "evidence_ids": [
+          "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e9"
+        ],
+        "scope": "kb4d1ffd450.test|/card/071e17|ref|TDBC4916"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-815d844016ea6487a7",
+        "source": "source-5dac3134e2713be6",
+        "target": "material-4841b9b8a04be78d",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e1"
+        ],
+        "at": "2026-10-21T20:49:25.274937+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-7c8755a005054e2297",
+        "source": "material-4841b9b8a04be78d",
+        "target": "url-98aa0f2021eec1d4",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e4",
+          "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e8"
+        ],
+        "at": "2026-10-21T20:49:25.274937+00:00",
+        "method": "ocr",
+        "status": "observed"
+      },
+      {
+        "id": "edge-4490ff56a3f2ef10ae",
+        "source": "url-98aa0f2021eec1d4",
+        "target": "observation-94daaed7241aca24",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e9"
+        ],
+        "at": "2026-10-21T20:49:25.274937+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-cad63204d256aaeab0",
+        "source": "url-98aa0f2021eec1d4",
+        "target": "domain-711cfa2cfc747364",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e9"
+        ],
+        "at": "2026-10-21T20:49:25.274937+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-b65c1c13a202f0f9e3",
+        "source": "url-98aa0f2021eec1d4",
+        "target": "identifier-ae0322405c134e0c",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e9"
+        ],
+        "at": "2026-10-21T20:49:25.274937+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e1",
+        "quote": "DEMO · материал 3189b6",
+        "source_id": "0c9cd872416a44bbaf3c1401b3996b53",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:49:25.274937+00:00",
+        "material_id": "0c9cd872416a44bbaf3c1401b3996b53",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e2",
+        "quote": "DEМО. Қауіпсіздік хабарламасы. Не переходите к депозиту: это чужое",
+        "source_id": "0c9cd872416a44bbaf3c1401b3996b53-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:49:29.287432+00:00",
+        "material_id": "0c9cd872416a44bbaf3c1401b3996b53",
+        "polygon": [
+          [
+            28.0,
+            25.0
+          ],
+          [
+            877.0,
+            27.0
+          ],
+          [
+            877.0,
+            56.0
+          ],
+          [
+            28.0,
+            54.0
+          ]
+        ],
+        "confidence": 0.9861363768577576
+      },
+      {
+        "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e3",
+        "quote": "казино, а не наш сервис. Проверяемый адрес",
+        "source_id": "0c9cd872416a44bbaf3c1401b3996b53-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:49:29.287432+00:00",
+        "material_id": "0c9cd872416a44bbaf3c1401b3996b53",
+        "polygon": [
+          [
+            28.0,
+            69.0
+          ],
+          [
+            580.0,
+            69.0
+          ],
+          [
+            580.0,
+            95.0
+          ],
+          [
+            28.0,
+            95.0
+          ]
+        ],
+        "confidence": 0.9874097108840942
+      },
+      {
+        "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e4",
+        "quote": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+        "source_id": "0c9cd872416a44bbaf3c1401b3996b53-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:49:29.287432+00:00",
+        "material_id": "0c9cd872416a44bbaf3c1401b3996b53",
+        "polygon": [
+          [
+            29.0,
+            107.0
+          ],
+          [
+            629.0,
+            107.0
+          ],
+          [
+            629.0,
+            137.0
+          ],
+          [
+            29.0,
+            137.0
+          ]
+        ],
+        "confidence": 0.9938941597938538
+      },
+      {
+        "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e5",
+        "quote": "казино",
+        "source_id": "0c9cd872416a44bbaf3c1401b3996b53-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:29.392992+00:00",
+        "start": 67,
+        "end": 73,
+        "material_id": "0c9cd872416a44bbaf3c1401b3996b53"
+      },
+      {
+        "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e6",
+        "quote": "Не переходите",
+        "source_id": "0c9cd872416a44bbaf3c1401b3996b53-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:29.392992+00:00",
+        "start": 31,
+        "end": 44,
+        "material_id": "0c9cd872416a44bbaf3c1401b3996b53"
+      },
+      {
+        "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e7",
+        "quote": "DEМО. Қауіпсіздік хабарламасы. Не переходите к депозиту: это чужое\nказино, а не наш сервис. Проверяемый адрес\nhttps://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+        "source_id": "0c9cd872416a44bbaf3c1401b3996b53-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:49:29.392992+00:00",
+        "material_id": "0c9cd872416a44bbaf3c1401b3996b53"
+      },
+      {
+        "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e8",
+        "quote": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+        "source_id": "0c9cd872416a44bbaf3c1401b3996b53-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:49:29.392992+00:00",
+        "material_id": "0c9cd872416a44bbaf3c1401b3996b53"
+      },
+      {
+        "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e9",
+        "quote": "Ойын бөлімі Казиноға тіркелу, ақша салу және ұтысты шығару. Слоты қолжетімді.",
+        "source_id": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:49:29.394007+00:00",
+        "url": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e10",
+        "quote": "Казиноға",
+        "source_id": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:29.395003+00:00",
+        "start": 12,
+        "end": 20,
+        "url": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916"
+      },
+      {
+        "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e11",
+        "quote": "тіркелу",
+        "source_id": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:29.395003+00:00",
+        "start": 21,
+        "end": 28,
+        "url": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916"
+      },
+      {
+        "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e12",
+        "quote": "ұтысты",
+        "source_id": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:29.395003+00:00",
+        "start": 45,
+        "end": 51,
+        "url": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916"
+      },
+      {
+        "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e13",
+        "quote": "Слоты",
+        "source_id": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:29.395003+00:00",
+        "start": 60,
+        "end": 65,
+        "url": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916"
+      },
+      {
+        "id": "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e14",
+        "quote": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+        "source_id": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:49:29.395003+00:00",
+        "url": "https://kb4d1ffd450.test/card/071e17?ref=TDBC4916",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:49:29.395003+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: предупреждение",
+        "weight": -65,
+        "evidence_ids": [
+          "da71bdfda21445ccb14ab7f5d4b2cd64-679f45ce256d-e6"
+        ]
+      }
+    ],
+    "version": "rules-3.0",
+    "weights": {
+      "version": "weights-3.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "0c9cd872416a44bbaf3c1401b3996b53",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 4120.4
+}

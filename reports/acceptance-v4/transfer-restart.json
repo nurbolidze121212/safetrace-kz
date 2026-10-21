@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "all_rows_and_originals_unchanged": true,
+  "tables": {
+    "cases": {
+      "n": 24,
+      "sha256": "04899651907563323027db2db2449928a57075fd98b4f3d1a43a0cffc511ecee"
+    },
+    "decisions": {
+      "n": 9,
+      "sha256": "ac1f584a9123a8fdf9d41ad826de50caea9c3a96ebbf05dafcc494287f60a8ab"
+    },
+    "cache": {
+      "n": 11,
+      "sha256": "e46a47196b9f57aee4f2112d64ef0547c91a0f597c5f0d9fba6eff08c7832ef4"
+    }
+  },
+  "decision_and_result_reopened": true,
+  "scope": "Restart of actual extracted candidate on same machine"
+}

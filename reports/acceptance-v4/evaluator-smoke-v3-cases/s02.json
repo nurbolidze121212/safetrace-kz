@@ -1,0 +1,688 @@
+{
+  "id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:26:26.035151+00:00",
+  "status": "partial",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "",
+      "url": "",
+      "source": "Авторский dev-материал",
+      "published_at": null,
+      "image_id": "6ae56759402604a682079d6279051eb6.png",
+      "id": "11c7a8ae358d4d62b9e0b1f48a949082",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "6ae56759402604a682079d6279051eb66c5177c3bdd80a4fb0497e90ef0058f7",
+      "source_evidence_id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e1",
+      "normalized_text": "",
+      "ocr": {
+        "text": "Достар, переходи в новый раздел, бонус ждёт.\nПриглашениe: https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+        "lines": [
+          {
+            "text": "Достар, переходи в новый раздел, бонус ждёт.",
+            "confidence": 0.9859303832054138,
+            "polygon": [
+              [
+                33.0,
+                29.0
+              ],
+              [
+                474.0,
+                29.0
+              ],
+              [
+                474.0,
+                53.0
+              ],
+              [
+                33.0,
+                53.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e2"
+          },
+          {
+            "text": "Приглашениe: https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+            "confidence": 0.9761281609535217,
+            "polygon": [
+              [
+                32.0,
+                76.0
+              ],
+              [
+                642.0,
+                75.0
+              ],
+              [
+                642.0,
+                98.0
+              ],
+              [
+                32.0,
+                99.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: Приглашениe:",
+              "Смешение алфавитов в токене: https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD"
+            ],
+            "evidence_id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e3"
+          }
+        ],
+        "raw_text": "Достар, переходи в новый раздел, бонус ждёт.\nПриглашениe: https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+        "raw_lines": [
+          {
+            "text": "Достар, переходи в новый раздел, бонус ждёт.",
+            "confidence": 0.9859303832054138,
+            "polygon": [
+              [
+                33.0,
+                29.0
+              ],
+              [
+                474.0,
+                29.0
+              ],
+              [
+                474.0,
+                53.0
+              ],
+              [
+                33.0,
+                53.0
+              ]
+            ]
+          },
+          {
+            "text": "Приглашениe: https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+            "confidence": 0.9761281609535217,
+            "polygon": [
+              [
+                32.0,
+                76.0
+              ],
+              [
+                642.0,
+                75.0
+              ],
+              [
+                642.0,
+                98.0
+              ],
+              [
+                32.0,
+                99.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 87,
+            "mean_confidence": 0.9800715836985358,
+            "score": 81.90756254748638,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1180,
+        "height": 191,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически."
+      },
+      "qr": {
+        "codes": [],
+        "width": 1180,
+        "height": 191,
+        "version": "qr-1.0",
+        "decoder": "OpenCV 4.10.0",
+        "cache_hit": false,
+        "elapsed_ms": 129.32,
+        "limitations": "До 8 QR-кодов, изображение до 1600 px по длинной стороне. Мелкие, поврежденные и составные QR могут не читаться. Декодирование не подтверждает безопасность адреса."
+      },
+      "urls": [
+        "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD"
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e6"
+      ],
+      "reachable_urls": [
+        "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD"
+      ],
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-3.0",
+        "weights": {
+          "version": "weights-3.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "ru",
+        "context": "promotion",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "переходи",
+            "source_id": "11c7a8ae358d4d62b9e0b1f48a949082-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 8,
+            "end": 16
+          },
+          {
+            "kind": "bonus",
+            "quote": "бонус",
+            "source_id": "11c7a8ae358d4d62b9e0b1f48a949082-ocr",
+            "explanation": "Упоминание бонуса или промокода.",
+            "start": 33,
+            "end": 38
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": false
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "partial",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e1",
+      "quote": "Авторский dev-материал",
+      "source_id": "11c7a8ae358d4d62b9e0b1f48a949082",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:26:26.050153+00:00",
+      "material_id": "11c7a8ae358d4d62b9e0b1f48a949082",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e2",
+      "quote": "Достар, переходи в новый раздел, бонус ждёт.",
+      "source_id": "11c7a8ae358d4d62b9e0b1f48a949082-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:26:29.296264+00:00",
+      "material_id": "11c7a8ae358d4d62b9e0b1f48a949082",
+      "polygon": [
+        [
+          33.0,
+          29.0
+        ],
+        [
+          474.0,
+          29.0
+        ],
+        [
+          474.0,
+          53.0
+        ],
+        [
+          33.0,
+          53.0
+        ]
+      ],
+      "confidence": 0.9859303832054138
+    },
+    {
+      "id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e3",
+      "quote": "Приглашениe: https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+      "source_id": "11c7a8ae358d4d62b9e0b1f48a949082-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:26:29.296264+00:00",
+      "material_id": "11c7a8ae358d4d62b9e0b1f48a949082",
+      "polygon": [
+        [
+          32.0,
+          76.0
+        ],
+        [
+          642.0,
+          75.0
+        ],
+        [
+          642.0,
+          98.0
+        ],
+        [
+          32.0,
+          99.0
+        ]
+      ],
+      "confidence": 0.9761281609535217
+    },
+    {
+      "id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e4",
+      "quote": "переходи",
+      "source_id": "11c7a8ae358d4d62b9e0b1f48a949082-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:26:29.443809+00:00",
+      "start": 8,
+      "end": 16,
+      "material_id": "11c7a8ae358d4d62b9e0b1f48a949082"
+    },
+    {
+      "id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e5",
+      "quote": "бонус",
+      "source_id": "11c7a8ae358d4d62b9e0b1f48a949082-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:26:29.443809+00:00",
+      "start": 33,
+      "end": 38,
+      "material_id": "11c7a8ae358d4d62b9e0b1f48a949082"
+    },
+    {
+      "id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e6",
+      "quote": "Достар, переходи в новый раздел, бонус ждёт.\nПриглашениe: https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+      "source_id": "11c7a8ae358d4d62b9e0b1f48a949082-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:26:29.443809+00:00",
+      "material_id": "11c7a8ae358d4d62b9e0b1f48a949082"
+    },
+    {
+      "id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e7",
+      "quote": "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+      "source_id": "11c7a8ae358d4d62b9e0b1f48a949082-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:26:29.443809+00:00",
+      "material_id": "11c7a8ae358d4d62b9e0b1f48a949082"
+    },
+    {
+      "id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e8",
+      "quote": "Используйте явное ASCII/punycode имя узла",
+      "source_id": "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:26:29.443809+00:00",
+      "url": "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+      "status_code": null,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e9",
+      "quote": "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+      "source_id": "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:26:29.443809+00:00",
+      "url": "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+        "at": "2026-10-21T20:26:29.443809+00:00",
+        "status_code": null,
+        "text": "",
+        "stop": "Используйте явное ASCII/punycode имя узла",
+        "depth": 0,
+        "method": "synthetic_transport",
+        "evidence_id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e8"
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+        "type": "contains_link",
+        "quote": "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:26:29.443809+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e9"
+      }
+    ],
+    "requests": 0,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+    "Непроверенный участок: Используйте явное ASCII/punycode имя узла",
+    "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-3.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.1"
+  },
+  "identifiers": [],
+  "analyzed_at": "2026-10-21T20:26:26.050153+00:00",
+  "analysis_id": "c522de2a6f44",
+  "context": {
+    "language": "ru",
+    "context": "promotion",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "переходи",
+        "source_id": "11c7a8ae358d4d62b9e0b1f48a949082-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 8,
+        "end": 16
+      },
+      {
+        "kind": "bonus",
+        "quote": "бонус",
+        "source_id": "11c7a8ae358d4d62b9e0b1f48a949082-ocr",
+        "explanation": "Упоминание бонуса или промокода.",
+        "start": 33,
+        "end": 38
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "переходи",
+      "source_id": "11c7a8ae358d4d62b9e0b1f48a949082-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 8,
+      "end": 16,
+      "evidence_id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e4"
+    },
+    {
+      "kind": "bonus",
+      "quote": "бонус",
+      "source_id": "11c7a8ae358d4d62b9e0b1f48a949082-ocr",
+      "explanation": "Упоминание бонуса или промокода.",
+      "start": 33,
+      "end": 38,
+      "evidence_id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e5"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-5683f3336b87d809",
+        "type": "material",
+        "label": "Авторский dev-материал",
+        "evidence_ids": [
+          "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e1"
+        ],
+        "case_id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f",
+        "material_id": "11c7a8ae358d4d62b9e0b1f48a949082"
+      },
+      {
+        "id": "source-92ca73bc031a790f",
+        "type": "source",
+        "label": "Авторский dev-материал",
+        "evidence_ids": [
+          "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e1"
+        ]
+      },
+      {
+        "id": "url-cea793bbb46713c3",
+        "type": "url",
+        "label": "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+        "evidence_ids": [
+          "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e7",
+          "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e8"
+        ]
+      },
+      {
+        "id": "observation-0f20e71d9925816e",
+        "type": "observation",
+        "label": "Разрыв маршрута",
+        "evidence_ids": [
+          "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e8"
+        ],
+        "stopped": true
+      },
+      {
+        "id": "domain-a2d522509ed6119e",
+        "type": "domain",
+        "label": "n36e1d8f4ь9.test",
+        "evidence_ids": [
+          "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e8"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-b38d4cc453843736e2",
+        "source": "source-92ca73bc031a790f",
+        "target": "material-5683f3336b87d809",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e1"
+        ],
+        "at": "2026-10-21T20:26:26.050153+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-13dd719c3c0857f274",
+        "source": "material-5683f3336b87d809",
+        "target": "url-cea793bbb46713c3",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e7"
+        ],
+        "at": "2026-10-21T20:26:26.050153+00:00",
+        "method": "ocr",
+        "status": "observed"
+      },
+      {
+        "id": "edge-42cd473b1c6521632e",
+        "source": "url-cea793bbb46713c3",
+        "target": "observation-0f20e71d9925816e",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e8"
+        ],
+        "at": "2026-10-21T20:26:26.050153+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-d9b3001e441cf6104e",
+        "source": "url-cea793bbb46713c3",
+        "target": "domain-a2d522509ed6119e",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e8"
+        ],
+        "at": "2026-10-21T20:26:26.050153+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e1",
+        "quote": "Авторский dev-материал",
+        "source_id": "11c7a8ae358d4d62b9e0b1f48a949082",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:26:26.050153+00:00",
+        "material_id": "11c7a8ae358d4d62b9e0b1f48a949082",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e2",
+        "quote": "Достар, переходи в новый раздел, бонус ждёт.",
+        "source_id": "11c7a8ae358d4d62b9e0b1f48a949082-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:26:29.296264+00:00",
+        "material_id": "11c7a8ae358d4d62b9e0b1f48a949082",
+        "polygon": [
+          [
+            33.0,
+            29.0
+          ],
+          [
+            474.0,
+            29.0
+          ],
+          [
+            474.0,
+            53.0
+          ],
+          [
+            33.0,
+            53.0
+          ]
+        ],
+        "confidence": 0.9859303832054138
+      },
+      {
+        "id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e3",
+        "quote": "Приглашениe: https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+        "source_id": "11c7a8ae358d4d62b9e0b1f48a949082-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:26:29.296264+00:00",
+        "material_id": "11c7a8ae358d4d62b9e0b1f48a949082",
+        "polygon": [
+          [
+            32.0,
+            76.0
+          ],
+          [
+            642.0,
+            75.0
+          ],
+          [
+            642.0,
+            98.0
+          ],
+          [
+            32.0,
+            99.0
+          ]
+        ],
+        "confidence": 0.9761281609535217
+      },
+      {
+        "id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e4",
+        "quote": "переходи",
+        "source_id": "11c7a8ae358d4d62b9e0b1f48a949082-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:26:29.443809+00:00",
+        "start": 8,
+        "end": 16,
+        "material_id": "11c7a8ae358d4d62b9e0b1f48a949082"
+      },
+      {
+        "id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e5",
+        "quote": "бонус",
+        "source_id": "11c7a8ae358d4d62b9e0b1f48a949082-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:26:29.443809+00:00",
+        "start": 33,
+        "end": 38,
+        "material_id": "11c7a8ae358d4d62b9e0b1f48a949082"
+      },
+      {
+        "id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e6",
+        "quote": "Достар, переходи в новый раздел, бонус ждёт.\nПриглашениe: https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+        "source_id": "11c7a8ae358d4d62b9e0b1f48a949082-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:26:29.443809+00:00",
+        "material_id": "11c7a8ae358d4d62b9e0b1f48a949082"
+      },
+      {
+        "id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e7",
+        "quote": "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+        "source_id": "11c7a8ae358d4d62b9e0b1f48a949082-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:26:29.443809+00:00",
+        "material_id": "11c7a8ae358d4d62b9e0b1f48a949082"
+      },
+      {
+        "id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e8",
+        "quote": "Используйте явное ASCII/punycode имя узла",
+        "source_id": "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:26:29.443809+00:00",
+        "url": "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+        "status_code": null,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "e75f98d3a4ed4ee69fc4c5c42e4fbb7f-c522de2a6f44-e9",
+        "quote": "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+        "source_id": "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:26:29.443809+00:00",
+        "url": "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:26:29.443809+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [],
+    "version": "rules-3.0",
+    "weights": {
+      "version": "weights-3.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "11c7a8ae358d4d62b9e0b1f48a949082",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": false,
+  "elapsed_ms": 3395.0
+}

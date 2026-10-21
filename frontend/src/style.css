@@ -9,6 +9,20 @@
   --success: #247052; --warning: #8b5416; --danger: #a63e29;
   --radius: 8px; --shadow: 0 12px 40px #15243c14;
 }
+.url-review-panel { margin: 24px 0; min-width: 0 }
+.url-review-card { padding: 16px; margin: 12px 0; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); min-width: 0 }
+.url-review-card.needs-review { border-left: 3px solid var(--warning) }
+.url-review-card code, .url-correction-history code, .call-bindings code { display: block; overflow-wrap: anywhere; margin: 6px 0 10px }
+.url-correction-form { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line) }
+.url-correction-form .primary { max-width: 100%; white-space: normal }
+.url-suggestions { margin-bottom: 18px; padding: 12px; background: var(--canvas); border-radius: 6px }
+.url-suggestions > div + div { border-top: 1px solid var(--line); margin-top: 12px; padding-top: 12px }
+.url-suggestions .quiet { padding-left: 0; color: var(--accent) }
+.url-correction-history { padding-left: 22px; font-size: 13px }
+.url-correction-history li { padding: 10px 0; border-bottom: 1px solid var(--line) }
+.url-correction-history time { color: var(--muted) }
+.call-bindings { padding: 24px 0 0; margin-top: 24px; border-top: 1px solid var(--line) }
+.call-bindings article { padding: 16px; margin-top: 12px; background: var(--canvas); border-radius: 8px }
 * { box-sizing: border-box }
 body { margin: 0 }
 button, input, select, textarea { font: inherit }

@@ -1,0 +1,1223 @@
+{
+  "id": "f07ff97fd40240b2acfb2e34912071a8",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:49:43.442220+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "",
+      "url": "",
+      "source": "DEMO · материал 7d5d9b",
+      "published_at": null,
+      "image_id": "53513d6a1d713e5babbfc234f2e3f4f3.png",
+      "id": "9cd01c7694ba4143b318468e80ddb39e",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "53513d6a1d713e5babbfc234f2e3f4f3a6d305801890c1fa5edc56d16effc33a",
+      "source_evidence_id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e1",
+      "normalized_text": "",
+      "ocr": {
+        "text": "DЕМО. Бүгін медиасауат сабағы. Переходи к нашему конспекту исследования:\nтам разобрана реклама казино и обещания выигрыша.\nhttps://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "lines": [
+          {
+            "text": "DЕМО. Бүгін медиасауат сабағы. Переходи к нашему конспекту исследования:",
+            "confidence": 0.9866760969161987,
+            "polygon": [
+              [
+                28.0,
+                26.0
+              ],
+              [
+                980.0,
+                28.0
+              ],
+              [
+                980.0,
+                57.0
+              ],
+              [
+                28.0,
+                55.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМО."
+            ],
+            "evidence_id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e2"
+          },
+          {
+            "text": "там разобрана реклама казино и обещания выигрыша.",
+            "confidence": 0.9949622750282288,
+            "polygon": [
+              [
+                29.0,
+                69.0
+              ],
+              [
+                689.0,
+                70.0
+              ],
+              [
+                689.0,
+                96.0
+              ],
+              [
+                29.0,
+                95.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e3"
+          },
+          {
+            "text": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+            "confidence": 0.9991202354431152,
+            "polygon": [
+              [
+                29.0,
+                108.0
+              ],
+              [
+                630.0,
+                107.0
+              ],
+              [
+                630.0,
+                135.0
+              ],
+              [
+                29.0,
+                136.0
+              ]
+            ],
+            "segment_indices": [
+              2
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e4"
+          }
+        ],
+        "raw_text": "DЕМО. Бүгін медиасауат сабағы. Переходи к нашему конспекту исследования:\nтам разобрана реклама казино и обещания выигрыша.\nhttps://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "raw_lines": [
+          {
+            "text": "DЕМО. Бүгін медиасауат сабағы. Переходи к нашему конспекту исследования:",
+            "confidence": 0.9866760969161987,
+            "polygon": [
+              [
+                28.0,
+                26.0
+              ],
+              [
+                980.0,
+                28.0
+              ],
+              [
+                980.0,
+                57.0
+              ],
+              [
+                28.0,
+                55.0
+              ]
+            ]
+          },
+          {
+            "text": "там разобрана реклама казино и обещания выигрыша.",
+            "confidence": 0.9949622750282288,
+            "polygon": [
+              [
+                29.0,
+                69.0
+              ],
+              [
+                689.0,
+                70.0
+              ],
+              [
+                689.0,
+                96.0
+              ],
+              [
+                29.0,
+                95.0
+              ]
+            ]
+          },
+          {
+            "text": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+            "confidence": 0.9991202354431152,
+            "polygon": [
+              [
+                29.0,
+                108.0
+              ],
+              [
+                630.0,
+                107.0
+              ],
+              [
+                630.0,
+                135.0
+              ],
+              [
+                29.0,
+                136.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 146,
+            "mean_confidence": 0.992724846487176,
+            "score": 142.84911796328487,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1120,
+        "height": 189,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически."
+      },
+      "qr": {
+        "codes": [],
+        "width": 1120,
+        "height": 189,
+        "version": "qr-1.0",
+        "decoder": "OpenCV 4.10.0",
+        "cache_hit": false,
+        "elapsed_ms": 97.38,
+        "limitations": "До 8 QR-кодов, изображение до 1600 px по длинной стороне. Мелкие, поврежденные и составные QR могут не читаться. Декодирование не подтверждает безопасность адреса."
+      },
+      "urls": [
+        "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5"
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e10"
+      ],
+      "reachable_urls": [
+        "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5"
+      ],
+      "score": {
+        "value": 10,
+        "level": "low",
+        "contributions": [
+          {
+            "key": "gambling_and_call",
+            "title": "Игровая лексика + призыв",
+            "weight": 65,
+            "evidence_ids": [
+              "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e5",
+              "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e6"
+            ]
+          },
+          {
+            "key": "destination_alternative_context",
+            "title": "Альтернативный контекст страницы: не подтверждает игровой адрес",
+            "weight": 0,
+            "evidence_ids": [
+              "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e16",
+              "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e17",
+              "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e18"
+            ]
+          },
+          {
+            "key": "promise_in_promotion",
+            "title": "Обещание выигрыша",
+            "weight": 10,
+            "evidence_ids": [
+              "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e7"
+            ]
+          },
+          {
+            "key": "alternative_context",
+            "title": "Альтернативный контекст: образовательный разбор",
+            "weight": -65,
+            "evidence_ids": [
+              "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e8",
+              "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e9"
+            ]
+          }
+        ],
+        "version": "rules-3.0",
+        "weights": {
+          "version": "weights-3.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "mixed",
+        "context": "education",
+        "claims": [
+          {
+            "kind": "gambling",
+            "quote": "казино",
+            "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+            "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+            "start": 95,
+            "end": 101
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "Переходи",
+            "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 31,
+            "end": 39
+          },
+          {
+            "kind": "promise",
+            "quote": "выигрыша",
+            "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+            "explanation": "Обещание выигрыша или дохода.",
+            "start": 113,
+            "end": 121
+          },
+          {
+            "kind": "education",
+            "quote": "медиасауат",
+            "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+            "explanation": "Альтернатива: образовательный разбор.",
+            "start": 12,
+            "end": 22
+          },
+          {
+            "kind": "education",
+            "quote": "сабағы",
+            "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+            "explanation": "Альтернатива: образовательный разбор.",
+            "start": 23,
+            "end": 29
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e1",
+      "quote": "DEMO · материал 7d5d9b",
+      "source_id": "9cd01c7694ba4143b318468e80ddb39e",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:49:43.457221+00:00",
+      "material_id": "9cd01c7694ba4143b318468e80ddb39e",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e2",
+      "quote": "DЕМО. Бүгін медиасауат сабағы. Переходи к нашему конспекту исследования:",
+      "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:49:48.071207+00:00",
+      "material_id": "9cd01c7694ba4143b318468e80ddb39e",
+      "polygon": [
+        [
+          28.0,
+          26.0
+        ],
+        [
+          980.0,
+          28.0
+        ],
+        [
+          980.0,
+          57.0
+        ],
+        [
+          28.0,
+          55.0
+        ]
+      ],
+      "confidence": 0.9866760969161987
+    },
+    {
+      "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e3",
+      "quote": "там разобрана реклама казино и обещания выигрыша.",
+      "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:49:48.071207+00:00",
+      "material_id": "9cd01c7694ba4143b318468e80ddb39e",
+      "polygon": [
+        [
+          29.0,
+          69.0
+        ],
+        [
+          689.0,
+          70.0
+        ],
+        [
+          689.0,
+          96.0
+        ],
+        [
+          29.0,
+          95.0
+        ]
+      ],
+      "confidence": 0.9949622750282288
+    },
+    {
+      "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e4",
+      "quote": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+      "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:49:48.071207+00:00",
+      "material_id": "9cd01c7694ba4143b318468e80ddb39e",
+      "polygon": [
+        [
+          29.0,
+          108.0
+        ],
+        [
+          630.0,
+          107.0
+        ],
+        [
+          630.0,
+          135.0
+        ],
+        [
+          29.0,
+          136.0
+        ]
+      ],
+      "confidence": 0.9991202354431152
+    },
+    {
+      "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e5",
+      "quote": "казино",
+      "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:48.182262+00:00",
+      "start": 95,
+      "end": 101,
+      "material_id": "9cd01c7694ba4143b318468e80ddb39e"
+    },
+    {
+      "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e6",
+      "quote": "Переходи",
+      "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:48.182262+00:00",
+      "start": 31,
+      "end": 39,
+      "material_id": "9cd01c7694ba4143b318468e80ddb39e"
+    },
+    {
+      "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e7",
+      "quote": "выигрыша",
+      "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:48.183261+00:00",
+      "start": 113,
+      "end": 121,
+      "material_id": "9cd01c7694ba4143b318468e80ddb39e"
+    },
+    {
+      "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e8",
+      "quote": "медиасауат",
+      "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:48.183261+00:00",
+      "start": 12,
+      "end": 22,
+      "material_id": "9cd01c7694ba4143b318468e80ddb39e"
+    },
+    {
+      "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e9",
+      "quote": "сабағы",
+      "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:48.183261+00:00",
+      "start": 23,
+      "end": 29,
+      "material_id": "9cd01c7694ba4143b318468e80ddb39e"
+    },
+    {
+      "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e10",
+      "quote": "DЕМО. Бүгін медиасауат сабағы. Переходи к нашему конспекту исследования:\nтам разобрана реклама казино и обещания выигрыша.\nhttps://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+      "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:49:48.183261+00:00",
+      "material_id": "9cd01c7694ba4143b318468e80ddb39e"
+    },
+    {
+      "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e11",
+      "quote": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+      "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:49:48.183261+00:00",
+      "material_id": "9cd01c7694ba4143b318468e80ddb39e"
+    },
+    {
+      "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e12",
+      "quote": "Учебная памятка Разбор схемы рекламы казино: обещание бонуса не гарантирует выигрыш. Не переводите деньги.",
+      "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:49:48.183261+00:00",
+      "url": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e13",
+      "quote": "казино",
+      "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:48.184260+00:00",
+      "start": 37,
+      "end": 43,
+      "url": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5"
+    },
+    {
+      "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e14",
+      "quote": "бонуса",
+      "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:48.184260+00:00",
+      "start": 54,
+      "end": 60,
+      "url": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5"
+    },
+    {
+      "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e15",
+      "quote": "выигрыш",
+      "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:48.184260+00:00",
+      "start": 76,
+      "end": 83,
+      "url": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5"
+    },
+    {
+      "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e16",
+      "quote": "Не переводите",
+      "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:48.184260+00:00",
+      "start": 85,
+      "end": 98,
+      "url": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5"
+    },
+    {
+      "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e17",
+      "quote": "Учебная",
+      "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:48.184260+00:00",
+      "start": 0,
+      "end": 7,
+      "url": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5"
+    },
+    {
+      "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e18",
+      "quote": "Разбор схемы",
+      "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:48.184260+00:00",
+      "start": 16,
+      "end": 28,
+      "url": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5"
+    },
+    {
+      "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e19",
+      "quote": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+      "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:49:48.184260+00:00",
+      "url": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "at": "2026-10-21T20:49:48.183261+00:00",
+        "status_code": 200,
+        "text": "Учебная памятка Разбор схемы рекламы казино: обещание бонуса не гарантирует выигрыш. Не переводите деньги.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:49:48.183261+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "b494095949d3d0f59b69ad1e898a02385ce39b1ef5a95ac644f8dd2dc97a62bb",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "evidence_id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e12",
+        "context": {
+          "language": "ru",
+          "context": "warning",
+          "claims": [
+            {
+              "kind": "gambling",
+              "quote": "казино",
+              "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 37,
+              "end": 43
+            },
+            {
+              "kind": "bonus",
+              "quote": "бонуса",
+              "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+              "explanation": "Упоминание бонуса или промокода.",
+              "start": 54,
+              "end": 60
+            },
+            {
+              "kind": "promise",
+              "quote": "выигрыш",
+              "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+              "explanation": "Обещание выигрыша или дохода.",
+              "start": 76,
+              "end": 83
+            },
+            {
+              "kind": "warning",
+              "quote": "Не переводите",
+              "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+              "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+              "start": 85,
+              "end": 98
+            },
+            {
+              "kind": "education",
+              "quote": "Учебная",
+              "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+              "explanation": "Альтернатива: образовательный разбор.",
+              "start": 0,
+              "end": 7
+            },
+            {
+              "kind": "education",
+              "quote": "Разбор схемы",
+              "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+              "explanation": "Альтернатива: образовательный разбор.",
+              "start": 16,
+              "end": 28
+            }
+          ],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "type": "contains_link",
+        "quote": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:49:48.183261+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e19"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-3.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.1"
+  },
+  "identifiers": [
+    {
+      "domain": "kfbaee2db45.test",
+      "parameter": "ref",
+      "value": "T495F3A5",
+      "scope": "kfbaee2db45.test|/invite/f3aa37|ref|T495F3A5",
+      "url": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+      "material_id": "9cd01c7694ba4143b318468e80ddb39e",
+      "evidence_id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e12"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:49:43.457221+00:00",
+  "analysis_id": "61499a514d4d",
+  "context": {
+    "language": "mixed",
+    "context": "education",
+    "claims": [
+      {
+        "kind": "gambling",
+        "quote": "казино",
+        "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+        "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+        "start": 95,
+        "end": 101
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "Переходи",
+        "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 31,
+        "end": 39
+      },
+      {
+        "kind": "promise",
+        "quote": "выигрыша",
+        "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+        "explanation": "Обещание выигрыша или дохода.",
+        "start": 113,
+        "end": 121
+      },
+      {
+        "kind": "education",
+        "quote": "медиасауат",
+        "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+        "explanation": "Альтернатива: образовательный разбор.",
+        "start": 12,
+        "end": 22
+      },
+      {
+        "kind": "education",
+        "quote": "сабағы",
+        "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+        "explanation": "Альтернатива: образовательный разбор.",
+        "start": 23,
+        "end": 29
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "gambling",
+      "quote": "казино",
+      "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+      "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+      "start": 95,
+      "end": 101,
+      "evidence_id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e5"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "Переходи",
+      "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 31,
+      "end": 39,
+      "evidence_id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e6"
+    },
+    {
+      "kind": "promise",
+      "quote": "выигрыша",
+      "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+      "explanation": "Обещание выигрыша или дохода.",
+      "start": 113,
+      "end": 121,
+      "evidence_id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e7"
+    },
+    {
+      "kind": "education",
+      "quote": "медиасауат",
+      "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+      "explanation": "Альтернатива: образовательный разбор.",
+      "start": 12,
+      "end": 22,
+      "evidence_id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e8"
+    },
+    {
+      "kind": "education",
+      "quote": "сабағы",
+      "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+      "explanation": "Альтернатива: образовательный разбор.",
+      "start": 23,
+      "end": 29,
+      "evidence_id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e9"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-003e39ebc6126b3e",
+        "type": "material",
+        "label": "DEMO · материал 7d5d9b",
+        "evidence_ids": [
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e1"
+        ],
+        "case_id": "f07ff97fd40240b2acfb2e34912071a8",
+        "material_id": "9cd01c7694ba4143b318468e80ddb39e"
+      },
+      {
+        "id": "source-0514b8ce8f688bb6",
+        "type": "source",
+        "label": "DEMO · материал 7d5d9b",
+        "evidence_ids": [
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e1"
+        ]
+      },
+      {
+        "id": "url-8f8cab528296ea26",
+        "type": "url",
+        "label": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "evidence_ids": [
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e4",
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e11",
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e12"
+        ]
+      },
+      {
+        "id": "observation-92328a5dad3a28a7",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e12"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-6084f6ce97dafd96",
+        "type": "domain",
+        "label": "kfbaee2db45.test",
+        "evidence_ids": [
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e12"
+        ]
+      },
+      {
+        "id": "identifier-4acb5015015a6600",
+        "type": "identifier",
+        "label": "ref=T495F3A5",
+        "evidence_ids": [
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e12"
+        ],
+        "scope": "kfbaee2db45.test|/invite/f3aa37|ref|T495F3A5"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-8159a6275590b287b2",
+        "source": "source-0514b8ce8f688bb6",
+        "target": "material-003e39ebc6126b3e",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e1"
+        ],
+        "at": "2026-10-21T20:49:43.457221+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-8a3e782b5e1a569ca6",
+        "source": "material-003e39ebc6126b3e",
+        "target": "url-8f8cab528296ea26",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e4",
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e11"
+        ],
+        "at": "2026-10-21T20:49:43.457221+00:00",
+        "method": "ocr",
+        "status": "observed"
+      },
+      {
+        "id": "edge-901e2f7830648aecdb",
+        "source": "url-8f8cab528296ea26",
+        "target": "observation-92328a5dad3a28a7",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e12"
+        ],
+        "at": "2026-10-21T20:49:43.457221+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-629430949410e440a8",
+        "source": "url-8f8cab528296ea26",
+        "target": "domain-6084f6ce97dafd96",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e12"
+        ],
+        "at": "2026-10-21T20:49:43.457221+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-d926a76fbf6e05b60e",
+        "source": "url-8f8cab528296ea26",
+        "target": "identifier-4acb5015015a6600",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e12"
+        ],
+        "at": "2026-10-21T20:49:43.457221+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e1",
+        "quote": "DEMO · материал 7d5d9b",
+        "source_id": "9cd01c7694ba4143b318468e80ddb39e",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:49:43.457221+00:00",
+        "material_id": "9cd01c7694ba4143b318468e80ddb39e",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e2",
+        "quote": "DЕМО. Бүгін медиасауат сабағы. Переходи к нашему конспекту исследования:",
+        "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:49:48.071207+00:00",
+        "material_id": "9cd01c7694ba4143b318468e80ddb39e",
+        "polygon": [
+          [
+            28.0,
+            26.0
+          ],
+          [
+            980.0,
+            28.0
+          ],
+          [
+            980.0,
+            57.0
+          ],
+          [
+            28.0,
+            55.0
+          ]
+        ],
+        "confidence": 0.9866760969161987
+      },
+      {
+        "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e3",
+        "quote": "там разобрана реклама казино и обещания выигрыша.",
+        "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:49:48.071207+00:00",
+        "material_id": "9cd01c7694ba4143b318468e80ddb39e",
+        "polygon": [
+          [
+            29.0,
+            69.0
+          ],
+          [
+            689.0,
+            70.0
+          ],
+          [
+            689.0,
+            96.0
+          ],
+          [
+            29.0,
+            95.0
+          ]
+        ],
+        "confidence": 0.9949622750282288
+      },
+      {
+        "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e4",
+        "quote": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:49:48.071207+00:00",
+        "material_id": "9cd01c7694ba4143b318468e80ddb39e",
+        "polygon": [
+          [
+            29.0,
+            108.0
+          ],
+          [
+            630.0,
+            107.0
+          ],
+          [
+            630.0,
+            135.0
+          ],
+          [
+            29.0,
+            136.0
+          ]
+        ],
+        "confidence": 0.9991202354431152
+      },
+      {
+        "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e5",
+        "quote": "казино",
+        "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:48.182262+00:00",
+        "start": 95,
+        "end": 101,
+        "material_id": "9cd01c7694ba4143b318468e80ddb39e"
+      },
+      {
+        "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e6",
+        "quote": "Переходи",
+        "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:48.182262+00:00",
+        "start": 31,
+        "end": 39,
+        "material_id": "9cd01c7694ba4143b318468e80ddb39e"
+      },
+      {
+        "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e7",
+        "quote": "выигрыша",
+        "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:48.183261+00:00",
+        "start": 113,
+        "end": 121,
+        "material_id": "9cd01c7694ba4143b318468e80ddb39e"
+      },
+      {
+        "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e8",
+        "quote": "медиасауат",
+        "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:48.183261+00:00",
+        "start": 12,
+        "end": 22,
+        "material_id": "9cd01c7694ba4143b318468e80ddb39e"
+      },
+      {
+        "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e9",
+        "quote": "сабағы",
+        "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:48.183261+00:00",
+        "start": 23,
+        "end": 29,
+        "material_id": "9cd01c7694ba4143b318468e80ddb39e"
+      },
+      {
+        "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e10",
+        "quote": "DЕМО. Бүгін медиасауат сабағы. Переходи к нашему конспекту исследования:\nтам разобрана реклама казино и обещания выигрыша.\nhttps://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:49:48.183261+00:00",
+        "material_id": "9cd01c7694ba4143b318468e80ddb39e"
+      },
+      {
+        "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e11",
+        "quote": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "source_id": "9cd01c7694ba4143b318468e80ddb39e-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:49:48.183261+00:00",
+        "material_id": "9cd01c7694ba4143b318468e80ddb39e"
+      },
+      {
+        "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e12",
+        "quote": "Учебная памятка Разбор схемы рекламы казино: обещание бонуса не гарантирует выигрыш. Не переводите деньги.",
+        "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:49:48.183261+00:00",
+        "url": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e13",
+        "quote": "казино",
+        "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:48.184260+00:00",
+        "start": 37,
+        "end": 43,
+        "url": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5"
+      },
+      {
+        "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e14",
+        "quote": "бонуса",
+        "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:48.184260+00:00",
+        "start": 54,
+        "end": 60,
+        "url": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5"
+      },
+      {
+        "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e15",
+        "quote": "выигрыш",
+        "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:48.184260+00:00",
+        "start": 76,
+        "end": 83,
+        "url": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5"
+      },
+      {
+        "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e16",
+        "quote": "Не переводите",
+        "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:48.184260+00:00",
+        "start": 85,
+        "end": 98,
+        "url": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5"
+      },
+      {
+        "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e17",
+        "quote": "Учебная",
+        "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:48.184260+00:00",
+        "start": 0,
+        "end": 7,
+        "url": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5"
+      },
+      {
+        "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e18",
+        "quote": "Разбор схемы",
+        "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:48.184260+00:00",
+        "start": 16,
+        "end": 28,
+        "url": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5"
+      },
+      {
+        "id": "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e19",
+        "quote": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "source_id": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:49:48.184260+00:00",
+        "url": "https://kfbaee2db45.test/invite/f3aa37?ref=T495F3A5",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:49:48.184260+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 10,
+    "level": "low",
+    "contributions": [
+      {
+        "key": "gambling_and_call",
+        "title": "Игровая лексика + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e5",
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e6"
+        ]
+      },
+      {
+        "key": "destination_alternative_context",
+        "title": "Альтернативный контекст страницы: не подтверждает игровой адрес",
+        "weight": 0,
+        "evidence_ids": [
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e16",
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e17",
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e18"
+        ]
+      },
+      {
+        "key": "promise_in_promotion",
+        "title": "Обещание выигрыша",
+        "weight": 10,
+        "evidence_ids": [
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e7"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: образовательный разбор",
+        "weight": -65,
+        "evidence_ids": [
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e8",
+          "f07ff97fd40240b2acfb2e34912071a8-61499a514d4d-e9"
+        ]
+      }
+    ],
+    "version": "rules-3.0",
+    "weights": {
+      "version": "weights-3.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "9cd01c7694ba4143b318468e80ddb39e",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 4727.4
+}

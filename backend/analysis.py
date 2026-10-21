@@ -13,7 +13,7 @@ PATTERNS = {
     "promise": r"выигр[а-я]*|гарантирован[а-я]*\s+доход|заработ[а-я]*|ұты[сз][а-яәіңғүұқөһ]*|ұтып|табыс|легкие деньги|лёгкие деньги|podnim[ai]|x\d+",
     "warning": r"осторожно|мошенни[а-я]*|не переходите|не переводите|не играйте|алаяқ[а-яәіңғүұқөһ]*|өтпеңіз|сақ бол[а-яәіңғүұқөһ]*|қауіпті|скам|scam",
     "news": r"новост[а-я]*|сообщает редакция|корреспондент|журналист[а-я]*|новость|хабарлайды|жаңалық",
-    "education": r"учебн[а-я]*|образовательн[а-я]*|разбор схемы|разбираем схему|урок[а-я]*|медиаграмотност[а-я]*|медиасауат[а-яәіңғүұқөһ]*|саба[қғ][а-яәіңғүұқөһ]*|учебный пример|оқу мысалы|түсіндіреміз",
+    "education": r"учебн[а-я]*|образовательн[а-я]*|разбор схемы|разбираем схему|урок[а-я]*|медиаграмотност[а-я]*|медиасауат[а-яәіңғүұқөһ]*|саба[қғ][а-яәіңғүұқөһ]*|учебный пример|оқу мысалы|түсіндіреміз|памятк[а-яё]*\s+(?:о|об|про)\s+(?:риск[а-яё]*|безопасност[а-яё]*|мошенни[а-яё]*)",
     "free_game": r"без ставок|без денежных|без депозита и|бесплатн[а-я]* игра|тегін ойын|ақшасыз|без вывода денег",
 }
 EXPLANATIONS = {
@@ -36,9 +36,36 @@ ALTERNATIVES = {"warning", "news", "education", "free_game"}
 
 
 def sentence_span(text, position):
-    start = max((m.end() for m in re.finditer(r"[.!?\n]", text[:position])), default=0)
-    end = re.search(r"[.!?\n]", text[position:])
-    return start, position + end.start() if end else len(text)
+    # OCR line wrapping is not sentence punctuation. Keep original offsets; a
+    # blank line still separates paragraphs. Domain dots/query punctuation do
+    # not split the sentence containing a URL.
+    urls = [
+        (m.start(), m.start() + len(m.group().rstrip(".,;:!?)]}»")))
+        for m in re.finditer(r"https?://[^\s<>\"«»]+", text, re.I)
+    ]
+    boundaries = [
+        m for m in re.finditer(r"[.!?;]|\n[ \t]*\n", text) if not any(a <= m.start() < b for a, b in urls)
+    ]
+    start = max((m.end() for m in boundaries if m.end() <= position), default=0)
+    end = min((m.start() for m in boundaries if m.start() >= position), default=len(text))
+    return start, end
+
+
+def information_call(text, start, end):
+    """Recognize a narrow explicit informational object, not a global whitelist."""
+    sentence_start, sentence_end = sentence_span(text, start)
+    tail = text[end:sentence_end]
+    informational = re.match(
+        r"\s*[,—-]?\s*(?:(?:но|бірақ)\s+)?(?:к\s+(?:нам|вам|ним)\s+)?(?:(?:только|лишь|тек)\s+)?"
+        r"(?:к|ко|за|на|в)\s+(?:(?:наш[а-яё]*|эт[а-яё]*|нов[а-яё]*|полезн[а-яё]*)\s+){0,2}"
+        r"(?:памятк[а-яё]*|расписани[а-яё]*|конспект[а-яё]*|исследовани[а-яё]*|"
+        r"стать[а-яё]*|(?:страниц[а-яё]*\s+)?расследовани[а-яё]*)\b",
+        tail,
+        re.I,
+    )
+    before = text[sentence_start:start]
+    kazakh_object = re.search(r"\b(?:сабаққа|сабаққа\s+ғана|нұсқаулыққа|мақалаға)\s*$", before, re.I)
+    return bool(informational or kazakh_object)
 
 
 def contrast_clause_span(text, position, quoted_spans):
@@ -117,6 +144,8 @@ def local_context(sources: dict[str, str]) -> ContextExtraction:
                 if kind == "call_to_action":
                     # Keep original offsets; do not turn a negative imperative into a positive one.
                     if re.search(r"\b(?:не|никогда\s+не|ешқашан)\s+$", text[: match.start()], re.I):
+                        continue
+                    if information_call(text, match.start(), match.end()):
                         continue
                 claims.append(
                     Claim(
@@ -203,7 +232,17 @@ def verify_claims(result: ContextExtraction, sources: dict[str, str]):
     return valid, rejected
 
 
-def score(claims, page_claims, context, repeated=False, contradictions=None):
+def score(
+    claims,
+    page_claims,
+    context,
+    repeated=False,
+    contradictions=None,
+    *,
+    direct_claims=None,
+    destination_calls=None,
+    route_evidence_ids=(),
+):
     kinds = {c["kind"] for c in claims}
     eligible_pages = [
         c for c in page_claims if c.get("context") not in ALTERNATIVES or c.get("contradictions")
@@ -212,9 +251,15 @@ def score(claims, page_claims, context, repeated=False, contradictions=None):
         c for c in page_claims if c.get("context") in ALTERNATIVES and not c.get("contradictions")
     ]
     page_kinds = {c["kind"] for c in eligible_pages}
-    call = "call_to_action" in kinds
-    game = "gambling" in kinds
-    destination = "gambling" in page_kinds
+    direct_claims = claims if direct_claims is None else direct_claims
+    direct_kinds = {c["kind"] for c in direct_claims}
+    direct = {"call_to_action", "gambling"} <= direct_kinds
+    selected_calls = (
+        [c for c in claims if c["kind"] == "call_to_action"]
+        if destination_calls is None
+        else destination_calls
+    )
+    destination = "gambling" in page_kinds and bool(selected_calls)
     contributions = []
 
     def add(key, title, active, source_claims):
@@ -234,22 +279,26 @@ def score(claims, page_claims, context, repeated=False, contradictions=None):
     add(
         "gambling_and_call",
         "Игровая лексика + призыв",
-        game and call and not destination,
-        selected(claims, {"gambling", "call_to_action"}),
+        direct and not destination,
+        selected(direct_claims, {"gambling", "call_to_action"}),
     )
     add(
         "destination_and_call",
         "Игровые признаки на странице + призыв",
-        destination and call,
-        selected(claims, {"call_to_action"}) + selected(eligible_pages, {"gambling"}),
+        destination,
+        selected_calls + selected(eligible_pages, {"gambling"}),
     )
+    if destination:
+        contributions[-1]["evidence_ids"] = list(
+            dict.fromkeys(contributions[-1]["evidence_ids"] + list(route_evidence_ids))
+        )
     add(
         "destination_alternative_context",
         "Альтернативный контекст страницы: не подтверждает игровой адрес",
         bool(alternative_pages),
         selected(alternative_pages, ALTERNATIVES),
     )
-    promotion = call and (game or destination)
+    promotion = direct or destination
     add(
         "bonus_in_promotion",
         "Бонус в рекламном контексте",

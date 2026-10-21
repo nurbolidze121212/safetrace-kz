@@ -1,0 +1,1086 @@
+{
+  "id": "611296096c5041d582bf3dad2ccfe564",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:50:16.719436+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "",
+      "url": "",
+      "source": "DEMO · материал aab7fb",
+      "published_at": null,
+      "image_id": "de88af0bbcb3781502b8b8dd82bc7efe.png",
+      "id": "6d4f15499b4b49f9ae59cc98a369983d",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "de88af0bbcb3781502b8b8dd82bc7efeb6c31ad177392cb1a9e4412538b1b852",
+      "source_evidence_id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e1",
+      "normalized_text": "",
+      "ocr": {
+        "text": "DЕМО. Бесплатная игра для друзей. Тіркеліп, виртуалды бонус алыңыз; ақша\nсалуға болмайды. Тренажёр осында\nhttps://kffde72ff94.test/card/734a60?ref=TA6630C4",
+        "lines": [
+          {
+            "text": "DЕМО. Бесплатная игра для друзей. Тіркеліп, виртуалды бонус алыңыз; ақша",
+            "confidence": 0.9772188663482666,
+            "polygon": [
+              [
+                27.0,
+                23.0
+              ],
+              [
+                970.0,
+                24.0
+              ],
+              [
+                970.0,
+                57.0
+              ],
+              [
+                27.0,
+                56.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМО."
+            ],
+            "evidence_id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e2"
+          },
+          {
+            "text": "салуға болмайды. Тренажёр осында",
+            "confidence": 0.9985135197639465,
+            "polygon": [
+              [
+                28.0,
+                66.0
+              ],
+              [
+                469.0,
+                68.0
+              ],
+              [
+                469.0,
+                97.0
+              ],
+              [
+                28.0,
+                95.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e3"
+          },
+          {
+            "text": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+            "confidence": 0.9991899728775024,
+            "polygon": [
+              [
+                30.0,
+                107.0
+              ],
+              [
+                609.0,
+                106.0
+              ],
+              [
+                609.0,
+                134.0
+              ],
+              [
+                30.0,
+                135.0
+              ]
+            ],
+            "segment_indices": [
+              2
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e4"
+          }
+        ],
+        "raw_text": "DЕМО. Бесплатная игра для друзей. Тіркеліп, виртуалды бонус алыңыз; ақша\nсалуға болмайды. Тренажёр осында\nhttps://kffde72ff94.test/card/734a60?ref=TA6630C4",
+        "raw_lines": [
+          {
+            "text": "DЕМО. Бесплатная игра для друзей. Тіркеліп, виртуалды бонус алыңыз; ақша",
+            "confidence": 0.9772188663482666,
+            "polygon": [
+              [
+                27.0,
+                23.0
+              ],
+              [
+                970.0,
+                24.0
+              ],
+              [
+                970.0,
+                57.0
+              ],
+              [
+                27.0,
+                56.0
+              ]
+            ]
+          },
+          {
+            "text": "салуға болмайды. Тренажёр осында",
+            "confidence": 0.9985135197639465,
+            "polygon": [
+              [
+                28.0,
+                66.0
+              ],
+              [
+                469.0,
+                68.0
+              ],
+              [
+                469.0,
+                97.0
+              ],
+              [
+                28.0,
+                95.0
+              ]
+            ]
+          },
+          {
+            "text": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+            "confidence": 0.9991899728775024,
+            "polygon": [
+              [
+                30.0,
+                107.0
+              ],
+              [
+                609.0,
+                106.0
+              ],
+              [
+                609.0,
+                134.0
+              ],
+              [
+                30.0,
+                135.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 128,
+            "mean_confidence": 0.9889146918430924,
+            "score": 123.83466978271782,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1120,
+        "height": 189,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически."
+      },
+      "qr": {
+        "codes": [],
+        "width": 1120,
+        "height": 189,
+        "version": "qr-1.0",
+        "decoder": "OpenCV 4.10.0",
+        "cache_hit": false,
+        "elapsed_ms": 87.88,
+        "limitations": "До 8 QR-кодов, изображение до 1600 px по длинной стороне. Мелкие, поврежденные и составные QR могут не читаться. Декодирование не подтверждает безопасность адреса."
+      },
+      "urls": [
+        "https://kffde72ff94.test/card/734a60?ref=TA6630C4"
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e9"
+      ],
+      "reachable_urls": [
+        "https://kffde72ff94.test/card/734a60?ref=TA6630C4"
+      ],
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [
+          {
+            "key": "destination_alternative_context",
+            "title": "Альтернативный контекст страницы: не подтверждает игровой адрес",
+            "weight": 0,
+            "evidence_ids": [
+              "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e13",
+              "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e14",
+              "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e15"
+            ]
+          },
+          {
+            "key": "alternative_context",
+            "title": "Альтернативный контекст: бесплатная игра",
+            "weight": -65,
+            "evidence_ids": [
+              "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e7"
+            ]
+          }
+        ],
+        "version": "rules-3.0",
+        "weights": {
+          "version": "weights-3.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "mixed",
+        "context": "free_game",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "Тіркеліп",
+            "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 34,
+            "end": 42
+          },
+          {
+            "kind": "bonus",
+            "quote": "бонус",
+            "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+            "explanation": "Упоминание бонуса или промокода.",
+            "start": 54,
+            "end": 59
+          },
+          {
+            "kind": "free_game",
+            "quote": "Бесплатная игра",
+            "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+            "explanation": "Альтернатива: бесплатная игра без денежных ставок.",
+            "start": 6,
+            "end": 21
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "алыңыз",
+            "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 60,
+            "end": 66
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e1",
+      "quote": "DEMO · материал aab7fb",
+      "source_id": "6d4f15499b4b49f9ae59cc98a369983d",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:50:16.740436+00:00",
+      "material_id": "6d4f15499b4b49f9ae59cc98a369983d",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e2",
+      "quote": "DЕМО. Бесплатная игра для друзей. Тіркеліп, виртуалды бонус алыңыз; ақша",
+      "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:50:20.822019+00:00",
+      "material_id": "6d4f15499b4b49f9ae59cc98a369983d",
+      "polygon": [
+        [
+          27.0,
+          23.0
+        ],
+        [
+          970.0,
+          24.0
+        ],
+        [
+          970.0,
+          57.0
+        ],
+        [
+          27.0,
+          56.0
+        ]
+      ],
+      "confidence": 0.9772188663482666
+    },
+    {
+      "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e3",
+      "quote": "салуға болмайды. Тренажёр осында",
+      "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:50:20.822019+00:00",
+      "material_id": "6d4f15499b4b49f9ae59cc98a369983d",
+      "polygon": [
+        [
+          28.0,
+          66.0
+        ],
+        [
+          469.0,
+          68.0
+        ],
+        [
+          469.0,
+          97.0
+        ],
+        [
+          28.0,
+          95.0
+        ]
+      ],
+      "confidence": 0.9985135197639465
+    },
+    {
+      "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e4",
+      "quote": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+      "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:50:20.822019+00:00",
+      "material_id": "6d4f15499b4b49f9ae59cc98a369983d",
+      "polygon": [
+        [
+          30.0,
+          107.0
+        ],
+        [
+          609.0,
+          106.0
+        ],
+        [
+          609.0,
+          134.0
+        ],
+        [
+          30.0,
+          135.0
+        ]
+      ],
+      "confidence": 0.9991899728775024
+    },
+    {
+      "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e5",
+      "quote": "Тіркеліп",
+      "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:20.921540+00:00",
+      "start": 34,
+      "end": 42,
+      "material_id": "6d4f15499b4b49f9ae59cc98a369983d"
+    },
+    {
+      "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e6",
+      "quote": "бонус",
+      "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:20.921540+00:00",
+      "start": 54,
+      "end": 59,
+      "material_id": "6d4f15499b4b49f9ae59cc98a369983d"
+    },
+    {
+      "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e7",
+      "quote": "Бесплатная игра",
+      "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:20.921540+00:00",
+      "start": 6,
+      "end": 21,
+      "material_id": "6d4f15499b4b49f9ae59cc98a369983d"
+    },
+    {
+      "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e8",
+      "quote": "алыңыз",
+      "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:20.921540+00:00",
+      "start": 60,
+      "end": 66,
+      "material_id": "6d4f15499b4b49f9ae59cc98a369983d"
+    },
+    {
+      "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e9",
+      "quote": "DЕМО. Бесплатная игра для друзей. Тіркеліп, виртуалды бонус алыңыз; ақша\nсалуға болмайды. Тренажёр осында\nhttps://kffde72ff94.test/card/734a60?ref=TA6630C4",
+      "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:50:20.921540+00:00",
+      "material_id": "6d4f15499b4b49f9ae59cc98a369983d"
+    },
+    {
+      "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e10",
+      "quote": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+      "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:50:20.921540+00:00",
+      "material_id": "6d4f15499b4b49f9ae59cc98a369983d"
+    },
+    {
+      "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e11",
+      "quote": "Бесплатная игра Рулетка с виртуальными фишками. Без денежных ставок и без вывода денег.",
+      "source_id": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:50:20.922538+00:00",
+      "url": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e12",
+      "quote": "Рулетка",
+      "source_id": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:20.922538+00:00",
+      "start": 16,
+      "end": 23,
+      "url": "https://kffde72ff94.test/card/734a60?ref=TA6630C4"
+    },
+    {
+      "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e13",
+      "quote": "Бесплатная игра",
+      "source_id": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:20.922538+00:00",
+      "start": 0,
+      "end": 15,
+      "url": "https://kffde72ff94.test/card/734a60?ref=TA6630C4"
+    },
+    {
+      "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e14",
+      "quote": "Без денежных",
+      "source_id": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:20.922538+00:00",
+      "start": 48,
+      "end": 60,
+      "url": "https://kffde72ff94.test/card/734a60?ref=TA6630C4"
+    },
+    {
+      "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e15",
+      "quote": "без вывода денег",
+      "source_id": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:20.922538+00:00",
+      "start": 70,
+      "end": 86,
+      "url": "https://kffde72ff94.test/card/734a60?ref=TA6630C4"
+    },
+    {
+      "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e16",
+      "quote": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+      "source_id": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:50:20.922538+00:00",
+      "url": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+        "at": "2026-10-21T20:50:20.921540+00:00",
+        "status_code": 200,
+        "text": "Бесплатная игра Рулетка с виртуальными фишками. Без денежных ставок и без вывода денег.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:50:20.921540+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "e832a40fef5b1c6ebc2de6883a8cd93f44123224f8ad4f0c17d8e0cceaa245c4",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+        "evidence_id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e11",
+        "context": {
+          "language": "ru",
+          "context": "free_game",
+          "claims": [
+            {
+              "kind": "gambling",
+              "quote": "Рулетка",
+              "source_id": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 16,
+              "end": 23
+            },
+            {
+              "kind": "free_game",
+              "quote": "Бесплатная игра",
+              "source_id": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+              "explanation": "Альтернатива: бесплатная игра без денежных ставок.",
+              "start": 0,
+              "end": 15
+            },
+            {
+              "kind": "free_game",
+              "quote": "Без денежных",
+              "source_id": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+              "explanation": "Альтернатива: бесплатная игра без денежных ставок.",
+              "start": 48,
+              "end": 60
+            },
+            {
+              "kind": "free_game",
+              "quote": "без вывода денег",
+              "source_id": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+              "explanation": "Альтернатива: бесплатная игра без денежных ставок.",
+              "start": 70,
+              "end": 86
+            }
+          ],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+        "type": "contains_link",
+        "quote": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:50:20.921540+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e16"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-3.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.1"
+  },
+  "identifiers": [
+    {
+      "domain": "kffde72ff94.test",
+      "parameter": "ref",
+      "value": "TA6630C4",
+      "scope": "kffde72ff94.test|/card/734a60|ref|TA6630C4",
+      "url": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+      "material_id": "6d4f15499b4b49f9ae59cc98a369983d",
+      "evidence_id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e11"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:50:16.740436+00:00",
+  "analysis_id": "42660ba0cc61",
+  "context": {
+    "language": "mixed",
+    "context": "free_game",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "Тіркеліп",
+        "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 34,
+        "end": 42
+      },
+      {
+        "kind": "bonus",
+        "quote": "бонус",
+        "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+        "explanation": "Упоминание бонуса или промокода.",
+        "start": 54,
+        "end": 59
+      },
+      {
+        "kind": "free_game",
+        "quote": "Бесплатная игра",
+        "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+        "explanation": "Альтернатива: бесплатная игра без денежных ставок.",
+        "start": 6,
+        "end": 21
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "алыңыз",
+        "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 60,
+        "end": 66
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "Тіркеліп",
+      "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 34,
+      "end": 42,
+      "evidence_id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e5"
+    },
+    {
+      "kind": "bonus",
+      "quote": "бонус",
+      "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+      "explanation": "Упоминание бонуса или промокода.",
+      "start": 54,
+      "end": 59,
+      "evidence_id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e6"
+    },
+    {
+      "kind": "free_game",
+      "quote": "Бесплатная игра",
+      "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+      "explanation": "Альтернатива: бесплатная игра без денежных ставок.",
+      "start": 6,
+      "end": 21,
+      "evidence_id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e7"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "алыңыз",
+      "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 60,
+      "end": 66,
+      "evidence_id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e8"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-6fe83fbe1168dfd4",
+        "type": "material",
+        "label": "DEMO · материал aab7fb",
+        "evidence_ids": [
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e1"
+        ],
+        "case_id": "611296096c5041d582bf3dad2ccfe564",
+        "material_id": "6d4f15499b4b49f9ae59cc98a369983d"
+      },
+      {
+        "id": "source-ea854a080fb4b9ac",
+        "type": "source",
+        "label": "DEMO · материал aab7fb",
+        "evidence_ids": [
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e1"
+        ]
+      },
+      {
+        "id": "url-2e6d1d5275e597f2",
+        "type": "url",
+        "label": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+        "evidence_ids": [
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e4",
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e10",
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e11"
+        ]
+      },
+      {
+        "id": "observation-d120a1282f9ed25e",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e11"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-075eaad9c710819e",
+        "type": "domain",
+        "label": "kffde72ff94.test",
+        "evidence_ids": [
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e11"
+        ]
+      },
+      {
+        "id": "identifier-032530ae72fb1c24",
+        "type": "identifier",
+        "label": "ref=TA6630C4",
+        "evidence_ids": [
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e11"
+        ],
+        "scope": "kffde72ff94.test|/card/734a60|ref|TA6630C4"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-328d6c02d02508ffbd",
+        "source": "source-ea854a080fb4b9ac",
+        "target": "material-6fe83fbe1168dfd4",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e1"
+        ],
+        "at": "2026-10-21T20:50:16.740436+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-31a10978ca2fc8940a",
+        "source": "material-6fe83fbe1168dfd4",
+        "target": "url-2e6d1d5275e597f2",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e4",
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e10"
+        ],
+        "at": "2026-10-21T20:50:16.740436+00:00",
+        "method": "ocr",
+        "status": "observed"
+      },
+      {
+        "id": "edge-0c1a95bf58b742bc54",
+        "source": "url-2e6d1d5275e597f2",
+        "target": "observation-d120a1282f9ed25e",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e11"
+        ],
+        "at": "2026-10-21T20:50:16.740436+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-8c1935e584dd3b13e2",
+        "source": "url-2e6d1d5275e597f2",
+        "target": "domain-075eaad9c710819e",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e11"
+        ],
+        "at": "2026-10-21T20:50:16.740436+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-318b32146c8cf6295b",
+        "source": "url-2e6d1d5275e597f2",
+        "target": "identifier-032530ae72fb1c24",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e11"
+        ],
+        "at": "2026-10-21T20:50:16.740436+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e1",
+        "quote": "DEMO · материал aab7fb",
+        "source_id": "6d4f15499b4b49f9ae59cc98a369983d",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:50:16.740436+00:00",
+        "material_id": "6d4f15499b4b49f9ae59cc98a369983d",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e2",
+        "quote": "DЕМО. Бесплатная игра для друзей. Тіркеліп, виртуалды бонус алыңыз; ақша",
+        "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:50:20.822019+00:00",
+        "material_id": "6d4f15499b4b49f9ae59cc98a369983d",
+        "polygon": [
+          [
+            27.0,
+            23.0
+          ],
+          [
+            970.0,
+            24.0
+          ],
+          [
+            970.0,
+            57.0
+          ],
+          [
+            27.0,
+            56.0
+          ]
+        ],
+        "confidence": 0.9772188663482666
+      },
+      {
+        "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e3",
+        "quote": "салуға болмайды. Тренажёр осында",
+        "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:50:20.822019+00:00",
+        "material_id": "6d4f15499b4b49f9ae59cc98a369983d",
+        "polygon": [
+          [
+            28.0,
+            66.0
+          ],
+          [
+            469.0,
+            68.0
+          ],
+          [
+            469.0,
+            97.0
+          ],
+          [
+            28.0,
+            95.0
+          ]
+        ],
+        "confidence": 0.9985135197639465
+      },
+      {
+        "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e4",
+        "quote": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+        "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:50:20.822019+00:00",
+        "material_id": "6d4f15499b4b49f9ae59cc98a369983d",
+        "polygon": [
+          [
+            30.0,
+            107.0
+          ],
+          [
+            609.0,
+            106.0
+          ],
+          [
+            609.0,
+            134.0
+          ],
+          [
+            30.0,
+            135.0
+          ]
+        ],
+        "confidence": 0.9991899728775024
+      },
+      {
+        "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e5",
+        "quote": "Тіркеліп",
+        "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:20.921540+00:00",
+        "start": 34,
+        "end": 42,
+        "material_id": "6d4f15499b4b49f9ae59cc98a369983d"
+      },
+      {
+        "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e6",
+        "quote": "бонус",
+        "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:20.921540+00:00",
+        "start": 54,
+        "end": 59,
+        "material_id": "6d4f15499b4b49f9ae59cc98a369983d"
+      },
+      {
+        "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e7",
+        "quote": "Бесплатная игра",
+        "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:20.921540+00:00",
+        "start": 6,
+        "end": 21,
+        "material_id": "6d4f15499b4b49f9ae59cc98a369983d"
+      },
+      {
+        "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e8",
+        "quote": "алыңыз",
+        "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:20.921540+00:00",
+        "start": 60,
+        "end": 66,
+        "material_id": "6d4f15499b4b49f9ae59cc98a369983d"
+      },
+      {
+        "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e9",
+        "quote": "DЕМО. Бесплатная игра для друзей. Тіркеліп, виртуалды бонус алыңыз; ақша\nсалуға болмайды. Тренажёр осында\nhttps://kffde72ff94.test/card/734a60?ref=TA6630C4",
+        "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:50:20.921540+00:00",
+        "material_id": "6d4f15499b4b49f9ae59cc98a369983d"
+      },
+      {
+        "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e10",
+        "quote": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+        "source_id": "6d4f15499b4b49f9ae59cc98a369983d-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:50:20.921540+00:00",
+        "material_id": "6d4f15499b4b49f9ae59cc98a369983d"
+      },
+      {
+        "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e11",
+        "quote": "Бесплатная игра Рулетка с виртуальными фишками. Без денежных ставок и без вывода денег.",
+        "source_id": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:50:20.922538+00:00",
+        "url": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e12",
+        "quote": "Рулетка",
+        "source_id": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:20.922538+00:00",
+        "start": 16,
+        "end": 23,
+        "url": "https://kffde72ff94.test/card/734a60?ref=TA6630C4"
+      },
+      {
+        "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e13",
+        "quote": "Бесплатная игра",
+        "source_id": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:20.922538+00:00",
+        "start": 0,
+        "end": 15,
+        "url": "https://kffde72ff94.test/card/734a60?ref=TA6630C4"
+      },
+      {
+        "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e14",
+        "quote": "Без денежных",
+        "source_id": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:20.922538+00:00",
+        "start": 48,
+        "end": 60,
+        "url": "https://kffde72ff94.test/card/734a60?ref=TA6630C4"
+      },
+      {
+        "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e15",
+        "quote": "без вывода денег",
+        "source_id": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:20.922538+00:00",
+        "start": 70,
+        "end": 86,
+        "url": "https://kffde72ff94.test/card/734a60?ref=TA6630C4"
+      },
+      {
+        "id": "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e16",
+        "quote": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+        "source_id": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:50:20.922538+00:00",
+        "url": "https://kffde72ff94.test/card/734a60?ref=TA6630C4",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:50:20.922538+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [
+      {
+        "key": "destination_alternative_context",
+        "title": "Альтернативный контекст страницы: не подтверждает игровой адрес",
+        "weight": 0,
+        "evidence_ids": [
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e13",
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e14",
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e15"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: бесплатная игра",
+        "weight": -65,
+        "evidence_ids": [
+          "611296096c5041d582bf3dad2ccfe564-42660ba0cc61-e7"
+        ]
+      }
+    ],
+    "version": "rules-3.0",
+    "weights": {
+      "version": "weights-3.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "6d4f15499b4b49f9ae59cc98a369983d",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 4182.7
+}

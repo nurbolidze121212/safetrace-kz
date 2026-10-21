@@ -11,9 +11,11 @@ from PIL import Image, ImageOps
 
 from . import storage
 from .analysis import local_context, normalize_text, score, verify_claims
+from .attribution import attribute
 from .config import DATA, OCR_VERSION, PIPELINE_VERSION, QR_VERSION, RULE_VERSION
 from .graph import build_graph
 from .links import SyntheticTransport, extract_urls, identifiers, live_fetch, trace
+from .material_identity import content_fingerprint
 from .ocr import recognize
 from .providers import MAX_CLOUD_IMAGES, GeminiProvider, LocalProvider, ProviderUnavailable
 from .qr import decode as decode_qr
@@ -52,7 +54,10 @@ def new_case(payload):
         "limitations": [],
         "history": [],
         "versions": {
-            "rules": RULE_VERSION, "ocr": OCR_VERSION, "qr": QR_VERSION, "pipeline": PIPELINE_VERSION
+            "rules": RULE_VERSION,
+            "ocr": OCR_VERSION,
+            "qr": QR_VERSION,
+            "pipeline": PIPELINE_VERSION,
         },
     }
     for m in payload.materials:
@@ -85,6 +90,82 @@ def add_materials(case_id, materials):
             raise
 
 
+def _archive_analysis(doc):
+    last = doc["history"][-1] if doc["history"] else {}
+    already_archived = doc.get("analysis_id") == last.get("analysis_id") and doc.get(
+        "analyzed_at"
+    ) == last.get("at")
+    has_partial_analysis = bool(doc.get("analysis_id")) and doc.get("status") in {
+        "cancelled",
+        "error",
+        "partial",
+    }
+    if (doc.get("score") is not None or has_partial_analysis) and not already_archived:
+        doc["history"].append(
+            deepcopy(
+                {
+                    "at": doc.get("analyzed_at"),
+                    "analysis_id": doc.get("analysis_id"),
+                    "score": doc.get("score"),
+                    "trace": doc.get("trace"),
+                    "mode": doc["mode"],
+                    "evidence": doc.get("evidence"),
+                    "materials": [m for m in doc["materials"] if m.get("source_evidence_id")],
+                    "versions": doc.get("versions"),
+                    "analysis_assisted": doc.get("analysis_assisted", False),
+                    "sufficient_data": doc.get("sufficient_data"),
+                    "status": doc.get("status"),
+                    "stage": doc.get("stage"),
+                    "stages": doc.get("stages"),
+                    "limitations": doc.get("limitations", []),
+                }
+            )
+        )
+
+
+def correct_url(case_id, payload):
+    """An append-only analyst interpretation; archive the unmodified analysis first."""
+    with QUEUE_LOCK:
+        if case_id in ACTIVE:
+            raise ValueError("Дождитесь завершения или отмены текущего анализа.")
+        if len(ACTIVE) >= 8:
+            raise ValueError("Очередь заполнена: максимум 8 задач.")
+        doc = storage.get(case_id)
+        if doc is None or doc["mode"] == "replay":
+            raise ValueError("Сохраненный повтор нельзя уточнить; создайте новый анализ.")
+        if doc.get("analysis_id") != payload.analysis_id:
+            raise ValueError("Анализ уже изменился. Обновите страницу и сверьте адрес заново.")
+        material = next((m for m in doc["materials"] if m["id"] == payload.material_id), None)
+        if not material or not material.get("image_id"):
+            raise ValueError("Выберите материал с OCR изображения.")
+        if payload.original_url not in [r["raw_url"] for r in material.get("url_reviews", [])]:
+            raise ValueError("Исходный адрес не найден в текущем OCR материала.")
+        if len(material.get("url_corrections", [])) >= 20:
+            raise ValueError("Не более 20 уточнений адресов одного материала.")
+        _, image_hash = storage.read_image(material["image_id"], material.get("image_sha256"))
+        previous = deepcopy(doc)
+        _archive_analysis(doc)
+        record = {
+            "id": uuid.uuid4().hex,
+            "at": storage.now(),
+            "method": "manual_correction",
+            "actor": "local_analyst",
+            "original_url": payload.original_url,
+            "corrected_url": payload.corrected_url,
+            "comment": payload.comment,
+            "source_image_sha256": image_hash,
+            "based_on_analysis_id": payload.analysis_id,
+        }
+        material.setdefault("url_corrections", []).append(record)
+        try:
+            storage.save(doc)
+            submit(case_id)
+        except Exception:
+            storage.save(previous)
+            raise
+        return record
+
+
 def submit(case_id):
     with QUEUE_LOCK:
         if case_id in ACTIVE:
@@ -95,24 +176,7 @@ def submit(case_id):
         if doc is None:
             raise ValueError("Случай не найден.")
         previous = deepcopy(doc)
-        last = doc["history"][-1] if doc["history"] else {}
-        already_archived = (
-            doc.get("analysis_id") == last.get("analysis_id")
-            and doc.get("analyzed_at") == last.get("at")
-        )
-        if doc.get("score") is not None and not already_archived:
-            doc["history"].append(
-                {
-                    "at": doc.get("analyzed_at"),
-                    "analysis_id": doc.get("analysis_id"),
-                    "score": doc["score"],
-                    "trace": doc.get("trace"),
-                    "mode": doc["mode"],
-                    "evidence": doc.get("evidence"),
-                    "materials": [m for m in doc["materials"] if m.get("source_evidence_id")],
-                    "versions": doc.get("versions"),
-                }
-            )
+        _archive_analysis(doc)
         doc.update(status="pending", stage="originals", progress=0, stages={s: "pending" for s in STAGES})
         ACTIVE.add(case_id)
         CANCELS[case_id] = threading.Event()
@@ -191,16 +255,45 @@ def analyze(
 ):
     started = time.perf_counter()
     # A new attempt owns a new evidence namespace. Keep originals/history, never derived old fields.
-    for key in ("score", "sufficient_data", "elapsed_ms", "context", "claims", "rejected_claims", "provider", "provider_input", "graph"):
+    for key in (
+        "score",
+        "sufficient_data",
+        "elapsed_ms",
+        "context",
+        "claims",
+        "rejected_claims",
+        "provider",
+        "provider_input",
+        "graph",
+    ):
         doc.pop(key, None)
     for mat in doc["materials"]:
         for key in (
-            "source_evidence_id", "normalized_text", "ocr", "qr", "urls", "promo_codes",
-            "content_evidence_ids", "reachable_urls", "score", "context", "sufficient_data", "urls_limited",
-            "image_integrity_failed", "text_integrity_failed", "cloud_input_complete",
+            "source_evidence_id",
+            "normalized_text",
+            "ocr",
+            "qr",
+            "urls",
+            "promo_codes",
+            "content_evidence_ids",
+            "reachable_urls",
+            "score",
+            "context",
+            "sufficient_data",
+            "urls_limited",
+            "image_integrity_failed",
+            "text_integrity_failed",
+            "cloud_input_complete",
+            "content_fingerprint",
+            "duplicate_of",
+            "call_bindings",
+            "attribution_incomplete",
+            "url_reviews",
+            "url_review_incomplete",
         ):
             mat.pop(key, None)
     doc.update(
+        analysis_assisted=False,
         evidence=[],
         limitations=[],
         identifiers=[],
@@ -210,9 +303,7 @@ def analyze(
         progress=0,
         stages={stage: "pending" for stage in STAGES},
         trace={"observations": [], "relations": []},
-        versions={
-            "rules": RULE_VERSION, "ocr": OCR_VERSION, "qr": QR_VERSION, "pipeline": PIPELINE_VERSION
-        },
+        versions={"rules": RULE_VERSION, "ocr": OCR_VERSION, "qr": QR_VERSION, "pipeline": PIPELINE_VERSION},
     )
     doc["analysis_id"] = uuid.uuid4().hex[:12]
     if doc["mode"] in ("synthetic", "replay"):
@@ -260,7 +351,9 @@ def analyze(
             mat["text_integrity_failed"] = True
             sources[mat["id"]] = ""
             doc["stages"]["originals"] = "partial"
-            doc["limitations"].append("Оригинал текста изменен: SHA-256 не совпадает. Этот материал не анализировался.")
+            doc["limitations"].append(
+                "Оригинал текста изменен: SHA-256 не совпадает. Этот материал не анализировался."
+            )
             continue
         mat["source_evidence_id"] = evidence(
             mat["source"],
@@ -359,8 +452,14 @@ def analyze(
         requested_image_ids = [m["id"] for m in doc["materials"] if m.get("image_id")]
         coverage.update(images_total=len(requested_image_ids), image_material_ids=sent_image_ids)
         for mat in doc["materials"]:
-            text_complete = all(provider.sent_sources.get(key) == text for key, text in sources.items() if key in (mat["id"], mat["id"] + "-ocr"))
-            mat["cloud_input_complete"] = text_complete and (not mat.get("image_id") or mat["id"] in sent_image_ids)
+            text_complete = all(
+                provider.sent_sources.get(key) == text
+                for key, text in sources.items()
+                if key in (mat["id"], mat["id"] + "-ocr")
+            )
+            mat["cloud_input_complete"] = text_complete and (
+                not mat.get("image_id") or mat["id"] in sent_image_ids
+            )
         coverage["complete"] = all(m["cloud_input_complete"] for m in doc["materials"])
         doc["provider_input"] = coverage
         if not coverage["complete"]:
@@ -386,6 +485,7 @@ def analyze(
         doc["limitations"].append(f"Отклонено цитат без совпадения с источником: {len(rejected)}.")
     for mat in doc["materials"]:
         mat["urls"] = []
+        mat["url_reviews"] = []
         mat["promo_codes"] = []
         mat["content_evidence_ids"] = []
         if mat.get("text_integrity_failed"):
@@ -424,13 +524,71 @@ def analyze(
                     "Из одного текстового/OCR-источника извлечены первые 12 ссылок; остальные не проверены."
                 )
             for url in extracted[:12]:
-                mat["urls"].append(url)
-                evidence(
+                raw_eid = evidence(
                     url,
                     source_id,
                     "ocr" if source_id.endswith("-ocr") else "source_text",
                     material_id=mat["id"],
                 )
+                if source_id.endswith("-ocr"):
+                    readings = [r for r in mat.get("ocr", {}).get("url_readings", []) if r["raw_url"] == url]
+                    reading = deepcopy(
+                        next(
+                            (r for r in readings if r["needs_review"]),
+                            readings[0]
+                            if readings
+                            else {
+                                "raw_url": url,
+                                "needs_review": False,
+                                "reasons": [],
+                                "suggestions": [],
+                                "line_indices": [],
+                            },
+                        )
+                    )
+                    reading["source_evidence_ids"] = [raw_eid] + [
+                        mat["ocr"]["lines"][i]["evidence_id"]
+                        for i in reading["line_indices"]
+                        if i < len(mat["ocr"]["lines"])
+                    ]
+                    correction = next(
+                        (
+                            c
+                            for c in reversed(mat.get("url_corrections", []))
+                            if c["original_url"] == url
+                            and c["source_image_sha256"] == mat.get("image_sha256")
+                        ),
+                        None,
+                    )
+                    reading["selected_url"] = (
+                        correction["corrected_url"]
+                        if correction
+                        else (None if reading["needs_review"] else url)
+                    )
+                    if correction:
+                        reading["correction_id"] = correction["id"]
+                        reading["selected_evidence_id"] = evidence(
+                            correction["corrected_url"],
+                            mat["id"] + "-url-review",
+                            "manual_correction",
+                            material_id=mat["id"],
+                            original_url=url,
+                            correction_id=correction["id"],
+                            source_evidence_ids=reading["source_evidence_ids"],
+                            note="Адрес уточнён аналитиком по оригиналу: " + correction["comment"],
+                        )
+                        doc["analysis_assisted"] = True
+                    mat["url_reviews"].append(reading)
+                    if reading["selected_url"]:
+                        mat["urls"].append(reading["selected_url"])
+                    else:
+                        mat["url_review_incomplete"] = True
+                        doc["stages"]["features"] = "partial"
+                        doc["limitations"].append(
+                            "Сомнительный OCR-адрес не открывался. Сверьте его с оригиналом и явно уточните в карточке материала."
+                        )
+                else:
+                    mat["urls"].append(url)
         if mat["url"]:
             mat["urls"].append(mat["url"])
             evidence(
@@ -446,6 +604,10 @@ def analyze(
                 mat["urls"].append(code["text"])
         mat["urls"] = list(dict.fromkeys(mat["urls"]))
         urls.extend(mat["urls"])
+    if doc["analysis_assisted"]:
+        doc["limitations"].append(
+            "Использованы ручные уточнения адресов. Результат относится к анализу с участием аналитика; исходный автоматический результат сохранён в истории."
+        )
     if not stage("links"):
         return doc
     if variant == "full":
@@ -499,7 +661,17 @@ def analyze(
             **{key: rel[key] for key in ("href", "base_href", "document_base") if key in rel},
         )
     # Reachability from each original material keeps scoped identifiers attributable.
+    seen_content = {}
     for mat in doc["materials"]:
+        fingerprint = content_fingerprint(mat)
+        mat["content_fingerprint"] = fingerprint
+        if fingerprint in seen_content:
+            mat["duplicate_of"] = seen_content[fingerprint]
+            doc["limitations"].append(
+                "Повтор одинакового содержимого не считается независимым подтверждением и не повышает индекс."
+            )
+        else:
+            seen_content[fingerprint] = mat["id"]
         reachable = set(mat["urls"])
         for _ in range(6):
             for rel in doc["trace"]["relations"]:
@@ -525,23 +697,53 @@ def analyze(
     if not stage("priority"):
         return doc
     scopes = {}
+    fingerprints = {m["id"]: m["content_fingerprint"] for m in doc["materials"]}
     for token in doc["identifiers"]:
-        scopes.setdefault(token["scope"], set()).add(token["material_id"])
+        scopes.setdefault(token["scope"], set()).add(fingerprints[token["material_id"]])
     for mat in doc["materials"]:
         own_sources = {key: text for key, text in sources.items() if key in (mat["id"], mat["id"] + "-ocr")}
         own_claims = [c for c in claims if c["source_id"] in own_sources]
         own_pages = [c for c in page_claims if c["source_id"] in mat["reachable_urls"]]
         own_context = local_context(own_sources)
-        repeated = any(mat["id"] in ids and len(ids) > 1 for ids in scopes.values())
-        mat["score"] = score(own_claims, own_pages, own_context.context, repeated, own_context.contradictions)
+        attribution = attribute(mat, own_sources, own_claims, own_pages, doc["trace"], doc["evidence"])
+        mat["call_bindings"] = attribution["bindings"]
+        mat["attribution_incomplete"] = attribution["incomplete"]
+        if (
+            attribution["independent_destination"]
+            and own_context.context in ("warning", "news", "education", "free_game")
+            and not own_context.contradictions
+        ):
+            own_context.contradictions.append(
+                "Самостоятельный призыв связан с конкретной проверенной ветвью к игровому назначению; альтернативный контекст находится в другой области материала."
+            )
+        repeated = any(mat["content_fingerprint"] in ids and len(ids) > 1 for ids in scopes.values())
+        mat["score"] = score(
+            own_claims,
+            attribution["page_claims"],
+            own_context.context,
+            repeated,
+            own_context.contradictions,
+            direct_claims=attribution["direct_claims"],
+            destination_calls=attribution["destination_calls"],
+            route_evidence_ids=attribution["route_evidence_ids"],
+        )
+        if attribution["incomplete"]:
+            doc["stages"]["features"] = "partial"
+            doc["limitations"].append(
+                "Для части призывов связь с конкретным адресом не установлена: проверьте материал и ветви маршрута."
+            )
         mat["context"] = own_context.model_dump()
         own_observations = [o for o in doc["trace"]["observations"] if o["url"] in mat["reachable_urls"]]
         any_page = any(o["text"] for o in own_observations)
-        missing_route = (bool(mat["urls"]) and not any_page) or any(
-            o.get("stop") or o.get("text_truncated") for o in own_observations
-        ) or mat.get("urls_limited", False) or any(
-            item["url"] in mat["urls"] or item["from"] in mat["reachable_urls"]
-            for item in doc["trace"].get("unvisited", [])
+        missing_route = (
+            mat.get("url_review_incomplete", False)
+            or (bool(mat["urls"]) and not any_page)
+            or any(o.get("stop") or o.get("text_truncated") for o in own_observations)
+            or mat.get("urls_limited", False)
+            or any(
+                item["url"] in mat["urls"] or item["from"] in mat["reachable_urls"]
+                for item in doc["trace"].get("unvisited", [])
+            )
         )
         strong_source_context = any(c["kind"] == "gambling" for c in own_claims) or own_context.context in (
             "warning",
@@ -553,6 +755,7 @@ def analyze(
             bool(any(t.strip() for t in own_sources.values()))
             and not mat.get("image_integrity_failed")
             and mat.get("cloud_input_complete", True)
+            and not (attribution["incomplete"] and not attribution["direct_claims"])
             and not (missing_route and not strong_source_context and variant == "full")
         )
     all_sufficient = all(m["sufficient_data"] for m in doc["materials"])
@@ -572,8 +775,8 @@ def analyze(
     if not all_sufficient:
         doc["limitations"].append(
             "Часть материалов не проверена полностью; высокий приоритет основан на достаточных данных другого материала."
-            if known_high else
-            "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+            if known_high
+            else "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
         )
     doc["sufficient_data"] = enough
     doc["stages"]["priority"] = "completed"

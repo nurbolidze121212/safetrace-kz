@@ -1,0 +1,443 @@
+{
+  "provenance": "Known v3 errors, regression only; no new final accuracy claim",
+  "core_hashes": {
+    "backend/__init__.py": "cab7e34e197ae110487f67fb05f231deab0a474dab2e42cbe3b02825dd660767",
+    "backend/analysis.py": "25ce4b9fdfd7d2b30534838363cc20f4a122028a6fa0d7d222f1b882122c2f73",
+    "backend/app.py": "1a1cfb514df2e1d32ea0bd3bf7eaede634528096ae47c053f300194a6f1c3ae0",
+    "backend/attribution.py": "ea2e0a1d4cad4b8eb6d8e01b70556ff7b52843799cbe31a1d796a84f93efd6f8",
+    "backend/config.py": "7dc63b5a034197558a4983503f7cb4e082bb0c114cdc39051c94893118ae5a57",
+    "backend/evaluations.py": "0254551c8f55dd185e6fede351e619f8bba5aa4f13261f6e6996a2170eca41fb",
+    "backend/exports.py": "2c7efe90d8505a219755010de0243317a5c65f0fe24fdb7159190a81f981d45d",
+    "backend/graph.py": "8bb6149f0789ef639a415db29c9f8fec468a8f6a08a7fcd056b9e5a6804f5a5c",
+    "backend/limits.py": "bc9b82ee5bdb10c6274300c075c7dae1c2baeb9a4b0bf6287358795394d9fcac",
+    "backend/links.py": "8989f0cd4c00e92fbda6fd945fd51b6e3afaf306adaafa5558a6acae3e649de2",
+    "backend/material_identity.py": "dc4b0169286573743d785fb9d591271395b2516772aa5a9840abbf348b811879",
+    "backend/ocr.py": "73e565f107ef368e80ad25323d30a463c546d6ad37d166a9a9e5dd3c241d9701",
+    "backend/ocr_urls.py": "1857a2ad2e3ea935cd58408c335466b4cfc4f3c28077fdcfb927c92c3b349ee2",
+    "backend/pipeline.py": "042ddf519a499bf42eebef3edd5528c94ea591692e65ea3b2c57b07f6821db75",
+    "backend/providers.py": "de23a984a3222f6038a8b4dee73a1f927e0e466c107e9bdb2ac182b39bf64667",
+    "backend/qr.py": "f4e4d2f9db9ac65f8e7d82d1874fe6df22ee9368f30a7f3a06395a68e412947f",
+    "backend/report_html.py": "5e9853a19e944bf7c2ba00d73eae1fe8fd133f2e9f89c7cd3cde637d1a30ca37",
+    "backend/schemas.py": "ffb9aa16964bc37274d2621ce530bd3a6b2de32c12f2453be2deff936ed12a8f",
+    "backend/storage.py": "eb774a2f97440ffdc587835a5438f3490d487f5162d4654f9637d7c85d3dac55",
+    "backend/weights.json": "b01d5aa67c6e043c60d8b79cc38daa5be7f27c6f64d596174e53f42f02a2c02d",
+    "models-manifest.json": "7651975c20cab614b25004ab72d58be909a847df34ab86c9ce74670caa710546",
+    "requirements.lock.txt": "aadee977e8f609c9ef4cb528a18fbd3ea9506616dcbc4bb9802d625cc534f8df"
+  },
+  "rows": [
+    {
+      "id": "b7956515f68f08a4",
+      "truth": 1,
+      "prior_score": 0,
+      "prior_sufficient": false,
+      "prior_note": "OCR заменил латинскую e кириллической е в сегменте URL. Назначение не восстановлено; URL не исправлялся автоматически.",
+      "score": 0,
+      "sufficient": false,
+      "predicted": 0,
+      "url_reviews": [
+        {
+          "raw_url": "https://n3c5c644ac82.test/entry/3e6е729",
+          "line_indices": [
+            1
+          ],
+          "needs_review": true,
+          "reasons": [
+            "В адресе есть нелатинские символы: возможны как ошибка OCR, так и настоящий международный путь."
+          ],
+          "suggestions": [
+            {
+              "url": "https://n3c5c644ac82.test/entry/3e6e729",
+              "method": "en_PP-OCRv5_mobile_rec",
+              "confidence": 0.9238405823707581,
+              "agreement": true
+            }
+          ],
+          "method": "primary_ocr",
+          "auto_follow": false,
+          "secondary_attempts": [
+            {
+              "text": "nocneµHe kapto4ke. https://n3c5c644ac82.test/entry/3e6e729",
+              "confidence": 0.9347464442253113,
+              "urls": [
+                "https://n3c5c644ac82.test/entry/3e6e729"
+              ],
+              "scale": 1
+            },
+            {
+              "text": "nocne|He kapto4ke. https://n3c5c644ac82.test/entry/3e6e729",
+              "confidence": 0.9238405823707581,
+              "urls": [
+                "https://n3c5c644ac82.test/entry/3e6e729"
+              ],
+              "scale": 2
+            }
+          ],
+          "source_evidence_ids": [
+            "29ca3e6536d14b988c3305be347d72d0-1bf732ea3982-e8",
+            "29ca3e6536d14b988c3305be347d72d0-1bf732ea3982-e3"
+          ],
+          "selected_url": null
+        }
+      ],
+      "status": "partial",
+      "limitations": [
+        "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+        "Индекс не является вероятностью нарушения или юридическим заключением.",
+        "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+        "Сомнительный OCR-адрес не открывался. Сверьте его с оригиналом и явно уточните в карточке материала.",
+        "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+      ]
+    },
+    {
+      "id": "b577abbd3499b47d",
+      "truth": 1,
+      "prior_score": 15,
+      "prior_sufficient": true,
+      "prior_note": "В OCR перенос строки разделил призыв и слово казино; сохраненный индекс15. Вероятная причина: локальная область контекста заканчивается на переносе. Также /item распознано как /tem. Это разбор сохраненного результата, не исправление после теста.",
+      "score": 80,
+      "sufficient": true,
+      "predicted": 1,
+      "url_reviews": [
+        {
+          "raw_url": "https://n541284c24c5.test/tem/37d4554?ref=RE53DDA0",
+          "line_indices": [
+            2
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true,
+          "source_evidence_ids": [
+            "43f3a50b286843a081d8f32fc564cb29-c6d4fb867088-e10",
+            "43f3a50b286843a081d8f32fc564cb29-c6d4fb867088-e4"
+          ],
+          "selected_url": "https://n541284c24c5.test/tem/37d4554?ref=RE53DDA0"
+        }
+      ],
+      "status": "partial",
+      "limitations": [
+        "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+        "Индекс не является вероятностью нарушения или юридическим заключением.",
+        "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+        "Непроверенный участок: Синтетический стенд: адрес не найден"
+      ]
+    },
+    {
+      "id": "0ce548322decc5ba",
+      "truth": 1,
+      "prior_score": 0,
+      "prior_sufficient": false,
+      "prior_note": "В сохраненном OCR путь /item стал /tem; контролируемое назначение не найдено.",
+      "score": 0,
+      "sufficient": false,
+      "predicted": 0,
+      "url_reviews": [
+        {
+          "raw_url": "https://n8591b17a26c.test/tem/b0b84da?ref=RC2F8207",
+          "line_indices": [
+            2
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true,
+          "source_evidence_ids": [
+            "801d515fb8db4902a8f38d7b14ac2ef2-c613ed10a4dd-e7",
+            "801d515fb8db4902a8f38d7b14ac2ef2-c613ed10a4dd-e4"
+          ],
+          "selected_url": "https://n8591b17a26c.test/tem/b0b84da?ref=RC2F8207"
+        }
+      ],
+      "status": "partial",
+      "limitations": [
+        "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+        "Индекс не является вероятностью нарушения или юридическим заключением.",
+        "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+        "Непроверенный участок: Синтетический стенд: адрес не найден",
+        "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+      ]
+    },
+    {
+      "id": "a2792374e9dded95",
+      "truth": 1,
+      "prior_score": 0,
+      "prior_sufficient": false,
+      "prior_note": "В сохраненном OCR URL содержит кириллическую е вместо латинской в имени/пути; маршрут не подтвержден.",
+      "score": 0,
+      "sufficient": false,
+      "predicted": 0,
+      "url_reviews": [
+        {
+          "raw_url": "https://nf2e657еa6b7.test/еntry/9327779",
+          "line_indices": [
+            1
+          ],
+          "needs_review": true,
+          "reasons": [
+            "В адресе есть нелатинские символы: возможны как ошибка OCR, так и настоящий международный путь."
+          ],
+          "suggestions": [
+            {
+              "url": "https://nf2e657ea6b7.test/entry/9327779",
+              "method": "en_PP-OCRv5_mobile_rec",
+              "confidence": 0.9369363188743591,
+              "agreement": true
+            }
+          ],
+          "method": "primary_ocr",
+          "auto_follow": false,
+          "secondary_attempts": [
+            {
+              "text": "nocne/Hero nepexo√a: https://nf2e657ea6b7.test/entry/9327779",
+              "confidence": 0.9369363188743591,
+              "urls": [
+                "https://nf2e657ea6b7.test/entry/9327779"
+              ],
+              "scale": 1
+            },
+            {
+              "text": "nocne/Hero nepexo√a: https://nf2e657ea6b7.test/entry/9327779",
+              "confidence": 0.9485817551612854,
+              "urls": [
+                "https://nf2e657ea6b7.test/entry/9327779"
+              ],
+              "scale": 2
+            }
+          ],
+          "source_evidence_ids": [
+            "f1e416fe164747859ca93017b15694ae-5b3cd1b9e25d-e8",
+            "f1e416fe164747859ca93017b15694ae-5b3cd1b9e25d-e3"
+          ],
+          "selected_url": null
+        }
+      ],
+      "status": "partial",
+      "limitations": [
+        "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+        "Индекс не является вероятностью нарушения или юридическим заключением.",
+        "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+        "Сомнительный OCR-адрес не открывался. Сверьте его с оригиналом и явно уточните в карточке материала.",
+        "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+      ]
+    },
+    {
+      "id": "be1b897f3732369e",
+      "truth": 1,
+      "prior_score": 0,
+      "prior_sufficient": false,
+      "prior_note": "Авторский положительный случай с намеренно недоступным назначением. Отказ сохранен в FN общего recall.",
+      "score": 0,
+      "sufficient": false,
+      "predicted": 0,
+      "url_reviews": [
+        {
+          "raw_url": "https://ne97a8a53164.test/entry/1c189ae",
+          "line_indices": [
+            2
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true,
+          "source_evidence_ids": [
+            "9fb2d5e4d4654c299c92f8e861e63b0c-01dcd0b0597d-e9",
+            "9fb2d5e4d4654c299c92f8e861e63b0c-01dcd0b0597d-e4"
+          ],
+          "selected_url": "https://ne97a8a53164.test/entry/1c189ae"
+        }
+      ],
+      "status": "partial",
+      "limitations": [
+        "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+        "Индекс не является вероятностью нарушения или юридическим заключением.",
+        "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+        "Непроверенный участок: Синтетический стенд: адрес не найден",
+        "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+      ]
+    },
+    {
+      "id": "5fb6cb0975201408",
+      "truth": 1,
+      "prior_score": 0,
+      "prior_sufficient": false,
+      "prior_note": "Авторский положительный случай с намеренно недоступным назначением. Отказ сохранен в FN общего recall.",
+      "score": 0,
+      "sufficient": false,
+      "predicted": 0,
+      "url_reviews": [],
+      "status": "partial",
+      "limitations": [
+        "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+        "Индекс не является вероятностью нарушения или юридическим заключением.",
+        "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+        "Непроверенный участок: Синтетический стенд: адрес не найден",
+        "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+      ]
+    },
+    {
+      "id": "a6288de4d3df8fcf",
+      "truth": 1,
+      "prior_score": 0,
+      "prior_sufficient": false,
+      "prior_note": "Авторский положительный случай с намеренно недоступным назначением. Отказ сохранен в FN общего recall.",
+      "score": 0,
+      "sufficient": false,
+      "predicted": 0,
+      "url_reviews": [
+        {
+          "raw_url": "https://nf34b7d15b02.test/entry/823e02f",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true,
+          "source_evidence_ids": [
+            "26936716b9b9481484b98076d96186f0-314106733a26-e8",
+            "26936716b9b9481484b98076d96186f0-314106733a26-e3"
+          ],
+          "selected_url": "https://nf34b7d15b02.test/entry/823e02f"
+        }
+      ],
+      "status": "partial",
+      "limitations": [
+        "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+        "Индекс не является вероятностью нарушения или юридическим заключением.",
+        "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+        "Непроверенный участок: Синтетический стенд: адрес не найден",
+        "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+      ]
+    },
+    {
+      "id": "84f3b952d0a4730f",
+      "truth": 1,
+      "prior_score": 0,
+      "prior_sufficient": false,
+      "prior_note": "Авторский положительный случай с намеренно недоступным назначением. Отказ сохранен в FN общего recall.",
+      "score": 0,
+      "sufficient": false,
+      "predicted": 0,
+      "url_reviews": [],
+      "status": "partial",
+      "limitations": [
+        "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+        "Индекс не является вероятностью нарушения или юридическим заключением.",
+        "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+        "Непроверенный участок: Синтетический стенд: адрес не найден",
+        "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+      ]
+    },
+    {
+      "id": "7b5d5e11644f3dbc",
+      "truth": 0,
+      "prior_score": 75,
+      "prior_sufficient": true,
+      "prior_note": "Информационный призыв к памятке о рисках получил75. В материале остались игровая лексика, призыв и обещание выигрыша; локальные шаблоны не распознали альтернативный информационный контекст.",
+      "score": 0,
+      "sufficient": true,
+      "predicted": 0,
+      "url_reviews": [
+        {
+          "raw_url": "https://n13e5ccde32c.test/item/fbcf3e8?ref=R5902EB1",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true,
+          "source_evidence_ids": [
+            "34836e0e34e74dcf88031eb2e1b0738c-b8aa5aa8da5a-e7",
+            "34836e0e34e74dcf88031eb2e1b0738c-b8aa5aa8da5a-e3"
+          ],
+          "selected_url": "https://n13e5ccde32c.test/item/fbcf3e8?ref=R5902EB1"
+        }
+      ],
+      "status": "completed",
+      "limitations": [
+        "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+        "Индекс не является вероятностью нарушения или юридическим заключением.",
+        "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+      ]
+    }
+  ],
+  "score_audit": {
+    "algebraically_possible_values": [
+      0,
+      10,
+      15,
+      20,
+      25,
+      35,
+      65,
+      75,
+      80,
+      85,
+      90,
+      100
+    ],
+    "medium_example_value": 35,
+    "medium_example_materials": [
+      "Бесплатная игра. Заходи, забирай бонус и выигрыш.",
+      "Тегін ойын. Тіркел, сыйлық пен ұтыс ал."
+    ],
+    "medium_example_reasons": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "99f723b6611e413c8d078def86ce7853-50380c8b1a1a-e3",
+          "99f723b6611e413c8d078def86ce7853-50380c8b1a1a-e7",
+          "99f723b6611e413c8d078def86ce7853-50380c8b1a1a-e18",
+          "99f723b6611e413c8d078def86ce7853-50380c8b1a1a-e19",
+          "99f723b6611e413c8d078def86ce7853-50380c8b1a1a-e14",
+          "99f723b6611e413c8d078def86ce7853-50380c8b1a1a-e17"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "99f723b6611e413c8d078def86ce7853-50380c8b1a1a-e4"
+        ]
+      },
+      {
+        "key": "promise_in_promotion",
+        "title": "Обещание выигрыша",
+        "weight": 10,
+        "evidence_ids": [
+          "99f723b6611e413c8d078def86ce7853-50380c8b1a1a-e5"
+        ]
+      },
+      {
+        "key": "repeated_referral_in_promotion",
+        "title": "Повтор идентификатора в материалах",
+        "weight": 10,
+        "evidence_ids": [
+          "99f723b6611e413c8d078def86ce7853-50380c8b1a1a-e3",
+          "99f723b6611e413c8d078def86ce7853-50380c8b1a1a-e4",
+          "99f723b6611e413c8d078def86ce7853-50380c8b1a1a-e5",
+          "99f723b6611e413c8d078def86ce7853-50380c8b1a1a-e6",
+          "99f723b6611e413c8d078def86ce7853-50380c8b1a1a-e7"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: бесплатная игра",
+        "weight": -65,
+        "evidence_ids": [
+          "99f723b6611e413c8d078def86ce7853-50380c8b1a1a-e6"
+        ]
+      }
+    ],
+    "meaning": "Discrete heuristic index; medium band is sparse, never a calibrated probability"
+  }
+}

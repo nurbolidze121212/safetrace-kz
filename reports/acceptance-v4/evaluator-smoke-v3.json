@@ -1,0 +1,124 @@
+{
+  "version": "v3",
+  "core_hashes": {
+    "backend/__init__.py": "cab7e34e197ae110487f67fb05f231deab0a474dab2e42cbe3b02825dd660767",
+    "backend/analysis.py": "bf8ba12cb987c50c4807cba1a83e04169c2cde16be8fde25e7fbd4c2b3087931",
+    "backend/app.py": "572a75cd2dd0a58814df2eb41b3661f4396750dca3c723382482fecc3e70897c",
+    "backend/config.py": "fa19a5973cc972e75ba265a9244cb1a968a455ef6413e4fb2f86da7b577a5582",
+    "backend/evaluations.py": "e67992cbc186a7b91201a4e39099aa4aaf9cff8f7f86e83e40a4603ec1148976",
+    "backend/exports.py": "2c7efe90d8505a219755010de0243317a5c65f0fe24fdb7159190a81f981d45d",
+    "backend/graph.py": "e27e5676a70a0d31f5513f017fb65b9e6aaf69fe780ca9f02ece76f5520872bc",
+    "backend/limits.py": "bc9b82ee5bdb10c6274300c075c7dae1c2baeb9a4b0bf6287358795394d9fcac",
+    "backend/links.py": "8989f0cd4c00e92fbda6fd945fd51b6e3afaf306adaafa5558a6acae3e649de2",
+    "backend/ocr.py": "cd6dda0581bd9f0e573294c64ce6ddc0ba64db4e54f52bc1864c31f93facf504",
+    "backend/pipeline.py": "504c224365101ca2a72815aa8a3edbe645da77f6ac70e21d3ed82c3ccfe59644",
+    "backend/providers.py": "de23a984a3222f6038a8b4dee73a1f927e0e466c107e9bdb2ac182b39bf64667",
+    "backend/qr.py": "f4e4d2f9db9ac65f8e7d82d1874fe6df22ee9368f30a7f3a06395a68e412947f",
+    "backend/report_html.py": "a3b73aff6ea35035a72869ead817d7cfa5653553958b64b4ad7209f6cb170382",
+    "backend/schemas.py": "9e8f288c483aabaedd249c2b7376289f5bb33bf17411226cf3748abeb4322cde",
+    "backend/storage.py": "eb774a2f97440ffdc587835a5438f3490d487f5162d4654f9637d7c85d3dac55",
+    "backend/weights.json": "6c1516b3296f8cac06fbf63504c28185231b2bf62d37db4d2cbc89bf0d98b411",
+    "models-manifest.json": "d4bb3eb1be953003a32331066e3cc7876ceecc72a82fd9144360a621b590a9a0",
+    "requirements.lock.txt": "aadee977e8f609c9ef4cb528a18fbd3ea9506616dcbc4bb9802d625cc534f8df"
+  },
+  "data_hashes": {
+    "inputs.jsonl": "3c29827358efb90664309a5e6c166d83355ec479a48d56476fda342c1355aa3d",
+    "material.png": "6ae56759402604a682079d6279051eb66c5177c3bdd80a4fb0497e90ef0058f7",
+    "pages.json": "03b7f502992f018cad44eaf5a4628a06dd509675a5b6c578ad9bcab4381be3f4"
+  },
+  "versions": {
+    "rules": "rules-3.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "pipeline": "pipeline-2.1",
+    "qr": "qr-1.0"
+  },
+  "model_initialization_ms": 6100.871999999981,
+  "rows": [
+    {
+      "id": "s01",
+      "variant": "full",
+      "score": 65,
+      "sufficient": true,
+      "predicted": 1,
+      "status": "completed",
+      "elapsed_ms": 11.534,
+      "ocr_elapsed_ms": 0,
+      "analysis_assisted": false,
+      "materials": [
+        {
+          "image": false,
+          "raw_text": "",
+          "text": "",
+          "raw_urls": [],
+          "automatic_urls": [],
+          "candidates": [],
+          "roots": [
+            "https://smoke-s7.test/a",
+            "https://smoke-b4.test/b"
+          ],
+          "qr_payloads": [],
+          "url_reviews": [],
+          "rotation_ccw": 0
+        }
+      ],
+      "contributions": [
+        {
+          "key": "destination_and_call",
+          "title": "Игровые признаки на странице + призыв",
+          "weight": 65,
+          "evidence_ids": [
+            "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e2",
+            "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e8",
+            "52fcfa2e1f1043869a8afefa2fe2aca2-b113cc0cff56-e9"
+          ]
+        }
+      ],
+      "limitations": [
+        "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+        "Индекс не является вероятностью нарушения или юридическим заключением.",
+        "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+      ]
+    },
+    {
+      "id": "s02",
+      "variant": "full",
+      "score": 0,
+      "sufficient": false,
+      "predicted": 0,
+      "status": "partial",
+      "elapsed_ms": 3395.102,
+      "ocr_elapsed_ms": 3242.788,
+      "analysis_assisted": false,
+      "materials": [
+        {
+          "image": true,
+          "raw_text": "Достар, переходи в новый раздел, бонус ждёт.\nПриглашениe: https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+          "text": "Достар, переходи в новый раздел, бонус ждёт.\nПриглашениe: https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+          "raw_urls": [
+            "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD"
+          ],
+          "automatic_urls": [
+            "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD"
+          ],
+          "candidates": [
+            "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD"
+          ],
+          "roots": [
+            "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD"
+          ],
+          "qr_payloads": [],
+          "url_reviews": [],
+          "rotation_ccw": 0
+        }
+      ],
+      "contributions": [],
+      "limitations": [
+        "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+        "Индекс не является вероятностью нарушения или юридическим заключением.",
+        "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+        "Непроверенный участок: Используйте явное ASCII/punycode имя узла",
+        "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+      ]
+    }
+  ]
+}

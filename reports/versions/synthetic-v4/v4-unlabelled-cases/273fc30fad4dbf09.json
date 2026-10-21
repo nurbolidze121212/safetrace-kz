@@ -1,0 +1,524 @@
+{
+  "id": "84dd74d5e1194cfba252f9a3690d3709",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:57:08.450701+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "DEMO. Жаңа велосипедтер келді. Заходи в магазин, промокод даёт скидку на шлем. Партнёрлік бет https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+      "url": "",
+      "source": "DEMO · материал 273fc3",
+      "published_at": null,
+      "image_id": null,
+      "id": "861d60d9364f41d3931e6a30aa58f3c7",
+      "original_sha256": "4714e8bec18897f303e0786765ae86b457bd5ed25c7fdde62987df24a16f0151",
+      "source_evidence_id": "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e1",
+      "normalized_text": "demo. жаңа велосипедтер келді. заходи в магазин, промокод даёт скидку на шлем. партнёрлік бет https://kf97d53aa00.test/visit/0d5a35?ref=td417f12",
+      "urls": [
+        "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12"
+      ],
+      "url_reviews": [],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e4"
+      ],
+      "content_fingerprint": "d79158f7804062d7c907c31e5041b0b4ba83d27bad9c3546437dbee29dd303ad",
+      "reachable_urls": [
+        "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12"
+      ],
+      "call_bindings": [
+        {
+          "call_evidence_id": "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e2",
+          "source_id": "861d60d9364f41d3931e6a30aa58f3c7",
+          "start": 31,
+          "end": 37,
+          "quote": "Заходи",
+          "scope_start": 30,
+          "scope_end": 77,
+          "method": "single_material_target",
+          "status": "bound",
+          "candidate_urls": [
+            "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12"
+          ],
+          "root_url": "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+          "root_evidence_ids": [
+            "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e5"
+          ],
+          "route_evidence_ids": [
+            "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e6"
+          ],
+          "destination_evidence_ids": [],
+          "reachable_urls": [
+            "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12"
+          ]
+        }
+      ],
+      "attribution_incomplete": false,
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "kk",
+        "context": "promotion",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "Заходи",
+            "source_id": "861d60d9364f41d3931e6a30aa58f3c7",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 31,
+            "end": 37
+          },
+          {
+            "kind": "bonus",
+            "quote": "промокод",
+            "source_id": "861d60d9364f41d3931e6a30aa58f3c7",
+            "explanation": "Упоминание бонуса или промокода.",
+            "start": 49,
+            "end": 57
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e1",
+      "quote": "DEMO · материал 273fc3",
+      "source_id": "861d60d9364f41d3931e6a30aa58f3c7",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:57:08.470707+00:00",
+      "material_id": "861d60d9364f41d3931e6a30aa58f3c7",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e2",
+      "quote": "Заходи",
+      "source_id": "861d60d9364f41d3931e6a30aa58f3c7",
+      "method": "local_rule",
+      "at": "2026-10-21T20:57:08.470707+00:00",
+      "start": 31,
+      "end": 37,
+      "material_id": "861d60d9364f41d3931e6a30aa58f3c7"
+    },
+    {
+      "id": "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e3",
+      "quote": "промокод",
+      "source_id": "861d60d9364f41d3931e6a30aa58f3c7",
+      "method": "local_rule",
+      "at": "2026-10-21T20:57:08.470707+00:00",
+      "start": 49,
+      "end": 57,
+      "material_id": "861d60d9364f41d3931e6a30aa58f3c7"
+    },
+    {
+      "id": "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e4",
+      "quote": "DEMO. Жаңа велосипедтер келді. Заходи в магазин, промокод даёт скидку на шлем. Партнёрлік бет https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+      "source_id": "861d60d9364f41d3931e6a30aa58f3c7",
+      "method": "source_text",
+      "at": "2026-10-21T20:57:08.470707+00:00",
+      "material_id": "861d60d9364f41d3931e6a30aa58f3c7"
+    },
+    {
+      "id": "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e5",
+      "quote": "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+      "source_id": "861d60d9364f41d3931e6a30aa58f3c7",
+      "method": "source_text",
+      "at": "2026-10-21T20:57:08.470707+00:00",
+      "material_id": "861d60d9364f41d3931e6a30aa58f3c7"
+    },
+    {
+      "id": "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e6",
+      "quote": "Городская запись Календарь встреч, регистрация на консультации и расписание кружков.",
+      "source_id": "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:57:08.471710+00:00",
+      "url": "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e7",
+      "quote": "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+      "source_id": "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:57:08.471710+00:00",
+      "url": "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+        "at": "2026-10-21T20:57:08.470707+00:00",
+        "status_code": 200,
+        "text": "Городская запись Календарь встреч, регистрация на консультации и расписание кружков.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:57:08.470707+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "f0f13ff5c9e851d26f13cc072666bbae8b75c1d4d6bd71a3c585067916820d47",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+        "evidence_id": "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e6",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+        "type": "contains_link",
+        "quote": "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:57:08.470707+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e7"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "analysis_assisted": false,
+  "identifiers": [
+    {
+      "domain": "kf97d53aa00.test",
+      "parameter": "ref",
+      "value": "TD417F12",
+      "scope": "kf97d53aa00.test|/visit/0d5a35|ref|TD417F12",
+      "url": "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+      "material_id": "861d60d9364f41d3931e6a30aa58f3c7",
+      "evidence_id": "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e6"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:57:08.470707+00:00",
+  "analysis_id": "b4f2812ab1a9",
+  "context": {
+    "language": "kk",
+    "context": "promotion",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "Заходи",
+        "source_id": "861d60d9364f41d3931e6a30aa58f3c7",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 31,
+        "end": 37
+      },
+      {
+        "kind": "bonus",
+        "quote": "промокод",
+        "source_id": "861d60d9364f41d3931e6a30aa58f3c7",
+        "explanation": "Упоминание бонуса или промокода.",
+        "start": 49,
+        "end": 57
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "Заходи",
+      "source_id": "861d60d9364f41d3931e6a30aa58f3c7",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 31,
+      "end": 37,
+      "evidence_id": "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e2"
+    },
+    {
+      "kind": "bonus",
+      "quote": "промокод",
+      "source_id": "861d60d9364f41d3931e6a30aa58f3c7",
+      "explanation": "Упоминание бонуса или промокода.",
+      "start": 49,
+      "end": 57,
+      "evidence_id": "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e3"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-3dc57bfbaabf5aea",
+        "type": "material",
+        "label": "DEMO · материал 273fc3",
+        "evidence_ids": [
+          "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e1"
+        ],
+        "case_id": "84dd74d5e1194cfba252f9a3690d3709",
+        "material_id": "861d60d9364f41d3931e6a30aa58f3c7"
+      },
+      {
+        "id": "source-cc9fecec681adc99",
+        "type": "source",
+        "label": "DEMO · материал 273fc3",
+        "evidence_ids": [
+          "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e1"
+        ]
+      },
+      {
+        "id": "url-9da063cfb9e51e56",
+        "type": "url",
+        "label": "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+        "evidence_ids": [
+          "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e5",
+          "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e6"
+        ]
+      },
+      {
+        "id": "observation-65552fcc03c35bb0",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e6"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-b265c1d88f113da2",
+        "type": "domain",
+        "label": "kf97d53aa00.test",
+        "evidence_ids": [
+          "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e6"
+        ]
+      },
+      {
+        "id": "identifier-9de49ace961ef857",
+        "type": "identifier",
+        "label": "ref=TD417F12",
+        "evidence_ids": [
+          "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e6"
+        ],
+        "scope": "kf97d53aa00.test|/visit/0d5a35|ref|TD417F12"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-4e6db7db74132b032e",
+        "source": "source-cc9fecec681adc99",
+        "target": "material-3dc57bfbaabf5aea",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e1"
+        ],
+        "at": "2026-10-21T20:57:08.470707+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-e9f604cf177c88cc26",
+        "source": "material-3dc57bfbaabf5aea",
+        "target": "url-9da063cfb9e51e56",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e5"
+        ],
+        "at": "2026-10-21T20:57:08.470707+00:00",
+        "method": "source_text",
+        "status": "observed"
+      },
+      {
+        "id": "edge-4e344c6b4cb42b505a",
+        "source": "url-9da063cfb9e51e56",
+        "target": "observation-65552fcc03c35bb0",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e6"
+        ],
+        "at": "2026-10-21T20:57:08.470707+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-09b4d1d59cb858e042",
+        "source": "url-9da063cfb9e51e56",
+        "target": "domain-b265c1d88f113da2",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e6"
+        ],
+        "at": "2026-10-21T20:57:08.470707+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-0a2099df8f54772d88",
+        "source": "url-9da063cfb9e51e56",
+        "target": "identifier-9de49ace961ef857",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e6"
+        ],
+        "at": "2026-10-21T20:57:08.470707+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e1",
+        "quote": "DEMO · материал 273fc3",
+        "source_id": "861d60d9364f41d3931e6a30aa58f3c7",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:57:08.470707+00:00",
+        "material_id": "861d60d9364f41d3931e6a30aa58f3c7",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e2",
+        "quote": "Заходи",
+        "source_id": "861d60d9364f41d3931e6a30aa58f3c7",
+        "method": "local_rule",
+        "at": "2026-10-21T20:57:08.470707+00:00",
+        "start": 31,
+        "end": 37,
+        "material_id": "861d60d9364f41d3931e6a30aa58f3c7"
+      },
+      {
+        "id": "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e3",
+        "quote": "промокод",
+        "source_id": "861d60d9364f41d3931e6a30aa58f3c7",
+        "method": "local_rule",
+        "at": "2026-10-21T20:57:08.470707+00:00",
+        "start": 49,
+        "end": 57,
+        "material_id": "861d60d9364f41d3931e6a30aa58f3c7"
+      },
+      {
+        "id": "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e4",
+        "quote": "DEMO. Жаңа велосипедтер келді. Заходи в магазин, промокод даёт скидку на шлем. Партнёрлік бет https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+        "source_id": "861d60d9364f41d3931e6a30aa58f3c7",
+        "method": "source_text",
+        "at": "2026-10-21T20:57:08.470707+00:00",
+        "material_id": "861d60d9364f41d3931e6a30aa58f3c7"
+      },
+      {
+        "id": "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e5",
+        "quote": "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+        "source_id": "861d60d9364f41d3931e6a30aa58f3c7",
+        "method": "source_text",
+        "at": "2026-10-21T20:57:08.470707+00:00",
+        "material_id": "861d60d9364f41d3931e6a30aa58f3c7"
+      },
+      {
+        "id": "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e6",
+        "quote": "Городская запись Календарь встреч, регистрация на консультации и расписание кружков.",
+        "source_id": "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:57:08.471710+00:00",
+        "url": "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "84dd74d5e1194cfba252f9a3690d3709-b4f2812ab1a9-e7",
+        "quote": "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+        "source_id": "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:57:08.471710+00:00",
+        "url": "https://kf97d53aa00.test/visit/0d5a35?ref=TD417F12",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:57:08.471710+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [],
+    "version": "rules-4.0",
+    "weights": {
+      "version": "weights-4.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "861d60d9364f41d3931e6a30aa58f3c7",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 2.2
+}

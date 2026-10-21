@@ -1,0 +1,448 @@
+{
+  "id": "e9c015331baa4150b656d38b7c714aab",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:50:30.171351+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "DEMO. Дәрігерге жазылу уақыты ашылды. Қабылдау кестесіне тіркеліңіз, төлем кассада ғана жасалады: https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+      "url": "",
+      "source": "DEMO · материал 151c86",
+      "published_at": null,
+      "image_id": null,
+      "id": "f8499eca1d8f42899799ed76ea70d7ff",
+      "original_sha256": "c53370f5d24f41640853d8baf899fa6571c61060de0dec9ad55f0a038e892c51",
+      "source_evidence_id": "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e1",
+      "normalized_text": "demo. дәрігерге жазылу уақыты ашылды. қабылдау кестесіне тіркеліңіз, төлем кассада ғана жасалады: https://k22090be09b.test/visit/d6145e?ref=tffc480a",
+      "urls": [
+        "https://k22090be09b.test/visit/d6145e?ref=TFFC480A"
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e3"
+      ],
+      "reachable_urls": [
+        "https://k22090be09b.test/visit/d6145e?ref=TFFC480A"
+      ],
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-3.0",
+        "weights": {
+          "version": "weights-3.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "kk",
+        "context": "affiliate",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "тіркеліңіз",
+            "source_id": "f8499eca1d8f42899799ed76ea70d7ff",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 57,
+            "end": 67
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e1",
+      "quote": "DEMO · материал 151c86",
+      "source_id": "f8499eca1d8f42899799ed76ea70d7ff",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:50:30.186349+00:00",
+      "material_id": "f8499eca1d8f42899799ed76ea70d7ff",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e2",
+      "quote": "тіркеліңіз",
+      "source_id": "f8499eca1d8f42899799ed76ea70d7ff",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:30.187347+00:00",
+      "start": 57,
+      "end": 67,
+      "material_id": "f8499eca1d8f42899799ed76ea70d7ff"
+    },
+    {
+      "id": "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e3",
+      "quote": "DEMO. Дәрігерге жазылу уақыты ашылды. Қабылдау кестесіне тіркеліңіз, төлем кассада ғана жасалады: https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+      "source_id": "f8499eca1d8f42899799ed76ea70d7ff",
+      "method": "source_text",
+      "at": "2026-10-21T20:50:30.187347+00:00",
+      "material_id": "f8499eca1d8f42899799ed76ea70d7ff"
+    },
+    {
+      "id": "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e4",
+      "quote": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+      "source_id": "f8499eca1d8f42899799ed76ea70d7ff",
+      "method": "source_text",
+      "at": "2026-10-21T20:50:30.187347+00:00",
+      "material_id": "f8499eca1d8f42899799ed76ea70d7ff"
+    },
+    {
+      "id": "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e5",
+      "quote": "Каталог Книги, инструменты и велосипеды. Обычная скидка на товар по партнёрской ссылке.",
+      "source_id": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:50:30.188350+00:00",
+      "url": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e6",
+      "quote": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+      "source_id": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:50:30.188350+00:00",
+      "url": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "at": "2026-10-21T20:50:30.187347+00:00",
+        "status_code": 200,
+        "text": "Каталог Книги, инструменты и велосипеды. Обычная скидка на товар по партнёрской ссылке.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:50:30.187347+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "f30f9491c64bbc50f5f929b2fa18b60d32a0dfcd3f132d657be093e741eb988b",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "evidence_id": "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e5",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "type": "contains_link",
+        "quote": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:50:30.187347+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e6"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-3.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.1"
+  },
+  "identifiers": [
+    {
+      "domain": "k22090be09b.test",
+      "parameter": "ref",
+      "value": "TFFC480A",
+      "scope": "k22090be09b.test|/visit/d6145e|ref|TFFC480A",
+      "url": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+      "material_id": "f8499eca1d8f42899799ed76ea70d7ff",
+      "evidence_id": "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e5"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:50:30.186349+00:00",
+  "analysis_id": "2d55a17c2012",
+  "context": {
+    "language": "kk",
+    "context": "affiliate",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "тіркеліңіз",
+        "source_id": "f8499eca1d8f42899799ed76ea70d7ff",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 57,
+        "end": 67
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "тіркеліңіз",
+      "source_id": "f8499eca1d8f42899799ed76ea70d7ff",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 57,
+      "end": 67,
+      "evidence_id": "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e2"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-7b65f3c6a6c8b157",
+        "type": "material",
+        "label": "DEMO · материал 151c86",
+        "evidence_ids": [
+          "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e1"
+        ],
+        "case_id": "e9c015331baa4150b656d38b7c714aab",
+        "material_id": "f8499eca1d8f42899799ed76ea70d7ff"
+      },
+      {
+        "id": "source-fa42b4d703ab2a44",
+        "type": "source",
+        "label": "DEMO · материал 151c86",
+        "evidence_ids": [
+          "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e1"
+        ]
+      },
+      {
+        "id": "url-d535338b9a385dac",
+        "type": "url",
+        "label": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "evidence_ids": [
+          "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e4",
+          "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e5"
+        ]
+      },
+      {
+        "id": "observation-5c63a821d385c378",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e5"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-3cba0aa641bce5a9",
+        "type": "domain",
+        "label": "k22090be09b.test",
+        "evidence_ids": [
+          "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e5"
+        ]
+      },
+      {
+        "id": "identifier-f1f97af7c8789ce0",
+        "type": "identifier",
+        "label": "ref=TFFC480A",
+        "evidence_ids": [
+          "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e5"
+        ],
+        "scope": "k22090be09b.test|/visit/d6145e|ref|TFFC480A"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-5c1990ee85462c451e",
+        "source": "source-fa42b4d703ab2a44",
+        "target": "material-7b65f3c6a6c8b157",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e1"
+        ],
+        "at": "2026-10-21T20:50:30.186349+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-bf1dc7f8554de82633",
+        "source": "material-7b65f3c6a6c8b157",
+        "target": "url-d535338b9a385dac",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e4"
+        ],
+        "at": "2026-10-21T20:50:30.186349+00:00",
+        "method": "source_text",
+        "status": "observed"
+      },
+      {
+        "id": "edge-d76ec6fa2aa16f2b3e",
+        "source": "url-d535338b9a385dac",
+        "target": "observation-5c63a821d385c378",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e5"
+        ],
+        "at": "2026-10-21T20:50:30.186349+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-9a8ab06bf68183271f",
+        "source": "url-d535338b9a385dac",
+        "target": "domain-3cba0aa641bce5a9",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e5"
+        ],
+        "at": "2026-10-21T20:50:30.186349+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-fc85c509d3586eb9f5",
+        "source": "url-d535338b9a385dac",
+        "target": "identifier-f1f97af7c8789ce0",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e5"
+        ],
+        "at": "2026-10-21T20:50:30.186349+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e1",
+        "quote": "DEMO · материал 151c86",
+        "source_id": "f8499eca1d8f42899799ed76ea70d7ff",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:50:30.186349+00:00",
+        "material_id": "f8499eca1d8f42899799ed76ea70d7ff",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e2",
+        "quote": "тіркеліңіз",
+        "source_id": "f8499eca1d8f42899799ed76ea70d7ff",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:30.187347+00:00",
+        "start": 57,
+        "end": 67,
+        "material_id": "f8499eca1d8f42899799ed76ea70d7ff"
+      },
+      {
+        "id": "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e3",
+        "quote": "DEMO. Дәрігерге жазылу уақыты ашылды. Қабылдау кестесіне тіркеліңіз, төлем кассада ғана жасалады: https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "source_id": "f8499eca1d8f42899799ed76ea70d7ff",
+        "method": "source_text",
+        "at": "2026-10-21T20:50:30.187347+00:00",
+        "material_id": "f8499eca1d8f42899799ed76ea70d7ff"
+      },
+      {
+        "id": "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e4",
+        "quote": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "source_id": "f8499eca1d8f42899799ed76ea70d7ff",
+        "method": "source_text",
+        "at": "2026-10-21T20:50:30.187347+00:00",
+        "material_id": "f8499eca1d8f42899799ed76ea70d7ff"
+      },
+      {
+        "id": "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e5",
+        "quote": "Каталог Книги, инструменты и велосипеды. Обычная скидка на товар по партнёрской ссылке.",
+        "source_id": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:50:30.188350+00:00",
+        "url": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "e9c015331baa4150b656d38b7c714aab-2d55a17c2012-e6",
+        "quote": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "source_id": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:50:30.188350+00:00",
+        "url": "https://k22090be09b.test/visit/d6145e?ref=TFFC480A",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:50:30.188350+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [],
+    "version": "rules-3.0",
+    "weights": {
+      "version": "weights-3.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "f8499eca1d8f42899799ed76ea70d7ff",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 2.7
+}

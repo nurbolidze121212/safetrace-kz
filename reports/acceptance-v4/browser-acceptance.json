@@ -1,0 +1,25 @@
+{
+  "case_id": "aa7d719d0bb74487b852e67969ae077b",
+  "download": "C:\\Users\\nurbo\\Downloads\\safetrace-aa7d719d.zip",
+  "copy": "browser-new-case.zip",
+  "sha256": "53951b709d00df47df56b9bc54f00780fa89aeab87a97091c6db25a0f87cd280",
+  "files_verified": 5,
+  "internal_anchors_verified": 303,
+  "analysis_id": "7aa4f98c1a2e",
+  "score": 90,
+  "materials": 2,
+  "decisions": 1,
+  "history_count": 2,
+  "automatic_initial_score": 0,
+  "assisted_result": true,
+  "browser_observations": [
+    "Fresh image uploaded via actual file chooser; OCR progressed before partial result",
+    "Uncertain split address not followed; original pixels and OCR boxes opened",
+    "Candidate explicitly selected and commented; submitted with keyboard Tab/Return",
+    "Second publication added in UI, score changed from 80 to 90",
+    "Decision saved, persisted after reload; actual ZIP downloaded by export button",
+    "390x844 viewport: document and body scroll width exactly 390; readable decision/history",
+    "1366x768 graph: HTTP edge opens saved synthetic transport observation"
+  ],
+  "limits": "Agent-operated functional acceptance, not independent human usability or label evaluation. Process restart and remaining error/cancel/retry checks recorded separately."
+}

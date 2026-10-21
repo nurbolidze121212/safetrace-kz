@@ -1,0 +1,973 @@
+{
+  "id": "9a09a12ee61c42ed89a88d355ae817bb",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:49:15.203724+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "",
+      "url": "",
+      "source": "DEMO · материал 6adfd1",
+      "published_at": null,
+      "image_id": "ad7b0dbc61897dd96b8d1931579d7e49.png",
+      "id": "ae449cd510684ef48bd28c622cede227",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "ad7b0dbc61897dd96b8d1931579d7e49d0817beb8a2b6cf314e43f653d8ba1f0",
+      "source_evidence_id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e1",
+      "normalized_text": "",
+      "ocr": {
+        "text": "DEМО. Бұл код қауіпті казиноға апарады. Ақша жібермеңіз, сілтемеге\nөтпеңіз. Алаяқ хабарламаға мысал: QR төменде.",
+        "lines": [
+          {
+            "text": "DEМО. Бұл код қауіпті казиноға апарады. Ақша жібермеңіз, сілтемеге",
+            "confidence": 0.9791028499603271,
+            "polygon": [
+              [
+                28.0,
+                24.0
+              ],
+              [
+                943.0,
+                26.0
+              ],
+              [
+                943.0,
+                58.0
+              ],
+              [
+                28.0,
+                56.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DEМО."
+            ],
+            "evidence_id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e2"
+          },
+          {
+            "text": "өтпеңіз. Алаяқ хабарламаға мысал: QR төменде.",
+            "confidence": 0.9975560307502747,
+            "polygon": [
+              [
+                27.0,
+                69.0
+              ],
+              [
+                674.0,
+                70.0
+              ],
+              [
+                674.0,
+                101.0
+              ],
+              [
+                27.0,
+                100.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e3"
+          }
+        ],
+        "raw_text": "DEМО. Бұл код қауіпті казиноға апарады. Ақша жібермеңіз, сілтемеге\nөтпеңіз. Алаяқ хабарламаға мысал: QR төменде.",
+        "raw_lines": [
+          {
+            "text": "DEМО. Бұл код қауіпті казиноға апарады. Ақша жібермеңіз, сілтемеге",
+            "confidence": 0.9791028499603271,
+            "polygon": [
+              [
+                28.0,
+                24.0
+              ],
+              [
+                943.0,
+                26.0
+              ],
+              [
+                943.0,
+                58.0
+              ],
+              [
+                28.0,
+                56.0
+              ]
+            ]
+          },
+          {
+            "text": "өтпеңіз. Алаяқ хабарламаға мысал: QR төменде.",
+            "confidence": 0.9975560307502747,
+            "polygon": [
+              [
+                27.0,
+                69.0
+              ],
+              [
+                674.0,
+                70.0
+              ],
+              [
+                674.0,
+                101.0
+              ],
+              [
+                27.0,
+                100.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 92,
+            "mean_confidence": 0.9865242378867191,
+            "score": 88.35290420547594,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1120,
+        "height": 474,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически."
+      },
+      "qr": {
+        "codes": [
+          {
+            "text": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+            "truncated": false,
+            "valid_url": true,
+            "reason": null,
+            "polygon": [
+              [
+                72.0,
+                170.0
+              ],
+              [
+                273.0,
+                170.0
+              ],
+              [
+                273.3611145019531,
+                371.3260192871094
+              ],
+              [
+                72.0,
+                372.0
+              ]
+            ],
+            "evidence_id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e4"
+          }
+        ],
+        "width": 1120,
+        "height": 474,
+        "version": "qr-1.0",
+        "decoder": "OpenCV 4.10.0",
+        "cache_hit": false,
+        "elapsed_ms": 54.49,
+        "limitations": "До 8 QR-кодов, изображение до 1600 px по длинной стороне. Мелкие, поврежденные и составные QR могут не читаться. Декодирование не подтверждает безопасность адреса."
+      },
+      "urls": [
+        "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9"
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e9",
+        "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e4"
+      ],
+      "reachable_urls": [
+        "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9"
+      ],
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [
+          {
+            "key": "alternative_context",
+            "title": "Альтернативный контекст: предупреждение",
+            "weight": -65,
+            "evidence_ids": [
+              "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e6",
+              "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e7",
+              "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e8"
+            ]
+          }
+        ],
+        "version": "rules-3.0",
+        "weights": {
+          "version": "weights-3.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "kk",
+        "context": "warning",
+        "claims": [
+          {
+            "kind": "gambling",
+            "quote": "казиноға",
+            "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+            "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+            "start": 22,
+            "end": 30
+          },
+          {
+            "kind": "warning",
+            "quote": "қауіпті",
+            "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+            "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+            "start": 14,
+            "end": 21
+          },
+          {
+            "kind": "warning",
+            "quote": "өтпеңіз",
+            "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+            "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+            "start": 67,
+            "end": 74
+          },
+          {
+            "kind": "warning",
+            "quote": "Алаяқ",
+            "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+            "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+            "start": 76,
+            "end": 81
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e1",
+      "quote": "DEMO · материал 6adfd1",
+      "source_id": "ae449cd510684ef48bd28c622cede227",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:49:15.221725+00:00",
+      "material_id": "ae449cd510684ef48bd28c622cede227",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e2",
+      "quote": "DEМО. Бұл код қауіпті казиноға апарады. Ақша жібермеңіз, сілтемеге",
+      "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:49:18.580817+00:00",
+      "material_id": "ae449cd510684ef48bd28c622cede227",
+      "polygon": [
+        [
+          28.0,
+          24.0
+        ],
+        [
+          943.0,
+          26.0
+        ],
+        [
+          943.0,
+          58.0
+        ],
+        [
+          28.0,
+          56.0
+        ]
+      ],
+      "confidence": 0.9791028499603271
+    },
+    {
+      "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e3",
+      "quote": "өтпеңіз. Алаяқ хабарламаға мысал: QR төменде.",
+      "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:49:18.580817+00:00",
+      "material_id": "ae449cd510684ef48bd28c622cede227",
+      "polygon": [
+        [
+          27.0,
+          69.0
+        ],
+        [
+          674.0,
+          70.0
+        ],
+        [
+          674.0,
+          101.0
+        ],
+        [
+          27.0,
+          100.0
+        ]
+      ],
+      "confidence": 0.9975560307502747
+    },
+    {
+      "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e4",
+      "quote": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+      "source_id": "ae449cd510684ef48bd28c622cede227-qr",
+      "method": "qr_decode",
+      "at": "2026-10-21T20:49:18.647835+00:00",
+      "material_id": "ae449cd510684ef48bd28c622cede227",
+      "polygon": [
+        [
+          72.0,
+          170.0
+        ],
+        [
+          273.0,
+          170.0
+        ],
+        [
+          273.3611145019531,
+          371.3260192871094
+        ],
+        [
+          72.0,
+          372.0
+        ]
+      ],
+      "note": "Адрес декодирован из QR; безопасность проверяется отдельно."
+    },
+    {
+      "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e5",
+      "quote": "казиноға",
+      "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:18.647835+00:00",
+      "start": 22,
+      "end": 30,
+      "material_id": "ae449cd510684ef48bd28c622cede227"
+    },
+    {
+      "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e6",
+      "quote": "қауіпті",
+      "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:18.647835+00:00",
+      "start": 14,
+      "end": 21,
+      "material_id": "ae449cd510684ef48bd28c622cede227"
+    },
+    {
+      "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e7",
+      "quote": "өтпеңіз",
+      "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:18.647835+00:00",
+      "start": 67,
+      "end": 74,
+      "material_id": "ae449cd510684ef48bd28c622cede227"
+    },
+    {
+      "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e8",
+      "quote": "Алаяқ",
+      "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:18.647835+00:00",
+      "start": 76,
+      "end": 81,
+      "material_id": "ae449cd510684ef48bd28c622cede227"
+    },
+    {
+      "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e9",
+      "quote": "DEМО. Бұл код қауіпті казиноға апарады. Ақша жібермеңіз, сілтемеге\nөтпеңіз. Алаяқ хабарламаға мысал: QR төменде.",
+      "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:49:18.648825+00:00",
+      "material_id": "ae449cd510684ef48bd28c622cede227"
+    },
+    {
+      "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e10",
+      "quote": "Игровой кабинет Онлайн-казино. Депозит для игры на деньги, игровые автоматы и джекпот.",
+      "source_id": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:49:18.648825+00:00",
+      "url": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e11",
+      "quote": "казино",
+      "source_id": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:18.649823+00:00",
+      "start": 23,
+      "end": 29,
+      "url": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9"
+    },
+    {
+      "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e12",
+      "quote": "джекпот",
+      "source_id": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:18.649823+00:00",
+      "start": 78,
+      "end": 85,
+      "url": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9"
+    },
+    {
+      "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e13",
+      "quote": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+      "source_id": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:49:18.649823+00:00",
+      "url": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+        "at": "2026-10-21T20:49:18.648825+00:00",
+        "status_code": 200,
+        "text": "Игровой кабинет Онлайн-казино. Депозит для игры на деньги, игровые автоматы и джекпот.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:49:18.648825+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "4fb602931035d8ddd9819ed110b30691a3a0f5d0ea9e8260a20f3704b3502897",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+        "evidence_id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e10",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [
+            {
+              "kind": "gambling",
+              "quote": "казино",
+              "source_id": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 23,
+              "end": 29
+            },
+            {
+              "kind": "gambling",
+              "quote": "джекпот",
+              "source_id": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 78,
+              "end": 85
+            }
+          ],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+        "type": "contains_link",
+        "quote": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:49:18.648825+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e13"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-3.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.1"
+  },
+  "identifiers": [
+    {
+      "domain": "k74906542e6.test",
+      "parameter": "ref",
+      "value": "TCC598B9",
+      "scope": "k74906542e6.test|/visit/98dc7c|ref|TCC598B9",
+      "url": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+      "material_id": "ae449cd510684ef48bd28c622cede227",
+      "evidence_id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e10"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:49:15.221725+00:00",
+  "analysis_id": "1e7dcafaf305",
+  "context": {
+    "language": "kk",
+    "context": "warning",
+    "claims": [
+      {
+        "kind": "gambling",
+        "quote": "казиноға",
+        "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+        "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+        "start": 22,
+        "end": 30
+      },
+      {
+        "kind": "warning",
+        "quote": "қауіпті",
+        "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+        "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+        "start": 14,
+        "end": 21
+      },
+      {
+        "kind": "warning",
+        "quote": "өтпеңіз",
+        "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+        "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+        "start": 67,
+        "end": 74
+      },
+      {
+        "kind": "warning",
+        "quote": "Алаяқ",
+        "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+        "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+        "start": 76,
+        "end": 81
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "gambling",
+      "quote": "казиноға",
+      "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+      "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+      "start": 22,
+      "end": 30,
+      "evidence_id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e5"
+    },
+    {
+      "kind": "warning",
+      "quote": "қауіпті",
+      "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+      "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+      "start": 14,
+      "end": 21,
+      "evidence_id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e6"
+    },
+    {
+      "kind": "warning",
+      "quote": "өтпеңіз",
+      "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+      "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+      "start": 67,
+      "end": 74,
+      "evidence_id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e7"
+    },
+    {
+      "kind": "warning",
+      "quote": "Алаяқ",
+      "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+      "explanation": "Альтернатива: предупреждение о вреде или мошенничестве.",
+      "start": 76,
+      "end": 81,
+      "evidence_id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e8"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-cb920a3e9ba7f48e",
+        "type": "material",
+        "label": "DEMO · материал 6adfd1",
+        "evidence_ids": [
+          "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e1"
+        ],
+        "case_id": "9a09a12ee61c42ed89a88d355ae817bb",
+        "material_id": "ae449cd510684ef48bd28c622cede227"
+      },
+      {
+        "id": "source-0dd41120cca64f1c",
+        "type": "source",
+        "label": "DEMO · материал 6adfd1",
+        "evidence_ids": [
+          "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e1"
+        ]
+      },
+      {
+        "id": "url-9b1f694a4c77d68d",
+        "type": "url",
+        "label": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+        "evidence_ids": [
+          "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e4",
+          "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e10"
+        ]
+      },
+      {
+        "id": "observation-8280073786707744",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e10"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-d240f5fef1777df6",
+        "type": "domain",
+        "label": "k74906542e6.test",
+        "evidence_ids": [
+          "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e10"
+        ]
+      },
+      {
+        "id": "identifier-5ac08138130e3ae1",
+        "type": "identifier",
+        "label": "ref=TCC598B9",
+        "evidence_ids": [
+          "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e10"
+        ],
+        "scope": "k74906542e6.test|/visit/98dc7c|ref|TCC598B9"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-7fa5c5aa73d9a90b5b",
+        "source": "source-0dd41120cca64f1c",
+        "target": "material-cb920a3e9ba7f48e",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e1"
+        ],
+        "at": "2026-10-21T20:49:15.221725+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-2f34f17a4155eb7628",
+        "source": "material-cb920a3e9ba7f48e",
+        "target": "url-9b1f694a4c77d68d",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e4"
+        ],
+        "at": "2026-10-21T20:49:15.221725+00:00",
+        "method": "qr_decode",
+        "status": "observed"
+      },
+      {
+        "id": "edge-1923b2873533cba2ae",
+        "source": "url-9b1f694a4c77d68d",
+        "target": "observation-8280073786707744",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e10"
+        ],
+        "at": "2026-10-21T20:49:15.221725+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-fcbea29b244751b132",
+        "source": "url-9b1f694a4c77d68d",
+        "target": "domain-d240f5fef1777df6",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e10"
+        ],
+        "at": "2026-10-21T20:49:15.221725+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-00e56cea98d0edb60a",
+        "source": "url-9b1f694a4c77d68d",
+        "target": "identifier-5ac08138130e3ae1",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e10"
+        ],
+        "at": "2026-10-21T20:49:15.221725+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e1",
+        "quote": "DEMO · материал 6adfd1",
+        "source_id": "ae449cd510684ef48bd28c622cede227",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:49:15.221725+00:00",
+        "material_id": "ae449cd510684ef48bd28c622cede227",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e2",
+        "quote": "DEМО. Бұл код қауіпті казиноға апарады. Ақша жібермеңіз, сілтемеге",
+        "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:49:18.580817+00:00",
+        "material_id": "ae449cd510684ef48bd28c622cede227",
+        "polygon": [
+          [
+            28.0,
+            24.0
+          ],
+          [
+            943.0,
+            26.0
+          ],
+          [
+            943.0,
+            58.0
+          ],
+          [
+            28.0,
+            56.0
+          ]
+        ],
+        "confidence": 0.9791028499603271
+      },
+      {
+        "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e3",
+        "quote": "өтпеңіз. Алаяқ хабарламаға мысал: QR төменде.",
+        "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:49:18.580817+00:00",
+        "material_id": "ae449cd510684ef48bd28c622cede227",
+        "polygon": [
+          [
+            27.0,
+            69.0
+          ],
+          [
+            674.0,
+            70.0
+          ],
+          [
+            674.0,
+            101.0
+          ],
+          [
+            27.0,
+            100.0
+          ]
+        ],
+        "confidence": 0.9975560307502747
+      },
+      {
+        "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e4",
+        "quote": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+        "source_id": "ae449cd510684ef48bd28c622cede227-qr",
+        "method": "qr_decode",
+        "at": "2026-10-21T20:49:18.647835+00:00",
+        "material_id": "ae449cd510684ef48bd28c622cede227",
+        "polygon": [
+          [
+            72.0,
+            170.0
+          ],
+          [
+            273.0,
+            170.0
+          ],
+          [
+            273.3611145019531,
+            371.3260192871094
+          ],
+          [
+            72.0,
+            372.0
+          ]
+        ],
+        "note": "Адрес декодирован из QR; безопасность проверяется отдельно."
+      },
+      {
+        "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e5",
+        "quote": "казиноға",
+        "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:18.647835+00:00",
+        "start": 22,
+        "end": 30,
+        "material_id": "ae449cd510684ef48bd28c622cede227"
+      },
+      {
+        "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e6",
+        "quote": "қауіпті",
+        "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:18.647835+00:00",
+        "start": 14,
+        "end": 21,
+        "material_id": "ae449cd510684ef48bd28c622cede227"
+      },
+      {
+        "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e7",
+        "quote": "өтпеңіз",
+        "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:18.647835+00:00",
+        "start": 67,
+        "end": 74,
+        "material_id": "ae449cd510684ef48bd28c622cede227"
+      },
+      {
+        "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e8",
+        "quote": "Алаяқ",
+        "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:18.647835+00:00",
+        "start": 76,
+        "end": 81,
+        "material_id": "ae449cd510684ef48bd28c622cede227"
+      },
+      {
+        "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e9",
+        "quote": "DEМО. Бұл код қауіпті казиноға апарады. Ақша жібермеңіз, сілтемеге\nөтпеңіз. Алаяқ хабарламаға мысал: QR төменде.",
+        "source_id": "ae449cd510684ef48bd28c622cede227-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:49:18.648825+00:00",
+        "material_id": "ae449cd510684ef48bd28c622cede227"
+      },
+      {
+        "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e10",
+        "quote": "Игровой кабинет Онлайн-казино. Депозит для игры на деньги, игровые автоматы и джекпот.",
+        "source_id": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:49:18.648825+00:00",
+        "url": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e11",
+        "quote": "казино",
+        "source_id": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:18.649823+00:00",
+        "start": 23,
+        "end": 29,
+        "url": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9"
+      },
+      {
+        "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e12",
+        "quote": "джекпот",
+        "source_id": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:18.649823+00:00",
+        "start": 78,
+        "end": 85,
+        "url": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9"
+      },
+      {
+        "id": "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e13",
+        "quote": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+        "source_id": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:49:18.649823+00:00",
+        "url": "https://k74906542e6.test/visit/98dc7c?ref=TCC598B9",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:49:18.649823+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: предупреждение",
+        "weight": -65,
+        "evidence_ids": [
+          "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e6",
+          "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e7",
+          "9a09a12ee61c42ed89a88d355ae817bb-1e7dcafaf305-e8"
+        ]
+      }
+    ],
+    "version": "rules-3.0",
+    "weights": {
+      "version": "weights-3.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "ae449cd510684ef48bd28c622cede227",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 3428.1
+}

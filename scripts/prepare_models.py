@@ -11,7 +11,7 @@ import uuid
 from pathlib import Path, PurePosixPath
 
 ROOT = Path(__file__).resolve().parents[1]
-NAMES = ("PP-OCRv5_mobile_det", "cyrillic_PP-OCRv5_mobile_rec")
+NAMES = ("PP-OCRv5_mobile_det", "cyrillic_PP-OCRv5_mobile_rec", "en_PP-OCRv5_mobile_rec")
 BASE = "https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/"
 MAX_ARCHIVE = 64 * 1024 * 1024
 

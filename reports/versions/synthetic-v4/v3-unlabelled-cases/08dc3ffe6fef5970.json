@@ -1,0 +1,448 @@
+{
+  "id": "a542fe7062714172bda3d0c09fe8c20a",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:50:30.149349+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "DEMO. Для ремонта нужна строительная рулетка. Заходи в каталог инструмента и выбери измерительную ленту: https://k510baa09c3.test/invite/af1f42?ref=TEF4785E",
+      "url": "",
+      "source": "DEMO · материал 08dc3f",
+      "published_at": null,
+      "image_id": null,
+      "id": "eb95182536c941f887bc1f21cdc61622",
+      "original_sha256": "38688ac8b7c758a5250bb6559e46382bf5709e640d88d832c06cd6f0c49048b1",
+      "source_evidence_id": "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e1",
+      "normalized_text": "demo. для ремонта нужна строительная рулетка. заходи в каталог инструмента и выбери измерительную ленту: https://k510baa09c3.test/invite/af1f42?ref=tef4785e",
+      "urls": [
+        "https://k510baa09c3.test/invite/af1f42?ref=TEF4785E"
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e3"
+      ],
+      "reachable_urls": [
+        "https://k510baa09c3.test/invite/af1f42?ref=TEF4785E"
+      ],
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-3.0",
+        "weights": {
+          "version": "weights-3.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "ru",
+        "context": "affiliate",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "Заходи",
+            "source_id": "eb95182536c941f887bc1f21cdc61622",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 46,
+            "end": 52
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e1",
+      "quote": "DEMO · материал 08dc3f",
+      "source_id": "eb95182536c941f887bc1f21cdc61622",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:50:30.164351+00:00",
+      "material_id": "eb95182536c941f887bc1f21cdc61622",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e2",
+      "quote": "Заходи",
+      "source_id": "eb95182536c941f887bc1f21cdc61622",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:30.165350+00:00",
+      "start": 46,
+      "end": 52,
+      "material_id": "eb95182536c941f887bc1f21cdc61622"
+    },
+    {
+      "id": "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e3",
+      "quote": "DEMO. Для ремонта нужна строительная рулетка. Заходи в каталог инструмента и выбери измерительную ленту: https://k510baa09c3.test/invite/af1f42?ref=TEF4785E",
+      "source_id": "eb95182536c941f887bc1f21cdc61622",
+      "method": "source_text",
+      "at": "2026-10-21T20:50:30.165350+00:00",
+      "material_id": "eb95182536c941f887bc1f21cdc61622"
+    },
+    {
+      "id": "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e4",
+      "quote": "https://k510baa09c3.test/invite/af1f42?ref=TEF4785E",
+      "source_id": "eb95182536c941f887bc1f21cdc61622",
+      "method": "source_text",
+      "at": "2026-10-21T20:50:30.165350+00:00",
+      "material_id": "eb95182536c941f887bc1f21cdc61622"
+    },
+    {
+      "id": "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e5",
+      "quote": "Городская запись Календарь встреч, регистрация на консультации и расписание кружков.",
+      "source_id": "https://k510baa09c3.test/invite/af1f42?ref=TEF4785E",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:50:30.166352+00:00",
+      "url": "https://k510baa09c3.test/invite/af1f42?ref=TEF4785E",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e6",
+      "quote": "https://k510baa09c3.test/invite/af1f42?ref=TEF4785E",
+      "source_id": "https://k510baa09c3.test/invite/af1f42?ref=TEF4785E",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:50:30.166352+00:00",
+      "url": "https://k510baa09c3.test/invite/af1f42?ref=TEF4785E",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://k510baa09c3.test/invite/af1f42?ref=TEF4785E",
+        "at": "2026-10-21T20:50:30.165350+00:00",
+        "status_code": 200,
+        "text": "Городская запись Календарь встреч, регистрация на консультации и расписание кружков.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:50:30.165350+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "f0f13ff5c9e851d26f13cc072666bbae8b75c1d4d6bd71a3c585067916820d47",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://k510baa09c3.test/invite/af1f42?ref=TEF4785E",
+        "evidence_id": "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e5",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://k510baa09c3.test/invite/af1f42?ref=TEF4785E",
+        "type": "contains_link",
+        "quote": "https://k510baa09c3.test/invite/af1f42?ref=TEF4785E",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:50:30.165350+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e6"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-3.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.1"
+  },
+  "identifiers": [
+    {
+      "domain": "k510baa09c3.test",
+      "parameter": "ref",
+      "value": "TEF4785E",
+      "scope": "k510baa09c3.test|/invite/af1f42|ref|TEF4785E",
+      "url": "https://k510baa09c3.test/invite/af1f42?ref=TEF4785E",
+      "material_id": "eb95182536c941f887bc1f21cdc61622",
+      "evidence_id": "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e5"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:50:30.164351+00:00",
+  "analysis_id": "80f7d7093c9c",
+  "context": {
+    "language": "ru",
+    "context": "affiliate",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "Заходи",
+        "source_id": "eb95182536c941f887bc1f21cdc61622",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 46,
+        "end": 52
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "Заходи",
+      "source_id": "eb95182536c941f887bc1f21cdc61622",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 46,
+      "end": 52,
+      "evidence_id": "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e2"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-a547cd17f8c5c157",
+        "type": "material",
+        "label": "DEMO · материал 08dc3f",
+        "evidence_ids": [
+          "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e1"
+        ],
+        "case_id": "a542fe7062714172bda3d0c09fe8c20a",
+        "material_id": "eb95182536c941f887bc1f21cdc61622"
+      },
+      {
+        "id": "source-20f32e5ee7e394a4",
+        "type": "source",
+        "label": "DEMO · материал 08dc3f",
+        "evidence_ids": [
+          "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e1"
+        ]
+      },
+      {
+        "id": "url-7c471b352c5595ab",
+        "type": "url",
+        "label": "https://k510baa09c3.test/invite/af1f42?ref=TEF4785E",
+        "evidence_ids": [
+          "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e4",
+          "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e5"
+        ]
+      },
+      {
+        "id": "observation-09669eb92ee2ab9d",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e5"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-947a628054cb2995",
+        "type": "domain",
+        "label": "k510baa09c3.test",
+        "evidence_ids": [
+          "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e5"
+        ]
+      },
+      {
+        "id": "identifier-1825a0114978e0e6",
+        "type": "identifier",
+        "label": "ref=TEF4785E",
+        "evidence_ids": [
+          "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e5"
+        ],
+        "scope": "k510baa09c3.test|/invite/af1f42|ref|TEF4785E"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-7fd025eebafa11154d",
+        "source": "source-20f32e5ee7e394a4",
+        "target": "material-a547cd17f8c5c157",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e1"
+        ],
+        "at": "2026-10-21T20:50:30.164351+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-e65bfab53a9e38742b",
+        "source": "material-a547cd17f8c5c157",
+        "target": "url-7c471b352c5595ab",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e4"
+        ],
+        "at": "2026-10-21T20:50:30.164351+00:00",
+        "method": "source_text",
+        "status": "observed"
+      },
+      {
+        "id": "edge-9f1d8c9572a5afb0ad",
+        "source": "url-7c471b352c5595ab",
+        "target": "observation-09669eb92ee2ab9d",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e5"
+        ],
+        "at": "2026-10-21T20:50:30.164351+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-8a90c4ec0748e8f9cf",
+        "source": "url-7c471b352c5595ab",
+        "target": "domain-947a628054cb2995",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e5"
+        ],
+        "at": "2026-10-21T20:50:30.164351+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-452fa7cd49516b74cd",
+        "source": "url-7c471b352c5595ab",
+        "target": "identifier-1825a0114978e0e6",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e5"
+        ],
+        "at": "2026-10-21T20:50:30.164351+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e1",
+        "quote": "DEMO · материал 08dc3f",
+        "source_id": "eb95182536c941f887bc1f21cdc61622",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:50:30.164351+00:00",
+        "material_id": "eb95182536c941f887bc1f21cdc61622",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e2",
+        "quote": "Заходи",
+        "source_id": "eb95182536c941f887bc1f21cdc61622",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:30.165350+00:00",
+        "start": 46,
+        "end": 52,
+        "material_id": "eb95182536c941f887bc1f21cdc61622"
+      },
+      {
+        "id": "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e3",
+        "quote": "DEMO. Для ремонта нужна строительная рулетка. Заходи в каталог инструмента и выбери измерительную ленту: https://k510baa09c3.test/invite/af1f42?ref=TEF4785E",
+        "source_id": "eb95182536c941f887bc1f21cdc61622",
+        "method": "source_text",
+        "at": "2026-10-21T20:50:30.165350+00:00",
+        "material_id": "eb95182536c941f887bc1f21cdc61622"
+      },
+      {
+        "id": "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e4",
+        "quote": "https://k510baa09c3.test/invite/af1f42?ref=TEF4785E",
+        "source_id": "eb95182536c941f887bc1f21cdc61622",
+        "method": "source_text",
+        "at": "2026-10-21T20:50:30.165350+00:00",
+        "material_id": "eb95182536c941f887bc1f21cdc61622"
+      },
+      {
+        "id": "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e5",
+        "quote": "Городская запись Календарь встреч, регистрация на консультации и расписание кружков.",
+        "source_id": "https://k510baa09c3.test/invite/af1f42?ref=TEF4785E",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:50:30.166352+00:00",
+        "url": "https://k510baa09c3.test/invite/af1f42?ref=TEF4785E",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "a542fe7062714172bda3d0c09fe8c20a-80f7d7093c9c-e6",
+        "quote": "https://k510baa09c3.test/invite/af1f42?ref=TEF4785E",
+        "source_id": "https://k510baa09c3.test/invite/af1f42?ref=TEF4785E",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:50:30.166352+00:00",
+        "url": "https://k510baa09c3.test/invite/af1f42?ref=TEF4785E",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:50:30.166352+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [],
+    "version": "rules-3.0",
+    "weights": {
+      "version": "weights-3.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "eb95182536c941f887bc1f21cdc61622",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 2.7
+}

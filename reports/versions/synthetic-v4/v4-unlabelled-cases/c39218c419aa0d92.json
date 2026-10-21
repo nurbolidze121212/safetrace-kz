@@ -1,0 +1,824 @@
+{
+  "id": "29dbe862582549659347a4ae5a60a80e",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:51:55.272380+00:00",
+  "status": "partial",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "",
+      "url": "",
+      "source": "DEMO · материал c39218",
+      "published_at": null,
+      "image_id": "fef1ca55c990b19ceff8637726fbf3a6.png",
+      "id": "551978dbfaad492097791b7447a335b7",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "fef1ca55c990b19ceff8637726fbf3a687f187041816387eb3cb34f263d2ad2e",
+      "source_evidence_id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e1",
+      "normalized_text": "",
+      "ocr": {
+        "text": "DEМО. Жаңа бөлім жұмыс істейді: заходи в казино и забирай фриспины после\nпополнения. Meкенжай: https://k9017043ee0.test/сard/39677c?ref=T95BD621",
+        "lines": [
+          {
+            "text": "DEМО. Жаңа бөлім жұмыс істейді: заходи в казино и забирай фриспины после",
+            "confidence": 0.9847187399864197,
+            "polygon": [
+              [
+                28.0,
+                23.0
+              ],
+              [
+                983.0,
+                26.0
+              ],
+              [
+                983.0,
+                57.0
+              ],
+              [
+                28.0,
+                55.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DEМО."
+            ],
+            "evidence_id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e2"
+          },
+          {
+            "text": "пополнения. Meкенжай: https://k9017043ee0.test/сard/39677c?ref=T95BD621",
+            "confidence": 0.9813684821128845,
+            "polygon": [
+              [
+                30.0,
+                67.0
+              ],
+              [
+                924.0,
+                67.0
+              ],
+              [
+                924.0,
+                94.0
+              ],
+              [
+                30.0,
+                94.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: Meкенжай:",
+              "Смешение алфавитов в токене: https://k9017043ee0.test/сard/39677c?ref=T95BD621"
+            ],
+            "evidence_id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e3"
+          }
+        ],
+        "raw_text": "DEМО. Жаңа бөлім жұмыс істейді: заходи в казино и забирай фриспины после\nпополнения. Meкенжай: https://k9017043ee0.test/сard/39677c?ref=T95BD621",
+        "raw_lines": [
+          {
+            "text": "DEМО. Жаңа бөлім жұмыс істейді: заходи в казино и забирай фриспины после",
+            "confidence": 0.9847187399864197,
+            "polygon": [
+              [
+                28.0,
+                23.0
+              ],
+              [
+                983.0,
+                26.0
+              ],
+              [
+                983.0,
+                57.0
+              ],
+              [
+                28.0,
+                55.0
+              ]
+            ]
+          },
+          {
+            "text": "пополнения. Meкенжай: https://k9017043ee0.test/сard/39677c?ref=T95BD621",
+            "confidence": 0.9813684821128845,
+            "polygon": [
+              [
+                30.0,
+                67.0
+              ],
+              [
+                924.0,
+                67.0
+              ],
+              [
+                924.0,
+                94.0
+              ],
+              [
+                30.0,
+                94.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 118,
+            "mean_confidence": 0.9830436110496521,
+            "score": 112.09962129913228,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1120,
+        "height": 148,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "url_readings": [
+          {
+            "raw_url": "https://k9017043ee0.test/сard/39677c?ref=T95BD621",
+            "line_indices": [
+              1
+            ],
+            "needs_review": true,
+            "reasons": [
+              "В адресе есть нелатинские символы: возможны как ошибка OCR, так и настоящий международный путь."
+            ],
+            "suggestions": [
+              {
+                "url": "https://k9017043ee0.test/card/39677c?ref=T95BD621",
+                "method": "en_PP-OCRv5_mobile_rec",
+                "confidence": 0.9430146813392639,
+                "agreement": true
+              }
+            ],
+            "method": "primary_ocr",
+            "auto_follow": false,
+            "secondary_attempts": [
+              {
+                "text": "nnoJHeH. MekeH: https://k9017043ee0.test/card/39677c?ref=T95BD621",
+                "confidence": 0.9430146813392639,
+                "urls": [
+                  "https://k9017043ee0.test/card/39677c?ref=T95BD621"
+                ],
+                "scale": 1
+              },
+              {
+                "text": "nnoJHeH. MekeH: https://k9017043ee0.test/card/39677c?ref=T95BD621",
+                "confidence": 0.9468634128570557,
+                "urls": [
+                  "https://k9017043ee0.test/card/39677c?ref=T95BD621"
+                ],
+                "scale": 2
+              }
+            ]
+          }
+        ]
+      },
+      "qr": {
+        "codes": [],
+        "width": 1120,
+        "height": 148,
+        "version": "qr-1.0",
+        "decoder": "OpenCV 4.10.0",
+        "cache_hit": false,
+        "elapsed_ms": 151.85,
+        "limitations": "До 8 QR-кодов, изображение до 1600 px по длинной стороне. Мелкие, поврежденные и составные QR могут не читаться. Декодирование не подтверждает безопасность адреса."
+      },
+      "urls": [],
+      "url_reviews": [
+        {
+          "raw_url": "https://k9017043ee0.test/сard/39677c?ref=T95BD621",
+          "line_indices": [
+            1
+          ],
+          "needs_review": true,
+          "reasons": [
+            "В адресе есть нелатинские символы: возможны как ошибка OCR, так и настоящий международный путь."
+          ],
+          "suggestions": [
+            {
+              "url": "https://k9017043ee0.test/card/39677c?ref=T95BD621",
+              "method": "en_PP-OCRv5_mobile_rec",
+              "confidence": 0.9430146813392639,
+              "agreement": true
+            }
+          ],
+          "method": "primary_ocr",
+          "auto_follow": false,
+          "secondary_attempts": [
+            {
+              "text": "nnoJHeH. MekeH: https://k9017043ee0.test/card/39677c?ref=T95BD621",
+              "confidence": 0.9430146813392639,
+              "urls": [
+                "https://k9017043ee0.test/card/39677c?ref=T95BD621"
+              ],
+              "scale": 1
+            },
+            {
+              "text": "nnoJHeH. MekeH: https://k9017043ee0.test/card/39677c?ref=T95BD621",
+              "confidence": 0.9468634128570557,
+              "urls": [
+                "https://k9017043ee0.test/card/39677c?ref=T95BD621"
+              ],
+              "scale": 2
+            }
+          ],
+          "source_evidence_ids": [
+            "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e10",
+            "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e3"
+          ],
+          "selected_url": null
+        }
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e9"
+      ],
+      "url_review_incomplete": true,
+      "content_fingerprint": "efe8b5dc5091decba6c22c62d2d98aa5f50be030aeeccb5559f7f2ed6e45d931",
+      "reachable_urls": [],
+      "call_bindings": [],
+      "attribution_incomplete": false,
+      "score": {
+        "value": 80,
+        "level": "high",
+        "contributions": [
+          {
+            "key": "gambling_and_call",
+            "title": "Игровая лексика + призыв",
+            "weight": 65,
+            "evidence_ids": [
+              "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e5",
+              "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e4",
+              "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e7",
+              "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e8"
+            ]
+          },
+          {
+            "key": "bonus_in_promotion",
+            "title": "Бонус в рекламном контексте",
+            "weight": 15,
+            "evidence_ids": [
+              "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e6"
+            ]
+          }
+        ],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "kk",
+        "context": "promotion",
+        "claims": [
+          {
+            "kind": "gambling",
+            "quote": "казино",
+            "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+            "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+            "start": 41,
+            "end": 47
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "заходи",
+            "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 32,
+            "end": 38
+          },
+          {
+            "kind": "bonus",
+            "quote": "фриспины",
+            "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+            "explanation": "Упоминание бонуса или промокода.",
+            "start": 58,
+            "end": 66
+          },
+          {
+            "kind": "gambling",
+            "quote": "фриспины",
+            "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+            "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+            "start": 58,
+            "end": 66
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "забирай",
+            "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 50,
+            "end": 57
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "partial",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e1",
+      "quote": "DEMO · материал c39218",
+      "source_id": "551978dbfaad492097791b7447a335b7",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:52:01.199165+00:00",
+      "material_id": "551978dbfaad492097791b7447a335b7",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e2",
+      "quote": "DEМО. Жаңа бөлім жұмыс істейді: заходи в казино и забирай фриспины после",
+      "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:52:06.236130+00:00",
+      "material_id": "551978dbfaad492097791b7447a335b7",
+      "polygon": [
+        [
+          28.0,
+          23.0
+        ],
+        [
+          983.0,
+          26.0
+        ],
+        [
+          983.0,
+          57.0
+        ],
+        [
+          28.0,
+          55.0
+        ]
+      ],
+      "confidence": 0.9847187399864197
+    },
+    {
+      "id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e3",
+      "quote": "пополнения. Meкенжай: https://k9017043ee0.test/сard/39677c?ref=T95BD621",
+      "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:52:06.237135+00:00",
+      "material_id": "551978dbfaad492097791b7447a335b7",
+      "polygon": [
+        [
+          30.0,
+          67.0
+        ],
+        [
+          924.0,
+          67.0
+        ],
+        [
+          924.0,
+          94.0
+        ],
+        [
+          30.0,
+          94.0
+        ]
+      ],
+      "confidence": 0.9813684821128845
+    },
+    {
+      "id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e4",
+      "quote": "казино",
+      "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:52:06.406214+00:00",
+      "start": 41,
+      "end": 47,
+      "material_id": "551978dbfaad492097791b7447a335b7"
+    },
+    {
+      "id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e5",
+      "quote": "заходи",
+      "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:52:06.406214+00:00",
+      "start": 32,
+      "end": 38,
+      "material_id": "551978dbfaad492097791b7447a335b7"
+    },
+    {
+      "id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e6",
+      "quote": "фриспины",
+      "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:52:06.406214+00:00",
+      "start": 58,
+      "end": 66,
+      "material_id": "551978dbfaad492097791b7447a335b7"
+    },
+    {
+      "id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e7",
+      "quote": "фриспины",
+      "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:52:06.406214+00:00",
+      "start": 58,
+      "end": 66,
+      "material_id": "551978dbfaad492097791b7447a335b7"
+    },
+    {
+      "id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e8",
+      "quote": "забирай",
+      "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:52:06.406214+00:00",
+      "start": 50,
+      "end": 57,
+      "material_id": "551978dbfaad492097791b7447a335b7"
+    },
+    {
+      "id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e9",
+      "quote": "DEМО. Жаңа бөлім жұмыс істейді: заходи в казино и забирай фриспины после\nпополнения. Meкенжай: https://k9017043ee0.test/сard/39677c?ref=T95BD621",
+      "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:52:06.406214+00:00",
+      "material_id": "551978dbfaad492097791b7447a335b7"
+    },
+    {
+      "id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e10",
+      "quote": "https://k9017043ee0.test/сard/39677c?ref=T95BD621",
+      "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:52:06.406214+00:00",
+      "material_id": "551978dbfaad492097791b7447a335b7"
+    }
+  ],
+  "trace": {
+    "observations": [],
+    "relations": [],
+    "requests": 0,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+    "Сомнительный OCR-адрес не открывался. Сверьте его с оригиналом и явно уточните в карточке материала."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "analysis_assisted": false,
+  "identifiers": [],
+  "analyzed_at": "2026-10-21T20:52:01.199165+00:00",
+  "analysis_id": "21763b7f576f",
+  "context": {
+    "language": "kk",
+    "context": "promotion",
+    "claims": [
+      {
+        "kind": "gambling",
+        "quote": "казино",
+        "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+        "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+        "start": 41,
+        "end": 47
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "заходи",
+        "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 32,
+        "end": 38
+      },
+      {
+        "kind": "bonus",
+        "quote": "фриспины",
+        "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+        "explanation": "Упоминание бонуса или промокода.",
+        "start": 58,
+        "end": 66
+      },
+      {
+        "kind": "gambling",
+        "quote": "фриспины",
+        "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+        "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+        "start": 58,
+        "end": 66
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "забирай",
+        "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 50,
+        "end": 57
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "gambling",
+      "quote": "казино",
+      "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+      "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+      "start": 41,
+      "end": 47,
+      "evidence_id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e4"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "заходи",
+      "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 32,
+      "end": 38,
+      "evidence_id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e5"
+    },
+    {
+      "kind": "bonus",
+      "quote": "фриспины",
+      "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+      "explanation": "Упоминание бонуса или промокода.",
+      "start": 58,
+      "end": 66,
+      "evidence_id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e6"
+    },
+    {
+      "kind": "gambling",
+      "quote": "фриспины",
+      "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+      "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+      "start": 58,
+      "end": 66,
+      "evidence_id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e7"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "забирай",
+      "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 50,
+      "end": 57,
+      "evidence_id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e8"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-b44b3fecffa8bf0a",
+        "type": "material",
+        "label": "DEMO · материал c39218",
+        "evidence_ids": [
+          "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e1"
+        ],
+        "case_id": "29dbe862582549659347a4ae5a60a80e",
+        "material_id": "551978dbfaad492097791b7447a335b7"
+      },
+      {
+        "id": "source-2b832355adc6505c",
+        "type": "source",
+        "label": "DEMO · материал c39218",
+        "evidence_ids": [
+          "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e1"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-353eb41f7661871076",
+        "source": "source-2b832355adc6505c",
+        "target": "material-b44b3fecffa8bf0a",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e1"
+        ],
+        "at": "2026-10-21T20:52:01.199165+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e1",
+        "quote": "DEMO · материал c39218",
+        "source_id": "551978dbfaad492097791b7447a335b7",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:52:01.199165+00:00",
+        "material_id": "551978dbfaad492097791b7447a335b7",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e2",
+        "quote": "DEМО. Жаңа бөлім жұмыс істейді: заходи в казино и забирай фриспины после",
+        "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:52:06.236130+00:00",
+        "material_id": "551978dbfaad492097791b7447a335b7",
+        "polygon": [
+          [
+            28.0,
+            23.0
+          ],
+          [
+            983.0,
+            26.0
+          ],
+          [
+            983.0,
+            57.0
+          ],
+          [
+            28.0,
+            55.0
+          ]
+        ],
+        "confidence": 0.9847187399864197
+      },
+      {
+        "id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e3",
+        "quote": "пополнения. Meкенжай: https://k9017043ee0.test/сard/39677c?ref=T95BD621",
+        "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:52:06.237135+00:00",
+        "material_id": "551978dbfaad492097791b7447a335b7",
+        "polygon": [
+          [
+            30.0,
+            67.0
+          ],
+          [
+            924.0,
+            67.0
+          ],
+          [
+            924.0,
+            94.0
+          ],
+          [
+            30.0,
+            94.0
+          ]
+        ],
+        "confidence": 0.9813684821128845
+      },
+      {
+        "id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e4",
+        "quote": "казино",
+        "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:52:06.406214+00:00",
+        "start": 41,
+        "end": 47,
+        "material_id": "551978dbfaad492097791b7447a335b7"
+      },
+      {
+        "id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e5",
+        "quote": "заходи",
+        "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:52:06.406214+00:00",
+        "start": 32,
+        "end": 38,
+        "material_id": "551978dbfaad492097791b7447a335b7"
+      },
+      {
+        "id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e6",
+        "quote": "фриспины",
+        "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:52:06.406214+00:00",
+        "start": 58,
+        "end": 66,
+        "material_id": "551978dbfaad492097791b7447a335b7"
+      },
+      {
+        "id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e7",
+        "quote": "фриспины",
+        "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:52:06.406214+00:00",
+        "start": 58,
+        "end": 66,
+        "material_id": "551978dbfaad492097791b7447a335b7"
+      },
+      {
+        "id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e8",
+        "quote": "забирай",
+        "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:52:06.406214+00:00",
+        "start": 50,
+        "end": 57,
+        "material_id": "551978dbfaad492097791b7447a335b7"
+      },
+      {
+        "id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e9",
+        "quote": "DEМО. Жаңа бөлім жұмыс істейді: заходи в казино и забирай фриспины после\nпополнения. Meкенжай: https://k9017043ee0.test/сard/39677c?ref=T95BD621",
+        "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:52:06.406214+00:00",
+        "material_id": "551978dbfaad492097791b7447a335b7"
+      },
+      {
+        "id": "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e10",
+        "quote": "https://k9017043ee0.test/сard/39677c?ref=T95BD621",
+        "source_id": "551978dbfaad492097791b7447a335b7-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:52:06.406214+00:00",
+        "material_id": "551978dbfaad492097791b7447a335b7"
+      }
+    ],
+    "generated_at": "2026-10-21T20:52:06.406214+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 80,
+    "level": "high",
+    "contributions": [
+      {
+        "key": "gambling_and_call",
+        "title": "Игровая лексика + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e5",
+          "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e4",
+          "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e7",
+          "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e8"
+        ]
+      },
+      {
+        "key": "bonus_in_promotion",
+        "title": "Бонус в рекламном контексте",
+        "weight": 15,
+        "evidence_ids": [
+          "29dbe862582549659347a4ae5a60a80e-21763b7f576f-e6"
+        ]
+      }
+    ],
+    "version": "rules-4.0",
+    "weights": {
+      "version": "weights-4.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "551978dbfaad492097791b7447a335b7",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 5209.0
+}

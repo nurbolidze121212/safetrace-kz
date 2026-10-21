@@ -1,0 +1,516 @@
+{
+  "id": "f2b7301987d84e4893babf960880fbba",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:57:44.344411+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "DEMO. Біз казино, бәс тігу немесе ақшаға ойын ұсынбаймыз. Бұл тек математика үйірмесі, сабаққа тіркеліңіз: https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62",
+      "url": "",
+      "source": "DEMO · материал a74707",
+      "published_at": null,
+      "image_id": null,
+      "id": "241fa9e202df4e93a193c85576077c88",
+      "original_sha256": "d777032c8180ffce4b93060f72d3c9f0dc8e8328d815828f93937b452435161b",
+      "source_evidence_id": "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e1",
+      "normalized_text": "demo. біз казино, бәс тігу немесе ақшаға ойын ұсынбаймыз. бұл тек математика үйірмесі, сабаққа тіркеліңіз: https://k64cd9284d0.test/card/cbb30a?ref=te0c3b62",
+      "urls": [
+        "https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62"
+      ],
+      "url_reviews": [],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e4"
+      ],
+      "content_fingerprint": "e33e211d4d00b844e3d163bd7d4e946912ea20edd022aff6e880c397a0d859b8",
+      "reachable_urls": [
+        "https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62"
+      ],
+      "call_bindings": [],
+      "attribution_incomplete": false,
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [
+          {
+            "key": "alternative_context",
+            "title": "Альтернативный контекст: образовательный разбор",
+            "weight": -65,
+            "evidence_ids": [
+              "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e3"
+            ]
+          }
+        ],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "kk",
+        "context": "education",
+        "claims": [
+          {
+            "kind": "gambling",
+            "quote": "казино",
+            "source_id": "241fa9e202df4e93a193c85576077c88",
+            "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+            "start": 10,
+            "end": 16
+          },
+          {
+            "kind": "education",
+            "quote": "сабаққа",
+            "source_id": "241fa9e202df4e93a193c85576077c88",
+            "explanation": "Альтернатива: образовательный разбор.",
+            "start": 87,
+            "end": 94
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e1",
+      "quote": "DEMO · материал a74707",
+      "source_id": "241fa9e202df4e93a193c85576077c88",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:57:44.361420+00:00",
+      "material_id": "241fa9e202df4e93a193c85576077c88",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e2",
+      "quote": "казино",
+      "source_id": "241fa9e202df4e93a193c85576077c88",
+      "method": "local_rule",
+      "at": "2026-10-21T20:57:44.362419+00:00",
+      "start": 10,
+      "end": 16,
+      "material_id": "241fa9e202df4e93a193c85576077c88"
+    },
+    {
+      "id": "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e3",
+      "quote": "сабаққа",
+      "source_id": "241fa9e202df4e93a193c85576077c88",
+      "method": "local_rule",
+      "at": "2026-10-21T20:57:44.362419+00:00",
+      "start": 87,
+      "end": 94,
+      "material_id": "241fa9e202df4e93a193c85576077c88"
+    },
+    {
+      "id": "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e4",
+      "quote": "DEMO. Біз казино, бәс тігу немесе ақшаға ойын ұсынбаймыз. Бұл тек математика үйірмесі, сабаққа тіркеліңіз: https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62",
+      "source_id": "241fa9e202df4e93a193c85576077c88",
+      "method": "source_text",
+      "at": "2026-10-21T20:57:44.362419+00:00",
+      "material_id": "241fa9e202df4e93a193c85576077c88"
+    },
+    {
+      "id": "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e5",
+      "quote": "https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62",
+      "source_id": "241fa9e202df4e93a193c85576077c88",
+      "method": "source_text",
+      "at": "2026-10-21T20:57:44.362419+00:00",
+      "material_id": "241fa9e202df4e93a193c85576077c88"
+    },
+    {
+      "id": "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e6",
+      "quote": "Городская запись Календарь встреч, регистрация на консультации и расписание кружков.",
+      "source_id": "https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:57:44.362419+00:00",
+      "url": "https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e7",
+      "quote": "https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62",
+      "source_id": "https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:57:44.362419+00:00",
+      "url": "https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62",
+        "at": "2026-10-21T20:57:44.362419+00:00",
+        "status_code": 200,
+        "text": "Городская запись Календарь встреч, регистрация на консультации и расписание кружков.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:57:44.362419+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "f0f13ff5c9e851d26f13cc072666bbae8b75c1d4d6bd71a3c585067916820d47",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62",
+        "evidence_id": "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e6",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62",
+        "type": "contains_link",
+        "quote": "https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:57:44.362419+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e7"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "analysis_assisted": false,
+  "identifiers": [
+    {
+      "domain": "k64cd9284d0.test",
+      "parameter": "ref",
+      "value": "TE0C3B62",
+      "scope": "k64cd9284d0.test|/card/cbb30a|ref|TE0C3B62",
+      "url": "https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62",
+      "material_id": "241fa9e202df4e93a193c85576077c88",
+      "evidence_id": "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e6"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:57:44.361420+00:00",
+  "analysis_id": "08af2d423d1c",
+  "context": {
+    "language": "kk",
+    "context": "education",
+    "claims": [
+      {
+        "kind": "gambling",
+        "quote": "казино",
+        "source_id": "241fa9e202df4e93a193c85576077c88",
+        "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+        "start": 10,
+        "end": 16
+      },
+      {
+        "kind": "education",
+        "quote": "сабаққа",
+        "source_id": "241fa9e202df4e93a193c85576077c88",
+        "explanation": "Альтернатива: образовательный разбор.",
+        "start": 87,
+        "end": 94
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "gambling",
+      "quote": "казино",
+      "source_id": "241fa9e202df4e93a193c85576077c88",
+      "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+      "start": 10,
+      "end": 16,
+      "evidence_id": "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e2"
+    },
+    {
+      "kind": "education",
+      "quote": "сабаққа",
+      "source_id": "241fa9e202df4e93a193c85576077c88",
+      "explanation": "Альтернатива: образовательный разбор.",
+      "start": 87,
+      "end": 94,
+      "evidence_id": "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e3"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-a94193e9687f82dc",
+        "type": "material",
+        "label": "DEMO · материал a74707",
+        "evidence_ids": [
+          "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e1"
+        ],
+        "case_id": "f2b7301987d84e4893babf960880fbba",
+        "material_id": "241fa9e202df4e93a193c85576077c88"
+      },
+      {
+        "id": "source-498e1746a2881adc",
+        "type": "source",
+        "label": "DEMO · материал a74707",
+        "evidence_ids": [
+          "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e1"
+        ]
+      },
+      {
+        "id": "url-3c32703805e37aa2",
+        "type": "url",
+        "label": "https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62",
+        "evidence_ids": [
+          "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e5",
+          "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e6"
+        ]
+      },
+      {
+        "id": "observation-75c1eba476b09368",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e6"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-96ccc06333d18546",
+        "type": "domain",
+        "label": "k64cd9284d0.test",
+        "evidence_ids": [
+          "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e6"
+        ]
+      },
+      {
+        "id": "identifier-91360ac6fa771b93",
+        "type": "identifier",
+        "label": "ref=TE0C3B62",
+        "evidence_ids": [
+          "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e6"
+        ],
+        "scope": "k64cd9284d0.test|/card/cbb30a|ref|TE0C3B62"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-8a310d25673f4b0855",
+        "source": "source-498e1746a2881adc",
+        "target": "material-a94193e9687f82dc",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e1"
+        ],
+        "at": "2026-10-21T20:57:44.361420+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-37c0a13b00559d4006",
+        "source": "material-a94193e9687f82dc",
+        "target": "url-3c32703805e37aa2",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e5"
+        ],
+        "at": "2026-10-21T20:57:44.361420+00:00",
+        "method": "source_text",
+        "status": "observed"
+      },
+      {
+        "id": "edge-4dfb47ea03459a971a",
+        "source": "url-3c32703805e37aa2",
+        "target": "observation-75c1eba476b09368",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e6"
+        ],
+        "at": "2026-10-21T20:57:44.361420+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-1a5e6f3062f42282cb",
+        "source": "url-3c32703805e37aa2",
+        "target": "domain-96ccc06333d18546",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e6"
+        ],
+        "at": "2026-10-21T20:57:44.361420+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-bb41ca980a26ae0f6e",
+        "source": "url-3c32703805e37aa2",
+        "target": "identifier-91360ac6fa771b93",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e6"
+        ],
+        "at": "2026-10-21T20:57:44.361420+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e1",
+        "quote": "DEMO · материал a74707",
+        "source_id": "241fa9e202df4e93a193c85576077c88",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:57:44.361420+00:00",
+        "material_id": "241fa9e202df4e93a193c85576077c88",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e2",
+        "quote": "казино",
+        "source_id": "241fa9e202df4e93a193c85576077c88",
+        "method": "local_rule",
+        "at": "2026-10-21T20:57:44.362419+00:00",
+        "start": 10,
+        "end": 16,
+        "material_id": "241fa9e202df4e93a193c85576077c88"
+      },
+      {
+        "id": "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e3",
+        "quote": "сабаққа",
+        "source_id": "241fa9e202df4e93a193c85576077c88",
+        "method": "local_rule",
+        "at": "2026-10-21T20:57:44.362419+00:00",
+        "start": 87,
+        "end": 94,
+        "material_id": "241fa9e202df4e93a193c85576077c88"
+      },
+      {
+        "id": "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e4",
+        "quote": "DEMO. Біз казино, бәс тігу немесе ақшаға ойын ұсынбаймыз. Бұл тек математика үйірмесі, сабаққа тіркеліңіз: https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62",
+        "source_id": "241fa9e202df4e93a193c85576077c88",
+        "method": "source_text",
+        "at": "2026-10-21T20:57:44.362419+00:00",
+        "material_id": "241fa9e202df4e93a193c85576077c88"
+      },
+      {
+        "id": "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e5",
+        "quote": "https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62",
+        "source_id": "241fa9e202df4e93a193c85576077c88",
+        "method": "source_text",
+        "at": "2026-10-21T20:57:44.362419+00:00",
+        "material_id": "241fa9e202df4e93a193c85576077c88"
+      },
+      {
+        "id": "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e6",
+        "quote": "Городская запись Календарь встреч, регистрация на консультации и расписание кружков.",
+        "source_id": "https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:57:44.362419+00:00",
+        "url": "https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e7",
+        "quote": "https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62",
+        "source_id": "https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:57:44.362419+00:00",
+        "url": "https://k64cd9284d0.test/card/cbb30a?ref=TE0C3B62",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:57:44.363420+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: образовательный разбор",
+        "weight": -65,
+        "evidence_ids": [
+          "f2b7301987d84e4893babf960880fbba-08af2d423d1c-e3"
+        ]
+      }
+    ],
+    "version": "rules-4.0",
+    "weights": {
+      "version": "weights-4.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "241fa9e202df4e93a193c85576077c88",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 1.6
+}

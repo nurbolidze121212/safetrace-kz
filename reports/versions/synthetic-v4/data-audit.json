@@ -1,0 +1,39 @@
+{
+  "n": 80,
+  "positive": 40,
+  "negative": 40,
+  "unique_images": 32,
+  "qr_cases": 8,
+  "languages": {
+    "ru": 28,
+    "kk": 19,
+    "mixed": 26,
+    "translit": 7
+  },
+  "categories": {
+    "direct": 8,
+    "hidden": 8,
+    "multihop": 8,
+    "contradictory": 7,
+    "multiple_targets": 1,
+    "repeated": 2,
+    "duplicate": 1,
+    "branched_positive": 1,
+    "unresolved": 4,
+    "warning": 7,
+    "negation": 3,
+    "news": 8,
+    "education": 8,
+    "free_game": 5,
+    "affiliate": 3,
+    "ordinary": 4,
+    "branched_negative": 2
+  },
+  "prior_distinct_texts_compared": 314,
+  "new_domains": 102,
+  "domain_overlap": [],
+  "exact_normalized_duplicates": [],
+  "near_duplicate_candidates": [],
+  "normalization": "NFKC/casefold; URL, alphanumeric codes and DEMO normalized; whitespace/punctuation collapsed. Candidate if SequenceMatcher>=.78 or token-trigram Jaccard>=.45.",
+  "limitations": "Automatic similarity is a screening aid, not a guarantee of semantic independence. Review any candidate before predictions; the same author made rules and data."
+}

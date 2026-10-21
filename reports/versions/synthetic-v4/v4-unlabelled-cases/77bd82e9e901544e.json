@@ -1,0 +1,866 @@
+{
+  "id": "90bc8c662781437aa0a5aa3f0c8398a2",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:51:42.941429+00:00",
+  "status": "partial",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "",
+      "url": "",
+      "source": "DEMO · материал 77bd82",
+      "published_at": null,
+      "image_id": "6d66a74fd5f009dd2c16fa91d1344091.png",
+      "id": "b185316110244c1ea635311fbf759775",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "6d66a74fd5f009dd2c16fa91d1344091a115d951ca3aeebd579508abab64644a",
+      "source_evidence_id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e1",
+      "normalized_text": "",
+      "ocr": {
+        "text": "DEМO. Біздің казино жаңа ойыншыларды күтеді. Тіркеліп, алғашқы ұтысқа\nқатысыңыз. Толық шарттар:\nhttps://kfe552bcf22.test\n/visit/f20c4a?ref=T2891C48",
+        "lines": [
+          {
+            "text": "DEМO. Біздің казино жаңа ойыншыларды күтеді. Тіркеліп, алғашқы ұтысқа",
+            "confidence": 0.9765758514404297,
+            "polygon": [
+              [
+                29.0,
+                27.0
+              ],
+              [
+                925.0,
+                29.0
+              ],
+              [
+                925.0,
+                56.0
+              ],
+              [
+                29.0,
+                54.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DEМO."
+            ],
+            "evidence_id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e2"
+          },
+          {
+            "text": "қатысыңыз. Толық шарттар:",
+            "confidence": 0.9993106722831726,
+            "polygon": [
+              [
+                27.0,
+                68.0
+              ],
+              [
+                367.0,
+                70.0
+              ],
+              [
+                367.0,
+                98.0
+              ],
+              [
+                27.0,
+                95.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e3"
+          },
+          {
+            "text": "https://kfe552bcf22.test",
+            "confidence": 0.999495804309845,
+            "polygon": [
+              [
+                29.0,
+                109.0
+              ],
+              [
+                293.0,
+                109.0
+              ],
+              [
+                293.0,
+                137.0
+              ],
+              [
+                29.0,
+                137.0
+              ]
+            ],
+            "segment_indices": [
+              2
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e4"
+          },
+          {
+            "text": "/visit/f20c4a?ref=T2891C48",
+            "confidence": 0.9986134767532349,
+            "polygon": [
+              [
+                29.0,
+                151.0
+              ],
+              [
+                343.0,
+                151.0
+              ],
+              [
+                343.0,
+                176.0
+              ],
+              [
+                29.0,
+                176.0
+              ]
+            ],
+            "segment_indices": [
+              3
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e5"
+          }
+        ],
+        "raw_text": "DEМO. Біздің казино жаңа ойыншыларды күтеді. Тіркеліп, алғашқы ұтысқа\nқатысыңыз. Толық шарттар:\nhttps://kfe552bcf22.test\n/visit/f20c4a?ref=T2891C48",
+        "raw_lines": [
+          {
+            "text": "DEМO. Біздің казино жаңа ойыншыларды күтеді. Тіркеліп, алғашқы ұтысқа",
+            "confidence": 0.9765758514404297,
+            "polygon": [
+              [
+                29.0,
+                27.0
+              ],
+              [
+                925.0,
+                29.0
+              ],
+              [
+                925.0,
+                56.0
+              ],
+              [
+                29.0,
+                54.0
+              ]
+            ]
+          },
+          {
+            "text": "қатысыңыз. Толық шарттар:",
+            "confidence": 0.9993106722831726,
+            "polygon": [
+              [
+                27.0,
+                68.0
+              ],
+              [
+                367.0,
+                70.0
+              ],
+              [
+                367.0,
+                98.0
+              ],
+              [
+                27.0,
+                95.0
+              ]
+            ]
+          },
+          {
+            "text": "https://kfe552bcf22.test",
+            "confidence": 0.999495804309845,
+            "polygon": [
+              [
+                29.0,
+                109.0
+              ],
+              [
+                293.0,
+                109.0
+              ],
+              [
+                293.0,
+                137.0
+              ],
+              [
+                29.0,
+                137.0
+              ]
+            ]
+          },
+          {
+            "text": "/visit/f20c4a?ref=T2891C48",
+            "confidence": 0.9986134767532349,
+            "polygon": [
+              [
+                29.0,
+                151.0
+              ],
+              [
+                343.0,
+                151.0
+              ],
+              [
+                343.0,
+                176.0
+              ],
+              [
+                29.0,
+                176.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 121,
+            "mean_confidence": 0.9883168270765257,
+            "score": 116.85390696730346,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1120,
+        "height": 230,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "url_readings": [
+          {
+            "raw_url": "https://kfe552bcf22.test",
+            "line_indices": [
+              2,
+              3
+            ],
+            "needs_review": true,
+            "reasons": [
+              "Следующая строка похожа на продолжение адреса; неполный префикс не открывался."
+            ],
+            "suggestions": [
+              {
+                "url": "https://kfe552bcf22.test/visit/f20c4a?ref=T2891C48",
+                "method": "adjacent_ocr_lines",
+                "confidence": 0.9986134767532349,
+                "agreement": false
+              }
+            ],
+            "method": "primary_ocr",
+            "auto_follow": false
+          }
+        ]
+      },
+      "qr": {
+        "codes": [],
+        "width": 1120,
+        "height": 230,
+        "version": "qr-1.0",
+        "decoder": "OpenCV 4.10.0",
+        "cache_hit": false,
+        "elapsed_ms": 73.81,
+        "limitations": "До 8 QR-кодов, изображение до 1600 px по длинной стороне. Мелкие, поврежденные и составные QR могут не читаться. Декодирование не подтверждает безопасность адреса."
+      },
+      "urls": [],
+      "url_reviews": [
+        {
+          "raw_url": "https://kfe552bcf22.test",
+          "line_indices": [
+            2,
+            3
+          ],
+          "needs_review": true,
+          "reasons": [
+            "Следующая строка похожа на продолжение адреса; неполный префикс не открывался."
+          ],
+          "suggestions": [
+            {
+              "url": "https://kfe552bcf22.test/visit/f20c4a?ref=T2891C48",
+              "method": "adjacent_ocr_lines",
+              "confidence": 0.9986134767532349,
+              "agreement": false
+            }
+          ],
+          "method": "primary_ocr",
+          "auto_follow": false,
+          "source_evidence_ids": [
+            "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e10",
+            "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e4",
+            "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e5"
+          ],
+          "selected_url": null
+        }
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e9"
+      ],
+      "url_review_incomplete": true,
+      "content_fingerprint": "5d9703d6e1909b36436bef02469390b25791dc32d7890c88551c41ef3ace5bd8",
+      "reachable_urls": [],
+      "call_bindings": [],
+      "attribution_incomplete": false,
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "kk",
+        "context": "promotion",
+        "claims": [
+          {
+            "kind": "gambling",
+            "quote": "казино",
+            "source_id": "b185316110244c1ea635311fbf759775-ocr",
+            "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+            "start": 13,
+            "end": 19
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "Тіркеліп",
+            "source_id": "b185316110244c1ea635311fbf759775-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 45,
+            "end": 53
+          },
+          {
+            "kind": "promise",
+            "quote": "ұтысқа",
+            "source_id": "b185316110244c1ea635311fbf759775-ocr",
+            "explanation": "Обещание выигрыша или дохода.",
+            "start": 63,
+            "end": 69
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "partial",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e1",
+      "quote": "DEMO · материал 77bd82",
+      "source_id": "b185316110244c1ea635311fbf759775",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:51:49.306333+00:00",
+      "material_id": "b185316110244c1ea635311fbf759775",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e2",
+      "quote": "DEМO. Біздің казино жаңа ойыншыларды күтеді. Тіркеліп, алғашқы ұтысқа",
+      "source_id": "b185316110244c1ea635311fbf759775-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:51:55.177842+00:00",
+      "material_id": "b185316110244c1ea635311fbf759775",
+      "polygon": [
+        [
+          29.0,
+          27.0
+        ],
+        [
+          925.0,
+          29.0
+        ],
+        [
+          925.0,
+          56.0
+        ],
+        [
+          29.0,
+          54.0
+        ]
+      ],
+      "confidence": 0.9765758514404297
+    },
+    {
+      "id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e3",
+      "quote": "қатысыңыз. Толық шарттар:",
+      "source_id": "b185316110244c1ea635311fbf759775-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:51:55.177842+00:00",
+      "material_id": "b185316110244c1ea635311fbf759775",
+      "polygon": [
+        [
+          27.0,
+          68.0
+        ],
+        [
+          367.0,
+          70.0
+        ],
+        [
+          367.0,
+          98.0
+        ],
+        [
+          27.0,
+          95.0
+        ]
+      ],
+      "confidence": 0.9993106722831726
+    },
+    {
+      "id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e4",
+      "quote": "https://kfe552bcf22.test",
+      "source_id": "b185316110244c1ea635311fbf759775-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:51:55.177842+00:00",
+      "material_id": "b185316110244c1ea635311fbf759775",
+      "polygon": [
+        [
+          29.0,
+          109.0
+        ],
+        [
+          293.0,
+          109.0
+        ],
+        [
+          293.0,
+          137.0
+        ],
+        [
+          29.0,
+          137.0
+        ]
+      ],
+      "confidence": 0.999495804309845
+    },
+    {
+      "id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e5",
+      "quote": "/visit/f20c4a?ref=T2891C48",
+      "source_id": "b185316110244c1ea635311fbf759775-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:51:55.177842+00:00",
+      "material_id": "b185316110244c1ea635311fbf759775",
+      "polygon": [
+        [
+          29.0,
+          151.0
+        ],
+        [
+          343.0,
+          151.0
+        ],
+        [
+          343.0,
+          176.0
+        ],
+        [
+          29.0,
+          176.0
+        ]
+      ],
+      "confidence": 0.9986134767532349
+    },
+    {
+      "id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e6",
+      "quote": "казино",
+      "source_id": "b185316110244c1ea635311fbf759775-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:51:55.265848+00:00",
+      "start": 13,
+      "end": 19,
+      "material_id": "b185316110244c1ea635311fbf759775"
+    },
+    {
+      "id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e7",
+      "quote": "Тіркеліп",
+      "source_id": "b185316110244c1ea635311fbf759775-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:51:55.265848+00:00",
+      "start": 45,
+      "end": 53,
+      "material_id": "b185316110244c1ea635311fbf759775"
+    },
+    {
+      "id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e8",
+      "quote": "ұтысқа",
+      "source_id": "b185316110244c1ea635311fbf759775-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:51:55.265848+00:00",
+      "start": 63,
+      "end": 69,
+      "material_id": "b185316110244c1ea635311fbf759775"
+    },
+    {
+      "id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e9",
+      "quote": "DEМO. Біздің казино жаңа ойыншыларды күтеді. Тіркеліп, алғашқы ұтысқа\nқатысыңыз. Толық шарттар:\nhttps://kfe552bcf22.test\n/visit/f20c4a?ref=T2891C48",
+      "source_id": "b185316110244c1ea635311fbf759775-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:51:55.265848+00:00",
+      "material_id": "b185316110244c1ea635311fbf759775"
+    },
+    {
+      "id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e10",
+      "quote": "https://kfe552bcf22.test",
+      "source_id": "b185316110244c1ea635311fbf759775-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:51:55.265848+00:00",
+      "material_id": "b185316110244c1ea635311fbf759775"
+    }
+  ],
+  "trace": {
+    "observations": [],
+    "relations": [],
+    "requests": 0,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+    "Сомнительный OCR-адрес не открывался. Сверьте его с оригиналом и явно уточните в карточке материала."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "analysis_assisted": false,
+  "identifiers": [],
+  "analyzed_at": "2026-10-21T20:51:49.306333+00:00",
+  "analysis_id": "fedb73bf042d",
+  "context": {
+    "language": "kk",
+    "context": "promotion",
+    "claims": [
+      {
+        "kind": "gambling",
+        "quote": "казино",
+        "source_id": "b185316110244c1ea635311fbf759775-ocr",
+        "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+        "start": 13,
+        "end": 19
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "Тіркеліп",
+        "source_id": "b185316110244c1ea635311fbf759775-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 45,
+        "end": 53
+      },
+      {
+        "kind": "promise",
+        "quote": "ұтысқа",
+        "source_id": "b185316110244c1ea635311fbf759775-ocr",
+        "explanation": "Обещание выигрыша или дохода.",
+        "start": 63,
+        "end": 69
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "gambling",
+      "quote": "казино",
+      "source_id": "b185316110244c1ea635311fbf759775-ocr",
+      "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+      "start": 13,
+      "end": 19,
+      "evidence_id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e6"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "Тіркеліп",
+      "source_id": "b185316110244c1ea635311fbf759775-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 45,
+      "end": 53,
+      "evidence_id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e7"
+    },
+    {
+      "kind": "promise",
+      "quote": "ұтысқа",
+      "source_id": "b185316110244c1ea635311fbf759775-ocr",
+      "explanation": "Обещание выигрыша или дохода.",
+      "start": 63,
+      "end": 69,
+      "evidence_id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e8"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-04a9e56f42255d9a",
+        "type": "material",
+        "label": "DEMO · материал 77bd82",
+        "evidence_ids": [
+          "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e1"
+        ],
+        "case_id": "90bc8c662781437aa0a5aa3f0c8398a2",
+        "material_id": "b185316110244c1ea635311fbf759775"
+      },
+      {
+        "id": "source-5bd9fc61ef248232",
+        "type": "source",
+        "label": "DEMO · материал 77bd82",
+        "evidence_ids": [
+          "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e1"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-2e9b59d250ec6cf47a",
+        "source": "source-5bd9fc61ef248232",
+        "target": "material-04a9e56f42255d9a",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e1"
+        ],
+        "at": "2026-10-21T20:51:49.306333+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e1",
+        "quote": "DEMO · материал 77bd82",
+        "source_id": "b185316110244c1ea635311fbf759775",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:51:49.306333+00:00",
+        "material_id": "b185316110244c1ea635311fbf759775",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e2",
+        "quote": "DEМO. Біздің казино жаңа ойыншыларды күтеді. Тіркеліп, алғашқы ұтысқа",
+        "source_id": "b185316110244c1ea635311fbf759775-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:51:55.177842+00:00",
+        "material_id": "b185316110244c1ea635311fbf759775",
+        "polygon": [
+          [
+            29.0,
+            27.0
+          ],
+          [
+            925.0,
+            29.0
+          ],
+          [
+            925.0,
+            56.0
+          ],
+          [
+            29.0,
+            54.0
+          ]
+        ],
+        "confidence": 0.9765758514404297
+      },
+      {
+        "id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e3",
+        "quote": "қатысыңыз. Толық шарттар:",
+        "source_id": "b185316110244c1ea635311fbf759775-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:51:55.177842+00:00",
+        "material_id": "b185316110244c1ea635311fbf759775",
+        "polygon": [
+          [
+            27.0,
+            68.0
+          ],
+          [
+            367.0,
+            70.0
+          ],
+          [
+            367.0,
+            98.0
+          ],
+          [
+            27.0,
+            95.0
+          ]
+        ],
+        "confidence": 0.9993106722831726
+      },
+      {
+        "id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e4",
+        "quote": "https://kfe552bcf22.test",
+        "source_id": "b185316110244c1ea635311fbf759775-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:51:55.177842+00:00",
+        "material_id": "b185316110244c1ea635311fbf759775",
+        "polygon": [
+          [
+            29.0,
+            109.0
+          ],
+          [
+            293.0,
+            109.0
+          ],
+          [
+            293.0,
+            137.0
+          ],
+          [
+            29.0,
+            137.0
+          ]
+        ],
+        "confidence": 0.999495804309845
+      },
+      {
+        "id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e5",
+        "quote": "/visit/f20c4a?ref=T2891C48",
+        "source_id": "b185316110244c1ea635311fbf759775-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:51:55.177842+00:00",
+        "material_id": "b185316110244c1ea635311fbf759775",
+        "polygon": [
+          [
+            29.0,
+            151.0
+          ],
+          [
+            343.0,
+            151.0
+          ],
+          [
+            343.0,
+            176.0
+          ],
+          [
+            29.0,
+            176.0
+          ]
+        ],
+        "confidence": 0.9986134767532349
+      },
+      {
+        "id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e6",
+        "quote": "казино",
+        "source_id": "b185316110244c1ea635311fbf759775-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:51:55.265848+00:00",
+        "start": 13,
+        "end": 19,
+        "material_id": "b185316110244c1ea635311fbf759775"
+      },
+      {
+        "id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e7",
+        "quote": "Тіркеліп",
+        "source_id": "b185316110244c1ea635311fbf759775-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:51:55.265848+00:00",
+        "start": 45,
+        "end": 53,
+        "material_id": "b185316110244c1ea635311fbf759775"
+      },
+      {
+        "id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e8",
+        "quote": "ұтысқа",
+        "source_id": "b185316110244c1ea635311fbf759775-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:51:55.265848+00:00",
+        "start": 63,
+        "end": 69,
+        "material_id": "b185316110244c1ea635311fbf759775"
+      },
+      {
+        "id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e9",
+        "quote": "DEМO. Біздің казино жаңа ойыншыларды күтеді. Тіркеліп, алғашқы ұтысқа\nқатысыңыз. Толық шарттар:\nhttps://kfe552bcf22.test\n/visit/f20c4a?ref=T2891C48",
+        "source_id": "b185316110244c1ea635311fbf759775-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:51:55.265848+00:00",
+        "material_id": "b185316110244c1ea635311fbf759775"
+      },
+      {
+        "id": "90bc8c662781437aa0a5aa3f0c8398a2-fedb73bf042d-e10",
+        "quote": "https://kfe552bcf22.test",
+        "source_id": "b185316110244c1ea635311fbf759775-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:51:55.265848+00:00",
+        "material_id": "b185316110244c1ea635311fbf759775"
+      }
+    ],
+    "generated_at": "2026-10-21T20:51:55.266846+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [],
+    "version": "rules-4.0",
+    "weights": {
+      "version": "weights-4.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "b185316110244c1ea635311fbf759775",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 5960.3
+}

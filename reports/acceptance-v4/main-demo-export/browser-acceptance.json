@@ -1,0 +1,23 @@
+{
+  "case_id": "e4e5424a4abc4b129c7ad5fc8636345f",
+  "download": "C:\\Users\\nurbo\\Downloads\\safetrace-e4e5424a.zip",
+  "copy": "browser-new-case.zip",
+  "sha256": "92953a750df4436dafa37820d61e499303953450da811db6430384da869e7a78",
+  "files_verified": 5,
+  "internal_anchors_verified": 311,
+  "analysis_id": "710a5566fa9a",
+  "score": 90,
+  "materials": 2,
+  "decisions": 1,
+  "history_count": 2,
+  "automatic_initial_score": 0,
+  "assisted_result": true,
+  "browser_observations": [
+    "Prepared current-v4 case opened in browser",
+    "HTML graph edge source opened",
+    "Warning with same URL shown at index zero",
+    "Decision saved in UI",
+    "Actual browser download completed using waitForEvent; all archive bytes verified"
+  ],
+  "limits": "Prepared synthetic demo navigation, not human usability. Full create/upload/review acceptance recorded separately. Initial rehearsal timed the export control request; file completion verified separately."
+}

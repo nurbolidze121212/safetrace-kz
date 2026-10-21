@@ -1,0 +1,729 @@
+{
+  "id": "adae27a9f6704a23b2e936bf0f7d2c93",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:49:40.037671+00:00",
+  "status": "partial",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "",
+      "url": "",
+      "source": "DEMO · материал bcb941",
+      "published_at": null,
+      "image_id": "a6861bb46acc3a00f79b678608130a18.png",
+      "id": "3687511473fc4b51950a5bc0fd32379c",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "a6861bb46acc3a00f79b678608130a186178f103f1f0f1aec72e8cb996e27c19",
+      "source_evidence_id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e1",
+      "normalized_text": "",
+      "ocr": {
+        "text": "DEMO. Novost redaktsii: fraza «perehodi v kazino» vzyata iz reklamy. Eto tsitata, a ne sovet\nchitatelju. Istochnik https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+        "lines": [
+          {
+            "text": "DEMO. Novost redaktsii: fraza «perehodi v kazino» vzyata iz reklamy. Eto tsitata, a ne sovet",
+            "confidence": 0.9900802969932556,
+            "polygon": [
+              [
+                28.0,
+                22.0
+              ],
+              [
+                853.0,
+                24.0
+              ],
+              [
+                853.0,
+                50.0
+              ],
+              [
+                28.0,
+                48.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e2"
+          },
+          {
+            "text": "chitatelju. Istochnik https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+            "confidence": 0.9809711575508118,
+            "polygon": [
+              [
+                28.0,
+                60.0
+              ],
+              [
+                697.0,
+                60.0
+              ],
+              [
+                697.0,
+                84.0
+              ],
+              [
+                28.0,
+                84.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570"
+            ],
+            "evidence_id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e3"
+          }
+        ],
+        "raw_text": "DEMO. Novost redaktsii: fraza «perehodi v kazino» vzyata iz reklamy. Eto tsitata, a ne sovet\nchitatelju. Istochnik https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+        "raw_lines": [
+          {
+            "text": "DEMO. Novost redaktsii: fraza «perehodi v kazino» vzyata iz reklamy. Eto tsitata, a ne sovet",
+            "confidence": 0.9900802969932556,
+            "polygon": [
+              [
+                28.0,
+                22.0
+              ],
+              [
+                853.0,
+                24.0
+              ],
+              [
+                853.0,
+                50.0
+              ],
+              [
+                28.0,
+                48.0
+              ]
+            ]
+          },
+          {
+            "text": "chitatelju. Istochnik https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+            "confidence": 0.9809711575508118,
+            "polygon": [
+              [
+                28.0,
+                60.0
+              ],
+              [
+                697.0,
+                60.0
+              ],
+              [
+                697.0,
+                84.0
+              ],
+              [
+                28.0,
+                84.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 135,
+            "mean_confidence": 0.9858293652534484,
+            "score": 129.35007937366083,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1120,
+        "height": 136,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически."
+      },
+      "qr": {
+        "codes": [],
+        "width": 1120,
+        "height": 136,
+        "version": "qr-1.0",
+        "decoder": "OpenCV 4.10.0",
+        "cache_hit": false,
+        "elapsed_ms": 143.75,
+        "limitations": "До 8 QR-кодов, изображение до 1600 px по длинной стороне. Мелкие, поврежденные и составные QR могут не читаться. Декодирование не подтверждает безопасность адреса."
+      },
+      "urls": [
+        "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570"
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e6"
+      ],
+      "reachable_urls": [
+        "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570"
+      ],
+      "score": {
+        "value": 65,
+        "level": "high",
+        "contributions": [
+          {
+            "key": "gambling_and_call",
+            "title": "Игровая лексика + призыв",
+            "weight": 65,
+            "evidence_ids": [
+              "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e4",
+              "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e5"
+            ]
+          }
+        ],
+        "version": "rules-3.0",
+        "weights": {
+          "version": "weights-3.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "ru",
+        "context": "promotion",
+        "claims": [
+          {
+            "kind": "gambling",
+            "quote": "kazino",
+            "source_id": "3687511473fc4b51950a5bc0fd32379c-ocr",
+            "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+            "start": 42,
+            "end": 48
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "perehodi",
+            "source_id": "3687511473fc4b51950a5bc0fd32379c-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 31,
+            "end": 39
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "partial",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e1",
+      "quote": "DEMO · материал bcb941",
+      "source_id": "3687511473fc4b51950a5bc0fd32379c",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:49:40.055667+00:00",
+      "material_id": "3687511473fc4b51950a5bc0fd32379c",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e2",
+      "quote": "DEMO. Novost redaktsii: fraza «perehodi v kazino» vzyata iz reklamy. Eto tsitata, a ne sovet",
+      "source_id": "3687511473fc4b51950a5bc0fd32379c-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:49:43.270150+00:00",
+      "material_id": "3687511473fc4b51950a5bc0fd32379c",
+      "polygon": [
+        [
+          28.0,
+          22.0
+        ],
+        [
+          853.0,
+          24.0
+        ],
+        [
+          853.0,
+          50.0
+        ],
+        [
+          28.0,
+          48.0
+        ]
+      ],
+      "confidence": 0.9900802969932556
+    },
+    {
+      "id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e3",
+      "quote": "chitatelju. Istochnik https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+      "source_id": "3687511473fc4b51950a5bc0fd32379c-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:49:43.270150+00:00",
+      "material_id": "3687511473fc4b51950a5bc0fd32379c",
+      "polygon": [
+        [
+          28.0,
+          60.0
+        ],
+        [
+          697.0,
+          60.0
+        ],
+        [
+          697.0,
+          84.0
+        ],
+        [
+          28.0,
+          84.0
+        ]
+      ],
+      "confidence": 0.9809711575508118
+    },
+    {
+      "id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e4",
+      "quote": "kazino",
+      "source_id": "3687511473fc4b51950a5bc0fd32379c-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:43.434222+00:00",
+      "start": 42,
+      "end": 48,
+      "material_id": "3687511473fc4b51950a5bc0fd32379c"
+    },
+    {
+      "id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e5",
+      "quote": "perehodi",
+      "source_id": "3687511473fc4b51950a5bc0fd32379c-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:43.434222+00:00",
+      "start": 31,
+      "end": 39,
+      "material_id": "3687511473fc4b51950a5bc0fd32379c"
+    },
+    {
+      "id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e6",
+      "quote": "DEMO. Novost redaktsii: fraza «perehodi v kazino» vzyata iz reklamy. Eto tsitata, a ne sovet\nchitatelju. Istochnik https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+      "source_id": "3687511473fc4b51950a5bc0fd32379c-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:49:43.434222+00:00",
+      "material_id": "3687511473fc4b51950a5bc0fd32379c"
+    },
+    {
+      "id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e7",
+      "quote": "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+      "source_id": "3687511473fc4b51950a5bc0fd32379c-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:49:43.434222+00:00",
+      "material_id": "3687511473fc4b51950a5bc0fd32379c"
+    },
+    {
+      "id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e8",
+      "quote": "Синтетический стенд: адрес не найден",
+      "source_id": "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:49:43.434222+00:00",
+      "url": "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+      "status_code": null,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e9",
+      "quote": "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+      "source_id": "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:49:43.434222+00:00",
+      "url": "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+        "at": "2026-10-21T20:49:43.434222+00:00",
+        "status_code": null,
+        "text": "",
+        "stop": "Синтетический стенд: адрес не найден",
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [],
+        "evidence_id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e8"
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+        "type": "contains_link",
+        "quote": "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:49:43.434222+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e9"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+    "Непроверенный участок: Синтетический стенд: адрес не найден"
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-3.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.1"
+  },
+  "identifiers": [],
+  "analyzed_at": "2026-10-21T20:49:40.055667+00:00",
+  "analysis_id": "61bc864078da",
+  "context": {
+    "language": "ru",
+    "context": "promotion",
+    "claims": [
+      {
+        "kind": "gambling",
+        "quote": "kazino",
+        "source_id": "3687511473fc4b51950a5bc0fd32379c-ocr",
+        "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+        "start": 42,
+        "end": 48
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "perehodi",
+        "source_id": "3687511473fc4b51950a5bc0fd32379c-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 31,
+        "end": 39
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "gambling",
+      "quote": "kazino",
+      "source_id": "3687511473fc4b51950a5bc0fd32379c-ocr",
+      "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+      "start": 42,
+      "end": 48,
+      "evidence_id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e4"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "perehodi",
+      "source_id": "3687511473fc4b51950a5bc0fd32379c-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 31,
+      "end": 39,
+      "evidence_id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e5"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-f30984f4686edc0c",
+        "type": "material",
+        "label": "DEMO · материал bcb941",
+        "evidence_ids": [
+          "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e1"
+        ],
+        "case_id": "adae27a9f6704a23b2e936bf0f7d2c93",
+        "material_id": "3687511473fc4b51950a5bc0fd32379c"
+      },
+      {
+        "id": "source-49b9641b7d840d9c",
+        "type": "source",
+        "label": "DEMO · материал bcb941",
+        "evidence_ids": [
+          "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e1"
+        ]
+      },
+      {
+        "id": "url-3e8ccb5cd50766e2",
+        "type": "url",
+        "label": "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+        "evidence_ids": [
+          "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e7",
+          "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e8"
+        ]
+      },
+      {
+        "id": "observation-32d1fb3682d0e6f6",
+        "type": "observation",
+        "label": "Разрыв маршрута",
+        "evidence_ids": [
+          "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e8"
+        ],
+        "stopped": true
+      },
+      {
+        "id": "domain-f3daaf6c17ae25b6",
+        "type": "domain",
+        "label": "ke96f78cfc3.test",
+        "evidence_ids": [
+          "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e8"
+        ]
+      },
+      {
+        "id": "identifier-f0e9d3463793630c",
+        "type": "identifier",
+        "label": "ref=T61E6570",
+        "evidence_ids": [
+          "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e8"
+        ],
+        "scope": "ke96f78cfc3.test|/%D0%BFa%D0%BC%D1%8F%D1%82%D0%BAa/f65f2b|ref|T61E6570"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-24aa568492e8b5fa9f",
+        "source": "source-49b9641b7d840d9c",
+        "target": "material-f30984f4686edc0c",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e1"
+        ],
+        "at": "2026-10-21T20:49:40.055667+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-352aed84009659e297",
+        "source": "material-f30984f4686edc0c",
+        "target": "url-3e8ccb5cd50766e2",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e7"
+        ],
+        "at": "2026-10-21T20:49:40.055667+00:00",
+        "method": "ocr",
+        "status": "observed"
+      },
+      {
+        "id": "edge-5d9452db4fadec23c6",
+        "source": "url-3e8ccb5cd50766e2",
+        "target": "observation-32d1fb3682d0e6f6",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e8"
+        ],
+        "at": "2026-10-21T20:49:40.055667+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-076c774a72dd6b0242",
+        "source": "url-3e8ccb5cd50766e2",
+        "target": "domain-f3daaf6c17ae25b6",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e8"
+        ],
+        "at": "2026-10-21T20:49:40.055667+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-ca964f9c7710b50bf4",
+        "source": "url-3e8ccb5cd50766e2",
+        "target": "identifier-f0e9d3463793630c",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e8"
+        ],
+        "at": "2026-10-21T20:49:40.055667+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e1",
+        "quote": "DEMO · материал bcb941",
+        "source_id": "3687511473fc4b51950a5bc0fd32379c",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:49:40.055667+00:00",
+        "material_id": "3687511473fc4b51950a5bc0fd32379c",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e2",
+        "quote": "DEMO. Novost redaktsii: fraza «perehodi v kazino» vzyata iz reklamy. Eto tsitata, a ne sovet",
+        "source_id": "3687511473fc4b51950a5bc0fd32379c-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:49:43.270150+00:00",
+        "material_id": "3687511473fc4b51950a5bc0fd32379c",
+        "polygon": [
+          [
+            28.0,
+            22.0
+          ],
+          [
+            853.0,
+            24.0
+          ],
+          [
+            853.0,
+            50.0
+          ],
+          [
+            28.0,
+            48.0
+          ]
+        ],
+        "confidence": 0.9900802969932556
+      },
+      {
+        "id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e3",
+        "quote": "chitatelju. Istochnik https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+        "source_id": "3687511473fc4b51950a5bc0fd32379c-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:49:43.270150+00:00",
+        "material_id": "3687511473fc4b51950a5bc0fd32379c",
+        "polygon": [
+          [
+            28.0,
+            60.0
+          ],
+          [
+            697.0,
+            60.0
+          ],
+          [
+            697.0,
+            84.0
+          ],
+          [
+            28.0,
+            84.0
+          ]
+        ],
+        "confidence": 0.9809711575508118
+      },
+      {
+        "id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e4",
+        "quote": "kazino",
+        "source_id": "3687511473fc4b51950a5bc0fd32379c-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:43.434222+00:00",
+        "start": 42,
+        "end": 48,
+        "material_id": "3687511473fc4b51950a5bc0fd32379c"
+      },
+      {
+        "id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e5",
+        "quote": "perehodi",
+        "source_id": "3687511473fc4b51950a5bc0fd32379c-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:43.434222+00:00",
+        "start": 31,
+        "end": 39,
+        "material_id": "3687511473fc4b51950a5bc0fd32379c"
+      },
+      {
+        "id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e6",
+        "quote": "DEMO. Novost redaktsii: fraza «perehodi v kazino» vzyata iz reklamy. Eto tsitata, a ne sovet\nchitatelju. Istochnik https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+        "source_id": "3687511473fc4b51950a5bc0fd32379c-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:49:43.434222+00:00",
+        "material_id": "3687511473fc4b51950a5bc0fd32379c"
+      },
+      {
+        "id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e7",
+        "quote": "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+        "source_id": "3687511473fc4b51950a5bc0fd32379c-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:49:43.434222+00:00",
+        "material_id": "3687511473fc4b51950a5bc0fd32379c"
+      },
+      {
+        "id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e8",
+        "quote": "Синтетический стенд: адрес не найден",
+        "source_id": "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:49:43.434222+00:00",
+        "url": "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+        "status_code": null,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e9",
+        "quote": "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+        "source_id": "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:49:43.434222+00:00",
+        "url": "https://ke96f78cfc3.test/пaмяткa/f65f2b?ref=T61E6570",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:49:43.435215+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 65,
+    "level": "high",
+    "contributions": [
+      {
+        "key": "gambling_and_call",
+        "title": "Игровая лексика + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e4",
+          "adae27a9f6704a23b2e936bf0f7d2c93-61bc864078da-e5"
+        ]
+      }
+    ],
+    "version": "rules-3.0",
+    "weights": {
+      "version": "weights-3.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "3687511473fc4b51950a5bc0fd32379c",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 3380.1
+}

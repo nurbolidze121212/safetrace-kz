@@ -1,0 +1,746 @@
+{
+  "id": "c2c36250521a4e4dbc87fb423812d50a",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:53:58.882374+00:00",
+  "status": "partial",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "",
+      "url": "",
+      "source": "DEMO · материал b1ccaf",
+      "published_at": null,
+      "image_id": "7ebe7f8eecedfb6d43741bd0bbc38519.png",
+      "id": "8c5ae01626b245fb9852cada5a3d2eb4",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "7ebe7f8eecedfb6d43741bd0bbc38519cd9ce3c445208c3fd2cb1761ccaf7e60",
+      "source_evidence_id": "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e1",
+      "normalized_text": "",
+      "ocr": {
+        "text": "DEMO. Календарь встреч указан отдельно: https://kfd4с6f6854.test/7c1aaa3. Заходи за новым\nбонусом через личное приглашение https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "lines": [
+          {
+            "text": "DEMO. Календарь встреч указан отдельно: https://kfd4с6f6854.test/7c1aaa3. Заходи за новым",
+            "confidence": 0.9839766621589661,
+            "polygon": [
+              [
+                28.0,
+                25.0
+              ],
+              [
+                909.0,
+                26.0
+              ],
+              [
+                909.0,
+                50.0
+              ],
+              [
+                28.0,
+                50.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: https://kfd4с6f6854.test/7c1aaa3."
+            ],
+            "evidence_id": "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e2"
+          },
+          {
+            "text": "бонусом через личное приглашение https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+            "confidence": 0.9870095252990723,
+            "polygon": [
+              [
+                27.0,
+                58.0
+              ],
+              [
+                869.0,
+                57.0
+              ],
+              [
+                869.0,
+                86.0
+              ],
+              [
+                27.0,
+                87.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726"
+            ],
+            "evidence_id": "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e3"
+          }
+        ],
+        "raw_text": "DEMO. Календарь встреч указан отдельно: https://kfd4с6f6854.test/7c1aaa3. Заходи за новым\nбонусом через личное приглашение https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "raw_lines": [
+          {
+            "text": "DEMO. Календарь встреч указан отдельно: https://kfd4с6f6854.test/7c1aaa3. Заходи за новым",
+            "confidence": 0.9839766621589661,
+            "polygon": [
+              [
+                28.0,
+                25.0
+              ],
+              [
+                909.0,
+                26.0
+              ],
+              [
+                909.0,
+                50.0
+              ],
+              [
+                28.0,
+                50.0
+              ]
+            ]
+          },
+          {
+            "text": "бонусом через личное приглашение https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+            "confidence": 0.9870095252990723,
+            "polygon": [
+              [
+                27.0,
+                58.0
+              ],
+              [
+                869.0,
+                57.0
+              ],
+              [
+                869.0,
+                86.0
+              ],
+              [
+                27.0,
+                87.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 145,
+            "mean_confidence": 0.9854826355802602,
+            "score": 138.77716651893562,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1120,
+        "height": 136,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "url_readings": [
+          {
+            "raw_url": "https://kfd4с6f6854.test/7c1aaa3",
+            "line_indices": [
+              0
+            ],
+            "needs_review": true,
+            "reasons": [
+              "В адресе есть нелатинские символы: возможны как ошибка OCR, так и настоящий международный путь."
+            ],
+            "suggestions": [
+              {
+                "url": "https://kfd4c6f6854.test/7c1aaa3",
+                "method": "en_PP-OCRv5_mobile_rec",
+                "confidence": 0.9125421047210693,
+                "agreement": true
+              }
+            ],
+            "method": "primary_ocr",
+            "auto_follow": false,
+            "secondary_attempts": [
+              {
+                "text": "DEMO. KaneHµapb BcTpe4 yKa3aH oT}eJbHo: https://kfd4c6f6854.test/7c1aaa3. 3axo∆n 3a HoBbIM",
+                "confidence": 0.9138472676277161,
+                "urls": [
+                  "https://kfd4c6f6854.test/7c1aaa3"
+                ],
+                "scale": 1
+              },
+              {
+                "text": "DEMO. KaneHµapb BcTpe4 yKa3aH oT√eJbHo: https://kfd4c6f6854.test/7c1aaa3. 3axoµn 3a HoBbIM",
+                "confidence": 0.9125421047210693,
+                "urls": [
+                  "https://kfd4c6f6854.test/7c1aaa3"
+                ],
+                "scale": 2
+              }
+            ]
+          },
+          {
+            "raw_url": "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+            "line_indices": [
+              1
+            ],
+            "needs_review": true,
+            "reasons": [
+              "В адресе есть нелатинские символы: возможны как ошибка OCR, так и настоящий международный путь."
+            ],
+            "suggestions": [
+              {
+                "url": "https://k012a2d97f5.test/access/430d1c?ref=T80D5726",
+                "method": "en_PP-OCRv5_mobile_rec",
+                "confidence": 0.9399645924568176,
+                "agreement": true
+              }
+            ],
+            "method": "primary_ocr",
+            "auto_follow": false,
+            "secondary_attempts": [
+              {
+                "text": "6oHycom 4epe3 nn4Hoe npnrnaweHne https://k012a2d97f5.test/access/430d1c?ref=T80D5726",
+                "confidence": 0.9471002221107483,
+                "urls": [
+                  "https://k012a2d97f5.test/access/430d1c?ref=T80D5726"
+                ],
+                "scale": 1
+              },
+              {
+                "text": "6oHycom 4epe3 nn4Hoe npurnaweHne https://k012a2d97f5.test/access/430d1c?ref=T80D5726",
+                "confidence": 0.9399645924568176,
+                "urls": [
+                  "https://k012a2d97f5.test/access/430d1c?ref=T80D5726"
+                ],
+                "scale": 2
+              }
+            ]
+          }
+        ]
+      },
+      "qr": {
+        "codes": [],
+        "width": 1120,
+        "height": 136,
+        "version": "qr-1.0",
+        "decoder": "OpenCV 4.10.0",
+        "cache_hit": false,
+        "elapsed_ms": 144.62,
+        "limitations": "До 8 QR-кодов, изображение до 1600 px по длинной стороне. Мелкие, поврежденные и составные QR могут не читаться. Декодирование не подтверждает безопасность адреса."
+      },
+      "urls": [],
+      "url_reviews": [
+        {
+          "raw_url": "https://kfd4с6f6854.test/7c1aaa3",
+          "line_indices": [
+            0
+          ],
+          "needs_review": true,
+          "reasons": [
+            "В адресе есть нелатинские символы: возможны как ошибка OCR, так и настоящий международный путь."
+          ],
+          "suggestions": [
+            {
+              "url": "https://kfd4c6f6854.test/7c1aaa3",
+              "method": "en_PP-OCRv5_mobile_rec",
+              "confidence": 0.9125421047210693,
+              "agreement": true
+            }
+          ],
+          "method": "primary_ocr",
+          "auto_follow": false,
+          "secondary_attempts": [
+            {
+              "text": "DEMO. KaneHµapb BcTpe4 yKa3aH oT}eJbHo: https://kfd4c6f6854.test/7c1aaa3. 3axo∆n 3a HoBbIM",
+              "confidence": 0.9138472676277161,
+              "urls": [
+                "https://kfd4c6f6854.test/7c1aaa3"
+              ],
+              "scale": 1
+            },
+            {
+              "text": "DEMO. KaneHµapb BcTpe4 yKa3aH oT√eJbHo: https://kfd4c6f6854.test/7c1aaa3. 3axoµn 3a HoBbIM",
+              "confidence": 0.9125421047210693,
+              "urls": [
+                "https://kfd4c6f6854.test/7c1aaa3"
+              ],
+              "scale": 2
+            }
+          ],
+          "source_evidence_ids": [
+            "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e7",
+            "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e2"
+          ],
+          "selected_url": null
+        },
+        {
+          "raw_url": "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+          "line_indices": [
+            1
+          ],
+          "needs_review": true,
+          "reasons": [
+            "В адресе есть нелатинские символы: возможны как ошибка OCR, так и настоящий международный путь."
+          ],
+          "suggestions": [
+            {
+              "url": "https://k012a2d97f5.test/access/430d1c?ref=T80D5726",
+              "method": "en_PP-OCRv5_mobile_rec",
+              "confidence": 0.9399645924568176,
+              "agreement": true
+            }
+          ],
+          "method": "primary_ocr",
+          "auto_follow": false,
+          "secondary_attempts": [
+            {
+              "text": "6oHycom 4epe3 nn4Hoe npnrnaweHne https://k012a2d97f5.test/access/430d1c?ref=T80D5726",
+              "confidence": 0.9471002221107483,
+              "urls": [
+                "https://k012a2d97f5.test/access/430d1c?ref=T80D5726"
+              ],
+              "scale": 1
+            },
+            {
+              "text": "6oHycom 4epe3 nn4Hoe npurnaweHne https://k012a2d97f5.test/access/430d1c?ref=T80D5726",
+              "confidence": 0.9399645924568176,
+              "urls": [
+                "https://k012a2d97f5.test/access/430d1c?ref=T80D5726"
+              ],
+              "scale": 2
+            }
+          ],
+          "source_evidence_ids": [
+            "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e8",
+            "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e3"
+          ],
+          "selected_url": null
+        }
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e6"
+      ],
+      "url_review_incomplete": true,
+      "content_fingerprint": "bc42fdbc611a7677de33a1f3523a3978414226d6712687900c172334247a6076",
+      "reachable_urls": [],
+      "call_bindings": [],
+      "attribution_incomplete": false,
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "ru",
+        "context": "promotion",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "Заходи",
+            "source_id": "8c5ae01626b245fb9852cada5a3d2eb4-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 74,
+            "end": 80
+          },
+          {
+            "kind": "bonus",
+            "quote": "бонусом",
+            "source_id": "8c5ae01626b245fb9852cada5a3d2eb4-ocr",
+            "explanation": "Упоминание бонуса или промокода.",
+            "start": 90,
+            "end": 97
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": false
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "partial",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e1",
+      "quote": "DEMO · материал b1ccaf",
+      "source_id": "8c5ae01626b245fb9852cada5a3d2eb4",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:54:06.320680+00:00",
+      "material_id": "8c5ae01626b245fb9852cada5a3d2eb4",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e2",
+      "quote": "DEMO. Календарь встреч указан отдельно: https://kfd4с6f6854.test/7c1aaa3. Заходи за новым",
+      "source_id": "8c5ae01626b245fb9852cada5a3d2eb4-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:54:13.413868+00:00",
+      "material_id": "8c5ae01626b245fb9852cada5a3d2eb4",
+      "polygon": [
+        [
+          28.0,
+          25.0
+        ],
+        [
+          909.0,
+          26.0
+        ],
+        [
+          909.0,
+          50.0
+        ],
+        [
+          28.0,
+          50.0
+        ]
+      ],
+      "confidence": 0.9839766621589661
+    },
+    {
+      "id": "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e3",
+      "quote": "бонусом через личное приглашение https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+      "source_id": "8c5ae01626b245fb9852cada5a3d2eb4-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:54:13.413868+00:00",
+      "material_id": "8c5ae01626b245fb9852cada5a3d2eb4",
+      "polygon": [
+        [
+          27.0,
+          58.0
+        ],
+        [
+          869.0,
+          57.0
+        ],
+        [
+          869.0,
+          86.0
+        ],
+        [
+          27.0,
+          87.0
+        ]
+      ],
+      "confidence": 0.9870095252990723
+    },
+    {
+      "id": "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e4",
+      "quote": "Заходи",
+      "source_id": "8c5ae01626b245fb9852cada5a3d2eb4-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:54:13.570139+00:00",
+      "start": 74,
+      "end": 80,
+      "material_id": "8c5ae01626b245fb9852cada5a3d2eb4"
+    },
+    {
+      "id": "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e5",
+      "quote": "бонусом",
+      "source_id": "8c5ae01626b245fb9852cada5a3d2eb4-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:54:13.570139+00:00",
+      "start": 90,
+      "end": 97,
+      "material_id": "8c5ae01626b245fb9852cada5a3d2eb4"
+    },
+    {
+      "id": "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e6",
+      "quote": "DEMO. Календарь встреч указан отдельно: https://kfd4с6f6854.test/7c1aaa3. Заходи за новым\nбонусом через личное приглашение https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+      "source_id": "8c5ae01626b245fb9852cada5a3d2eb4-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:54:13.571141+00:00",
+      "material_id": "8c5ae01626b245fb9852cada5a3d2eb4"
+    },
+    {
+      "id": "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e7",
+      "quote": "https://kfd4с6f6854.test/7c1aaa3",
+      "source_id": "8c5ae01626b245fb9852cada5a3d2eb4-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:54:13.571141+00:00",
+      "material_id": "8c5ae01626b245fb9852cada5a3d2eb4"
+    },
+    {
+      "id": "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e8",
+      "quote": "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+      "source_id": "8c5ae01626b245fb9852cada5a3d2eb4-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:54:13.571141+00:00",
+      "material_id": "8c5ae01626b245fb9852cada5a3d2eb4"
+    }
+  ],
+  "trace": {
+    "observations": [],
+    "relations": [],
+    "requests": 0,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+    "Сомнительный OCR-адрес не открывался. Сверьте его с оригиналом и явно уточните в карточке материала.",
+    "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "analysis_assisted": false,
+  "identifiers": [],
+  "analyzed_at": "2026-10-21T20:54:06.320680+00:00",
+  "analysis_id": "dccf9e775d35",
+  "context": {
+    "language": "ru",
+    "context": "promotion",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "Заходи",
+        "source_id": "8c5ae01626b245fb9852cada5a3d2eb4-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 74,
+        "end": 80
+      },
+      {
+        "kind": "bonus",
+        "quote": "бонусом",
+        "source_id": "8c5ae01626b245fb9852cada5a3d2eb4-ocr",
+        "explanation": "Упоминание бонуса или промокода.",
+        "start": 90,
+        "end": 97
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "Заходи",
+      "source_id": "8c5ae01626b245fb9852cada5a3d2eb4-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 74,
+      "end": 80,
+      "evidence_id": "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e4"
+    },
+    {
+      "kind": "bonus",
+      "quote": "бонусом",
+      "source_id": "8c5ae01626b245fb9852cada5a3d2eb4-ocr",
+      "explanation": "Упоминание бонуса или промокода.",
+      "start": 90,
+      "end": 97,
+      "evidence_id": "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e5"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-d0b324a067c80c9e",
+        "type": "material",
+        "label": "DEMO · материал b1ccaf",
+        "evidence_ids": [
+          "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e1"
+        ],
+        "case_id": "c2c36250521a4e4dbc87fb423812d50a",
+        "material_id": "8c5ae01626b245fb9852cada5a3d2eb4"
+      },
+      {
+        "id": "source-d0afb18d49d4b5e2",
+        "type": "source",
+        "label": "DEMO · материал b1ccaf",
+        "evidence_ids": [
+          "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e1"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-cae78521d327934723",
+        "source": "source-d0afb18d49d4b5e2",
+        "target": "material-d0b324a067c80c9e",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e1"
+        ],
+        "at": "2026-10-21T20:54:06.320680+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e1",
+        "quote": "DEMO · материал b1ccaf",
+        "source_id": "8c5ae01626b245fb9852cada5a3d2eb4",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:54:06.320680+00:00",
+        "material_id": "8c5ae01626b245fb9852cada5a3d2eb4",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e2",
+        "quote": "DEMO. Календарь встреч указан отдельно: https://kfd4с6f6854.test/7c1aaa3. Заходи за новым",
+        "source_id": "8c5ae01626b245fb9852cada5a3d2eb4-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:54:13.413868+00:00",
+        "material_id": "8c5ae01626b245fb9852cada5a3d2eb4",
+        "polygon": [
+          [
+            28.0,
+            25.0
+          ],
+          [
+            909.0,
+            26.0
+          ],
+          [
+            909.0,
+            50.0
+          ],
+          [
+            28.0,
+            50.0
+          ]
+        ],
+        "confidence": 0.9839766621589661
+      },
+      {
+        "id": "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e3",
+        "quote": "бонусом через личное приглашение https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "source_id": "8c5ae01626b245fb9852cada5a3d2eb4-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:54:13.413868+00:00",
+        "material_id": "8c5ae01626b245fb9852cada5a3d2eb4",
+        "polygon": [
+          [
+            27.0,
+            58.0
+          ],
+          [
+            869.0,
+            57.0
+          ],
+          [
+            869.0,
+            86.0
+          ],
+          [
+            27.0,
+            87.0
+          ]
+        ],
+        "confidence": 0.9870095252990723
+      },
+      {
+        "id": "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e4",
+        "quote": "Заходи",
+        "source_id": "8c5ae01626b245fb9852cada5a3d2eb4-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:54:13.570139+00:00",
+        "start": 74,
+        "end": 80,
+        "material_id": "8c5ae01626b245fb9852cada5a3d2eb4"
+      },
+      {
+        "id": "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e5",
+        "quote": "бонусом",
+        "source_id": "8c5ae01626b245fb9852cada5a3d2eb4-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:54:13.570139+00:00",
+        "start": 90,
+        "end": 97,
+        "material_id": "8c5ae01626b245fb9852cada5a3d2eb4"
+      },
+      {
+        "id": "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e6",
+        "quote": "DEMO. Календарь встреч указан отдельно: https://kfd4с6f6854.test/7c1aaa3. Заходи за новым\nбонусом через личное приглашение https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "source_id": "8c5ae01626b245fb9852cada5a3d2eb4-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:54:13.571141+00:00",
+        "material_id": "8c5ae01626b245fb9852cada5a3d2eb4"
+      },
+      {
+        "id": "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e7",
+        "quote": "https://kfd4с6f6854.test/7c1aaa3",
+        "source_id": "8c5ae01626b245fb9852cada5a3d2eb4-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:54:13.571141+00:00",
+        "material_id": "8c5ae01626b245fb9852cada5a3d2eb4"
+      },
+      {
+        "id": "c2c36250521a4e4dbc87fb423812d50a-dccf9e775d35-e8",
+        "quote": "https://k012a2d97f5.test/aссеss/430d1c?ref=T80D5726",
+        "source_id": "8c5ae01626b245fb9852cada5a3d2eb4-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:54:13.571141+00:00",
+        "material_id": "8c5ae01626b245fb9852cada5a3d2eb4"
+      }
+    ],
+    "generated_at": "2026-10-21T20:54:13.571141+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [],
+    "version": "rules-4.0",
+    "weights": {
+      "version": "weights-4.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "8c5ae01626b245fb9852cada5a3d2eb4",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": false,
+  "elapsed_ms": 7250.9
+}

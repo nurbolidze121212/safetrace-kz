@@ -1,0 +1,689 @@
+{
+  "id": "fb8dd60db2ac4515bc73c2b95b6bb236",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:49:48.246263+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "DEMO. На семинаре разбираем схему бонусных обещаний. Переходи на страницу расследования, ондағы мысал ақша салуға шақырмайды: https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+      "url": "",
+      "source": "DEMO · материал 00ba1c",
+      "published_at": null,
+      "image_id": null,
+      "id": "41bf4c3b0a1c403882a671f8f6d0e236",
+      "original_sha256": "8ba76c1ef48c818ce28c078f6334c30182fa33acefa36612cd04c23ef2ec51b6",
+      "source_evidence_id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e1",
+      "normalized_text": "demo. на семинаре разбираем схему бонусных обещаний. переходи на страницу расследования, ондағы мысал ақша салуға шақырмайды: https://k62a2226a82.test/access/4f299f?ref=t31dc39e",
+      "urls": [
+        "https://k62a2226a82.test/access/4f299f?ref=T31DC39E"
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e5"
+      ],
+      "reachable_urls": [
+        "https://k62a2226a82.test/access/4f299f?ref=T31DC39E"
+      ],
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [
+          {
+            "key": "destination_alternative_context",
+            "title": "Альтернативный контекст страницы: не подтверждает игровой адрес",
+            "weight": 0,
+            "evidence_ids": [
+              "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e9",
+              "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e10",
+              "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e11"
+            ]
+          },
+          {
+            "key": "alternative_context",
+            "title": "Альтернативный контекст: образовательный разбор",
+            "weight": -65,
+            "evidence_ids": [
+              "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e4"
+            ]
+          }
+        ],
+        "version": "rules-3.0",
+        "weights": {
+          "version": "weights-3.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "mixed",
+        "context": "education",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "Переходи",
+            "source_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 53,
+            "end": 61
+          },
+          {
+            "kind": "bonus",
+            "quote": "бонусных",
+            "source_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+            "explanation": "Упоминание бонуса или промокода.",
+            "start": 34,
+            "end": 42
+          },
+          {
+            "kind": "education",
+            "quote": "разбираем схему",
+            "source_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+            "explanation": "Альтернатива: образовательный разбор.",
+            "start": 18,
+            "end": 33
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e1",
+      "quote": "DEMO · материал 00ba1c",
+      "source_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:49:48.258261+00:00",
+      "material_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e2",
+      "quote": "Переходи",
+      "source_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:48.259275+00:00",
+      "start": 53,
+      "end": 61,
+      "material_id": "41bf4c3b0a1c403882a671f8f6d0e236"
+    },
+    {
+      "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e3",
+      "quote": "бонусных",
+      "source_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:48.259275+00:00",
+      "start": 34,
+      "end": 42,
+      "material_id": "41bf4c3b0a1c403882a671f8f6d0e236"
+    },
+    {
+      "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e4",
+      "quote": "разбираем схему",
+      "source_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:48.259275+00:00",
+      "start": 18,
+      "end": 33,
+      "material_id": "41bf4c3b0a1c403882a671f8f6d0e236"
+    },
+    {
+      "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e5",
+      "quote": "DEMO. На семинаре разбираем схему бонусных обещаний. Переходи на страницу расследования, ондағы мысал ақша салуға шақырмайды: https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+      "source_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+      "method": "source_text",
+      "at": "2026-10-21T20:49:48.259275+00:00",
+      "material_id": "41bf4c3b0a1c403882a671f8f6d0e236"
+    },
+    {
+      "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e6",
+      "quote": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+      "source_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+      "method": "source_text",
+      "at": "2026-10-21T20:49:48.259275+00:00",
+      "material_id": "41bf4c3b0a1c403882a671f8f6d0e236"
+    },
+    {
+      "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e7",
+      "quote": "Медиасауат сабағы Казино жарнамасы қалай жұмыс істейді? Бұл оқу мысалы, ақша салмаңыз.",
+      "source_id": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:49:48.260268+00:00",
+      "url": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e8",
+      "quote": "Казино",
+      "source_id": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:48.260268+00:00",
+      "start": 18,
+      "end": 24,
+      "url": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E"
+    },
+    {
+      "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e9",
+      "quote": "Медиасауат",
+      "source_id": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:48.260268+00:00",
+      "start": 0,
+      "end": 10,
+      "url": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E"
+    },
+    {
+      "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e10",
+      "quote": "сабағы",
+      "source_id": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:48.260268+00:00",
+      "start": 11,
+      "end": 17,
+      "url": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E"
+    },
+    {
+      "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e11",
+      "quote": "оқу мысалы",
+      "source_id": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+      "method": "local_rule",
+      "at": "2026-10-21T20:49:48.260268+00:00",
+      "start": 60,
+      "end": 70,
+      "url": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E"
+    },
+    {
+      "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e12",
+      "quote": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+      "source_id": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:49:48.260268+00:00",
+      "url": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+        "at": "2026-10-21T20:49:48.259275+00:00",
+        "status_code": 200,
+        "text": "Медиасауат сабағы Казино жарнамасы қалай жұмыс істейді? Бұл оқу мысалы, ақша салмаңыз.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:49:48.259275+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "991f90e894fae36194f2f60abef1706a08b7e2b4b04c77a8aaeb04b6eb5b59da",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+        "evidence_id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e7",
+        "context": {
+          "language": "kk",
+          "context": "education",
+          "claims": [
+            {
+              "kind": "gambling",
+              "quote": "Казино",
+              "source_id": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 18,
+              "end": 24
+            },
+            {
+              "kind": "education",
+              "quote": "Медиасауат",
+              "source_id": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+              "explanation": "Альтернатива: образовательный разбор.",
+              "start": 0,
+              "end": 10
+            },
+            {
+              "kind": "education",
+              "quote": "сабағы",
+              "source_id": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+              "explanation": "Альтернатива: образовательный разбор.",
+              "start": 11,
+              "end": 17
+            },
+            {
+              "kind": "education",
+              "quote": "оқу мысалы",
+              "source_id": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+              "explanation": "Альтернатива: образовательный разбор.",
+              "start": 60,
+              "end": 70
+            }
+          ],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+        "type": "contains_link",
+        "quote": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:49:48.259275+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e12"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-3.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.1"
+  },
+  "identifiers": [
+    {
+      "domain": "k62a2226a82.test",
+      "parameter": "ref",
+      "value": "T31DC39E",
+      "scope": "k62a2226a82.test|/access/4f299f|ref|T31DC39E",
+      "url": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+      "material_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+      "evidence_id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e7"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:49:48.258261+00:00",
+  "analysis_id": "b150613198f6",
+  "context": {
+    "language": "mixed",
+    "context": "education",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "Переходи",
+        "source_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 53,
+        "end": 61
+      },
+      {
+        "kind": "bonus",
+        "quote": "бонусных",
+        "source_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+        "explanation": "Упоминание бонуса или промокода.",
+        "start": 34,
+        "end": 42
+      },
+      {
+        "kind": "education",
+        "quote": "разбираем схему",
+        "source_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+        "explanation": "Альтернатива: образовательный разбор.",
+        "start": 18,
+        "end": 33
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "Переходи",
+      "source_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 53,
+      "end": 61,
+      "evidence_id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e2"
+    },
+    {
+      "kind": "bonus",
+      "quote": "бонусных",
+      "source_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+      "explanation": "Упоминание бонуса или промокода.",
+      "start": 34,
+      "end": 42,
+      "evidence_id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e3"
+    },
+    {
+      "kind": "education",
+      "quote": "разбираем схему",
+      "source_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+      "explanation": "Альтернатива: образовательный разбор.",
+      "start": 18,
+      "end": 33,
+      "evidence_id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e4"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-0e3bfb6618a583ef",
+        "type": "material",
+        "label": "DEMO · материал 00ba1c",
+        "evidence_ids": [
+          "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e1"
+        ],
+        "case_id": "fb8dd60db2ac4515bc73c2b95b6bb236",
+        "material_id": "41bf4c3b0a1c403882a671f8f6d0e236"
+      },
+      {
+        "id": "source-769c320701d05aad",
+        "type": "source",
+        "label": "DEMO · материал 00ba1c",
+        "evidence_ids": [
+          "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e1"
+        ]
+      },
+      {
+        "id": "url-9b7e1b3b68d10e79",
+        "type": "url",
+        "label": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+        "evidence_ids": [
+          "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e6",
+          "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e7"
+        ]
+      },
+      {
+        "id": "observation-ec94e81b6f281ae8",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e7"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-44098e39586bfbba",
+        "type": "domain",
+        "label": "k62a2226a82.test",
+        "evidence_ids": [
+          "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e7"
+        ]
+      },
+      {
+        "id": "identifier-3a712fed17c6a5df",
+        "type": "identifier",
+        "label": "ref=T31DC39E",
+        "evidence_ids": [
+          "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e7"
+        ],
+        "scope": "k62a2226a82.test|/access/4f299f|ref|T31DC39E"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-98487d757737faf843",
+        "source": "source-769c320701d05aad",
+        "target": "material-0e3bfb6618a583ef",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e1"
+        ],
+        "at": "2026-10-21T20:49:48.258261+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-76745a1a133ca3718b",
+        "source": "material-0e3bfb6618a583ef",
+        "target": "url-9b7e1b3b68d10e79",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e6"
+        ],
+        "at": "2026-10-21T20:49:48.258261+00:00",
+        "method": "source_text",
+        "status": "observed"
+      },
+      {
+        "id": "edge-9a1a9ec75d235a11b4",
+        "source": "url-9b7e1b3b68d10e79",
+        "target": "observation-ec94e81b6f281ae8",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e7"
+        ],
+        "at": "2026-10-21T20:49:48.258261+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-62e6891f323bba67e9",
+        "source": "url-9b7e1b3b68d10e79",
+        "target": "domain-44098e39586bfbba",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e7"
+        ],
+        "at": "2026-10-21T20:49:48.258261+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-1af001b7547f92bcd7",
+        "source": "url-9b7e1b3b68d10e79",
+        "target": "identifier-3a712fed17c6a5df",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e7"
+        ],
+        "at": "2026-10-21T20:49:48.258261+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e1",
+        "quote": "DEMO · материал 00ba1c",
+        "source_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:49:48.258261+00:00",
+        "material_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e2",
+        "quote": "Переходи",
+        "source_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:48.259275+00:00",
+        "start": 53,
+        "end": 61,
+        "material_id": "41bf4c3b0a1c403882a671f8f6d0e236"
+      },
+      {
+        "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e3",
+        "quote": "бонусных",
+        "source_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:48.259275+00:00",
+        "start": 34,
+        "end": 42,
+        "material_id": "41bf4c3b0a1c403882a671f8f6d0e236"
+      },
+      {
+        "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e4",
+        "quote": "разбираем схему",
+        "source_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:48.259275+00:00",
+        "start": 18,
+        "end": 33,
+        "material_id": "41bf4c3b0a1c403882a671f8f6d0e236"
+      },
+      {
+        "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e5",
+        "quote": "DEMO. На семинаре разбираем схему бонусных обещаний. Переходи на страницу расследования, ондағы мысал ақша салуға шақырмайды: https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+        "source_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+        "method": "source_text",
+        "at": "2026-10-21T20:49:48.259275+00:00",
+        "material_id": "41bf4c3b0a1c403882a671f8f6d0e236"
+      },
+      {
+        "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e6",
+        "quote": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+        "source_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+        "method": "source_text",
+        "at": "2026-10-21T20:49:48.259275+00:00",
+        "material_id": "41bf4c3b0a1c403882a671f8f6d0e236"
+      },
+      {
+        "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e7",
+        "quote": "Медиасауат сабағы Казино жарнамасы қалай жұмыс істейді? Бұл оқу мысалы, ақша салмаңыз.",
+        "source_id": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:49:48.260268+00:00",
+        "url": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e8",
+        "quote": "Казино",
+        "source_id": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:48.260268+00:00",
+        "start": 18,
+        "end": 24,
+        "url": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E"
+      },
+      {
+        "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e9",
+        "quote": "Медиасауат",
+        "source_id": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:48.260268+00:00",
+        "start": 0,
+        "end": 10,
+        "url": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E"
+      },
+      {
+        "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e10",
+        "quote": "сабағы",
+        "source_id": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:48.260268+00:00",
+        "start": 11,
+        "end": 17,
+        "url": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E"
+      },
+      {
+        "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e11",
+        "quote": "оқу мысалы",
+        "source_id": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+        "method": "local_rule",
+        "at": "2026-10-21T20:49:48.260268+00:00",
+        "start": 60,
+        "end": 70,
+        "url": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E"
+      },
+      {
+        "id": "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e12",
+        "quote": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+        "source_id": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:49:48.260268+00:00",
+        "url": "https://k62a2226a82.test/access/4f299f?ref=T31DC39E",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:49:48.260268+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [
+      {
+        "key": "destination_alternative_context",
+        "title": "Альтернативный контекст страницы: не подтверждает игровой адрес",
+        "weight": 0,
+        "evidence_ids": [
+          "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e9",
+          "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e10",
+          "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e11"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: образовательный разбор",
+        "weight": -65,
+        "evidence_ids": [
+          "fb8dd60db2ac4515bc73c2b95b6bb236-b150613198f6-e4"
+        ]
+      }
+    ],
+    "version": "rules-3.0",
+    "weights": {
+      "version": "weights-3.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "41bf4c3b0a1c403882a671f8f6d0e236",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 2.3
+}

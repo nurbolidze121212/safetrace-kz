@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-10-21T20:41:52.062562+00:00",
+  "core_freeze_sha256": "74d21984c7d1c48230ee6786e74221a058846b017665ba90d1ecd18472d03d5c",
+  "generator_sha256": "07f8bd5f802df7add8e4e0334e54f6aba8ff32262d9bf3120ca1a784c878136e",
+  "n": 80,
+  "positive": 40,
+  "image_cases": 32,
+  "qr_cases": 8,
+  "purpose": "Fresh author-synthetic final inputs. No predictions computed by the generator. Independent validation unavailable.",
+  "authoring_qa_at": "2026-10-21T20:46:41.261672+00:00",
+  "authoring_qa_note": "Before predictions/data freeze: expected OCR URL targets copied from authored source values, excluding surrounding sentence punctuation. Inputs and images unchanged."
+}

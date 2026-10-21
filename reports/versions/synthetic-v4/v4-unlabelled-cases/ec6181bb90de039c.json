@@ -1,0 +1,839 @@
+{
+  "id": "3af5d795df0344ba937ef373f1c6121c",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:56:46.971570+00:00",
+  "status": "partial",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "",
+      "url": "",
+      "source": "DEMO · материал ec6181",
+      "published_at": null,
+      "image_id": "9d6dbded1e90d466c47a23e0db419f18.png",
+      "id": "f60a53629d7d472ab3234b3fda6f0366",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "9d6dbded1e90d466c47a23e0db419f18538ff30918582c5f1ac0703394ad7da8",
+      "source_evidence_id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e1",
+      "normalized_text": "",
+      "ocr": {
+        "text": "DЕМO. Тегін ойын: барлық ұпай виртуалды, ақша төлеу де, ақша алу да жоқ.\nОйын бөлмесіне қосылыңыз:\nhttps://k2c60892213.test\n/visit/1a0ccb?ref=T78FEA0A",
+        "lines": [
+          {
+            "text": "DЕМO. Тегін ойын: барлық ұпай виртуалды, ақша төлеу де, ақша алу да жоқ.",
+            "confidence": 0.9730915427207947,
+            "polygon": [
+              [
+                27.0,
+                25.0
+              ],
+              [
+                953.0,
+                28.0
+              ],
+              [
+                953.0,
+                60.0
+              ],
+              [
+                27.0,
+                56.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМO."
+            ],
+            "evidence_id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e2"
+          },
+          {
+            "text": "Ойын бөлмесіне қосылыңыз:",
+            "confidence": 0.9992864727973938,
+            "polygon": [
+              [
+                28.0,
+                68.0
+              ],
+              [
+                379.0,
+                70.0
+              ],
+              [
+                379.0,
+                98.0
+              ],
+              [
+                28.0,
+                95.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e3"
+          },
+          {
+            "text": "https://k2c60892213.test",
+            "confidence": 0.9976785778999329,
+            "polygon": [
+              [
+                30.0,
+                111.0
+              ],
+              [
+                307.0,
+                111.0
+              ],
+              [
+                307.0,
+                136.0
+              ],
+              [
+                30.0,
+                136.0
+              ]
+            ],
+            "segment_indices": [
+              2
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e4"
+          },
+          {
+            "text": "/visit/1a0ccb?ref=T78FEA0A",
+            "confidence": 0.9906511306762695,
+            "polygon": [
+              [
+                29.0,
+                151.0
+              ],
+              [
+                355.0,
+                151.0
+              ],
+              [
+                355.0,
+                176.0
+              ],
+              [
+                29.0,
+                176.0
+              ]
+            ],
+            "segment_indices": [
+              3
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e5"
+          }
+        ],
+        "raw_text": "DЕМO. Тегін ойын: барлық ұпай виртуалды, ақша төлеу де, ақша алу да жоқ.\nОйын бөлмесіне қосылыңыз:\nhttps://k2c60892213.test\n/visit/1a0ccb?ref=T78FEA0A",
+        "raw_lines": [
+          {
+            "text": "DЕМO. Тегін ойын: барлық ұпай виртуалды, ақша төлеу де, ақша алу да жоқ.",
+            "confidence": 0.9730915427207947,
+            "polygon": [
+              [
+                27.0,
+                25.0
+              ],
+              [
+                953.0,
+                28.0
+              ],
+              [
+                953.0,
+                60.0
+              ],
+              [
+                27.0,
+                56.0
+              ]
+            ]
+          },
+          {
+            "text": "Ойын бөлмесіне қосылыңыз:",
+            "confidence": 0.9992864727973938,
+            "polygon": [
+              [
+                28.0,
+                68.0
+              ],
+              [
+                379.0,
+                70.0
+              ],
+              [
+                379.0,
+                98.0
+              ],
+              [
+                28.0,
+                95.0
+              ]
+            ]
+          },
+          {
+            "text": "https://k2c60892213.test",
+            "confidence": 0.9976785778999329,
+            "polygon": [
+              [
+                30.0,
+                111.0
+              ],
+              [
+                307.0,
+                111.0
+              ],
+              [
+                307.0,
+                136.0
+              ],
+              [
+                30.0,
+                136.0
+              ]
+            ]
+          },
+          {
+            "text": "/visit/1a0ccb?ref=T78FEA0A",
+            "confidence": 0.9906511306762695,
+            "polygon": [
+              [
+                29.0,
+                151.0
+              ],
+              [
+                355.0,
+                151.0
+              ],
+              [
+                355.0,
+                176.0
+              ],
+              [
+                29.0,
+                176.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 119,
+            "mean_confidence": 0.9853128881013694,
+            "score": 113.88120739533147,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1120,
+        "height": 230,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "url_readings": [
+          {
+            "raw_url": "https://k2c60892213.test",
+            "line_indices": [
+              2,
+              3
+            ],
+            "needs_review": true,
+            "reasons": [
+              "Следующая строка похожа на продолжение адреса; неполный префикс не открывался."
+            ],
+            "suggestions": [
+              {
+                "url": "https://k2c60892213.test/visit/1a0ccb?ref=T78FEA0A",
+                "method": "adjacent_ocr_lines",
+                "confidence": 0.9906511306762695,
+                "agreement": false
+              }
+            ],
+            "method": "primary_ocr",
+            "auto_follow": false
+          }
+        ]
+      },
+      "qr": {
+        "codes": [],
+        "width": 1120,
+        "height": 230,
+        "version": "qr-1.0",
+        "decoder": "OpenCV 4.10.0",
+        "cache_hit": false,
+        "elapsed_ms": 89.66,
+        "limitations": "До 8 QR-кодов, изображение до 1600 px по длинной стороне. Мелкие, поврежденные и составные QR могут не читаться. Декодирование не подтверждает безопасность адреса."
+      },
+      "urls": [],
+      "url_reviews": [
+        {
+          "raw_url": "https://k2c60892213.test",
+          "line_indices": [
+            2,
+            3
+          ],
+          "needs_review": true,
+          "reasons": [
+            "Следующая строка похожа на продолжение адреса; неполный префикс не открывался."
+          ],
+          "suggestions": [
+            {
+              "url": "https://k2c60892213.test/visit/1a0ccb?ref=T78FEA0A",
+              "method": "adjacent_ocr_lines",
+              "confidence": 0.9906511306762695,
+              "agreement": false
+            }
+          ],
+          "method": "primary_ocr",
+          "auto_follow": false,
+          "source_evidence_ids": [
+            "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e9",
+            "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e4",
+            "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e5"
+          ],
+          "selected_url": null
+        }
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e8"
+      ],
+      "url_review_incomplete": true,
+      "content_fingerprint": "4245437bafbeefaff7da3a65ea5b4d6a138552a5ae6cc4b8f3c277f5adf34b29",
+      "reachable_urls": [],
+      "call_bindings": [],
+      "attribution_incomplete": false,
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [
+          {
+            "key": "alternative_context",
+            "title": "Альтернативный контекст: бесплатная игра",
+            "weight": -65,
+            "evidence_ids": [
+              "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e7"
+            ]
+          }
+        ],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "kk",
+        "context": "free_game",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "қосылыңыз",
+            "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 88,
+            "end": 97
+          },
+          {
+            "kind": "free_game",
+            "quote": "Тегін ойын",
+            "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+            "explanation": "Альтернатива: бесплатная игра без денежных ставок.",
+            "start": 6,
+            "end": 16
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "partial",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e1",
+      "quote": "DEMO · материал ec6181",
+      "source_id": "f60a53629d7d472ab3234b3fda6f0366",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:56:53.460766+00:00",
+      "material_id": "f60a53629d7d472ab3234b3fda6f0366",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e2",
+      "quote": "DЕМO. Тегін ойын: барлық ұпай виртуалды, ақша төлеу де, ақша алу да жоқ.",
+      "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:56:58.622802+00:00",
+      "material_id": "f60a53629d7d472ab3234b3fda6f0366",
+      "polygon": [
+        [
+          27.0,
+          25.0
+        ],
+        [
+          953.0,
+          28.0
+        ],
+        [
+          953.0,
+          60.0
+        ],
+        [
+          27.0,
+          56.0
+        ]
+      ],
+      "confidence": 0.9730915427207947
+    },
+    {
+      "id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e3",
+      "quote": "Ойын бөлмесіне қосылыңыз:",
+      "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:56:58.622802+00:00",
+      "material_id": "f60a53629d7d472ab3234b3fda6f0366",
+      "polygon": [
+        [
+          28.0,
+          68.0
+        ],
+        [
+          379.0,
+          70.0
+        ],
+        [
+          379.0,
+          98.0
+        ],
+        [
+          28.0,
+          95.0
+        ]
+      ],
+      "confidence": 0.9992864727973938
+    },
+    {
+      "id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e4",
+      "quote": "https://k2c60892213.test",
+      "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:56:58.622802+00:00",
+      "material_id": "f60a53629d7d472ab3234b3fda6f0366",
+      "polygon": [
+        [
+          30.0,
+          111.0
+        ],
+        [
+          307.0,
+          111.0
+        ],
+        [
+          307.0,
+          136.0
+        ],
+        [
+          30.0,
+          136.0
+        ]
+      ],
+      "confidence": 0.9976785778999329
+    },
+    {
+      "id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e5",
+      "quote": "/visit/1a0ccb?ref=T78FEA0A",
+      "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:56:58.622802+00:00",
+      "material_id": "f60a53629d7d472ab3234b3fda6f0366",
+      "polygon": [
+        [
+          29.0,
+          151.0
+        ],
+        [
+          355.0,
+          151.0
+        ],
+        [
+          355.0,
+          176.0
+        ],
+        [
+          29.0,
+          176.0
+        ]
+      ],
+      "confidence": 0.9906511306762695
+    },
+    {
+      "id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e6",
+      "quote": "қосылыңыз",
+      "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:56:58.726330+00:00",
+      "start": 88,
+      "end": 97,
+      "material_id": "f60a53629d7d472ab3234b3fda6f0366"
+    },
+    {
+      "id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e7",
+      "quote": "Тегін ойын",
+      "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:56:58.726330+00:00",
+      "start": 6,
+      "end": 16,
+      "material_id": "f60a53629d7d472ab3234b3fda6f0366"
+    },
+    {
+      "id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e8",
+      "quote": "DЕМO. Тегін ойын: барлық ұпай виртуалды, ақша төлеу де, ақша алу да жоқ.\nОйын бөлмесіне қосылыңыз:\nhttps://k2c60892213.test\n/visit/1a0ccb?ref=T78FEA0A",
+      "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:56:58.726330+00:00",
+      "material_id": "f60a53629d7d472ab3234b3fda6f0366"
+    },
+    {
+      "id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e9",
+      "quote": "https://k2c60892213.test",
+      "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:56:58.726330+00:00",
+      "material_id": "f60a53629d7d472ab3234b3fda6f0366"
+    }
+  ],
+  "trace": {
+    "observations": [],
+    "relations": [],
+    "requests": 0,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+    "Сомнительный OCR-адрес не открывался. Сверьте его с оригиналом и явно уточните в карточке материала."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "analysis_assisted": false,
+  "identifiers": [],
+  "analyzed_at": "2026-10-21T20:56:53.460766+00:00",
+  "analysis_id": "9f565dc05ab9",
+  "context": {
+    "language": "kk",
+    "context": "free_game",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "қосылыңыз",
+        "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 88,
+        "end": 97
+      },
+      {
+        "kind": "free_game",
+        "quote": "Тегін ойын",
+        "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+        "explanation": "Альтернатива: бесплатная игра без денежных ставок.",
+        "start": 6,
+        "end": 16
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "қосылыңыз",
+      "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 88,
+      "end": 97,
+      "evidence_id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e6"
+    },
+    {
+      "kind": "free_game",
+      "quote": "Тегін ойын",
+      "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+      "explanation": "Альтернатива: бесплатная игра без денежных ставок.",
+      "start": 6,
+      "end": 16,
+      "evidence_id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e7"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-c3159bf6430719fb",
+        "type": "material",
+        "label": "DEMO · материал ec6181",
+        "evidence_ids": [
+          "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e1"
+        ],
+        "case_id": "3af5d795df0344ba937ef373f1c6121c",
+        "material_id": "f60a53629d7d472ab3234b3fda6f0366"
+      },
+      {
+        "id": "source-7d22a8cd08c7c7df",
+        "type": "source",
+        "label": "DEMO · материал ec6181",
+        "evidence_ids": [
+          "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e1"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-9e0b76efe6615b12f0",
+        "source": "source-7d22a8cd08c7c7df",
+        "target": "material-c3159bf6430719fb",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e1"
+        ],
+        "at": "2026-10-21T20:56:53.460766+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e1",
+        "quote": "DEMO · материал ec6181",
+        "source_id": "f60a53629d7d472ab3234b3fda6f0366",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:56:53.460766+00:00",
+        "material_id": "f60a53629d7d472ab3234b3fda6f0366",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e2",
+        "quote": "DЕМO. Тегін ойын: барлық ұпай виртуалды, ақша төлеу де, ақша алу да жоқ.",
+        "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:56:58.622802+00:00",
+        "material_id": "f60a53629d7d472ab3234b3fda6f0366",
+        "polygon": [
+          [
+            27.0,
+            25.0
+          ],
+          [
+            953.0,
+            28.0
+          ],
+          [
+            953.0,
+            60.0
+          ],
+          [
+            27.0,
+            56.0
+          ]
+        ],
+        "confidence": 0.9730915427207947
+      },
+      {
+        "id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e3",
+        "quote": "Ойын бөлмесіне қосылыңыз:",
+        "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:56:58.622802+00:00",
+        "material_id": "f60a53629d7d472ab3234b3fda6f0366",
+        "polygon": [
+          [
+            28.0,
+            68.0
+          ],
+          [
+            379.0,
+            70.0
+          ],
+          [
+            379.0,
+            98.0
+          ],
+          [
+            28.0,
+            95.0
+          ]
+        ],
+        "confidence": 0.9992864727973938
+      },
+      {
+        "id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e4",
+        "quote": "https://k2c60892213.test",
+        "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:56:58.622802+00:00",
+        "material_id": "f60a53629d7d472ab3234b3fda6f0366",
+        "polygon": [
+          [
+            30.0,
+            111.0
+          ],
+          [
+            307.0,
+            111.0
+          ],
+          [
+            307.0,
+            136.0
+          ],
+          [
+            30.0,
+            136.0
+          ]
+        ],
+        "confidence": 0.9976785778999329
+      },
+      {
+        "id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e5",
+        "quote": "/visit/1a0ccb?ref=T78FEA0A",
+        "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:56:58.622802+00:00",
+        "material_id": "f60a53629d7d472ab3234b3fda6f0366",
+        "polygon": [
+          [
+            29.0,
+            151.0
+          ],
+          [
+            355.0,
+            151.0
+          ],
+          [
+            355.0,
+            176.0
+          ],
+          [
+            29.0,
+            176.0
+          ]
+        ],
+        "confidence": 0.9906511306762695
+      },
+      {
+        "id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e6",
+        "quote": "қосылыңыз",
+        "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:56:58.726330+00:00",
+        "start": 88,
+        "end": 97,
+        "material_id": "f60a53629d7d472ab3234b3fda6f0366"
+      },
+      {
+        "id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e7",
+        "quote": "Тегін ойын",
+        "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:56:58.726330+00:00",
+        "start": 6,
+        "end": 16,
+        "material_id": "f60a53629d7d472ab3234b3fda6f0366"
+      },
+      {
+        "id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e8",
+        "quote": "DЕМO. Тегін ойын: барлық ұпай виртуалды, ақша төлеу де, ақша алу да жоқ.\nОйын бөлмесіне қосылыңыз:\nhttps://k2c60892213.test\n/visit/1a0ccb?ref=T78FEA0A",
+        "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:56:58.726330+00:00",
+        "material_id": "f60a53629d7d472ab3234b3fda6f0366"
+      },
+      {
+        "id": "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e9",
+        "quote": "https://k2c60892213.test",
+        "source_id": "f60a53629d7d472ab3234b3fda6f0366-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:56:58.726330+00:00",
+        "material_id": "f60a53629d7d472ab3234b3fda6f0366"
+      }
+    ],
+    "generated_at": "2026-10-21T20:56:58.726330+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: бесплатная игра",
+        "weight": -65,
+        "evidence_ids": [
+          "3af5d795df0344ba937ef373f1c6121c-9f565dc05ab9-e7"
+        ]
+      }
+    ],
+    "version": "rules-4.0",
+    "weights": {
+      "version": "weights-4.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "f60a53629d7d472ab3234b3fda6f0366",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 5266.6
+}

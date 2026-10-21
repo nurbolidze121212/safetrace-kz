@@ -1,0 +1,1148 @@
+{
+  "id": "891c9de15fb64234bdc61e4899fd4910",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:55:27.521593+00:00",
+  "status": "partial",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "",
+      "url": "",
+      "source": "DEMO · материал 2db085",
+      "published_at": null,
+      "image_id": "7164aa91e594abb8b2c8f19155641857.png",
+      "id": "7dc5cb5a2f294001863012715e13fbea",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "7164aa91e594abb8b2c8f1915564185720b908ddc761e3608ed7fa9b13ecb994",
+      "source_evidence_id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e1",
+      "normalized_text": "",
+      "ocr": {
+        "text": "DЕМО. В новости обсуждается схема рекламы. Заходи к расписанию\nпубличного обсуждения\nhttps://kad83989df9.test/aссess/fd02f0?ref=TDEC7AEA. Oтдельный QR\nприложен к архиву источников.",
+        "lines": [
+          {
+            "text": "DЕМО. В новости обсуждается схема рекламы. Заходи к расписанию",
+            "confidence": 0.9864673614501953,
+            "polygon": [
+              [
+                28.0,
+                25.0
+              ],
+              [
+                947.0,
+                27.0
+              ],
+              [
+                947.0,
+                58.0
+              ],
+              [
+                28.0,
+                56.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМО."
+            ],
+            "evidence_id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e2"
+          },
+          {
+            "text": "публичного обсуждения",
+            "confidence": 0.999914824962616,
+            "polygon": [
+              [
+                28.0,
+                69.0
+              ],
+              [
+                346.0,
+                71.0
+              ],
+              [
+                346.0,
+                102.0
+              ],
+              [
+                28.0,
+                100.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e3"
+          },
+          {
+            "text": "https://kad83989df9.test/aссess/fd02f0?ref=TDEC7AEA. Oтдельный QR",
+            "confidence": 0.9759591817855835,
+            "polygon": [
+              [
+                29.0,
+                112.0
+              ],
+              [
+                949.0,
+                112.0
+              ],
+              [
+                949.0,
+                142.0
+              ],
+              [
+                29.0,
+                142.0
+              ]
+            ],
+            "segment_indices": [
+              2
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: https://kad83989df9.test/aссess/fd02f0?ref=TDEC7AEA.",
+              "Смешение алфавитов в токене: Oтдельный"
+            ],
+            "evidence_id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e4"
+          },
+          {
+            "text": "приложен к архиву источников.",
+            "confidence": 0.9994896054267883,
+            "polygon": [
+              [
+                30.0,
+                161.0
+              ],
+              [
+                441.0,
+                161.0
+              ],
+              [
+                441.0,
+                185.0
+              ],
+              [
+                30.0,
+                185.0
+              ]
+            ],
+            "segment_indices": [
+              3
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e5"
+          }
+        ],
+        "raw_text": "DЕМО. В новости обсуждается схема рекламы. Заходи к расписанию\nпубличного обсуждения\nhttps://kad83989df9.test/aссess/fd02f0?ref=TDEC7AEA. Oтдельный QR\nприложен к архиву источников.",
+        "raw_lines": [
+          {
+            "text": "DЕМО. В новости обсуждается схема рекламы. Заходи к расписанию",
+            "confidence": 0.9864673614501953,
+            "polygon": [
+              [
+                28.0,
+                25.0
+              ],
+              [
+                947.0,
+                27.0
+              ],
+              [
+                947.0,
+                58.0
+              ],
+              [
+                28.0,
+                56.0
+              ]
+            ]
+          },
+          {
+            "text": "публичного обсуждения",
+            "confidence": 0.999914824962616,
+            "polygon": [
+              [
+                28.0,
+                69.0
+              ],
+              [
+                346.0,
+                71.0
+              ],
+              [
+                346.0,
+                102.0
+              ],
+              [
+                28.0,
+                100.0
+              ]
+            ]
+          },
+          {
+            "text": "https://kad83989df9.test/aссess/fd02f0?ref=TDEC7AEA. Oтдельный QR",
+            "confidence": 0.9759591817855835,
+            "polygon": [
+              [
+                29.0,
+                112.0
+              ],
+              [
+                949.0,
+                112.0
+              ],
+              [
+                949.0,
+                142.0
+              ],
+              [
+                29.0,
+                142.0
+              ]
+            ]
+          },
+          {
+            "text": "приложен к архиву источников.",
+            "confidence": 0.9994896054267883,
+            "polygon": [
+              [
+                30.0,
+                161.0
+              ],
+              [
+                441.0,
+                161.0
+              ],
+              [
+                441.0,
+                185.0
+              ],
+              [
+                30.0,
+                185.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 151,
+            "mean_confidence": 0.9866465910381039,
+            "score": 145.07224484100828,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1120,
+        "height": 532,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "url_readings": [
+          {
+            "raw_url": "https://kad83989df9.test/aссess/fd02f0?ref=TDEC7AEA",
+            "line_indices": [
+              2
+            ],
+            "needs_review": true,
+            "reasons": [
+              "В адресе есть нелатинские символы: возможны как ошибка OCR, так и настоящий международный путь."
+            ],
+            "suggestions": [
+              {
+                "url": "https://kad83989df9.test/access/fd02f0?ref=TDEC7AEA",
+                "method": "en_PP-OCRv5_mobile_rec",
+                "confidence": 0.9629011750221252,
+                "agreement": true
+              }
+            ],
+            "method": "primary_ocr",
+            "auto_follow": false,
+            "secondary_attempts": [
+              {
+                "text": "https://kad83989df9.test/access/fd02f0?ref=TDEC7AEA. OT√eJbHbi QR",
+                "confidence": 0.9629011750221252,
+                "urls": [
+                  "https://kad83989df9.test/access/fd02f0?ref=TDEC7AEA"
+                ],
+                "scale": 1
+              },
+              {
+                "text": "https://kad83989df9.test/access/fd02f0?ref=TDEC7AEA. OT√eJbHbi QR",
+                "confidence": 0.9658715128898621,
+                "urls": [
+                  "https://kad83989df9.test/access/fd02f0?ref=TDEC7AEA"
+                ],
+                "scale": 2
+              }
+            ]
+          }
+        ]
+      },
+      "qr": {
+        "codes": [
+          {
+            "text": "https://ke5c97362fa.test/6420dc9",
+            "truncated": false,
+            "valid_url": true,
+            "reason": null,
+            "polygon": [
+              [
+                72.0,
+                256.0
+              ],
+              [
+                246.0,
+                256.0
+              ],
+              [
+                245.96995544433594,
+                429.969970703125
+              ],
+              [
+                72.0,
+                430.0
+              ]
+            ],
+            "evidence_id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e6"
+          }
+        ],
+        "width": 1120,
+        "height": 532,
+        "version": "qr-1.0",
+        "decoder": "OpenCV 4.10.0",
+        "cache_hit": false,
+        "elapsed_ms": 54.74,
+        "limitations": "До 8 QR-кодов, изображение до 1600 px по длинной стороне. Мелкие, поврежденные и составные QR могут не читаться. Декодирование не подтверждает безопасность адреса."
+      },
+      "urls": [
+        "https://ke5c97362fa.test/6420dc9"
+      ],
+      "url_reviews": [
+        {
+          "raw_url": "https://kad83989df9.test/aссess/fd02f0?ref=TDEC7AEA",
+          "line_indices": [
+            2
+          ],
+          "needs_review": true,
+          "reasons": [
+            "В адресе есть нелатинские символы: возможны как ошибка OCR, так и настоящий международный путь."
+          ],
+          "suggestions": [
+            {
+              "url": "https://kad83989df9.test/access/fd02f0?ref=TDEC7AEA",
+              "method": "en_PP-OCRv5_mobile_rec",
+              "confidence": 0.9629011750221252,
+              "agreement": true
+            }
+          ],
+          "method": "primary_ocr",
+          "auto_follow": false,
+          "secondary_attempts": [
+            {
+              "text": "https://kad83989df9.test/access/fd02f0?ref=TDEC7AEA. OT√eJbHbi QR",
+              "confidence": 0.9629011750221252,
+              "urls": [
+                "https://kad83989df9.test/access/fd02f0?ref=TDEC7AEA"
+              ],
+              "scale": 1
+            },
+            {
+              "text": "https://kad83989df9.test/access/fd02f0?ref=TDEC7AEA. OT√eJbHbi QR",
+              "confidence": 0.9658715128898621,
+              "urls": [
+                "https://kad83989df9.test/access/fd02f0?ref=TDEC7AEA"
+              ],
+              "scale": 2
+            }
+          ],
+          "source_evidence_ids": [
+            "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e9",
+            "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e4"
+          ],
+          "selected_url": null
+        }
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e8",
+        "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e6"
+      ],
+      "url_review_incomplete": true,
+      "content_fingerprint": "b95a32aace986a5a150dd340dba1cae4a2b7e9500113e6b62ff05fb75cd70548",
+      "reachable_urls": [
+        "https://ke5c97362fa.test/6420dc9"
+      ],
+      "call_bindings": [],
+      "attribution_incomplete": false,
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [
+          {
+            "key": "alternative_context",
+            "title": "Альтернативный контекст: новость",
+            "weight": -65,
+            "evidence_ids": [
+              "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e7"
+            ]
+          }
+        ],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "ru",
+        "context": "news",
+        "claims": [
+          {
+            "kind": "news",
+            "quote": "новости",
+            "source_id": "7dc5cb5a2f294001863012715e13fbea-ocr",
+            "explanation": "Альтернатива: журналистский контекст.",
+            "start": 8,
+            "end": 15
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "partial",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e1",
+      "quote": "DEMO · материал 2db085",
+      "source_id": "7dc5cb5a2f294001863012715e13fbea",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:55:34.533349+00:00",
+      "material_id": "7dc5cb5a2f294001863012715e13fbea",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e2",
+      "quote": "DЕМО. В новости обсуждается схема рекламы. Заходи к расписанию",
+      "source_id": "7dc5cb5a2f294001863012715e13fbea-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:55:41.603660+00:00",
+      "material_id": "7dc5cb5a2f294001863012715e13fbea",
+      "polygon": [
+        [
+          28.0,
+          25.0
+        ],
+        [
+          947.0,
+          27.0
+        ],
+        [
+          947.0,
+          58.0
+        ],
+        [
+          28.0,
+          56.0
+        ]
+      ],
+      "confidence": 0.9864673614501953
+    },
+    {
+      "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e3",
+      "quote": "публичного обсуждения",
+      "source_id": "7dc5cb5a2f294001863012715e13fbea-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:55:41.603660+00:00",
+      "material_id": "7dc5cb5a2f294001863012715e13fbea",
+      "polygon": [
+        [
+          28.0,
+          69.0
+        ],
+        [
+          346.0,
+          71.0
+        ],
+        [
+          346.0,
+          102.0
+        ],
+        [
+          28.0,
+          100.0
+        ]
+      ],
+      "confidence": 0.999914824962616
+    },
+    {
+      "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e4",
+      "quote": "https://kad83989df9.test/aссess/fd02f0?ref=TDEC7AEA. Oтдельный QR",
+      "source_id": "7dc5cb5a2f294001863012715e13fbea-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:55:41.603660+00:00",
+      "material_id": "7dc5cb5a2f294001863012715e13fbea",
+      "polygon": [
+        [
+          29.0,
+          112.0
+        ],
+        [
+          949.0,
+          112.0
+        ],
+        [
+          949.0,
+          142.0
+        ],
+        [
+          29.0,
+          142.0
+        ]
+      ],
+      "confidence": 0.9759591817855835
+    },
+    {
+      "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e5",
+      "quote": "приложен к архиву источников.",
+      "source_id": "7dc5cb5a2f294001863012715e13fbea-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:55:41.603660+00:00",
+      "material_id": "7dc5cb5a2f294001863012715e13fbea",
+      "polygon": [
+        [
+          30.0,
+          161.0
+        ],
+        [
+          441.0,
+          161.0
+        ],
+        [
+          441.0,
+          185.0
+        ],
+        [
+          30.0,
+          185.0
+        ]
+      ],
+      "confidence": 0.9994896054267883
+    },
+    {
+      "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e6",
+      "quote": "https://ke5c97362fa.test/6420dc9",
+      "source_id": "7dc5cb5a2f294001863012715e13fbea-qr",
+      "method": "qr_decode",
+      "at": "2026-10-21T20:55:41.670658+00:00",
+      "material_id": "7dc5cb5a2f294001863012715e13fbea",
+      "polygon": [
+        [
+          72.0,
+          256.0
+        ],
+        [
+          246.0,
+          256.0
+        ],
+        [
+          245.96995544433594,
+          429.969970703125
+        ],
+        [
+          72.0,
+          430.0
+        ]
+      ],
+      "note": "Адрес декодирован из QR; безопасность проверяется отдельно."
+    },
+    {
+      "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e7",
+      "quote": "новости",
+      "source_id": "7dc5cb5a2f294001863012715e13fbea-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:55:41.671662+00:00",
+      "start": 8,
+      "end": 15,
+      "material_id": "7dc5cb5a2f294001863012715e13fbea"
+    },
+    {
+      "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e8",
+      "quote": "DЕМО. В новости обсуждается схема рекламы. Заходи к расписанию\nпубличного обсуждения\nhttps://kad83989df9.test/aссess/fd02f0?ref=TDEC7AEA. Oтдельный QR\nприложен к архиву источников.",
+      "source_id": "7dc5cb5a2f294001863012715e13fbea-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:55:41.671662+00:00",
+      "material_id": "7dc5cb5a2f294001863012715e13fbea"
+    },
+    {
+      "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e9",
+      "quote": "https://kad83989df9.test/aссess/fd02f0?ref=TDEC7AEA",
+      "source_id": "7dc5cb5a2f294001863012715e13fbea-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:55:41.671662+00:00",
+      "material_id": "7dc5cb5a2f294001863012715e13fbea"
+    },
+    {
+      "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e10",
+      "quote": "Казино для участников Слоты, рулетка и денежные ставки. Пополнение депозитом.",
+      "source_id": "https://ke5c97362fa.test/6420dc9",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:55:41.672659+00:00",
+      "url": "https://ke5c97362fa.test/6420dc9",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e11",
+      "quote": "Казино",
+      "source_id": "https://ke5c97362fa.test/6420dc9",
+      "method": "local_rule",
+      "at": "2026-10-21T20:55:41.672659+00:00",
+      "start": 0,
+      "end": 6,
+      "url": "https://ke5c97362fa.test/6420dc9"
+    },
+    {
+      "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e12",
+      "quote": "Слоты",
+      "source_id": "https://ke5c97362fa.test/6420dc9",
+      "method": "local_rule",
+      "at": "2026-10-21T20:55:41.672659+00:00",
+      "start": 22,
+      "end": 27,
+      "url": "https://ke5c97362fa.test/6420dc9"
+    },
+    {
+      "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e13",
+      "quote": "рулетка",
+      "source_id": "https://ke5c97362fa.test/6420dc9",
+      "method": "local_rule",
+      "at": "2026-10-21T20:55:41.672659+00:00",
+      "start": 29,
+      "end": 36,
+      "url": "https://ke5c97362fa.test/6420dc9"
+    },
+    {
+      "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e14",
+      "quote": "https://ke5c97362fa.test/6420dc9",
+      "source_id": "https://ke5c97362fa.test/6420dc9",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:55:41.672659+00:00",
+      "url": "https://ke5c97362fa.test/6420dc9",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://ke5c97362fa.test/6420dc9",
+        "at": "2026-10-21T20:55:41.671662+00:00",
+        "status_code": 200,
+        "text": "Казино для участников Слоты, рулетка и денежные ставки. Пополнение депозитом.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:55:41.671662+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "0b7371d32d8b9fd125cdc3b12b44add98fe0091419e8bdffdf1be58e58892200",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://ke5c97362fa.test/6420dc9",
+        "evidence_id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e10",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [
+            {
+              "kind": "gambling",
+              "quote": "Казино",
+              "source_id": "https://ke5c97362fa.test/6420dc9",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 0,
+              "end": 6
+            },
+            {
+              "kind": "gambling",
+              "quote": "Слоты",
+              "source_id": "https://ke5c97362fa.test/6420dc9",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 22,
+              "end": 27
+            },
+            {
+              "kind": "gambling",
+              "quote": "рулетка",
+              "source_id": "https://ke5c97362fa.test/6420dc9",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 29,
+              "end": 36
+            }
+          ],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://ke5c97362fa.test/6420dc9",
+        "type": "contains_link",
+        "quote": "https://ke5c97362fa.test/6420dc9",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:55:41.671662+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e14"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+    "Сомнительный OCR-адрес не открывался. Сверьте его с оригиналом и явно уточните в карточке материала."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "analysis_assisted": false,
+  "identifiers": [],
+  "analyzed_at": "2026-10-21T20:55:34.533349+00:00",
+  "analysis_id": "02c84dbbb50d",
+  "context": {
+    "language": "ru",
+    "context": "news",
+    "claims": [
+      {
+        "kind": "news",
+        "quote": "новости",
+        "source_id": "7dc5cb5a2f294001863012715e13fbea-ocr",
+        "explanation": "Альтернатива: журналистский контекст.",
+        "start": 8,
+        "end": 15
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "news",
+      "quote": "новости",
+      "source_id": "7dc5cb5a2f294001863012715e13fbea-ocr",
+      "explanation": "Альтернатива: журналистский контекст.",
+      "start": 8,
+      "end": 15,
+      "evidence_id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e7"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-5276671e2d1ffadf",
+        "type": "material",
+        "label": "DEMO · материал 2db085",
+        "evidence_ids": [
+          "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e1"
+        ],
+        "case_id": "891c9de15fb64234bdc61e4899fd4910",
+        "material_id": "7dc5cb5a2f294001863012715e13fbea"
+      },
+      {
+        "id": "source-bd02317a028b7919",
+        "type": "source",
+        "label": "DEMO · материал 2db085",
+        "evidence_ids": [
+          "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e1"
+        ]
+      },
+      {
+        "id": "url-87b1720c0b1244ee",
+        "type": "url",
+        "label": "https://ke5c97362fa.test/6420dc9",
+        "evidence_ids": [
+          "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e6",
+          "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e10"
+        ]
+      },
+      {
+        "id": "observation-cb713d0af2f18d1f",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e10"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-3c4b8e5be560188d",
+        "type": "domain",
+        "label": "ke5c97362fa.test",
+        "evidence_ids": [
+          "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e10"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-10aa96e31af5d9cd54",
+        "source": "source-bd02317a028b7919",
+        "target": "material-5276671e2d1ffadf",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e1"
+        ],
+        "at": "2026-10-21T20:55:34.533349+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-82bfa9e1e3068e65d1",
+        "source": "material-5276671e2d1ffadf",
+        "target": "url-87b1720c0b1244ee",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e6"
+        ],
+        "at": "2026-10-21T20:55:34.533349+00:00",
+        "method": "qr_decode",
+        "status": "observed"
+      },
+      {
+        "id": "edge-0a91b44717914c31da",
+        "source": "url-87b1720c0b1244ee",
+        "target": "observation-cb713d0af2f18d1f",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e10"
+        ],
+        "at": "2026-10-21T20:55:34.533349+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-4d299141491f5d1a9b",
+        "source": "url-87b1720c0b1244ee",
+        "target": "domain-3c4b8e5be560188d",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e10"
+        ],
+        "at": "2026-10-21T20:55:34.533349+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e1",
+        "quote": "DEMO · материал 2db085",
+        "source_id": "7dc5cb5a2f294001863012715e13fbea",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:55:34.533349+00:00",
+        "material_id": "7dc5cb5a2f294001863012715e13fbea",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e2",
+        "quote": "DЕМО. В новости обсуждается схема рекламы. Заходи к расписанию",
+        "source_id": "7dc5cb5a2f294001863012715e13fbea-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:55:41.603660+00:00",
+        "material_id": "7dc5cb5a2f294001863012715e13fbea",
+        "polygon": [
+          [
+            28.0,
+            25.0
+          ],
+          [
+            947.0,
+            27.0
+          ],
+          [
+            947.0,
+            58.0
+          ],
+          [
+            28.0,
+            56.0
+          ]
+        ],
+        "confidence": 0.9864673614501953
+      },
+      {
+        "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e3",
+        "quote": "публичного обсуждения",
+        "source_id": "7dc5cb5a2f294001863012715e13fbea-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:55:41.603660+00:00",
+        "material_id": "7dc5cb5a2f294001863012715e13fbea",
+        "polygon": [
+          [
+            28.0,
+            69.0
+          ],
+          [
+            346.0,
+            71.0
+          ],
+          [
+            346.0,
+            102.0
+          ],
+          [
+            28.0,
+            100.0
+          ]
+        ],
+        "confidence": 0.999914824962616
+      },
+      {
+        "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e4",
+        "quote": "https://kad83989df9.test/aссess/fd02f0?ref=TDEC7AEA. Oтдельный QR",
+        "source_id": "7dc5cb5a2f294001863012715e13fbea-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:55:41.603660+00:00",
+        "material_id": "7dc5cb5a2f294001863012715e13fbea",
+        "polygon": [
+          [
+            29.0,
+            112.0
+          ],
+          [
+            949.0,
+            112.0
+          ],
+          [
+            949.0,
+            142.0
+          ],
+          [
+            29.0,
+            142.0
+          ]
+        ],
+        "confidence": 0.9759591817855835
+      },
+      {
+        "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e5",
+        "quote": "приложен к архиву источников.",
+        "source_id": "7dc5cb5a2f294001863012715e13fbea-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:55:41.603660+00:00",
+        "material_id": "7dc5cb5a2f294001863012715e13fbea",
+        "polygon": [
+          [
+            30.0,
+            161.0
+          ],
+          [
+            441.0,
+            161.0
+          ],
+          [
+            441.0,
+            185.0
+          ],
+          [
+            30.0,
+            185.0
+          ]
+        ],
+        "confidence": 0.9994896054267883
+      },
+      {
+        "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e6",
+        "quote": "https://ke5c97362fa.test/6420dc9",
+        "source_id": "7dc5cb5a2f294001863012715e13fbea-qr",
+        "method": "qr_decode",
+        "at": "2026-10-21T20:55:41.670658+00:00",
+        "material_id": "7dc5cb5a2f294001863012715e13fbea",
+        "polygon": [
+          [
+            72.0,
+            256.0
+          ],
+          [
+            246.0,
+            256.0
+          ],
+          [
+            245.96995544433594,
+            429.969970703125
+          ],
+          [
+            72.0,
+            430.0
+          ]
+        ],
+        "note": "Адрес декодирован из QR; безопасность проверяется отдельно."
+      },
+      {
+        "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e7",
+        "quote": "новости",
+        "source_id": "7dc5cb5a2f294001863012715e13fbea-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:55:41.671662+00:00",
+        "start": 8,
+        "end": 15,
+        "material_id": "7dc5cb5a2f294001863012715e13fbea"
+      },
+      {
+        "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e8",
+        "quote": "DЕМО. В новости обсуждается схема рекламы. Заходи к расписанию\nпубличного обсуждения\nhttps://kad83989df9.test/aссess/fd02f0?ref=TDEC7AEA. Oтдельный QR\nприложен к архиву источников.",
+        "source_id": "7dc5cb5a2f294001863012715e13fbea-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:55:41.671662+00:00",
+        "material_id": "7dc5cb5a2f294001863012715e13fbea"
+      },
+      {
+        "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e9",
+        "quote": "https://kad83989df9.test/aссess/fd02f0?ref=TDEC7AEA",
+        "source_id": "7dc5cb5a2f294001863012715e13fbea-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:55:41.671662+00:00",
+        "material_id": "7dc5cb5a2f294001863012715e13fbea"
+      },
+      {
+        "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e10",
+        "quote": "Казино для участников Слоты, рулетка и денежные ставки. Пополнение депозитом.",
+        "source_id": "https://ke5c97362fa.test/6420dc9",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:55:41.672659+00:00",
+        "url": "https://ke5c97362fa.test/6420dc9",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e11",
+        "quote": "Казино",
+        "source_id": "https://ke5c97362fa.test/6420dc9",
+        "method": "local_rule",
+        "at": "2026-10-21T20:55:41.672659+00:00",
+        "start": 0,
+        "end": 6,
+        "url": "https://ke5c97362fa.test/6420dc9"
+      },
+      {
+        "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e12",
+        "quote": "Слоты",
+        "source_id": "https://ke5c97362fa.test/6420dc9",
+        "method": "local_rule",
+        "at": "2026-10-21T20:55:41.672659+00:00",
+        "start": 22,
+        "end": 27,
+        "url": "https://ke5c97362fa.test/6420dc9"
+      },
+      {
+        "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e13",
+        "quote": "рулетка",
+        "source_id": "https://ke5c97362fa.test/6420dc9",
+        "method": "local_rule",
+        "at": "2026-10-21T20:55:41.672659+00:00",
+        "start": 29,
+        "end": 36,
+        "url": "https://ke5c97362fa.test/6420dc9"
+      },
+      {
+        "id": "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e14",
+        "quote": "https://ke5c97362fa.test/6420dc9",
+        "source_id": "https://ke5c97362fa.test/6420dc9",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:55:41.672659+00:00",
+        "url": "https://ke5c97362fa.test/6420dc9",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:55:41.672659+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: новость",
+        "weight": -65,
+        "evidence_ids": [
+          "891c9de15fb64234bdc61e4899fd4910-02c84dbbb50d-e7"
+        ]
+      }
+    ],
+    "version": "rules-4.0",
+    "weights": {
+      "version": "weights-4.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "7dc5cb5a2f294001863012715e13fbea",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 7139.5
+}

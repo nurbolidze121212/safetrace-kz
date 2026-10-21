@@ -1,0 +1,2 @@
+First pre-final freeze superseded before any final inputs or predictions existed.
+Reason: browser acceptance found that cancellation during OCR retained the original but retry discarded the unscored analysis snapshot. Preserve these files unchanged. Re-freeze after a targeted regression and actual browser verification. No scoring weights or label changes are involved.

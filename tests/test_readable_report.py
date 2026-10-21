@@ -1,5 +1,6 @@
 import io
 import json
+import uuid
 import zipfile
 
 from bs4 import BeautifulSoup
@@ -107,19 +108,21 @@ def test_pending_and_older_cases_export_without_new_fields():
 
 def test_cross_case_evidence_is_included_and_linked():
     docs = []
-    for source in ("Публикация A", "Публикация B"):
+    url = 'https://cross-report.test/path?ref=' + uuid.uuid4().hex
+    for source, text in (("Публикация A", 'Переходи, забирай бонус!'),
+                         ("Публикация B", 'Клуб открыл новое приглашение. Регистрируйся и забирай бонус!')):
         doc = pipeline.new_case(
             CaseInput(
                 title=source,
                 mode="synthetic",
                 materials=[
                     MaterialInput(
-                        text="Переходи, забирай бонус!", source=source, url="https://go.safetrace.test/r/q7"
+                        text=text, source=source, url=url
                     )
                 ],
             )
         )
-        pipeline.analyze(doc)
+        pipeline.analyze(doc, fetch=SyntheticTransport({url: {'status': 200, 'body': 'Казино, слоты, депозит'}}))
         storage.save(doc)
         docs.append(doc)
     archive, soup = unpack(docs[0])

@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-21T20:37:49.116343+00:00",
+  "core_hashes": {
+    "backend/__init__.py": "cab7e34e197ae110487f67fb05f231deab0a474dab2e42cbe3b02825dd660767",
+    "backend/analysis.py": "db575179e5c29a7150f6612d6ba9f219b52de05c9bad5add2058e93f913b56e2",
+    "backend/app.py": "91c40d90622e5141b58521c27dfd601fafd699b7d607ae4e94b991080a3b342c",
+    "backend/attribution.py": "ea2e0a1d4cad4b8eb6d8e01b70556ff7b52843799cbe31a1d796a84f93efd6f8",
+    "backend/config.py": "e019ef680f4f1d5f3ae177f77268c254db55f4b4ccda03687d6ae757b802c48f",
+    "backend/evaluations.py": "0254551c8f55dd185e6fede351e619f8bba5aa4f13261f6e6996a2170eca41fb",
+    "backend/exports.py": "2c7efe90d8505a219755010de0243317a5c65f0fe24fdb7159190a81f981d45d",
+    "backend/graph.py": "8bb6149f0789ef639a415db29c9f8fec468a8f6a08a7fcd056b9e5a6804f5a5c",
+    "backend/limits.py": "bc9b82ee5bdb10c6274300c075c7dae1c2baeb9a4b0bf6287358795394d9fcac",
+    "backend/links.py": "8989f0cd4c00e92fbda6fd945fd51b6e3afaf306adaafa5558a6acae3e649de2",
+    "backend/material_identity.py": "dc4b0169286573743d785fb9d591271395b2516772aa5a9840abbf348b811879",
+    "backend/ocr.py": "73e565f107ef368e80ad25323d30a463c546d6ad37d166a9a9e5dd3c241d9701",
+    "backend/ocr_urls.py": "1857a2ad2e3ea935cd58408c335466b4cfc4f3c28077fdcfb927c92c3b349ee2",
+    "backend/pipeline.py": "7c5605e8712589a1b9316199845b5e04b5921b1d2f0335e76b4b77f231da8c53",
+    "backend/providers.py": "de23a984a3222f6038a8b4dee73a1f927e0e466c107e9bdb2ac182b39bf64667",
+    "backend/qr.py": "f4e4d2f9db9ac65f8e7d82d1874fe6df22ee9368f30a7f3a06395a68e412947f",
+    "backend/report_html.py": "6b01e8201e204710a9b243d772fe48c83441005b929b42a444bfbff0b44b8fc2",
+    "backend/schemas.py": "f687dd8447e76b193185e45f63efaf3908a289ba59a3a9e443618e112c7d3609",
+    "backend/storage.py": "eb774a2f97440ffdc587835a5438f3490d487f5162d4654f9637d7c85d3dac55",
+    "backend/weights.json": "842a0cad8fe6f809cb3b02b482acc4bbd7b2dab18b1fdf3d2b9b53bf9d60b914",
+    "models-manifest.json": "7651975c20cab614b25004ab72d58be909a847df34ab86c9ce74670caa710546",
+    "requirements.lock.txt": "aadee977e8f609c9ef4cb528a18fbd3ea9506616dcbc4bb9802d625cc534f8df"
+  },
+  "protocol_sha256": "e806899407d54d1461ae0be1c53b874344c66d7e5ad159bdb31a5ba7f0b563a6",
+  "evaluator_sha256": "85184452b71cf5416bbc68dadab6bbf5be324eeba1e1a464f11585fb620a4add",
+  "baseline_archive_sha256": "4469d27b87b9461860ae18aa9319849d06f68b9f8954610ffb0683ce8a33ea3c",
+  "threshold": 65,
+  "positive_rule": "score >= 65 AND sufficient_data",
+  "purpose": "Frozen before authoring new final pixels, texts and labels"
+}

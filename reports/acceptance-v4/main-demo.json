@@ -1,0 +1,19 @@
+{
+  "positive_id": "e4e5424a4abc4b129c7ad5fc8636345f",
+  "warning_id": "4016da2c3ed0481fb5c7750b717bfb10",
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "initial_score": 0,
+  "corrected_score": 80,
+  "final_score": 90,
+  "warning_score": 0,
+  "assisted": true,
+  "history_count": 2,
+  "image": "reports\\acceptance-v4\\browser-new-material.png",
+  "image_sha256": "a70c17069023c3597bad3695d1a95935e840fe5075bb6351737deb17b43c9600",
+  "method": "Prepared through real local API and real OCR. Explicit synthetic transport. Manual address review is assisted and excluded from automatic evaluation. Reuses the authored browser acceptance image; not a new quality sample."
+}

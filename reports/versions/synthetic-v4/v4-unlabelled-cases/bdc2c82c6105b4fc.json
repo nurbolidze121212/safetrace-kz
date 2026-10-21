@@ -1,0 +1,600 @@
+{
+  "id": "5550632be87048649b8287f5a1f9a867",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:54:59.594671+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "DEMO. «Регистрируйся и выигрывай в казино» — приманка из подозрительного сообщения. Не повторяйте эти действия. Источник https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+      "url": "",
+      "source": "DEMO · материал bdc2c8",
+      "published_at": null,
+      "image_id": null,
+      "id": "736ed955292d42fbaffbe56b4c86d32c",
+      "original_sha256": "7bc1c77fbbde540e235172a85669960a2b5c2c76206363181daa7594e5d34a2b",
+      "source_evidence_id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e1",
+      "normalized_text": "demo. «регистрируйся и выигрывай в казино» — приманка из подозрительного сообщения. не повторяйте эти действия. источник https://k3e141727dd.test/invite/79345b?ref=t28394ab",
+      "urls": [
+        "https://k3e141727dd.test/invite/79345b?ref=T28394AB"
+      ],
+      "url_reviews": [],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e5"
+      ],
+      "content_fingerprint": "1deb9bfdfe0759d6ba28901fbea14ea30babc6bdf1724ce14b173bf7e0bc08dd",
+      "reachable_urls": [
+        "https://k3e141727dd.test/invite/79345b?ref=T28394AB"
+      ],
+      "call_bindings": [],
+      "attribution_incomplete": false,
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "ru",
+        "context": "promotion",
+        "claims": [
+          {
+            "kind": "gambling",
+            "quote": "казино",
+            "source_id": "736ed955292d42fbaffbe56b4c86d32c",
+            "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+            "start": 35,
+            "end": 41
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "Регистрируйся",
+            "source_id": "736ed955292d42fbaffbe56b4c86d32c",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 7,
+            "end": 20
+          },
+          {
+            "kind": "promise",
+            "quote": "выигрывай",
+            "source_id": "736ed955292d42fbaffbe56b4c86d32c",
+            "explanation": "Обещание выигрыша или дохода.",
+            "start": 23,
+            "end": 32
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e1",
+      "quote": "DEMO · материал bdc2c8",
+      "source_id": "736ed955292d42fbaffbe56b4c86d32c",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:54:59.612669+00:00",
+      "material_id": "736ed955292d42fbaffbe56b4c86d32c",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e2",
+      "quote": "казино",
+      "source_id": "736ed955292d42fbaffbe56b4c86d32c",
+      "method": "local_rule",
+      "at": "2026-10-21T20:54:59.612669+00:00",
+      "start": 35,
+      "end": 41,
+      "material_id": "736ed955292d42fbaffbe56b4c86d32c"
+    },
+    {
+      "id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e3",
+      "quote": "Регистрируйся",
+      "source_id": "736ed955292d42fbaffbe56b4c86d32c",
+      "method": "local_rule",
+      "at": "2026-10-21T20:54:59.613669+00:00",
+      "start": 7,
+      "end": 20,
+      "material_id": "736ed955292d42fbaffbe56b4c86d32c"
+    },
+    {
+      "id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e4",
+      "quote": "выигрывай",
+      "source_id": "736ed955292d42fbaffbe56b4c86d32c",
+      "method": "local_rule",
+      "at": "2026-10-21T20:54:59.613669+00:00",
+      "start": 23,
+      "end": 32,
+      "material_id": "736ed955292d42fbaffbe56b4c86d32c"
+    },
+    {
+      "id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e5",
+      "quote": "DEMO. «Регистрируйся и выигрывай в казино» — приманка из подозрительного сообщения. Не повторяйте эти действия. Источник https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+      "source_id": "736ed955292d42fbaffbe56b4c86d32c",
+      "method": "source_text",
+      "at": "2026-10-21T20:54:59.613669+00:00",
+      "material_id": "736ed955292d42fbaffbe56b4c86d32c"
+    },
+    {
+      "id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e6",
+      "quote": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+      "source_id": "736ed955292d42fbaffbe56b4c86d32c",
+      "method": "source_text",
+      "at": "2026-10-21T20:54:59.613669+00:00",
+      "material_id": "736ed955292d42fbaffbe56b4c86d32c"
+    },
+    {
+      "id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e7",
+      "quote": "Игровой кабинет Онлайн-казино. Депозит для игры на деньги, игровые автоматы и джекпот.",
+      "source_id": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:54:59.613669+00:00",
+      "url": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e8",
+      "quote": "казино",
+      "source_id": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+      "method": "local_rule",
+      "at": "2026-10-21T20:54:59.613669+00:00",
+      "start": 23,
+      "end": 29,
+      "url": "https://k3e141727dd.test/invite/79345b?ref=T28394AB"
+    },
+    {
+      "id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e9",
+      "quote": "джекпот",
+      "source_id": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+      "method": "local_rule",
+      "at": "2026-10-21T20:54:59.613669+00:00",
+      "start": 78,
+      "end": 85,
+      "url": "https://k3e141727dd.test/invite/79345b?ref=T28394AB"
+    },
+    {
+      "id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e10",
+      "quote": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+      "source_id": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:54:59.613669+00:00",
+      "url": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+        "at": "2026-10-21T20:54:59.613669+00:00",
+        "status_code": 200,
+        "text": "Игровой кабинет Онлайн-казино. Депозит для игры на деньги, игровые автоматы и джекпот.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:54:59.613669+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "4fb602931035d8ddd9819ed110b30691a3a0f5d0ea9e8260a20f3704b3502897",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+        "evidence_id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e7",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [
+            {
+              "kind": "gambling",
+              "quote": "казино",
+              "source_id": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 23,
+              "end": 29
+            },
+            {
+              "kind": "gambling",
+              "quote": "джекпот",
+              "source_id": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 78,
+              "end": 85
+            }
+          ],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+        "type": "contains_link",
+        "quote": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:54:59.613669+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e10"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "analysis_assisted": false,
+  "identifiers": [
+    {
+      "domain": "k3e141727dd.test",
+      "parameter": "ref",
+      "value": "T28394AB",
+      "scope": "k3e141727dd.test|/invite/79345b|ref|T28394AB",
+      "url": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+      "material_id": "736ed955292d42fbaffbe56b4c86d32c",
+      "evidence_id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e7"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:54:59.612669+00:00",
+  "analysis_id": "4e1ea8a44aaa",
+  "context": {
+    "language": "ru",
+    "context": "promotion",
+    "claims": [
+      {
+        "kind": "gambling",
+        "quote": "казино",
+        "source_id": "736ed955292d42fbaffbe56b4c86d32c",
+        "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+        "start": 35,
+        "end": 41
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "Регистрируйся",
+        "source_id": "736ed955292d42fbaffbe56b4c86d32c",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 7,
+        "end": 20
+      },
+      {
+        "kind": "promise",
+        "quote": "выигрывай",
+        "source_id": "736ed955292d42fbaffbe56b4c86d32c",
+        "explanation": "Обещание выигрыша или дохода.",
+        "start": 23,
+        "end": 32
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "gambling",
+      "quote": "казино",
+      "source_id": "736ed955292d42fbaffbe56b4c86d32c",
+      "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+      "start": 35,
+      "end": 41,
+      "evidence_id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e2"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "Регистрируйся",
+      "source_id": "736ed955292d42fbaffbe56b4c86d32c",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 7,
+      "end": 20,
+      "evidence_id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e3"
+    },
+    {
+      "kind": "promise",
+      "quote": "выигрывай",
+      "source_id": "736ed955292d42fbaffbe56b4c86d32c",
+      "explanation": "Обещание выигрыша или дохода.",
+      "start": 23,
+      "end": 32,
+      "evidence_id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e4"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-5dabbe369db7eb80",
+        "type": "material",
+        "label": "DEMO · материал bdc2c8",
+        "evidence_ids": [
+          "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e1"
+        ],
+        "case_id": "5550632be87048649b8287f5a1f9a867",
+        "material_id": "736ed955292d42fbaffbe56b4c86d32c"
+      },
+      {
+        "id": "source-3b9c009534bdc09a",
+        "type": "source",
+        "label": "DEMO · материал bdc2c8",
+        "evidence_ids": [
+          "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e1"
+        ]
+      },
+      {
+        "id": "url-c10345681617d1d1",
+        "type": "url",
+        "label": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+        "evidence_ids": [
+          "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e6",
+          "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e7"
+        ]
+      },
+      {
+        "id": "observation-d52f67b21a76e6a2",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e7"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-a622407b1a1debb8",
+        "type": "domain",
+        "label": "k3e141727dd.test",
+        "evidence_ids": [
+          "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e7"
+        ]
+      },
+      {
+        "id": "identifier-aecaf8db9c4ae87a",
+        "type": "identifier",
+        "label": "ref=T28394AB",
+        "evidence_ids": [
+          "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e7"
+        ],
+        "scope": "k3e141727dd.test|/invite/79345b|ref|T28394AB"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-ac8d31560b03c75e0c",
+        "source": "source-3b9c009534bdc09a",
+        "target": "material-5dabbe369db7eb80",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e1"
+        ],
+        "at": "2026-10-21T20:54:59.612669+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-6166e6eec032de849d",
+        "source": "material-5dabbe369db7eb80",
+        "target": "url-c10345681617d1d1",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e6"
+        ],
+        "at": "2026-10-21T20:54:59.612669+00:00",
+        "method": "source_text",
+        "status": "observed"
+      },
+      {
+        "id": "edge-60c3f0508542c59d94",
+        "source": "url-c10345681617d1d1",
+        "target": "observation-d52f67b21a76e6a2",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e7"
+        ],
+        "at": "2026-10-21T20:54:59.612669+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-023b8e48a36f7fa446",
+        "source": "url-c10345681617d1d1",
+        "target": "domain-a622407b1a1debb8",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e7"
+        ],
+        "at": "2026-10-21T20:54:59.612669+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-2081573ddd65e7b455",
+        "source": "url-c10345681617d1d1",
+        "target": "identifier-aecaf8db9c4ae87a",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e7"
+        ],
+        "at": "2026-10-21T20:54:59.612669+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e1",
+        "quote": "DEMO · материал bdc2c8",
+        "source_id": "736ed955292d42fbaffbe56b4c86d32c",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:54:59.612669+00:00",
+        "material_id": "736ed955292d42fbaffbe56b4c86d32c",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e2",
+        "quote": "казино",
+        "source_id": "736ed955292d42fbaffbe56b4c86d32c",
+        "method": "local_rule",
+        "at": "2026-10-21T20:54:59.612669+00:00",
+        "start": 35,
+        "end": 41,
+        "material_id": "736ed955292d42fbaffbe56b4c86d32c"
+      },
+      {
+        "id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e3",
+        "quote": "Регистрируйся",
+        "source_id": "736ed955292d42fbaffbe56b4c86d32c",
+        "method": "local_rule",
+        "at": "2026-10-21T20:54:59.613669+00:00",
+        "start": 7,
+        "end": 20,
+        "material_id": "736ed955292d42fbaffbe56b4c86d32c"
+      },
+      {
+        "id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e4",
+        "quote": "выигрывай",
+        "source_id": "736ed955292d42fbaffbe56b4c86d32c",
+        "method": "local_rule",
+        "at": "2026-10-21T20:54:59.613669+00:00",
+        "start": 23,
+        "end": 32,
+        "material_id": "736ed955292d42fbaffbe56b4c86d32c"
+      },
+      {
+        "id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e5",
+        "quote": "DEMO. «Регистрируйся и выигрывай в казино» — приманка из подозрительного сообщения. Не повторяйте эти действия. Источник https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+        "source_id": "736ed955292d42fbaffbe56b4c86d32c",
+        "method": "source_text",
+        "at": "2026-10-21T20:54:59.613669+00:00",
+        "material_id": "736ed955292d42fbaffbe56b4c86d32c"
+      },
+      {
+        "id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e6",
+        "quote": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+        "source_id": "736ed955292d42fbaffbe56b4c86d32c",
+        "method": "source_text",
+        "at": "2026-10-21T20:54:59.613669+00:00",
+        "material_id": "736ed955292d42fbaffbe56b4c86d32c"
+      },
+      {
+        "id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e7",
+        "quote": "Игровой кабинет Онлайн-казино. Депозит для игры на деньги, игровые автоматы и джекпот.",
+        "source_id": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:54:59.613669+00:00",
+        "url": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e8",
+        "quote": "казино",
+        "source_id": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+        "method": "local_rule",
+        "at": "2026-10-21T20:54:59.613669+00:00",
+        "start": 23,
+        "end": 29,
+        "url": "https://k3e141727dd.test/invite/79345b?ref=T28394AB"
+      },
+      {
+        "id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e9",
+        "quote": "джекпот",
+        "source_id": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+        "method": "local_rule",
+        "at": "2026-10-21T20:54:59.613669+00:00",
+        "start": 78,
+        "end": 85,
+        "url": "https://k3e141727dd.test/invite/79345b?ref=T28394AB"
+      },
+      {
+        "id": "5550632be87048649b8287f5a1f9a867-4e1ea8a44aaa-e10",
+        "quote": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+        "source_id": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:54:59.613669+00:00",
+        "url": "https://k3e141727dd.test/invite/79345b?ref=T28394AB",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:54:59.614669+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [],
+    "version": "rules-4.0",
+    "weights": {
+      "version": "weights-4.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "736ed955292d42fbaffbe56b4c86d32c",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 2.2
+}

@@ -63,6 +63,29 @@ class DecisionInput(UserInput):
     comment: str = Field(default="", max_length=2000)
 
 
+class URLCorrectionInput(UserInput):
+    material_id: str = Field(pattern=r"^[a-f0-9]{32}$")
+    analysis_id: str = Field(min_length=1, max_length=64)
+    original_url: str = Field(min_length=1, max_length=2048)
+    corrected_url: str = Field(min_length=1, max_length=2048)
+    comment: str = Field(min_length=3, max_length=1000)
+
+    @field_validator("corrected_url")
+    @classmethod
+    def safe_corrected_url(cls, value):
+        from .links import validate_url
+
+        validate_url(value)
+        return value
+
+    @field_validator("comment")
+    @classmethod
+    def nonblank_comment(cls, value):
+        if len(value.strip()) < 3:
+            raise ValueError("Укажите, что проверено на оригинале.")
+        return value
+
+
 class Claim(BaseModel):
     kind: Literal[
         "call_to_action", "gambling", "bonus", "promise", "warning", "news", "education", "free_game"

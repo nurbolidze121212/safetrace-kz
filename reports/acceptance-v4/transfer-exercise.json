@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "case_id": "cb87062b58d94dcc9b58a7026503a538",
+  "health": {
+    "status": "ok",
+    "app_version": "2.2.1",
+    "versions": {
+      "rules": "rules-4.0",
+      "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+      "qr": "qr-1.0",
+      "pipeline": "pipeline-2.2.1"
+    },
+    "provider_available": false,
+    "model": "gemini-3.8-flash",
+    "offline": true,
+    "allowed_hosts": [],
+    "ocr_installed": true,
+    "local_mode": "OCR + правила + разрешенные переходы; ограниченное понимание контекста"
+  },
+  "score": 80,
+  "fresh_real_ocr": true,
+  "cache_hit": false,
+  "end_to_end_ms": 16341.34289999929,
+  "observations": 3,
+  "restored_demo_cases_equal": true,
+  "export_original_and_manifest_verified": true,
+  "zip_sha256": "e2257cf0716e8a8d2250f87e4c0f91763a3a04794dbd4cdbfd84181e9bd6d41f"
+}

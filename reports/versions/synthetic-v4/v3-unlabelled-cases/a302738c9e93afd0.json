@@ -1,0 +1,848 @@
+{
+  "id": "3379131f3b884178a58f429cfca6fa41",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:50:10.705555+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "DEMO. Это бесплатная игра с виртуальными фишками, без денежных ставок и без вывода денег. Играй в учебную рулетку: https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+      "url": "",
+      "source": "DEMO · материал a30273",
+      "published_at": null,
+      "image_id": null,
+      "id": "b19370fe73624ec5b96b69ca3cbddd78",
+      "original_sha256": "0b6fc8e7dfb72b9031e7d31f70741f8f488817ad75362cd588860949bd90603a",
+      "source_evidence_id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e1",
+      "normalized_text": "demo. это бесплатная игра с виртуальными фишками, без денежных ставок и без вывода денег. играй в учебную рулетку: https://k40950e8f6c.test/invite/14528f?ref=td4105b7",
+      "urls": [
+        "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7"
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e8"
+      ],
+      "reachable_urls": [
+        "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7"
+      ],
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [
+          {
+            "key": "gambling_and_call",
+            "title": "Игровая лексика + призыв",
+            "weight": 65,
+            "evidence_ids": [
+              "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e2",
+              "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e3"
+            ]
+          },
+          {
+            "key": "destination_alternative_context",
+            "title": "Альтернативный контекст страницы: не подтверждает игровой адрес",
+            "weight": 0,
+            "evidence_ids": [
+              "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e12",
+              "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e13",
+              "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e14"
+            ]
+          },
+          {
+            "key": "alternative_context",
+            "title": "Альтернативный контекст: образовательный разбор",
+            "weight": -65,
+            "evidence_ids": [
+              "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e4",
+              "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e5",
+              "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e6",
+              "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e7"
+            ]
+          }
+        ],
+        "version": "rules-3.0",
+        "weights": {
+          "version": "weights-3.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "ru",
+        "context": "education",
+        "claims": [
+          {
+            "kind": "gambling",
+            "quote": "рулетку",
+            "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+            "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+            "start": 106,
+            "end": 113
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "Играй",
+            "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 90,
+            "end": 95
+          },
+          {
+            "kind": "education",
+            "quote": "учебную",
+            "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+            "explanation": "Альтернатива: образовательный разбор.",
+            "start": 98,
+            "end": 105
+          },
+          {
+            "kind": "free_game",
+            "quote": "бесплатная игра",
+            "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+            "explanation": "Альтернатива: бесплатная игра без денежных ставок.",
+            "start": 10,
+            "end": 25
+          },
+          {
+            "kind": "free_game",
+            "quote": "без денежных",
+            "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+            "explanation": "Альтернатива: бесплатная игра без денежных ставок.",
+            "start": 50,
+            "end": 62
+          },
+          {
+            "kind": "free_game",
+            "quote": "без вывода денег",
+            "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+            "explanation": "Альтернатива: бесплатная игра без денежных ставок.",
+            "start": 72,
+            "end": 88
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e1",
+      "quote": "DEMO · материал a30273",
+      "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:50:10.726559+00:00",
+      "material_id": "b19370fe73624ec5b96b69ca3cbddd78",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e2",
+      "quote": "рулетку",
+      "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:10.727563+00:00",
+      "start": 106,
+      "end": 113,
+      "material_id": "b19370fe73624ec5b96b69ca3cbddd78"
+    },
+    {
+      "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e3",
+      "quote": "Играй",
+      "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:10.727563+00:00",
+      "start": 90,
+      "end": 95,
+      "material_id": "b19370fe73624ec5b96b69ca3cbddd78"
+    },
+    {
+      "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e4",
+      "quote": "учебную",
+      "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:10.727563+00:00",
+      "start": 98,
+      "end": 105,
+      "material_id": "b19370fe73624ec5b96b69ca3cbddd78"
+    },
+    {
+      "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e5",
+      "quote": "бесплатная игра",
+      "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:10.727563+00:00",
+      "start": 10,
+      "end": 25,
+      "material_id": "b19370fe73624ec5b96b69ca3cbddd78"
+    },
+    {
+      "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e6",
+      "quote": "без денежных",
+      "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:10.727563+00:00",
+      "start": 50,
+      "end": 62,
+      "material_id": "b19370fe73624ec5b96b69ca3cbddd78"
+    },
+    {
+      "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e7",
+      "quote": "без вывода денег",
+      "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:10.727563+00:00",
+      "start": 72,
+      "end": 88,
+      "material_id": "b19370fe73624ec5b96b69ca3cbddd78"
+    },
+    {
+      "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e8",
+      "quote": "DEMO. Это бесплатная игра с виртуальными фишками, без денежных ставок и без вывода денег. Играй в учебную рулетку: https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+      "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+      "method": "source_text",
+      "at": "2026-10-21T20:50:10.727563+00:00",
+      "material_id": "b19370fe73624ec5b96b69ca3cbddd78"
+    },
+    {
+      "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e9",
+      "quote": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+      "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+      "method": "source_text",
+      "at": "2026-10-21T20:50:10.727563+00:00",
+      "material_id": "b19370fe73624ec5b96b69ca3cbddd78"
+    },
+    {
+      "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e10",
+      "quote": "Бесплатная игра Рулетка с виртуальными фишками. Без денежных ставок и без вывода денег.",
+      "source_id": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:50:10.728556+00:00",
+      "url": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e11",
+      "quote": "Рулетка",
+      "source_id": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:10.728556+00:00",
+      "start": 16,
+      "end": 23,
+      "url": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7"
+    },
+    {
+      "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e12",
+      "quote": "Бесплатная игра",
+      "source_id": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:10.728556+00:00",
+      "start": 0,
+      "end": 15,
+      "url": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7"
+    },
+    {
+      "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e13",
+      "quote": "Без денежных",
+      "source_id": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:10.728556+00:00",
+      "start": 48,
+      "end": 60,
+      "url": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7"
+    },
+    {
+      "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e14",
+      "quote": "без вывода денег",
+      "source_id": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:10.728556+00:00",
+      "start": 70,
+      "end": 86,
+      "url": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7"
+    },
+    {
+      "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e15",
+      "quote": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+      "source_id": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:50:10.728556+00:00",
+      "url": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+        "at": "2026-10-21T20:50:10.727563+00:00",
+        "status_code": 200,
+        "text": "Бесплатная игра Рулетка с виртуальными фишками. Без денежных ставок и без вывода денег.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:50:10.727563+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "e832a40fef5b1c6ebc2de6883a8cd93f44123224f8ad4f0c17d8e0cceaa245c4",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+        "evidence_id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e10",
+        "context": {
+          "language": "ru",
+          "context": "free_game",
+          "claims": [
+            {
+              "kind": "gambling",
+              "quote": "Рулетка",
+              "source_id": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 16,
+              "end": 23
+            },
+            {
+              "kind": "free_game",
+              "quote": "Бесплатная игра",
+              "source_id": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+              "explanation": "Альтернатива: бесплатная игра без денежных ставок.",
+              "start": 0,
+              "end": 15
+            },
+            {
+              "kind": "free_game",
+              "quote": "Без денежных",
+              "source_id": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+              "explanation": "Альтернатива: бесплатная игра без денежных ставок.",
+              "start": 48,
+              "end": 60
+            },
+            {
+              "kind": "free_game",
+              "quote": "без вывода денег",
+              "source_id": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+              "explanation": "Альтернатива: бесплатная игра без денежных ставок.",
+              "start": 70,
+              "end": 86
+            }
+          ],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+        "type": "contains_link",
+        "quote": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:50:10.727563+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e15"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-3.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.1"
+  },
+  "identifiers": [
+    {
+      "domain": "k40950e8f6c.test",
+      "parameter": "ref",
+      "value": "TD4105B7",
+      "scope": "k40950e8f6c.test|/invite/14528f|ref|TD4105B7",
+      "url": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+      "material_id": "b19370fe73624ec5b96b69ca3cbddd78",
+      "evidence_id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e10"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:50:10.726559+00:00",
+  "analysis_id": "3de598b31ad9",
+  "context": {
+    "language": "ru",
+    "context": "education",
+    "claims": [
+      {
+        "kind": "gambling",
+        "quote": "рулетку",
+        "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+        "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+        "start": 106,
+        "end": 113
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "Играй",
+        "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 90,
+        "end": 95
+      },
+      {
+        "kind": "education",
+        "quote": "учебную",
+        "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+        "explanation": "Альтернатива: образовательный разбор.",
+        "start": 98,
+        "end": 105
+      },
+      {
+        "kind": "free_game",
+        "quote": "бесплатная игра",
+        "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+        "explanation": "Альтернатива: бесплатная игра без денежных ставок.",
+        "start": 10,
+        "end": 25
+      },
+      {
+        "kind": "free_game",
+        "quote": "без денежных",
+        "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+        "explanation": "Альтернатива: бесплатная игра без денежных ставок.",
+        "start": 50,
+        "end": 62
+      },
+      {
+        "kind": "free_game",
+        "quote": "без вывода денег",
+        "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+        "explanation": "Альтернатива: бесплатная игра без денежных ставок.",
+        "start": 72,
+        "end": 88
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "gambling",
+      "quote": "рулетку",
+      "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+      "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+      "start": 106,
+      "end": 113,
+      "evidence_id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e2"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "Играй",
+      "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 90,
+      "end": 95,
+      "evidence_id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e3"
+    },
+    {
+      "kind": "education",
+      "quote": "учебную",
+      "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+      "explanation": "Альтернатива: образовательный разбор.",
+      "start": 98,
+      "end": 105,
+      "evidence_id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e4"
+    },
+    {
+      "kind": "free_game",
+      "quote": "бесплатная игра",
+      "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+      "explanation": "Альтернатива: бесплатная игра без денежных ставок.",
+      "start": 10,
+      "end": 25,
+      "evidence_id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e5"
+    },
+    {
+      "kind": "free_game",
+      "quote": "без денежных",
+      "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+      "explanation": "Альтернатива: бесплатная игра без денежных ставок.",
+      "start": 50,
+      "end": 62,
+      "evidence_id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e6"
+    },
+    {
+      "kind": "free_game",
+      "quote": "без вывода денег",
+      "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+      "explanation": "Альтернатива: бесплатная игра без денежных ставок.",
+      "start": 72,
+      "end": 88,
+      "evidence_id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e7"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-07d632b73a04ea69",
+        "type": "material",
+        "label": "DEMO · материал a30273",
+        "evidence_ids": [
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e1"
+        ],
+        "case_id": "3379131f3b884178a58f429cfca6fa41",
+        "material_id": "b19370fe73624ec5b96b69ca3cbddd78"
+      },
+      {
+        "id": "source-1fa05f0fb1eaa783",
+        "type": "source",
+        "label": "DEMO · материал a30273",
+        "evidence_ids": [
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e1"
+        ]
+      },
+      {
+        "id": "url-1206c265ceee23d7",
+        "type": "url",
+        "label": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+        "evidence_ids": [
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e9",
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e10"
+        ]
+      },
+      {
+        "id": "observation-62d6461acdbde42e",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e10"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-7a1ebfb58a60b640",
+        "type": "domain",
+        "label": "k40950e8f6c.test",
+        "evidence_ids": [
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e10"
+        ]
+      },
+      {
+        "id": "identifier-5e7c0bd50a2ed1f4",
+        "type": "identifier",
+        "label": "ref=TD4105B7",
+        "evidence_ids": [
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e10"
+        ],
+        "scope": "k40950e8f6c.test|/invite/14528f|ref|TD4105B7"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-39676e54209154f518",
+        "source": "source-1fa05f0fb1eaa783",
+        "target": "material-07d632b73a04ea69",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e1"
+        ],
+        "at": "2026-10-21T20:50:10.726559+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-52de66421df2c32c6e",
+        "source": "material-07d632b73a04ea69",
+        "target": "url-1206c265ceee23d7",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e9"
+        ],
+        "at": "2026-10-21T20:50:10.726559+00:00",
+        "method": "source_text",
+        "status": "observed"
+      },
+      {
+        "id": "edge-6e8f2dcd89112a9ad4",
+        "source": "url-1206c265ceee23d7",
+        "target": "observation-62d6461acdbde42e",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e10"
+        ],
+        "at": "2026-10-21T20:50:10.726559+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-dac1aeb02a3c9cfee0",
+        "source": "url-1206c265ceee23d7",
+        "target": "domain-7a1ebfb58a60b640",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e10"
+        ],
+        "at": "2026-10-21T20:50:10.726559+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-4acba1fd83335940e6",
+        "source": "url-1206c265ceee23d7",
+        "target": "identifier-5e7c0bd50a2ed1f4",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e10"
+        ],
+        "at": "2026-10-21T20:50:10.726559+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e1",
+        "quote": "DEMO · материал a30273",
+        "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:50:10.726559+00:00",
+        "material_id": "b19370fe73624ec5b96b69ca3cbddd78",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e2",
+        "quote": "рулетку",
+        "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:10.727563+00:00",
+        "start": 106,
+        "end": 113,
+        "material_id": "b19370fe73624ec5b96b69ca3cbddd78"
+      },
+      {
+        "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e3",
+        "quote": "Играй",
+        "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:10.727563+00:00",
+        "start": 90,
+        "end": 95,
+        "material_id": "b19370fe73624ec5b96b69ca3cbddd78"
+      },
+      {
+        "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e4",
+        "quote": "учебную",
+        "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:10.727563+00:00",
+        "start": 98,
+        "end": 105,
+        "material_id": "b19370fe73624ec5b96b69ca3cbddd78"
+      },
+      {
+        "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e5",
+        "quote": "бесплатная игра",
+        "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:10.727563+00:00",
+        "start": 10,
+        "end": 25,
+        "material_id": "b19370fe73624ec5b96b69ca3cbddd78"
+      },
+      {
+        "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e6",
+        "quote": "без денежных",
+        "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:10.727563+00:00",
+        "start": 50,
+        "end": 62,
+        "material_id": "b19370fe73624ec5b96b69ca3cbddd78"
+      },
+      {
+        "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e7",
+        "quote": "без вывода денег",
+        "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:10.727563+00:00",
+        "start": 72,
+        "end": 88,
+        "material_id": "b19370fe73624ec5b96b69ca3cbddd78"
+      },
+      {
+        "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e8",
+        "quote": "DEMO. Это бесплатная игра с виртуальными фишками, без денежных ставок и без вывода денег. Играй в учебную рулетку: https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+        "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+        "method": "source_text",
+        "at": "2026-10-21T20:50:10.727563+00:00",
+        "material_id": "b19370fe73624ec5b96b69ca3cbddd78"
+      },
+      {
+        "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e9",
+        "quote": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+        "source_id": "b19370fe73624ec5b96b69ca3cbddd78",
+        "method": "source_text",
+        "at": "2026-10-21T20:50:10.727563+00:00",
+        "material_id": "b19370fe73624ec5b96b69ca3cbddd78"
+      },
+      {
+        "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e10",
+        "quote": "Бесплатная игра Рулетка с виртуальными фишками. Без денежных ставок и без вывода денег.",
+        "source_id": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:50:10.728556+00:00",
+        "url": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e11",
+        "quote": "Рулетка",
+        "source_id": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:10.728556+00:00",
+        "start": 16,
+        "end": 23,
+        "url": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7"
+      },
+      {
+        "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e12",
+        "quote": "Бесплатная игра",
+        "source_id": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:10.728556+00:00",
+        "start": 0,
+        "end": 15,
+        "url": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7"
+      },
+      {
+        "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e13",
+        "quote": "Без денежных",
+        "source_id": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:10.728556+00:00",
+        "start": 48,
+        "end": 60,
+        "url": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7"
+      },
+      {
+        "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e14",
+        "quote": "без вывода денег",
+        "source_id": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:10.728556+00:00",
+        "start": 70,
+        "end": 86,
+        "url": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7"
+      },
+      {
+        "id": "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e15",
+        "quote": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+        "source_id": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:50:10.728556+00:00",
+        "url": "https://k40950e8f6c.test/invite/14528f?ref=TD4105B7",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:50:10.728556+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [
+      {
+        "key": "gambling_and_call",
+        "title": "Игровая лексика + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e2",
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e3"
+        ]
+      },
+      {
+        "key": "destination_alternative_context",
+        "title": "Альтернативный контекст страницы: не подтверждает игровой адрес",
+        "weight": 0,
+        "evidence_ids": [
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e12",
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e13",
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e14"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: образовательный разбор",
+        "weight": -65,
+        "evidence_ids": [
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e4",
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e5",
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e6",
+          "3379131f3b884178a58f429cfca6fa41-3de598b31ad9-e7"
+        ]
+      }
+    ],
+    "version": "rules-3.0",
+    "weights": {
+      "version": "weights-3.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "b19370fe73624ec5b96b69ca3cbddd78",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 2.0
+}

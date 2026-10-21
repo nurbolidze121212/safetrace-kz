@@ -1,0 +1,1045 @@
+{
+  "id": "75a3feb47593454290641eb1ecaa4a6b",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:55:20.559900+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "",
+      "url": "",
+      "source": "DEMO · материал 9c2202",
+      "published_at": null,
+      "image_id": "f7440de5d20c229f6b590c0175ea6aa7.jpg",
+      "id": "7e8717e27e994ada9efee9e474762650",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "f7440de5d20c229f6b590c0175ea6aa781d81f1d21875ee9b8ff04e98a336b23",
+      "source_evidence_id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e1",
+      "normalized_text": "",
+      "ocr": {
+        "text": "DЕМО. Журналист выяснил, куда ведёт чужая реклама. «Переходи и забирай\nбонус» — текст рекламодателя, не редакции. Сілтеме:\nhttps://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+        "lines": [
+          {
+            "text": "DЕМО. Журналист выяснил, куда ведёт чужая реклама. «Переходи и забирай",
+            "confidence": 0.9895081520080566,
+            "polygon": [
+              [
+                28.0,
+                22.0
+              ],
+              [
+                971.0,
+                22.0
+              ],
+              [
+                971.0,
+                58.0
+              ],
+              [
+                28.0,
+                58.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМО."
+            ],
+            "evidence_id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e2"
+          },
+          {
+            "text": "бонус» — текст рекламодателя, не редакции. Сілтеме:",
+            "confidence": 0.9945964217185974,
+            "polygon": [
+              [
+                25.0,
+                65.0
+              ],
+              [
+                689.0,
+                66.0
+              ],
+              [
+                689.0,
+                96.0
+              ],
+              [
+                25.0,
+                95.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e3"
+          },
+          {
+            "text": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+            "confidence": 0.999218225479126,
+            "polygon": [
+              [
+                27.0,
+                105.0
+              ],
+              [
+                630.0,
+                105.0
+              ],
+              [
+                630.0,
+                138.0
+              ],
+              [
+                27.0,
+                138.0
+              ]
+            ],
+            "segment_indices": [
+              2
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e4"
+          }
+        ],
+        "raw_text": "DЕМО. Журналист выяснил, куда ведёт чужая реклама. «Переходи и забирай\nбонус» — текст рекламодателя, не редакции. Сілтеме:\nhttps://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+        "raw_lines": [
+          {
+            "text": "DЕМО. Журналист выяснил, куда ведёт чужая реклама. «Переходи и забирай",
+            "confidence": 0.9895081520080566,
+            "polygon": [
+              [
+                28.0,
+                22.0
+              ],
+              [
+                971.0,
+                22.0
+              ],
+              [
+                971.0,
+                58.0
+              ],
+              [
+                28.0,
+                58.0
+              ]
+            ]
+          },
+          {
+            "text": "бонус» — текст рекламодателя, не редакции. Сілтеме:",
+            "confidence": 0.9945964217185974,
+            "polygon": [
+              [
+                25.0,
+                65.0
+              ],
+              [
+                689.0,
+                66.0
+              ],
+              [
+                689.0,
+                96.0
+              ],
+              [
+                25.0,
+                95.0
+              ]
+            ]
+          },
+          {
+            "text": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+            "confidence": 0.999218225479126,
+            "polygon": [
+              [
+                27.0,
+                105.0
+              ],
+              [
+                630.0,
+                105.0
+              ],
+              [
+                630.0,
+                138.0
+              ],
+              [
+                27.0,
+                138.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 138,
+            "mean_confidence": 0.9938678896945455,
+            "score": 135.4836366723807,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1120,
+        "height": 189,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически.",
+        "url_readings": [
+          {
+            "raw_url": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+            "line_indices": [
+              2
+            ],
+            "needs_review": false,
+            "reasons": [],
+            "suggestions": [],
+            "method": "primary_ocr",
+            "auto_follow": true
+          }
+        ]
+      },
+      "qr": {
+        "codes": [],
+        "width": 1120,
+        "height": 189,
+        "version": "qr-1.0",
+        "decoder": "OpenCV 4.10.0",
+        "cache_hit": false,
+        "elapsed_ms": 84.13,
+        "limitations": "До 8 QR-кодов, изображение до 1600 px по длинной стороне. Мелкие, поврежденные и составные QR могут не читаться. Декодирование не подтверждает безопасность адреса."
+      },
+      "urls": [
+        "https://k3651d5f3a9.test/card/018664?ref=T62B16B4"
+      ],
+      "url_reviews": [
+        {
+          "raw_url": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+          "line_indices": [
+            2
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true,
+          "source_evidence_ids": [
+            "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e10",
+            "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e4"
+          ],
+          "selected_url": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4"
+        }
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e9"
+      ],
+      "content_fingerprint": "77e391b7612ab4508288dba969063bfc789e0b1cb9618e22cb76e2801b40e147",
+      "reachable_urls": [
+        "https://k3651d5f3a9.test/card/018664?ref=T62B16B4"
+      ],
+      "call_bindings": [],
+      "attribution_incomplete": false,
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [
+          {
+            "key": "alternative_context",
+            "title": "Альтернативный контекст: новость",
+            "weight": -65,
+            "evidence_ids": [
+              "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e7"
+            ]
+          }
+        ],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "mixed",
+        "context": "news",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "Переходи",
+            "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 52,
+            "end": 60
+          },
+          {
+            "kind": "bonus",
+            "quote": "бонус",
+            "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+            "explanation": "Упоминание бонуса или промокода.",
+            "start": 71,
+            "end": 76
+          },
+          {
+            "kind": "news",
+            "quote": "Журналист",
+            "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+            "explanation": "Альтернатива: журналистский контекст.",
+            "start": 6,
+            "end": 15
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "забирай",
+            "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 63,
+            "end": 70
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e1",
+      "quote": "DEMO · материал 9c2202",
+      "source_id": "7e8717e27e994ada9efee9e474762650",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:55:24.076953+00:00",
+      "material_id": "7e8717e27e994ada9efee9e474762650",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e2",
+      "quote": "DЕМО. Журналист выяснил, куда ведёт чужая реклама. «Переходи и забирай",
+      "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:55:27.417019+00:00",
+      "material_id": "7e8717e27e994ada9efee9e474762650",
+      "polygon": [
+        [
+          28.0,
+          22.0
+        ],
+        [
+          971.0,
+          22.0
+        ],
+        [
+          971.0,
+          58.0
+        ],
+        [
+          28.0,
+          58.0
+        ]
+      ],
+      "confidence": 0.9895081520080566
+    },
+    {
+      "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e3",
+      "quote": "бонус» — текст рекламодателя, не редакции. Сілтеме:",
+      "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:55:27.417019+00:00",
+      "material_id": "7e8717e27e994ada9efee9e474762650",
+      "polygon": [
+        [
+          25.0,
+          65.0
+        ],
+        [
+          689.0,
+          66.0
+        ],
+        [
+          689.0,
+          96.0
+        ],
+        [
+          25.0,
+          95.0
+        ]
+      ],
+      "confidence": 0.9945964217185974
+    },
+    {
+      "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e4",
+      "quote": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+      "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:55:27.417019+00:00",
+      "material_id": "7e8717e27e994ada9efee9e474762650",
+      "polygon": [
+        [
+          27.0,
+          105.0
+        ],
+        [
+          630.0,
+          105.0
+        ],
+        [
+          630.0,
+          138.0
+        ],
+        [
+          27.0,
+          138.0
+        ]
+      ],
+      "confidence": 0.999218225479126
+    },
+    {
+      "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e5",
+      "quote": "Переходи",
+      "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:55:27.513596+00:00",
+      "start": 52,
+      "end": 60,
+      "material_id": "7e8717e27e994ada9efee9e474762650"
+    },
+    {
+      "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e6",
+      "quote": "бонус",
+      "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:55:27.514592+00:00",
+      "start": 71,
+      "end": 76,
+      "material_id": "7e8717e27e994ada9efee9e474762650"
+    },
+    {
+      "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e7",
+      "quote": "Журналист",
+      "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:55:27.514592+00:00",
+      "start": 6,
+      "end": 15,
+      "material_id": "7e8717e27e994ada9efee9e474762650"
+    },
+    {
+      "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e8",
+      "quote": "забирай",
+      "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:55:27.514592+00:00",
+      "start": 63,
+      "end": 70,
+      "material_id": "7e8717e27e994ada9efee9e474762650"
+    },
+    {
+      "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e9",
+      "quote": "DЕМО. Журналист выяснил, куда ведёт чужая реклама. «Переходи и забирай\nбонус» — текст рекламодателя, не редакции. Сілтеме:\nhttps://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+      "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:55:27.514592+00:00",
+      "material_id": "7e8717e27e994ada9efee9e474762650"
+    },
+    {
+      "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e10",
+      "quote": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+      "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:55:27.514592+00:00",
+      "material_id": "7e8717e27e994ada9efee9e474762650"
+    },
+    {
+      "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e11",
+      "quote": "Игровой кабинет Онлайн-казино. Депозит для игры на деньги, игровые автоматы и джекпот.",
+      "source_id": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:55:27.514592+00:00",
+      "url": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e12",
+      "quote": "казино",
+      "source_id": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+      "method": "local_rule",
+      "at": "2026-10-21T20:55:27.515591+00:00",
+      "start": 23,
+      "end": 29,
+      "url": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4"
+    },
+    {
+      "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e13",
+      "quote": "джекпот",
+      "source_id": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+      "method": "local_rule",
+      "at": "2026-10-21T20:55:27.515591+00:00",
+      "start": 78,
+      "end": 85,
+      "url": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4"
+    },
+    {
+      "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e14",
+      "quote": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+      "source_id": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:55:27.515591+00:00",
+      "url": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+        "at": "2026-10-21T20:55:27.514592+00:00",
+        "status_code": 200,
+        "text": "Игровой кабинет Онлайн-казино. Депозит для игры на деньги, игровые автоматы и джекпот.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:55:27.514592+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "4fb602931035d8ddd9819ed110b30691a3a0f5d0ea9e8260a20f3704b3502897",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+        "evidence_id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e11",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [
+            {
+              "kind": "gambling",
+              "quote": "казино",
+              "source_id": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 23,
+              "end": 29
+            },
+            {
+              "kind": "gambling",
+              "quote": "джекпот",
+              "source_id": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 78,
+              "end": 85
+            }
+          ],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+        "type": "contains_link",
+        "quote": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:55:27.514592+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e14"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-4.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.2.1"
+  },
+  "analysis_assisted": false,
+  "identifiers": [
+    {
+      "domain": "k3651d5f3a9.test",
+      "parameter": "ref",
+      "value": "T62B16B4",
+      "scope": "k3651d5f3a9.test|/card/018664|ref|T62B16B4",
+      "url": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+      "material_id": "7e8717e27e994ada9efee9e474762650",
+      "evidence_id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e11"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:55:24.076953+00:00",
+  "analysis_id": "e1206db1a1c0",
+  "context": {
+    "language": "mixed",
+    "context": "news",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "Переходи",
+        "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 52,
+        "end": 60
+      },
+      {
+        "kind": "bonus",
+        "quote": "бонус",
+        "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+        "explanation": "Упоминание бонуса или промокода.",
+        "start": 71,
+        "end": 76
+      },
+      {
+        "kind": "news",
+        "quote": "Журналист",
+        "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+        "explanation": "Альтернатива: журналистский контекст.",
+        "start": 6,
+        "end": 15
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "забирай",
+        "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 63,
+        "end": 70
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "Переходи",
+      "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 52,
+      "end": 60,
+      "evidence_id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e5"
+    },
+    {
+      "kind": "bonus",
+      "quote": "бонус",
+      "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+      "explanation": "Упоминание бонуса или промокода.",
+      "start": 71,
+      "end": 76,
+      "evidence_id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e6"
+    },
+    {
+      "kind": "news",
+      "quote": "Журналист",
+      "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+      "explanation": "Альтернатива: журналистский контекст.",
+      "start": 6,
+      "end": 15,
+      "evidence_id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e7"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "забирай",
+      "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 63,
+      "end": 70,
+      "evidence_id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e8"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-f9692e604b6e0dbd",
+        "type": "material",
+        "label": "DEMO · материал 9c2202",
+        "evidence_ids": [
+          "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e1"
+        ],
+        "case_id": "75a3feb47593454290641eb1ecaa4a6b",
+        "material_id": "7e8717e27e994ada9efee9e474762650"
+      },
+      {
+        "id": "source-957ae1d3218074a9",
+        "type": "source",
+        "label": "DEMO · материал 9c2202",
+        "evidence_ids": [
+          "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e1"
+        ]
+      },
+      {
+        "id": "url-711534bec241223e",
+        "type": "url",
+        "label": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+        "evidence_ids": [
+          "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e4",
+          "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e10",
+          "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e11"
+        ]
+      },
+      {
+        "id": "observation-e974d8ee05395063",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e11"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-3f9db772eab15821",
+        "type": "domain",
+        "label": "k3651d5f3a9.test",
+        "evidence_ids": [
+          "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e11"
+        ]
+      },
+      {
+        "id": "identifier-ef8b3c88993229b2",
+        "type": "identifier",
+        "label": "ref=T62B16B4",
+        "evidence_ids": [
+          "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e11"
+        ],
+        "scope": "k3651d5f3a9.test|/card/018664|ref|T62B16B4"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-b103611025b11d9f25",
+        "source": "source-957ae1d3218074a9",
+        "target": "material-f9692e604b6e0dbd",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e1"
+        ],
+        "at": "2026-10-21T20:55:24.076953+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-576295c7287ced3acf",
+        "source": "material-f9692e604b6e0dbd",
+        "target": "url-711534bec241223e",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e4",
+          "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e10"
+        ],
+        "at": "2026-10-21T20:55:24.076953+00:00",
+        "method": "ocr",
+        "status": "observed"
+      },
+      {
+        "id": "edge-abdd6eb3327b10c40d",
+        "source": "url-711534bec241223e",
+        "target": "observation-e974d8ee05395063",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e11"
+        ],
+        "at": "2026-10-21T20:55:24.076953+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-035a6096117ce66049",
+        "source": "url-711534bec241223e",
+        "target": "domain-3f9db772eab15821",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e11"
+        ],
+        "at": "2026-10-21T20:55:24.076953+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-e0f75972e94f30f35d",
+        "source": "url-711534bec241223e",
+        "target": "identifier-ef8b3c88993229b2",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e11"
+        ],
+        "at": "2026-10-21T20:55:24.076953+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e1",
+        "quote": "DEMO · материал 9c2202",
+        "source_id": "7e8717e27e994ada9efee9e474762650",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:55:24.076953+00:00",
+        "material_id": "7e8717e27e994ada9efee9e474762650",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e2",
+        "quote": "DЕМО. Журналист выяснил, куда ведёт чужая реклама. «Переходи и забирай",
+        "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:55:27.417019+00:00",
+        "material_id": "7e8717e27e994ada9efee9e474762650",
+        "polygon": [
+          [
+            28.0,
+            22.0
+          ],
+          [
+            971.0,
+            22.0
+          ],
+          [
+            971.0,
+            58.0
+          ],
+          [
+            28.0,
+            58.0
+          ]
+        ],
+        "confidence": 0.9895081520080566
+      },
+      {
+        "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e3",
+        "quote": "бонус» — текст рекламодателя, не редакции. Сілтеме:",
+        "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:55:27.417019+00:00",
+        "material_id": "7e8717e27e994ada9efee9e474762650",
+        "polygon": [
+          [
+            25.0,
+            65.0
+          ],
+          [
+            689.0,
+            66.0
+          ],
+          [
+            689.0,
+            96.0
+          ],
+          [
+            25.0,
+            95.0
+          ]
+        ],
+        "confidence": 0.9945964217185974
+      },
+      {
+        "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e4",
+        "quote": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+        "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:55:27.417019+00:00",
+        "material_id": "7e8717e27e994ada9efee9e474762650",
+        "polygon": [
+          [
+            27.0,
+            105.0
+          ],
+          [
+            630.0,
+            105.0
+          ],
+          [
+            630.0,
+            138.0
+          ],
+          [
+            27.0,
+            138.0
+          ]
+        ],
+        "confidence": 0.999218225479126
+      },
+      {
+        "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e5",
+        "quote": "Переходи",
+        "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:55:27.513596+00:00",
+        "start": 52,
+        "end": 60,
+        "material_id": "7e8717e27e994ada9efee9e474762650"
+      },
+      {
+        "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e6",
+        "quote": "бонус",
+        "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:55:27.514592+00:00",
+        "start": 71,
+        "end": 76,
+        "material_id": "7e8717e27e994ada9efee9e474762650"
+      },
+      {
+        "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e7",
+        "quote": "Журналист",
+        "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:55:27.514592+00:00",
+        "start": 6,
+        "end": 15,
+        "material_id": "7e8717e27e994ada9efee9e474762650"
+      },
+      {
+        "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e8",
+        "quote": "забирай",
+        "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:55:27.514592+00:00",
+        "start": 63,
+        "end": 70,
+        "material_id": "7e8717e27e994ada9efee9e474762650"
+      },
+      {
+        "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e9",
+        "quote": "DЕМО. Журналист выяснил, куда ведёт чужая реклама. «Переходи и забирай\nбонус» — текст рекламодателя, не редакции. Сілтеме:\nhttps://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+        "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:55:27.514592+00:00",
+        "material_id": "7e8717e27e994ada9efee9e474762650"
+      },
+      {
+        "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e10",
+        "quote": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+        "source_id": "7e8717e27e994ada9efee9e474762650-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:55:27.514592+00:00",
+        "material_id": "7e8717e27e994ada9efee9e474762650"
+      },
+      {
+        "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e11",
+        "quote": "Игровой кабинет Онлайн-казино. Депозит для игры на деньги, игровые автоматы и джекпот.",
+        "source_id": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:55:27.514592+00:00",
+        "url": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e12",
+        "quote": "казино",
+        "source_id": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+        "method": "local_rule",
+        "at": "2026-10-21T20:55:27.515591+00:00",
+        "start": 23,
+        "end": 29,
+        "url": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4"
+      },
+      {
+        "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e13",
+        "quote": "джекпот",
+        "source_id": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+        "method": "local_rule",
+        "at": "2026-10-21T20:55:27.515591+00:00",
+        "start": 78,
+        "end": 85,
+        "url": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4"
+      },
+      {
+        "id": "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e14",
+        "quote": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+        "source_id": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:55:27.515591+00:00",
+        "url": "https://k3651d5f3a9.test/card/018664?ref=T62B16B4",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:55:27.515591+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: новость",
+        "weight": -65,
+        "evidence_ids": [
+          "75a3feb47593454290641eb1ecaa4a6b-e1206db1a1c0-e7"
+        ]
+      }
+    ],
+    "version": "rules-4.0",
+    "weights": {
+      "version": "weights-4.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "7e8717e27e994ada9efee9e474762650",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 3439.6
+}

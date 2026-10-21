@@ -1,0 +1,38 @@
+{
+  "started": "2026-10-21T21:15:19.648Z",
+  "startMs": 1792617319648,
+  "steps": [
+    {
+      "step": "prepared_image_with_manual_review_and_two_materials",
+      "elapsedMs": 7021
+    },
+    {
+      "step": "three_step_synthetic_route",
+      "elapsedMs": 10649
+    },
+    {
+      "step": "html_edge_source_opened",
+      "elapsedMs": 22923
+    },
+    {
+      "step": "same_url_warning_score_zero",
+      "elapsedMs": 29383
+    },
+    {
+      "step": "review_saved_in_ui",
+      "elapsedMs": 43228
+    },
+    {
+      "step": "browser_export_clicked",
+      "elapsedMs": 51476
+    },
+    {
+      "step": "paired_metrics_opened",
+      "elapsedMs": 51628
+    }
+  ],
+  "elapsedMs": 51628,
+  "finished": "2026-10-21T21:16:11.276Z",
+  "method": "Agent-operated browser navigation of prepared saved cases, route, source, counterexample, new review and actual download click. Includes tool/model pauses; excludes case preparation, speech and human usability assessment.",
+  "paired_table_visible": true
+}

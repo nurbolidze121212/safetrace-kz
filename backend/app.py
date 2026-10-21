@@ -26,7 +26,7 @@ from .config import (
 from .exports import package
 from .graph import build_graph
 from .limits import BodyLimitMiddleware
-from .schemas import CaseInput, DecisionInput, MaterialInput
+from .schemas import CaseInput, DecisionInput, MaterialInput, URLCorrectionInput
 
 Image.MAX_IMAGE_PIXELS = 12_000_000
 
@@ -38,7 +38,7 @@ async def lifespan(app):
     yield
 
 
-app = FastAPI(title="SafeTrace KZ", version="2.1.0", lifespan=lifespan)
+app = FastAPI(title="SafeTrace KZ", version="2.2.1", lifespan=lifespan)
 app.add_middleware(BodyLimitMiddleware)
 
 
@@ -210,6 +210,16 @@ def retry(case_id: str):
     except ValueError as exc:
         raise HTTPException(429, str(exc)) from None
     return {"id": case_id}
+
+
+@app.post('/api/cases/{case_id}/url-corrections')
+def correct_address(case_id: str, payload: URLCorrectionInput):
+    require_case(case_id)
+    try:
+        record = pipeline.correct_url(case_id, payload)
+    except (ValueError, storage.OriginalIntegrityError) as exc:
+        raise HTTPException(409, str(exc)) from None
+    return {'id': case_id, 'correction': record}
 
 
 @app.post("/api/cases/{case_id}/cancel")

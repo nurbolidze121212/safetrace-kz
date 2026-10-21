@@ -1,0 +1,1099 @@
+{
+  "id": "bce12d2b06854ad980098173488506e6",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:50:34.498915+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "",
+      "url": "",
+      "source": "DEMO · материал 99db31",
+      "published_at": null,
+      "image_id": "8d364d7d70992e9976d527199728ae3d.png",
+      "id": "8c72ef768e7249ae8a29b53e7699daf8",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "8d364d7d70992e9976d527199728ae3dde759b81f5b453be3b7cd176aa6ff319",
+      "source_evidence_id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e1",
+      "normalized_text": "",
+      "ocr": {
+        "text": "DЕМО. Еріктілерге жаңа ауысым керек. Заходи по адресу записи на смену\nhttps://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81. Aдреc из отдельной\nжалобы: https://k74aa14700f.test/c676e96",
+        "lines": [
+          {
+            "text": "DЕМО. Еріктілерге жаңа ауысым керек. Заходи по адресу записи на смену",
+            "confidence": 0.9862476587295532,
+            "polygon": [
+              [
+                28.0,
+                26.0
+              ],
+              [
+                925.0,
+                29.0
+              ],
+              [
+                925.0,
+                58.0
+              ],
+              [
+                28.0,
+                55.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМО."
+            ],
+            "evidence_id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e2"
+          },
+          {
+            "text": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81. Aдреc из отдельной",
+            "confidence": 0.9661356806755066,
+            "polygon": [
+              [
+                29.0,
+                69.0
+              ],
+              [
+                888.0,
+                69.0
+              ],
+              [
+                888.0,
+                95.0
+              ],
+              [
+                29.0,
+                95.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: Aдреc"
+            ],
+            "evidence_id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e3"
+          },
+          {
+            "text": "жалобы: https://k74aa14700f.test/c676e96",
+            "confidence": 0.9931327700614929,
+            "polygon": [
+              [
+                27.0,
+                109.0
+              ],
+              [
+                512.0,
+                107.0
+              ],
+              [
+                512.0,
+                135.0
+              ],
+              [
+                27.0,
+                137.0
+              ]
+            ],
+            "segment_indices": [
+              2
+            ],
+            "uncertain": false,
+            "warnings": [],
+            "evidence_id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e4"
+          }
+        ],
+        "raw_text": "DЕМО. Еріктілерге жаңа ауысым керек. Заходи по адресу записи на смену\nhttps://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81. Aдреc из отдельной\nжалобы: https://k74aa14700f.test/c676e96",
+        "raw_lines": [
+          {
+            "text": "DЕМО. Еріктілерге жаңа ауысым керек. Заходи по адресу записи на смену",
+            "confidence": 0.9862476587295532,
+            "polygon": [
+              [
+                28.0,
+                26.0
+              ],
+              [
+                925.0,
+                29.0
+              ],
+              [
+                925.0,
+                58.0
+              ],
+              [
+                28.0,
+                55.0
+              ]
+            ]
+          },
+          {
+            "text": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81. Aдреc из отдельной",
+            "confidence": 0.9661356806755066,
+            "polygon": [
+              [
+                29.0,
+                69.0
+              ],
+              [
+                888.0,
+                69.0
+              ],
+              [
+                888.0,
+                95.0
+              ],
+              [
+                29.0,
+                95.0
+              ]
+            ]
+          },
+          {
+            "text": "жалобы: https://k74aa14700f.test/c676e96",
+            "confidence": 0.9931327700614929,
+            "polygon": [
+              [
+                27.0,
+                109.0
+              ],
+              [
+                512.0,
+                107.0
+              ],
+              [
+                512.0,
+                135.0
+              ],
+              [
+                27.0,
+                137.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 149,
+            "mean_confidence": 0.9798087457682463,
+            "score": 140.21205076309337,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1120,
+        "height": 189,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически."
+      },
+      "qr": {
+        "codes": [],
+        "width": 1120,
+        "height": 189,
+        "version": "qr-1.0",
+        "decoder": "OpenCV 4.10.0",
+        "cache_hit": false,
+        "elapsed_ms": 89.85,
+        "limitations": "До 8 QR-кодов, изображение до 1600 px по длинной стороне. Мелкие, поврежденные и составные QR могут не читаться. Декодирование не подтверждает безопасность адреса."
+      },
+      "urls": [
+        "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+        "https://k74aa14700f.test/c676e96"
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e6"
+      ],
+      "reachable_urls": [
+        "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+        "https://k74aa14700f.test/c676e96"
+      ],
+      "score": {
+        "value": 65,
+        "level": "high",
+        "contributions": [
+          {
+            "key": "destination_and_call",
+            "title": "Игровые признаки на странице + призыв",
+            "weight": 65,
+            "evidence_ids": [
+              "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e5",
+              "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e11",
+              "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e14"
+            ]
+          }
+        ],
+        "version": "rules-3.0",
+        "weights": {
+          "version": "weights-3.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "kk",
+        "context": "affiliate",
+        "claims": [
+          {
+            "kind": "call_to_action",
+            "quote": "Заходи",
+            "source_id": "8c72ef768e7249ae8a29b53e7699daf8-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 37,
+            "end": 43
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e1",
+      "quote": "DEMO · материал 99db31",
+      "source_id": "8c72ef768e7249ae8a29b53e7699daf8",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:50:34.515436+00:00",
+      "material_id": "8c72ef768e7249ae8a29b53e7699daf8",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e2",
+      "quote": "DЕМО. Еріктілерге жаңа ауысым керек. Заходи по адресу записи на смену",
+      "source_id": "8c72ef768e7249ae8a29b53e7699daf8-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:50:39.649494+00:00",
+      "material_id": "8c72ef768e7249ae8a29b53e7699daf8",
+      "polygon": [
+        [
+          28.0,
+          26.0
+        ],
+        [
+          925.0,
+          29.0
+        ],
+        [
+          925.0,
+          58.0
+        ],
+        [
+          28.0,
+          55.0
+        ]
+      ],
+      "confidence": 0.9862476587295532
+    },
+    {
+      "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e3",
+      "quote": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81. Aдреc из отдельной",
+      "source_id": "8c72ef768e7249ae8a29b53e7699daf8-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:50:39.649494+00:00",
+      "material_id": "8c72ef768e7249ae8a29b53e7699daf8",
+      "polygon": [
+        [
+          29.0,
+          69.0
+        ],
+        [
+          888.0,
+          69.0
+        ],
+        [
+          888.0,
+          95.0
+        ],
+        [
+          29.0,
+          95.0
+        ]
+      ],
+      "confidence": 0.9661356806755066
+    },
+    {
+      "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e4",
+      "quote": "жалобы: https://k74aa14700f.test/c676e96",
+      "source_id": "8c72ef768e7249ae8a29b53e7699daf8-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:50:39.649494+00:00",
+      "material_id": "8c72ef768e7249ae8a29b53e7699daf8",
+      "polygon": [
+        [
+          27.0,
+          109.0
+        ],
+        [
+          512.0,
+          107.0
+        ],
+        [
+          512.0,
+          135.0
+        ],
+        [
+          27.0,
+          137.0
+        ]
+      ],
+      "confidence": 0.9931327700614929
+    },
+    {
+      "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e5",
+      "quote": "Заходи",
+      "source_id": "8c72ef768e7249ae8a29b53e7699daf8-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:39.753023+00:00",
+      "start": 37,
+      "end": 43,
+      "material_id": "8c72ef768e7249ae8a29b53e7699daf8"
+    },
+    {
+      "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e6",
+      "quote": "DЕМО. Еріктілерге жаңа ауысым керек. Заходи по адресу записи на смену\nhttps://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81. Aдреc из отдельной\nжалобы: https://k74aa14700f.test/c676e96",
+      "source_id": "8c72ef768e7249ae8a29b53e7699daf8-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:50:39.753023+00:00",
+      "material_id": "8c72ef768e7249ae8a29b53e7699daf8"
+    },
+    {
+      "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e7",
+      "quote": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+      "source_id": "8c72ef768e7249ae8a29b53e7699daf8-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:50:39.753023+00:00",
+      "material_id": "8c72ef768e7249ae8a29b53e7699daf8"
+    },
+    {
+      "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e8",
+      "quote": "https://k74aa14700f.test/c676e96",
+      "source_id": "8c72ef768e7249ae8a29b53e7699daf8-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:50:39.753023+00:00",
+      "material_id": "8c72ef768e7249ae8a29b53e7699daf8"
+    },
+    {
+      "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e9",
+      "quote": "Каталог Книги, инструменты и велосипеды. Обычная скидка на товар по партнёрской ссылке.",
+      "source_id": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:50:39.755021+00:00",
+      "url": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e10",
+      "quote": "Ойын бөлімі Казиноға тіркелу, ақша салу және ұтысты шығару. Слоты қолжетімді.",
+      "source_id": "https://k74aa14700f.test/c676e96",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:50:39.756020+00:00",
+      "url": "https://k74aa14700f.test/c676e96",
+      "status_code": 200,
+      "observation_id": "obs-1"
+    },
+    {
+      "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e11",
+      "quote": "Казиноға",
+      "source_id": "https://k74aa14700f.test/c676e96",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:39.756020+00:00",
+      "start": 12,
+      "end": 20,
+      "url": "https://k74aa14700f.test/c676e96"
+    },
+    {
+      "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e12",
+      "quote": "тіркелу",
+      "source_id": "https://k74aa14700f.test/c676e96",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:39.756020+00:00",
+      "start": 21,
+      "end": 28,
+      "url": "https://k74aa14700f.test/c676e96"
+    },
+    {
+      "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e13",
+      "quote": "ұтысты",
+      "source_id": "https://k74aa14700f.test/c676e96",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:39.756020+00:00",
+      "start": 45,
+      "end": 51,
+      "url": "https://k74aa14700f.test/c676e96"
+    },
+    {
+      "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e14",
+      "quote": "Слоты",
+      "source_id": "https://k74aa14700f.test/c676e96",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:39.756020+00:00",
+      "start": 60,
+      "end": 65,
+      "url": "https://k74aa14700f.test/c676e96"
+    },
+    {
+      "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e15",
+      "quote": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+      "source_id": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:50:39.756020+00:00",
+      "url": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+      "relation": "contains_link"
+    },
+    {
+      "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e16",
+      "quote": "https://k74aa14700f.test/c676e96",
+      "source_id": "https://k74aa14700f.test/c676e96",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:50:39.756020+00:00",
+      "url": "https://k74aa14700f.test/c676e96",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+        "at": "2026-10-21T20:50:39.753023+00:00",
+        "status_code": 200,
+        "text": "Каталог Книги, инструменты и велосипеды. Обычная скидка на товар по партнёрской ссылке.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:50:39.754024+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "f30f9491c64bbc50f5f929b2fa18b60d32a0dfcd3f132d657be093e741eb988b",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+        "evidence_id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e9",
+        "context": {
+          "language": "ru",
+          "context": "ambiguous",
+          "claims": [],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      },
+      {
+        "id": "obs-1",
+        "url": "https://k74aa14700f.test/c676e96",
+        "at": "2026-10-21T20:50:39.754024+00:00",
+        "status_code": 200,
+        "text": "Ойын бөлімі Казиноға тіркелу, ақша салу және ұтысты шығару. Слоты қолжетімді.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:50:39.754024+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "66cc791cc750db4fa486f7e8b1c2d17adf7b4c958a1927931e8417694644e3a4",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://k74aa14700f.test/c676e96",
+        "evidence_id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e10",
+        "context": {
+          "language": "kk",
+          "context": "promotion",
+          "claims": [
+            {
+              "kind": "gambling",
+              "quote": "Казиноға",
+              "source_id": "https://k74aa14700f.test/c676e96",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 12,
+              "end": 20
+            },
+            {
+              "kind": "call_to_action",
+              "quote": "тіркелу",
+              "source_id": "https://k74aa14700f.test/c676e96",
+              "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+              "start": 21,
+              "end": 28
+            },
+            {
+              "kind": "promise",
+              "quote": "ұтысты",
+              "source_id": "https://k74aa14700f.test/c676e96",
+              "explanation": "Обещание выигрыша или дохода.",
+              "start": 45,
+              "end": 51
+            },
+            {
+              "kind": "gambling",
+              "quote": "Слоты",
+              "source_id": "https://k74aa14700f.test/c676e96",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 60,
+              "end": 65
+            }
+          ],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+        "type": "contains_link",
+        "quote": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:50:39.753023+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e15"
+      },
+      {
+        "from": null,
+        "to": "https://k74aa14700f.test/c676e96",
+        "type": "contains_link",
+        "quote": "https://k74aa14700f.test/c676e96",
+        "observation_id": "obs-1",
+        "at": "2026-10-21T20:50:39.754024+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e16"
+      }
+    ],
+    "requests": 2,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-3.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.1"
+  },
+  "identifiers": [
+    {
+      "domain": "k45cbc21a81.test",
+      "parameter": "ref",
+      "value": "T615AF81",
+      "scope": "k45cbc21a81.test|/invite/e2a9fc|ref|T615AF81",
+      "url": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+      "material_id": "8c72ef768e7249ae8a29b53e7699daf8",
+      "evidence_id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e9"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:50:34.515436+00:00",
+  "analysis_id": "fa063f1f3c3a",
+  "context": {
+    "language": "kk",
+    "context": "affiliate",
+    "claims": [
+      {
+        "kind": "call_to_action",
+        "quote": "Заходи",
+        "source_id": "8c72ef768e7249ae8a29b53e7699daf8-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 37,
+        "end": 43
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "call_to_action",
+      "quote": "Заходи",
+      "source_id": "8c72ef768e7249ae8a29b53e7699daf8-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 37,
+      "end": 43,
+      "evidence_id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e5"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-495e072a1970afc7",
+        "type": "material",
+        "label": "DEMO · материал 99db31",
+        "evidence_ids": [
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e1"
+        ],
+        "case_id": "bce12d2b06854ad980098173488506e6",
+        "material_id": "8c72ef768e7249ae8a29b53e7699daf8"
+      },
+      {
+        "id": "source-2c417168ccbed4bd",
+        "type": "source",
+        "label": "DEMO · материал 99db31",
+        "evidence_ids": [
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e1"
+        ]
+      },
+      {
+        "id": "url-1babaa8ec2e48168",
+        "type": "url",
+        "label": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+        "evidence_ids": [
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e7",
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e9"
+        ]
+      },
+      {
+        "id": "url-3f652d50dc19191f",
+        "type": "url",
+        "label": "https://k74aa14700f.test/c676e96",
+        "evidence_ids": [
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e8",
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e10"
+        ]
+      },
+      {
+        "id": "observation-7a8614dd34e32206",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e9"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-97766e17755de9b7",
+        "type": "domain",
+        "label": "k45cbc21a81.test",
+        "evidence_ids": [
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e9"
+        ]
+      },
+      {
+        "id": "identifier-448d6728708e28f6",
+        "type": "identifier",
+        "label": "ref=T615AF81",
+        "evidence_ids": [
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e9"
+        ],
+        "scope": "k45cbc21a81.test|/invite/e2a9fc|ref|T615AF81"
+      },
+      {
+        "id": "observation-2881f0e08c38f5e5",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e10"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-ffa32f64df686b0e",
+        "type": "domain",
+        "label": "k74aa14700f.test",
+        "evidence_ids": [
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e10"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-6d953cffccbfa4796b",
+        "source": "source-2c417168ccbed4bd",
+        "target": "material-495e072a1970afc7",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e1"
+        ],
+        "at": "2026-10-21T20:50:34.515436+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-e3d80afc346e2bb7d3",
+        "source": "material-495e072a1970afc7",
+        "target": "url-1babaa8ec2e48168",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e7"
+        ],
+        "at": "2026-10-21T20:50:34.515436+00:00",
+        "method": "ocr",
+        "status": "observed"
+      },
+      {
+        "id": "edge-e4e3c8bced0e69325b",
+        "source": "material-495e072a1970afc7",
+        "target": "url-3f652d50dc19191f",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e8"
+        ],
+        "at": "2026-10-21T20:50:34.515436+00:00",
+        "method": "ocr",
+        "status": "observed"
+      },
+      {
+        "id": "edge-9e1ce987bb8bf8072d",
+        "source": "url-1babaa8ec2e48168",
+        "target": "observation-7a8614dd34e32206",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e9"
+        ],
+        "at": "2026-10-21T20:50:34.515436+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-77d3925c1ff4c31dce",
+        "source": "url-1babaa8ec2e48168",
+        "target": "domain-97766e17755de9b7",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e9"
+        ],
+        "at": "2026-10-21T20:50:34.515436+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-1f6ffeca59273f6f00",
+        "source": "url-1babaa8ec2e48168",
+        "target": "identifier-448d6728708e28f6",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e9"
+        ],
+        "at": "2026-10-21T20:50:34.515436+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-adf7aa02275f67948a",
+        "source": "url-3f652d50dc19191f",
+        "target": "observation-2881f0e08c38f5e5",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e10"
+        ],
+        "at": "2026-10-21T20:50:34.515436+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-3868552b95c4aa98dd",
+        "source": "url-3f652d50dc19191f",
+        "target": "domain-ffa32f64df686b0e",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e10"
+        ],
+        "at": "2026-10-21T20:50:34.515436+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e1",
+        "quote": "DEMO · материал 99db31",
+        "source_id": "8c72ef768e7249ae8a29b53e7699daf8",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:50:34.515436+00:00",
+        "material_id": "8c72ef768e7249ae8a29b53e7699daf8",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e2",
+        "quote": "DЕМО. Еріктілерге жаңа ауысым керек. Заходи по адресу записи на смену",
+        "source_id": "8c72ef768e7249ae8a29b53e7699daf8-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:50:39.649494+00:00",
+        "material_id": "8c72ef768e7249ae8a29b53e7699daf8",
+        "polygon": [
+          [
+            28.0,
+            26.0
+          ],
+          [
+            925.0,
+            29.0
+          ],
+          [
+            925.0,
+            58.0
+          ],
+          [
+            28.0,
+            55.0
+          ]
+        ],
+        "confidence": 0.9862476587295532
+      },
+      {
+        "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e3",
+        "quote": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81. Aдреc из отдельной",
+        "source_id": "8c72ef768e7249ae8a29b53e7699daf8-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:50:39.649494+00:00",
+        "material_id": "8c72ef768e7249ae8a29b53e7699daf8",
+        "polygon": [
+          [
+            29.0,
+            69.0
+          ],
+          [
+            888.0,
+            69.0
+          ],
+          [
+            888.0,
+            95.0
+          ],
+          [
+            29.0,
+            95.0
+          ]
+        ],
+        "confidence": 0.9661356806755066
+      },
+      {
+        "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e4",
+        "quote": "жалобы: https://k74aa14700f.test/c676e96",
+        "source_id": "8c72ef768e7249ae8a29b53e7699daf8-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:50:39.649494+00:00",
+        "material_id": "8c72ef768e7249ae8a29b53e7699daf8",
+        "polygon": [
+          [
+            27.0,
+            109.0
+          ],
+          [
+            512.0,
+            107.0
+          ],
+          [
+            512.0,
+            135.0
+          ],
+          [
+            27.0,
+            137.0
+          ]
+        ],
+        "confidence": 0.9931327700614929
+      },
+      {
+        "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e5",
+        "quote": "Заходи",
+        "source_id": "8c72ef768e7249ae8a29b53e7699daf8-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:39.753023+00:00",
+        "start": 37,
+        "end": 43,
+        "material_id": "8c72ef768e7249ae8a29b53e7699daf8"
+      },
+      {
+        "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e6",
+        "quote": "DЕМО. Еріктілерге жаңа ауысым керек. Заходи по адресу записи на смену\nhttps://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81. Aдреc из отдельной\nжалобы: https://k74aa14700f.test/c676e96",
+        "source_id": "8c72ef768e7249ae8a29b53e7699daf8-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:50:39.753023+00:00",
+        "material_id": "8c72ef768e7249ae8a29b53e7699daf8"
+      },
+      {
+        "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e7",
+        "quote": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+        "source_id": "8c72ef768e7249ae8a29b53e7699daf8-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:50:39.753023+00:00",
+        "material_id": "8c72ef768e7249ae8a29b53e7699daf8"
+      },
+      {
+        "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e8",
+        "quote": "https://k74aa14700f.test/c676e96",
+        "source_id": "8c72ef768e7249ae8a29b53e7699daf8-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:50:39.753023+00:00",
+        "material_id": "8c72ef768e7249ae8a29b53e7699daf8"
+      },
+      {
+        "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e9",
+        "quote": "Каталог Книги, инструменты и велосипеды. Обычная скидка на товар по партнёрской ссылке.",
+        "source_id": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:50:39.755021+00:00",
+        "url": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e10",
+        "quote": "Ойын бөлімі Казиноға тіркелу, ақша салу және ұтысты шығару. Слоты қолжетімді.",
+        "source_id": "https://k74aa14700f.test/c676e96",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:50:39.756020+00:00",
+        "url": "https://k74aa14700f.test/c676e96",
+        "status_code": 200,
+        "observation_id": "obs-1"
+      },
+      {
+        "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e11",
+        "quote": "Казиноға",
+        "source_id": "https://k74aa14700f.test/c676e96",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:39.756020+00:00",
+        "start": 12,
+        "end": 20,
+        "url": "https://k74aa14700f.test/c676e96"
+      },
+      {
+        "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e12",
+        "quote": "тіркелу",
+        "source_id": "https://k74aa14700f.test/c676e96",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:39.756020+00:00",
+        "start": 21,
+        "end": 28,
+        "url": "https://k74aa14700f.test/c676e96"
+      },
+      {
+        "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e13",
+        "quote": "ұтысты",
+        "source_id": "https://k74aa14700f.test/c676e96",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:39.756020+00:00",
+        "start": 45,
+        "end": 51,
+        "url": "https://k74aa14700f.test/c676e96"
+      },
+      {
+        "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e14",
+        "quote": "Слоты",
+        "source_id": "https://k74aa14700f.test/c676e96",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:39.756020+00:00",
+        "start": 60,
+        "end": 65,
+        "url": "https://k74aa14700f.test/c676e96"
+      },
+      {
+        "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e15",
+        "quote": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+        "source_id": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:50:39.756020+00:00",
+        "url": "https://k45cbc21a81.test/invite/e2a9fc?ref=T615AF81",
+        "relation": "contains_link"
+      },
+      {
+        "id": "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e16",
+        "quote": "https://k74aa14700f.test/c676e96",
+        "source_id": "https://k74aa14700f.test/c676e96",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:50:39.756020+00:00",
+        "url": "https://k74aa14700f.test/c676e96",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:50:39.756020+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 65,
+    "level": "high",
+    "contributions": [
+      {
+        "key": "destination_and_call",
+        "title": "Игровые признаки на странице + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e5",
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e11",
+          "bce12d2b06854ad980098173488506e6-fa063f1f3c3a-e14"
+        ]
+      }
+    ],
+    "version": "rules-3.0",
+    "weights": {
+      "version": "weights-3.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "8c72ef768e7249ae8a29b53e7699daf8",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 5241.1
+}

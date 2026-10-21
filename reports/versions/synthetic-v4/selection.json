@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-21T20:58:07.391607+00:00",
+  "protocol": "docs/EVALUATION_PROTOCOL_V4.md",
+  "checks": {
+    "fp_not_increased": true,
+    "wrong_automatic_urls_not_increased": true,
+    "measurable_advantage": true,
+    "recall_loss_at_most_one_positive": true
+  },
+  "selected": "v4",
+  "scope": "Predeclared metric selection for a local MVP, subject to final preservation/launch/transfer acceptance. No population-quality guarantee."
+}

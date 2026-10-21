@@ -1,0 +1,1020 @@
+{
+  "id": "2d7ec51b828c44b88ae8e5e7641a6df7",
+  "title": "Материал",
+  "mode": "synthetic",
+  "created_at": "2026-10-21T20:50:07.122776+00:00",
+  "status": "completed",
+  "stage": "priority",
+  "progress": 100,
+  "materials": [
+    {
+      "text": "",
+      "url": "",
+      "source": "DEMO · материал b61bd4",
+      "published_at": null,
+      "image_id": "48f769b3f362523a709cc38f869210e9.png",
+      "id": "08fc2581aefe41afabe8998027f2e33f",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "image_sha256": "48f769b3f362523a709cc38f869210e9cf292ccba4862dd48339f8f296733044",
+      "source_evidence_id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e1",
+      "normalized_text": "",
+      "ocr": {
+        "text": "DЕМО. Оқу мысалында казино атауы кездеседі. Сабаққа ғана қосылыңыз,\nнұсқаулық QR-кодта берілген. QR төменде.",
+        "lines": [
+          {
+            "text": "DЕМО. Оқу мысалында казино атауы кездеседі. Сабаққа ғана қосылыңыз,",
+            "confidence": 0.9883913397789001,
+            "polygon": [
+              [
+                28.0,
+                24.0
+              ],
+              [
+                1006.0,
+                25.0
+              ],
+              [
+                1006.0,
+                58.0
+              ],
+              [
+                28.0,
+                57.0
+              ]
+            ],
+            "segment_indices": [
+              0
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: DЕМО."
+            ],
+            "evidence_id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e2"
+          },
+          {
+            "text": "нұсқаулық QR-кодта берілген. QR төменде.",
+            "confidence": 0.9964536428451538,
+            "polygon": [
+              [
+                28.0,
+                71.0
+              ],
+              [
+                599.0,
+                70.0
+              ],
+              [
+                599.0,
+                101.0
+              ],
+              [
+                28.0,
+                102.0
+              ]
+            ],
+            "segment_indices": [
+              1
+            ],
+            "uncertain": true,
+            "warnings": [
+              "Смешение алфавитов в токене: QR-кодта"
+            ],
+            "evidence_id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e3"
+          }
+        ],
+        "raw_text": "DЕМО. Оқу мысалында казино атауы кездеседі. Сабаққа ғана қосылыңыз,\nнұсқаулық QR-кодта берілген. QR төменде.",
+        "raw_lines": [
+          {
+            "text": "DЕМО. Оқу мысалында казино атауы кездеседі. Сабаққа ғана қосылыңыз,",
+            "confidence": 0.9883913397789001,
+            "polygon": [
+              [
+                28.0,
+                24.0
+              ],
+              [
+                1006.0,
+                25.0
+              ],
+              [
+                1006.0,
+                58.0
+              ],
+              [
+                28.0,
+                57.0
+              ]
+            ]
+          },
+          {
+            "text": "нұсқаулық QR-кодта берілген. QR төменде.",
+            "confidence": 0.9964536428451538,
+            "polygon": [
+              [
+                28.0,
+                71.0
+              ],
+              [
+                599.0,
+                70.0
+              ],
+              [
+                599.0,
+                101.0
+              ],
+              [
+                28.0,
+                102.0
+              ]
+            ]
+          }
+        ],
+        "rotation_ccw": 0,
+        "orientation_attempts": [
+          {
+            "angle_ccw": 0,
+            "characters": 89,
+            "mean_confidence": 0.9913807330506571,
+            "score": 86.72245158152262,
+            "vertical_fraction": 0.0
+          }
+        ],
+        "width": 1120,
+        "height": 474,
+        "model": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+        "library": "3.7.0",
+        "cache_hit": false,
+        "coordinate_space": "EXIF-oriented image pixels",
+        "limitations": "OCR может ошибаться в символах. Соседние фрагменты объединены пробелами; raw_lines сохраняет исходный вывод. URL и коды не исправлялись. Ориентация выбирается эвристически."
+      },
+      "qr": {
+        "codes": [
+          {
+            "text": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+            "truncated": false,
+            "valid_url": true,
+            "reason": null,
+            "polygon": [
+              [
+                72.0,
+                170.0
+              ],
+              [
+                273.0,
+                170.0
+              ],
+              [
+                273.3611145019531,
+                371.3260192871094
+              ],
+              [
+                72.0,
+                372.0
+              ]
+            ],
+            "evidence_id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e4"
+          }
+        ],
+        "width": 1120,
+        "height": 474,
+        "version": "qr-1.0",
+        "decoder": "OpenCV 4.10.0",
+        "cache_hit": false,
+        "elapsed_ms": 58.42,
+        "limitations": "До 8 QR-кодов, изображение до 1600 px по длинной стороне. Мелкие, поврежденные и составные QR могут не читаться. Декодирование не подтверждает безопасность адреса."
+      },
+      "urls": [
+        "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0"
+      ],
+      "promo_codes": [],
+      "content_evidence_ids": [
+        "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e8",
+        "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e4"
+      ],
+      "reachable_urls": [
+        "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0"
+      ],
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [
+          {
+            "key": "gambling_and_call",
+            "title": "Игровая лексика + призыв",
+            "weight": 65,
+            "evidence_ids": [
+              "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e5",
+              "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e6"
+            ]
+          },
+          {
+            "key": "destination_alternative_context",
+            "title": "Альтернативный контекст страницы: не подтверждает игровой адрес",
+            "weight": 0,
+            "evidence_ids": [
+              "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e11",
+              "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e12",
+              "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e13"
+            ]
+          },
+          {
+            "key": "alternative_context",
+            "title": "Альтернативный контекст: образовательный разбор",
+            "weight": -65,
+            "evidence_ids": [
+              "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e7"
+            ]
+          }
+        ],
+        "version": "rules-3.0",
+        "weights": {
+          "version": "weights-3.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения."
+      },
+      "context": {
+        "language": "kk",
+        "context": "education",
+        "claims": [
+          {
+            "kind": "gambling",
+            "quote": "казино",
+            "source_id": "08fc2581aefe41afabe8998027f2e33f-ocr",
+            "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+            "start": 20,
+            "end": 26
+          },
+          {
+            "kind": "call_to_action",
+            "quote": "қосылыңыз",
+            "source_id": "08fc2581aefe41afabe8998027f2e33f-ocr",
+            "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+            "start": 57,
+            "end": 66
+          },
+          {
+            "kind": "education",
+            "quote": "Сабаққа",
+            "source_id": "08fc2581aefe41afabe8998027f2e33f-ocr",
+            "explanation": "Альтернатива: образовательный разбор.",
+            "start": 44,
+            "end": 51
+          }
+        ],
+        "contradictions": [],
+        "limitations": [
+          "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+        ]
+      },
+      "sufficient_data": true
+    }
+  ],
+  "stages": {
+    "originals": "completed",
+    "ocr": "completed",
+    "features": "completed",
+    "links": "completed",
+    "graph": "completed",
+    "priority": "completed"
+  },
+  "evidence": [
+    {
+      "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e1",
+      "quote": "DEMO · материал b61bd4",
+      "source_id": "08fc2581aefe41afabe8998027f2e33f",
+      "method": "user_supplied",
+      "at": "2026-10-21T20:50:07.141775+00:00",
+      "material_id": "08fc2581aefe41afabe8998027f2e33f",
+      "note": "Источник заявлен при импорте; авторство не проверено."
+    },
+    {
+      "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e2",
+      "quote": "DЕМО. Оқу мысалында казино атауы кездеседі. Сабаққа ғана қосылыңыз,",
+      "source_id": "08fc2581aefe41afabe8998027f2e33f-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:50:10.586457+00:00",
+      "material_id": "08fc2581aefe41afabe8998027f2e33f",
+      "polygon": [
+        [
+          28.0,
+          24.0
+        ],
+        [
+          1006.0,
+          25.0
+        ],
+        [
+          1006.0,
+          58.0
+        ],
+        [
+          28.0,
+          57.0
+        ]
+      ],
+      "confidence": 0.9883913397789001
+    },
+    {
+      "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e3",
+      "quote": "нұсқаулық QR-кодта берілген. QR төменде.",
+      "source_id": "08fc2581aefe41afabe8998027f2e33f-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:50:10.586457+00:00",
+      "material_id": "08fc2581aefe41afabe8998027f2e33f",
+      "polygon": [
+        [
+          28.0,
+          71.0
+        ],
+        [
+          599.0,
+          70.0
+        ],
+        [
+          599.0,
+          101.0
+        ],
+        [
+          28.0,
+          102.0
+        ]
+      ],
+      "confidence": 0.9964536428451538
+    },
+    {
+      "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e4",
+      "quote": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+      "source_id": "08fc2581aefe41afabe8998027f2e33f-qr",
+      "method": "qr_decode",
+      "at": "2026-10-21T20:50:10.660026+00:00",
+      "material_id": "08fc2581aefe41afabe8998027f2e33f",
+      "polygon": [
+        [
+          72.0,
+          170.0
+        ],
+        [
+          273.0,
+          170.0
+        ],
+        [
+          273.3611145019531,
+          371.3260192871094
+        ],
+        [
+          72.0,
+          372.0
+        ]
+      ],
+      "note": "Адрес декодирован из QR; безопасность проверяется отдельно."
+    },
+    {
+      "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e5",
+      "quote": "казино",
+      "source_id": "08fc2581aefe41afabe8998027f2e33f-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:10.661024+00:00",
+      "start": 20,
+      "end": 26,
+      "material_id": "08fc2581aefe41afabe8998027f2e33f"
+    },
+    {
+      "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e6",
+      "quote": "қосылыңыз",
+      "source_id": "08fc2581aefe41afabe8998027f2e33f-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:10.661024+00:00",
+      "start": 57,
+      "end": 66,
+      "material_id": "08fc2581aefe41afabe8998027f2e33f"
+    },
+    {
+      "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e7",
+      "quote": "Сабаққа",
+      "source_id": "08fc2581aefe41afabe8998027f2e33f-ocr",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:10.661024+00:00",
+      "start": 44,
+      "end": 51,
+      "material_id": "08fc2581aefe41afabe8998027f2e33f"
+    },
+    {
+      "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e8",
+      "quote": "DЕМО. Оқу мысалында казино атауы кездеседі. Сабаққа ғана қосылыңыз,\nнұсқаулық QR-кодта берілген. QR төменде.",
+      "source_id": "08fc2581aefe41afabe8998027f2e33f-ocr",
+      "method": "ocr",
+      "at": "2026-10-21T20:50:10.661024+00:00",
+      "material_id": "08fc2581aefe41afabe8998027f2e33f"
+    },
+    {
+      "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e9",
+      "quote": "Медиасауат сабағы Казино жарнамасы қалай жұмыс істейді? Бұл оқу мысалы, ақша салмаңыз.",
+      "source_id": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:50:10.662029+00:00",
+      "url": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+      "status_code": 200,
+      "observation_id": "obs-0"
+    },
+    {
+      "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e10",
+      "quote": "Казино",
+      "source_id": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:10.662029+00:00",
+      "start": 18,
+      "end": 24,
+      "url": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0"
+    },
+    {
+      "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e11",
+      "quote": "Медиасауат",
+      "source_id": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:10.662029+00:00",
+      "start": 0,
+      "end": 10,
+      "url": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0"
+    },
+    {
+      "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e12",
+      "quote": "сабағы",
+      "source_id": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:10.662029+00:00",
+      "start": 11,
+      "end": 17,
+      "url": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0"
+    },
+    {
+      "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e13",
+      "quote": "оқу мысалы",
+      "source_id": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+      "method": "local_rule",
+      "at": "2026-10-21T20:50:10.662029+00:00",
+      "start": 60,
+      "end": 70,
+      "url": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0"
+    },
+    {
+      "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e14",
+      "quote": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+      "source_id": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+      "method": "synthetic_transport",
+      "at": "2026-10-21T20:50:10.662029+00:00",
+      "url": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+      "relation": "contains_link"
+    }
+  ],
+  "trace": {
+    "observations": [
+      {
+        "id": "obs-0",
+        "url": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+        "at": "2026-10-21T20:50:10.661024+00:00",
+        "status_code": 200,
+        "text": "Медиасауат сабағы Казино жарнамасы қалай жұмыс істейді? Бұл оқу мысалы, ақша салмаңыз.",
+        "stop": null,
+        "depth": 0,
+        "method": "synthetic_transport",
+        "attempts": [
+          {
+            "at": "2026-10-21T20:50:10.661024+00:00",
+            "status_code": 200
+          }
+        ],
+        "body_sha256": "991f90e894fae36194f2f60abef1706a08b7e2b4b04c77a8aaeb04b6eb5b59da",
+        "connected_ip": null,
+        "links": [],
+        "content_type": "text/html",
+        "encoding": "utf-8",
+        "encoding_source": "default",
+        "document_base": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+        "evidence_id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e9",
+        "context": {
+          "language": "kk",
+          "context": "education",
+          "claims": [
+            {
+              "kind": "gambling",
+              "quote": "Казино",
+              "source_id": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+              "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+              "start": 18,
+              "end": 24
+            },
+            {
+              "kind": "education",
+              "quote": "Медиасауат",
+              "source_id": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+              "explanation": "Альтернатива: образовательный разбор.",
+              "start": 0,
+              "end": 10
+            },
+            {
+              "kind": "education",
+              "quote": "сабағы",
+              "source_id": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+              "explanation": "Альтернатива: образовательный разбор.",
+              "start": 11,
+              "end": 17
+            },
+            {
+              "kind": "education",
+              "quote": "оқу мысалы",
+              "source_id": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+              "explanation": "Альтернатива: образовательный разбор.",
+              "start": 60,
+              "end": 70
+            }
+          ],
+          "contradictions": [],
+          "limitations": [
+            "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "from": null,
+        "to": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+        "type": "contains_link",
+        "quote": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+        "observation_id": "obs-0",
+        "at": "2026-10-21T20:50:10.661024+00:00",
+        "method": "synthetic_transport",
+        "evidence_id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e14"
+      }
+    ],
+    "requests": 1,
+    "unvisited": []
+  },
+  "limitations": [
+    "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+    "Индекс не является вероятностью нарушения или юридическим заключением.",
+    "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+  ],
+  "history": [],
+  "versions": {
+    "rules": "rules-3.0",
+    "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+    "qr": "qr-1.0",
+    "pipeline": "pipeline-2.1"
+  },
+  "identifiers": [
+    {
+      "domain": "k628b4c6bd8.test",
+      "parameter": "ref",
+      "value": "TDD19BC0",
+      "scope": "k628b4c6bd8.test|/visit/060d41|ref|TDD19BC0",
+      "url": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+      "material_id": "08fc2581aefe41afabe8998027f2e33f",
+      "evidence_id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e9"
+    }
+  ],
+  "analyzed_at": "2026-10-21T20:50:07.141775+00:00",
+  "analysis_id": "53c8fb37aded",
+  "context": {
+    "language": "kk",
+    "context": "education",
+    "claims": [
+      {
+        "kind": "gambling",
+        "quote": "казино",
+        "source_id": "08fc2581aefe41afabe8998027f2e33f-ocr",
+        "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+        "start": 20,
+        "end": 26
+      },
+      {
+        "kind": "call_to_action",
+        "quote": "қосылыңыз",
+        "source_id": "08fc2581aefe41afabe8998027f2e33f-ocr",
+        "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+        "start": 57,
+        "end": 66
+      },
+      {
+        "kind": "education",
+        "quote": "Сабаққа",
+        "source_id": "08fc2581aefe41afabe8998027f2e33f-ocr",
+        "explanation": "Альтернатива: образовательный разбор.",
+        "start": 44,
+        "end": 51
+      }
+    ],
+    "contradictions": [],
+    "limitations": [
+      "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+    ]
+  },
+  "claims": [
+    {
+      "kind": "gambling",
+      "quote": "казино",
+      "source_id": "08fc2581aefe41afabe8998027f2e33f-ocr",
+      "explanation": "Лексический признак игрового ресурса; сам по себе не доказывает продвижение.",
+      "start": 20,
+      "end": 26,
+      "evidence_id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e5"
+    },
+    {
+      "kind": "call_to_action",
+      "quote": "қосылыңыз",
+      "source_id": "08fc2581aefe41afabe8998027f2e33f-ocr",
+      "explanation": "Возможный рекламный призыв; требуется проверка контекста.",
+      "start": 57,
+      "end": 66,
+      "evidence_id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e6"
+    },
+    {
+      "kind": "education",
+      "quote": "Сабаққа",
+      "source_id": "08fc2581aefe41afabe8998027f2e33f-ocr",
+      "explanation": "Альтернатива: образовательный разбор.",
+      "start": 44,
+      "end": 51,
+      "evidence_id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e7"
+    }
+  ],
+  "rejected_claims": [],
+  "provider": "local_rule",
+  "graph": {
+    "nodes": [
+      {
+        "id": "material-ef03fbb0abda36d4",
+        "type": "material",
+        "label": "DEMO · материал b61bd4",
+        "evidence_ids": [
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e1"
+        ],
+        "case_id": "2d7ec51b828c44b88ae8e5e7641a6df7",
+        "material_id": "08fc2581aefe41afabe8998027f2e33f"
+      },
+      {
+        "id": "source-bef9bf7f30de6bd8",
+        "type": "source",
+        "label": "DEMO · материал b61bd4",
+        "evidence_ids": [
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e1"
+        ]
+      },
+      {
+        "id": "url-89a8e49aee3d45cc",
+        "type": "url",
+        "label": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+        "evidence_ids": [
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e4",
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e9"
+        ]
+      },
+      {
+        "id": "observation-3f1067fb9ec7cda4",
+        "type": "observation",
+        "label": "HTTP 200",
+        "evidence_ids": [
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e9"
+        ],
+        "stopped": false
+      },
+      {
+        "id": "domain-c7a1470937e21287",
+        "type": "domain",
+        "label": "k628b4c6bd8.test",
+        "evidence_ids": [
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e9"
+        ]
+      },
+      {
+        "id": "identifier-b0104cab3f263169",
+        "type": "identifier",
+        "label": "ref=TDD19BC0",
+        "evidence_ids": [
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e9"
+        ],
+        "scope": "k628b4c6bd8.test|/visit/060d41|ref|TDD19BC0"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-9b971a31f7b693c53b",
+        "source": "source-bef9bf7f30de6bd8",
+        "target": "material-ef03fbb0abda36d4",
+        "type": "published",
+        "label": "published",
+        "evidence_ids": [
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e1"
+        ],
+        "at": "2026-10-21T20:50:07.141775+00:00",
+        "method": "user_supplied",
+        "status": "observed"
+      },
+      {
+        "id": "edge-40df3eb4307b55e920",
+        "source": "material-ef03fbb0abda36d4",
+        "target": "url-89a8e49aee3d45cc",
+        "type": "contains_link",
+        "label": "contains_link",
+        "evidence_ids": [
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e4"
+        ],
+        "at": "2026-10-21T20:50:07.141775+00:00",
+        "method": "qr_decode",
+        "status": "observed"
+      },
+      {
+        "id": "edge-d7f6e3261026a7dbdd",
+        "source": "url-89a8e49aee3d45cc",
+        "target": "observation-3f1067fb9ec7cda4",
+        "type": "observed",
+        "label": "observed",
+        "evidence_ids": [
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e9"
+        ],
+        "at": "2026-10-21T20:50:07.141775+00:00",
+        "method": "synthetic_transport",
+        "status": "observed"
+      },
+      {
+        "id": "edge-d7bb792b7688ed8ef0",
+        "source": "url-89a8e49aee3d45cc",
+        "target": "domain-c7a1470937e21287",
+        "type": "on_domain",
+        "label": "on_domain",
+        "evidence_ids": [
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e9"
+        ],
+        "at": "2026-10-21T20:50:07.141775+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      },
+      {
+        "id": "edge-bc9b15be19b6012447",
+        "source": "url-89a8e49aee3d45cc",
+        "target": "identifier-b0104cab3f263169",
+        "type": "contains_identifier",
+        "label": "contains_identifier",
+        "evidence_ids": [
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e9"
+        ],
+        "at": "2026-10-21T20:50:07.141775+00:00",
+        "method": "url_parser",
+        "status": "observed"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e1",
+        "quote": "DEMO · материал b61bd4",
+        "source_id": "08fc2581aefe41afabe8998027f2e33f",
+        "method": "user_supplied",
+        "at": "2026-10-21T20:50:07.141775+00:00",
+        "material_id": "08fc2581aefe41afabe8998027f2e33f",
+        "note": "Источник заявлен при импорте; авторство не проверено."
+      },
+      {
+        "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e2",
+        "quote": "DЕМО. Оқу мысалында казино атауы кездеседі. Сабаққа ғана қосылыңыз,",
+        "source_id": "08fc2581aefe41afabe8998027f2e33f-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:50:10.586457+00:00",
+        "material_id": "08fc2581aefe41afabe8998027f2e33f",
+        "polygon": [
+          [
+            28.0,
+            24.0
+          ],
+          [
+            1006.0,
+            25.0
+          ],
+          [
+            1006.0,
+            58.0
+          ],
+          [
+            28.0,
+            57.0
+          ]
+        ],
+        "confidence": 0.9883913397789001
+      },
+      {
+        "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e3",
+        "quote": "нұсқаулық QR-кодта берілген. QR төменде.",
+        "source_id": "08fc2581aefe41afabe8998027f2e33f-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:50:10.586457+00:00",
+        "material_id": "08fc2581aefe41afabe8998027f2e33f",
+        "polygon": [
+          [
+            28.0,
+            71.0
+          ],
+          [
+            599.0,
+            70.0
+          ],
+          [
+            599.0,
+            101.0
+          ],
+          [
+            28.0,
+            102.0
+          ]
+        ],
+        "confidence": 0.9964536428451538
+      },
+      {
+        "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e4",
+        "quote": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+        "source_id": "08fc2581aefe41afabe8998027f2e33f-qr",
+        "method": "qr_decode",
+        "at": "2026-10-21T20:50:10.660026+00:00",
+        "material_id": "08fc2581aefe41afabe8998027f2e33f",
+        "polygon": [
+          [
+            72.0,
+            170.0
+          ],
+          [
+            273.0,
+            170.0
+          ],
+          [
+            273.3611145019531,
+            371.3260192871094
+          ],
+          [
+            72.0,
+            372.0
+          ]
+        ],
+        "note": "Адрес декодирован из QR; безопасность проверяется отдельно."
+      },
+      {
+        "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e5",
+        "quote": "казино",
+        "source_id": "08fc2581aefe41afabe8998027f2e33f-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:10.661024+00:00",
+        "start": 20,
+        "end": 26,
+        "material_id": "08fc2581aefe41afabe8998027f2e33f"
+      },
+      {
+        "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e6",
+        "quote": "қосылыңыз",
+        "source_id": "08fc2581aefe41afabe8998027f2e33f-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:10.661024+00:00",
+        "start": 57,
+        "end": 66,
+        "material_id": "08fc2581aefe41afabe8998027f2e33f"
+      },
+      {
+        "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e7",
+        "quote": "Сабаққа",
+        "source_id": "08fc2581aefe41afabe8998027f2e33f-ocr",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:10.661024+00:00",
+        "start": 44,
+        "end": 51,
+        "material_id": "08fc2581aefe41afabe8998027f2e33f"
+      },
+      {
+        "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e8",
+        "quote": "DЕМО. Оқу мысалында казино атауы кездеседі. Сабаққа ғана қосылыңыз,\nнұсқаулық QR-кодта берілген. QR төменде.",
+        "source_id": "08fc2581aefe41afabe8998027f2e33f-ocr",
+        "method": "ocr",
+        "at": "2026-10-21T20:50:10.661024+00:00",
+        "material_id": "08fc2581aefe41afabe8998027f2e33f"
+      },
+      {
+        "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e9",
+        "quote": "Медиасауат сабағы Казино жарнамасы қалай жұмыс істейді? Бұл оқу мысалы, ақша салмаңыз.",
+        "source_id": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:50:10.662029+00:00",
+        "url": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+        "status_code": 200,
+        "observation_id": "obs-0"
+      },
+      {
+        "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e10",
+        "quote": "Казино",
+        "source_id": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:10.662029+00:00",
+        "start": 18,
+        "end": 24,
+        "url": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0"
+      },
+      {
+        "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e11",
+        "quote": "Медиасауат",
+        "source_id": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:10.662029+00:00",
+        "start": 0,
+        "end": 10,
+        "url": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0"
+      },
+      {
+        "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e12",
+        "quote": "сабағы",
+        "source_id": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:10.662029+00:00",
+        "start": 11,
+        "end": 17,
+        "url": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0"
+      },
+      {
+        "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e13",
+        "quote": "оқу мысалы",
+        "source_id": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+        "method": "local_rule",
+        "at": "2026-10-21T20:50:10.662029+00:00",
+        "start": 60,
+        "end": 70,
+        "url": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0"
+      },
+      {
+        "id": "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e14",
+        "quote": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+        "source_id": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+        "method": "synthetic_transport",
+        "at": "2026-10-21T20:50:10.662029+00:00",
+        "url": "https://k628b4c6bd8.test/visit/060d41?ref=TDD19BC0",
+        "relation": "contains_link"
+      }
+    ],
+    "generated_at": "2026-10-21T20:50:10.663030+00:00",
+    "limitation": "Совпадение идентификатора — основание проверить связь, не доказательство общего владельца."
+  },
+  "score": {
+    "value": 0,
+    "level": "low",
+    "contributions": [
+      {
+        "key": "gambling_and_call",
+        "title": "Игровая лексика + призыв",
+        "weight": 65,
+        "evidence_ids": [
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e5",
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e6"
+        ]
+      },
+      {
+        "key": "destination_alternative_context",
+        "title": "Альтернативный контекст страницы: не подтверждает игровой адрес",
+        "weight": 0,
+        "evidence_ids": [
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e11",
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e12",
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e13"
+        ]
+      },
+      {
+        "key": "alternative_context",
+        "title": "Альтернативный контекст: образовательный разбор",
+        "weight": -65,
+        "evidence_ids": [
+          "2d7ec51b828c44b88ae8e5e7641a6df7-53c8fb37aded-e7"
+        ]
+      }
+    ],
+    "version": "rules-3.0",
+    "weights": {
+      "version": "weights-3.0",
+      "high_threshold": 65,
+      "medium_threshold": 35,
+      "gambling_and_call": 65,
+      "destination_and_call": 65,
+      "bonus_in_promotion": 15,
+      "promise_in_promotion": 10,
+      "repeated_referral_in_promotion": 10,
+      "alternative_context": -65,
+      "contradictory_context": 0,
+      "destination_alternative_context": 0
+    },
+    "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+    "material_id": "08fc2581aefe41afabe8998027f2e33f",
+    "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+  },
+  "sufficient_data": true,
+  "elapsed_ms": 3521.3
+}

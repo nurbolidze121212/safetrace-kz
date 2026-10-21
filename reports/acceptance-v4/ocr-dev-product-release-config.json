@@ -1,0 +1,1798 @@
+{
+  "at": "2026-10-21T20:25:57.187422+00:00",
+  "ocr_version": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+  "provenance": "author_synthetic_development; previously inspected and used for development",
+  "definitions": "One expected URL per image. Exact comparisons preserve characters. Candidates are not automatically followed or counted as automatic successes. Timings include bounded English reading when triggered; primary engine preloaded, English initially cold.",
+  "cold_primary_engine_ms": 4110.11150000013,
+  "summary": {
+    "n": 40,
+    "raw_exact": 37,
+    "automatic_exact": 35,
+    "raw_wrong_addresses": 3,
+    "automatic_wrong_addresses": 0,
+    "automatic_abstentions": 5,
+    "candidate_exact": 39,
+    "domain_exact": 38,
+    "referral_exact": 38,
+    "p50_ms": 2397.7275,
+    "p95_ms": 3817.274
+  },
+  "rows": [
+    {
+      "id": "4e5798a8e5e9c4a22bff",
+      "image": "4e5798a8e5e9c4a22bff.png",
+      "url": "https://m42e8f.example/item?ref=R7e31",
+      "language": "ru",
+      "font_size": 24,
+      "style": "plain",
+      "caption": "Переходи по приглашению, бонус внутри.",
+      "provenance": "author_synthetic_development",
+      "sha256": "05e38d8568f3e6e38476707e38bdcd33d6a55ac02623a1824478e89271cc1f6d",
+      "raw_urls": [
+        "https://m42e8f.example/item?ref=R7e31"
+      ],
+      "automatic_urls": [
+        "https://m42e8f.example/item?ref=R7e31"
+      ],
+      "candidates": [
+        "https://m42e8f.example/item?ref=R7e31"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 1646.505,
+      "readings": [
+        {
+          "raw_url": "https://m42e8f.example/item?ref=R7e31",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Переходи по приглашению, бонус внутри.\nhttps://m42e8f.example/item?ref=R7e31",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "8351248d5841ce22e3e6",
+      "image": "8351248d5841ce22e3e6.png",
+      "url": "https://q8ed17.example/entry?ref=Q2k84",
+      "language": "kk",
+      "font_size": 22,
+      "style": "plain",
+      "caption": "Сілтемеге өтіңіз, сыйлық алыңыз.",
+      "provenance": "author_synthetic_development",
+      "sha256": "f830a25f9fb3d9b10080f5d267c60c19179a1ffb7ef228330588544fe02b7308",
+      "raw_urls": [
+        "https://q8ed17.example/entry?ref=Q2k84"
+      ],
+      "automatic_urls": [
+        "https://q8ed17.example/entry?ref=Q2k84"
+      ],
+      "candidates": [
+        "https://q8ed17.example/entry?ref=Q2k84"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 1548.659,
+      "readings": [
+        {
+          "raw_url": "https://q8ed17.example/entry?ref=Q2k84",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Сілтемеге өтіңіз, сыйлық алыңыз.\nhttps://q8ed17.example/entry?ref=Q2k84",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "2fe26bc83a618b1fa461",
+      "image": "2fe26bc83a618b1fa461.jpg",
+      "url": "https://n73b5e.example/join?code=N8p20",
+      "language": "mixed",
+      "font_size": 18,
+      "style": "jpeg",
+      "caption": "Кешкі кездесу: заходи по ссылке.",
+      "provenance": "author_synthetic_development",
+      "sha256": "ae3ddb9c1fe20ce1e4a10afe1255ab55c4fb6a34927ca9aa1d08d0691a045ca1",
+      "raw_urls": [
+        "https://n73b5e.example/join?code=N8p20"
+      ],
+      "automatic_urls": [
+        "https://n73b5e.example/join?code=N8p20"
+      ],
+      "candidates": [
+        "https://n73b5e.example/join?code=N8p20"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 1552.091,
+      "readings": [
+        {
+          "raw_url": "https://n73b5e.example/join?code=N8p20",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Кешкі кездесу: заходи по ссылке.\nhttps://n73b5e.example/join?code=N8p20",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "581843b765f345288416",
+      "image": "581843b765f345288416.jpg",
+      "url": "https://r2ce90.example/invite?tag=M4e93",
+      "language": "ru",
+      "font_size": 16,
+      "style": "jpeg",
+      "caption": "Не переходите: это рекламный адрес.",
+      "provenance": "author_synthetic_development",
+      "sha256": "fd957ec059b2a2844b8e4766e828835153a4acc5b0dae897f513d6ba785b6ba0",
+      "raw_urls": [
+        "https://r2ce90.example/invite?tag=M4e93"
+      ],
+      "automatic_urls": [
+        "https://r2ce90.example/invite?tag=M4e93"
+      ],
+      "candidates": [
+        "https://r2ce90.example/invite?tag=M4e93"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 1515.44,
+      "readings": [
+        {
+          "raw_url": "https://r2ce90.example/invite?tag=M4e93",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Не переходите: это рекламный адрес.\nhttps://r2ce90.example/invite?tag=M4e93",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "2ea746de3dd8eeff3dd1",
+      "image": "2ea746de3dd8eeff3dd1.png",
+      "url": "https://v86e3a.example/read?ref=H6a12",
+      "language": "kk",
+      "font_size": 28,
+      "style": "dark",
+      "caption": "Қауіпсіздік сабағына арналған мысал.",
+      "provenance": "author_synthetic_development",
+      "sha256": "29c7519df119fa3a4052af1dd356411c0954d878382d22a702b591f676cc80e3",
+      "raw_urls": [
+        "https://v86e3a.example/read?ref=H6a12"
+      ],
+      "automatic_urls": [
+        "https://v86e3a.example/read?ref=H6a12"
+      ],
+      "candidates": [
+        "https://v86e3a.example/read?ref=H6a12"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 1653.971,
+      "readings": [
+        {
+          "raw_url": "https://v86e3a.example/read?ref=H6a12",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Қауіпсіздік сабағына арналған мысал.\nhttps://v86e3a.example/read?ref=H6a12",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "a53deb9ea2cbdfcdca67",
+      "image": "a53deb9ea2cbdfcdca67.png",
+      "url": "https://a5e02c.example/post?ref=W9x65",
+      "language": "mixed",
+      "font_size": 20,
+      "style": "rotate",
+      "caption": "Ескерту: исследование рекламных переходов.",
+      "provenance": "author_synthetic_development",
+      "sha256": "663fee65c4455041d53232cb63bab7d36e060c02e6c47800b0c3e006030d9361",
+      "raw_urls": [
+        "https://a5e02c.example/post?ref=W9x65"
+      ],
+      "automatic_urls": [
+        "https://a5e02c.example/post?ref=W9x65"
+      ],
+      "candidates": [
+        "https://a5e02c.example/post?ref=W9x65"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 8338.004,
+      "readings": [
+        {
+          "raw_url": "https://a5e02c.example/post?ref=W9x65",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Ескерту: исследование рекламных переходов.\nhttps://a5e02c.example/post?ref=W9x65",
+      "rotation_ccw": 270
+    },
+    {
+      "id": "72013707b25341e53c5c",
+      "image": "72013707b25341e53c5c.png",
+      "url": "https://p4d9ef.example/item?ref=A3n78",
+      "language": "ru",
+      "font_size": 14,
+      "style": "plain",
+      "caption": "Забирай предложение в личном разделе.",
+      "provenance": "author_synthetic_development",
+      "sha256": "31f53c7d84500c923dcb80f6401080e1ca18d8f48450bc7bcb62b3acfdff96dd",
+      "raw_urls": [
+        "https://p4d9ef.example/item?ref=A3n78"
+      ],
+      "automatic_urls": [
+        "https://p4d9ef.example/item?ref=A3n78"
+      ],
+      "candidates": [
+        "https://p4d9ef.example/item?ref=A3n78"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 2001.919,
+      "readings": [
+        {
+          "raw_url": "https://p4d9ef.example/item?ref=A3n78",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Забирай предложение в личном разделе.\nhttps://p4d9ef.example/item?ref=A3n78",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "c266903c241b7302399d",
+      "image": "c266903c241b7302399d.jpg",
+      "url": "https://s7e2c1.example/list?ref=K4u37",
+      "language": "kk",
+      "font_size": 32,
+      "style": "jpeg",
+      "caption": "Жаңа топқа қосыл, шарттары сілтемеде.",
+      "provenance": "author_synthetic_development",
+      "sha256": "b35d92605cf8300883e39d4af750699025e9ba421b15c72aa6970c474622e382",
+      "raw_urls": [
+        "https://s7e2c1.example/list?ref=K4u37"
+      ],
+      "automatic_urls": [
+        "https://s7e2c1.example/list?ref=K4u37"
+      ],
+      "candidates": [
+        "https://s7e2c1.example/list?ref=K4u37"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 1809.491,
+      "readings": [
+        {
+          "raw_url": "https://s7e2c1.example/list?ref=K4u37",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Жаңа топқа қосыл, шарттары сілтемеде.\nhttps://s7e2c1.example/list?ref=K4u37",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "62054734432771cd9382",
+      "image": "62054734432771cd9382.png",
+      "url": "https://j09ea4.example/calendar?ref=J5r62",
+      "language": "ru",
+      "font_size": 24,
+      "style": "blur",
+      "caption": "Расписание и правила встречи.",
+      "provenance": "author_synthetic_development",
+      "sha256": "ab705463ed0dba8a5beb121d0fcbb72e4d717885c49c180eb67c149032a6a543",
+      "raw_urls": [
+        "https://j09ea4.example/calendar?ref=J5r62"
+      ],
+      "automatic_urls": [
+        "https://j09ea4.example/calendar?ref=J5r62"
+      ],
+      "candidates": [
+        "https://j09ea4.example/calendar?ref=J5r62"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 1647.859,
+      "readings": [
+        {
+          "raw_url": "https://j09ea4.example/calendar?ref=J5r62",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Расписание и правила встречи.\nhttps://j09ea4.example/calendar?ref=J5r62",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "d7aa7d090b2f348e5a54",
+      "image": "d7aa7d090b2f348e5a54.png",
+      "url": "https://b4e8d0.example/articles?ref=T7c28",
+      "language": "mixed",
+      "font_size": 18,
+      "style": "dark",
+      "caption": "Казино туралы мақала. Не регистрируйся.",
+      "provenance": "author_synthetic_development",
+      "sha256": "7f9f658b504def4fc85f57ba9f7ee15b378a2fa92d8b37bc0cf1eafe8d799c63",
+      "raw_urls": [
+        "https://b4e8d0.example/articles?ref=T7c28"
+      ],
+      "automatic_urls": [
+        "https://b4e8d0.example/articles?ref=T7c28"
+      ],
+      "candidates": [
+        "https://b4e8d0.example/articles?ref=T7c28"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 1745.938,
+      "readings": [
+        {
+          "raw_url": "https://b4e8d0.example/articles?ref=T7c28",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Казино туралы мақала. Не регистрируйся.\nhttps://b4e8d0.example/articles?ref=T7c28",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "eae848125609a6d1d618",
+      "image": "eae848125609a6d1d618.png",
+      "url": "https://f53ec7.example/notes?ref=V6m19",
+      "language": "ru",
+      "font_size": 24,
+      "style": "wrapped",
+      "caption": "Читайте разбор подозрительной публикации.",
+      "provenance": "author_synthetic_development",
+      "sha256": "43182077b124c0c4ae79ce99642792a01dfd1335394fb7f44457f69259106534",
+      "raw_urls": [
+        "https://f53ec7.example"
+      ],
+      "automatic_urls": [],
+      "candidates": [
+        "https://f53ec7.example",
+        "https://f53ec7.example/notes?ref=V6m19"
+      ],
+      "raw_exact": false,
+      "automatic_exact": false,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": false,
+      "elapsed_ms": 2435.067,
+      "readings": [
+        {
+          "raw_url": "https://f53ec7.example",
+          "line_indices": [
+            1,
+            2
+          ],
+          "needs_review": true,
+          "reasons": [
+            "Следующая строка похожа на продолжение адреса; неполный префикс не открывался."
+          ],
+          "suggestions": [
+            {
+              "url": "https://f53ec7.example/notes?ref=V6m19",
+              "method": "adjacent_ocr_lines",
+              "confidence": 0.9843423962593079,
+              "agreement": false
+            }
+          ],
+          "method": "primary_ocr",
+          "auto_follow": false
+        }
+      ],
+      "raw_text": "Читайте разбор подозрительной публикации.\nhttps://f53ec7.example\n/notes?ref=V6m19",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "1438ca80c60cb99a5f02",
+      "image": "1438ca80c60cb99a5f02.png",
+      "url": "https://d98e26.example/item?ref=D8e53",
+      "language": "kk",
+      "font_size": 20,
+      "style": "rotate",
+      "caption": "Бонус туралы толық мәлімет осы бетте.",
+      "provenance": "author_synthetic_development",
+      "sha256": "59628b91d0b77e44f24da5ac717468d00383efc089bef20cb8763c41157cf7d7",
+      "raw_urls": [
+        "https://d98e26.example/item?ref=D8e53"
+      ],
+      "automatic_urls": [
+        "https://d98e26.example/item?ref=D8e53"
+      ],
+      "candidates": [
+        "https://d98e26.example/item?ref=D8e53"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 6213.02,
+      "readings": [
+        {
+          "raw_url": "https://d98e26.example/item?ref=D8e53",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Бонус туралы толық мәлімет осы бетте.\nhttps://d98e26.example/item?ref=D8e53",
+      "rotation_ccw": 270
+    },
+    {
+      "id": "82a48b8825429d58e958",
+      "image": "82a48b8825429d58e958.png",
+      "url": "https://z21ad6.example/памятка?ref=C2p47",
+      "language": "ru",
+      "font_size": 24,
+      "style": "plain",
+      "caption": "Пример международного адреса.",
+      "provenance": "author_synthetic_development",
+      "sha256": "488521ac78a4420e6ea2e40550aa703de9f2a0967a3e3cf009352c2d2a602588",
+      "raw_urls": [
+        "https://z21ad6.ехаmрӀe/памятка?ref=C2р47"
+      ],
+      "automatic_urls": [],
+      "candidates": [
+        "https://z21ad6.ехаmрӀe/памятка?ref=C2р47",
+        "https://z21ad6.example/namaTka?ref=C2p47",
+        "https://z21ad6.example/namaTa?ref=C2p47"
+      ],
+      "raw_exact": false,
+      "automatic_exact": false,
+      "automatic_wrong": [],
+      "candidate_exact": false,
+      "domain_exact": false,
+      "referral_exact": false,
+      "elapsed_ms": 2740.921,
+      "readings": [
+        {
+          "raw_url": "https://z21ad6.ехаmрӀe/памятка?ref=C2р47",
+          "line_indices": [
+            1
+          ],
+          "needs_review": true,
+          "reasons": [
+            "В адресе есть нелатинские символы: возможны как ошибка OCR, так и настоящий международный путь."
+          ],
+          "suggestions": [
+            {
+              "url": "https://z21ad6.example/namaTka?ref=C2p47",
+              "method": "en_PP-OCRv5_mobile_rec",
+              "confidence": 0.9852834939956665,
+              "agreement": false
+            },
+            {
+              "url": "https://z21ad6.example/namaTa?ref=C2p47",
+              "method": "en_PP-OCRv5_mobile_rec",
+              "confidence": 0.9886692762374878,
+              "agreement": false
+            }
+          ],
+          "method": "primary_ocr",
+          "auto_follow": false,
+          "secondary_attempts": [
+            {
+              "text": "https://z21ad6.example/namaTka?ref=C2p47",
+              "confidence": 0.9852834939956665,
+              "urls": [
+                "https://z21ad6.example/namaTka?ref=C2p47"
+              ],
+              "scale": 1
+            },
+            {
+              "text": "https://z21ad6.example/namaTa?ref=C2p47",
+              "confidence": 0.9886692762374878,
+              "urls": [
+                "https://z21ad6.example/namaTa?ref=C2p47"
+              ],
+              "scale": 2
+            }
+          ]
+        }
+      ],
+      "raw_text": "Пример международного адреса.\nhttps://z21ad6.ехаmрӀe/памятка?ref=C2р47",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "06c92b611033947f5fa9",
+      "image": "06c92b611033947f5fa9.png",
+      "url": "https://k3be78.example/info?ref=B5i41",
+      "language": "mixed",
+      "font_size": 16,
+      "style": "blur",
+      "caption": "Ойын туралы ескерту. Материал для проверки.",
+      "provenance": "author_synthetic_development",
+      "sha256": "336c3efbec87c5280d741cfd4e35b412a4626ccda2eb7c0d6eaee2440b03a595",
+      "raw_urls": [
+        "https://k3be78.example/info?ref=B5i41"
+      ],
+      "automatic_urls": [
+        "https://k3be78.example/info?ref=B5i41"
+      ],
+      "candidates": [
+        "https://k3be78.example/info?ref=B5i41"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 1652.555,
+      "readings": [
+        {
+          "raw_url": "https://k3be78.example/info?ref=B5i41",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Ойын туралы ескерту. Материал для проверки.\nhttps://k3be78.example/info?ref=B5i41",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "6d6c21dc521dc4218907",
+      "image": "6d6c21dc521dc4218907.png",
+      "url": "https://c78e49.example/entry?ref=P1d96",
+      "language": "kk",
+      "font_size": 30,
+      "style": "dark",
+      "caption": "Деректі тексеріңіз. Сілтеме төменде.",
+      "provenance": "author_synthetic_development",
+      "sha256": "d8621bc315315707ff3f0af7a410a82f04074823484c83ae13a8b1cd987bed3a",
+      "raw_urls": [
+        "https://c78e49.example/entry?ref=P1d96"
+      ],
+      "automatic_urls": [
+        "https://c78e49.example/entry?ref=P1d96"
+      ],
+      "candidates": [
+        "https://c78e49.example/entry?ref=P1d96"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 1621.904,
+      "readings": [
+        {
+          "raw_url": "https://c78e49.example/entry?ref=P1d96",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Деректі тексеріңіз. Сілтеме төменде.\nhttps://c78e49.example/entry?ref=P1d96",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "4748b217be5485ebcc31",
+      "image": "4748b217be5485ebcc31.png",
+      "url": "https://w6a3e2.example/tutorial?ref=L9q34",
+      "language": "ru",
+      "font_size": 26,
+      "style": "plain",
+      "caption": "Играй бесплатно, переходи к инструкции.",
+      "provenance": "author_synthetic_development",
+      "sha256": "7b55ed285b82fa9667d32879036c7736c46e0417438a32ee06a69c43f2fc1db6",
+      "raw_urls": [
+        "https://w6a3e2.example/tutorial?ref=L9q34"
+      ],
+      "automatic_urls": [
+        "https://w6a3e2.example/tutorial?ref=L9q34"
+      ],
+      "candidates": [
+        "https://w6a3e2.example/tutorial?ref=L9q34"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 1778.976,
+      "readings": [
+        {
+          "raw_url": "https://w6a3e2.example/tutorial?ref=L9q34",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Играй бесплатно, переходи к инструкции.\nhttps://w6a3e2.example/tutorial?ref=L9q34",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "1a6797ed7f4e5b35e487",
+      "image": "1a6797ed7f4e5b35e487.png",
+      "url": "https://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07",
+      "language": "ru",
+      "font_size": 29,
+      "style": "inline",
+      "caption": "Новая группа открыта, заходи по ссылке и получай бонус.",
+      "sha256": "18aad371ae55c90ee9819aa14c802896323a4011a83bc1798408263faccbe506",
+      "raw_urls": [
+        "https://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07"
+      ],
+      "automatic_urls": [
+        "https://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07"
+      ],
+      "candidates": [
+        "https://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 2445.936,
+      "readings": [
+        {
+          "raw_url": "https://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "DЕМО. Новая группа открыта, заходи по ссылке и получай бонус.\nhttps://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "ed4acaaf275bd3267d10",
+      "image": "ed4acaaf275bd3267d10.png",
+      "url": "https://n82df64ae30.test/entry/ae3e681",
+      "language": "kk",
+      "font_size": 29,
+      "style": "inline",
+      "caption": "Кешкі ұсыныс бар: тіркеліп, сыйлық алыңыз.",
+      "sha256": "1f65d2441d3020d7a2dcebbfcdee55ecc1ceb7566d5e792baad89775e2a950e6",
+      "raw_urls": [
+        "https://n82df64ae30.test/entry/ae3e681"
+      ],
+      "automatic_urls": [
+        "https://n82df64ae30.test/entry/ae3e681"
+      ],
+      "candidates": [
+        "https://n82df64ae30.test/entry/ae3e681"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 2335.545,
+      "readings": [
+        {
+          "raw_url": "https://n82df64ae30.test/entry/ae3e681",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "DЕМO. Кешкі ұсыныс бар: тіркеліп, сыйлық алыңыз.\nhttps://n82df64ae30.test/entry/ae3e681",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "80a46facac36772007da",
+      "image": "80a46facac36772007da.png",
+      "url": "https://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD",
+      "language": "mixed",
+      "font_size": 20,
+      "style": "inline",
+      "caption": "Достар, переходи в новый раздел, бонус ждёт.",
+      "sha256": "48a7cfe5e92974f92cd6cb5d8f5a3652a6efa301c4434ecc7b147f8213aa0314",
+      "raw_urls": [
+        "https://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD"
+      ],
+      "automatic_urls": [
+        "https://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD"
+      ],
+      "candidates": [
+        "https://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 2278.143,
+      "readings": [
+        {
+          "raw_url": "https://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "DЕМО. Достар, переходи в новый раздел, бонус ждёт.\nhttps://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "0c3e75618692f8201a63",
+      "image": "0c3e75618692f8201a63.png",
+      "url": "https://n5e9b3c7a61.test/entry/39ec28f",
+      "language": "ru",
+      "font_size": 26,
+      "style": "inline",
+      "caption": "Осторожно, не переходите: рекламная рассылка.",
+      "sha256": "3c329c3d4d0f144d07e8449fcc2d5aa32bb3a96d7298720002cca4d7d56ad755",
+      "raw_urls": [
+        "https://n5e9b3c7a61.test/entry/39ec28f"
+      ],
+      "automatic_urls": [
+        "https://n5e9b3c7a61.test/entry/39ec28f"
+      ],
+      "candidates": [
+        "https://n5e9b3c7a61.test/entry/39ec28f"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 2434.314,
+      "readings": [
+        {
+          "raw_url": "https://n5e9b3c7a61.test/entry/39ec28f",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "DЕМО. Осторожно, не переходите: рекламная рассылка.\nhttps://n5e9b3c7a61.test/entry/39ec28f",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "10373a350f6b607d6d71",
+      "image": "10373a350f6b607d6d71.png",
+      "url": "https://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2",
+      "language": "kk",
+      "font_size": 24,
+      "style": "inline",
+      "caption": "Біздің мақалада мысал бар, бұл тек ескерту.",
+      "sha256": "1a5240959a0cac0909b2950a7ec79490af853e3ce740d90aa65711a98e74f9e5",
+      "raw_urls": [
+        "https://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2"
+      ],
+      "automatic_urls": [
+        "https://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2"
+      ],
+      "candidates": [
+        "https://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 2413.535,
+      "readings": [
+        {
+          "raw_url": "https://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "DEМО. Біздің мақалада мысал бар, бұл тек ескерту.\nhttps://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "8c271c99d4df1f33b0a6",
+      "image": "8c271c99d4df1f33b0a6.png",
+      "url": "https://n7c15e8d2a4.test/entry/e1b6c93",
+      "language": "mixed",
+      "font_size": 29,
+      "style": "inline",
+      "caption": "Кешке қосыл, подарок участнику внутри.",
+      "sha256": "598762f794da0b662bd59444a38ce472c0fdc95a8d9e84b2940c54b08c73f9d5",
+      "raw_urls": [
+        "https://n7c15e8d2a4.test/entry/e1b6c93"
+      ],
+      "automatic_urls": [
+        "https://n7c15e8d2a4.test/entry/e1b6c93"
+      ],
+      "candidates": [
+        "https://n7c15e8d2a4.test/entry/e1b6c93"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 2177.221,
+      "readings": [
+        {
+          "raw_url": "https://n7c15e8d2a4.test/entry/e1b6c93",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "DЕМО. Кешке қосыл, подарок участнику внутри.\nhttps://n7c15e8d2a4.test/entry/e1b6c93",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "7c7f81759fd80e60cd18",
+      "image": "7c7f81759fd80e60cd18.png",
+      "url": "https://n92de84ac10.test/item/7e430bc?ref=F1D3E87",
+      "language": "ru",
+      "font_size": 29,
+      "style": "inline",
+      "caption": "Нажимай на приглашение, активируй код.",
+      "sha256": "95b66c03a37fe02c545b1674e92f1e36162bb466c3ee06768bfd810bbe49198a",
+      "raw_urls": [
+        "https://n92de84ac10.test/item/7e430bc?ref=F1D3E87"
+      ],
+      "automatic_urls": [
+        "https://n92de84ac10.test/item/7e430bc?ref=F1D3E87"
+      ],
+      "candidates": [
+        "https://n92de84ac10.test/item/7e430bc?ref=F1D3E87"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 2573.717,
+      "readings": [
+        {
+          "raw_url": "https://n92de84ac10.test/item/7e430bc?ref=F1D3E87",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "DЕМО. Нажимай на приглашение, активируй код.\nhttps://n92de84ac10.test/item/7e430bc?ref=F1D3E87",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "39f4690418a0f3591479",
+      "image": "39f4690418a0f3591479.png",
+      "url": "https://n1e730f4ab6.test/entry/5ce29d8",
+      "language": "kk",
+      "font_size": 20,
+      "style": "inline",
+      "caption": "Құпия клубқа қосыл, мәлімет жеке бетте.",
+      "sha256": "21697669e2b19001da78032a6fac71b08d2b846c21e59c42ae474025a493f365",
+      "raw_urls": [
+        "https://n1e730f4ab6.test/entry/5ce29d8"
+      ],
+      "automatic_urls": [
+        "https://n1e730f4ab6.test/entry/5ce29d8"
+      ],
+      "candidates": [
+        "https://n1e730f4ab6.test/entry/5ce29d8"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 2048.361,
+      "readings": [
+        {
+          "raw_url": "https://n1e730f4ab6.test/entry/5ce29d8",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "DЕМО. Құпия клубқа қосыл, мәлімет жеке бетте.\nhttps://n1e730f4ab6.test/entry/5ce29d8",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "ae390b0fe510bb919867",
+      "image": "ae390b0fe510bb919867.png",
+      "url": "https://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1",
+      "language": "mixed",
+      "font_size": 29,
+      "style": "inline",
+      "caption": "Қауіпсіздік: не регистрируйтесь по этому адресу.",
+      "sha256": "ff708d396c3ea2dfb8a4f3242eed56e1b0aa871f9a29a01c42eb4b34373916b7",
+      "raw_urls": [
+        "https://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1"
+      ],
+      "automatic_urls": [
+        "https://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1"
+      ],
+      "candidates": [
+        "https://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 2461.079,
+      "readings": [
+        {
+          "raw_url": "https://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "DЕМО. Қауіпсіздік: не регистрируйтесь по этому адресу.\nhttps://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "be47cd38796dde7497b1",
+      "image": "be47cd38796dde7497b1.png",
+      "url": "https://n8e274bc6d0.test/entry/7a1ee94",
+      "language": "ru",
+      "font_size": 22,
+      "style": "inline",
+      "caption": "Пример адреса из статьи о мошеннических письмах.",
+      "sha256": "fb7a04529d64400d7b73d8d90320ea7aeec2cb2317e22ea9f0a8b05cf4c6b1d8",
+      "raw_urls": [
+        "https://n8e274bc6d0.test/entry/7a1ee94"
+      ],
+      "automatic_urls": [
+        "https://n8e274bc6d0.test/entry/7a1ee94"
+      ],
+      "candidates": [
+        "https://n8e274bc6d0.test/entry/7a1ee94"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 2715.772,
+      "readings": [
+        {
+          "raw_url": "https://n8e274bc6d0.test/entry/7a1ee94",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "DЕМО. Пример адреса из статьи о мошеннических письмах.\nhttps://n8e274bc6d0.test/entry/7a1ee94",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "71fc89db8cf5062ff9ff",
+      "image": "71fc89db8cf5062ff9ff.png",
+      "url": "https://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4",
+      "language": "kk",
+      "font_size": 27,
+      "style": "inline",
+      "caption": "Сілтемеге өтіңіз де жаңа бонус алыңыз.",
+      "sha256": "88351c67172378afe823253d3307a29cea641e36cdd23e7c8944fb2c90d4bd6c",
+      "raw_urls": [
+        "https://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4"
+      ],
+      "automatic_urls": [
+        "https://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4"
+      ],
+      "candidates": [
+        "https://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 2396.427,
+      "readings": [
+        {
+          "raw_url": "https://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "DEМO. Сілтемеге өтіңіз де жаңа бонус алыңыз.\nhttps://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "64405907e1f8e69226df",
+      "image": "64405907e1f8e69226df.png",
+      "url": "https://n48a2d37ce1.test/мақала?ref=N7e32",
+      "language": "mixed",
+      "font_size": 26,
+      "style": "inline",
+      "caption": "Бұл — пример международного пути, сохраните адрес.",
+      "sha256": "78557816ee0057fdea9afa7f8dddb15c0d4f644c2b3bc8ac8847f54325ded3e8",
+      "raw_urls": [
+        "https://n48a2d37ce1.test/мақала?ref=N7e32"
+      ],
+      "automatic_urls": [],
+      "candidates": [
+        "https://n48a2d37ce1.test/мақала?ref=N7e32",
+        "https://n48a2d37ce1.test/makaJa?ref=N7e32"
+      ],
+      "raw_exact": true,
+      "automatic_exact": false,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 3173.317,
+      "readings": [
+        {
+          "raw_url": "https://n48a2d37ce1.test/мақала?ref=N7e32",
+          "line_indices": [
+            1
+          ],
+          "needs_review": true,
+          "reasons": [
+            "В адресе есть нелатинские символы: возможны как ошибка OCR, так и настоящий международный путь."
+          ],
+          "suggestions": [
+            {
+              "url": "https://n48a2d37ce1.test/makaJa?ref=N7e32",
+              "method": "en_PP-OCRv5_mobile_rec",
+              "confidence": 0.9653283357620239,
+              "agreement": true
+            }
+          ],
+          "method": "primary_ocr",
+          "auto_follow": false,
+          "secondary_attempts": [
+            {
+              "text": "https://n48a2d37ce1.test/makaJa?ref=N7e32",
+              "confidence": 0.9653283357620239,
+              "urls": [
+                "https://n48a2d37ce1.test/makaJa?ref=N7e32"
+              ],
+              "scale": 1
+            },
+            {
+              "text": "https://n48a2d37ce1.test/makaJa?ref=N7e32",
+              "confidence": 0.9774161577224731,
+              "urls": [
+                "https://n48a2d37ce1.test/makaJa?ref=N7e32"
+              ],
+              "scale": 2
+            }
+          ]
+        }
+      ],
+      "raw_text": "DЕМО. Бұл — пример международного пути, сохраните адрес.\nhttps://n48a2d37ce1.test/мақала?ref=N7e32",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "bafe8c3a21eca0a8718b",
+      "image": "bafe8c3a21eca0a8718b.png",
+      "url": "https://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07",
+      "language": "ru",
+      "font_size": 29,
+      "style": "inline",
+      "caption": "Новая группа открыта, заходи по ссылке и получай бонус.",
+      "sha256": "5559db82bc4bdca433ee1088e2bc0ac5cc4448e02554e057917fe8e7ce5fe727",
+      "raw_urls": [
+        "https://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07"
+      ],
+      "automatic_urls": [
+        "https://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07"
+      ],
+      "candidates": [
+        "https://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 2480.163,
+      "readings": [
+        {
+          "raw_url": "https://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Новая группа открыта, заходи по ссылке и получай бонус.\nПриглашение: https://n64eab2c9d8.test/item/e29fc46?ref=R3E1B07",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "997ec9f434542ff1f4fe",
+      "image": "997ec9f434542ff1f4fe.png",
+      "url": "https://n82df64ae30.test/entry/ae3e681",
+      "language": "kk",
+      "font_size": 29,
+      "style": "inline",
+      "caption": "Кешкі ұсыныс бар: тіркеліп, сыйлық алыңыз.",
+      "sha256": "be199d435c829362539e790d92f46da3155c929c668fb7cac90333bc8d3b2c59",
+      "raw_urls": [
+        "https://n82df64ae30.test/entry/ae3e681"
+      ],
+      "automatic_urls": [
+        "https://n82df64ae30.test/entry/ae3e681"
+      ],
+      "candidates": [
+        "https://n82df64ae30.test/entry/ae3e681"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 1969.975,
+      "readings": [
+        {
+          "raw_url": "https://n82df64ae30.test/entry/ae3e681",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Кешкі ұсыныс бар: тіркеліп, сыйлық алыңыз.\nПриглашение: https://n82df64ae30.test/entry/ae3e681",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "66d5c3c210e43e356aac",
+      "image": "66d5c3c210e43e356aac.png",
+      "url": "https://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD",
+      "language": "mixed",
+      "font_size": 20,
+      "style": "inline",
+      "caption": "Достар, переходи в новый раздел, бонус ждёт.",
+      "sha256": "6ae56759402604a682079d6279051eb66c5177c3bdd80a4fb0497e90ef0058f7",
+      "raw_urls": [
+        "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD"
+      ],
+      "automatic_urls": [],
+      "candidates": [
+        "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+        "https://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD"
+      ],
+      "raw_exact": false,
+      "automatic_exact": false,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": false,
+      "referral_exact": true,
+      "elapsed_ms": 3817.274,
+      "readings": [
+        {
+          "raw_url": "https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+          "line_indices": [
+            1
+          ],
+          "needs_review": true,
+          "reasons": [
+            "В адресе есть нелатинские символы: возможны как ошибка OCR, так и настоящий международный путь."
+          ],
+          "suggestions": [
+            {
+              "url": "https://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD",
+              "method": "en_PP-OCRv5_mobile_rec",
+              "confidence": 0.9834886789321899,
+              "agreement": true
+            }
+          ],
+          "method": "primary_ocr",
+          "auto_follow": false,
+          "secondary_attempts": [
+            {
+              "text": "pnrnaweHne: https://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD",
+              "confidence": 0.9834886789321899,
+              "urls": [
+                "https://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD"
+              ],
+              "scale": 1
+            },
+            {
+              "text": "pnrnaweHne: https://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD",
+              "confidence": 0.9892579317092896,
+              "urls": [
+                "https://n36e1d8f4b9.test/item/fc817e2?ref=Z74E3AD"
+              ],
+              "scale": 2
+            }
+          ]
+        }
+      ],
+      "raw_text": "Достар, переходи в новый раздел, бонус ждёт.\nПриглашениe: https://n36e1d8f4ь9.test/item/fc817e2?ref=Z74E3AD",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "b760ed53fe0bc42fa16e",
+      "image": "b760ed53fe0bc42fa16e.png",
+      "url": "https://n5e9b3c7a61.test/entry/39ec28f",
+      "language": "ru",
+      "font_size": 26,
+      "style": "inline",
+      "caption": "Осторожно, не переходите: рекламная рассылка.",
+      "sha256": "912d77a6e961941a1535d4c064414c8b4aaf1f7b368220f6a581411dc88bc198",
+      "raw_urls": [
+        "https://n5e9b3c7a61.test/entry/39ec28f"
+      ],
+      "automatic_urls": [
+        "https://n5e9b3c7a61.test/entry/39ec28f"
+      ],
+      "candidates": [
+        "https://n5e9b3c7a61.test/entry/39ec28f"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 1959.36,
+      "readings": [
+        {
+          "raw_url": "https://n5e9b3c7a61.test/entry/39ec28f",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Осторожно, не переходите: рекламная рассылка.\nПриглашение: https://n5e9b3c7a61.test/entry/39ec28f",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "eeca901fa18c00fee100",
+      "image": "eeca901fa18c00fee100.png",
+      "url": "https://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2",
+      "language": "kk",
+      "font_size": 24,
+      "style": "inline",
+      "caption": "Біздің мақалада мысал бар, бұл тек ескерту.",
+      "sha256": "53806bfea14099f2ab22cb0fa44623525a8b28a827e683ee609e0a8b2fe680f1",
+      "raw_urls": [
+        "https://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2"
+      ],
+      "automatic_urls": [
+        "https://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2"
+      ],
+      "candidates": [
+        "https://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 2445.191,
+      "readings": [
+        {
+          "raw_url": "https://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Біздің мақалада мысал бар, бұл тек ескерту.\nПриглашение: https://n0e4d2c6a81.test/item/d47e12b?ref=C91B6E2",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "e664899fc8910e7e1a8e",
+      "image": "e664899fc8910e7e1a8e.png",
+      "url": "https://n7c15e8d2a4.test/entry/e1b6c93",
+      "language": "mixed",
+      "font_size": 29,
+      "style": "inline",
+      "caption": "Кешке қосыл, подарок участнику внутри.",
+      "sha256": "073a739786b96558066ca468ac832ea1f41e4f31d6973cea4cfd02bba3a1c639",
+      "raw_urls": [
+        "https://n7c15e8d2a4.test/entry/e1b6c93"
+      ],
+      "automatic_urls": [
+        "https://n7c15e8d2a4.test/entry/e1b6c93"
+      ],
+      "candidates": [
+        "https://n7c15e8d2a4.test/entry/e1b6c93"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 2336.843,
+      "readings": [
+        {
+          "raw_url": "https://n7c15e8d2a4.test/entry/e1b6c93",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Кешке қосыл, подарок участнику внутри.\nПриглашение: https://n7c15e8d2a4.test/entry/e1b6c93",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "c325b25671beebfdb292",
+      "image": "c325b25671beebfdb292.png",
+      "url": "https://n92de84ac10.test/item/7e430bc?ref=F1D3E87",
+      "language": "ru",
+      "font_size": 29,
+      "style": "inline",
+      "caption": "Нажимай на приглашение, активируй код.",
+      "sha256": "6cc1ab8d5c1e452e51857c67529e2b6c8b2c859d6efe5870b767be221d11e653",
+      "raw_urls": [
+        "https://n92de84ac10.test/item/7e430bc?ref=F1D3E87"
+      ],
+      "automatic_urls": [
+        "https://n92de84ac10.test/item/7e430bc?ref=F1D3E87"
+      ],
+      "candidates": [
+        "https://n92de84ac10.test/item/7e430bc?ref=F1D3E87"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 3171.609,
+      "readings": [
+        {
+          "raw_url": "https://n92de84ac10.test/item/7e430bc?ref=F1D3E87",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Нажимай на приглашение, активируй код.\nПриглашениe: https://n92de84ac10.test/item/7e430bc?ref=F1D3E87",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "da35eb62d742bc7a50e3",
+      "image": "da35eb62d742bc7a50e3.png",
+      "url": "https://n1e730f4ab6.test/entry/5ce29d8",
+      "language": "kk",
+      "font_size": 20,
+      "style": "inline",
+      "caption": "Құпия клубқа қосыл, мәлімет жеке бетте.",
+      "sha256": "c96910533a379ac1e3b9f2d82c65caba2134569ce3362a6233bd6d17eeefdcc4",
+      "raw_urls": [
+        "https://n1e730f4ab6.test/entry/5ce29d8"
+      ],
+      "automatic_urls": [
+        "https://n1e730f4ab6.test/entry/5ce29d8"
+      ],
+      "candidates": [
+        "https://n1e730f4ab6.test/entry/5ce29d8"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 2399.028,
+      "readings": [
+        {
+          "raw_url": "https://n1e730f4ab6.test/entry/5ce29d8",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Құпия клубқа қосыл, мәлімет жеке бетте.\nПриглашение: https://n1e730f4ab6.test/entry/5ce29d8",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "5bdeff3c9285f83d26c3",
+      "image": "5bdeff3c9285f83d26c3.png",
+      "url": "https://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1",
+      "language": "mixed",
+      "font_size": 29,
+      "style": "inline",
+      "caption": "Қауіпсіздік: не регистрируйтесь по этому адресу.",
+      "sha256": "9d667e250d546d638535b782221c4138ac8b87f061d67b413834228d7bb54fb7",
+      "raw_urls": [
+        "https://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1"
+      ],
+      "automatic_urls": [
+        "https://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1"
+      ],
+      "candidates": [
+        "https://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 2815.585,
+      "readings": [
+        {
+          "raw_url": "https://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Қауіпсіздік: не регистрируйтесь по этому адресу.\nПриглашение: https://n6a8e14bd72.test/item/a95ec61?ref=B87F0E1",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "a22c78c0f08b8a6ba07f",
+      "image": "a22c78c0f08b8a6ba07f.png",
+      "url": "https://n8e274bc6d0.test/entry/7a1ee94",
+      "language": "ru",
+      "font_size": 22,
+      "style": "inline",
+      "caption": "Пример адреса из статьи о мошеннических письмах.",
+      "sha256": "51836dc004af5b31ff9d12c35df8edf034278afa3ebdc32c6afeeb51dad23522",
+      "raw_urls": [
+        "https://n8e274bc6d0.test/entry/7a1ee94"
+      ],
+      "automatic_urls": [
+        "https://n8e274bc6d0.test/entry/7a1ee94"
+      ],
+      "candidates": [
+        "https://n8e274bc6d0.test/entry/7a1ee94"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 2413.973,
+      "readings": [
+        {
+          "raw_url": "https://n8e274bc6d0.test/entry/7a1ee94",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Пример адреса из статьи о мошеннических письмах.\nПриглашение: https://n8e274bc6d0.test/entry/7a1ee94",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "ca4d25f30b1138a63c10",
+      "image": "ca4d25f30b1138a63c10.png",
+      "url": "https://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4",
+      "language": "kk",
+      "font_size": 27,
+      "style": "inline",
+      "caption": "Сілтемеге өтіңіз де жаңа бонус алыңыз.",
+      "sha256": "a136fd00425c918b8f8e1e56f8c9d4e50197d22740d1bae6c1724b14d3f1d8aa",
+      "raw_urls": [
+        "https://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4"
+      ],
+      "automatic_urls": [
+        "https://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4"
+      ],
+      "candidates": [
+        "https://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4"
+      ],
+      "raw_exact": true,
+      "automatic_exact": true,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 2789.888,
+      "readings": [
+        {
+          "raw_url": "https://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4",
+          "line_indices": [
+            1
+          ],
+          "needs_review": false,
+          "reasons": [],
+          "suggestions": [],
+          "method": "primary_ocr",
+          "auto_follow": true
+        }
+      ],
+      "raw_text": "Сілтемеге өтіңіз де жаңа бонус алыңыз.\nПриглашениe: https://n24c9de81b7.test/item/63eb4a2?ref=D29E1B4",
+      "rotation_ccw": 0
+    },
+    {
+      "id": "f3733c4582f28f68816e",
+      "image": "f3733c4582f28f68816e.png",
+      "url": "https://n48a2d37ce1.test/мақала?ref=N7e32",
+      "language": "mixed",
+      "font_size": 26,
+      "style": "inline",
+      "caption": "Бұл — пример международного пути, сохраните адрес.",
+      "sha256": "d8e22851a5fe85bcec21afc237e3a3af2e1483b706a9838224092c7b89c3c809",
+      "raw_urls": [
+        "https://n48a2d37ce1.test/мақала?ref=N7e32"
+      ],
+      "automatic_urls": [],
+      "candidates": [
+        "https://n48a2d37ce1.test/мақала?ref=N7e32",
+        "https://n48a2d37ce1.test/makaa?ref=N7e32"
+      ],
+      "raw_exact": true,
+      "automatic_exact": false,
+      "automatic_wrong": [],
+      "candidate_exact": true,
+      "domain_exact": true,
+      "referral_exact": true,
+      "elapsed_ms": 3814.34,
+      "readings": [
+        {
+          "raw_url": "https://n48a2d37ce1.test/мақала?ref=N7e32",
+          "line_indices": [
+            1
+          ],
+          "needs_review": true,
+          "reasons": [
+            "В адресе есть нелатинские символы: возможны как ошибка OCR, так и настоящий международный путь."
+          ],
+          "suggestions": [
+            {
+              "url": "https://n48a2d37ce1.test/makaa?ref=N7e32",
+              "method": "en_PP-OCRv5_mobile_rec",
+              "confidence": 0.9323022365570068,
+              "agreement": true
+            }
+          ],
+          "method": "primary_ocr",
+          "auto_follow": false,
+          "secondary_attempts": [
+            {
+              "text": "pnrnaweHne: https://n48a2d37ce1.test/makaa?ref=N7e32",
+              "confidence": 0.9397834539413452,
+              "urls": [
+                "https://n48a2d37ce1.test/makaa?ref=N7e32"
+              ],
+              "scale": 1
+            },
+            {
+              "text": "pnrnaweHne: https://n48a2d37ce1.test/makaa?ref=N7e32",
+              "confidence": 0.9323022365570068,
+              "urls": [
+                "https://n48a2d37ce1.test/makaa?ref=N7e32"
+              ],
+              "scale": 2
+            }
+          ]
+        }
+      ],
+      "raw_text": "Бұл — пример международного пути, сохраните адрес.\nПриглашение: https://n48a2d37ce1.test/мақала?ref=N7e32",
+      "rotation_ccw": 0
+    }
+  ]
+}
