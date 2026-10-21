@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-21T09:05:48.606472+05:00",
+  "planned_deadline": "2026-10-21T08:00:00+05:00",
+  "deadline_met": false,
+  "python_tests": {
+    "passed": 270,
+    "seconds": 49.3,
+    "warnings": [
+      "Paddle: optional ccache is not installed"
+    ]
+  },
+  "frontend_tests": 21,
+  "ruff": "passed",
+  "eslint": "passed",
+  "typescript_and_build": "passed",
+  "preflight": "passed",
+  "freeze_verification": "passed",
+  "main_server_pid": 11032,
+  "main_cases": 21,
+  "main_decisions": 7,
+  "main_originals": 7,
+  "temporary_ports_8767_8768": "not listening",
+  "viewport_reset": true,
+  "runtime_core": "rules-3.0 / pipeline-2.1",
+  "limitations": [
+    "Author-generated synthetic data, no independent real-world validation",
+    "Live Gemini, GPU, Linux and another physical device not tested",
+    "Windows model path must use ASCII characters",
+    "No native PowerPoint run"
+  ]
+}

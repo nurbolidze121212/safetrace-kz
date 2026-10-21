@@ -1,0 +1,89 @@
+{
+  "at": "2026-10-21T02:18:11.050691+00:00",
+  "source_commit": "c0888a81f4f22f45a76c27eae43409a9af27d162",
+  "archive": "tmp/source-candidate-c0888a8.zip",
+  "archive_sha256": "8c91c9067fe4fa364b860f40afd9d9ca0da2c26bb3c0f5493fe0cc71d79ac63d",
+  "files_in_manifest": 624,
+  "archive_bytes": 10655455,
+  "all_manifest_files_and_crc_verified": true,
+  "preflight_passed_on_extracted_copy": true,
+  "initial_database": "absent; empty queue on first launch",
+  "browser_flow": [
+    "Run all three demo cards as fresh analyses",
+    "Show matching_identifier in All links scope",
+    "Upload packaged new-material.png as a new synthetic case",
+    "Observe 5 OCR lines and QR",
+    "Save a synthetic needs-data decision",
+    "Reload and verify saved decision",
+    "Download actual ZIP through Export button"
+  ],
+  "cases": [
+    {
+      "id": "9ab7d772bce246e3a9c307ab5e2e1fc7",
+      "title": "Проверка архива · новый QR",
+      "score": 80,
+      "status": "completed",
+      "ocr_lines": 5,
+      "cache_hit": false,
+      "qr": 1,
+      "decisions": 1
+    },
+    {
+      "id": "de1016bad3164a91aa2714be31c23313",
+      "title": "Похожее ≠ продвижение",
+      "score": 15,
+      "status": "completed",
+      "ocr_lines": 0,
+      "cache_hit": null,
+      "qr": 0,
+      "decisions": 0
+    },
+    {
+      "id": "a3194cc3d43040498814072c73c0ac6a",
+      "title": "Второй след",
+      "score": 90,
+      "status": "completed",
+      "ocr_lines": 0,
+      "cache_hit": null,
+      "qr": 0,
+      "decisions": 0
+    },
+    {
+      "id": "242407f2ddfc41478af3fc31240c56d1",
+      "title": "За обещанием бонуса",
+      "score": 80,
+      "status": "completed",
+      "ocr_lines": 0,
+      "cache_hit": null,
+      "qr": 0,
+      "decisions": 0
+    }
+  ],
+  "download_verified_files": 4,
+  "download_png_identical": true,
+  "restart_cases_identical": true,
+  "comparison_normalization": "graph.generated_at only",
+  "main_cases_unchanged": 21,
+  "health": {
+    "status": "ok",
+    "app_version": "2.1.0",
+    "versions": {
+      "rules": "rules-3.0",
+      "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+      "qr": "qr-1.0",
+      "pipeline": "pipeline-2.1"
+    },
+    "provider_available": false,
+    "model": "gemini-3.8-flash",
+    "offline": true,
+    "allowed_hosts": [],
+    "ocr_installed": true,
+    "local_mode": "OCR + правила + разрешенные переходы; ограниченное понимание контекста"
+  },
+  "browser_warnings_or_errors": [],
+  "limits": [
+    "Same-PC transfer test; Python environment and already verified OCR models were reused through junctions.",
+    "Does not establish installation on another physical computer.",
+    "Final package will include later copy-only graph/empty-state wording improvements."
+  ]
+}
