@@ -21,6 +21,10 @@ export default function App() {
   const [cases, setCases] = useState<Summary[]>([]), [health, setHealth] = useState<Health>(), [demos, setDemos] = useState<Demo[]>([])
   const [current, setCurrent] = useState<Case>(), [evaluation, setEvaluation] = useState<Evaluation>()
   const [form, setForm] = useState<FormSession | null>(null), [error, setError] = useState(''), [busy, setBusy] = useState(false), [ready, setReady] = useState(false)
+  const [queueError, setQueueError] = useState(''), [environmentError, setEnvironmentError] = useState('')
+  const [caseError, setCaseError] = useState<{ id: string; message: string }>()
+  const [evaluationError, setEvaluationError] = useState<{ version: string; message: string }>()
+  const readError = queueError || environmentError || (route.page === 'case' && caseError && caseError.id === route.id ? caseError.message : '') || (route.page === 'evaluation' && evaluationError?.version === route.evaluationVersion ? evaluationError.message : '')
   const mainRef = useRef<HTMLElement>(null)
   const caseGeneration = useRef(0)
   const [caseRefresh, setCaseRefresh] = useState(0)
@@ -31,16 +35,25 @@ export default function App() {
   useEffect(() => { mainRef.current?.focus(); window.scrollTo({ top: 0 }) }, [route.page, route.id])
   useEffect(() => {
     let stopped = false
+    let environmentReady = false
     let timer: ReturnType<typeof setTimeout>
     const poll = async () => {
+      let delay = 6000
       try {
         const list = await api<Summary[]>('/cases')
-        if (!stopped) { setCases(list); setReady(true); timer = setTimeout(poll, list.some(c => isActive(c.status)) ? 2000 : 12000) }
-      } catch (e) { if (!stopped) { setError(errorMessage(e)); setReady(true); timer = setTimeout(poll, 6000) } }
+        if (stopped) return
+        setCases(list); setReady(true); setQueueError('')
+        delay = list.some(c => isActive(c.status)) ? 2000 : 12000
+        if (!environmentReady) {
+          try {
+            const [info, examples] = await Promise.all([api<Health>('/health'), api<Demo[]>('/demos')])
+            if (!stopped) { setHealth(info); setDemos(examples); setEnvironmentError(''); environmentReady = true }
+          } catch (e) { if (!stopped) { setEnvironmentError(errorMessage(e)); delay = 6000 } }
+        }
+      } catch (e) { if (!stopped) { setQueueError(errorMessage(e)); environmentReady = false } }
+      finally { if (!stopped) timer = setTimeout(poll, delay) }
     }
     void poll()
-    void api<Health>('/health').then(d => { if (!stopped) setHealth(d) }).catch(e => { if (!stopped) setError(errorMessage(e)) })
-    void api<Demo[]>('/demos').then(d => { if (!stopped) setDemos(d) }).catch(e => { if (!stopped) setError(errorMessage(e)) })
     return () => { stopped = true; clearTimeout(timer) }
   }, [])
   useEffect(() => {
@@ -52,10 +65,10 @@ export default function App() {
         const generation = caseGeneration.current
         const value = await api<Case>('/cases/' + route.id)
         if (!stopped) {
-          if (generation === caseGeneration.current && readRoute().id === value.id) setCurrent(value)
+          if (generation === caseGeneration.current && readRoute().id === value.id) { setCurrent(value); setCaseError(undefined) }
           timer = setTimeout(poll, isActive(value.status) ? 1600 : 12000)
         }
-      } catch (e) { if (!stopped) { setError(errorMessage(e)); timer = setTimeout(poll, 6000) } }
+      } catch (e) { if (!stopped) { setCaseError({ id: route.id!, message: errorMessage(e) }); timer = setTimeout(poll, 6000) } }
     }
     void poll()
     return () => { stopped = true; clearTimeout(timer) }
@@ -63,8 +76,15 @@ export default function App() {
   useEffect(() => {
     if (route.page !== 'evaluation') return
     let stopped = false
-    void api<Evaluation>('/evaluation' + (route.evaluationVersion ? '?version=' + encodeURIComponent(route.evaluationVersion) : '')).then(d => { if (!stopped) setEvaluation(d) }).catch(e => { if (!stopped) setError(errorMessage(e)) })
-    return () => { stopped = true }
+    let timer: ReturnType<typeof setTimeout>
+    const load = async () => {
+      try {
+        const value = await api<Evaluation>('/evaluation' + (route.evaluationVersion ? '?version=' + encodeURIComponent(route.evaluationVersion) : ''))
+        if (!stopped) { setEvaluation(value); setEvaluationError(undefined) }
+      } catch (e) { if (!stopped) { setEvaluationError({ version: route.evaluationVersion, message: errorMessage(e) }); timer = setTimeout(load, 6000) } }
+    }
+    void load()
+    return () => { stopped = true; clearTimeout(timer) }
   }, [route.page, route.evaluationVersion])
   async function run(action: () => Promise<void>) {
     setBusy(true); setError('')
@@ -92,6 +112,7 @@ export default function App() {
     <div className="main">
       <header className="topbar"><div><span>SafeTrace KZ</span><ChevronRight size={14} /><strong>{route.page === 'evaluation' ? 'Оценка качества' : route.page === 'case' ? 'Исследование случая' : 'Очередь проверки'}</strong></div><span className="local-tag"><span />{health?.offline ? 'Офлайн' : 'Локально'}<span className="topbar-separator" />UTC+5</span></header>
       <main id="main-content" tabIndex={-1} ref={mainRef}>
+        {readError && <div className="alert error" role="status"><span>{readError}<br /><small>Обновление повторится автоматически.</small></span></div>}
         {error && <div className="alert error" role="alert"><span>{error}</span><button className="icon-button" aria-label="Закрыть ошибку" onClick={() => setError('')}><X size={18} /></button></div>}
         {route.page === 'queue' && (ready ? <QueueView cases={cases} demos={demos} busy={busy} onCreate={() => setForm({ kind: 'create' })} onOpen={open} onDemo={(id, replay = false) => void run(async () => { const result = await post<{ id: string }>('/demos/' + id + '?replay=' + replay); open(result.id); await reload() })} onImport={file => void run(async () => { const body = new FormData(); body.append('file', file); const result = await api<{ id: string }>('/import', { method: 'POST', body }); open(result.id); await reload() })} /> : <Loading>Загрузка очереди…</Loading>)}
         {route.page === 'case' && (current && current.id === route.id ? <CaseWorkspace key={current.id} current={current} view={route.view} busy={busy} onView={view => navigate('case/' + current.id + '?view=' + view)} onBack={() => navigate('queue')} onOpen={open} onAdd={() => setForm({ kind: 'add', caseId: current.id, caseTitle: current.title, mode: current.mode })} onRetry={() => void run(async () => { await post('/cases/' + current.id + (isActive(current.status) ? '/cancel' : '/retry')); await refreshCase(current.id); await reload() })} onDecision={async (decision, comment) => { await post('/cases/' + current.id + '/decision', { decision, comment }); await refreshCase(current.id); await reload() }} /> : <Loading>Загрузка случая…</Loading>)}

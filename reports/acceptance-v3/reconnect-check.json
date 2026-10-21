@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-10-21T01:21:23.609942+00:00",
+  "server": "http://127.0.0.1:8767",
+  "isolated_data": "tmp/launch-guard-repro",
+  "before": "After restart, case data loaded but the global network error remained visible.",
+  "after": {
+    "failure_notice_and_automatic_retry_visible": true,
+    "evaluation_reloaded_without_manual_reload": true,
+    "selected_evaluation": "Ядро v3 · новый синтетический тест",
+    "case_reloaded": true,
+    "connection_notice_removed": true,
+    "invalid_import_error_preserved_after_13_seconds": true,
+    "manual_error_dismissal_worked": true,
+    "case_notice_count_after_success": 0
+  },
+  "checks": [
+    "stop/restart isolated managed server",
+    "navigate to case and evaluation while unavailable",
+    "wait for automatic retry",
+    "upload controlled invalid JSONL",
+    "wait beyond the normal 12-second queue poll",
+    "verify mutation error remains, then dismiss"
+  ],
+  "temporary_tab_closed": true,
+  "temporary_server_stopped": true,
+  "core_changed": false
+}
