@@ -47,6 +47,15 @@ powershell -ExecutionPolicy Bypass -File .\scripts\start.ps1 -Offline -Backgroun
 
 После изменения frontend выполните `npm.cmd --prefix frontend run build`: сборка сохраняет отпечаток исходников и выходных файлов. Поврежденная или устаревшая сборка не проходит проверку. Отчет можно сохранить через `--report reports/preflight-local.json`.
 
+## Резервная копия
+
+```powershell
+.\.venv\Scripts\python.exe scripts\backup_data.py create --output data\backups\before-demo.zip
+.\.venv\Scripts\python.exe scripts\backup_data.py verify data\backups\before-demo.zip
+```
+
+Снимок включает SQLite, историю и связанные оригиналы изображений. [Восстановление в новую папку](docs/BACKUP.md) проверено отдельным запуском: все 21 случая, семь решений, семь оригиналов и 21 экспорт совпали с рабочей копией. Существующие архивы и папки не перезаписываются.
+
 ## Чистая установка
 
 Нужны Windows x64, Python **3.12 x64** (проверен 3.12.14), Node.js 22.12+ (проверен 24.13.1), около 3 GB диска. Docker и GPU не нужны.

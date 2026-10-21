@@ -1,0 +1,235 @@
+{
+  "checked_at": "2026-10-21T00:49:13.887336+00:00",
+  "backup": "data/backups/full-v3-20261021-0550.zip",
+  "backup_sha256": "428af7b14f746bbf9ae01d9f4989c6a311e92c02991a1da8c676e132224417fa",
+  "restored_data": "tmp/restore-v3-0550",
+  "restore_server": "http://127.0.0.1:8767",
+  "queue_identical": true,
+  "cases": [
+    {
+      "id": "496bd70a156840eba53951597ef54826",
+      "sha256": "e6bd41472775179822c44cd78a65328b22dd42364e681d1ea3a725e67a0357a0",
+      "equal": true
+    },
+    {
+      "id": "4131fe31da734750a5abb2ecc5b1a8f9",
+      "sha256": "b8bb6ce15b2964c637f2bf40101827d2dbcc296531c1733185754a0aa96b9dfe",
+      "equal": true
+    },
+    {
+      "id": "fc9f81769f7c4bd1bb97b352aad8e953",
+      "sha256": "b8bdad2101f961e6b4477cf213cee9c8cf9c1f9ad2c42539e42e853e3dcd653b",
+      "equal": true
+    },
+    {
+      "id": "7be0ed5cee4846fd89f67bc817e44a3f",
+      "sha256": "726ca3d19d483793c92d064cb620b7b3dc2d57f78f5749a60b26c7d2dabcdb57",
+      "equal": true
+    },
+    {
+      "id": "d9c7cfe3298d419c9beebcec4878e7e2",
+      "sha256": "997bbfb63cc0a5d7b8bdb2b7c01b6927521abe8375c55d3d02a5d7121e805911",
+      "equal": true
+    },
+    {
+      "id": "df03ebebbb424ae184c9f04500c0a90d",
+      "sha256": "ca704c749a276ced978837a69d20236c09bbb961dde63612d4ab12c453a350e8",
+      "equal": true
+    },
+    {
+      "id": "6d1e93a1cfa54d5aa29f0c274411ac49",
+      "sha256": "72efde073bf1e02b5e90f6bb3cdfa27913f0fe3a114a1cb8f9470772ada3552f",
+      "equal": true
+    },
+    {
+      "id": "df573bed4cc5451d95c1552fdb3a7ec5",
+      "sha256": "9076d3bf1fbc0eb8c9b969f64d7a70621fd95237b4dbbdcf54104c1355787769",
+      "equal": true
+    },
+    {
+      "id": "b17298fdf8b048f5ae3558477223e76a",
+      "sha256": "13ae7ad64a7f3707b88a4a7b8af43c35df6f7897dde180ec2999e5fe7492a810",
+      "equal": true
+    },
+    {
+      "id": "27bd8f11edb84c89b3db1ad605c2fe07",
+      "sha256": "66c8f48078f03cdc0ade49a93e565d3cdd852cd5e7749c2d8e517d3f48bb41fd",
+      "equal": true
+    },
+    {
+      "id": "f4c5ee9b338546b98c0fe3202fef8fa2",
+      "sha256": "ebbe2d392146492acf3ed53728d3c8fd3e46c6d265c318497e352dbe2d9e83bf",
+      "equal": true
+    },
+    {
+      "id": "ed74b8cd4ac54cfa9d0e976a611484b5",
+      "sha256": "1fd41d851c9ceec3517a273d2bda3b0bc1ce5cc1bd735e86f8604c28cb22f5a3",
+      "equal": true
+    },
+    {
+      "id": "08d0ce88283c402f923af53dc3b14ef7",
+      "sha256": "a0aa5a12b5324ff8f95204f2246e2c8014ad3a189287760caaf0f4b6f6eaa321",
+      "equal": true
+    },
+    {
+      "id": "1598974d62f74b7a8685d50a9e6a08ce",
+      "sha256": "a06a4657666ef62ba542e2a3aed84bf1b90e1fc1af0af6e061fe050f347d78b5",
+      "equal": true
+    },
+    {
+      "id": "c2e952133dc24008a5c4435beada40fa",
+      "sha256": "d2222887039b939932d104c45e8f990e0af3279b75b41dd2e8e8b0e52daa0be9",
+      "equal": true
+    },
+    {
+      "id": "2ebed680a2a94df6809b1a2c9391dec4",
+      "sha256": "b37c9172df771736499050e6970afc7c9c389b4ee58b258c5168df18f35bcdd5",
+      "equal": true
+    },
+    {
+      "id": "a09fc67d23b74390a93886106da2e910",
+      "sha256": "7d435cfd69af4408637ba2f5c973791ab604a8650c76f4b254f1a33256f3ac43",
+      "equal": true
+    },
+    {
+      "id": "b5ce5043d68a47d69688c71cbd1a88d8",
+      "sha256": "1cb9a3b96ebb200161ac3c9368a97a3ad3bdd97c0a026459b931a8e882bfafb1",
+      "equal": true
+    },
+    {
+      "id": "3750aa49a6ea4ba1821a4b3eb1c05378",
+      "sha256": "47b1bfbbf0a7add05664b8e2940c6b65e80a506ed283a0caaee727a672032134",
+      "equal": true
+    },
+    {
+      "id": "9317ff2ad4e94bdabefb4d9711b0ca74",
+      "sha256": "59496824c48b84114d8ab87cb585de3f51d1de91bcb9d94c56ca0702a3cf9466",
+      "equal": true
+    },
+    {
+      "id": "c1982e9bb36d4448a18b9aa67380a154",
+      "sha256": "583dfca7872589366f83c39e7a73d596c47e6f0b2783f660b727725f1d229eea",
+      "equal": true
+    }
+  ],
+  "originals_downloaded_identical": 7,
+  "exports": [
+    {
+      "case_id": "496bd70a156840eba53951597ef54826",
+      "manifest_files": 3,
+      "verified": true
+    },
+    {
+      "case_id": "4131fe31da734750a5abb2ecc5b1a8f9",
+      "manifest_files": 5,
+      "verified": true
+    },
+    {
+      "case_id": "fc9f81769f7c4bd1bb97b352aad8e953",
+      "manifest_files": 5,
+      "verified": true
+    },
+    {
+      "case_id": "7be0ed5cee4846fd89f67bc817e44a3f",
+      "manifest_files": 3,
+      "verified": true
+    },
+    {
+      "case_id": "d9c7cfe3298d419c9beebcec4878e7e2",
+      "manifest_files": 3,
+      "verified": true
+    },
+    {
+      "case_id": "df03ebebbb424ae184c9f04500c0a90d",
+      "manifest_files": 4,
+      "verified": true
+    },
+    {
+      "case_id": "6d1e93a1cfa54d5aa29f0c274411ac49",
+      "manifest_files": 5,
+      "verified": true
+    },
+    {
+      "case_id": "df573bed4cc5451d95c1552fdb3a7ec5",
+      "manifest_files": 3,
+      "verified": true
+    },
+    {
+      "case_id": "b17298fdf8b048f5ae3558477223e76a",
+      "manifest_files": 5,
+      "verified": true
+    },
+    {
+      "case_id": "27bd8f11edb84c89b3db1ad605c2fe07",
+      "manifest_files": 5,
+      "verified": true
+    },
+    {
+      "case_id": "f4c5ee9b338546b98c0fe3202fef8fa2",
+      "manifest_files": 3,
+      "verified": true
+    },
+    {
+      "case_id": "ed74b8cd4ac54cfa9d0e976a611484b5",
+      "manifest_files": 3,
+      "verified": true
+    },
+    {
+      "case_id": "08d0ce88283c402f923af53dc3b14ef7",
+      "manifest_files": 3,
+      "verified": true
+    },
+    {
+      "case_id": "1598974d62f74b7a8685d50a9e6a08ce",
+      "manifest_files": 3,
+      "verified": true
+    },
+    {
+      "case_id": "c2e952133dc24008a5c4435beada40fa",
+      "manifest_files": 3,
+      "verified": true
+    },
+    {
+      "case_id": "2ebed680a2a94df6809b1a2c9391dec4",
+      "manifest_files": 3,
+      "verified": true
+    },
+    {
+      "case_id": "a09fc67d23b74390a93886106da2e910",
+      "manifest_files": 3,
+      "verified": true
+    },
+    {
+      "case_id": "b5ce5043d68a47d69688c71cbd1a88d8",
+      "manifest_files": 3,
+      "verified": true
+    },
+    {
+      "case_id": "3750aa49a6ea4ba1821a4b3eb1c05378",
+      "manifest_files": 4,
+      "verified": true
+    },
+    {
+      "case_id": "9317ff2ad4e94bdabefb4d9711b0ca74",
+      "manifest_files": 4,
+      "verified": true
+    },
+    {
+      "case_id": "c1982e9bb36d4448a18b9aa67380a154",
+      "manifest_files": 5,
+      "verified": true
+    }
+  ],
+  "main_queue_unchanged": true,
+  "normalization": "Only graph.generated_at, a request-time timestamp, was removed before hashing.",
+  "browser_original_loaded": {
+    "width": 1040,
+    "height": 610
+  },
+  "browser_new_warn_errors": 0,
+  "temporary_server_stopped": true,
+  "targeted_tests": {
+    "passed": 15,
+    "seconds": 0.59
+  }
+}
