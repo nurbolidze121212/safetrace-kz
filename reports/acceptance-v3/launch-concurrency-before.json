@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-21T00:54:34.420580+00:00",
+  "isolated_data": "tmp/launch-guard-repro",
+  "both_servers_started": true,
+  "ports": [
+    8767,
+    8768
+  ],
+  "write_on_second_visible_on_first": true,
+  "main_data_unchanged": true,
+  "claim": "The former launch path permits two server processes on one data directory. No corruption was induced or claimed."
+}

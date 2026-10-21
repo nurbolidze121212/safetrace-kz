@@ -1,0 +1,51 @@
+{
+  "checked_at": "2026-10-21T01:03:34.515333+00:00",
+  "queue_cases_images_decisions_identical": true,
+  "cases": 21,
+  "images": 7,
+  "decisions": 7,
+  "representative_export_files_verified": 5,
+  "health": {
+    "status": "ok",
+    "app_version": "2.1.0",
+    "versions": {
+      "rules": "rules-3.0",
+      "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+      "qr": "qr-1.0",
+      "pipeline": "pipeline-2.1"
+    },
+    "provider_available": false,
+    "model": "gemini-3.8-flash",
+    "offline": true,
+    "allowed_hosts": [],
+    "ocr_installed": true,
+    "local_mode": "OCR + правила + разрешенные переходы; ограниченное понимание контекста"
+  },
+  "launch_record": {
+    "schema": "safetrace-server-1",
+    "pid": 11032,
+    "run_id": "468ea1f4847d4d4fa47b52be530fa3cf",
+    "port": 8765,
+    "data_directory": "C:\\Users\\nurbo\\Desktop\\vvv\\safetrace-kz\\data",
+    "project": "C:\\Users\\nurbo\\Desktop\\vvv\\safetrace-kz",
+    "created_at": "2026-10-21T01:03:31.939156+00:00"
+  },
+  "normalization": "Only graph.generated_at removed before hashing.",
+  "backup": "data/backups/pre-managed-launch-v3.zip",
+  "second_instance_same_data_other_port_refused": true,
+  "duplicate_exit_code": 1,
+  "python_tests": {
+    "passed": 256,
+    "seconds": 44.77,
+    "warnings": [
+      "Paddle: optional ccache is not installed"
+    ]
+  },
+  "targeted_launch_tests": {
+    "passed": 9,
+    "seconds": 14.86
+  },
+  "powershell_queue_fixture": "Controlled running status in an isolated database; no live worker was interrupted by the refusal test.",
+  "core_files_still_frozen": 20,
+  "frontend_stamp_valid": true
+}
