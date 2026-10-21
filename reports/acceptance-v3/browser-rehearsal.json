@@ -1,0 +1,44 @@
+{
+  "started_at": "2026-10-21T00:13:19.629Z",
+  "mode": "automated warm browser navigation; no speech or new analysis",
+  "steps": [
+    {
+      "name": "open current case",
+      "ms": 100
+    },
+    {
+      "name": "route and destination source",
+      "ms": 381
+    },
+    {
+      "name": "compare changed destination",
+      "ms": 965
+    },
+    {
+      "name": "QR source and original",
+      "ms": 1115
+    },
+    {
+      "name": "local material relationship and sources",
+      "ms": 857
+    },
+    {
+      "name": "warning reason and quotations",
+      "ms": 1061
+    },
+    {
+      "name": "current evaluation",
+      "ms": 421
+    },
+    {
+      "name": "decision history",
+      "ms": 289
+    },
+    {
+      "name": "download actual ZIP",
+      "ms": 637
+    }
+  ],
+  "download": "C:\\Users\\nurbo\\Downloads\\safetrace-4131fe31 (2).zip",
+  "duration_seconds": 5.826
+}
