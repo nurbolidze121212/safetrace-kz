@@ -10,6 +10,8 @@
 
 Работа до 08:00 продолжается: [текущий план](MORNING_PLAN.md), [backend и замеры](reports/BACKEND_21.md), [проверка HTML-досье](reports/READABLE_EXPORT_V3.md). Промпт [NIGHT_SPEC.md](NIGHT_SPEC.md) обновлен по последнему приоритету пользователя: внутренний механизм первым, визуал последним. Текущая [проверка v3](reports/ACCEPTANCE_V3.md). Историческая [приемка v2](reports/ACCEPTANCE_V2.md) сохранена отдельно.
 
+Комплект защиты: [шесть слайдов PPTX](deliverables/SafeTrace-KZ-defense-v3.pptx), [сценарий демонстрации](docs/DEMO_V3.md), [текст выступления](docs/PITCH.md), [ответы на вопросы](docs/FAQ.md).
+
 ## Запуск на этом компьютере
 
 Откройте PowerShell:

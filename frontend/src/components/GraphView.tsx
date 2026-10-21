@@ -15,7 +15,18 @@ function nodeLabel(label: string) {
     if (url.protocol === 'http:' || url.protocol === 'https:') readable = url.hostname + '\n' + url.pathname + url.search
   } catch { /* Non-URL source labels remain unchanged. */ }
   const truncated = readable.length > 85 ? readable.slice(0, 82) + '…' : readable
-  return truncated.split('\n').map(line => line.match(/.{1,22}/g)?.join('\n') || '').join('\n')
+  return truncated.split('\n').flatMap(line => {
+    const lines: string[] = []
+    let current = ''
+    for (const word of line.split(/\s+/).filter(Boolean)) {
+      if ([...current, ...word].length + 1 > 22 && current) { lines.push(current); current = '' }
+      const letters = [...word]
+      while (letters.length > 22) { lines.push(letters.splice(0, 22).join('')) }
+      current += (current ? ' ' : '') + letters.join('')
+    }
+    if (current) lines.push(current)
+    return lines
+  }).join('\n')
 }
 export default function GraphView({ data, caseId, onEvidence, onOpen }: { data: GraphData; caseId: string; onEvidence: (ids: string[]) => void; onOpen: (id: string) => void }) {
   const container = useRef<HTMLDivElement>(null), cy = useRef<cytoscape.Core | null>(null), selection = useRef(onEvidence)
@@ -46,7 +57,8 @@ export default function GraphView({ data, caseId, onEvidence, onOpen }: { data: 
     const columns = new Map<number, string[]>()
     nodes.forEach(n => { const rank = ranks.get(n.id) || 0; columns.set(rank, [...(columns.get(rank) || []), n.id]) })
     const positions: Record<string, { x: number; y: number }> = {}
-    columns.forEach((column, rank) => column.forEach((id, index) => { positions[id] = { x: rank * 235 + 110, y: (index - (column.length - 1) / 2) * 145 + 230 } }))
+    const columnSpacing = scope === 'route' ? 235 : 285
+    columns.forEach((column, rank) => column.forEach((id, index) => { positions[id] = { x: rank * columnSpacing + 110, y: (index - (column.length - 1) / 2) * 145 + 230 } }))
     const instance = cytoscape({
       container: container.current,
       elements: [...nodes.map(n => ({ data: { ...n, label: nodeLabel(n.label) } })), ...shown.map(e => ({ data: { ...e, label: shortEdges[e.type] || edgeNames[e.type] || e.type } }))],

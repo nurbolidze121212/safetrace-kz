@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-21T00:43:59.388382+00:00",
+  "file": "deliverables/SafeTrace-KZ-defense-v3.pptx",
+  "sha256": "aebebe692c2b44426343d4167fc44b954ece95aad0ea01d18c855d9d70cdb254",
+  "slides": 6,
+  "speaker_notes": 6,
+  "native_charts": 1,
+  "chart_values": [
+    0.3,
+    0.375,
+    0.8
+  ],
+  "missing_source_references": [],
+  "crc_valid": true,
+  "final_pptx_imported_and_rendered": true,
+  "visually_reviewed_final_slides": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "powerpoint_execution_tested": false,
+  "temporary_preview_server_stopped": true
+}
