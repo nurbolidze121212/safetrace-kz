@@ -1,2 +1,6 @@
+# Preserve exact bytes: the frozen evaluation manifest includes source/data SHA-256.
+# In particular, Git must not rewrite line endings when checking out on Windows.
+* -text
+
 # Keep vendored license notices byte-for-byte, including upstream whitespace.
 licenses/frontend/*-LICENSE.txt -text -whitespace
