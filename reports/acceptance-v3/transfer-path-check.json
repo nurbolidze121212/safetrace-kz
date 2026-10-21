@@ -1,0 +1,74 @@
+{
+  "at": "2026-10-21T01:48:25.316682+00:00",
+  "source_commit": "b5fbeb7792bef786184a81df0579abb04c15d055",
+  "method": "Same copied source, models, restored database and image; folder renamed after stopping the isolated server. Existing installed Python and Node dependencies reused via junctions. This is a path/transfer check on the same PC, not a clean install on another PC.",
+  "before": {
+    "path": "tmp/Проверка передачи v3",
+    "hash_preflight_passed": true,
+    "ocr_stage": "partial",
+    "engine_error": "paddle_inference.create_predictor: json.exception.parse_error.101, attempting to parse an empty input"
+  },
+  "after": {
+    "path": "tmp/Transfer check v3",
+    "ocr_stage": "completed",
+    "ocr_lines": 3,
+    "ocr_cache_hit": false,
+    "image_sha256": "44870bd14c175a93e9d6590047fbc0a0cfbca02a83f6d145b67d40111c0c78c6",
+    "case_status": "partial",
+    "partial_reason": "Offline route intentionally unavailable; OCR completed.",
+    "export_entries": [
+      "case.json",
+      "originals/01-text.txt",
+      "originals/01.jpg",
+      "report.html",
+      "manifest.json"
+    ]
+  },
+  "new_guard": {
+    "run_server_exit": 1,
+    "run_server_message": "Не удалось запустить SafeTrace: Windows OCR не загружает модели из этого пути с нелатинскими символами. Распакуйте проект в путь только с ASCII-символами, например C:\\SafeTrace-KZ, и выполните setup.ps1. Пробелы допустимы.",
+    "setup_exit": 1,
+    "before_data_logs_or_venv_created": true
+  },
+  "data_preserved": {
+    "original_cases_identical": 21,
+    "isolated_new_case_count": 1,
+    "main_cases": 21,
+    "comparison_normalization": "graph.generated_at only"
+  },
+  "main_health": {
+    "status": "ok",
+    "app_version": "2.1.0",
+    "versions": {
+      "rules": "rules-3.0",
+      "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|layout-rotation-2.0",
+      "qr": "qr-1.0",
+      "pipeline": "pipeline-2.1"
+    },
+    "provider_available": false,
+    "model": "gemini-3.8-flash",
+    "offline": true,
+    "allowed_hosts": [],
+    "ocr_installed": true,
+    "local_mode": "OCR + правила + разрешенные переходы; ограниченное понимание контекста"
+  },
+  "targeted_tests": {
+    "passed": 19,
+    "seconds": 15.51
+  },
+  "limits": [
+    "Windows OCR paths must contain ASCII characters; spaces were tested.",
+    "The frozen analysis implementation and models were not changed.",
+    "This test does not validate Linux, another computer, or network access."
+  ],
+  "full_verification": {
+    "pytest": {
+      "passed": 259,
+      "seconds": 46.02,
+      "warnings": [
+        "Paddle: optional ccache is not installed"
+      ]
+    },
+    "ruff": "passed"
+  }
+}

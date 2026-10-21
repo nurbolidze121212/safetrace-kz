@@ -4,6 +4,9 @@ param(
 )
 $ErrorActionPreference = "Stop"
 $projectRoot = Split-Path -Parent $PSScriptRoot
+if ($projectRoot -match '[^\x00-\x7F]') {
+    throw "Windows OCR requires an ASCII project path. Extract to a path such as C:\SafeTrace-KZ and run setup again. Spaces are supported."
+}
 Push-Location $projectRoot
 try {
     if (-not $PythonPath) {

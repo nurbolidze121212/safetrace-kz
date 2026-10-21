@@ -27,6 +27,22 @@ def digest(path: Path) -> str:
         return hashlib.file_digest(stream, "sha256").hexdigest()
 
 
+def verify_model_path(root: Path) -> str:
+    # The pinned Windows Paddle runtime fails inside create_predictor for a
+    # non-ASCII model path, even when every file exists and its hash is valid.
+    if platform.system() == "Windows" and not str(root.resolve() / "models").isascii():
+        raise ValueError(
+            "Windows OCR не загружает модели из этого пути с нелатинскими символами. "
+            "Распакуйте проект в путь только с ASCII-символами, например C:\\SafeTrace-KZ, "
+            "и выполните setup.ps1. Пробелы допустимы."
+        )
+    return (
+        "Путь моделей совместим с проверенной Windows-сборкой"
+        if platform.system() == "Windows"
+        else "Ограничение Windows к этой ОС не применяется; OCR здесь отдельно не проверен"
+    )
+
+
 def confined(root: Path, name: str) -> Path:
     candidate = (root / name).resolve()
     if not candidate.is_relative_to(root.resolve()):
@@ -202,6 +218,11 @@ def main() -> int:
         return f"Python {platform.python_version()} x64; {platform.system()}"
 
     check("Python", runtime, "Запустите скрипт через .venv\\Scripts\\python.exe")
+    check(
+        "Путь OCR",
+        lambda: verify_model_path(ROOT),
+        "Используйте каталог с ASCII-путем и заново выполните setup.ps1",
+    )
     check("Зависимости", lambda: verify_dependencies(ROOT), "Выполните scripts\\setup.ps1")
     check("Модели OCR", lambda: verify_models(ROOT), "Выполните scripts\\prepare_models.py через .venv")
     check(

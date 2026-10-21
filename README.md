@@ -60,6 +60,8 @@ powershell -ExecutionPolicy Bypass -File .\scripts\start.ps1 -Offline -Backgroun
 
 Нужны Windows x64, Python **3.12 x64** (проверен 3.12.14), Node.js 22.12+ (проверен 24.13.1), около 3 GB диска. Docker и GPU не нужны.
 
+Распакуйте проект в путь с ASCII-символами, например `C:\SafeTrace-KZ`. Пробелы допустимы. В закрепленной Windows-библиотеке OCR загрузка моделей из пути с кириллицей завершается ошибкой; установка, проверка готовности и управляемый запуск теперь обнаруживают это заранее. Это ограничение пути на диске: русский и казахский текст распознаются. [Проверка переноса](reports/acceptance-v3/transfer-path-check.json).
+
 ```powershell
 cd C:\Users\nurbo\Desktop\vvv\safetrace-kz
 powershell -ExecutionPolicy Bypass -File .\scripts\setup.ps1
@@ -148,7 +150,7 @@ npm.cmd --prefix frontend run lint
 npm.cmd --prefix frontend run build
 ```
 
-Текущая v3: 256 Python-тестов (ядро, проверка установки, резервирование и запуск), 21 frontend-тест; Ruff, TypeScript, ESLint и сборка проходят. [Новый test-v3](reports/EVALUATION_V3.md): TP32 / FP1 / TN39 / FN8, F1 87,67%, p95 6,815 с на CPU с настоящим OCR и синтетическими переходами. CER 2,78%. В архиве — точный оцененный код, SHA данных, исходные предсказания и разбор девяти ошибок. Кэш OCR при оценке выключен. Облачный SDK проверен подменой; живого вызова Gemini нет.
+Текущая v3: 259 Python-тестов (ядро, проверка установки, резервирование и запуск), 21 frontend-тест; Ruff, TypeScript, ESLint и сборка проходят. [Новый test-v3](reports/EVALUATION_V3.md): TP32 / FP1 / TN39 / FN8, F1 87,67%, p95 6,815 с на CPU с настоящим OCR и синтетическими переходами. CER 2,78%. В архиве — точный оцененный код, SHA данных, исходные предсказания и разбор девяти ошибок. Кэш OCR при оценке выключен. Облачный SDK проверен подменой; живого вызова Gemini нет.
 
 ```powershell
 .\.venv\Scripts\python.exe scripts\verify_version_v3.py

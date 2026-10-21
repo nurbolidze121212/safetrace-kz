@@ -128,8 +128,9 @@ def main() -> int:
     try:
         # The same configuration resolution is used by the installation check.
         sys.path.insert(0, str(ROOT))
-        from scripts.preflight import data_directory
+        from scripts.preflight import data_directory, verify_model_path
 
+        verify_model_path(ROOT)
         data = args.data_dir or data_directory(ROOT, None)
         return run_server(data, args.port, args.run_id, ROOT / "logs")
     except (OSError, ValueError, DataInUseError) as error:

@@ -5,7 +5,33 @@ from contextlib import closing
 
 import pytest
 
-from scripts.preflight import SOURCE_FILES, confined, digest, verify_database, verify_frontend, verify_models
+from scripts.preflight import (
+    SOURCE_FILES,
+    confined,
+    digest,
+    verify_database,
+    verify_frontend,
+    verify_model_path,
+    verify_models,
+)
+
+
+def test_windows_model_path_rejects_cyrillic_before_reading_or_creating_files(tmp_path, monkeypatch):
+    monkeypatch.setattr("scripts.preflight.platform.system", lambda: "Windows")
+    root = tmp_path / "Передача проекта"
+    with pytest.raises(ValueError, match="ASCII"):
+        verify_model_path(root)
+    assert not root.exists()
+
+
+def test_windows_model_path_allows_spaces(tmp_path, monkeypatch):
+    monkeypatch.setattr("scripts.preflight.platform.system", lambda: "Windows")
+    assert "совместим" in verify_model_path(tmp_path / "Transfer check v3")
+
+
+def test_windows_path_restriction_does_not_claim_other_platforms_tested(tmp_path, monkeypatch):
+    monkeypatch.setattr("scripts.preflight.platform.system", lambda: "Linux")
+    assert "отдельно не проверен" in verify_model_path(tmp_path / "Передача проекта")
 
 
 @pytest.fixture
