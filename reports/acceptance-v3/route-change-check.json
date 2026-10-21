@@ -1,0 +1,17 @@
+{
+  "case_id": "4131fe31da734750a5abb2ecc5b1a8f9",
+  "scores": [
+    90,
+    80,
+    90
+  ],
+  "fixture_sha256_restored": "599067f2cb99a5e6e82faa5eefe46ee21a16782b4e7c827795d1cc1242893864",
+  "manual_decision_unchanged": true,
+  "retry_trigger": "local API; comparison shown separately through browser",
+  "history_scores": [
+    80,
+    90,
+    80
+  ],
+  "analyzed_after_decision": true
+}

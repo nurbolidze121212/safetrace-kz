@@ -4,6 +4,7 @@ import { ArrowLeft, ArrowUpRight, Check, CheckCheck, Download, FileText, GitBran
 import type { Case } from '../types'
 import { contexts, date, decisions, errorMessage, isActive, methods, modes, stageNames } from '../lib'
 import { fetchExport } from '../export'
+import { reviewRecency } from '../review'
 import { Loading, PriorityBadge, Status } from './UI'
 import MaterialsView from './MaterialsView'
 import RouteView from './RouteView'
@@ -21,6 +22,9 @@ export default function CaseWorkspace({ current, view, busy, onView, onBack, onO
   const [originalEvidence, setOriginalEvidence] = useState<string>()
   const [exporting, setExporting] = useState(false), [exportError, setExportError] = useState('')
   const active = isActive(current.status)
+  const recency = reviewRecency(current)
+  const reviewTitle = recency === 'earlier' ? 'Проверьте новый анализ' : recency === 'updating' ? 'Анализ обновляется' : recency === 'unknown' ? 'Сохраненное решение' : current.decisions.length ? decisions[current.decisions.at(-1)!.decision] : 'Примите решение'
+  const reviewHint = recency === 'earlier' ? 'Решение было до повторного запуска' : recency === 'updating' ? 'Решение после завершения' : recency === 'unknown' ? 'Проверьте время и источники' : current.decisions.length ? 'Посмотреть историю проверки' : 'После проверки источников'
   const priorityMaterial = current.materials.find(m => m.id === current.score?.material_id)
   const priorityContext = priorityMaterial?.context || current.context
   const selectedView = tabs.some(t => t.id === view) ? view : 'materials'
@@ -60,7 +64,7 @@ export default function CaseWorkspace({ current, view, busy, onView, onBack, onO
     <section className="case-summary" aria-label="Результат анализа">
       <div className="priority-summary"><div className={'priority-value ' + (current.sufficient_data === false ? 'unknown' : current.score?.level || '')}>{current.sufficient_data === false ? '—' : current.score?.value ?? '…'}<small>/ 100</small></div><div><span className="field-hint">{active && current.score ? 'Предыдущий индекс · обновляется' : 'Приоритет ручной проверки'}</span><PriorityBadge item={current} /><small>Индекс, не вероятность нарушения</small></div></div>
       <div className="processing-summary"><Status value={current.status} /><div className="pipeline" aria-label="Этапы анализа">{Object.entries(current.stages).map(([stage, value]) => <span key={stage} className={value} title={(stageNames[stage] || stage) + ': ' + value}>{value === 'completed' ? <Check size={12} /> : <span className="stage-dot" />}{stageNames[stage] || stage}</span>)}</div>{active && <progress max={100} value={current.progress} aria-label="Прогресс анализа" />}</div>
-      <button className="summary-review" onClick={() => onView('review')}><CheckCheck size={20} /><span>{current.decisions.length ? decisions[current.decisions.at(-1)!.decision] : 'Примите решение'}<small>{current.decisions.length ? 'Посмотреть историю проверки' : 'После проверки источников'}</small></span><ArrowUpRight size={17} /></button>
+      <button className="summary-review" onClick={() => onView('review')}><CheckCheck size={20} /><span>{reviewTitle}<small>{reviewHint}</small></span><ArrowUpRight size={17} /></button>
     </section>
     <details className="reasons-panel" open={current.sufficient_data === false}>
       <summary><Info size={17} /><span>{current.sufficient_data === false ? 'Почему данных недостаточно' : 'Почему такой приоритет'}<small>{current.score?.contributions.length || 0} подтвержденных вкладов · {methods[current.provider || 'local_rule']}</small></span></summary>
@@ -80,11 +84,16 @@ export default function CaseWorkspace({ current, view, busy, onView, onBack, onO
 function Decision({ current, onSave }: { current: Case; onSave: (d: string, c: string) => Promise<void> }) {
   const [decision, setDecision] = useState(current.decisions.at(-1)?.decision || 'needs_data'), [comment, setComment] = useState('')
   const [saving, setSaving] = useState(false), [error, setError] = useState(''), [saved, setSaved] = useState(false)
+  const recency = reviewRecency(current)
+  const analyzing = isActive(current.status)
   return <div className="review-workspace"><section><div className="workspace-heading"><div><h2>Решение аналитика</h2><p>Сохраняется отдельно от автоматического индекса и не меняет результаты теста.</p></div></div>
-    <form onSubmit={async e => { e.preventDefault(); setSaving(true); setError(''); setSaved(false); try { await onSave(decision, comment); setComment(''); setSaved(true) } catch (e) { setError(errorMessage(e)) } finally { setSaving(false) } }}>
-      <fieldset disabled={saving}><label>Оценка<select value={decision} onChange={e => { setDecision(e.target.value); setSaved(false) }}>{Object.entries(decisions).map(([v, label]) => <option key={v} value={v}>{label}</option>)}</select></label><label>Комментарий<textarea rows={5} maxLength={2000} value={comment} onChange={e => { setComment(e.target.value); setSaved(false) }} placeholder="Какие источники проверены? Что подтверждено и каких данных не хватает?" /></label></fieldset>
+    {recency === 'earlier' && <p className="alert" role="status">После последнего решения анализ выполнен заново. Проверьте обновленные источники и сохраните новое решение. Прежняя запись остается в истории.</p>}
+    {recency === 'updating' && <p className="alert" role="status">Идет анализ. Сохранить решение можно после завершения; прежние решения доступны в истории.</p>}
+    {recency === 'unknown' && <p className="alert" role="status">В сохраненных данных не удалось сопоставить время решения и анализа. Проверьте источники перед новым решением.</p>}
+    <form onSubmit={async e => { e.preventDefault(); if (analyzing) return; setSaving(true); setError(''); setSaved(false); try { await onSave(decision, comment); setComment(''); setSaved(true) } catch (e) { setError(errorMessage(e)) } finally { setSaving(false) } }}>
+      <fieldset disabled={saving || analyzing}><label>Оценка<select value={decision} onChange={e => { setDecision(e.target.value); setSaved(false) }}>{Object.entries(decisions).map(([v, label]) => <option key={v} value={v}>{label}</option>)}</select></label><label>Комментарий<textarea rows={5} maxLength={2000} value={comment} onChange={e => { setComment(e.target.value); setSaved(false) }} placeholder="Какие источники проверены? Что подтверждено и каких данных не хватает?" /></label></fieldset>
       {error && <div className="alert error" role="alert">{error}</div>}
-      <button className="primary" type="submit" disabled={saving}><Check size={17} />{saving ? 'Сохранение…' : 'Сохранить решение'}</button>{saved && <p className="success-message" role="status">Решение сохранено в истории случая.</p>}
+      <button className="primary" type="submit" disabled={saving || analyzing}><Check size={17} />{saving ? 'Сохранение…' : 'Сохранить решение'}</button>{saved && recency === 'saved' && <p className="success-message" role="status">Решение сохранено в истории случая.</p>}
     </form>
     <div className="review-checklist"><h3>Перед решением</h3><p>Проверьте исходный материал, назначение ссылки и основания совпадения. Отдельно оцените предупреждение, новость или образовательный контекст.</p></div>
   </section><section className="decision-history"><div className="section-title"><History size={18} /><h2>История проверки</h2><span className="badge">{current.decisions.length}</span></div>{current.decisions.length ? [...current.decisions].reverse().map(d => <article key={d.id}><strong>{decisions[d.decision]}</strong><time>{date(d.at)} · UTC+5</time><p>{d.comment || 'Без комментария'}</p></article>) : <p className="muted">Решений пока нет. Сохраните первую проверку.</p>}</section></div>

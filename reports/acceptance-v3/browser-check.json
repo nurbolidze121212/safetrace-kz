@@ -1,0 +1,27 @@
+{
+  "evaluation": {
+    "default": "synthetic-v3",
+    "rules": "rules-3.0",
+    "displayed_precision": "97.0%",
+    "displayed_recall": "80.0%",
+    "displayed_fpr": "2.5%",
+    "displayed_coverage": "86.3%",
+    "processed_n": 69,
+    "error_examples": 9,
+    "false_alarms": 1,
+    "historical_v2_selection_verified": true,
+    "ocr_timing_panel_verified": true
+  },
+  "new_case_id": "4131fe31da734750a5abb2ecc5b1a8f9",
+  "new_case_created_from_browser_with_new_image": true,
+  "acceptance_in_progress": false,
+  "qr_and_ocr_sources_opened": true,
+  "shared_identifier_sources_opened": true,
+  "decision_reload_and_restart_verified": true,
+  "stale_decision_notice_and_new_review_verified": true,
+  "route_history_comparison_opened": true,
+  "warning_case_id": "496bd70a156840eba53951597ef54826",
+  "warning_score": 0,
+  "warning_quotes_opened": true,
+  "final_zip_checked": true
+}

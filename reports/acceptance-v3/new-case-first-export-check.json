@@ -1,0 +1,9 @@
+{
+  "case_id": "4131fe31da734750a5abb2ecc5b1a8f9",
+  "zip_sha256": "dd29b42849622f31400973d7ec9ee27306678b7c9695615ed56981341d63dfca",
+  "manifest_files": 5,
+  "new_image_unchanged": true,
+  "decision_after_browser_reload": "confirmed",
+  "score": 90,
+  "rules": "rules-3.0"
+}

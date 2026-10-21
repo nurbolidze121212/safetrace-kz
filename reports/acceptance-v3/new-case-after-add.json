@@ -1,0 +1,16 @@
+{
+  "case_id": "4131fe31da734750a5abb2ecc5b1a8f9",
+  "score": 90,
+  "status": "completed",
+  "rules": "rules-3.0",
+  "material_ids": [
+    "44d16467fab8414993b2030cc79fd520",
+    "31580e42110942518891dcc033061074"
+  ],
+  "history_scores": [
+    80
+  ],
+  "observations": 5,
+  "edges": 52,
+  "qr_url": "https://go.safetrace.test/r/q7"
+}
