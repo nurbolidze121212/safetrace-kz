@@ -1,0 +1,102 @@
+{
+  "schema": "link-audit-1.0",
+  "case_id": "1a1019fcd5d345e0b48eefeee9cb8f8d",
+  "analysis_id": "f020a29879d2",
+  "source_analyzed_at": "2026-10-22T17:49:13.749256+00:00",
+  "generated_at": "2026-10-22T17:55:17.629488+00:00",
+  "mode": "local",
+  "status": "needs_review",
+  "probability": null,
+  "network_requests": 0,
+  "urls": [
+    {
+      "url": "https://apple.com.claim.example/prize",
+      "host": "apple.com.claim.example",
+      "unicode_host": "apple.com.claim.example",
+      "observed": false,
+      "finding_ids": [
+        "audit-8dafef25c5acdb95"
+      ],
+      "brands": [],
+      "evidence_ids": [
+        "1a1019fcd5d345e0b48eefeee9cb8f8d-f020a29879d2-e3",
+        "1a1019fcd5d345e0b48eefeee9cb8f8d-f020a29879d2-e4",
+        "1a1019fcd5d345e0b48eefeee9cb8f8d-f020a29879d2-e5"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "audit-8dafef25c5acdb95",
+      "code": "embedded_brand_domain",
+      "title": "Известный домен встроен в чужое имя",
+      "detail": "Узел apple.com.claim.example не принадлежит дереву домена apple.com. Возможна имитация имени; владелец не установлен.",
+      "quote": "apple.com.claim.example",
+      "evidence_ids": [
+        "1a1019fcd5d345e0b48eefeee9cb8f8d-f020a29879d2-e3",
+        "1a1019fcd5d345e0b48eefeee9cb8f8d-f020a29879d2-e4",
+        "1a1019fcd5d345e0b48eefeee9cb8f8d-f020a29879d2-e5"
+      ],
+      "url": "https://apple.com.claim.example/prize",
+      "reference": "https://www.apple.com/legal/privacy/en-ww/"
+    },
+    {
+      "id": "audit-f06d6f3f9ab90850",
+      "code": "prize_secret",
+      "title": "Обещание приза вместе с запросом секрета",
+      "detail": "В одном источнике найдены обещание выигрыша и просьба сообщить пароль/код. Это повод для проверки, не подтверждение кражи данных.",
+      "quote": "Вы выиграли […] Отправьте код из SMS",
+      "evidence_ids": [
+        "1a1019fcd5d345e0b48eefeee9cb8f8d-f020a29879d2-e3"
+      ],
+      "url": null,
+      "reference": null
+    }
+  ],
+  "coverage": {
+    "urls_checked": 1,
+    "urls_available": 1,
+    "observed_urls": 0,
+    "held_ocr_urls": 0,
+    "truncated": false
+  },
+  "held_ocr_urls": [],
+  "checks": [
+    {
+      "name": "Структура URL",
+      "status": "checked",
+      "detail": "HTTP, IP, Unicode/punycode, имя перед @, расширение файла."
+    },
+    {
+      "name": "Имитация известного домена",
+      "status": "limited",
+      "detail": "Справочник: 1 бренд(ов). Совпадение имени не подтверждает честность бизнеса или лицензию."
+    },
+    {
+      "name": "Приз и запрос пароля/кода",
+      "status": "limited",
+      "detail": "Узкие локальные шаблоны RU/KK по сохранённому тексту; независимая точность не измерена."
+    },
+    {
+      "name": "Базы фишинга и вредоносных URL",
+      "status": "not_connected",
+      "detail": "Внешние базы угроз не подключены. Совпадение или отсутствие совпадения не проверялось."
+    },
+    {
+      "name": "Антивирус и исполнение страницы",
+      "status": "not_implemented",
+      "detail": "Файлы и JavaScript не исполняются. Наличие вируса не установлено."
+    },
+    {
+      "name": "Организация и лицензия казино",
+      "status": "not_verified",
+      "detail": "Владелец, лицензия, выплаты и подлинность казино не подтверждены. Игорные признаки оцениваются отдельно в основном анализе."
+    }
+  ],
+  "limitations": [
+    "Экспериментальный пассивный разбор, не сертификат безопасности.",
+    "Процент вероятности не вычисляется: калиброванной модели для этих угроз нет.",
+    "Нет новых сетевых запросов: используются введённые адреса и сохранённые наблюдения.",
+    "Нет признаков по выбранным правилам не означает отсутствие мошенничества."
+  ]
+}

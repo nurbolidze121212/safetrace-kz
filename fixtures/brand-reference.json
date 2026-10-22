@@ -1,0 +1,14 @@
+{
+  "schema": "safetrace-brand-reference-1",
+  "scope": "Small editorial domain reference, not a licensing or safety registry",
+  "brands": [
+    {
+      "name": "Apple",
+      "aliases": ["Apple", "iPhone"],
+      "domains": ["apple.com"],
+      "source": "https://www.apple.com/legal/privacy/en-ww/",
+      "checked_at": "2026-10-22",
+      "review_after": "2027-01-20"
+    }
+  ]
+}

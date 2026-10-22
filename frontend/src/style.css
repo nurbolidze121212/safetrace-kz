@@ -162,6 +162,20 @@ td small { display: block; font-size: 12px; margin-top: 5px }
 .empty h3 { color: #344a67; margin: 4px 0 }.empty p { font-size: 14px; max-width: 450px; margin-bottom: 8px }
 .loading { padding: 70px 20px; display: flex; align-items: center; justify-content: center; gap: 12px; color: var(--muted) }
 #panel-graph > .loading { min-height: 100vh }
+#panel-security .loading { min-height: 100vh }
+.link-audit > header { display: flex; justify-content: space-between; align-items: start; gap: 20px }
+.link-audit h2 { display: flex; align-items: center; gap: 9px }
+.link-audit p { line-height: 1.6 }
+.link-audit code, .audit-finding blockquote { overflow-wrap: anywhere }
+.audit-summary { background: #fff5df; padding: 20px; border: 1px solid #e1c98c; border-radius: 10px; margin: 18px 0 }
+.audit-checks { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(240px,100%),1fr)); gap: 12px; margin-bottom: 24px }
+.audit-checks article, .audit-finding, .audit-url { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 18px; margin-bottom: 10px }
+.audit-checks h3, .audit-finding h4 { margin: 0 0 12px }
+.audit-finding blockquote { margin: 0; padding: 12px; background: var(--bg) }
+.audit-finding a { margin-left: 18px }
+.link-audit details { margin: 18px 0 }
+.link-audit summary { cursor: pointer; padding: 12px 0 }
+@media (max-width: 760px) { .link-audit > header { flex-direction: column }.audit-finding a { display: block; margin: 12px 0 }.workspace-tabs { overflow-x: auto } }
 .alert { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 16px; margin: 0 0 18px; border: 1px solid var(--line); border-radius: 6px; font-size: 14px }
 .alert.error { color: #943f2d; background: #fff1ec; border-color: #e9c0b2 }
 .case-breadcrumb { display: flex; align-items: center; gap: 10px; color: #7a8ba2; margin: -10px 0 13px; font-size: 13px }

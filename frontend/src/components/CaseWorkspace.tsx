@@ -12,9 +12,10 @@ import MaterialsView from './MaterialsView'
 import RouteView from './RouteView'
 import EvidenceDrawer from './EvidenceDrawer'
 import AnalysisDetails from './AnalysisDetails'
+import LinkAuditView from './LinkAuditView'
 
 const GraphView = lazy(() => import('./GraphView'))
-const tabs = [{ id: 'materials', name: 'Материалы', Icon: FileText }, { id: 'route', name: 'Маршрут', Icon: GitBranch }, { id: 'graph', name: 'Граф связей', Icon: Network }, { id: 'review', name: 'Решение', Icon: CheckCheck }]
+const tabs = [{ id: 'materials', name: 'Материалы', Icon: FileText }, { id: 'route', name: 'Маршрут', Icon: GitBranch }, { id: 'graph', name: 'Граф связей', Icon: Network }, { id: 'security', name: 'Другие угрозы', Icon: Info }, { id: 'review', name: 'Решение', Icon: CheckCheck }]
 
 export default function CaseWorkspace({ current, runtimeVersions, view, busy, onView, onBack, onOpen, onAdd, onRetry, onDecision, onCorrect }: {
   current: Case; view: string; busy: boolean; onView: (view: string) => void; onBack: () => void; onOpen: (id: string) => void;
@@ -73,6 +74,7 @@ export default function CaseWorkspace({ current, runtimeVersions, view, busy, on
     <header className="presentation-heading"><div><div className="eyebrow">SAFETRACE KZ · РЕЖИМ ПОКАЗА</div><h1>{current.title}</h1></div><div className="actions"><button onClick={onBack}><ArrowLeft size={16} />Очередь</button><button onClick={() => onView('materials')}>Рабочий режим</button>{active && <button disabled={busy} onClick={onRetry}><Square size={15} />Отменить</button>}<button className="primary" disabled={exporting} aria-busy={exporting} onClick={() => void exportCase()}><Download size={17} />{exporting ? 'Подготовка…' : 'Экспорт'}</button></div></header>
     {exportError && <div className="alert error" role="alert">{exportError}</div>}
     <PresentationView current={current} onEvidence={setEvidenceIds} onMaterial={openMaterial} onGraph={() => openSection('graph')} onRetry={onRetry} busy={busy} />
+    <button className="text-button" onClick={() => openSection('security')}>Другие признаки: подмена домена и запросы кодов<ArrowUpRight size={16} /></button>
     {evidenceIds.length > 0 && <EvidenceDrawer current={current} ids={evidenceIds} close={() => setEvidenceIds([])} onOriginal={openMaterial} onOpen={onOpen} />}
   </>
   return <>
@@ -103,6 +105,7 @@ export default function CaseWorkspace({ current, runtimeVersions, view, busy, on
       {selectedView === 'materials' && <MaterialsView key={materialId + (originalEvidence || '')} current={current} materialId={materialId} selectedEvidence={originalEvidence} onMaterial={id => { setMaterialId(id); setOriginalEvidence(undefined) }} onEvidence={setEvidenceIds} onCorrect={onCorrect} />}
       {selectedView === 'route' && <RouteView current={current} onEvidence={setEvidenceIds} onMaterial={openMaterial} />}
       {selectedView === 'graph' && <Suspense fallback={<Loading>Загрузка графа…</Loading>}><GraphView data={current.graph} caseId={current.id} onEvidence={setEvidenceIds} onOpen={onOpen} /></Suspense>}
+      {selectedView === 'security' && <LinkAuditView key={current.id + current.analysis_id + current.status} current={current} onEvidence={setEvidenceIds} />}
     </div>}
     <div className="workspace-panel" id="panel-review" role="tabpanel" aria-labelledby="tab-review" hidden={selectedView !== 'review'}><Decision current={current} onSave={onDecision} /></div>
     {evidenceIds.length > 0 && <EvidenceDrawer current={current} ids={evidenceIds} close={() => setEvidenceIds([])} onOriginal={openMaterial} onOpen={onOpen} />}

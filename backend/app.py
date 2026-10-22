@@ -26,6 +26,7 @@ from .config import (
 from .exports import package
 from .graph import build_graph
 from .limits import BodyLimitMiddleware
+from .link_audit import build_audit
 from .schemas import CaseInput, DecisionInput, MaterialInput, URLCorrectionInput
 
 Image.MAX_IMAGE_PIXELS = 12_000_000
@@ -38,7 +39,7 @@ async def lifespan(app):
     yield
 
 
-app = FastAPI(title="SafeTrace KZ", version="2.2.1", lifespan=lifespan)
+app = FastAPI(title="SafeTrace KZ", version="2.3.0", lifespan=lifespan)
 app.add_middleware(BodyLimitMiddleware)
 
 
@@ -187,6 +188,17 @@ def detail(case_id: str):
         if doc.get("evidence")
         else {"nodes": [], "edges": [], "evidence": []},
     }
+
+
+@app.get("/api/cases/{case_id}/link-audit")
+def link_audit(case_id: str, download: bool = False):
+    report = build_audit(require_case(case_id))
+    if download:
+        return Response(
+            json.dumps(report, ensure_ascii=False, indent=2), media_type="application/json",
+            headers={"Content-Disposition": f'attachment; filename="link-audit-{report["case_id"]}.json"'},
+        )
+    return report
 
 
 @app.post("/api/cases/{case_id}/materials")

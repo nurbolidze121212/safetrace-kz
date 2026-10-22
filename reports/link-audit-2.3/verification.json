@@ -1,0 +1,76 @@
+{
+  "at": "2026-10-22T17:59:29.048542+00:00",
+  "app_version": "2.3.0",
+  "backend_tests": {
+    "passed": 330,
+    "seconds": 53.75,
+    "warnings": [
+      "Paddle: ccache not installed"
+    ]
+  },
+  "frontend_tests": 30,
+  "ruff": "passed",
+  "eslint": "passed",
+  "typescript_build": "passed",
+  "preflight": "passed",
+  "browser_case": "1a1019fcd5d345e0b48eefeee9cb8f8d",
+  "browser_findings": [
+    "embedded_brand_domain",
+    "prize_secret"
+  ],
+  "browser_source": "actual original message opened after fixing incorrect attribution to source label",
+  "browser_download": {
+    "file": "browser-export.json",
+    "sha256": "e7b39dd10c20c5d63e66b9462107a4548bbc4c57f4c3d8fcab657d382eb6f595"
+  },
+  "mobile_viewport": {
+    "width": 390,
+    "height": 844,
+    "client_width": 375,
+    "scroll_width": 375
+  },
+  "console_warnings_errors": 0,
+  "preserved": {
+    "cases": 28,
+    "decisions": 9,
+    "cache": 13,
+    "originals": 10
+  },
+  "current_database": {
+    "cases": 29,
+    "decisions": 9,
+    "cache": 13
+  },
+  "v4_frozen_core_changed_files": [
+    "backend/app.py"
+  ],
+  "classifier_quality": "not reevaluated; rules/OCR/pipeline unchanged",
+  "network_reputation": "not connected",
+  "physical_phone": "not tested",
+  "github_publication": "not performed: no remote, no accessible repository from connector, web creation requires sign-in",
+  "runtime_hashes": {
+    "backend/app.py": "282877a8e9dfaea489c6711c5b99515d28f9abd9bd4dc4023deed2612f7e7218",
+    "backend/link_audit.py": "94525dc35a95832db1775a0670adec6fa9a65758a2f5798ac23a75e4d196fef7",
+    "fixtures/brand-reference.json": "461b6d8e5a30d4fb6e032d579a2036ce0678b318fcf20b43925cbd28fc2e8437",
+    "frontend/src/components/LinkAuditView.tsx": "55fbc458ceea70e40e017c2b9630e7c1f97f39159bd42e1f034de2833a8b0714"
+  },
+  "source_package_candidate": {
+    "files": 1082,
+    "bytes": 17014847,
+    "sha256": "e052e5484af13af8a11e0dfd41d91e75f6074f8e071800d2671d24c0c484be95",
+    "path": "deliverables/releases/2.3.0/SafeTrace-KZ-2.3.0-candidate.zip",
+    "extraction": "fresh directory on the same PC; no new dependency install or second physical computer",
+    "frontend_fingerprint": "Исходники и 4 файлов сборки совпадают с отпечатком",
+    "required_files_present": true,
+    "private_runtime_directories_excluded": true
+  },
+  "documentation_links": {
+    "checked": 95,
+    "missing": 0
+  },
+  "staged_redaction_review": {
+    "high": 0,
+    "medium": 4,
+    "reviewed": "3 localhost synthetic demo URLs and the SECRET regular-expression assignment; no credentials"
+  }
+}
