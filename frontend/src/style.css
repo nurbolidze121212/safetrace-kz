@@ -161,6 +161,7 @@ td small { display: block; font-size: 12px; margin-top: 5px }
 .empty { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 45px 24px; text-align: center; color: var(--muted); min-height: 200px; gap: 8px }
 .empty h3 { color: #344a67; margin: 4px 0 }.empty p { font-size: 14px; max-width: 450px; margin-bottom: 8px }
 .loading { padding: 70px 20px; display: flex; align-items: center; justify-content: center; gap: 12px; color: var(--muted) }
+#panel-graph > .loading { min-height: 100vh }
 .alert { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 16px; margin: 0 0 18px; border: 1px solid var(--line); border-radius: 6px; font-size: 14px }
 .alert.error { color: #943f2d; background: #fff1ec; border-color: #e9c0b2 }
 .case-breadcrumb { display: flex; align-items: center; gap: 10px; color: #7a8ba2; margin: -10px 0 13px; font-size: 13px }
@@ -351,3 +352,123 @@ td small { display: block; font-size: 12px; margin-top: 5px }
 .qr-result .text-button { margin-top: 8px; }
 .ocr-overlay polygon.qr-area { fill: #2459c40a; stroke: #2459c4; stroke-width: 2; stroke-dasharray: 8 4; }
 .evaluation-picker { margin: 0 0 24px; max-width: 680px; }
+.message-intro { padding: 20px 24px; margin-bottom: 22px; border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 8px; background: var(--surface) }
+.message-intro p { margin: 7px 0; max-width: 900px }
+.message-intro small { display: block }
+.input-options { margin-top: 18px; border-top: 1px solid var(--line); padding-top: 15px }
+.input-options summary { font-weight: 600; color: var(--accent); min-height: 32px }
+.optional { color: var(--muted); font-weight: 400; font-size: 13px }
+.message-form .dialog-actions { position: sticky; bottom: -26px; background: var(--surface); padding-bottom: 16px; z-index: 1; margin-bottom: -16px }
+.analysis-message { display: flex; gap: 16px; padding: 22px 24px; margin-bottom: 20px; border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 8px; background: var(--surface) }
+.analysis-message > div:last-child { min-width: 0 }
+.analysis-message.attention { border-left-color: var(--warning) }
+.analysis-message .message-icon { color: var(--accent); padding-top: 2px }
+.analysis-message.attention .message-icon { color: var(--warning) }
+.analysis-message h2 { margin: 7px 0 8px }
+.analysis-message p { margin-bottom: 7px; max-width: 900px }
+.analysis-duration { display: block; margin-top: 10px }
+main:has(.presentation-view) { padding: 18px 32px }
+.presentation-heading { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 12px }
+.presentation-heading > div:first-child { min-width: 0 }
+.presentation-heading h1 { font-size: 24px; margin: 5px 0 0; overflow-wrap: anywhere }
+.presentation-heading .actions { flex-shrink: 0; flex-wrap: wrap; max-width: none }
+.presentation-context { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; font-size: 12px; color: var(--muted); margin-bottom: 10px }
+.presentation-context strong { color: var(--warning); font-weight: 500 }
+.presentation-overview { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: 18px; margin-bottom: 14px }
+.presentation-input, .presentation-verdict, .presentation-map { border: 1px solid var(--line); border-radius: 10px; background: var(--surface); padding: 18px 20px; min-width: 0 }
+.presentation-label { display: flex; align-items: center; gap: 9px; min-width: 0; margin-bottom: 8px }
+.presentation-label > span { font-size: 11px; font-weight: 700; letter-spacing: .5px; color: var(--accent); background: var(--accent-soft); border-radius: 4px; padding: 3px 5px }
+.presentation-label h2 { font-size: 16px; margin: 0; flex: 1; letter-spacing: 0 }
+.presentation-label > svg { color: var(--muted) }
+.presentation-input blockquote { margin: 0 0 12px; border-left: 2px solid #b1c6f0; padding: 4px 0 4px 14px; line-height: 1.65; font-size: 16px; white-space: pre-wrap; overflow-wrap: anywhere; max-height: 155px; overflow-y: auto }
+.presentation-url { display: block; margin-bottom: 10px }
+.presentation-image { width: 100%; background: var(--canvas); padding: 0; margin-bottom: 9px; overflow: hidden; border-color: var(--line) }
+.presentation-image img { display: block; max-height: 145px; width: 100%; object-fit: contain }
+.presentation-score { display: flex; align-items: center; gap: 16px; margin-bottom: 5px }
+.presentation-score > strong { font-size: 48px; line-height: 1; font-weight: 650; background: none; letter-spacing: -2px }
+.presentation-score small { display: block; font-size: 11px }
+.presentation-message { display: flex; align-items: center; gap: 9px; font-size: 13px; margin: 8px 0; line-height: 1.45; font-weight: 600 }
+.presentation-message svg { flex-shrink: 0 }
+.presentation-reasons { display: grid; gap: 5px; margin: 8px 0 }
+.presentation-reasons button { display: flex; text-align: left; justify-content: space-between; gap: 10px; padding: 6px 10px; min-height: 35px; border-color: var(--line); background: var(--canvas); font-size: 12px; font-weight: 500 }
+.presentation-reasons button > span { flex: 1 }
+.presentation-reasons button b { color: var(--warning); font-variant-numeric: tabular-nums }
+.presentation-detail { font-size: 12px; margin-bottom: 8px; color: var(--muted) }
+.presentation-map header { display: flex; gap: 12px; justify-content: space-between; align-items: start }
+.presentation-map header .text-button { font-size: 12px; min-height: 26px }
+.presentation-picker { max-width: 650px; font-size: 12px; margin-bottom: 16px }
+.presentation-picker select { font-size: 13px }
+.presentation-path { display: grid; grid-template-columns: repeat(auto-fit, minmax(195px, 1fr)); gap: 16px; padding: 0; margin: 0; list-style: none }
+.presentation-path li { margin: 0; min-width: 0 }
+.map-connection { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--muted); margin-bottom: 8px; min-height: 20px }
+.map-connection > span { flex: 1 }
+.map-connection .map-edge-arrow { color: var(--accent) }
+.map-node { display: flex; align-items: stretch; flex-direction: column; text-align: left; justify-content: flex-start; width: 100%; min-height: 200px; padding: 13px 14px; border: 1px solid #b4c7ea; gap: 6px; font-weight: 400 }
+.map-node:hover { border-color: var(--accent); background: #f7f9ff }
+.map-node-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 3px }
+.map-step { color: var(--muted); font-size: 11px; font-weight: 600 }
+.map-node .badge { font-size: 10px; padding: 2px 5px }
+.map-node > strong { font-size: 15px; overflow-wrap: anywhere }
+.map-node > code { color: var(--muted); font-size: 11px; line-height: 1.4; max-height: 32px; overflow: hidden }
+.map-excerpt { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; font-size: 12px; line-height: 1.55; margin: 0; font-weight: 400 }
+.map-node .warning-text { font-size: 12px; line-height: 1.45; margin: 0 }
+.map-node > small { display: block; margin-top: auto; font-size: 10px }
+.map-node-action { display: flex; align-items: center; gap: 6px; color: var(--accent); font-size: 11px; font-weight: 600 }
+.map-terminal { display: block; font-size: 10px; margin-top: 7px }
+.presentation-path .stopped .map-node { border-color: #bb9463; border-style: dashed; background: #fffbf4 }
+.presentation-path .stopped .map-connection { color: var(--warning) }
+.presentation-map-note { display: flex; align-items: flex-start; gap: 7px; margin: 12px 0 0; color: var(--muted); font-size: 11px }
+.presentation-map-note svg { flex-shrink: 0; margin-top: 2px }
+.presentation-empty { display: flex; gap: 16px; padding: 20px 10px; color: var(--muted) }
+.presentation-empty > svg { flex-shrink: 0; color: var(--accent) }
+.presentation-empty p { font-size: 13px; margin: 7px 0 }
+.presentation-empty code { display: block; margin: 10px 0 }
+.presentation-empty > div { min-width: 0 }
+.presentation-limits { margin-top: 14px; color: var(--muted); font-size: 12px }
+.presentation-limits summary { font-size: 12px }
+@media (max-width:760px) {
+  main:has(.presentation-view) { padding: 20px 16px }
+  .presentation-heading { flex-direction: column; align-items: stretch; gap: 12px }
+  .presentation-heading h1 { font-size: 24px }
+  .presentation-heading .actions { justify-content: flex-start; gap: 7px }
+  .presentation-heading .actions button { font-size: 12px; min-height: 44px }
+  .presentation-overview { grid-template-columns: 1fr; gap: 12px }
+  .presentation-input, .presentation-verdict, .presentation-map { padding: 17px }
+  .presentation-map header { flex-wrap: wrap }
+  .presentation-path { grid-template-columns: 1fr; gap: 14px }
+  .map-connection .map-edge-arrow { transform: rotate(90deg) }
+  .map-node { min-height: 185px }
+  .presentation-reasons button { min-height: 44px }
+  .sidebar { inset: auto 0 0; width: 100%; height: auto; padding: 6px 10px calc(6px + env(safe-area-inset-bottom)); flex-direction: row; gap: 8px; align-items: center }
+  .sidebar .brand { display: none }
+  .sidebar nav { display: flex; gap: 6px; flex: 1; min-width: 0 }
+  .sidebar .nav { flex: 1; flex-direction: column; gap: 3px; padding: 7px 3px; font-size: 10px; min-height: 52px; margin: 0 }
+  .sidebar .nav > span { display: block }
+  .sidebar-create { margin: 0; min-height: 52px; min-width: 52px; order: 2 }
+  .main { margin-left: 0; width: 100%; padding-bottom: calc(78px + env(safe-area-inset-bottom)); min-width: 0 }
+  .page-heading { flex-wrap: wrap }
+  .page-heading .primary { min-height: 44px; font-size: 14px }
+  .message-intro { padding: 17px; font-size: 14px }
+  .queue-table table, .queue-table tbody { display: block; min-width: 0; width: 100% }
+  .queue-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%) }
+  .queue-table tr { display: grid; grid-template-columns: 1fr auto; padding: 16px; gap: 10px; border-bottom: 1px solid var(--line) }
+  .queue-table td { display: block; padding: 0; border: 0; min-width: 0; white-space: normal }
+  .queue-table td:first-child { grid-column: 1 / -1; width: auto; min-width: 0 }
+  .queue-table td:nth-child(3) { grid-column: 1; grid-row: 3 }
+  .queue-table td:nth-child(4) { grid-column: 1; font-size: 12px }
+  .queue-table td:last-child { grid-column: 2; grid-row: 2 / 5; align-self: center }
+  .queue-table .case-name { max-width: 100%; overflow-wrap: anywhere }
+  .queue-table .row-open { min-height: 44px; min-width: 44px }
+  .dialog { width: calc(100vw - 16px); max-height: calc(100dvh - 16px); padding: 20px 18px }
+  .dialog input, .dialog textarea, .dialog select { font-size: 16px }
+  .message-form .dialog-actions { bottom: -20px; margin: 16px -3px -8px; padding: 12px 3px; gap: 8px }
+  .message-form .dialog-actions .primary { flex: 1; white-space: normal; min-height: 46px }
+  .message-form .upload-area { padding: 16px; gap: 12px }
+  .message-form .upload-area > div { min-width: 0; overflow-wrap: anywhere }
+  .analysis-message { padding: 18px 16px; gap: 10px }
+  .analysis-message h2 { font-size: 20px }
+  .analysis-message .eyebrow { font-size: 9px }
+  .analysis-message p { font-size: 14px }
+  .analysis-message .text-button { min-height: 44px }
+  .case-heading .actions { flex-wrap: wrap }
+}

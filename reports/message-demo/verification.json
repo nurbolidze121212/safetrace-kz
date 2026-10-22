@@ -1,0 +1,312 @@
+{
+  "at": "2026-10-22T17:22:27.810548+00:00",
+  "scope": "frontend/message-demo, no new classifier evaluation",
+  "core_unchanged": 22,
+  "preserved_from_backup": {
+    "cases": 23,
+    "decisions": 8,
+    "cache": 9,
+    "originals": 8
+  },
+  "new_cases": [
+    {
+      "id": "1c88aea6e3d04685895a8799c0eeae26",
+      "title": "Демо сообщения · скрытый маршрут",
+      "mode": "synthetic",
+      "status": "completed",
+      "sufficient_data": true,
+      "elapsed_ms": 188.2,
+      "score": {
+        "value": 80,
+        "level": "high",
+        "contributions": [
+          {
+            "key": "destination_and_call",
+            "title": "Игровые признаки на странице + призыв",
+            "weight": 65,
+            "evidence_ids": [
+              "1c88aea6e3d04685895a8799c0eeae26-b83054252942-e2",
+              "1c88aea6e3d04685895a8799c0eeae26-b83054252942-e9",
+              "1c88aea6e3d04685895a8799c0eeae26-b83054252942-e11",
+              "1c88aea6e3d04685895a8799c0eeae26-b83054252942-e13",
+              "1c88aea6e3d04685895a8799c0eeae26-b83054252942-e5",
+              "1c88aea6e3d04685895a8799c0eeae26-b83054252942-e15",
+              "1c88aea6e3d04685895a8799c0eeae26-b83054252942-e16",
+              "1c88aea6e3d04685895a8799c0eeae26-b83054252942-e6",
+              "1c88aea6e3d04685895a8799c0eeae26-b83054252942-e7",
+              "1c88aea6e3d04685895a8799c0eeae26-b83054252942-e8"
+            ]
+          },
+          {
+            "key": "bonus_in_promotion",
+            "title": "Бонус в рекламном контексте",
+            "weight": 15,
+            "evidence_ids": [
+              "1c88aea6e3d04685895a8799c0eeae26-b83054252942-e3"
+            ]
+          }
+        ],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+        "material_id": "6c0a285b05cb4e0fa767e2ccbf0ae19d",
+        "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+      },
+      "limitations": [
+        "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+        "Индекс не является вероятностью нарушения или юридическим заключением.",
+        "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+      ]
+    },
+    {
+      "id": "893ba041645e42d88d12d6f3db6e562d",
+      "title": "clipboard.png",
+      "mode": "local",
+      "status": "partial",
+      "sufficient_data": false,
+      "elapsed_ms": 18501.4,
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+        "material_id": "46bd7b088a394fe2aac2ab60a24a2cb2",
+        "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+      },
+      "limitations": [
+        "Индекс не является вероятностью нарушения или юридическим заключением.",
+        "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+        "Сомнительный OCR-адрес не открывался. Сверьте его с оригиналом и явно уточните в карточке материала.",
+        "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+      ]
+    },
+    {
+      "id": "737af2952ea24335b0548249de67cbd2",
+      "title": "https://example.invalid/message",
+      "mode": "local",
+      "status": "partial",
+      "sufficient_data": false,
+      "elapsed_ms": 155.0,
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+        "material_id": "04f8e1a6a9bc4fb78b2ec709c73873a3",
+        "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+      },
+      "limitations": [
+        "Индекс не является вероятностью нарушения или юридическим заключением.",
+        "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний.",
+        "Непроверенный участок: Офлайн: сетевые запросы выключены",
+        "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
+      ]
+    },
+    {
+      "id": "452a2f7c90ce4f5795867ff775a6e8c4",
+      "title": "Демо сообщения · предупреждение",
+      "mode": "synthetic",
+      "status": "completed",
+      "sufficient_data": true,
+      "elapsed_ms": 99.6,
+      "score": {
+        "value": 0,
+        "level": "low",
+        "contributions": [
+          {
+            "key": "alternative_context",
+            "title": "Альтернативный контекст: предупреждение",
+            "weight": -65,
+            "evidence_ids": [
+              "452a2f7c90ce4f5795867ff775a6e8c4-22b1e0df09ca-e4"
+            ]
+          }
+        ],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+        "material_id": "989d2fa4b8884d669be04743e12011ae",
+        "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+      },
+      "limitations": [
+        "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+        "Индекс не является вероятностью нарушения или юридическим заключением.",
+        "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+      ]
+    },
+    {
+      "id": "f5f469d29f644ad59389cce99cad96ce",
+      "title": "Показ фото · жаңа мүмкіндік",
+      "mode": "synthetic",
+      "status": "completed",
+      "sufficient_data": true,
+      "elapsed_ms": 12377.2,
+      "score": {
+        "value": 80,
+        "level": "high",
+        "contributions": [
+          {
+            "key": "destination_and_call",
+            "title": "Игровые признаки на странице + призыв",
+            "weight": 65,
+            "evidence_ids": [
+              "f5f469d29f644ad59389cce99cad96ce-9c901e7079d9-e5",
+              "f5f469d29f644ad59389cce99cad96ce-9c901e7079d9-e7",
+              "f5f469d29f644ad59389cce99cad96ce-9c901e7079d9-e14",
+              "f5f469d29f644ad59389cce99cad96ce-9c901e7079d9-e16",
+              "f5f469d29f644ad59389cce99cad96ce-9c901e7079d9-e18",
+              "f5f469d29f644ad59389cce99cad96ce-9c901e7079d9-e4",
+              "f5f469d29f644ad59389cce99cad96ce-9c901e7079d9-e10",
+              "f5f469d29f644ad59389cce99cad96ce-9c901e7079d9-e20",
+              "f5f469d29f644ad59389cce99cad96ce-9c901e7079d9-e21",
+              "f5f469d29f644ad59389cce99cad96ce-9c901e7079d9-e11",
+              "f5f469d29f644ad59389cce99cad96ce-9c901e7079d9-e12",
+              "f5f469d29f644ad59389cce99cad96ce-9c901e7079d9-e13"
+            ]
+          },
+          {
+            "key": "bonus_in_promotion",
+            "title": "Бонус в рекламном контексте",
+            "weight": 15,
+            "evidence_ids": [
+              "f5f469d29f644ad59389cce99cad96ce-9c901e7079d9-e6"
+            ]
+          }
+        ],
+        "version": "rules-4.0",
+        "weights": {
+          "version": "weights-4.0",
+          "high_threshold": 65,
+          "medium_threshold": 35,
+          "gambling_and_call": 65,
+          "destination_and_call": 65,
+          "bonus_in_promotion": 15,
+          "promise_in_promotion": 10,
+          "repeated_referral_in_promotion": 10,
+          "alternative_context": -65,
+          "contradictory_context": 0,
+          "destination_alternative_context": 0
+        },
+        "meaning": "Индекс приоритета ручной проверки, не вероятность нарушения.",
+        "material_id": "585a8ee7773e488cb612becaee45590c",
+        "aggregation": "Максимальный высокий приоритет материала с достаточными данными; иначе максимальный предварительный индекс. Признаки разных материалов не смешиваются."
+      },
+      "limitations": [
+        "Синтетический стенд: материалы и страницы созданы для демонстрации.",
+        "Индекс не является вероятностью нарушения или юридическим заключением.",
+        "Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."
+      ]
+    }
+  ],
+  "export": {
+    "files": 3,
+    "sha256": "f9ee940efa30a06e245eac1a1df04053878d3773b84322bc1393bec6e30d418f"
+  },
+  "frontend_tests": 30,
+  "typecheck": "passed",
+  "lint": "passed",
+  "build": "passed",
+  "physical_phone": "not tested",
+  "live_external_routes": "not tested; offline",
+  "browser_checks": [
+    "upload via picker",
+    "paste image from clipboard",
+    "new text -> 3 route observations -> source -> actual ZIP download",
+    "OCR running -> uncertain address -> incomplete result",
+    "invalid ftp URL rejected",
+    "offline URL -> missing data -> direct route action",
+    "warning -> score 0 with scope explanation",
+    "decision saved and retained after reload",
+    "360x800 and 390x844, no document overflow on inspected screens",
+    "image only -> real OCR -> automatic presentation -> score 80 -> three route observations -> source -> downloaded photo ZIP",
+    "two material selector switches q7 route (3 steps) to second route (2 steps), no cross-material merge",
+    "presentation at 390x844: clientWidth=scrollWidth=375; desktop 1366x768: all 3 route cards fit",
+    "original button focuses tab-materials and scrolls target panel to 0.3px",
+    "uncertain OCR in presentation shows insufficient data and no invented map",
+    "presentation export: four file sizes and hashes match manifest",
+    "lazy graph first load: focus tab-graph, loaded canvas, target panel top 0.1px after reserved loading height",
+    "final browser console warnings/errors: empty"
+  ],
+  "current_database": {
+    "cases": 28,
+    "decisions": 9,
+    "cache": 13,
+    "referenced_images": 10
+  },
+  "exports": {
+    "message-export.zip": {
+      "files": 3,
+      "sha256": "f9ee940efa30a06e245eac1a1df04053878d3773b84322bc1393bec6e30d418f"
+    },
+    "photo-export.zip": {
+      "files": 4,
+      "sha256": "9cc2ec40593e4c735c3ed28acd32d05623ec2c87fea9e8e44edf5b264ed45ae5"
+    }
+  },
+  "preflight": "passed; reports/message-demo/preflight.json",
+  "backend_tests": "not rerun: all 22 frozen core file hashes unchanged",
+  "automation": {
+    "id": "safetrace-kz",
+    "status": "ACTIVE",
+    "local_hours": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "timezone": "Asia/Qyzylorda",
+    "requires": "running computer and available Codex"
+  }
+}

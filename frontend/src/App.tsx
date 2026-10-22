@@ -122,7 +122,7 @@ export default function App() {
     </div>
     {form && <CreateDialog adding={form.kind === 'add'} mode={form.kind === 'add' ? form.mode : undefined} caseTitle={form.kind === 'add' ? form.caseTitle : undefined} health={health} close={() => setForm(null)} onSubmit={async data => {
       const result = form.kind === 'add' ? await post<{ id: string }>('/cases/' + form.caseId + '/materials', data.materials[0]) : await post<{ id: string }>('/cases', data)
-      setForm(null); open(result.id); await refreshCase(result.id); await reload()
+      setForm(null); navigate('case/' + result.id + '?view=presentation'); await refreshCase(result.id); await reload()
     }} />}
   </div>
 }

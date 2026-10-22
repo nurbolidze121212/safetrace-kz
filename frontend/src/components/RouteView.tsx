@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { ArrowDown, ArrowUpRight, FileText, GitBranch, Link2 } from 'lucide-react'
 import type { Case } from '../types'
 import { contexts, date, edgeNames, methods } from '../lib'
-import { routePaths } from '../routes'
+import { routeMaterialIds, routePaths } from '../routes'
 import { Empty } from './UI'
 import RouteComparison from './RouteComparison'
 
@@ -11,8 +11,7 @@ export default function RouteView({ current, onEvidence, onMaterial }: { current
   const [selected, setSelected] = useState(0)
   const selectedIndex = Math.min(selected, Math.max(0, paths.length - 1))
   const path = paths[selectedIndex]
-  const sourceEdges = path ? current.graph.edges.filter(e => e.type === 'contains_link' && current.graph.nodes.find(n => n.id === e.target)?.label === path.root) : []
-  const materialIds = new Set(sourceEdges.map(e => current.graph.nodes.find(n => n.id === e.source)?.material_id))
+  const materialIds = path ? routeMaterialIds(current, path.root) : new Set<string>()
   const materials = current.materials.filter(m => materialIds.has(m.id))
   return <section className="route-workspace">
     <header className="workspace-heading"><div><h2>Путь от материала к назначению</h2><p>Каждый шаг построен по сохраненной связи. Выберите наблюдение, чтобы проверить источник.</p></div><span className="badge">{current.trace.observations.length} наблюдений</span></header>

@@ -1,7 +1,9 @@
-import { lazy, Suspense, useState } from 'react'
+import { lazy, Suspense, useEffect, useRef, useState } from 'react'
 import type { KeyboardEvent } from 'react'
-import { ArrowLeft, ArrowUpRight, Check, CheckCheck, Download, FileText, GitBranch, History, Info, Network, Plus, RotateCcw, Square } from 'lucide-react'
+import { ArrowLeft, ArrowUpRight, Check, CheckCheck, Download, FileText, GitBranch, History, Info, Network, Play, Plus, RotateCcw, Square } from 'lucide-react'
 import type { Case, URLCorrectionRequest } from '../types'
+import AnalysisMessage from './AnalysisMessage'
+import PresentationView from './PresentationView'
 import { contexts, date, decisions, errorMessage, isActive, methods, modes, stageNames } from '../lib'
 import { fetchExport } from '../export'
 import { reviewRecency } from '../review'
@@ -23,6 +25,8 @@ export default function CaseWorkspace({ current, runtimeVersions, view, busy, on
   const [materialId, setMaterialId] = useState(current.materials[0]?.id || '')
   const [evidenceIds, setEvidenceIds] = useState<string[]>([])
   const [originalEvidence, setOriginalEvidence] = useState<string>()
+  const [sectionJump, setSectionJump] = useState(0)
+  const pendingSection = useRef<string | null>(null)
   const [exporting, setExporting] = useState(false), [exportError, setExportError] = useState('')
   const active = isActive(current.status)
   const recency = reviewRecency(current)
@@ -31,8 +35,18 @@ export default function CaseWorkspace({ current, runtimeVersions, view, busy, on
   const priorityMaterial = current.materials.find(m => m.id === current.score?.material_id)
   const priorityContext = priorityMaterial?.context || current.context
   const selectedView = tabs.some(t => t.id === view) ? view : 'materials'
+  useEffect(() => {
+    if (pendingSection.current === view) {
+      pendingSection.current = null
+      document.getElementById('tab-' + view)?.focus({ preventScroll: true })
+      document.getElementById('panel-' + view)?.scrollIntoView({ block: 'start' })
+    }
+  }, [view, sectionJump])
+  function openSection(next: string) {
+    pendingSection.current = next; setSectionJump(value => value + 1); onView(next)
+  }
   function openMaterial(id: string, evidenceId?: string) {
-    setMaterialId(id); setOriginalEvidence(evidenceId); setEvidenceIds([]); onView('materials')
+    setMaterialId(id); setOriginalEvidence(evidenceId); setEvidenceIds([]); openSection('materials')
   }
   async function exportCase() {
     setExporting(true); setExportError('')
@@ -55,9 +69,16 @@ export default function CaseWorkspace({ current, runtimeVersions, view, busy, on
     onView(tabs[next].id)
     e.currentTarget.querySelectorAll<HTMLButtonElement>('[role="tab"]')[next].focus()
   }
+  if (view === 'presentation') return <>
+    <header className="presentation-heading"><div><div className="eyebrow">SAFETRACE KZ · РЕЖИМ ПОКАЗА</div><h1>{current.title}</h1></div><div className="actions"><button onClick={onBack}><ArrowLeft size={16} />Очередь</button><button onClick={() => onView('materials')}>Рабочий режим</button>{active && <button disabled={busy} onClick={onRetry}><Square size={15} />Отменить</button>}<button className="primary" disabled={exporting} aria-busy={exporting} onClick={() => void exportCase()}><Download size={17} />{exporting ? 'Подготовка…' : 'Экспорт'}</button></div></header>
+    {exportError && <div className="alert error" role="alert">{exportError}</div>}
+    <PresentationView current={current} onEvidence={setEvidenceIds} onMaterial={openMaterial} onGraph={() => openSection('graph')} onRetry={onRetry} busy={busy} />
+    {evidenceIds.length > 0 && <EvidenceDrawer current={current} ids={evidenceIds} close={() => setEvidenceIds([])} onOriginal={openMaterial} onOpen={onOpen} />}
+  </>
   return <>
     <div className="case-breadcrumb"><button className="text-button" onClick={onBack}><ArrowLeft size={16} />Очередь проверки</button><span>/</span><code>{current.id.slice(0, 8)}</code></div>
     <header className="case-heading"><div><h1>{current.title}</h1><div className="case-meta"><span className={'mode-label ' + current.mode}>{modes[current.mode]}</span><span>{date(current.created_at)} · UTC+5</span><span>{current.materials.length} мат.</span></div></div><div className="actions">
+      <button onClick={() => onView('presentation')}><Play size={16} />Режим показа</button>
       <button disabled={active || busy || current.mode === 'replay'} onClick={onAdd}><Plus size={16} />Материал</button>
       <button disabled={busy || current.mode === 'replay'} onClick={onRetry}>{active ? <Square size={15} /> : <RotateCcw size={15} />}{active ? 'Отменить' : 'Повторить анализ'}</button>
       <button className="primary" disabled={exporting} aria-busy={exporting} onClick={() => void exportCase()}><Download size={17} />{exporting ? 'Подготовка…' : 'Экспорт'}</button>
@@ -65,6 +86,7 @@ export default function CaseWorkspace({ current, runtimeVersions, view, busy, on
     {exportError && <div className="alert error" role="alert">{exportError}</div>}
     {current.analysis_assisted && <div className="mode-banner"><Info size={16} /><span>Анализ с ручным уточнением адреса. Первичный автоматический результат сохранён в истории; уточнение не включается в автоматические метрики качества.</span></div>}
     {(current.mode === 'synthetic' || current.mode === 'replay') && <div className="mode-banner"><Info size={16} /><span>{current.mode === 'replay' ? 'Сохраненный повтор. OCR, модель и сеть не вызываются заново.' : 'Синтетический стенд. Публикации, адреса и страницы созданы для демонстрации.'}</span></div>}
+    <AnalysisMessage current={current} view={selectedView} busy={busy} onView={onView} onRetry={onRetry} />
     <section className="case-summary" aria-label="Результат анализа">
       <div className="priority-summary"><div className={'priority-value ' + (current.sufficient_data === false ? 'unknown' : current.score?.level || '')}>{current.sufficient_data === false ? '—' : current.score?.value ?? '…'}<small>/ 100</small></div><div><span className="field-hint">{active && current.score ? 'Предыдущий индекс · обновляется' : 'Приоритет ручной проверки'}</span><PriorityBadge item={current} /><small>Индекс, не вероятность нарушения</small></div></div>
       <div className="processing-summary"><Status value={current.status} /><div className="pipeline" aria-label="Этапы анализа">{Object.entries(current.stages).map(([stage, value]) => <span key={stage} className={value} title={(stageNames[stage] || stage) + ': ' + value}>{value === 'completed' ? <Check size={12} /> : <span className="stage-dot" />}{stageNames[stage] || stage}</span>)}</div>{active && <progress max={100} value={current.progress} aria-label="Прогресс анализа" />}</div>
