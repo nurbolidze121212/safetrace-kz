@@ -1,0 +1,56 @@
+{
+  "at": "2026-10-23T08:14:00.226661+00:00",
+  "base_commit": "ca49e99e9c2f58a32eece1e6fde8a6bb722796bc",
+  "module_version": "link-audit-1.0.1",
+  "live_case_id": "3ac737749a18470a9cfc4c97b4ac6218",
+  "case_input_origin": "authored dev; not real scam and not final-v4",
+  "before_regression_tests": {
+    "failed": 4,
+    "deselected": 15,
+    "seconds": 11.02
+  },
+  "targeted_tests": {
+    "passed": 19,
+    "seconds": 4.07
+  },
+  "ruff": "passed",
+  "preflight": "passed",
+  "browser": {
+    "source_drawer": [
+      "Авторский пример A",
+      "Авторский пример B"
+    ],
+    "downloaded_json_source_count": 2,
+    "console_warnings_errors": 0,
+    "screenshot": "two-sources.png"
+  },
+  "preserved": {
+    "cases": 29,
+    "decisions": 9,
+    "cache": 13,
+    "originals": 10
+  },
+  "current_database": {
+    "cases": 30,
+    "decisions": 9,
+    "cache": 13
+  },
+  "frozen_core_changed_from_original_v4": [
+    "backend/app.py"
+  ],
+  "frozen_core_changed_this_iteration": [],
+  "source_file_sha256": "ff16c138dff764df5546bafe1eed8c60faf6cc0744e164d830cbe2af42e103cd",
+  "limitations": [
+    "No new classifier evaluation",
+    "No reputation source integrated",
+    "No new OCR recognition experiment",
+    "Application remains 2.3.0; old source release ZIP is preserved and does not include this patch"
+  ],
+  "backend_tests": {
+    "passed": 334,
+    "seconds": 240.92,
+    "warnings": 1,
+    "warning": "Paddle: ccache not found"
+  },
+  "frontend_tests": "not rerun: no frontend changes; production fingerprint verified"
+}

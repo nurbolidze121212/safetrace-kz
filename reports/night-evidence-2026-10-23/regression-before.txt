@@ -1,0 +1,93 @@
+FFFF                                                                     [100%]
+================================== FAILURES ===================================
+_ test_repeated_signal_keeps_all_independent_text_sources[\u0412\u044b \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 \u043f\u043e\u0435\u0437\u0434\u043a\u0443! \u041e\u0442\u043f\u0440\u0430\u0432\u044c\u0442\u0435 \u043a\u043e\u0434 \u0438\u0437 SMS.] _
+
+text = 'Вы выиграли поездку! Отправьте код из SMS.'
+
+    @pytest.mark.parametrize("text", [
+        "Вы выиграли поездку! Отправьте код из SMS.",
+        "Сіз сыйлық ұтып алдыңыз! Жіберіңіз sms код.",
+    ])
+    def test_repeated_signal_keeps_all_independent_text_sources(text):
+        doc = case(url="", text=text)
+        doc["materials"].append({"id": "m2", "text": text, "content_evidence_ids": ["e2"]})
+        doc["evidence"].append({"id": "e2", "quote": text, "method": "source_text", "material_id": "m2"})
+        before = deepcopy(doc)
+        result = audit(doc)
+        findings = [f for f in result["findings"] if f["code"] == "prize_secret"]
+        assert len(findings) == 1
+>       assert findings[0]["evidence_ids"] == ["e1", "e2"]
+E       AssertionError: assert ['e1'] == ['e1', 'e2']
+E
+E         Right contains one more item: 'e2'
+E         Use -v to get more diff
+
+tests\test_link_audit.py:123: AssertionError
+_ test_repeated_signal_keeps_all_independent_text_sources[\u0421\u0456\u0437 \u0441\u044b\u0439\u043b\u044b\u049b \u04b1\u0442\u044b\u043f \u0430\u043b\u0434\u044b\u04a3\u044b\u0437! \u0416\u0456\u0431\u0435\u0440\u0456\u04a3\u0456\u0437 sms \u043a\u043e\u0434.] _
+
+text = 'Сіз сыйлық ұтып алдыңыз! Жіберіңіз sms код.'
+
+    @pytest.mark.parametrize("text", [
+        "Вы выиграли поездку! Отправьте код из SMS.",
+        "Сіз сыйлық ұтып алдыңыз! Жіберіңіз sms код.",
+    ])
+    def test_repeated_signal_keeps_all_independent_text_sources(text):
+        doc = case(url="", text=text)
+        doc["materials"].append({"id": "m2", "text": text, "content_evidence_ids": ["e2"]})
+        doc["evidence"].append({"id": "e2", "quote": text, "method": "source_text", "material_id": "m2"})
+        before = deepcopy(doc)
+        result = audit(doc)
+        findings = [f for f in result["findings"] if f["code"] == "prize_secret"]
+        assert len(findings) == 1
+>       assert findings[0]["evidence_ids"] == ["e1", "e2"]
+E       AssertionError: assert ['e1'] == ['e1', 'e2']
+E
+E         Right contains one more item: 'e2'
+E         Use -v to get more diff
+
+tests\test_link_audit.py:123: AssertionError
+____ test_repeated_signal_keeps_text_ocr_and_page_but_not_warning_sources _____
+
+    def test_repeated_signal_keeps_text_ocr_and_page_but_not_warning_sources():
+        text = "Вы выиграли поездку! Отправьте код из SMS."
+        doc = case(url="", text=text)
+        doc["materials"].extend([
+            {"id": "m2", "ocr": {"text": text, "lines": [{"evidence_id": "e2"}]}},
+            {"id": "m3", "text": text, "content_evidence_ids": ["warning"], "context": {"context": "warning"}},
+        ])
+        doc["trace"]["observations"] = [{"text": text, "evidence_id": "page"}]
+        doc["evidence"].extend([
+            {"id": "e2", "quote": text, "method": "ocr", "material_id": "m2"},
+            {"id": "page", "quote": text, "method": "http"},
+            {"id": "warning", "quote": text, "method": "source_text", "material_id": "m3"},
+        ])
+        result = audit(doc)
+        assert len(result["findings"]) == 1
+>       assert result["findings"][0]["evidence_ids"] == ["e1", "e2", "page"]
+E       AssertionError: assert ['e1'] == ['e1', 'e2', 'page']
+E
+E         Right contains 2 more items, first extra item: 'e2'
+E         Use -v to get more diff
+
+tests\test_link_audit.py:144: AssertionError
+____ test_repeated_signal_can_recover_evidence_after_unlinked_first_source ____
+
+    def test_repeated_signal_can_recover_evidence_after_unlinked_first_source():
+        text = "Вы выиграли поездку! Отправьте код из SMS."
+        doc = case(url="", text=text)
+        doc["materials"].insert(0, {"id": "unlinked", "text": text, "content_evidence_ids": ["missing"]})
+        result = audit(doc)
+        assert len(result["findings"]) == 1
+>       assert result["findings"][0]["evidence_ids"] == ["e1"]
+E       AssertionError: assert [] == ['e1']
+E
+E         Right contains one more item: 'e1'
+E         Use -v to get more diff
+
+tests\test_link_audit.py:154: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/test_link_audit.py::test_repeated_signal_keeps_all_independent_text_sources[\u0412\u044b \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 \u043f\u043e\u0435\u0437\u0434\u043a\u0443! \u041e\u0442\u043f\u0440\u0430\u0432\u044c\u0442\u0435 \u043a\u043e\u0434 \u0438\u0437 SMS.]
+FAILED tests/test_link_audit.py::test_repeated_signal_keeps_all_independent_text_sources[\u0421\u0456\u0437 \u0441\u044b\u0439\u043b\u044b\u049b \u04b1\u0442\u044b\u043f \u0430\u043b\u0434\u044b\u04a3\u044b\u0437! \u0416\u0456\u0431\u0435\u0440\u0456\u04a3\u0456\u0437 sms \u043a\u043e\u0434.]
+FAILED tests/test_link_audit.py::test_repeated_signal_keeps_text_ocr_and_page_but_not_warning_sources
+FAILED tests/test_link_audit.py::test_repeated_signal_can_recover_evidence_after_unlinked_first_source
+4 failed, 15 deselected in 11.02s

@@ -106,3 +106,49 @@ def test_api_and_export_preserve_case():
         assert downloaded.json()["case_id"] == doc["id"]
         assert client.get('/api/cases/' + 'f' * 32 + '/link-audit').status_code == 404
     assert storage.get(doc["id"]) == doc
+
+
+@pytest.mark.parametrize("text", [
+    "Вы выиграли поездку! Отправьте код из SMS.",
+    "Сіз сыйлық ұтып алдыңыз! Жіберіңіз sms код.",
+])
+def test_repeated_signal_keeps_all_independent_text_sources(text):
+    doc = case(url="", text=text)
+    doc["materials"].append({"id": "m2", "text": text, "content_evidence_ids": ["e2"]})
+    doc["evidence"].append({"id": "e2", "quote": text, "method": "source_text", "material_id": "m2"})
+    before = deepcopy(doc)
+    result = audit(doc)
+    findings = [f for f in result["findings"] if f["code"] == "prize_secret"]
+    assert len(findings) == 1
+    assert findings[0]["evidence_ids"] == ["e1", "e2"]
+    assert doc == before
+    doc["materials"].reverse()
+    assert audit(doc)["findings"] == result["findings"]
+
+
+def test_repeated_signal_keeps_text_ocr_and_page_but_not_warning_sources():
+    text = "Вы выиграли поездку! Отправьте код из SMS."
+    doc = case(url="", text=text)
+    doc["materials"].extend([
+        {"id": "m2", "ocr": {"text": text, "lines": [{"evidence_id": "e2"}]}},
+        {"id": "m3", "text": text, "content_evidence_ids": ["warning"], "context": {"context": "warning"}},
+    ])
+    doc["trace"]["observations"] = [{"text": text, "evidence_id": "page"}]
+    doc["evidence"].extend([
+        {"id": "e2", "quote": text, "method": "ocr", "material_id": "m2"},
+        {"id": "page", "quote": text, "method": "http"},
+        {"id": "warning", "quote": text, "method": "source_text", "material_id": "m3"},
+    ])
+    result = audit(doc)
+    assert len(result["findings"]) == 1
+    assert result["findings"][0]["evidence_ids"] == ["e1", "e2", "page"]
+    assert result["network_requests"] == 0
+
+
+def test_repeated_signal_can_recover_evidence_after_unlinked_first_source():
+    text = "Вы выиграли поездку! Отправьте код из SMS."
+    doc = case(url="", text=text)
+    doc["materials"].insert(0, {"id": "unlinked", "text": text, "content_evidence_ids": ["missing"]})
+    result = audit(doc)
+    assert len(result["findings"]) == 1
+    assert result["findings"][0]["evidence_ids"] == ["e1"]

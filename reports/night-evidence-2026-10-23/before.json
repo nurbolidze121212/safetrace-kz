@@ -1,0 +1,45 @@
+{
+  "origin": "new authored dev example; not final-v4",
+  "input": {
+    "id": "dev-source-provenance",
+    "status": "completed",
+    "materials": [
+      {
+        "id": "m1",
+        "text": "Вы выиграли поездку! Отправьте код из SMS.",
+        "content_evidence_ids": [
+          "e1"
+        ]
+      },
+      {
+        "id": "m2",
+        "text": "Вы выиграли поездку! Отправьте код из SMS.",
+        "content_evidence_ids": [
+          "e2"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "id": "e1",
+        "method": "source_text",
+        "material_id": "m1",
+        "quote": "Вы выиграли поездку! Отправьте код из SMS."
+      },
+      {
+        "id": "e2",
+        "method": "source_text",
+        "material_id": "m2",
+        "quote": "Вы выиграли поездку! Отправьте код из SMS."
+      }
+    ]
+  },
+  "expected_evidence_ids": [
+    "e1",
+    "e2"
+  ],
+  "actual_evidence_ids": [
+    "e1"
+  ],
+  "reproduced_missing_source": true
+}

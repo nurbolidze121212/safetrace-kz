@@ -10,7 +10,7 @@ from .config import ROOT
 from .links import extract_urls
 from .storage import digest
 
-VERSION = "link-audit-1.0"
+VERSION = "link-audit-1.0.1"
 MAX_URLS = 100
 REFERENCE = ROOT / "fixtures" / "brand-reference.json"
 DOWNLOADS = re.compile(r"\.(?:exe|msi|apk|scr|bat|cmd|ps1|vbs|js|jar)$", re.I)
@@ -82,8 +82,12 @@ def build_audit(case, reference=None, at=None):
         item = {"id": "audit-" + digest(code + str(url) + quote)[:16], "code": code,
                 "title": title, "detail": detail, "quote": quote,
                 "evidence_ids": sorted({i for i in ids if i in evidence}), "url": url, "reference": source}
-        if not any(f["id"] == item["id"] for f in findings):
+        existing = next((f for f in findings if f["id"] == item["id"]), None)
+        if existing is None:
             findings.append(item)
+        else:
+            # One displayed signal can have several independently supporting sources.
+            existing["evidence_ids"] = sorted(set(existing["evidence_ids"]) | set(item["evidence_ids"]))
         return item["id"]
 
     for url, ids in list(urls.items())[:MAX_URLS]:

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "3ac737749a18470a9cfc4c97b4ac6218-ea8cb1a426f6-e5",
+    "quote": "Сообщение A. Вы выиграли поездку! Отправьте код из SMS.",
+    "source_id": "ffe39ed9b69e49ddb8bf61591bf60eaf",
+    "method": "source_text",
+    "at": "2026-10-23T08:10:20.001357+00:00",
+    "material_id": "ffe39ed9b69e49ddb8bf61591bf60eaf"
+  },
+  {
+    "id": "3ac737749a18470a9cfc4c97b4ac6218-ea8cb1a426f6-e6",
+    "quote": "Сообщение B. Вы выиграли поездку! Отправьте код из SMS.",
+    "source_id": "dd2e167224494b839b0b9bd0c5ccf040",
+    "method": "source_text",
+    "at": "2026-10-23T08:10:20.002305+00:00",
+    "material_id": "dd2e167224494b839b0b9bd0c5ccf040"
+  }
+]
