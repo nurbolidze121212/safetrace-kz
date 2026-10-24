@@ -6,7 +6,7 @@
 
 Главный [README](../README.md) содержит сценарий, скриншот, матрицу готовности, реальные метрики, быстрый старт, схему и ссылки. [Исследовательское досье](RESEARCH_DOSSIER.md) раскрывает гипотезы, эксперимент, ограничения и следующий протокол. [Установка и перенос](INSTALL_AND_TRANSFER.md) позволяет подготовить другую машину; [расширенный анализ](EXTENDED_ANALYSIS.md) отделяет реализованное от планируемого.
 
-Рекомендуемое имя репозитория: `safetrace-kz`. Описание: `Local evidence workbench for hidden gambling promotion and experimental passive URL checks.` Topics: `cybersecurity`, `explainable-ai`, `ocr`, `kazakhstan`, `fastapi`, `react`, `hackathon`. Эти значения подготовлены; наличие этого файла не означает, что удалённый репозиторий уже создан.
+Репозиторий: `safetrace-kz`. Заголовок: **SafeTrace KZ — выявление скрытого продвижения азартных игр**. Описание сначала называет трек 2 «Скрытая игра», рекламные маршруты, OCR и источники. Дополнительные признаки подмены домена и запросов секретов представлены как вспомогательный анализ тех же материалов. Topics включают `gambling-detection`, `content-moderation`, `explainable-ai`, `ocr`, `kazakhstan`, `fastapi`, `react`, `hackathon`, `cybersecurity`.
 
 ## Состояние подключения
 
