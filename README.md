@@ -4,7 +4,7 @@
 
 ### Трек 2 «Скрытая игра»: от замаскированной рекламы к проверяемому маршруту.
 
-**[Запустить на Windows](docs/INSTALL_AND_TRANSFER.md) · [Показать с телефона](docs/PUBLIC_DEMO.md) · [Для жюри](docs/FOR_JUDGES.md) · [Проверить результаты](reports/EVALUATION_V4.md)**
+**[Запустить на Windows](docs/INSTALL_AND_TRANSFER.md) · [Показать с телефона](docs/PUBLIC_DEMO.md) · [Для жюри](docs/FOR_JUDGES.md) · [Қазақша қорғау](deliverables/kazakh-jury-2026-10-24/README.md) · [Проверить результаты](reports/EVALUATION_V4.md)**
 
 **[Открыть HTTPS-демонстрацию](https://combined-andrews-singh-deck.trycloudflare.com)** — проверено 24.10.2026. Код доступа — у автора. Адрес временный и работает, пока включён компьютер автора; если недоступен, используйте инструкцию запуска выше. Учебные материалы общие для участников показа.
 
