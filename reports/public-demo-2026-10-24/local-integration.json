@@ -1,0 +1,28 @@
+{
+  "verified_at": "2026-10-24T16:50:06Z",
+  "scope": "In-process HTTPS ASGI test; NOT an external deployment or physical phone test",
+  "health": {
+    "status": "ok",
+    "app_version": "2.3.0",
+    "versions": {
+      "rules": "rules-4.0",
+      "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0",
+      "qr": "qr-1.0",
+      "pipeline": "pipeline-2.2.1"
+    },
+    "provider_available": false,
+    "model": "gemini-3.8-flash",
+    "offline": true,
+    "allowed_hosts": [],
+    "ocr_installed": true,
+    "local_mode": "OCR + правила + разрешенные переходы; ограниченное понимание контекста"
+  },
+  "photo_only_status": "completed",
+  "elapsed_seconds": 4.48,
+  "evidence_count": 21,
+  "graph_nodes": 13,
+  "export_bytes": 37913,
+  "private_database_unchanged": true,
+  "audit_network_requests": 0,
+  "audit_probability": null
+}

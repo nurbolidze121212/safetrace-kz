@@ -1,0 +1,8 @@
+{
+  "scope": "Current publishable files and all reachable Git blobs; selected credential signatures and forbidden paths. Not a guarantee of absence of every secret.",
+  "current_files": 1103,
+  "history_objects": 1817,
+  "credential_matches": [],
+  "forbidden_paths": [],
+  "runtime_secrets_excluded": true
+}

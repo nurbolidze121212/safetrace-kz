@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560" role="img" aria-labelledby="title desc">
+  <title id="title">SafeTrace KZ — от сообщения к доказательствам</title>
+  <desc id="desc">Инструмент проверки скрытого продвижения азартных игр. OCR, маршрут ссылок, объяснимые признаки, решение человека.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101e36"/><stop offset="1" stop-color="#06121e"/></linearGradient></defs>
+  <rect width="1280" height="560" rx="24" fill="url(#bg)"/>
+  <g fill="none" stroke="#28445b" stroke-width="1"><path d="M870 0V560M1030 0V560M1190 0V560M800 100H1280M800 260H1280M800 420H1280"/></g>
+  <rect x="60" y="55" width="6" height="28" rx="3" fill="#7ae2bb"/>
+  <text x="82" y="77" font-family="Arial,sans-serif" font-size="19" letter-spacing="3" fill="#7ae2bb">SAFENET KZ · TRACK 02</text>
+  <text x="58" y="180" font-family="Arial,sans-serif" font-size="86" font-weight="700" letter-spacing="-3" fill="#fff">SafeTrace KZ</text>
+  <text x="63" y="250" font-family="Arial,sans-serif" font-size="35" font-weight="700" fill="#ecf3fc">От сообщения к доказательствам.</text>
+  <text x="63" y="301" font-family="Arial,sans-serif" font-size="24" fill="#a9bdd5">Распознать. Проследить. Объяснить.</text>
+  <path d="M65 366H748" stroke="#36546d"/>
+  <g font-family="Arial,sans-serif"><text x="64" y="411" font-size="18" fill="#7ae2bb">МӘТІН / СІЛТЕМЕ / СУРЕТ</text><text x="64" y="447" font-size="19" fill="#c0cfdf">RU + KK · настоящий OCR · источники каждого вывода</text><text x="64" y="511" font-size="15" fill="#93a8c2">Исследовательский прототип · Приоритет проверки ≠ вероятность нарушения</text></g>
+  <g stroke="#7ae2bb" stroke-width="3" fill="none"><path d="M902 156L1110 258L919 387"/><circle cx="902" cy="156" r="33"/><circle cx="1110" cy="258" r="33"/><circle cx="919" cy="387" r="33"/></g>
+  <g font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#fff" text-anchor="middle"><text x="902" y="164">01</text><text x="1110" y="266">02</text><text x="919" y="395">03</text></g>
+  <g font-family="Arial,sans-serif" font-size="16" fill="#b7c9dd" text-anchor="middle"><text x="902" y="214">ИСТОЧНИК</text><text x="1110" y="316">МАРШРУТ</text><text x="919" y="445">ОСНОВАНИЯ</text></g>
+</svg>
