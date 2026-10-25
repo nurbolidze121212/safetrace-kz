@@ -1,0 +1,1500 @@
+{
+  "dataset_version": "synthetic-v5",
+  "test_count": 640,
+  "image_count": 160,
+  "frozen_at": "2026-10-25T15:21:42.711931+00:00",
+  "provenance": "авторский синтетический набор, разметка LLM, не человеческая",
+  "versions": {
+    "rules": "rules-5.0",
+    "pipeline": "pipeline-3.0"
+  },
+  "variants": {
+    "baseline": {
+      "n": 640,
+      "tp": 126,
+      "fp": 20,
+      "tn": 400,
+      "fn": 94,
+      "precision": 0.863013698630137,
+      "precision_wilson95": [
+        0.7978732897610358,
+        0.9095410722870786
+      ],
+      "recall": 0.5727272727272728,
+      "recall_wilson95": [
+        0.5066627665997836,
+        0.6362955583172878
+      ],
+      "fpr": 0.047619047619047616,
+      "fpr_wilson95": [
+        0.03103461075025262,
+        0.07240373372572048
+      ],
+      "f1": 0.6885245901639344,
+      "coverage": 0.996875,
+      "levels": {
+        "high": 146,
+        "low": 492
+      },
+      "precision_ci": [
+        0.7978732897610358,
+        0.9095410722870786
+      ],
+      "fpr_ci": [
+        0.03103461075025262,
+        0.07240373372572048
+      ],
+      "insufficient": 2,
+      "p50_ms": 3.690050000386691,
+      "p95_ms": 1738.8826999995217
+    },
+    "full": {
+      "n": 640,
+      "tp": 166,
+      "fp": 20,
+      "tn": 400,
+      "fn": 54,
+      "precision": 0.8924731182795699,
+      "precision_wilson95": [
+        0.8397549633607091,
+        0.9293078162184218
+      ],
+      "recall": 0.7545454545454545,
+      "recall_wilson95": [
+        0.6936305474065315,
+        0.806723589803218
+      ],
+      "fpr": 0.047619047619047616,
+      "fpr_wilson95": [
+        0.03103461075025262,
+        0.07240373372572048
+      ],
+      "f1": 0.8177339901477833,
+      "coverage": 0.996875,
+      "levels": {
+        "high": 186,
+        "low": 452
+      },
+      "precision_ci": [
+        0.8397549633607091,
+        0.9293078162184218
+      ],
+      "fpr_ci": [
+        0.03103461075025262,
+        0.07240373372572048
+      ],
+      "insufficient": 2,
+      "p50_ms": 4.388450000078592,
+      "p95_ms": 1775.9732000004078
+    },
+    "without_normalization": {
+      "n": 640,
+      "tp": 141,
+      "fp": 20,
+      "tn": 400,
+      "fn": 79,
+      "precision": 0.8757763975155279,
+      "precision_wilson95": [
+        0.815911852246917,
+        0.9181267862464343
+      ],
+      "recall": 0.6409090909090909,
+      "recall_wilson95": [
+        0.5755982821541047,
+        0.7013834723727209
+      ],
+      "fpr": 0.047619047619047616,
+      "fpr_wilson95": [
+        0.03103461075025262,
+        0.07240373372572048
+      ],
+      "f1": 0.7401574803149606,
+      "coverage": 0.996875,
+      "levels": {
+        "high": 161,
+        "low": 477
+      },
+      "precision_ci": [
+        0.815911852246917,
+        0.9181267862464343
+      ],
+      "fpr_ci": [
+        0.03103461075025262,
+        0.07240373372572048
+      ],
+      "insufficient": 2,
+      "p50_ms": 4.074949999903765,
+      "p95_ms": 1738.6817000005976
+    },
+    "char": {
+      "n": 640,
+      "tp": 166,
+      "fp": 20,
+      "tn": 400,
+      "fn": 54,
+      "precision": 0.8924731182795699,
+      "precision_wilson95": [
+        0.8397549633607091,
+        0.9293078162184218
+      ],
+      "recall": 0.7545454545454545,
+      "recall_wilson95": [
+        0.6936305474065315,
+        0.806723589803218
+      ],
+      "fpr": 0.047619047619047616,
+      "fpr_wilson95": [
+        0.03103461075025262,
+        0.07240373372572048
+      ],
+      "f1": 0.8177339901477833,
+      "coverage": 0.996875,
+      "levels": {
+        "high": 186,
+        "low": 452
+      },
+      "precision_ci": [
+        0.8397549633607091,
+        0.9293078162184218
+      ],
+      "fpr_ci": [
+        0.03103461075025262,
+        0.07240373372572048
+      ],
+      "insufficient": 2,
+      "p50_ms": null,
+      "p95_ms": null
+    },
+    "embedding": {
+      "n": 640,
+      "tp": 179,
+      "fp": 22,
+      "tn": 398,
+      "fn": 41,
+      "precision": 0.8905472636815921,
+      "precision_wilson95": [
+        0.839845999659896,
+        0.9266004067652237
+      ],
+      "recall": 0.8136363636363636,
+      "recall_wilson95": [
+        0.7569585663095664,
+        0.8595492098953037
+      ],
+      "fpr": 0.05238095238095238,
+      "fpr_wilson95": [
+        0.03484295735649989,
+        0.07803287823025246
+      ],
+      "f1": 0.850356294536817,
+      "coverage": 0.996875,
+      "levels": {
+        "high": 186,
+        "low": 452
+      },
+      "precision_ci": [
+        0.839845999659896,
+        0.9266004067652237
+      ],
+      "fpr_ci": [
+        0.03484295735649989,
+        0.07803287823025246
+      ],
+      "insufficient": 2,
+      "p50_ms": null,
+      "p95_ms": null
+    }
+  },
+  "slices": {
+    "language:ru": {
+      "n": 160,
+      "tp": 38,
+      "fp": 0,
+      "tn": 105,
+      "fn": 17,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.9081901317744205,
+        1
+      ],
+      "recall": 0.6909090909090909,
+      "recall_wilson95": [
+        0.5597140984246446,
+        0.7971771211488329
+      ],
+      "fpr": 0.0,
+      "fpr_wilson95": [
+        0,
+        0.03529407692910802
+      ],
+      "f1": 0.8172043010752689,
+      "coverage": 1.0,
+      "levels": {
+        "high": 38,
+        "low": 122
+      }
+    },
+    "language:kk": {
+      "n": 160,
+      "tp": 44,
+      "fp": 0,
+      "tn": 105,
+      "fn": 11,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.9197043962415234,
+        1
+      ],
+      "recall": 0.8,
+      "recall_wilson95": [
+        0.6763512084273645,
+        0.8844778509023857
+      ],
+      "fpr": 0.0,
+      "fpr_wilson95": [
+        0,
+        0.03529407692910802
+      ],
+      "f1": 0.8888888888888888,
+      "coverage": 0.99375,
+      "levels": {
+        "high": 44,
+        "low": 115
+      }
+    },
+    "language:translit": {
+      "n": 160,
+      "tp": 40,
+      "fp": 20,
+      "tn": 85,
+      "fn": 15,
+      "precision": 0.6666666666666666,
+      "precision_wilson95": [
+        0.5405686645212004,
+        0.7727073847647705
+      ],
+      "recall": 0.7272727272727273,
+      "recall_wilson95": [
+        0.5976780188832956,
+        0.8271924806089394
+      ],
+      "fpr": 0.19047619047619047,
+      "fpr_wilson95": [
+        0.12682500088293264,
+        0.2759760943588961
+      ],
+      "f1": 0.6956521739130435,
+      "coverage": 1.0,
+      "levels": {
+        "high": 60,
+        "low": 100
+      }
+    },
+    "language:mixed": {
+      "n": 160,
+      "tp": 44,
+      "fp": 0,
+      "tn": 105,
+      "fn": 11,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.9197043962415234,
+        1
+      ],
+      "recall": 0.8,
+      "recall_wilson95": [
+        0.6763512084273645,
+        0.8844778509023857
+      ],
+      "fpr": 0.0,
+      "fpr_wilson95": [
+        0,
+        0.03529407692910802
+      ],
+      "f1": 0.8888888888888888,
+      "coverage": 0.99375,
+      "levels": {
+        "high": 44,
+        "low": 115
+      }
+    },
+    "format:text": {
+      "n": 480,
+      "tp": 113,
+      "fp": 16,
+      "tn": 320,
+      "fn": 31,
+      "precision": 0.875968992248062,
+      "precision_wilson95": [
+        0.8080002352347294,
+        0.9221934923945957
+      ],
+      "recall": 0.7847222222222222,
+      "recall_wilson95": [
+        0.7106590255502304,
+        0.8439891810766523
+      ],
+      "fpr": 0.047619047619047616,
+      "fpr_wilson95": [
+        0.029520828799292326,
+        0.07594440473951633
+      ],
+      "f1": 0.8278388278388278,
+      "coverage": 1.0,
+      "levels": {
+        "high": 129,
+        "low": 351
+      }
+    },
+    "format:image": {
+      "n": 160,
+      "tp": 53,
+      "fp": 4,
+      "tn": 80,
+      "fn": 23,
+      "precision": 0.9298245614035088,
+      "precision_wilson95": [
+        0.8329982990396666,
+        0.9723735797709333
+      ],
+      "recall": 0.6973684210526315,
+      "recall_wilson95": [
+        0.5866579842518158,
+        0.789086653222473
+      ],
+      "fpr": 0.047619047619047616,
+      "fpr_wilson95": [
+        0.0186717468094905,
+        0.11613315032758062
+      ],
+      "f1": 0.7969924812030075,
+      "coverage": 0.9875,
+      "levels": {
+        "high": 57,
+        "low": 101
+      }
+    },
+    "scenario:business": {
+      "n": 80,
+      "tp": 0,
+      "fp": 0,
+      "tn": 80,
+      "fn": 0,
+      "precision": null,
+      "precision_wilson95": null,
+      "recall": null,
+      "recall_wilson95": null,
+      "fpr": 0.0,
+      "fpr_wilson95": [
+        3.469446951953614e-18,
+        0.04581812953552469
+      ],
+      "f1": null,
+      "coverage": 1.0,
+      "levels": {
+        "low": 80
+      }
+    },
+    "scenario:contest": {
+      "n": 80,
+      "tp": 0,
+      "fp": 0,
+      "tn": 80,
+      "fn": 0,
+      "precision": null,
+      "precision_wilson95": null,
+      "recall": null,
+      "recall_wilson95": null,
+      "fpr": 0.0,
+      "fpr_wilson95": [
+        3.469446951953614e-18,
+        0.04581812953552469
+      ],
+      "f1": null,
+      "coverage": 1.0,
+      "levels": {
+        "low": 80
+      }
+    },
+    "scenario:contrast": {
+      "n": 20,
+      "tp": 20,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.838874841947188,
+        0.9999999999999999
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.838874841947188,
+        0.9999999999999999
+      ],
+      "fpr": null,
+      "fpr_wilson95": null,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "levels": {
+        "high": 20
+      }
+    },
+    "scenario:direct": {
+      "n": 20,
+      "tp": 20,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.838874841947188,
+        0.9999999999999999
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.838874841947188,
+        0.9999999999999999
+      ],
+      "fpr": null,
+      "fpr_wilson95": null,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "levels": {
+        "high": 20
+      }
+    },
+    "scenario:education": {
+      "n": 80,
+      "tp": 0,
+      "fp": 20,
+      "tn": 60,
+      "fn": 0,
+      "precision": 0.0,
+      "precision_wilson95": [
+        1.3877787807814457e-17,
+        0.1611251580528119
+      ],
+      "recall": null,
+      "recall_wilson95": null,
+      "fpr": 0.25,
+      "fpr_wilson95": [
+        0.16806231857542564,
+        0.3548467461923366
+      ],
+      "f1": 0.0,
+      "coverage": 1.0,
+      "levels": {
+        "low": 60,
+        "high": 20
+      }
+    },
+    "scenario:emoji": {
+      "n": 20,
+      "tp": 20,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.838874841947188,
+        0.9999999999999999
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.838874841947188,
+        0.9999999999999999
+      ],
+      "fpr": null,
+      "fpr_wilson95": null,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "levels": {
+        "high": 20
+      }
+    },
+    "scenario:homoglyph": {
+      "n": 20,
+      "tp": 0,
+      "fp": 0,
+      "tn": 0,
+      "fn": 20,
+      "precision": null,
+      "precision_wilson95": null,
+      "recall": 0.0,
+      "recall_wilson95": [
+        1.3877787807814457e-17,
+        0.1611251580528119
+      ],
+      "fpr": null,
+      "fpr_wilson95": null,
+      "f1": 0.0,
+      "coverage": 1.0,
+      "levels": {
+        "low": 20
+      }
+    },
+    "scenario:multi_step": {
+      "n": 20,
+      "tp": 15,
+      "fp": 0,
+      "tn": 0,
+      "fn": 5,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.7961166989641604,
+        1
+      ],
+      "recall": 0.75,
+      "recall_wilson95": [
+        0.5312991223812622,
+        0.8881382985923318
+      ],
+      "fpr": null,
+      "fpr_wilson95": null,
+      "f1": 0.8571428571428571,
+      "coverage": 1.0,
+      "levels": {
+        "high": 15,
+        "low": 5
+      }
+    },
+    "scenario:news": {
+      "n": 80,
+      "tp": 0,
+      "fp": 0,
+      "tn": 80,
+      "fn": 0,
+      "precision": null,
+      "precision_wilson95": null,
+      "recall": null,
+      "recall_wilson95": null,
+      "fpr": 0.0,
+      "fpr_wilson95": [
+        3.469446951953614e-18,
+        0.04581812953552469
+      ],
+      "f1": null,
+      "coverage": 1.0,
+      "levels": {
+        "low": 80
+      }
+    },
+    "scenario:private_group": {
+      "n": 20,
+      "tp": 20,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.838874841947188,
+        0.9999999999999999
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.838874841947188,
+        0.9999999999999999
+      ],
+      "fpr": null,
+      "fpr_wilson95": null,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "levels": {
+        "high": 20
+      }
+    },
+    "scenario:promo": {
+      "n": 20,
+      "tp": 0,
+      "fp": 0,
+      "tn": 0,
+      "fn": 20,
+      "precision": null,
+      "precision_wilson95": null,
+      "recall": 0.0,
+      "recall_wilson95": [
+        1.3877787807814457e-17,
+        0.1611251580528119
+      ],
+      "fpr": null,
+      "fpr_wilson95": null,
+      "f1": 0.0,
+      "coverage": 1.0,
+      "levels": {
+        "low": 20
+      }
+    },
+    "scenario:redirect": {
+      "n": 20,
+      "tp": 18,
+      "fp": 0,
+      "tn": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.8241207763533505,
+        1
+      ],
+      "recall": 0.9,
+      "recall_wilson95": [
+        0.6989663547715196,
+        0.9721335187862309
+      ],
+      "fpr": null,
+      "fpr_wilson95": null,
+      "f1": 0.9473684210526315,
+      "coverage": 0.9,
+      "levels": {
+        "high": 18
+      }
+    },
+    "scenario:spacing": {
+      "n": 20,
+      "tp": 20,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.838874841947188,
+        0.9999999999999999
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.838874841947188,
+        0.9999999999999999
+      ],
+      "fpr": null,
+      "fpr_wilson95": null,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "levels": {
+        "high": 20
+      }
+    },
+    "scenario:story": {
+      "n": 20,
+      "tp": 18,
+      "fp": 0,
+      "tn": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.8241207763533505,
+        1
+      ],
+      "recall": 0.9,
+      "recall_wilson95": [
+        0.6989663547715196,
+        0.9721335187862309
+      ],
+      "fpr": null,
+      "fpr_wilson95": null,
+      "f1": 0.9473684210526315,
+      "coverage": 1.0,
+      "levels": {
+        "low": 2,
+        "high": 18
+      }
+    },
+    "scenario:stream": {
+      "n": 20,
+      "tp": 15,
+      "fp": 0,
+      "tn": 0,
+      "fn": 5,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.7961166989641604,
+        1
+      ],
+      "recall": 0.75,
+      "recall_wilson95": [
+        0.5312991223812622,
+        0.8881382985923318
+      ],
+      "fpr": null,
+      "fpr_wilson95": null,
+      "f1": 0.8571428571428571,
+      "coverage": 1.0,
+      "levels": {
+        "low": 5,
+        "high": 15
+      }
+    },
+    "scenario:warning": {
+      "n": 100,
+      "tp": 0,
+      "fp": 0,
+      "tn": 100,
+      "fn": 0,
+      "precision": null,
+      "precision_wilson95": null,
+      "recall": null,
+      "recall_wilson95": null,
+      "fpr": 0.0,
+      "fpr_wilson95": [
+        0,
+        0.036993498206983715
+      ],
+      "f1": null,
+      "coverage": 1.0,
+      "levels": {
+        "low": 100
+      }
+    }
+  },
+  "risk_levels": {
+    "high": 186,
+    "low": 452
+  },
+  "errors": [
+    {
+      "id": "125545b707f7ea437095",
+      "title": "ru/2",
+      "truth": 1,
+      "predicted": 0,
+      "language": "ru",
+      "modality": "image",
+      "masking": "stream",
+      "sufficient": true
+    },
+    {
+      "id": "a4afd6af1fde217a4833",
+      "title": "ru/2",
+      "truth": 1,
+      "predicted": 0,
+      "language": "ru",
+      "modality": "image",
+      "masking": "stream",
+      "sufficient": true
+    },
+    {
+      "id": "79ed1758ce5f2738f012",
+      "title": "ru/2",
+      "truth": 1,
+      "predicted": 0,
+      "language": "ru",
+      "modality": "text",
+      "masking": "stream",
+      "sufficient": true
+    },
+    {
+      "id": "44db4cc44ebccd14e752",
+      "title": "ru/2",
+      "truth": 1,
+      "predicted": 0,
+      "language": "ru",
+      "modality": "text",
+      "masking": "stream",
+      "sufficient": true
+    },
+    {
+      "id": "334132a03b6cb3fab923",
+      "title": "ru/2",
+      "truth": 1,
+      "predicted": 0,
+      "language": "ru",
+      "modality": "text",
+      "masking": "stream",
+      "sufficient": true
+    },
+    {
+      "id": "e3473688bc6058050895",
+      "title": "ru/3",
+      "truth": 1,
+      "predicted": 0,
+      "language": "ru",
+      "modality": "image",
+      "masking": "homoglyph",
+      "sufficient": true
+    },
+    {
+      "id": "c8a9e5e64f7100d49845",
+      "title": "ru/3",
+      "truth": 1,
+      "predicted": 0,
+      "language": "ru",
+      "modality": "image",
+      "masking": "homoglyph",
+      "sufficient": true
+    },
+    {
+      "id": "b0ffa7ce0562b868abe5",
+      "title": "ru/3",
+      "truth": 1,
+      "predicted": 0,
+      "language": "ru",
+      "modality": "text",
+      "masking": "homoglyph",
+      "sufficient": true
+    },
+    {
+      "id": "0a400126075bd4e9db79",
+      "title": "ru/3",
+      "truth": 1,
+      "predicted": 0,
+      "language": "ru",
+      "modality": "text",
+      "masking": "homoglyph",
+      "sufficient": true
+    },
+    {
+      "id": "d724222a4b5e8b2b8b3f",
+      "title": "ru/3",
+      "truth": 1,
+      "predicted": 0,
+      "language": "ru",
+      "modality": "text",
+      "masking": "homoglyph",
+      "sufficient": true
+    },
+    {
+      "id": "c9ebae8fc21825da4e1f",
+      "title": "ru/6",
+      "truth": 1,
+      "predicted": 0,
+      "language": "ru",
+      "modality": "image",
+      "masking": "story",
+      "sufficient": true
+    },
+    {
+      "id": "809bc78773ac10828b63",
+      "title": "ru/6",
+      "truth": 1,
+      "predicted": 0,
+      "language": "ru",
+      "modality": "image",
+      "masking": "story",
+      "sufficient": true
+    },
+    {
+      "id": "6e9d5850a1f8fe7597a6",
+      "title": "ru/7",
+      "truth": 1,
+      "predicted": 0,
+      "language": "ru",
+      "modality": "image",
+      "masking": "promo",
+      "sufficient": true
+    },
+    {
+      "id": "dd027156bbd36b224c4d",
+      "title": "ru/7",
+      "truth": 1,
+      "predicted": 0,
+      "language": "ru",
+      "modality": "image",
+      "masking": "promo",
+      "sufficient": true
+    },
+    {
+      "id": "decb7901a0c14652f544",
+      "title": "ru/7",
+      "truth": 1,
+      "predicted": 0,
+      "language": "ru",
+      "modality": "text",
+      "masking": "promo",
+      "sufficient": true
+    },
+    {
+      "id": "9e4ba45ecb25e15b4a6a",
+      "title": "ru/7",
+      "truth": 1,
+      "predicted": 0,
+      "language": "ru",
+      "modality": "text",
+      "masking": "promo",
+      "sufficient": true
+    },
+    {
+      "id": "ca01c3c08b6fa2a79b04",
+      "title": "ru/7",
+      "truth": 1,
+      "predicted": 0,
+      "language": "ru",
+      "modality": "text",
+      "masking": "promo",
+      "sufficient": true
+    },
+    {
+      "id": "10a889717f0fe189b2b4",
+      "title": "kk/1",
+      "truth": 1,
+      "predicted": 0,
+      "language": "kk",
+      "modality": "image",
+      "masking": "redirect",
+      "sufficient": false
+    },
+    {
+      "id": "e362cf7ea601e47c4a08",
+      "title": "kk/3",
+      "truth": 1,
+      "predicted": 0,
+      "language": "kk",
+      "modality": "image",
+      "masking": "homoglyph",
+      "sufficient": true
+    },
+    {
+      "id": "e65392bc30e91d64737a",
+      "title": "kk/3",
+      "truth": 1,
+      "predicted": 0,
+      "language": "kk",
+      "modality": "image",
+      "masking": "homoglyph",
+      "sufficient": true
+    },
+    {
+      "id": "17eb62eaf40700c6b244",
+      "title": "kk/3",
+      "truth": 1,
+      "predicted": 0,
+      "language": "kk",
+      "modality": "text",
+      "masking": "homoglyph",
+      "sufficient": true
+    },
+    {
+      "id": "33eed91d3c1933842691",
+      "title": "kk/3",
+      "truth": 1,
+      "predicted": 0,
+      "language": "kk",
+      "modality": "text",
+      "masking": "homoglyph",
+      "sufficient": true
+    },
+    {
+      "id": "94ac718c166767dfd93f",
+      "title": "kk/3",
+      "truth": 1,
+      "predicted": 0,
+      "language": "kk",
+      "modality": "text",
+      "masking": "homoglyph",
+      "sufficient": true
+    },
+    {
+      "id": "74ede78c922147e9adcd",
+      "title": "kk/7",
+      "truth": 1,
+      "predicted": 0,
+      "language": "kk",
+      "modality": "image",
+      "masking": "promo",
+      "sufficient": true
+    },
+    {
+      "id": "094d9a4cd5c70afb2c11",
+      "title": "kk/7",
+      "truth": 1,
+      "predicted": 0,
+      "language": "kk",
+      "modality": "image",
+      "masking": "promo",
+      "sufficient": true
+    },
+    {
+      "id": "1ce717c1cd7fd4207b7c",
+      "title": "kk/7",
+      "truth": 1,
+      "predicted": 0,
+      "language": "kk",
+      "modality": "text",
+      "masking": "promo",
+      "sufficient": true
+    },
+    {
+      "id": "d2582a8602745d3c8417",
+      "title": "kk/7",
+      "truth": 1,
+      "predicted": 0,
+      "language": "kk",
+      "modality": "text",
+      "masking": "promo",
+      "sufficient": true
+    },
+    {
+      "id": "249c929925354b9aa733",
+      "title": "kk/7",
+      "truth": 1,
+      "predicted": 0,
+      "language": "kk",
+      "modality": "text",
+      "masking": "promo",
+      "sufficient": true
+    },
+    {
+      "id": "bc3f1a5968acdc607b10",
+      "title": "translit/3",
+      "truth": 1,
+      "predicted": 0,
+      "language": "translit",
+      "modality": "image",
+      "masking": "homoglyph",
+      "sufficient": true
+    },
+    {
+      "id": "77b304d77280a01ffa7e",
+      "title": "translit/3",
+      "truth": 1,
+      "predicted": 0,
+      "language": "translit",
+      "modality": "image",
+      "masking": "homoglyph",
+      "sufficient": true
+    },
+    {
+      "id": "513b4939c8c07090622f",
+      "title": "translit/3",
+      "truth": 1,
+      "predicted": 0,
+      "language": "translit",
+      "modality": "text",
+      "masking": "homoglyph",
+      "sufficient": true
+    },
+    {
+      "id": "da1fac948f08e7ea77c0",
+      "title": "translit/3",
+      "truth": 1,
+      "predicted": 0,
+      "language": "translit",
+      "modality": "text",
+      "masking": "homoglyph",
+      "sufficient": true
+    },
+    {
+      "id": "0e8463f6f4d604d3e0fa",
+      "title": "translit/3",
+      "truth": 1,
+      "predicted": 0,
+      "language": "translit",
+      "modality": "text",
+      "masking": "homoglyph",
+      "sufficient": true
+    },
+    {
+      "id": "348e2296a1453bf1c452",
+      "title": "translit/7",
+      "truth": 1,
+      "predicted": 0,
+      "language": "translit",
+      "modality": "image",
+      "masking": "promo",
+      "sufficient": true
+    },
+    {
+      "id": "bd18afd728f6f2d41795",
+      "title": "translit/7",
+      "truth": 1,
+      "predicted": 0,
+      "language": "translit",
+      "modality": "image",
+      "masking": "promo",
+      "sufficient": true
+    },
+    {
+      "id": "d86acd4e47511fed2c13",
+      "title": "translit/7",
+      "truth": 1,
+      "predicted": 0,
+      "language": "translit",
+      "modality": "text",
+      "masking": "promo",
+      "sufficient": true
+    },
+    {
+      "id": "ebb9d94f3ad4105755db",
+      "title": "translit/7",
+      "truth": 1,
+      "predicted": 0,
+      "language": "translit",
+      "modality": "text",
+      "masking": "promo",
+      "sufficient": true
+    },
+    {
+      "id": "6d72b4464cddcefba81f",
+      "title": "translit/7",
+      "truth": 1,
+      "predicted": 0,
+      "language": "translit",
+      "modality": "text",
+      "masking": "promo",
+      "sufficient": true
+    },
+    {
+      "id": "3a1f401ab516d76c5055",
+      "title": "translit/10",
+      "truth": 1,
+      "predicted": 0,
+      "language": "translit",
+      "modality": "image",
+      "masking": "multi_step",
+      "sufficient": true
+    },
+    {
+      "id": "31320b8b03a6c3adc0ed",
+      "title": "translit/10",
+      "truth": 1,
+      "predicted": 0,
+      "language": "translit",
+      "modality": "text",
+      "masking": "multi_step",
+      "sufficient": true
+    },
+    {
+      "id": "4e2b648b58ed6d3173a7",
+      "title": "translit/10",
+      "truth": 1,
+      "predicted": 0,
+      "language": "translit",
+      "modality": "text",
+      "masking": "multi_step",
+      "sufficient": true
+    },
+    {
+      "id": "f6d64aeac0057329ce36",
+      "title": "translit/10",
+      "truth": 1,
+      "predicted": 0,
+      "language": "translit",
+      "modality": "text",
+      "masking": "multi_step",
+      "sufficient": true
+    },
+    {
+      "id": "96e4a5525fb2d82fbbea",
+      "title": "translit/10",
+      "truth": 1,
+      "predicted": 0,
+      "language": "translit",
+      "modality": "text",
+      "masking": "multi_step",
+      "sufficient": true
+    },
+    {
+      "id": "2d5db9956344e29a4618",
+      "title": "translit/28",
+      "truth": 0,
+      "predicted": 1,
+      "language": "translit",
+      "modality": "image",
+      "masking": "education",
+      "sufficient": true
+    },
+    {
+      "id": "fe67818c5d9ec8a3b62c",
+      "title": "translit/28",
+      "truth": 0,
+      "predicted": 1,
+      "language": "translit",
+      "modality": "text",
+      "masking": "education",
+      "sufficient": true
+    },
+    {
+      "id": "c8e3156a174c1b7f3564",
+      "title": "translit/28",
+      "truth": 0,
+      "predicted": 1,
+      "language": "translit",
+      "modality": "text",
+      "masking": "education",
+      "sufficient": true
+    },
+    {
+      "id": "56d5db7dcef0e1b8fda5",
+      "title": "translit/28",
+      "truth": 0,
+      "predicted": 1,
+      "language": "translit",
+      "modality": "text",
+      "masking": "education",
+      "sufficient": true
+    },
+    {
+      "id": "4d026af66242a5f6d617",
+      "title": "translit/28",
+      "truth": 0,
+      "predicted": 1,
+      "language": "translit",
+      "modality": "text",
+      "masking": "education",
+      "sufficient": true
+    },
+    {
+      "id": "c7a1b6587a1ae76c1f21",
+      "title": "translit/29",
+      "truth": 0,
+      "predicted": 1,
+      "language": "translit",
+      "modality": "image",
+      "masking": "education",
+      "sufficient": true
+    },
+    {
+      "id": "e3a161ae38a4f67f7ef6",
+      "title": "translit/29",
+      "truth": 0,
+      "predicted": 1,
+      "language": "translit",
+      "modality": "text",
+      "masking": "education",
+      "sufficient": true
+    },
+    {
+      "id": "45a2c8e8ca0fcc7f70d3",
+      "title": "translit/29",
+      "truth": 0,
+      "predicted": 1,
+      "language": "translit",
+      "modality": "text",
+      "masking": "education",
+      "sufficient": true
+    },
+    {
+      "id": "88d29d9ff971b93adcb4",
+      "title": "translit/29",
+      "truth": 0,
+      "predicted": 1,
+      "language": "translit",
+      "modality": "text",
+      "masking": "education",
+      "sufficient": true
+    },
+    {
+      "id": "17022c93e41be305912a",
+      "title": "translit/29",
+      "truth": 0,
+      "predicted": 1,
+      "language": "translit",
+      "modality": "text",
+      "masking": "education",
+      "sufficient": true
+    },
+    {
+      "id": "2e8632cfeb7d047205fc",
+      "title": "translit/30",
+      "truth": 0,
+      "predicted": 1,
+      "language": "translit",
+      "modality": "image",
+      "masking": "education",
+      "sufficient": true
+    },
+    {
+      "id": "da5b85ae47ae0bc521d0",
+      "title": "translit/30",
+      "truth": 0,
+      "predicted": 1,
+      "language": "translit",
+      "modality": "text",
+      "masking": "education",
+      "sufficient": true
+    },
+    {
+      "id": "2c42339279e3efa77372",
+      "title": "translit/30",
+      "truth": 0,
+      "predicted": 1,
+      "language": "translit",
+      "modality": "text",
+      "masking": "education",
+      "sufficient": true
+    },
+    {
+      "id": "3f336d28f84304f2bb19",
+      "title": "translit/30",
+      "truth": 0,
+      "predicted": 1,
+      "language": "translit",
+      "modality": "text",
+      "masking": "education",
+      "sufficient": true
+    },
+    {
+      "id": "ca05f606d5545dcfceaa",
+      "title": "translit/30",
+      "truth": 0,
+      "predicted": 1,
+      "language": "translit",
+      "modality": "text",
+      "masking": "education",
+      "sufficient": true
+    },
+    {
+      "id": "a6a9b4adcb5fd6a48cbd",
+      "title": "translit/31",
+      "truth": 0,
+      "predicted": 1,
+      "language": "translit",
+      "modality": "image",
+      "masking": "education",
+      "sufficient": true
+    },
+    {
+      "id": "4ec89e610e915e93fc9d",
+      "title": "translit/31",
+      "truth": 0,
+      "predicted": 1,
+      "language": "translit",
+      "modality": "text",
+      "masking": "education",
+      "sufficient": true
+    },
+    {
+      "id": "cffa00699bfbdb9b600e",
+      "title": "translit/31",
+      "truth": 0,
+      "predicted": 1,
+      "language": "translit",
+      "modality": "text",
+      "masking": "education",
+      "sufficient": true
+    },
+    {
+      "id": "175eff998e635edb36de",
+      "title": "translit/31",
+      "truth": 0,
+      "predicted": 1,
+      "language": "translit",
+      "modality": "text",
+      "masking": "education",
+      "sufficient": true
+    },
+    {
+      "id": "2aba3eb2a715813a4597",
+      "title": "translit/31",
+      "truth": 0,
+      "predicted": 1,
+      "language": "translit",
+      "modality": "text",
+      "masking": "education",
+      "sufficient": true
+    },
+    {
+      "id": "c4b87f6d0b575ba067b6",
+      "title": "mixed/1",
+      "truth": 1,
+      "predicted": 0,
+      "language": "mixed",
+      "modality": "image",
+      "masking": "redirect",
+      "sufficient": false
+    },
+    {
+      "id": "f17c2782d39184ef5c4f",
+      "title": "mixed/3",
+      "truth": 1,
+      "predicted": 0,
+      "language": "mixed",
+      "modality": "image",
+      "masking": "homoglyph",
+      "sufficient": true
+    },
+    {
+      "id": "5664a0ac54ecb1154bdc",
+      "title": "mixed/3",
+      "truth": 1,
+      "predicted": 0,
+      "language": "mixed",
+      "modality": "image",
+      "masking": "homoglyph",
+      "sufficient": true
+    },
+    {
+      "id": "cf6845a8126f85b4e382",
+      "title": "mixed/3",
+      "truth": 1,
+      "predicted": 0,
+      "language": "mixed",
+      "modality": "text",
+      "masking": "homoglyph",
+      "sufficient": true
+    },
+    {
+      "id": "9e76fc620641498da240",
+      "title": "mixed/3",
+      "truth": 1,
+      "predicted": 0,
+      "language": "mixed",
+      "modality": "text",
+      "masking": "homoglyph",
+      "sufficient": true
+    },
+    {
+      "id": "ad410a8d62c1c3a4c8cf",
+      "title": "mixed/3",
+      "truth": 1,
+      "predicted": 0,
+      "language": "mixed",
+      "modality": "text",
+      "masking": "homoglyph",
+      "sufficient": true
+    },
+    {
+      "id": "1340ffac8c4d36e2d204",
+      "title": "mixed/7",
+      "truth": 1,
+      "predicted": 0,
+      "language": "mixed",
+      "modality": "image",
+      "masking": "promo",
+      "sufficient": true
+    },
+    {
+      "id": "724409ba6facb573fd51",
+      "title": "mixed/7",
+      "truth": 1,
+      "predicted": 0,
+      "language": "mixed",
+      "modality": "image",
+      "masking": "promo",
+      "sufficient": true
+    },
+    {
+      "id": "268f61ec3d46308550d6",
+      "title": "mixed/7",
+      "truth": 1,
+      "predicted": 0,
+      "language": "mixed",
+      "modality": "text",
+      "masking": "promo",
+      "sufficient": true
+    },
+    {
+      "id": "3aa7dd3bb82de7a66242",
+      "title": "mixed/7",
+      "truth": 1,
+      "predicted": 0,
+      "language": "mixed",
+      "modality": "text",
+      "masking": "promo",
+      "sufficient": true
+    },
+    {
+      "id": "cd42f1dd8d411cf8b95a",
+      "title": "mixed/7",
+      "truth": 1,
+      "predicted": 0,
+      "language": "mixed",
+      "modality": "text",
+      "masking": "promo",
+      "sufficient": true
+    }
+  ],
+  "limitations": [
+    "Авторский синтетический набор с родственными шаблонами; два LLM с разными настроенными моделями, не человеческая разметка.",
+    "Скриншоты размечены по авторской транскрипции; реальную ошибку OCR показывает прогон приложения.",
+    "Только синтетические .test-адреса. Качество на реальных сообщениях и зеркалах неизвестно.",
+    "Индекс приоритета не является калиброванной вероятностью или юридическим вердиктом."
+  ]
+}

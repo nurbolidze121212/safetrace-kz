@@ -1,0 +1,3993 @@
+{
+  "provenance": "80 authored synthetic texts and author intent per extension; not independent or human labels",
+  "frozen_at": "2026-10-25T15:21:42.711931+00:00",
+  "tracks": {
+    "track1": {
+      "n": 80,
+      "tp": 40,
+      "fp": 16,
+      "tn": 24,
+      "fn": 0,
+      "precision": 0.7142857142857143,
+      "precision_wilson95": [
+        0.5852474928448371,
+        0.8158122485614087
+      ],
+      "recall": 1.0,
+      "recall_wilson95": [
+        0.912378398802718,
+        1
+      ],
+      "fpr": 0.4,
+      "fpr_wilson95": [
+        0.2634832568429225,
+        0.554041063396534
+      ],
+      "f1": 0.8333333333333334,
+      "coverage": 1.0,
+      "levels": {
+        "high": 56,
+        "low": 16,
+        "medium": 8
+      }
+    },
+    "track3": {
+      "n": 80,
+      "tp": 24,
+      "fp": 0,
+      "tn": 40,
+      "fn": 16,
+      "precision": 1.0,
+      "precision_wilson95": [
+        0.8620237953250264,
+        1
+      ],
+      "recall": 0.6,
+      "recall_wilson95": [
+        0.44595893660346597,
+        0.7365167431570776
+      ],
+      "fpr": 0.0,
+      "fpr_wilson95": [
+        6.938893903907228e-18,
+        0.08762160119728224
+      ],
+      "f1": 0.75,
+      "coverage": 1.0,
+      "levels": {
+        "high": 24,
+        "low": 56
+      }
+    }
+  },
+  "cases": [
+    {
+      "id": "b4a21766a9bcb1c88c82",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Взнос 5000 тг, колесо случайно выберет победителя.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Взнос",
+          "start": 0,
+          "end": 5,
+          "source_id": "8cfa9b91441e407589b19abe5944c84e"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 15,
+          "end": 21,
+          "source_id": "8cfa9b91441e407589b19abe5944c84e"
+        }
+      ]
+    },
+    {
+      "id": "aa2d4ac51764d3f6040b",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Взнос 5100 тг, колесо случайно выберет победителя.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Взнос",
+          "start": 0,
+          "end": 5,
+          "source_id": "4133772b4c324548a277495cdfb2abc6"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 15,
+          "end": 21,
+          "source_id": "4133772b4c324548a277495cdfb2abc6"
+        }
+      ]
+    },
+    {
+      "id": "42e9fb193aced14ad9f8",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Взнос 5200 тг, колесо случайно выберет победителя.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Взнос",
+          "start": 0,
+          "end": 5,
+          "source_id": "4e87b81df9544b42a861a77ae53f2f40"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 15,
+          "end": 21,
+          "source_id": "4e87b81df9544b42a861a77ae53f2f40"
+        }
+      ]
+    },
+    {
+      "id": "fb919c40d80e4757e37e",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Взнос 5300 тг, колесо случайно выберет победителя.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Взнос",
+          "start": 0,
+          "end": 5,
+          "source_id": "0a276d954f87488e963b3c58242af24f"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 15,
+          "end": 21,
+          "source_id": "0a276d954f87488e963b3c58242af24f"
+        }
+      ]
+    },
+    {
+      "id": "a5e7afa0298f9fcb0604",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Взнос 5400 тг, колесо случайно выберет победителя.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Взнос",
+          "start": 0,
+          "end": 5,
+          "source_id": "6905d085f39548db99f465e798aea1ac"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 15,
+          "end": 21,
+          "source_id": "6905d085f39548db99f465e798aea1ac"
+        }
+      ]
+    },
+    {
+      "id": "7f3b82fe1d8d4c859de3",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Взнос 5500 тг, колесо случайно выберет победителя.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Взнос",
+          "start": 0,
+          "end": 5,
+          "source_id": "d093a9c700fc42d4a2a35f8241e81bcf"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 15,
+          "end": 21,
+          "source_id": "d093a9c700fc42d4a2a35f8241e81bcf"
+        }
+      ]
+    },
+    {
+      "id": "8417f1bc8c31fb474b03",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Взнос 5600 тг, колесо случайно выберет победителя.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Взнос",
+          "start": 0,
+          "end": 5,
+          "source_id": "5464c38a518c46f19ca99ad620cc5145"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 15,
+          "end": 21,
+          "source_id": "5464c38a518c46f19ca99ad620cc5145"
+        }
+      ]
+    },
+    {
+      "id": "53b9deb5b6774cf4c030",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Взнос 5700 тг, колесо случайно выберет победителя.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Взнос",
+          "start": 0,
+          "end": 5,
+          "source_id": "2c95216e32054ab28e3cec164eaac928"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 15,
+          "end": 21,
+          "source_id": "2c95216e32054ab28e3cec164eaac928"
+        }
+      ]
+    },
+    {
+      "id": "b5f841a9eac66d4c4dd6",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Купи номер за 5000 тг, розыгрыш приза проведём случайно.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыш",
+          "start": 23,
+          "end": 31,
+          "source_id": "0ac78bf186ce414bbb751630b0e1f46b"
+        },
+        {
+          "kind": "paid_slot",
+          "quote": "Купи номер",
+          "start": 0,
+          "end": 10,
+          "source_id": "0ac78bf186ce414bbb751630b0e1f46b"
+        }
+      ]
+    },
+    {
+      "id": "f1b0d07430915369b6ef",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Купи номер за 5100 тг, розыгрыш приза проведём случайно.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыш",
+          "start": 23,
+          "end": 31,
+          "source_id": "da2ae6401ef94a9bb7e76373e2f8f8f9"
+        },
+        {
+          "kind": "paid_slot",
+          "quote": "Купи номер",
+          "start": 0,
+          "end": 10,
+          "source_id": "da2ae6401ef94a9bb7e76373e2f8f8f9"
+        }
+      ]
+    },
+    {
+      "id": "9134d0ae81db0a17523a",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Купи номер за 5200 тг, розыгрыш приза проведём случайно.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыш",
+          "start": 23,
+          "end": 31,
+          "source_id": "4532d11c3fcf4c53afb8202b10758b33"
+        },
+        {
+          "kind": "paid_slot",
+          "quote": "Купи номер",
+          "start": 0,
+          "end": 10,
+          "source_id": "4532d11c3fcf4c53afb8202b10758b33"
+        }
+      ]
+    },
+    {
+      "id": "dc4196a6ab8acf543177",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Купи номер за 5300 тг, розыгрыш приза проведём случайно.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыш",
+          "start": 23,
+          "end": 31,
+          "source_id": "93abc76ab7be4bb9b27e5dd33f106575"
+        },
+        {
+          "kind": "paid_slot",
+          "quote": "Купи номер",
+          "start": 0,
+          "end": 10,
+          "source_id": "93abc76ab7be4bb9b27e5dd33f106575"
+        }
+      ]
+    },
+    {
+      "id": "f7352caacc2af67a8097",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Купи номер за 5400 тг, розыгрыш приза проведём случайно.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыш",
+          "start": 23,
+          "end": 31,
+          "source_id": "686b089b5d2746cea2614828287203f2"
+        },
+        {
+          "kind": "paid_slot",
+          "quote": "Купи номер",
+          "start": 0,
+          "end": 10,
+          "source_id": "686b089b5d2746cea2614828287203f2"
+        }
+      ]
+    },
+    {
+      "id": "c2d2184c22d9d75eb830",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Купи номер за 5500 тг, розыгрыш приза проведём случайно.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыш",
+          "start": 23,
+          "end": 31,
+          "source_id": "2738129783ce4d378e6071eb2c1f6ad7"
+        },
+        {
+          "kind": "paid_slot",
+          "quote": "Купи номер",
+          "start": 0,
+          "end": 10,
+          "source_id": "2738129783ce4d378e6071eb2c1f6ad7"
+        }
+      ]
+    },
+    {
+      "id": "1e83642007f20277409c",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Купи номер за 5600 тг, розыгрыш приза проведём случайно.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыш",
+          "start": 23,
+          "end": 31,
+          "source_id": "e68c5ac2006a4211bbb350b93d9e0fcd"
+        },
+        {
+          "kind": "paid_slot",
+          "quote": "Купи номер",
+          "start": 0,
+          "end": 10,
+          "source_id": "e68c5ac2006a4211bbb350b93d9e0fcd"
+        }
+      ]
+    },
+    {
+      "id": "d04d3670bc2c75fd3aad",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Купи номер за 5700 тг, розыгрыш приза проведём случайно.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыш",
+          "start": 23,
+          "end": 31,
+          "source_id": "40e1218159bb430ea18fc909f1b9b47b"
+        },
+        {
+          "kind": "paid_slot",
+          "quote": "Купи номер",
+          "start": 0,
+          "end": 10,
+          "source_id": "40e1218159bb430ea18fc909f1b9b47b"
+        }
+      ]
+    },
+    {
+      "id": "6fc66084a969a126b07c",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Оплати билет 5000 тг. Лотерея и жеребьёвка сегодня.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Оплати",
+          "start": 0,
+          "end": 6,
+          "source_id": "21137218981646768afb142a623f4cff"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "Лотерея",
+          "start": 22,
+          "end": 29,
+          "source_id": "21137218981646768afb142a623f4cff"
+        }
+      ]
+    },
+    {
+      "id": "f9c2cb30903fa5764a85",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Оплати билет 5100 тг. Лотерея и жеребьёвка сегодня.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Оплати",
+          "start": 0,
+          "end": 6,
+          "source_id": "82e5bf46a0844745a319f29d032ca4ec"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "Лотерея",
+          "start": 22,
+          "end": 29,
+          "source_id": "82e5bf46a0844745a319f29d032ca4ec"
+        }
+      ]
+    },
+    {
+      "id": "0649cdafb966267a6449",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Оплати билет 5200 тг. Лотерея и жеребьёвка сегодня.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Оплати",
+          "start": 0,
+          "end": 6,
+          "source_id": "60e5d900310145309a172e658d4e1cad"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "Лотерея",
+          "start": 22,
+          "end": 29,
+          "source_id": "60e5d900310145309a172e658d4e1cad"
+        }
+      ]
+    },
+    {
+      "id": "9dec7c4db17f94056ed0",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Оплати билет 5300 тг. Лотерея и жеребьёвка сегодня.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Оплати",
+          "start": 0,
+          "end": 6,
+          "source_id": "50f24ac769a9476786e8438cf37c10e9"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "Лотерея",
+          "start": 22,
+          "end": 29,
+          "source_id": "50f24ac769a9476786e8438cf37c10e9"
+        }
+      ]
+    },
+    {
+      "id": "0fa1bc0ddf96feb4f673",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Оплати билет 5400 тг. Лотерея и жеребьёвка сегодня.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Оплати",
+          "start": 0,
+          "end": 6,
+          "source_id": "477ea752be8b4f8e8bc776ba8f9e6d2e"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "Лотерея",
+          "start": 22,
+          "end": 29,
+          "source_id": "477ea752be8b4f8e8bc776ba8f9e6d2e"
+        }
+      ]
+    },
+    {
+      "id": "e19ea2d08436f9cec272",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Оплати билет 5500 тг. Лотерея и жеребьёвка сегодня.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Оплати",
+          "start": 0,
+          "end": 6,
+          "source_id": "65817b220d744e95ad8722e2e9080864"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "Лотерея",
+          "start": 22,
+          "end": 29,
+          "source_id": "65817b220d744e95ad8722e2e9080864"
+        }
+      ]
+    },
+    {
+      "id": "6766ecbc4adbfbb3c829",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Оплати билет 5600 тг. Лотерея и жеребьёвка сегодня.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Оплати",
+          "start": 0,
+          "end": 6,
+          "source_id": "3662170b10d644c4acb26733076b9de2"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "Лотерея",
+          "start": 22,
+          "end": 29,
+          "source_id": "3662170b10d644c4acb26733076b9de2"
+        }
+      ]
+    },
+    {
+      "id": "e53683fa41534becc955",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Оплати билет 5700 тг. Лотерея и жеребьёвка сегодня.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Оплати",
+          "start": 0,
+          "end": 6,
+          "source_id": "b34c064a19314a45815582a1392f6195"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "Лотерея",
+          "start": 22,
+          "end": 29,
+          "source_id": "b34c064a19314a45815582a1392f6195"
+        }
+      ]
+    },
+    {
+      "id": "94fa916b370ca3f01efc",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Жарна 5000 тг, ұтысқа қатыс: кездейсоқ жеңімпаз.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Жарна",
+          "start": 0,
+          "end": 5,
+          "source_id": "1c7d440335404367bddd56fc25578600"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "ұтысқа",
+          "start": 15,
+          "end": 21,
+          "source_id": "1c7d440335404367bddd56fc25578600"
+        }
+      ]
+    },
+    {
+      "id": "ca42f28ff5883c6db0e6",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Жарна 5100 тг, ұтысқа қатыс: кездейсоқ жеңімпаз.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Жарна",
+          "start": 0,
+          "end": 5,
+          "source_id": "2e083767d3134b959ad7101a2c0f691d"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "ұтысқа",
+          "start": 15,
+          "end": 21,
+          "source_id": "2e083767d3134b959ad7101a2c0f691d"
+        }
+      ]
+    },
+    {
+      "id": "199b4cac51782a140c42",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Жарна 5200 тг, ұтысқа қатыс: кездейсоқ жеңімпаз.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Жарна",
+          "start": 0,
+          "end": 5,
+          "source_id": "0f5c63f5e6ed48429e46649e80bf6a9b"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "ұтысқа",
+          "start": 15,
+          "end": 21,
+          "source_id": "0f5c63f5e6ed48429e46649e80bf6a9b"
+        }
+      ]
+    },
+    {
+      "id": "b23d53fc13f74798aaad",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Жарна 5300 тг, ұтысқа қатыс: кездейсоқ жеңімпаз.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Жарна",
+          "start": 0,
+          "end": 5,
+          "source_id": "e3e285dac5c942f9850c03ec7260d551"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "ұтысқа",
+          "start": 15,
+          "end": 21,
+          "source_id": "e3e285dac5c942f9850c03ec7260d551"
+        }
+      ]
+    },
+    {
+      "id": "99ec45a3b540f08d3f4e",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Жарна 5400 тг, ұтысқа қатыс: кездейсоқ жеңімпаз.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Жарна",
+          "start": 0,
+          "end": 5,
+          "source_id": "abecfac2e1d84fd78cb3ef13b803e761"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "ұтысқа",
+          "start": 15,
+          "end": 21,
+          "source_id": "abecfac2e1d84fd78cb3ef13b803e761"
+        }
+      ]
+    },
+    {
+      "id": "468c277dea317aea2edf",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Жарна 5500 тг, ұтысқа қатыс: кездейсоқ жеңімпаз.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Жарна",
+          "start": 0,
+          "end": 5,
+          "source_id": "1a4caec680744b2eb8dbb9530008a2ad"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "ұтысқа",
+          "start": 15,
+          "end": 21,
+          "source_id": "1a4caec680744b2eb8dbb9530008a2ad"
+        }
+      ]
+    },
+    {
+      "id": "01d15959ca41749fd0e6",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Жарна 5600 тг, ұтысқа қатыс: кездейсоқ жеңімпаз.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Жарна",
+          "start": 0,
+          "end": 5,
+          "source_id": "2cb265bd42c946e49f9c13b380ab9ba7"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "ұтысқа",
+          "start": 15,
+          "end": 21,
+          "source_id": "2cb265bd42c946e49f9c13b380ab9ba7"
+        }
+      ]
+    },
+    {
+      "id": "8ce449f5ae5f46d0bcd3",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Жарна 5700 тг, ұтысқа қатыс: кездейсоқ жеңімпаз.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Жарна",
+          "start": 0,
+          "end": 5,
+          "source_id": "e0578f38895b45ea9bc1b6842ad339c5"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "ұтысқа",
+          "start": 15,
+          "end": 21,
+          "source_id": "e0578f38895b45ea9bc1b6842ad339c5"
+        }
+      ]
+    },
+    {
+      "id": "39b65f7d41f8a7551f65",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Прямой эфир: перевод на карту 5000 тг за слот в розыгрыше.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "перевод на карту",
+          "start": 13,
+          "end": 29,
+          "source_id": "a7500a6a13964d04aa3f417c49fb07f4"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыше",
+          "start": 48,
+          "end": 57,
+          "source_id": "a7500a6a13964d04aa3f417c49fb07f4"
+        }
+      ]
+    },
+    {
+      "id": "819392843057b83701e9",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Прямой эфир: перевод на карту 5100 тг за слот в розыгрыше.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "перевод на карту",
+          "start": 13,
+          "end": 29,
+          "source_id": "75a6a56008654696af4959a32a6d76f4"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыше",
+          "start": 48,
+          "end": 57,
+          "source_id": "75a6a56008654696af4959a32a6d76f4"
+        }
+      ]
+    },
+    {
+      "id": "3b9653816a1aa686c4bd",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Прямой эфир: перевод на карту 5200 тг за слот в розыгрыше.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "перевод на карту",
+          "start": 13,
+          "end": 29,
+          "source_id": "bdd46a8137ed4c5e9ffeb9c3fd6dc10e"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыше",
+          "start": 48,
+          "end": 57,
+          "source_id": "bdd46a8137ed4c5e9ffeb9c3fd6dc10e"
+        }
+      ]
+    },
+    {
+      "id": "095ab9e30c5e240ba92a",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Прямой эфир: перевод на карту 5300 тг за слот в розыгрыше.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "перевод на карту",
+          "start": 13,
+          "end": 29,
+          "source_id": "e769af27b2f746089bdbf7f2cd6f4f5c"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыше",
+          "start": 48,
+          "end": 57,
+          "source_id": "e769af27b2f746089bdbf7f2cd6f4f5c"
+        }
+      ]
+    },
+    {
+      "id": "5aa16cef29b6a075966c",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Прямой эфир: перевод на карту 5400 тг за слот в розыгрыше.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "перевод на карту",
+          "start": 13,
+          "end": 29,
+          "source_id": "f3d270ea0b5240928db5e8cf913b158a"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыше",
+          "start": 48,
+          "end": 57,
+          "source_id": "f3d270ea0b5240928db5e8cf913b158a"
+        }
+      ]
+    },
+    {
+      "id": "6ce0f56c89da9b636cdc",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Прямой эфир: перевод на карту 5500 тг за слот в розыгрыше.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "перевод на карту",
+          "start": 13,
+          "end": 29,
+          "source_id": "901496a607424f11bcf88ae172108e9c"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыше",
+          "start": 48,
+          "end": 57,
+          "source_id": "901496a607424f11bcf88ae172108e9c"
+        }
+      ]
+    },
+    {
+      "id": "54efdf0935a3186f16ce",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Прямой эфир: перевод на карту 5600 тг за слот в розыгрыше.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "перевод на карту",
+          "start": 13,
+          "end": 29,
+          "source_id": "104a9ed0b6834d35aae63df6de0c434a"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыше",
+          "start": 48,
+          "end": 57,
+          "source_id": "104a9ed0b6834d35aae63df6de0c434a"
+        }
+      ]
+    },
+    {
+      "id": "c49c5b33ec4c52ede32d",
+      "track": "track1",
+      "author_truth": 1,
+      "text": "Прямой эфир: перевод на карту 5700 тг за слот в розыгрыше.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "перевод на карту",
+          "start": 13,
+          "end": 29,
+          "source_id": "ff30f73056ec4895a6c016c952912064"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыше",
+          "start": 48,
+          "end": 57,
+          "source_id": "ff30f73056ec4895a6c016c952912064"
+        }
+      ]
+    },
+    {
+      "id": "e66cb450498e610c663b",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Бесплатный розыгрыш книги, взнос не нужен. Победитель случайный.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "взнос",
+          "start": 27,
+          "end": 32,
+          "source_id": "e59418de1e074961901bc6e946944620"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыш",
+          "start": 11,
+          "end": 19,
+          "source_id": "e59418de1e074961901bc6e946944620"
+        }
+      ]
+    },
+    {
+      "id": "e66cb450498e610c663b",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Бесплатный розыгрыш книги, взнос не нужен. Победитель случайный.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "взнос",
+          "start": 27,
+          "end": 32,
+          "source_id": "c9a6bbcd24754aba8d4c873c9b975433"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыш",
+          "start": 11,
+          "end": 19,
+          "source_id": "c9a6bbcd24754aba8d4c873c9b975433"
+        }
+      ]
+    },
+    {
+      "id": "e66cb450498e610c663b",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Бесплатный розыгрыш книги, взнос не нужен. Победитель случайный.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "взнос",
+          "start": 27,
+          "end": 32,
+          "source_id": "603eae1b912d48f18cb6664b7e57642a"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыш",
+          "start": 11,
+          "end": 19,
+          "source_id": "603eae1b912d48f18cb6664b7e57642a"
+        }
+      ]
+    },
+    {
+      "id": "e66cb450498e610c663b",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Бесплатный розыгрыш книги, взнос не нужен. Победитель случайный.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "взнос",
+          "start": 27,
+          "end": 32,
+          "source_id": "033c88772c284428b24faeff6b860ad5"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыш",
+          "start": 11,
+          "end": 19,
+          "source_id": "033c88772c284428b24faeff6b860ad5"
+        }
+      ]
+    },
+    {
+      "id": "e66cb450498e610c663b",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Бесплатный розыгрыш книги, взнос не нужен. Победитель случайный.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "взнос",
+          "start": 27,
+          "end": 32,
+          "source_id": "390059de84ae4ecd9c8b6a71b3df66ee"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыш",
+          "start": 11,
+          "end": 19,
+          "source_id": "390059de84ae4ecd9c8b6a71b3df66ee"
+        }
+      ]
+    },
+    {
+      "id": "e66cb450498e610c663b",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Бесплатный розыгрыш книги, взнос не нужен. Победитель случайный.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "взнос",
+          "start": 27,
+          "end": 32,
+          "source_id": "33726997144540d1ba2b4b790b9753fb"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыш",
+          "start": 11,
+          "end": 19,
+          "source_id": "33726997144540d1ba2b4b790b9753fb"
+        }
+      ]
+    },
+    {
+      "id": "e66cb450498e610c663b",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Бесплатный розыгрыш книги, взнос не нужен. Победитель случайный.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "взнос",
+          "start": 27,
+          "end": 32,
+          "source_id": "ab4192c0a2fc4958b79dffd9b07e6ad2"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыш",
+          "start": 11,
+          "end": 19,
+          "source_id": "ab4192c0a2fc4958b79dffd9b07e6ad2"
+        }
+      ]
+    },
+    {
+      "id": "e66cb450498e610c663b",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Бесплатный розыгрыш книги, взнос не нужен. Победитель случайный.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "взнос",
+          "start": 27,
+          "end": 32,
+          "source_id": "400b0838a44b4ba0a80f491a6fc3e109"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "розыгрыш",
+          "start": 11,
+          "end": 19,
+          "source_id": "400b0838a44b4ba0a80f491a6fc3e109"
+        }
+      ]
+    },
+    {
+      "id": "74c49a64a798ee837bb4",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Новости: организаторы брали взнос и проводили колесо, прокуратура расследует.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "взнос",
+          "start": 28,
+          "end": 33,
+          "source_id": "7961434a975741fe98f9553b7b338bc8"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 46,
+          "end": 52,
+          "source_id": "7961434a975741fe98f9553b7b338bc8"
+        }
+      ]
+    },
+    {
+      "id": "74c49a64a798ee837bb4",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Новости: организаторы брали взнос и проводили колесо, прокуратура расследует.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "взнос",
+          "start": 28,
+          "end": 33,
+          "source_id": "1f030ddda5674e60923124f3c13fd2e0"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 46,
+          "end": 52,
+          "source_id": "1f030ddda5674e60923124f3c13fd2e0"
+        }
+      ]
+    },
+    {
+      "id": "74c49a64a798ee837bb4",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Новости: организаторы брали взнос и проводили колесо, прокуратура расследует.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "взнос",
+          "start": 28,
+          "end": 33,
+          "source_id": "855ff4d94442485bbe89653b05fcc33a"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 46,
+          "end": 52,
+          "source_id": "855ff4d94442485bbe89653b05fcc33a"
+        }
+      ]
+    },
+    {
+      "id": "74c49a64a798ee837bb4",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Новости: организаторы брали взнос и проводили колесо, прокуратура расследует.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "взнос",
+          "start": 28,
+          "end": 33,
+          "source_id": "f583253650c6470bbeb39cd6523c0371"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 46,
+          "end": 52,
+          "source_id": "f583253650c6470bbeb39cd6523c0371"
+        }
+      ]
+    },
+    {
+      "id": "74c49a64a798ee837bb4",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Новости: организаторы брали взнос и проводили колесо, прокуратура расследует.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "взнос",
+          "start": 28,
+          "end": 33,
+          "source_id": "7d5667b7b5fd47e7ad448ebaf9d6f1f6"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 46,
+          "end": 52,
+          "source_id": "7d5667b7b5fd47e7ad448ebaf9d6f1f6"
+        }
+      ]
+    },
+    {
+      "id": "74c49a64a798ee837bb4",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Новости: организаторы брали взнос и проводили колесо, прокуратура расследует.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "взнос",
+          "start": 28,
+          "end": 33,
+          "source_id": "261617a53d1244eba4a7515263b739eb"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 46,
+          "end": 52,
+          "source_id": "261617a53d1244eba4a7515263b739eb"
+        }
+      ]
+    },
+    {
+      "id": "74c49a64a798ee837bb4",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Новости: организаторы брали взнос и проводили колесо, прокуратура расследует.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "взнос",
+          "start": 28,
+          "end": 33,
+          "source_id": "caf67f5bd22441f39a9b1b8c9f53428a"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 46,
+          "end": 52,
+          "source_id": "caf67f5bd22441f39a9b1b8c9f53428a"
+        }
+      ]
+    },
+    {
+      "id": "74c49a64a798ee837bb4",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Новости: организаторы брали взнос и проводили колесо, прокуратура расследует.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "взнос",
+          "start": 28,
+          "end": 33,
+          "source_id": "d5199a2498574e2492f0bd210980dc74"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 46,
+          "end": 52,
+          "source_id": "d5199a2498574e2492f0bd210980dc74"
+        }
+      ]
+    },
+    {
+      "id": "ae701888802edd99b31e",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Легальный концерт: купи билет 5000 тг, места по рядам.",
+      "predicted": 0,
+      "level": "medium",
+      "score": 40,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "paid_slot",
+          "quote": "купи билет",
+          "start": 19,
+          "end": 29,
+          "source_id": "9a4c9f74ab8d431992a848daaf6df347"
+        }
+      ]
+    },
+    {
+      "id": "0f9e936b5357d402d358",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Легальный концерт: купи билет 5100 тг, места по рядам.",
+      "predicted": 0,
+      "level": "medium",
+      "score": 40,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "paid_slot",
+          "quote": "купи билет",
+          "start": 19,
+          "end": 29,
+          "source_id": "54b62fe3dc3d441ab27d2d57a497d033"
+        }
+      ]
+    },
+    {
+      "id": "82809d9d4a466a27869c",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Легальный концерт: купи билет 5200 тг, места по рядам.",
+      "predicted": 0,
+      "level": "medium",
+      "score": 40,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "paid_slot",
+          "quote": "купи билет",
+          "start": 19,
+          "end": 29,
+          "source_id": "c0025905b8324d2cacce97755b3cc77f"
+        }
+      ]
+    },
+    {
+      "id": "efb38038eb1c7092b47c",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Легальный концерт: купи билет 5300 тг, места по рядам.",
+      "predicted": 0,
+      "level": "medium",
+      "score": 40,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "paid_slot",
+          "quote": "купи билет",
+          "start": 19,
+          "end": 29,
+          "source_id": "0adf011a7afc4c13908e1fd32e3c4d43"
+        }
+      ]
+    },
+    {
+      "id": "b64333abe3c62b3ae642",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Легальный концерт: купи билет 5400 тг, места по рядам.",
+      "predicted": 0,
+      "level": "medium",
+      "score": 40,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "paid_slot",
+          "quote": "купи билет",
+          "start": 19,
+          "end": 29,
+          "source_id": "d1527e31c9674fe6976782b068c35d07"
+        }
+      ]
+    },
+    {
+      "id": "9ad0699a14e443aaf36c",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Легальный концерт: купи билет 5500 тг, места по рядам.",
+      "predicted": 0,
+      "level": "medium",
+      "score": 40,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "paid_slot",
+          "quote": "купи билет",
+          "start": 19,
+          "end": 29,
+          "source_id": "13c22a63f883450fa975b16ecbfeb59e"
+        }
+      ]
+    },
+    {
+      "id": "fb7d1f4b5b0483343618",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Легальный концерт: купи билет 5600 тг, места по рядам.",
+      "predicted": 0,
+      "level": "medium",
+      "score": 40,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "paid_slot",
+          "quote": "купи билет",
+          "start": 19,
+          "end": 29,
+          "source_id": "1d9e427b27664e958d046748a5cc5cf3"
+        }
+      ]
+    },
+    {
+      "id": "19828e208d020f70b8c8",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Легальный концерт: купи билет 5700 тг, места по рядам.",
+      "predicted": 0,
+      "level": "medium",
+      "score": 40,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "paid_slot",
+          "quote": "купи билет",
+          "start": 19,
+          "end": 29,
+          "source_id": "27f01ea317d34fa982bf5bb5a393ba75"
+        }
+      ]
+    },
+    {
+      "id": "fa05b29477d8278e2130",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Тегін байқау, жарна жоқ, кітап сыйлығы бар.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": []
+    },
+    {
+      "id": "fa05b29477d8278e2130",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Тегін байқау, жарна жоқ, кітап сыйлығы бар.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": []
+    },
+    {
+      "id": "fa05b29477d8278e2130",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Тегін байқау, жарна жоқ, кітап сыйлығы бар.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": []
+    },
+    {
+      "id": "fa05b29477d8278e2130",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Тегін байқау, жарна жоқ, кітап сыйлығы бар.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": []
+    },
+    {
+      "id": "fa05b29477d8278e2130",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Тегін байқау, жарна жоқ, кітап сыйлығы бар.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": []
+    },
+    {
+      "id": "fa05b29477d8278e2130",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Тегін байқау, жарна жоқ, кітап сыйлығы бар.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": []
+    },
+    {
+      "id": "fa05b29477d8278e2130",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Тегін байқау, жарна жоқ, кітап сыйлығы бар.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": []
+    },
+    {
+      "id": "fa05b29477d8278e2130",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Тегін байқау, жарна жоқ, кітап сыйлығы бар.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": []
+    },
+    {
+      "id": "e3299d48991724ee6c1f",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Магазин продаёт строительное колесо за 5000 тг. Оплата заказа.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Оплата",
+          "start": 48,
+          "end": 54,
+          "source_id": "5247e2ab01914f81935fe3c8b13fca96"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 29,
+          "end": 35,
+          "source_id": "5247e2ab01914f81935fe3c8b13fca96"
+        }
+      ]
+    },
+    {
+      "id": "609f2b8f046b5df6cb7c",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Магазин продаёт строительное колесо за 5100 тг. Оплата заказа.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Оплата",
+          "start": 48,
+          "end": 54,
+          "source_id": "0be89e4d6e5f4b5caec20895b1ad4f67"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 29,
+          "end": 35,
+          "source_id": "0be89e4d6e5f4b5caec20895b1ad4f67"
+        }
+      ]
+    },
+    {
+      "id": "542b1e9d04b33842779d",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Магазин продаёт строительное колесо за 5200 тг. Оплата заказа.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Оплата",
+          "start": 48,
+          "end": 54,
+          "source_id": "d8937e1469fd4bbea514ce7e7508216a"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 29,
+          "end": 35,
+          "source_id": "d8937e1469fd4bbea514ce7e7508216a"
+        }
+      ]
+    },
+    {
+      "id": "a888964576b636770e63",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Магазин продаёт строительное колесо за 5300 тг. Оплата заказа.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Оплата",
+          "start": 48,
+          "end": 54,
+          "source_id": "098176f543d84a97ba9b24d05d6ffcae"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 29,
+          "end": 35,
+          "source_id": "098176f543d84a97ba9b24d05d6ffcae"
+        }
+      ]
+    },
+    {
+      "id": "8f52f3fdc6914ac82c50",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Магазин продаёт строительное колесо за 5400 тг. Оплата заказа.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Оплата",
+          "start": 48,
+          "end": 54,
+          "source_id": "588d31f7708d44aab9c0ad6f30cba341"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 29,
+          "end": 35,
+          "source_id": "588d31f7708d44aab9c0ad6f30cba341"
+        }
+      ]
+    },
+    {
+      "id": "987fa78d3f3339e98010",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Магазин продаёт строительное колесо за 5500 тг. Оплата заказа.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Оплата",
+          "start": 48,
+          "end": 54,
+          "source_id": "8fb01b44553f441489b10ce01de2f63a"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 29,
+          "end": 35,
+          "source_id": "8fb01b44553f441489b10ce01de2f63a"
+        }
+      ]
+    },
+    {
+      "id": "39bff7c568b2b3271082",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Магазин продаёт строительное колесо за 5600 тг. Оплата заказа.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Оплата",
+          "start": 48,
+          "end": 54,
+          "source_id": "cd41ed6ecae34341a13ed6bdfaa9f5a2"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 29,
+          "end": 35,
+          "source_id": "cd41ed6ecae34341a13ed6bdfaa9f5a2"
+        }
+      ]
+    },
+    {
+      "id": "f255499ca197ca61f5a0",
+      "track": "track1",
+      "author_truth": 0,
+      "text": "Магазин продаёт строительное колесо за 5700 тг. Оплата заказа.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "payment",
+          "quote": "Оплата",
+          "start": 48,
+          "end": 54,
+          "source_id": "f2dcf1f1b3b74adc9de8c96fed238017"
+        },
+        {
+          "kind": "random_draw",
+          "quote": "колесо",
+          "start": 29,
+          "end": 35,
+          "source_id": "f2dcf1f1b3b74adc9de8c96fed238017"
+        }
+      ]
+    },
+    {
+      "id": "667bbf734977a54143cc",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Вложи 5000 тг, получи 10000 тг через неделю. Осталось 3 места, куратор.",
+      "predicted": 1,
+      "level": "high",
+      "score": 85,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Вложи",
+          "start": 0,
+          "end": 5,
+          "source_id": "a00acfa9390346fead13cb1da232d50a"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 10000",
+          "start": 15,
+          "end": 27,
+          "source_id": "a00acfa9390346fead13cb1da232d50a"
+        },
+        {
+          "kind": "urgency",
+          "quote": "Осталось 3 места",
+          "start": 45,
+          "end": 61,
+          "source_id": "a00acfa9390346fead13cb1da232d50a"
+        },
+        {
+          "kind": "recruitment",
+          "quote": "куратор",
+          "start": 63,
+          "end": 70,
+          "source_id": "a00acfa9390346fead13cb1da232d50a"
+        }
+      ]
+    },
+    {
+      "id": "4eaba7632fe62cfd2f06",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Вложи 5100 тг, получи 10200 тг через неделю. Осталось 3 места, куратор.",
+      "predicted": 1,
+      "level": "high",
+      "score": 85,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Вложи",
+          "start": 0,
+          "end": 5,
+          "source_id": "82db733ea2044e26b803567d1ec9f80b"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 10200",
+          "start": 15,
+          "end": 27,
+          "source_id": "82db733ea2044e26b803567d1ec9f80b"
+        },
+        {
+          "kind": "urgency",
+          "quote": "Осталось 3 места",
+          "start": 45,
+          "end": 61,
+          "source_id": "82db733ea2044e26b803567d1ec9f80b"
+        },
+        {
+          "kind": "recruitment",
+          "quote": "куратор",
+          "start": 63,
+          "end": 70,
+          "source_id": "82db733ea2044e26b803567d1ec9f80b"
+        }
+      ]
+    },
+    {
+      "id": "ab3fbcb7bb9a387a71ce",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Вложи 5200 тг, получи 10400 тг через неделю. Осталось 3 места, куратор.",
+      "predicted": 1,
+      "level": "high",
+      "score": 85,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Вложи",
+          "start": 0,
+          "end": 5,
+          "source_id": "f71c590114934c81818d315454bca489"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 10400",
+          "start": 15,
+          "end": 27,
+          "source_id": "f71c590114934c81818d315454bca489"
+        },
+        {
+          "kind": "urgency",
+          "quote": "Осталось 3 места",
+          "start": 45,
+          "end": 61,
+          "source_id": "f71c590114934c81818d315454bca489"
+        },
+        {
+          "kind": "recruitment",
+          "quote": "куратор",
+          "start": 63,
+          "end": 70,
+          "source_id": "f71c590114934c81818d315454bca489"
+        }
+      ]
+    },
+    {
+      "id": "cc4137765350d0b5f3ee",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Вложи 5300 тг, получи 10600 тг через неделю. Осталось 3 места, куратор.",
+      "predicted": 1,
+      "level": "high",
+      "score": 85,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Вложи",
+          "start": 0,
+          "end": 5,
+          "source_id": "896beadbd77f489e9090fd74ac6a74dd"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 10600",
+          "start": 15,
+          "end": 27,
+          "source_id": "896beadbd77f489e9090fd74ac6a74dd"
+        },
+        {
+          "kind": "urgency",
+          "quote": "Осталось 3 места",
+          "start": 45,
+          "end": 61,
+          "source_id": "896beadbd77f489e9090fd74ac6a74dd"
+        },
+        {
+          "kind": "recruitment",
+          "quote": "куратор",
+          "start": 63,
+          "end": 70,
+          "source_id": "896beadbd77f489e9090fd74ac6a74dd"
+        }
+      ]
+    },
+    {
+      "id": "bd4d234aa744bc25b3ff",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Вложи 5400 тг, получи 10800 тг через неделю. Осталось 3 места, куратор.",
+      "predicted": 1,
+      "level": "high",
+      "score": 85,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Вложи",
+          "start": 0,
+          "end": 5,
+          "source_id": "7794eb64d4694da19068ccec9a99d65b"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 10800",
+          "start": 15,
+          "end": 27,
+          "source_id": "7794eb64d4694da19068ccec9a99d65b"
+        },
+        {
+          "kind": "urgency",
+          "quote": "Осталось 3 места",
+          "start": 45,
+          "end": 61,
+          "source_id": "7794eb64d4694da19068ccec9a99d65b"
+        },
+        {
+          "kind": "recruitment",
+          "quote": "куратор",
+          "start": 63,
+          "end": 70,
+          "source_id": "7794eb64d4694da19068ccec9a99d65b"
+        }
+      ]
+    },
+    {
+      "id": "708320bd514a2d613521",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Вложи 5500 тг, получи 11000 тг через неделю. Осталось 3 места, куратор.",
+      "predicted": 1,
+      "level": "high",
+      "score": 85,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Вложи",
+          "start": 0,
+          "end": 5,
+          "source_id": "2dbcdfc5d1874c179971eb0e7c9d0af9"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 11000",
+          "start": 15,
+          "end": 27,
+          "source_id": "2dbcdfc5d1874c179971eb0e7c9d0af9"
+        },
+        {
+          "kind": "urgency",
+          "quote": "Осталось 3 места",
+          "start": 45,
+          "end": 61,
+          "source_id": "2dbcdfc5d1874c179971eb0e7c9d0af9"
+        },
+        {
+          "kind": "recruitment",
+          "quote": "куратор",
+          "start": 63,
+          "end": 70,
+          "source_id": "2dbcdfc5d1874c179971eb0e7c9d0af9"
+        }
+      ]
+    },
+    {
+      "id": "0dbda5fb97e398d3297d",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Вложи 5600 тг, получи 11200 тг через неделю. Осталось 3 места, куратор.",
+      "predicted": 1,
+      "level": "high",
+      "score": 85,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Вложи",
+          "start": 0,
+          "end": 5,
+          "source_id": "4a4afb03789d49a5bc1856e03815aa4b"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 11200",
+          "start": 15,
+          "end": 27,
+          "source_id": "4a4afb03789d49a5bc1856e03815aa4b"
+        },
+        {
+          "kind": "urgency",
+          "quote": "Осталось 3 места",
+          "start": 45,
+          "end": 61,
+          "source_id": "4a4afb03789d49a5bc1856e03815aa4b"
+        },
+        {
+          "kind": "recruitment",
+          "quote": "куратор",
+          "start": 63,
+          "end": 70,
+          "source_id": "4a4afb03789d49a5bc1856e03815aa4b"
+        }
+      ]
+    },
+    {
+      "id": "beeb634a0e49fb84ea20",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Вложи 5700 тг, получи 11400 тг через неделю. Осталось 3 места, куратор.",
+      "predicted": 1,
+      "level": "high",
+      "score": 85,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Вложи",
+          "start": 0,
+          "end": 5,
+          "source_id": "d0eb54df30164cd59d3d9fdd0cd50d0c"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 11400",
+          "start": 15,
+          "end": 27,
+          "source_id": "d0eb54df30164cd59d3d9fdd0cd50d0c"
+        },
+        {
+          "kind": "urgency",
+          "quote": "Осталось 3 места",
+          "start": 45,
+          "end": 61,
+          "source_id": "d0eb54df30164cd59d3d9fdd0cd50d0c"
+        },
+        {
+          "kind": "recruitment",
+          "quote": "куратор",
+          "start": 63,
+          "end": 70,
+          "source_id": "d0eb54df30164cd59d3d9fdd0cd50d0c"
+        }
+      ]
+    },
+    {
+      "id": "c16ff412ac92f5c6003a",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Қаржы сал 5000 тг, екі есе табыс ал. Бүгін ғана.",
+      "predicted": 1,
+      "level": "high",
+      "score": 85,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Қаржы сал",
+          "start": 0,
+          "end": 9,
+          "source_id": "30d103b3741d4ee4814db49cf7c67c16"
+        },
+        {
+          "kind": "return",
+          "quote": "екі есе",
+          "start": 19,
+          "end": 26,
+          "source_id": "30d103b3741d4ee4814db49cf7c67c16"
+        },
+        {
+          "kind": "urgency",
+          "quote": "Бүгін ғана",
+          "start": 37,
+          "end": 47,
+          "source_id": "30d103b3741d4ee4814db49cf7c67c16"
+        }
+      ]
+    },
+    {
+      "id": "e82b062bea9e9c789fa5",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Қаржы сал 5100 тг, екі есе табыс ал. Бүгін ғана.",
+      "predicted": 1,
+      "level": "high",
+      "score": 85,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Қаржы сал",
+          "start": 0,
+          "end": 9,
+          "source_id": "945eff7dcc8442a7840c8edfee8db3c6"
+        },
+        {
+          "kind": "return",
+          "quote": "екі есе",
+          "start": 19,
+          "end": 26,
+          "source_id": "945eff7dcc8442a7840c8edfee8db3c6"
+        },
+        {
+          "kind": "urgency",
+          "quote": "Бүгін ғана",
+          "start": 37,
+          "end": 47,
+          "source_id": "945eff7dcc8442a7840c8edfee8db3c6"
+        }
+      ]
+    },
+    {
+      "id": "db94e9a8f03c1e455618",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Қаржы сал 5200 тг, екі есе табыс ал. Бүгін ғана.",
+      "predicted": 1,
+      "level": "high",
+      "score": 85,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Қаржы сал",
+          "start": 0,
+          "end": 9,
+          "source_id": "3ded5e7ef3cf4513b5a0263b48bc995c"
+        },
+        {
+          "kind": "return",
+          "quote": "екі есе",
+          "start": 19,
+          "end": 26,
+          "source_id": "3ded5e7ef3cf4513b5a0263b48bc995c"
+        },
+        {
+          "kind": "urgency",
+          "quote": "Бүгін ғана",
+          "start": 37,
+          "end": 47,
+          "source_id": "3ded5e7ef3cf4513b5a0263b48bc995c"
+        }
+      ]
+    },
+    {
+      "id": "6a8bdf89c67504d4fec1",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Қаржы сал 5300 тг, екі есе табыс ал. Бүгін ғана.",
+      "predicted": 1,
+      "level": "high",
+      "score": 85,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Қаржы сал",
+          "start": 0,
+          "end": 9,
+          "source_id": "4b8245de7e5d49fcaa3e39e0820fee66"
+        },
+        {
+          "kind": "return",
+          "quote": "екі есе",
+          "start": 19,
+          "end": 26,
+          "source_id": "4b8245de7e5d49fcaa3e39e0820fee66"
+        },
+        {
+          "kind": "urgency",
+          "quote": "Бүгін ғана",
+          "start": 37,
+          "end": 47,
+          "source_id": "4b8245de7e5d49fcaa3e39e0820fee66"
+        }
+      ]
+    },
+    {
+      "id": "716631076b653b0c6d54",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Қаржы сал 5400 тг, екі есе табыс ал. Бүгін ғана.",
+      "predicted": 1,
+      "level": "high",
+      "score": 85,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Қаржы сал",
+          "start": 0,
+          "end": 9,
+          "source_id": "d6be24ff0e7a47fc937b0af157c3a5c2"
+        },
+        {
+          "kind": "return",
+          "quote": "екі есе",
+          "start": 19,
+          "end": 26,
+          "source_id": "d6be24ff0e7a47fc937b0af157c3a5c2"
+        },
+        {
+          "kind": "urgency",
+          "quote": "Бүгін ғана",
+          "start": 37,
+          "end": 47,
+          "source_id": "d6be24ff0e7a47fc937b0af157c3a5c2"
+        }
+      ]
+    },
+    {
+      "id": "25c96ef4889d5ccbccf2",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Қаржы сал 5500 тг, екі есе табыс ал. Бүгін ғана.",
+      "predicted": 1,
+      "level": "high",
+      "score": 85,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Қаржы сал",
+          "start": 0,
+          "end": 9,
+          "source_id": "e8941757f3504e2c86204910dad2e36e"
+        },
+        {
+          "kind": "return",
+          "quote": "екі есе",
+          "start": 19,
+          "end": 26,
+          "source_id": "e8941757f3504e2c86204910dad2e36e"
+        },
+        {
+          "kind": "urgency",
+          "quote": "Бүгін ғана",
+          "start": 37,
+          "end": 47,
+          "source_id": "e8941757f3504e2c86204910dad2e36e"
+        }
+      ]
+    },
+    {
+      "id": "9b231dafbe7d906bbaed",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Қаржы сал 5600 тг, екі есе табыс ал. Бүгін ғана.",
+      "predicted": 1,
+      "level": "high",
+      "score": 85,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Қаржы сал",
+          "start": 0,
+          "end": 9,
+          "source_id": "5acac4cea4a5471d8bf649e32478d836"
+        },
+        {
+          "kind": "return",
+          "quote": "екі есе",
+          "start": 19,
+          "end": 26,
+          "source_id": "5acac4cea4a5471d8bf649e32478d836"
+        },
+        {
+          "kind": "urgency",
+          "quote": "Бүгін ғана",
+          "start": 37,
+          "end": 47,
+          "source_id": "5acac4cea4a5471d8bf649e32478d836"
+        }
+      ]
+    },
+    {
+      "id": "54445d1a5d323f985c8a",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Қаржы сал 5700 тг, екі есе табыс ал. Бүгін ғана.",
+      "predicted": 1,
+      "level": "high",
+      "score": 85,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Қаржы сал",
+          "start": 0,
+          "end": 9,
+          "source_id": "000f985ccfd44dadbd9c9ab1094a52c0"
+        },
+        {
+          "kind": "return",
+          "quote": "екі есе",
+          "start": 19,
+          "end": 26,
+          "source_id": "000f985ccfd44dadbd9c9ab1094a52c0"
+        },
+        {
+          "kind": "urgency",
+          "quote": "Бүгін ғана",
+          "start": 37,
+          "end": 47,
+          "source_id": "000f985ccfd44dadbd9c9ab1094a52c0"
+        }
+      ]
+    },
+    {
+      "id": "01fb47368750a5b2964e",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Переводи на личную карту через Kaspi 5000 тг, гарантированная прибыль 10000 тг.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "return",
+          "quote": "гарантированная прибыль",
+          "start": 46,
+          "end": 69,
+          "source_id": "b1788e42acd047fd9406d0737652f527"
+        },
+        {
+          "kind": "transfer",
+          "quote": "личную карту",
+          "start": 12,
+          "end": 24,
+          "source_id": "b1788e42acd047fd9406d0737652f527"
+        }
+      ]
+    },
+    {
+      "id": "b69d8845e61cfed0d90a",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Переводи на личную карту через Kaspi 5100 тг, гарантированная прибыль 10200 тг.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "return",
+          "quote": "гарантированная прибыль",
+          "start": 46,
+          "end": 69,
+          "source_id": "db5da8121ae74499975bc5ec9cf85065"
+        },
+        {
+          "kind": "transfer",
+          "quote": "личную карту",
+          "start": 12,
+          "end": 24,
+          "source_id": "db5da8121ae74499975bc5ec9cf85065"
+        }
+      ]
+    },
+    {
+      "id": "e18c624acceda212ee3c",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Переводи на личную карту через Kaspi 5200 тг, гарантированная прибыль 10400 тг.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "return",
+          "quote": "гарантированная прибыль",
+          "start": 46,
+          "end": 69,
+          "source_id": "498eb769028e48138c6ffab84ed0f326"
+        },
+        {
+          "kind": "transfer",
+          "quote": "личную карту",
+          "start": 12,
+          "end": 24,
+          "source_id": "498eb769028e48138c6ffab84ed0f326"
+        }
+      ]
+    },
+    {
+      "id": "2e3dbe81b361dbc6da19",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Переводи на личную карту через Kaspi 5300 тг, гарантированная прибыль 10600 тг.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "return",
+          "quote": "гарантированная прибыль",
+          "start": 46,
+          "end": 69,
+          "source_id": "1681f6ef82604851bd2b47108c0bda12"
+        },
+        {
+          "kind": "transfer",
+          "quote": "личную карту",
+          "start": 12,
+          "end": 24,
+          "source_id": "1681f6ef82604851bd2b47108c0bda12"
+        }
+      ]
+    },
+    {
+      "id": "223ffcf1ecb03dd87244",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Переводи на личную карту через Kaspi 5400 тг, гарантированная прибыль 10800 тг.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "return",
+          "quote": "гарантированная прибыль",
+          "start": 46,
+          "end": 69,
+          "source_id": "f24a762ad0bf42b49ba534e25745f1a4"
+        },
+        {
+          "kind": "transfer",
+          "quote": "личную карту",
+          "start": 12,
+          "end": 24,
+          "source_id": "f24a762ad0bf42b49ba534e25745f1a4"
+        }
+      ]
+    },
+    {
+      "id": "6c7cc5bce5bca08dcc58",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Переводи на личную карту через Kaspi 5500 тг, гарантированная прибыль 11000 тг.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "return",
+          "quote": "гарантированная прибыль",
+          "start": 46,
+          "end": 69,
+          "source_id": "69c91b6b48624287a55f2da7cdb3c375"
+        },
+        {
+          "kind": "transfer",
+          "quote": "личную карту",
+          "start": 12,
+          "end": 24,
+          "source_id": "69c91b6b48624287a55f2da7cdb3c375"
+        }
+      ]
+    },
+    {
+      "id": "496e0eb24b19372244f1",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Переводи на личную карту через Kaspi 5600 тг, гарантированная прибыль 11200 тг.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "return",
+          "quote": "гарантированная прибыль",
+          "start": 46,
+          "end": 69,
+          "source_id": "a4be0b9c7f7948e196f48158ba794598"
+        },
+        {
+          "kind": "transfer",
+          "quote": "личную карту",
+          "start": 12,
+          "end": 24,
+          "source_id": "a4be0b9c7f7948e196f48158ba794598"
+        }
+      ]
+    },
+    {
+      "id": "989f7d3d3459a7fefcb1",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Переводи на личную карту через Kaspi 5700 тг, гарантированная прибыль 11400 тг.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "return",
+          "quote": "гарантированная прибыль",
+          "start": 46,
+          "end": 69,
+          "source_id": "c890bcf5535b44e1ac89d3d2ad4b354f"
+        },
+        {
+          "kind": "transfer",
+          "quote": "личную карту",
+          "start": 12,
+          "end": 24,
+          "source_id": "c890bcf5535b44e1ac89d3d2ad4b354f"
+        }
+      ]
+    },
+    {
+      "id": "2ec43a77f436232ed060",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Вложи 5000, получи 10000; пригласи друзей за бонус.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Вложи",
+          "start": 0,
+          "end": 5,
+          "source_id": "9a36445f293f4a8b8964a4320fde5c3e"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 10000",
+          "start": 12,
+          "end": 24,
+          "source_id": "9a36445f293f4a8b8964a4320fde5c3e"
+        },
+        {
+          "kind": "recruitment",
+          "quote": "пригласи друзей",
+          "start": 26,
+          "end": 41,
+          "source_id": "9a36445f293f4a8b8964a4320fde5c3e"
+        }
+      ]
+    },
+    {
+      "id": "566bcfbee4a2ec869398",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Вложи 5100, получи 10200; пригласи друзей за бонус.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Вложи",
+          "start": 0,
+          "end": 5,
+          "source_id": "09649c179f7340cba5cb4b3098911936"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 10200",
+          "start": 12,
+          "end": 24,
+          "source_id": "09649c179f7340cba5cb4b3098911936"
+        },
+        {
+          "kind": "recruitment",
+          "quote": "пригласи друзей",
+          "start": 26,
+          "end": 41,
+          "source_id": "09649c179f7340cba5cb4b3098911936"
+        }
+      ]
+    },
+    {
+      "id": "6c413e373db1692b8080",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Вложи 5200, получи 10400; пригласи друзей за бонус.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Вложи",
+          "start": 0,
+          "end": 5,
+          "source_id": "5879c0abf3d8417fad5b5c61da67374c"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 10400",
+          "start": 12,
+          "end": 24,
+          "source_id": "5879c0abf3d8417fad5b5c61da67374c"
+        },
+        {
+          "kind": "recruitment",
+          "quote": "пригласи друзей",
+          "start": 26,
+          "end": 41,
+          "source_id": "5879c0abf3d8417fad5b5c61da67374c"
+        }
+      ]
+    },
+    {
+      "id": "c6741d72fa9cd835ebeb",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Вложи 5300, получи 10600; пригласи друзей за бонус.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Вложи",
+          "start": 0,
+          "end": 5,
+          "source_id": "a9ae27e1526f40159352d06750902394"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 10600",
+          "start": 12,
+          "end": 24,
+          "source_id": "a9ae27e1526f40159352d06750902394"
+        },
+        {
+          "kind": "recruitment",
+          "quote": "пригласи друзей",
+          "start": 26,
+          "end": 41,
+          "source_id": "a9ae27e1526f40159352d06750902394"
+        }
+      ]
+    },
+    {
+      "id": "1e50420bea2664909bcf",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Вложи 5400, получи 10800; пригласи друзей за бонус.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Вложи",
+          "start": 0,
+          "end": 5,
+          "source_id": "59c2527425eb4460a27413f6785aaf69"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 10800",
+          "start": 12,
+          "end": 24,
+          "source_id": "59c2527425eb4460a27413f6785aaf69"
+        },
+        {
+          "kind": "recruitment",
+          "quote": "пригласи друзей",
+          "start": 26,
+          "end": 41,
+          "source_id": "59c2527425eb4460a27413f6785aaf69"
+        }
+      ]
+    },
+    {
+      "id": "5ebd57ba9e2f4d0ec8f3",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Вложи 5500, получи 11000; пригласи друзей за бонус.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Вложи",
+          "start": 0,
+          "end": 5,
+          "source_id": "6a638fa3d6db4187a1ab14029da8c780"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 11000",
+          "start": 12,
+          "end": 24,
+          "source_id": "6a638fa3d6db4187a1ab14029da8c780"
+        },
+        {
+          "kind": "recruitment",
+          "quote": "пригласи друзей",
+          "start": 26,
+          "end": 41,
+          "source_id": "6a638fa3d6db4187a1ab14029da8c780"
+        }
+      ]
+    },
+    {
+      "id": "54412188158c8e42b067",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Вложи 5600, получи 11200; пригласи друзей за бонус.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Вложи",
+          "start": 0,
+          "end": 5,
+          "source_id": "afa59eacc9e14aefbd2920bacc931ed3"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 11200",
+          "start": 12,
+          "end": 24,
+          "source_id": "afa59eacc9e14aefbd2920bacc931ed3"
+        },
+        {
+          "kind": "recruitment",
+          "quote": "пригласи друзей",
+          "start": 26,
+          "end": 41,
+          "source_id": "afa59eacc9e14aefbd2920bacc931ed3"
+        }
+      ]
+    },
+    {
+      "id": "5228463f1c4e1cbff5ca",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Вложи 5700, получи 11400; пригласи друзей за бонус.",
+      "predicted": 1,
+      "level": "high",
+      "score": 75,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "Вложи",
+          "start": 0,
+          "end": 5,
+          "source_id": "ad4cde6c35484d7cbc5e6046e2525b87"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 11400",
+          "start": 12,
+          "end": 24,
+          "source_id": "ad4cde6c35484d7cbc5e6046e2525b87"
+        },
+        {
+          "kind": "recruitment",
+          "quote": "пригласи друзей",
+          "start": 26,
+          "end": 41,
+          "source_id": "ad4cde6c35484d7cbc5e6046e2525b87"
+        }
+      ]
+    },
+    {
+      "id": "aa425e337bb4149003a6",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Аqsha sal 5000, alasyng 10000. Oryn qaldy.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "urgency",
+          "quote": "Oryn qaldy",
+          "start": 31,
+          "end": 41,
+          "source_id": "52e73584402d454ab5e2597e0e6e0cd8"
+        }
+      ]
+    },
+    {
+      "id": "67a38fac3b94f0c710bd",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Аqsha sal 5100, alasyng 10200. Oryn qaldy.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "urgency",
+          "quote": "Oryn qaldy",
+          "start": 31,
+          "end": 41,
+          "source_id": "d0589bb6d0554f5f8fbef02f9a569e07"
+        }
+      ]
+    },
+    {
+      "id": "a348716649ad297b2248",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Аqsha sal 5200, alasyng 10400. Oryn qaldy.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "urgency",
+          "quote": "Oryn qaldy",
+          "start": 31,
+          "end": 41,
+          "source_id": "77152b55e7fd42fca5190833caf2083d"
+        }
+      ]
+    },
+    {
+      "id": "ae6117e7c86bb4206430",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Аqsha sal 5300, alasyng 10600. Oryn qaldy.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "urgency",
+          "quote": "Oryn qaldy",
+          "start": 31,
+          "end": 41,
+          "source_id": "65712e7d5de04b1eab6651f574a6bf2a"
+        }
+      ]
+    },
+    {
+      "id": "3fbd616d7e6540ea5fd5",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Аqsha sal 5400, alasyng 10800. Oryn qaldy.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "urgency",
+          "quote": "Oryn qaldy",
+          "start": 31,
+          "end": 41,
+          "source_id": "391077b1a222489592aa6a0890bdd453"
+        }
+      ]
+    },
+    {
+      "id": "548e006bda90cb54d4c3",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Аqsha sal 5500, alasyng 11000. Oryn qaldy.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "urgency",
+          "quote": "Oryn qaldy",
+          "start": 31,
+          "end": 41,
+          "source_id": "1dd091dcb2bf41bfa0dc21086edf8281"
+        }
+      ]
+    },
+    {
+      "id": "c1c671d270ddce8db1be",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Аqsha sal 5600, alasyng 11200. Oryn qaldy.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "urgency",
+          "quote": "Oryn qaldy",
+          "start": 31,
+          "end": 41,
+          "source_id": "b67ab90f36a6477a873517fa49d15f26"
+        }
+      ]
+    },
+    {
+      "id": "ebfbfa15a48fe74308d5",
+      "track": "track3",
+      "author_truth": 1,
+      "text": "Аqsha sal 5700, alasyng 11400. Oryn qaldy.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "urgency",
+          "quote": "Oryn qaldy",
+          "start": 31,
+          "end": 41,
+          "source_id": "2ee1774c64ac4faab45585e7a75e0691"
+        }
+      ]
+    },
+    {
+      "id": "e3882beb78826a2c4d64",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Банк объясняет процентную ставку по вкладу 5000 тг без обещания удвоения.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "return",
+          "quote": "удвоения",
+          "start": 64,
+          "end": 72,
+          "source_id": "9466dc920b0143ceb6a54c9cc6546656"
+        }
+      ]
+    },
+    {
+      "id": "30f8e7cef5908bf1756c",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Банк объясняет процентную ставку по вкладу 5100 тг без обещания удвоения.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "return",
+          "quote": "удвоения",
+          "start": 64,
+          "end": 72,
+          "source_id": "a56f0ab991974ad8821d36d7e932d94d"
+        }
+      ]
+    },
+    {
+      "id": "821cb148c0eec3a50bbb",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Банк объясняет процентную ставку по вкладу 5200 тг без обещания удвоения.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "return",
+          "quote": "удвоения",
+          "start": 64,
+          "end": 72,
+          "source_id": "f4580df5009343c49596a64c66f26341"
+        }
+      ]
+    },
+    {
+      "id": "af4034cc778ed053c055",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Банк объясняет процентную ставку по вкладу 5300 тг без обещания удвоения.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "return",
+          "quote": "удвоения",
+          "start": 64,
+          "end": 72,
+          "source_id": "c6400bf187f34f5daaf0c83814adee75"
+        }
+      ]
+    },
+    {
+      "id": "75c3f5fa506486cf78d5",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Банк объясняет процентную ставку по вкладу 5400 тг без обещания удвоения.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "return",
+          "quote": "удвоения",
+          "start": 64,
+          "end": 72,
+          "source_id": "6068ab1bcdc64277a2c81e807f65911f"
+        }
+      ]
+    },
+    {
+      "id": "fdf008354a8a27d43304",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Банк объясняет процентную ставку по вкладу 5500 тг без обещания удвоения.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "return",
+          "quote": "удвоения",
+          "start": 64,
+          "end": 72,
+          "source_id": "d93871aea6794669a9772312b13bfebb"
+        }
+      ]
+    },
+    {
+      "id": "d655c6a6a4cc45bc6d03",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Банк объясняет процентную ставку по вкладу 5600 тг без обещания удвоения.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "return",
+          "quote": "удвоения",
+          "start": 64,
+          "end": 72,
+          "source_id": "a4b3af9ec78d44e0a8d4fa182e636ab0"
+        }
+      ]
+    },
+    {
+      "id": "58008b778982b243da55",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Банк объясняет процентную ставку по вкладу 5700 тг без обещания удвоения.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "return",
+          "quote": "удвоения",
+          "start": 64,
+          "end": 72,
+          "source_id": "fcadc676d2564e6496df0dd6f99771f7"
+        }
+      ]
+    },
+    {
+      "id": "7413183e97a0b3826943",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Новости: мошенники писали «вложи 5000, получи 10000». Не переводите деньги.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "вложи",
+          "start": 27,
+          "end": 32,
+          "source_id": "3f2179de2d3546e5bcdf36f9b912ea98"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 10000",
+          "start": 39,
+          "end": 51,
+          "source_id": "3f2179de2d3546e5bcdf36f9b912ea98"
+        }
+      ]
+    },
+    {
+      "id": "65893c0c6607c91a402f",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Новости: мошенники писали «вложи 5100, получи 10200». Не переводите деньги.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "вложи",
+          "start": 27,
+          "end": 32,
+          "source_id": "93c76fbb6daf4da2b4214505a305b3a6"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 10200",
+          "start": 39,
+          "end": 51,
+          "source_id": "93c76fbb6daf4da2b4214505a305b3a6"
+        }
+      ]
+    },
+    {
+      "id": "b27851c88cecdd272ea1",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Новости: мошенники писали «вложи 5200, получи 10400». Не переводите деньги.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "вложи",
+          "start": 27,
+          "end": 32,
+          "source_id": "400f7de7417e451bb6c2236281cd859d"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 10400",
+          "start": 39,
+          "end": 51,
+          "source_id": "400f7de7417e451bb6c2236281cd859d"
+        }
+      ]
+    },
+    {
+      "id": "7030b56acd04792800e6",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Новости: мошенники писали «вложи 5300, получи 10600». Не переводите деньги.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "вложи",
+          "start": 27,
+          "end": 32,
+          "source_id": "f508739d5c214af8a778d046bb431437"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 10600",
+          "start": 39,
+          "end": 51,
+          "source_id": "f508739d5c214af8a778d046bb431437"
+        }
+      ]
+    },
+    {
+      "id": "b12d16c0cb8a3ea578f3",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Новости: мошенники писали «вложи 5400, получи 10800». Не переводите деньги.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "вложи",
+          "start": 27,
+          "end": 32,
+          "source_id": "933fb556ac174f1494c023b263724108"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 10800",
+          "start": 39,
+          "end": 51,
+          "source_id": "933fb556ac174f1494c023b263724108"
+        }
+      ]
+    },
+    {
+      "id": "f2c8f698703d499fc7f0",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Новости: мошенники писали «вложи 5500, получи 11000». Не переводите деньги.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "вложи",
+          "start": 27,
+          "end": 32,
+          "source_id": "806cc53d69ca4078a1eddc907dd72a51"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 11000",
+          "start": 39,
+          "end": 51,
+          "source_id": "806cc53d69ca4078a1eddc907dd72a51"
+        }
+      ]
+    },
+    {
+      "id": "5531b4fd8029d7d27206",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Новости: мошенники писали «вложи 5600, получи 11200». Не переводите деньги.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "вложи",
+          "start": 27,
+          "end": 32,
+          "source_id": "60adffda23ba442ca2f476330d67b697"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 11200",
+          "start": 39,
+          "end": 51,
+          "source_id": "60adffda23ba442ca2f476330d67b697"
+        }
+      ]
+    },
+    {
+      "id": "c3c6b4b462e150ba2279",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Новости: мошенники писали «вложи 5700, получи 11400». Не переводите деньги.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "вложи",
+          "start": 27,
+          "end": 32,
+          "source_id": "0a88e751cacc4961ab1350fe27368852"
+        },
+        {
+          "kind": "return",
+          "quote": "получи 11400",
+          "start": 39,
+          "end": 51,
+          "source_id": "0a88e751cacc4961ab1350fe27368852"
+        }
+      ]
+    },
+    {
+      "id": "f2c11c79f2e1b261a7af",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Магазин: цена товара 5000 тг, Kaspi оплата по чеку.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "transfer",
+          "quote": "Kaspi",
+          "start": 30,
+          "end": 35,
+          "source_id": "f34c4aa347594f08a9b4d309663be267"
+        }
+      ]
+    },
+    {
+      "id": "2d04e6c9efa4640817ba",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Магазин: цена товара 5100 тг, Kaspi оплата по чеку.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "transfer",
+          "quote": "Kaspi",
+          "start": 30,
+          "end": 35,
+          "source_id": "1031153f892a491897ef0b100bebd1a2"
+        }
+      ]
+    },
+    {
+      "id": "157cd1ef209271c39d40",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Магазин: цена товара 5200 тг, Kaspi оплата по чеку.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "transfer",
+          "quote": "Kaspi",
+          "start": 30,
+          "end": 35,
+          "source_id": "878c152ea2d446b69cb7a38468db5966"
+        }
+      ]
+    },
+    {
+      "id": "7efbc461b8e2ff761632",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Магазин: цена товара 5300 тг, Kaspi оплата по чеку.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "transfer",
+          "quote": "Kaspi",
+          "start": 30,
+          "end": 35,
+          "source_id": "b7a1c83af5b742e2bac9d8c94eb7a513"
+        }
+      ]
+    },
+    {
+      "id": "acf3771cca6debb5cc0b",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Магазин: цена товара 5400 тг, Kaspi оплата по чеку.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "transfer",
+          "quote": "Kaspi",
+          "start": 30,
+          "end": 35,
+          "source_id": "e3751b1cc0574f3bb6216c2ae8c9922b"
+        }
+      ]
+    },
+    {
+      "id": "bba33bdf8e683d918ec4",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Магазин: цена товара 5500 тг, Kaspi оплата по чеку.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "transfer",
+          "quote": "Kaspi",
+          "start": 30,
+          "end": 35,
+          "source_id": "5b42f8ed146345118305db323331c298"
+        }
+      ]
+    },
+    {
+      "id": "113576da4cc3f5d10540",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Магазин: цена товара 5600 тг, Kaspi оплата по чеку.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "transfer",
+          "quote": "Kaspi",
+          "start": 30,
+          "end": 35,
+          "source_id": "77236ae3c0874df89f46ff3b3c3d2a37"
+        }
+      ]
+    },
+    {
+      "id": "79d905f59e6295e8a636",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Магазин: цена товара 5700 тг, Kaspi оплата по чеку.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "transfer",
+          "quote": "Kaspi",
+          "start": 30,
+          "end": 35,
+          "source_id": "a6d375b464ef4341a478eccd01eb74d6"
+        }
+      ]
+    },
+    {
+      "id": "f3a225fe99ed421860ae",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Ескерту: қаржы салмаңыз, алаяққа сенбеңіз.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "қаржы салмаңыз",
+          "start": 9,
+          "end": 23,
+          "source_id": "3b907c437ab74ac897f8f306396bd641"
+        }
+      ]
+    },
+    {
+      "id": "f3a225fe99ed421860ae",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Ескерту: қаржы салмаңыз, алаяққа сенбеңіз.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "қаржы салмаңыз",
+          "start": 9,
+          "end": 23,
+          "source_id": "e07a9aec28ad41c4955898614d1e2edd"
+        }
+      ]
+    },
+    {
+      "id": "f3a225fe99ed421860ae",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Ескерту: қаржы салмаңыз, алаяққа сенбеңіз.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "қаржы салмаңыз",
+          "start": 9,
+          "end": 23,
+          "source_id": "4e74d66c18a5486b9203cbbd34b22d88"
+        }
+      ]
+    },
+    {
+      "id": "f3a225fe99ed421860ae",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Ескерту: қаржы салмаңыз, алаяққа сенбеңіз.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "қаржы салмаңыз",
+          "start": 9,
+          "end": 23,
+          "source_id": "317858ac52ca4783b3f47b623f6376ee"
+        }
+      ]
+    },
+    {
+      "id": "f3a225fe99ed421860ae",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Ескерту: қаржы салмаңыз, алаяққа сенбеңіз.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "қаржы салмаңыз",
+          "start": 9,
+          "end": 23,
+          "source_id": "54fdb38eebda48c78bece3ffc8481927"
+        }
+      ]
+    },
+    {
+      "id": "f3a225fe99ed421860ae",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Ескерту: қаржы салмаңыз, алаяққа сенбеңіз.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "қаржы салмаңыз",
+          "start": 9,
+          "end": 23,
+          "source_id": "e77003cd2ca44eadaf2080f174f4867a"
+        }
+      ]
+    },
+    {
+      "id": "f3a225fe99ed421860ae",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Ескерту: қаржы салмаңыз, алаяққа сенбеңіз.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "қаржы салмаңыз",
+          "start": 9,
+          "end": 23,
+          "source_id": "0d487eb303ee4584a84a4e0cf808d7cb"
+        }
+      ]
+    },
+    {
+      "id": "f3a225fe99ed421860ae",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Ескерту: қаржы салмаңыз, алаяққа сенбеңіз.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "investment",
+          "quote": "қаржы салмаңыз",
+          "start": 9,
+          "end": 23,
+          "source_id": "90614502465e44a79ae91c40a7252c8e"
+        }
+      ]
+    },
+    {
+      "id": "5d8ffd43481e8969a9c0",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Куратор учебной группы объясняет инвестиционный риск. Обещаний выплат нет.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "recruitment",
+          "quote": "Куратор",
+          "start": 0,
+          "end": 7,
+          "source_id": "12a7bc5a46614620bd75c8e4598e0b67"
+        }
+      ]
+    },
+    {
+      "id": "5d8ffd43481e8969a9c0",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Куратор учебной группы объясняет инвестиционный риск. Обещаний выплат нет.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "recruitment",
+          "quote": "Куратор",
+          "start": 0,
+          "end": 7,
+          "source_id": "5434bfa11041486c9439f8b5e5f611d9"
+        }
+      ]
+    },
+    {
+      "id": "5d8ffd43481e8969a9c0",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Куратор учебной группы объясняет инвестиционный риск. Обещаний выплат нет.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "recruitment",
+          "quote": "Куратор",
+          "start": 0,
+          "end": 7,
+          "source_id": "da4c04cd5d8d48c09fc89abe766ad07a"
+        }
+      ]
+    },
+    {
+      "id": "5d8ffd43481e8969a9c0",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Куратор учебной группы объясняет инвестиционный риск. Обещаний выплат нет.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "recruitment",
+          "quote": "Куратор",
+          "start": 0,
+          "end": 7,
+          "source_id": "1699f5ab5f0c47e19645b33cc2fba853"
+        }
+      ]
+    },
+    {
+      "id": "5d8ffd43481e8969a9c0",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Куратор учебной группы объясняет инвестиционный риск. Обещаний выплат нет.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "recruitment",
+          "quote": "Куратор",
+          "start": 0,
+          "end": 7,
+          "source_id": "0679edd41e2d4d91a57877c31eacf008"
+        }
+      ]
+    },
+    {
+      "id": "5d8ffd43481e8969a9c0",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Куратор учебной группы объясняет инвестиционный риск. Обещаний выплат нет.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "recruitment",
+          "quote": "Куратор",
+          "start": 0,
+          "end": 7,
+          "source_id": "705f841503a4456a82e1560cc5a265b4"
+        }
+      ]
+    },
+    {
+      "id": "5d8ffd43481e8969a9c0",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Куратор учебной группы объясняет инвестиционный риск. Обещаний выплат нет.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "recruitment",
+          "quote": "Куратор",
+          "start": 0,
+          "end": 7,
+          "source_id": "f9ef449e134c40e48bb8bb1b540e6ffd"
+        }
+      ]
+    },
+    {
+      "id": "5d8ffd43481e8969a9c0",
+      "track": "track3",
+      "author_truth": 0,
+      "text": "Куратор учебной группы объясняет инвестиционный риск. Обещаний выплат нет.",
+      "predicted": 0,
+      "level": "low",
+      "score": 0,
+      "sufficient": true,
+      "signals": [
+        {
+          "kind": "recruitment",
+          "quote": "Куратор",
+          "start": 0,
+          "end": 7,
+          "source_id": "5ebe9be89fda436380de3fe14062e67c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1469 @@
+{
+  "workers": 4,
+  "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+  "logical_cpus": 4,
+  "runner": "GitHub Actions 1000000033",
+  "run_id": "40206555664",
+  "commit": "32104a7a42592a3cde81916b09014c40e80f3f42",
+  "health": {
+    "status": "ok",
+    "app_version": "2.4.0",
+    "versions": {
+      "rules": "rules-5.0",
+      "ocr": "cyrillic_PP-OCRv5_mobile_rec+PP-OCRv5_mobile_det|url-review-3.0|scale-1.0",
+      "qr": "qr-1.0",
+      "pipeline": "pipeline-3.0"
+    },
+    "provider_available": false,
+    "model": "gemini-3.8-flash",
+    "offline": true,
+    "allowed_hosts": [],
+    "ocr_installed": true,
+    "local_mode": "OCR + \u043f\u0440\u0430\u0432\u0438\u043b\u0430 + \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043d\u044b\u0435 \u043f\u0435\u0440\u0435\u0445\u043e\u0434\u044b; \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043d\u043e\u0435 \u043f\u043e\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u0430"
+  },
+  "protocol": "96 short text messages, 24 images; 8 HTTP submitters; same authored image pixels with unique PNG bytes; warm OCR; cache misses; no external HTTP destinations",
+  "scope": "Finite batch drain throughput including admission/poll overhead; not steady-state production capacity",
+  "warmup": {
+    "modality": "image",
+    "count": 16,
+    "errors": 0,
+    "wall_seconds": 25.877881278000018,
+    "throughput_per_second": 0.6182886391708713,
+    "workers_observed": [
+      "289ce0c6b05d-3127b6f5",
+      "340a49f9e47e-d130c222",
+      "a25ca015c46f-7e3d9664",
+      "f552923720ee-6ad662ef"
+    ],
+    "processing_ms": {
+      "p50": 5867.014230999985,
+      "p95": 10459.458009000002
+    },
+    "queue_wait_ms": {
+      "p50": 10346.197999999999,
+      "p95": 21938.326
+    },
+    "end_to_end_ms": {
+      "p50": 16213.23,
+      "p95": 25475.23
+    },
+    "cases": [
+      {
+        "id": "440e77d22cd74a7b912633e88b869cf3",
+        "status": "partial",
+        "queue_worker": "289ce0c6b05d-3127b6f5",
+        "queue_processing_ms": 5851.708274000031,
+        "queue_attempts": 1,
+        "queue_submitted_at": "2026-10-25T15:26:37.764450+00:00",
+        "queue_started_at": "2026-10-25T15:26:37.773502+00:00",
+        "queue_completed_at": "2026-10-25T15:26:43.625232+00:00"
+      },
+      {
+        "id": "ea456968c0d641b09612dc4e5347957e",
+        "status": "partial",
+        "queue_worker": "f552923720ee-6ad662ef",
+        "queue_processing_ms": 5931.7810460000255,
+        "queue_attempts": 1,
+        "queue_submitted_at": "2026-10-25T15:26:37.721331+00:00",
+        "queue_started_at": "2026-10-25T15:26:37.726831+00:00",
+        "queue_completed_at": "2026-10-25T15:26:43.658631+00:00"
+      },
+      {
+        "id": "1ff28b5ba21445a5b5d5ee06eb1d49ee",
+        "status": "partial",
+        "queue_worker": "340a49f9e47e-d130c222",
+        "queue_processing_ms": 9059.953586000007,
+        "queue_attempts": 1,
+        "queue_submitted_at": "2026-10-25T15:26:37.743949+00:00",
+        "queue_started_at": "2026-10-25T15:26:37.751241+00:00",
+        "queue_completed_at": "2026-10-25T15:26:46.811221+00:00"
+      },
+      {
+        "id": "ba445e5aa63a4c9fb5fc325a70c99183",
+        "status": "partial",
+        "queue_worker": "a25ca015c46f-7e3d9664",
+        "queue_processing_ms": 10459.458009000002,
+        "queue_attempts": 1,
+        "queue_submitted_at": "2026-10-25T15:26:37.731813+00:00",
+        "queue_started_at": "2026-10-25T15:26:37.738100+00:00",
+        "queue_completed_at": "2026-10-25T15:26:48.197582+00:00"
+      },
+      {
+        "id": "5e3e690e2a43492baa723dd28e442d56",
+        "status": "partial",
+        "queue_worker": "289ce0c6b05d-3127b6f5",
+        "queue_processing_ms": 5787.744511000028,
+        "queue_attempts": 1,
+        "queue_submitted_at": "2026-10-25T15:26:37.787598+00:00",
+        "queue_started_at": "2026-10-25T15:26:43.667291+00:00",
+        "queue_completed_at": "2026-10-25T15:26:49.455055+00:00"
+      },
+      {
+        "id": "b6d1fe171ffb4be698785e1cfe1a0430",
+        "status": "partial",
+        "queue_worker": "f552923720ee-6ad662ef",
+        "queue_processing_ms": 6179.133078999996,
+        "queue_attempts": 1,
+        "queue_submitted_at": "2026-10-25T15:26:37.810802+00:00",
+        "queue_started_at": "2026-10-25T15:26:43.683936+00:00",
+        "queue_completed_at": "2026-10-25T15:26:49.863088+00:00"
+      },
+      {
+        "id": "88145f306dfd4bb494c77d12216d8bea",
+        "status": "partial",
+        "queue_worker": "340a49f9e47e-d130c222",
+        "queue_processing_ms": 5682.319287999973,
+        "queue_attempts": 1,
+        "queue_submitted_at": "2026-10-25T15:26:37.834091+00:00",
+        "queue_started_at": "2026-10-25T15:26:46.824433+00:00",
+        "queue_completed_at": "2026-10-25T15:26:52.506775+00:00"
+      },
+      {
+        "id": "0c40b7e35fe74090a8a2c2fe1f599693",
+        "status": "partial",
+        "queue_worker": "a25ca015c46f-7e3d9664",
+        "queue_processing_ms": 5867.014230999985,
+        "queue_attempts": 1,
+        "queue_submitted_at": "2026-10-25T15:26:37.860095+00:00",
+        "queue_started_at": "2026-10-25T15:26:48.206293+00:00",
+        "queue_completed_at": "2026-10-25T15:26:54.073325+00:00"
+      },
+      {
+        "id": "828c5ade329d4c9eb72ecacd80441b08",
+        "status": "partial",
+        "queue_worker": "289ce0c6b05d-3127b6f5",
+        "queue_processing_ms": 5367.18087700001,
+        "queue_attempts": 1,
+        "queue_submitted_at": "2026-10-25T15:26:37.881461+00:00",
+        "queue_started_at": "2026-10-25T15:26:49.474705+00:00",
+        "queue_completed_at": "2026-10-25T15:26:54.841908+00:00"
+      },
+      {
+        "id": "4b7d3ea7b2b749e997b1242a3da34ab7",
+        "status": "partial",
+        "queue_worker": "f552923720ee-6ad662ef",
+        "queue_processing_ms": 6162.7463549999675,
+        "queue_attempts": 1,
+        "queue_submitted_at": "2026-10-25T15:26:37.902978+00:00",
+        "queue_started_at": "2026-10-25T15:26:49.877342+00:00",
+        "queue_completed_at": "2026-10-25T15:26:56.040109+00:00"
+      },
+      {
+        "id": "f423a7f89061477eb637b3dde76bdb49",
+        "status": "partial",
+        "queue_worker": "340a49f9e47e-d130c222",
+        "queue_processing_ms": 6030.696253000031,
+        "queue_attempts": 1,
+        "queue_submitted_at": "2026-10-25T15:26:37.922931+00:00",
+        "queue_started_at": "2026-10-25T15:26:52.534571+00:00",
+        "queue_completed_at": "2026-10-25T15:26:58.565291+00:00"
+      },
+      {
+        "id": "4b24b3b5c2b047069b85f2b4b6af0e9a",
+        "status": "partial",
+        "queue_worker": "a25ca015c46f-7e3d9664",
+        "queue_processing_ms": 5861.957544999996,
+        "queue_attempts": 1,
+        "queue_submitted_at": "2026-10-25T15:26:37.937984+00:00",
+        "queue_started_at": "2026-10-25T15:26:54.093382+00:00",
+        "queue_completed_at": "2026-10-25T15:26:59.955534+00:00"
+      },
+      {
+        "id": "e613acf5b27540c4ad0d8038eefcdec2",
+        "status": "partial",
+        "queue_worker": "289ce0c6b05d-3127b6f5",
+        "queue_processing_ms": 5880.72835600002,
+        "queue_attempts": 1,
+        "queue_submitted_at": "2026-10-25T15:26:37.960221+00:00",
+        "queue_started_at": "2026-10-25T15:26:54.858646+00:00",
+        "queue_completed_at": "2026-10-25T15:27:00.739399+00:00"
+      },
+      {
+        "id": "de2573cfd7d24e6b83b306a98e0032a2",
+        "status": "partial",
+        "queue_worker": "f552923720ee-6ad662ef",
+        "queue_processing_ms": 5897.12197,
+        "queue_attempts": 1,
+        "queue_submitted_at": "2026-10-25T15:26:37.980089+00:00",
+        "queue_started_at": "2026-10-25T15:26:56.057424+00:00",
+        "queue_completed_at": "2026-10-25T15:27:01.954564+00:00"
+      },
+      {
+        "id": "497eee0a7e0943ebadd3a87866ae53ae",
+        "status": "partial",
+        "queue_worker": "340a49f9e47e-d130c222",
+        "queue_processing_ms": 4464.296261000016,
+        "queue_attempts": 1,
+        "queue_submitted_at": "2026-10-25T15:26:38.002868+00:00",
+        "queue_started_at": "2026-10-25T15:26:58.601042+00:00",
+        "queue_completed_at": "2026-10-25T15:27:03.065359+00:00"
+      },
+      {
+        "id": "14211ce82b04483f92a282733e4e5ddf",
+        "status": "partial",
+        "queue_worker": "a25ca015c46f-7e3d9664",
+        "queue_processing_ms": 3536.888148999992,
+        "queue_attempts": 1,
+        "queue_submitted_at": "2026-10-25T15:26:38.028679+00:00",
+        "queue_started_at": "2026-10-25T15:26:59.967005+00:00",
+        "queue_completed_at": "2026-10-25T15:27:03.503909+00:00"
+      }
+    ]
+  },
+  "measurements": [
+    {
+      "modality": "text",
+      "count": 96,
+      "errors": 0,
+      "wall_seconds": 2.3413526279999815,
+      "throughput_per_second": 41.001940011917235,
+      "workers_observed": [
+        "289ce0c6b05d-3127b6f5",
+        "340a49f9e47e-d130c222",
+        "a25ca015c46f-7e3d9664",
+        "f552923720ee-6ad662ef"
+      ],
+      "processing_ms": {
+        "p50": 54.38689799996155,
+        "p95": 115.14964499997404
+      },
+      "queue_wait_ms": {
+        "p50": 32.919999999999995,
+        "p95": 79.10499999999999
+      },
+      "end_to_end_ms": {
+        "p50": 91.779,
+        "p95": 153.238
+      },
+      "cases": [
+        {
+          "id": "81917c8727664a0bbab06089af22e917",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 58.059582999987924,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.419782+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.437763+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.495838+00:00"
+        },
+        {
+          "id": "1592bdc049504355886f4096b5c435cf",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 58.03770599999325,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.241018+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.249822+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.307878+00:00"
+        },
+        {
+          "id": "afcb70ad301b4f9590776ce6d1a5e536",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 72.9822699999545,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.617363+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.657451+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.730452+00:00"
+        },
+        {
+          "id": "033ab27063834ac39de037efd3fe7231",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 49.70614099994464,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.548356+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.597320+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.647046+00:00"
+        },
+        {
+          "id": "091c6612bb034225ac1df48e42f337c3",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 60.80846199995449,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.384732+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.410788+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.471623+00:00"
+        },
+        {
+          "id": "22ec4b84706b434e852247c296def71b",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 49.13192200001504,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.382373+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.400914+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.450065+00:00"
+        },
+        {
+          "id": "c9948ceca9ac41b4820fd95e182e878a",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 49.4789800000035,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.371513+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.402116+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.451609+00:00"
+        },
+        {
+          "id": "26171fa2335d40589fd2f0fe4979a0dd",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 47.353595000004134,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.844281+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.908006+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.955412+00:00"
+        },
+        {
+          "id": "b3a378f8b7e8445a94867f022e0383d6",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 56.35177999999996,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.414754+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.442807+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.499173+00:00"
+        },
+        {
+          "id": "3947d88feedb41f4bdda31c2cc7f3adf",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 61.52086700001291,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.096614+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.125530+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.187069+00:00"
+        },
+        {
+          "id": "3d78d5d600a249388a0513a2875d9df2",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 115.22027600000229,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:03.920004+00:00",
+          "queue_started_at": "2026-10-25T15:27:03.956078+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.071317+00:00"
+        },
+        {
+          "id": "0112cc963ee542f2bf0b7a96deb8e4f4",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 71.17564999998649,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:03.935205+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.036942+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.108136+00:00"
+        },
+        {
+          "id": "bc4115a0bc4c428b8d5fd0de5dbc3bfa",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 75.11961000000156,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.211018+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.227659+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.302797+00:00"
+        },
+        {
+          "id": "51307c5897f848838148318954f5b439",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 43.73779200000172,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.023971+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.067766+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.111519+00:00"
+        },
+        {
+          "id": "9fa0fdd8114d4368a22409d1ed1f8aca",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 54.376488999992034,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.343546+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.376466+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.430906+00:00"
+        },
+        {
+          "id": "27797c326e164228a221eb6eb8ca36e8",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 44.192221000002974,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.545627+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.590057+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.634267+00:00"
+        },
+        {
+          "id": "0d0269b3599b41329312eb4090ec0c84",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 53.70285600002944,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.720717+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.776750+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.830470+00:00"
+        },
+        {
+          "id": "3df7d2eabf67404e8880851ec69928d4",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 103.35187300000825,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:03.719270+00:00",
+          "queue_started_at": "2026-10-25T15:27:03.728110+00:00",
+          "queue_completed_at": "2026-10-25T15:27:03.831507+00:00"
+        },
+        {
+          "id": "a1c4b8221dd34feeb921a3a3923ad7c9",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 42.74343800000224,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.473649+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.505886+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.548645+00:00"
+        },
+        {
+          "id": "670506a6dfb84333a2190ec076f7f809",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 44.896328000049834,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.529974+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.573344+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.618258+00:00"
+        },
+        {
+          "id": "2a4df024aabc48deb13094aaf6f511b5",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 43.03825199997391,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.405650+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.413400+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.456456+00:00"
+        },
+        {
+          "id": "02418ff8b2f44d00afeb86b7d37b6212",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 132.44438300000638,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.329245+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.337157+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.469621+00:00"
+        },
+        {
+          "id": "2fbbe706cb8c49cca188dd710c020116",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 75.91094800000064,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.992089+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.039249+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.115180+00:00"
+        },
+        {
+          "id": "36d02d5163da41e29e237dd6212e4ecb",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 43.59065399995643,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.008512+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.087617+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.131226+00:00"
+        },
+        {
+          "id": "488819a0ef9a474ea045b087c4f35ce6",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 62.4184130000458,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.653048+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.704865+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.767302+00:00"
+        },
+        {
+          "id": "3d4aa8d3b04c4dd1b732c9bd168d2e86",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 80.55857500005459,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:03.625916+00:00",
+          "queue_started_at": "2026-10-25T15:27:03.634469+00:00",
+          "queue_completed_at": "2026-10-25T15:27:03.715074+00:00"
+        },
+        {
+          "id": "440046a8b2a340c0b579e9d49dabacd4",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 45.65035399997441,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.520796+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.562950+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.608617+00:00"
+        },
+        {
+          "id": "8917efdb0081433e8c839d2ab113a483",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 96.54559199998403,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:03.833362+00:00",
+          "queue_started_at": "2026-10-25T15:27:03.925353+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.021917+00:00"
+        },
+        {
+          "id": "9132ce0c37d2462e89132ce8cf16b3ff",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 54.27202800001396,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.973147+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.034041+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.088327+00:00"
+        },
+        {
+          "id": "aded8d5bab6a46b2bc0fa8ab9e550607",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 78.02297000000635,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:03.879045+00:00",
+          "queue_started_at": "2026-10-25T15:27:03.954242+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.032283+00:00"
+        },
+        {
+          "id": "b67e913668864e69b84a0932dbcb567d",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 56.733719000021665,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.519052+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.557727+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.614504+00:00"
+        },
+        {
+          "id": "34b628fca0704897ad23518f34ea8bf2",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 51.45250999999007,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.765275+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.837927+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.889398+00:00"
+        },
+        {
+          "id": "e92d39df7c5b4cdfbc27886df17baf67",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 54.38689799996155,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.153443+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.161124+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.215529+00:00"
+        },
+        {
+          "id": "98b1bb8695a149a88225d3e8d6f05890",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 42.65609100002621,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.110949+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.146116+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.188789+00:00"
+        },
+        {
+          "id": "4d5c2a1737db4528a519e754642a70c9",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 65.24796700000479,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.234967+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.248916+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.314185+00:00"
+        },
+        {
+          "id": "a5f3776c55e34faeae6bb0674112967c",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 62.506749000021955,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.460956+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.481247+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.543769+00:00"
+        },
+        {
+          "id": "b2428284d7024a4a95c5f1d23e6b0591",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 43.33708300003991,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.153759+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.194857+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.238210+00:00"
+        },
+        {
+          "id": "64e2d4b2c9f34e29b20d2983d1ba0016",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 58.22964299994737,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.360173+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.367978+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.426225+00:00"
+        },
+        {
+          "id": "b92481a258e049e7ad366415ed270c89",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 133.04414000003817,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.170218+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.183081+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.316146+00:00"
+        },
+        {
+          "id": "82b0a788ab8843a395898dd3809d412b",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 40.8973980000269,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.137680+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.169654+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.210568+00:00"
+        },
+        {
+          "id": "a6ab5e0dc2664936a73aaa702b0fa9c3",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 61.51194099999202,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.692176+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.740584+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.802113+00:00"
+        },
+        {
+          "id": "27583a8f7c054cb9b0cba1b2c44abd56",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 52.06060799997658,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.909893+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.969820+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.021898+00:00"
+        },
+        {
+          "id": "a19c9143bf104d0eb8a7be3b901db9b4",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 114.12865699998065,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:03.642913+00:00",
+          "queue_started_at": "2026-10-25T15:27:03.653936+00:00",
+          "queue_completed_at": "2026-10-25T15:27:03.768085+00:00"
+        },
+        {
+          "id": "be7ddd77d5e946938c2f460ed7e18fd0",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 115.14964499997404,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:03.778508+00:00",
+          "queue_started_at": "2026-10-25T15:27:03.796090+00:00",
+          "queue_completed_at": "2026-10-25T15:27:03.911258+00:00"
+        },
+        {
+          "id": "eb36ec138e34425a916916ac0679800a",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 135.91556099999025,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.445857+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.469624+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.605554+00:00"
+        },
+        {
+          "id": "2a56dfd7aaea43c785e2e47bb6784777",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 56.40692899999067,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.227864+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.232692+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.289116+00:00"
+        },
+        {
+          "id": "2c00b1392c104fbd9b51caefba28e178",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 55.95114099998,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.674509+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.707706+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.763676+00:00"
+        },
+        {
+          "id": "094c7ba778a94a189d89e31636cb1892",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 50.44980799999621,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.344658+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.352059+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.402524+00:00"
+        },
+        {
+          "id": "f1af9246e1df47e2950c934768984354",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 63.515504000008605,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:03.608968+00:00",
+          "queue_started_at": "2026-10-25T15:27:03.615821+00:00",
+          "queue_completed_at": "2026-10-25T15:27:03.679358+00:00"
+        },
+        {
+          "id": "cad284c81204460aa5e830c4f298e7dc",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 71.00809100001015,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.633016+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.681535+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.752561+00:00"
+        },
+        {
+          "id": "a2dca8dee4f1469384f6c71540b79cc6",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 53.276430000039454,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.124318+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.156241+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.209532+00:00"
+        },
+        {
+          "id": "881371db4008472e9fae66bdae66bf4d",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 57.61421900001551,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.704403+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.765894+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.823530+00:00"
+        },
+        {
+          "id": "ff4399f854574d83ae1ea604c2e92008",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 67.27468899998712,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.474784+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.508075+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.575366+00:00"
+        },
+        {
+          "id": "206ddb9cb4c04ee5a7e8798415091331",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 89.08591800002341,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:03.683383+00:00",
+          "queue_started_at": "2026-10-25T15:27:03.708773+00:00",
+          "queue_completed_at": "2026-10-25T15:27:03.797878+00:00"
+        },
+        {
+          "id": "a13f76a07dec460993c20575bfdb3675",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 45.95774300003086,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.736255+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.781265+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.827241+00:00"
+        },
+        {
+          "id": "3eb3d8b008f74e4db68a300adf3f48b4",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 54.6584520000124,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.298418+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.311149+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.365824+00:00"
+        },
+        {
+          "id": "54fc5af403594bdcaf2c292071119dbc",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 74.47758699998985,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:03.973908+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.050248+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.124744+00:00"
+        },
+        {
+          "id": "0b7c7e106cb74125b97fd6c99554b3f4",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 49.2227889999981,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.279390+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.290291+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.339532+00:00"
+        },
+        {
+          "id": "c8fef9cc42224033b60fc32206063e91",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 51.77421799999138,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.603378+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.643854+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.695647+00:00"
+        },
+        {
+          "id": "5165cedfe8774ebbb2a46927b7524451",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 47.01326299999664,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.434014+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.457823+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.504852+00:00"
+        },
+        {
+          "id": "f70e04f1ba4648efab1af60333208b80",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 48.86666300001252,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.829596+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.905969+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.954853+00:00"
+        },
+        {
+          "id": "a6b99d49676f439c83ff3f568936c55a",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 48.306562999982816,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.312840+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.320208+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.368531+00:00"
+        },
+        {
+          "id": "dc82faa40c034f0fa41cfcb43a8032f9",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 60.142466999991484,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.862571+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.934952+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.995114+00:00"
+        },
+        {
+          "id": "36ce2585c98b4307bd9bba2ecb17dc90",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 97.66420899995865,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:03.668359+00:00",
+          "queue_started_at": "2026-10-25T15:27:03.681574+00:00",
+          "queue_completed_at": "2026-10-25T15:27:03.779257+00:00"
+        },
+        {
+          "id": "8526e8c11d7c402bbe2ade9b037ad69f",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 38.095750999957545,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.960267+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.014369+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.052502+00:00"
+        },
+        {
+          "id": "fc08e3c6316d40b6bf550d6c8948d430",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 79.6422570000459,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.573019+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.619190+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.698851+00:00"
+        },
+        {
+          "id": "a7bcfcd253fd404c90c199f8351c19e4",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 50.50325199999861,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.940977+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.006812+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.057329+00:00"
+        },
+        {
+          "id": "45cee8836c3b442d895431a67ed13a46",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 42.42495900001586,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.358594+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.380342+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.422779+00:00"
+        },
+        {
+          "id": "974a4e9134d343c6807bc8165e96a2f5",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 94.22668799999201,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:03.852284+00:00",
+          "queue_started_at": "2026-10-25T15:27:03.946394+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.040639+00:00"
+        },
+        {
+          "id": "5356388066f541f0be83b1416555586e",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 53.69844900002363,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:03.953312+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.051374+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.105090+00:00"
+        },
+        {
+          "id": "49b2dc0b2ac748c4871761b148edc533",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 53.18185299995548,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.781413+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.842842+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.896041+00:00"
+        },
+        {
+          "id": "072f16f372a545019bf866877b2e5fdd",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 44.81385200000432,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.199749+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.212119+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.256951+00:00"
+        },
+        {
+          "id": "0585d8942afa4951bea44024b0529290",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 44.81586400004289,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.008437+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.062349+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.107180+00:00"
+        },
+        {
+          "id": "44b45d3972054f34abeb22f23dd0c7a9",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 51.76843200001713,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.506845+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.524935+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.576720+00:00"
+        },
+        {
+          "id": "80b5b06510ba4e5fbabfdd18f666747a",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 43.980605999990985,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.426205+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.468381+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.512378+00:00"
+        },
+        {
+          "id": "dcb568aeb75f49789b04c2095d61d4dd",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 44.361022000032335,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.331438+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.348033+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.392409+00:00"
+        },
+        {
+          "id": "975db8de1cb7431d975d6a9746604585",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 49.95223100002022,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.490616+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.515385+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.565352+00:00"
+        },
+        {
+          "id": "079bedddb8c9454aa7321bf1ad970e3f",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 56.532569000012245,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.897301+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.945206+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.001799+00:00"
+        },
+        {
+          "id": "5773e249d270487dab680d7d5d8e692f",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 42.32465899997351,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.798227+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.844674+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.887018+00:00"
+        },
+        {
+          "id": "4b1ab1bb37f34f8991e9746ac18f1352",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 83.85658399998874,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:03.797614+00:00",
+          "queue_started_at": "2026-10-25T15:27:03.847572+00:00",
+          "queue_completed_at": "2026-10-25T15:27:03.931449+00:00"
+        },
+        {
+          "id": "4ecdd0337c6e46fb90244b6318fcd26f",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 39.90831000004391,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.457286+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.482730+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.522654+00:00"
+        },
+        {
+          "id": "a01945ba914c4d4393394b97f10cf82e",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 85.77091799998016,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:03.816028+00:00",
+          "queue_started_at": "2026-10-25T15:27:03.854043+00:00",
+          "queue_completed_at": "2026-10-25T15:27:03.939833+00:00"
+        },
+        {
+          "id": "24e63fd1a7194a0d9594b78e4880182f",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 48.67604500003608,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.588947+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.620320+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.669024+00:00"
+        },
+        {
+          "id": "a83f916e3d4f4a488c77a772b281917a",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 46.274304999997184,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.071895+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.099799+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.146089+00:00"
+        },
+        {
+          "id": "61e184fc25474f16a6c1b3ab33d710d7",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 51.88854599998649,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.506732+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.534162+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.586066+00:00"
+        },
+        {
+          "id": "b9b314b7c4cd45ce903efbee31bd6ddd",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 42.82774099999642,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.086148+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.116581+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.159425+00:00"
+        },
+        {
+          "id": "627c68c953d24978aefe54d9515da417",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 43.31375700002127,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.816025+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.891714+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.935045+00:00"
+        },
+        {
+          "id": "35b707070e7e4777a9921272b464beb0",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 86.3499069999989,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.187984+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.198747+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.285116+00:00"
+        },
+        {
+          "id": "82184c1ea4f14a889305378c9bcafe01",
+          "status": "completed",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 64.7700899999677,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.750083+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.814251+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.879039+00:00"
+        },
+        {
+          "id": "575cc56dca314fd29250ce2372cf3cea",
+          "status": "completed",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 94.94409999996378,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.256225+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.268394+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.363360+00:00"
+        },
+        {
+          "id": "f4c74f0d24084c679ab1dd662321ce51",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 92.84107899998162,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:03.756572+00:00",
+          "queue_started_at": "2026-10-25T15:27:03.789009+00:00",
+          "queue_completed_at": "2026-10-25T15:27:03.881915+00:00"
+        },
+        {
+          "id": "75059b892d5d48eabd4fafdaaac88c02",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 56.73615599999948,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.922200+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.967908+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.024662+00:00"
+        },
+        {
+          "id": "70cfaeab69784de497e7e71aba71ef16",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 41.1769429999822,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.493564+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.517451+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.558642+00:00"
+        },
+        {
+          "id": "037a717229de4060a3d928f20748899e",
+          "status": "completed",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 53.37362900002063,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:05.398434+00:00",
+          "queue_started_at": "2026-10-25T15:27:05.432300+00:00",
+          "queue_completed_at": "2026-10-25T15:27:05.485693+00:00"
+        },
+        {
+          "id": "e039076f576d45ecb9452906b9602016",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 56.523320999986026,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.532115+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.575229+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.631770+00:00"
+        },
+        {
+          "id": "8c026547004940a4a88d24f3a681951d",
+          "status": "completed",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 62.55308200002219,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:04.312596+00:00",
+          "queue_started_at": "2026-10-25T15:27:04.322589+00:00",
+          "queue_completed_at": "2026-10-25T15:27:04.385162+00:00"
+        }
+      ]
+    },
+    {
+      "modality": "image",
+      "count": 24,
+      "errors": 0,
+      "wall_seconds": 36.27162875099998,
+      "throughput_per_second": 0.6616741741805112,
+      "workers_observed": [
+        "289ce0c6b05d-3127b6f5",
+        "340a49f9e47e-d130c222",
+        "a25ca015c46f-7e3d9664",
+        "f552923720ee-6ad662ef"
+      ],
+      "processing_ms": {
+        "p50": 6033.616796000047,
+        "p95": 6491.486549000001
+      },
+      "queue_wait_ms": {
+        "p50": 12992.198,
+        "p95": 29880.454
+      },
+      "end_to_end_ms": {
+        "p50": 18945.549,
+        "p95": 35208.242
+      },
+      "cases": [
+        {
+          "id": "66483395aee94e2ca573dedddc81c9c7",
+          "status": "partial",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 6068.792298000006,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.035292+00:00",
+          "queue_started_at": "2026-10-25T15:27:06.040608+00:00",
+          "queue_completed_at": "2026-10-25T15:27:12.109417+00:00"
+        },
+        {
+          "id": "95fc306dd58746c28653be8bcf50c4fb",
+          "status": "partial",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 6196.136261999982,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.064174+00:00",
+          "queue_started_at": "2026-10-25T15:27:06.074527+00:00",
+          "queue_completed_at": "2026-10-25T15:27:12.270686+00:00"
+        },
+        {
+          "id": "9743108f92704cf3a4ed32a1f7708b7d",
+          "status": "partial",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 6203.153090000001,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.047278+00:00",
+          "queue_started_at": "2026-10-25T15:27:06.056577+00:00",
+          "queue_completed_at": "2026-10-25T15:27:12.259754+00:00"
+        },
+        {
+          "id": "e92a940487454fb5876975001a014e0c",
+          "status": "partial",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 6387.207715999977,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.021764+00:00",
+          "queue_started_at": "2026-10-25T15:27:06.027472+00:00",
+          "queue_completed_at": "2026-10-25T15:27:12.414732+00:00"
+        },
+        {
+          "id": "7adc7b8d9c3348febca9344749ea1ddd",
+          "status": "partial",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 5295.923103999996,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.106762+00:00",
+          "queue_started_at": "2026-10-25T15:27:12.324647+00:00",
+          "queue_completed_at": "2026-10-25T15:27:17.620595+00:00"
+        },
+        {
+          "id": "1713e9f90e5c4b4cb3fdd93a25258492",
+          "status": "partial",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 5960.032930000011,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.084192+00:00",
+          "queue_started_at": "2026-10-25T15:27:12.125576+00:00",
+          "queue_completed_at": "2026-10-25T15:27:18.085629+00:00"
+        },
+        {
+          "id": "83edb4c84b7244cc9905cdbb74a63109",
+          "status": "partial",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 6401.20414300003,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.138086+00:00",
+          "queue_started_at": "2026-10-25T15:27:12.282400+00:00",
+          "queue_completed_at": "2026-10-25T15:27:18.683628+00:00"
+        },
+        {
+          "id": "8091471cd25e405dab44c02a43531591",
+          "status": "partial",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 6808.871409999994,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.167979+00:00",
+          "queue_started_at": "2026-10-25T15:27:12.425991+00:00",
+          "queue_completed_at": "2026-10-25T15:27:19.234893+00:00"
+        },
+        {
+          "id": "56cc145f3750421c9f51c7d77d717113",
+          "status": "partial",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 5474.519384000018,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.196579+00:00",
+          "queue_started_at": "2026-10-25T15:27:17.644883+00:00",
+          "queue_completed_at": "2026-10-25T15:27:23.119424+00:00"
+        },
+        {
+          "id": "95199002d9584e5b9809ce4f4fafa805",
+          "status": "partial",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 6033.616796000047,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.228823+00:00",
+          "queue_started_at": "2026-10-25T15:27:18.188123+00:00",
+          "queue_completed_at": "2026-10-25T15:27:24.221760+00:00"
+        },
+        {
+          "id": "b2b19f4051ac44f49842676a6082fe68",
+          "status": "partial",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 5272.529625999994,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.261817+00:00",
+          "queue_started_at": "2026-10-25T15:27:19.254015+00:00",
+          "queue_completed_at": "2026-10-25T15:27:24.526567+00:00"
+        },
+        {
+          "id": "ec68c6cf090c4cfc8f31398a44cbe49e",
+          "status": "partial",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 6491.486549000001,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.245611+00:00",
+          "queue_started_at": "2026-10-25T15:27:18.699650+00:00",
+          "queue_completed_at": "2026-10-25T15:27:25.191160+00:00"
+        },
+        {
+          "id": "5073df3987cf4196a28ff018c1395d03",
+          "status": "partial",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 6408.652312000015,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.277749+00:00",
+          "queue_started_at": "2026-10-25T15:27:23.139902+00:00",
+          "queue_completed_at": "2026-10-25T15:27:29.548578+00:00"
+        },
+        {
+          "id": "3ca04b9ef8af45639dcf2b35a944e439",
+          "status": "partial",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 5939.85472899999,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.296128+00:00",
+          "queue_started_at": "2026-10-25T15:27:24.237298+00:00",
+          "queue_completed_at": "2026-10-25T15:27:30.177176+00:00"
+        },
+        {
+          "id": "42c770c7bd9947b690f05a0cdb048cc3",
+          "status": "partial",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 5780.885480999985,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.319646+00:00",
+          "queue_started_at": "2026-10-25T15:27:24.554382+00:00",
+          "queue_completed_at": "2026-10-25T15:27:30.335286+00:00"
+        },
+        {
+          "id": "6d3925029c0844a0a799a9804d41abbe",
+          "status": "partial",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 6366.091069000049,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.340533+00:00",
+          "queue_started_at": "2026-10-25T15:27:25.214070+00:00",
+          "queue_completed_at": "2026-10-25T15:27:31.580181+00:00"
+        },
+        {
+          "id": "4b9658272d5c43b49a65e24692fab4ce",
+          "status": "partial",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 5485.66844000004,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.407800+00:00",
+          "queue_started_at": "2026-10-25T15:27:30.350134+00:00",
+          "queue_completed_at": "2026-10-25T15:27:35.835833+00:00"
+        },
+        {
+          "id": "b2d570b2646a4b2fb73d159e01e66f55",
+          "status": "partial",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 6371.698306000042,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.361024+00:00",
+          "queue_started_at": "2026-10-25T15:27:29.561125+00:00",
+          "queue_completed_at": "2026-10-25T15:27:35.932843+00:00"
+        },
+        {
+          "id": "e4a927815a5c47fe9ac280095ef3ab1d",
+          "status": "partial",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 6070.694039000045,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.380551+00:00",
+          "queue_started_at": "2026-10-25T15:27:30.190267+00:00",
+          "queue_completed_at": "2026-10-25T15:27:36.260982+00:00"
+        },
+        {
+          "id": "a0c358967f1348fca566ee9239db4cb4",
+          "status": "partial",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 5125.125990000015,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.433216+00:00",
+          "queue_started_at": "2026-10-25T15:27:31.610647+00:00",
+          "queue_completed_at": "2026-10-25T15:27:36.735794+00:00"
+        },
+        {
+          "id": "6e603465259647309ca384316c3cb873",
+          "status": "partial",
+          "queue_worker": "f552923720ee-6ad662ef",
+          "queue_processing_ms": 4926.889606999965,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.509864+00:00",
+          "queue_started_at": "2026-10-25T15:27:36.390318+00:00",
+          "queue_completed_at": "2026-10-25T15:27:41.317231+00:00"
+        },
+        {
+          "id": "2a45ff3070b540d3ae418fb6121d12ee",
+          "status": "partial",
+          "queue_worker": "a25ca015c46f-7e3d9664",
+          "queue_processing_ms": 5823.87049700003,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.461650+00:00",
+          "queue_started_at": "2026-10-25T15:27:35.846006+00:00",
+          "queue_completed_at": "2026-10-25T15:27:41.669892+00:00"
+        },
+        {
+          "id": "9fe209136e614714b56a290dd051e182",
+          "status": "partial",
+          "queue_worker": "289ce0c6b05d-3127b6f5",
+          "queue_processing_ms": 4953.7406119999905,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.530603+00:00",
+          "queue_started_at": "2026-10-25T15:27:36.756343+00:00",
+          "queue_completed_at": "2026-10-25T15:27:41.710104+00:00"
+        },
+        {
+          "id": "7a45cfe2f18c43629c2c180df2d13856",
+          "status": "partial",
+          "queue_worker": "340a49f9e47e-d130c222",
+          "queue_processing_ms": 6232.740669000009,
+          "queue_attempts": 1,
+          "queue_submitted_at": "2026-10-25T15:27:06.492795+00:00",
+          "queue_started_at": "2026-10-25T15:27:35.946179+00:00",
+          "queue_completed_at": "2026-10-25T15:27:42.178940+00:00"
+        }
+      ]
+    }
+  ]
+}

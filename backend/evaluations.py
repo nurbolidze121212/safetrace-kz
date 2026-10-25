@@ -4,6 +4,11 @@ import json
 def available(root):
     definitions = [
         (
+            "synthetic-v5",
+            "Ядро v5 · 640 авторских случаев, LLM-разметка",
+            root / "reports/versions/synthetic-v5/evaluator-summary.json",
+        ),
+        (
             "synthetic-v1",
             "Историческая v1 · исходный тест",
             root / "reports/versions/synthetic-v1/evaluation.json",
@@ -48,7 +53,7 @@ def read(root, identifier=None):
         return {"available": False, "message": "Оценка еще не запускалась."}
     identifiers = {entry[0] for entry in entries}
     identifier = identifier or next(
-        (key for key in ("synthetic-v4", "synthetic-v3", "synthetic-v2", "synthetic-v1") if key in identifiers),
+        (key for key in ("synthetic-v5", "synthetic-v4", "synthetic-v3", "synthetic-v2", "synthetic-v1") if key in identifiers),
         entries[-1][0],
     )
     selected = next((entry for entry in entries if entry[0] == identifier), None)

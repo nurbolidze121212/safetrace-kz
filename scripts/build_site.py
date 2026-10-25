@@ -53,11 +53,11 @@ def main():
             (output / doc["download"]).write_bytes(package(doc))
             if doc["materials"][0].get("image_id"):
                 doc["image_preview"] = "ocr-original.png"
-        evaluation = json.loads((ROOT / "reports/versions/synthetic-v4/evaluation.json").read_text())
+        evaluation = json.loads((ROOT / "reports/versions/synthetic-v5/evaluator-summary.json").read_text(encoding="utf-8"))
         data = {"kind": "saved-synthetic-demonstration", "generated_at": storage.now(),
                 "cases": documents, "evaluation": {"full": evaluation["variants"]["full"],
                     "slices": {k: v for k, v in evaluation["slices"].items()
-                               if k.startswith("language:") or k in {"image", "text"}}}}
+                               if k.startswith("language:") or k.startswith("format:")}}}
         (output / "data.json").write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
         print(json.dumps({"cases": len(documents), "scores": [d["score"]["value"] for d in documents],
                           "ocr_lines": len(documents[-1]["materials"][0]["ocr"]["lines"])}))

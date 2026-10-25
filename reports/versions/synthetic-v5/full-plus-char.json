@@ -1,0 +1,5954 @@
+{
+  "variant": "full_plus_char",
+  "threshold_selected_on_dev": 0.8,
+  "deployable_selection": "full_without_ml",
+  "records": [
+    {
+      "id": "93c91ab5da9fb25bc3b2",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.5677944951636031,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "ff0f80972cac9c464f1d",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.5677944951636031,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "b6af4359b56b62bf6130",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.5855890738236955,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "185d7e98c13b2459908b",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.5855890738236955,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "072b1f781d54c0920223",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.5855890738236955,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "4276daa0f3b64b66ec75",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7426325580948876,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "e3cd413e672e45ebbf45",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7444086595405106,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "a3fa485f04cd356fbf3c",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7388903404867934,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "9ab192bd84b81bcd3049",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7327540837420746,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "3d785e62541d76914370",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7353630126800967,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "125545b707f7ea437095",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.7295619697052859,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "a4afd6af1fde217a4833",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.7350497269678872,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "79ed1758ce5f2738f012",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.7347993118526639,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "44db4cc44ebccd14e752",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.7326282719402641,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "334132a03b6cb3fab923",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.7326335847357954,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "e3473688bc6058050895",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4497495260542473,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "c8a9e5e64f7100d49845",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4497495260542473,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "b0ffa7ce0562b868abe5",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.45300334320141356,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "0a400126075bd4e9db79",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.45300334320141356,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "d724222a4b5e8b2b8b3f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.45300334320141356,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "d8f9eb63c4e1af487533",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.5639628222197671,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "d5980ffb0a9b2bc80607",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.5639628222197671,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "7f89502563d7d17f73d3",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.636405369328378,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "050981f57b60987c0f6e",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.636405369328378,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "c432b194bc9c470b66b9",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.636405369328378,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "9749abc99f073a0d6b71",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.5458484037542773,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "fa58cef86cd0f6a32471",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.5458484037542773,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "d098cb2ff09d42c807b2",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.590803198901109,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "059c438d26bd3bcc92c9",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.590803198901109,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "23d62278ad841e6d2fbc",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.590803198901109,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "c9ebae8fc21825da4e1f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.35966666948258974,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "809bc78773ac10828b63",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.35977919934495145,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "ce38867f0cae6ce980e4",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7234709041807371,
+      "sufficient": true,
+      "score": 75,
+      "level": "high"
+    },
+    {
+      "id": "6e6e31258ea68023cae4",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7274614996112402,
+      "sufficient": true,
+      "score": 75,
+      "level": "high"
+    },
+    {
+      "id": "43d071bb294af5226c04",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7273016602933415,
+      "sufficient": true,
+      "score": 75,
+      "level": "high"
+    },
+    {
+      "id": "6e9d5850a1f8fe7597a6",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.5549009972214479,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "dd027156bbd36b224c4d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.5549009972214479,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "decb7901a0c14652f544",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.5734450795337519,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "9e4ba45ecb25e15b4a6a",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.5734450795337519,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "ca01c3c08b6fa2a79b04",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.5734450795337519,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "2000ab50b79d5b28db76",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7522762460825855,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "474ff145666634e2f40e",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7591917275509346,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "0211e6f48b50dca93a9c",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7590605554084866,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "823e56027450ddb5e480",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7577997850092489,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "f9e4e65e562a613be6c3",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7590683210856256,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "7722d9b0abc2481b4d30",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.6978238878432278,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "47f5e8087f1fb095c4ff",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7171064678204683,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "7ed5b8e1c2764c2ccc4e",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7114695912111345,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "e4d2c8d6a3722ed148c2",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7101224525344672,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "a23280b604767b35d183",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7119110574742261,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "9d78d1251412c2f29fb6",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.46559674183272565,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "90957e670454641b71b9",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.47417486875750836,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "93b6132ba723e0673444",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.47417486875750836,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "ccbba1c25f03649fe4c4",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.47417486875750836,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "c2b645c70338d825e199",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.47417486875750836,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "37bd1e01f9cbc2c2f615",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2469404437453034,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "c1ef393569143cd375cf",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24598908133521116,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "c8debcffb2f19b638374",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24397844612209982,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "7ff99a3a70e8dbf3c6e9",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24529565001617393,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3c28ec59912fe78a3dcf",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24664503402018206,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "cb129a1a3f7737b98d1f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24731807448615278,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "8ead8dff43e1ba3eed51",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24438954624574638,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "24360691f358435c5f27",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24529565001617393,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "a34656c2c028687ec8de",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24529565001617393,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "15b9f0d0f67456c6eb6e",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2470398928062133,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "4a9b5ffb8e8f2f500e58",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.25937589485805884,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "4fca619c18369924df84",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.26205543494343714,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3606f53f8a62b99057a7",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.26205543494343714,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "8c4e10bc8002d015c978",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.26205543494343714,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "ce0263e015e6dadd18e9",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.26205543494343714,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "78448651b232aab7d1dd",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.25937589485805884,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "8279dc520770242fd898",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.26205543494343714,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "40b8ff9ddebe1811286c",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.26205543494343714,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "fd39881d6d61086d9c0e",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.26205543494343714,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "4c0258a435f4e0c00239",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.26205543494343714,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "ec07f15e14fe8c6c2c55",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.27693860516738844,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "c512f717f6f949807803",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2704240120140496,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "7b693c3e3302149ef95f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2693001907158146,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "aadec859feefaf9c3e6e",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.27144399635085614,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "4dcb181dd7f4d27140b3",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.27126095265524713,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "08696814072291e4e85d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2753335237931833,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "5b55f0656e89462b32c6",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2696535340381188,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "1b5ed45c7958d2c7f17c",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2708284355901019,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "e8c994cfa07a419fb6a2",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2691918641859564,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "44e58de3f6fd03d3f2f2",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.27024321079127733,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "fbd6d392c13b10905b3c",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30300412842651714,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "121fd58833c19772fde2",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2958749664143934,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3c44297288ad05ba617b",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2958749664143934,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "e6cddc8036ad59b0dd6e",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2958749664143934,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "aa0f52ed320591e9a2ee",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2958749664143934,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "d23a77914371feb23aea",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30300412842651714,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "955c99cd7325a64b80b5",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2958749664143934,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "66638b18ddedf82f1099",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2958749664143934,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "6dcc13853e7d418c3dca",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2958749664143934,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "7d10a90fe0944d8d22c1",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2958749664143934,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "cfcff76d08d84457d460",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3509881379580426,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "1bc31b8332da58f9af5a",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3460548147586473,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "30dff336e6643d619f4c",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3492188803494894,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "fd5fbadaecfb969ec43e",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3477429254770782,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "96f32bbbb164bbfeb975",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3493251992494326,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3808f9ecfa04bef3399e",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4139761227576994,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "7d094bfbf52dd6bc1ce1",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.41125258052965696,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "5b3df680683a86bab8c8",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.41125258052965696,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "8bb8642ecc48efe9faee",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.41125258052965696,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "c301f39c88af0fbfd308",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.41125258052965696,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "4a582ba2f43de432a59d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3509705043918392,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3d354fc1028730727197",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3483471000447796,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "6971440ea6a3c92c13dd",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.34642450911906764,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "b1e09a1c35bc2692438d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.34726152002615807,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "2f6345aa105f1abd540d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3490059818817492,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "2a078001b725eeb9520a",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4130817615050207,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "818cb85296a4e690acd5",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.410468719767169,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "8d03c2879d4dc43caa05",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.410468719767169,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "42f9d145b70875d2fae7",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.410468719767169,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "a34ce0452347dad72184",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.410468719767169,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "0f3301badf2753c74bd5",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3517373730265297,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "74dc0897b087641af5c7",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3483067368244329,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3d57c937812c41656ec6",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3477024960839627,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "50a24de26653e4734722",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.34692227399593045,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "e524d84b82dfaeec79ae",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3483845105510723,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "43eae229847e820fada7",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.31604310730405605,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "616a1d87c4974127e6f0",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3153608504206201,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "ce5da1ba7ff37d1cac90",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3153608504206201,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "5657087d695fe0987c35",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3153608504206201,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "5145b40874af7b9285e3",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3153608504206201,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "2f321928e2bb7d258527",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.31604310730405605,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "ae4fce5a91e7d6cad7bd",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3153608504206201,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "59180bddb6f30d685da3",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3153608504206201,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "6e2d713daf56ee7a35eb",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3153608504206201,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "ad60b24132fe628ee274",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3153608504206201,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "cf389c29ae42c7fed67b",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3003874605575868,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "4d680610e50b82fb885c",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.29786372971199493,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "1e3adc913cfc7888f152",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2974632368469363,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "5110f123c36c09a430ed",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.297841881922766,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "ddbda1aff71f78eca8dc",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.29797624417236074,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "19cd0e8d4bda1b584340",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.31604310730405605,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "bfc6f8f7c9f759a1afe8",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3153608504206201,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "123c49f2c2ed260829f0",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3153608504206201,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "ccf3c628d7cdee27f7db",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3153608504206201,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "538470cc32c0cacdaa0b",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3153608504206201,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "cfa2797baeec52e961af",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.44666205776797085,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "ae943c3beb391deb56b6",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4587415405121754,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "f055a292bbe48a959570",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4587415405121754,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "69b424532c9798ca9a14",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4587415405121754,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "27e4b4259251a1693595",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4587415405121754,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "44d29a6e49136095ae55",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3988966047337438,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "c62191538cef47c506b8",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.39705841912789963,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "dd312a17bf08d177baa0",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3965445663553798,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "c0921c9d69bce906eac7",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3963393488289529,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "50f7cf4b01a8cce7beef",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3962450595089052,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "f23a051202f8fb89734e",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4478911702481729,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "5b1b541cf91eb1fd1252",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.46028193395980943,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "9d5f4395f3f1cd18d22f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.46028193395980943,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "aabdffe937c2b8fbecce",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.46028193395980943,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "85d736b4fa7a21286512",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.46028193395980943,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "e99514568ac412ff3756",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4478911702481729,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "de0d4b908b87aab4b3ba",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.46028193395980943,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "d96bd59e0d81f7f8162d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.46028193395980943,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "0b2598b46f37932f3569",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.46028193395980943,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "0eeba2d500e872e1178f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.46028193395980943,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "c59f941811dfda857bc8",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.4587360965377806,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "33a3a9c7e6f500caa9aa",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.4587360965377806,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "1c208836e044349b0e79",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.4514718901894985,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "309f2a8c231fe805d454",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.4514718901894985,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "912ecd38f3bf3e083a5c",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.4514718901894985,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "049e54e3e06e0111e073",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7185657404749922,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "10a889717f0fe189b2b4",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3967936199508438,
+      "sufficient": false,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "724c50eaaaf18bcdeb1c",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7171504790817469,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "1fe7caa6bcf1ab93312c",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7154245472234431,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "a812419382a57adf4e58",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7181681944958406,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "a8dc9c42e9813b918b28",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7443318243965268,
+      "sufficient": true,
+      "score": 75,
+      "level": "high"
+    },
+    {
+      "id": "4ee104497fb05ee213e0",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.744352234412709,
+      "sufficient": true,
+      "score": 75,
+      "level": "high"
+    },
+    {
+      "id": "8e146e8715022972da27",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.740549651684847,
+      "sufficient": true,
+      "score": 75,
+      "level": "high"
+    },
+    {
+      "id": "2442830452f37b75a161",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7419556036354815,
+      "sufficient": true,
+      "score": 75,
+      "level": "high"
+    },
+    {
+      "id": "1ef95139715f2a5d83ab",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7434907177558606,
+      "sufficient": true,
+      "score": 75,
+      "level": "high"
+    },
+    {
+      "id": "e362cf7ea601e47c4a08",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.47815515601110886,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "e65392bc30e91d64737a",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.47815515601110886,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "17eb62eaf40700c6b244",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4963873872281499,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "33eed91d3c1933842691",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4963873872281499,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "94ac718c166767dfd93f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4963873872281499,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "53444c8e914e65e30067",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.4367192022933522,
+      "sufficient": true,
+      "score": 75,
+      "level": "high"
+    },
+    {
+      "id": "41080ff8bfd8425aaacf",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.4367192022933522,
+      "sufficient": true,
+      "score": 75,
+      "level": "high"
+    },
+    {
+      "id": "29776e1ab90ea30f8ece",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.440738267295061,
+      "sufficient": true,
+      "score": 75,
+      "level": "high"
+    },
+    {
+      "id": "864a88006291bdfa6a16",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.440738267295061,
+      "sufficient": true,
+      "score": 75,
+      "level": "high"
+    },
+    {
+      "id": "db841a4f1755312b7eee",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.440738267295061,
+      "sufficient": true,
+      "score": 75,
+      "level": "high"
+    },
+    {
+      "id": "847ee0495c569f7890f3",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.4295023320506759,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "4ecaea4cbcdc1c34040b",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.4295023320506759,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "3a06be08c096e6e40bef",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.4366947529904762,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "bcb50a4a0bd5edb73914",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.4366947529904762,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "4c3cd1333416f901c66c",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.4366947529904762,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "649dd4c406dc5f7ea5f1",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7478412402684252,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "e5c72906047e4fda0668",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.754063634487231,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "6d160f308c2d9cbe3c1f",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7459340342602689,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "b8d66dfe3f201332233e",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.745063311807435,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "c3b62db89dc052304632",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7468991582765043,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "74ede78c922147e9adcd",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.505241570854478,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "094d9a4cd5c70afb2c11",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.505241570854478,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "1ce717c1cd7fd4207b7c",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.5258377604593105,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "d2582a8602745d3c8417",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.5258377604593105,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "249c929925354b9aa733",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.5258377604593105,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "144d877af9367ef57dc2",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.8297749235780263,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "a4632e6f5c32512465e6",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.8241367155395107,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "bbb957fdd2a036dce4b1",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.8197265134662833,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "566bbe2d97492ba0ca35",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.8234219717801222,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "24cefe6f72f6170336bb",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.8246462443382616,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "e7a526ded369d7ea96dd",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7534567431095539,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "c1ab880f815732fb4b97",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.754498176813572,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "379be9e2e1b0d2eaca7d",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7541159709358701,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "82e0a77b6d5a4d162c1c",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7541422631073098,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "4857f39d4cb58c0351d7",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7550487538254668,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "90bcc6e665d569e79bdd",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.37957601868685004,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "1ecbb00a74eb0b3b0181",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.4046130946690517,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "f6334ec718891032de70",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.4046130946690517,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "2bd35c255730c38ea741",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.4046130946690517,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "e77b966f7c7816feba3b",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.4046130946690517,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "ee364a0a9e584bc32eef",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24657663747486963,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "6ebe3747f08afde99653",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24304407077376775,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "b36353b9b3b7942839dc",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24608358784318846,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "e239ebc1a2cd776a4c60",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2445155371089108,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "0f34bc05b6cbae85411f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24463783875526507,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "d2d6e50d322a831b6a10",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24637660901778966,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "201711809b8b142cec7d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24463783875526507,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "9956294d8b2fa749a506",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24508805823967394,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "4da5f7fa92d164e73d83",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24316718630439169,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "acc16aa76a08294f333d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24441640223654532,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "92e5a34e850e4a2e6bbe",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.27909249728214025,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "789e57a3d9307e6317a2",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2801090101012737,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "6d6d2c2d96129005d12a",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2801090101012737,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "bd5f6b5de1cf47996fe2",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2801090101012737,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "89c0d1ddf93f1bdf3c47",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2801090101012737,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "1f4b03286dc262eb8569",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.27909249728214025,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "ba835786ab4e33120a58",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2801090101012737,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "e0fb9b93ec70f08c41aa",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2801090101012737,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "99b3bf64470762408252",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2801090101012737,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "e7adafe098a8fa6f67f6",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2801090101012737,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "e6a62735544143e81ae7",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24860368533205357,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "c011b498ea909022c89f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24539218602092172,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "92801fad0ff9fb2e44d9",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24627804480285062,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3a421f51737c18d52308",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24558945308678753,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "51281835f30191933ea9",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24455597444655755,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "058bb15564789973f5a7",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2498353092853251,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "8e9493a1cfcbfec5b603",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2460567202851108,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "7ef70706a3f1657fba89",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24481391294788665,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "ee853b91c0ab2a5ff8f4",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24606263167724593,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "8e6e921f65c88ec06401",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24588128823990515,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "90312a5b2578f19f0e0e",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2693030168118104,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "706c853fc67cfef152fe",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2667201440866,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "d10ead200912661edb66",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2667201440866,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "97301ec08336ed658ca1",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2667201440866,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "993b542d9c98813ffa35",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2667201440866,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "c18f6d016c89c6a3ff8a",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2693030168118104,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "42d229904a0dfca6a35f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2667201440866,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "46a19b527ee9a17cd13d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2667201440866,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "01fbcc5b8ef2fc24acfb",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2667201440866,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "54dc36b39c1fded631dd",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2667201440866,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "2fd3dc87fd337c1fee3c",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3076873725586182,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "12822f7b219c18e2068e",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2980128964323309,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "94dd215c4be95abac182",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.29732874270323656,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "cf60d2079da8469dc814",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2983054611889697,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "26f9fec2651ba8d269c2",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2984815287054831,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "cd2f40195fb218a778a2",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3360481732769165,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3114bfc3dbffb3ea7717",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3294665454832809,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "bfd92a0b55d795712cdc",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3294665454832809,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "916effcb95477c57750b",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3294665454832809,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "7c36090ec004c6dd289d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3294665454832809,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "d138e0ac499413ef21ea",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30901890685573075,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "65148dd3be46a24338ea",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.29693697016333737,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "0a4569ee9e79cb633ac8",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.29728245393689967,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3d2ff060649684d257ae",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.29683209096169366,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "a554320f0d79f1fa1f90",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.29711022224580025,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "36d1b34cee790e226b52",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3361596363678554,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "b54a95ba944441d48060",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3296085642196709,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "78a711d8e4d774fe154d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3296085642196709,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "e42fc30281dc8b330faa",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3296085642196709,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "054d7f411d6915c5cb61",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3296085642196709,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "303dcf9879aa24e797f2",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30623370446504494,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "27cfbfa84b87a54602d9",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.29849218089677887,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "7e65495d5b2a38ef738c",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2976048207806835,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "8ae7c8037312a264f648",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.29685202455673515,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "327b27acc3173aee2c9b",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.29910638304627146,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "297e4ce7b6dcf3abaa69",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.34168663664436616,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "887dae73a4ab4d4b35e3",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3319162721981184,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "fffb8ebe05c22b1469b6",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3319162721981184,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "ffed278c00cf7f7e0896",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3319162721981184,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "094d4e234cb3b904204b",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3319162721981184,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "48464b54e0a9b5b7ec3a",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.34168663664436616,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "bd5e4122962ed9c01403",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3319162721981184,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "eac905ea23e9415a784f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3319162721981184,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "f55fce4fe0ae6bb639c0",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3319162721981184,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "aefdc5f14a720f8df1a8",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3319162721981184,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "802ea4c03d44139e96aa",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30229766161739174,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3f4759b6915c1048aac6",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3011897035327383,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "cbc2496e1cdda515c844",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3010564299321492,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "082f53ab6e295e813144",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3006412303238299,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "0c99da59fe2721ac0b1e",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3016443024096452,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "5662ffeef339a95c4b98",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.34168663664436616,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "4c76b2bda2f8b69bcf21",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3319162721981184,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "6b704542f47e7726d3de",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3319162721981184,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "a4f488182017050d77ec",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3319162721981184,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "8eaf78e5cc44099b8e36",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3319162721981184,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "0dbb6e41bae10e8bfb1f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3671215448637736,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "1ceb3451ab15941b53fc",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3710776530004072,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "fb28f00ef58fa4e5230c",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3710776530004072,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "5d242283988ec6c8821e",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3710776530004072,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "ed5d24e8b91f9f325772",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3710776530004072,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "2d3ce22091880df9f204",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.340409042147562,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "0fd7d8effe75e3ddcff3",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3333981777229486,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "e3588706adad8d3704f3",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.33401613623849397,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "04fcc7a94012ac4473fa",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.33183527001668595,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "6d89d04a2296a2bb849d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3323926902851077,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "9e19d1dd4236489d4163",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.36740689071664745,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "cefffb0a791de84d674e",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.37141886879055663,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "bb8b81dd2599040fd233",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.37141886879055663,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "765b6711ce156199b926",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.37141886879055663,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "a87dab9a052e177ef76e",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.37141886879055663,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "a35c854efb1abd18a3fb",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.36740689071664745,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "77db030a2e125a12146c",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.37141886879055663,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "c536556a370d87b2cbf6",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.37141886879055663,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "f98cd2e28822ebcb029d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.37141886879055663,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "73487cfd6ddf39aaaa4f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.37141886879055663,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3f62bbf547dab168d684",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3694862587091331,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "3452f1ecaa6f2f215b06",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3694862587091331,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "b67cb0a641649f3403b3",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.37655884901354053,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "0f83d426c19f05770eab",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.37655884901354053,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "6607c319f705b406fee7",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.37655884901354053,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "dd1e2124dae214fc8fe2",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7512396516976907,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "e6069a5c328e67a0597e",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7541593421343387,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "3def9f1a5a92641f87d9",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7563145222312566,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "1b3bc9a1d33c963849a6",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7599324814453442,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "34dbe127a685f441f2fc",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7607492244162652,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "bb10f0cb121e325f9d6a",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7740658151488898,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "6ac9073b97d07faeee1e",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7717281130375839,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "f58dbcc4d3ceccdd0e50",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.749477009505541,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "85d9ad4110c9676c3313",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7548125562472018,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "d0d6f164296365c4f722",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7559060954079354,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "bc3f1a5968acdc607b10",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.40851723114844685,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "77b304d77280a01ffa7e",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.40851723114844685,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "513b4939c8c07090622f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4043619707705246,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "da1fac948f08e7ea77c0",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4043619707705246,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "0e8463f6f4d604d3e0fa",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4043619707705246,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "376140f73e62ea841d67",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.332232536802918,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "0dcac14809b64e24349f",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.332232536802918,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "0994b89c557299f4f167",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3302344364188873,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "aeaf407ebf943ad0b46e",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3302344364188873,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "e0ff49b2abd3c15baa8d",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3302344364188873,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "ca72114fc62e4cd711db",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3681746900429294,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "534d29e5fa3a3f5c7884",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3681746900429294,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "305bc4bac44f753b4f14",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3624202165044679,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "b3a0b0465a773bbea53e",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3624202165044679,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "a1148bcfb28f9bc848eb",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3624202165044679,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "2f4a91c94c7fdc2a3100",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7334484492726774,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "598efad1031c4f1915c3",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7308347136996356,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "1871c2df9a0cde2b86c8",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7496195835166827,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "d4dc1c6064df9eb482c9",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7473290092020435,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "629ca1f7e3285d53962f",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7490119171743975,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "348e2296a1453bf1c452",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4077806396642598,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "bd18afd728f6f2d41795",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4077806396642598,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "d86acd4e47511fed2c13",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.40969596437033,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "ebb9d94f3ad4105755db",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.40969596437033,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "6d72b4464cddcefba81f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.40969596437033,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "0063f8d350b385a39fe9",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7826581378256332,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "0a8f620ce8026628a3f0",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7868167624274208,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "b429ae642797082f53d8",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7895494971835241,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "827d27cfbc75bae0e328",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7818885371256631,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "2ce1732036845f232b34",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7891664407866177,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "af3e068215199193373a",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.763056106219121,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "c10e2c73649e2cea03d7",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7694753369834917,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "522587e23dfcd1353bee",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.769554050739045,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "7603e2f93be9dae66c87",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7714536762730784,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "8e86a54673d20417bfd4",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7685962959922302,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "3a1f401ab516d76c5055",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.34722981289513816,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "31320b8b03a6c3adc0ed",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3648384038793879,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "4e2b648b58ed6d3173a7",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3648384038793879,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "f6d64aeac0057329ce36",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3648384038793879,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "96e4a5525fb2d82fbbea",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3648384038793879,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "90d2a4cef40eb0be886a",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.25826267824738813,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "46fa8fdf9672cb633456",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.25452731876026174,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "7713e2ddba62bec6ffdc",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.25364797657824606,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "44608850ee15530bfaff",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.25476434350085814,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "fcf3f1bfaea7b1a4b2d1",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2553148779800498,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "c6b7ac3a167972dec014",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2567035197434252,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "2f1472b04b2d3bb7c8dc",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.25525453726548636,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "55acec300ebe26f2ce9e",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2554021490966241,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "4f08b772f399508f38e1",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2541113799913005,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "71dace230716a8cd4ec2",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.25366457074026555,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "7283c28cadd5b7528846",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.31312632823892217,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "244fad1d03e2f5c0e7c8",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30236696913184036,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "141cc10e7304d2608a5f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30236696913184036,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "788e7a7cd6cfb0183bfe",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30236696913184036,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "4f266eadd7adaee4e596",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30236696913184036,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "979b7b8f73e2673a72cc",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.31312632823892217,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "0deb188f32259b066df0",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30236696913184036,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "54119948f56140e703ef",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30236696913184036,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "706573630d0ef2d3a718",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30236696913184036,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "9f34db3c253c219db32f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30236696913184036,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "74d1094478c7f788c915",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2765773474427834,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "9445af699557e31bc1d1",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.27771103444010165,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "4ea4f1aa9c3804c2a65e",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2767630287331025,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "1f178389c76a33468ad1",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.27461173125567745,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "db179a74509ba9d43870",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.27697863974999914,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "c82014564501ecdadd07",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2733711612042593,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "0190a254c34b3038ba23",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.27697863974999914,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "08e770ee8fed4daed5db",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2764653688611646,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "a3385705259c3988feb2",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2771701791041415,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "2b11edcc6c3914900248",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.27620793054861664,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "dae533f2b0783e05dacf",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30893703544178347,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "48d0ac56fd15781b707d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3160794934367993,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3a4370244424a82e591d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3160794934367993,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "e5aaac0a933a829d8927",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3160794934367993,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "1d4734c72bf5ecc7e04c",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3160794934367993,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "5fc98ca343c493b3e391",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30893703544178347,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "60af67c293c2aafd67a2",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3160794934367993,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "0da0c7ebb2ef36f24924",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3160794934367993,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "75515753e6a2c4dfecdc",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3160794934367993,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "c54d1824487e475fd887",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3160794934367993,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "8aedd06936489634361b",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2934681959677634,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "c2481c8b44e795d1653c",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3051822334299687,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "d811dedad2480d360347",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30411094944335004,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "b0aa6a9eff4ff66b0d5b",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30524896463534185,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "b52cbe1f237ca48214d5",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3045685901550787,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "0c8b2e56f3b7262e60ff",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3322901021083001,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "29fa300cc9a6cee63243",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.33909313982897743,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "344cbf05b4e80fd27df7",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.33909313982897743,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "bdc096f0d05c62ff7167",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.33909313982897743,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "75498a798ece8a8f8850",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.33909313982897743,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "193257c77ac115f29dbc",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.29183027760177194,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "25268519fca3a344c6f7",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30393905554692907,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "d10342d902568d95b6c7",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3032639564040476,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "270eb39c0aa3a92005f7",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30393905554692907,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "a86307cc9742795a9b58",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.303965139605646,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "2e4940dbcea4b558ca48",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3324539382608786,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "654d67083c13be1e01d9",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3391891755721454,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "20ad6e37d402584c1294",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3391891755721454,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "16b005ea55a708d492c9",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3391891755721454,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "6e1bdc0876edcdf6a4d5",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3391891755721454,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "593af87d90e85692f5e4",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.293820145622397,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "e0957b6d867962186146",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.303589868184776,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "8750e75be6b3efd46490",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30393905554692907,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "54c2d8c7d40a1ce6bb9d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30302437909165014,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "4f8fd136f4bcb1251166",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30446372781339065,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "54115d95c21c359b2232",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3528477566726536,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3c6a525bf2665e3664c2",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3658673731051161,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "21cbfbb43f6a18b77b15",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3658673731051161,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "9cbc337f0f8ffa7179f2",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3658673731051161,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "0e68a00a246839cf5cb2",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3658673731051161,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "43dd349a47440ac5bba4",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3528477566726536,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "264e16f0b66ee821f033",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3658673731051161,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3763323bb8d08fa3d6a3",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3658673731051161,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "2df18babcb10e177d7ed",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3658673731051161,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "bc880263598cb8cfbcef",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3658673731051161,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "8c19df6ed6f0138a39d0",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3169983004559993,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "9c0c27eea3bfe62d973d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3266669928482503,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3dd44b620e3d6c898c72",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3258053318000286,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "81e5b5dc59eded7ef14f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.32758976686365376,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "0d178f7205fecd0d1c7d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3274501938690785,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "5a7f03149524b2cb985b",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3528477566726536,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "4e2b55c9d05d1dc95f66",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3658673731051161,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "e59f3d91c0c75afcbfd0",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3658673731051161,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "d1eca87c973d2c4fbfae",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3658673731051161,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "770e2e04cf7504d6c977",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3658673731051161,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "2d5db9956344e29a4618",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.33841539397309983,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "fe67818c5d9ec8a3b62c",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3389235144973867,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "c8e3156a174c1b7f3564",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3389235144973867,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "56d5db7dcef0e1b8fda5",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3389235144973867,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "4d026af66242a5f6d617",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3389235144973867,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "c7a1b6587a1ae76c1f21",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3136236098785693,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "e3a161ae38a4f67f7ef6",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.31270542814208463,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "45a2c8e8ca0fcc7f70d3",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3119279078383647,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "88d29d9ff971b93adcb4",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3086227071228287,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "17022c93e41be305912a",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3114842290431981,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "2e8632cfeb7d047205fc",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3385056974191789,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "da5b85ae47ae0bc521d0",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3390269982841672,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "2c42339279e3efa77372",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3390269982841672,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "3f336d28f84304f2bb19",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3390269982841672,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "ca05f606d5545dcfceaa",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3390269982841672,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "a6a9b4adcb5fd6a48cbd",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3385056974191789,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "4ec89e610e915e93fc9d",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3390269982841672,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "cffa00699bfbdb9b600e",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3390269982841672,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "175eff998e635edb36de",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3390269982841672,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "2aba3eb2a715813a4597",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.3390269982841672,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "8fcded3403d80716cbca",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.5236305169955846,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "5fe3284f26594f786b54",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.5236305169955846,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "a50f9b17d2b8e7dc0ea2",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.5425134548127205,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "000fd00ecd184452ff98",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.5425134548127205,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "b9e25e11bc7eeb85621c",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.5425134548127205,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "a5a83226a7c4a9804b31",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7371685102910488,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "c4b87f6d0b575ba067b6",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.36854539213883425,
+      "sufficient": false,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "90f5522b3d84fcba40f0",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7246059228258764,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "8d1c1d6fa8c0b82a3530",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7241894310774325,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "76c3235cc42213ccc15f",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7236267597393481,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "206ff6f212adedac74ea",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7821920117954271,
+      "sufficient": true,
+      "score": 75,
+      "level": "high"
+    },
+    {
+      "id": "7a49a8816b93076cd942",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7736326745436775,
+      "sufficient": true,
+      "score": 75,
+      "level": "high"
+    },
+    {
+      "id": "7f08f07df1297075bd23",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7632357061500149,
+      "sufficient": true,
+      "score": 75,
+      "level": "high"
+    },
+    {
+      "id": "36ffecd486343ac5ba1a",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7740735533330175,
+      "sufficient": true,
+      "score": 75,
+      "level": "high"
+    },
+    {
+      "id": "7b9961f5da2b3e7e60c3",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7714836689643768,
+      "sufficient": true,
+      "score": 75,
+      "level": "high"
+    },
+    {
+      "id": "f17c2782d39184ef5c4f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4934978832515434,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "5664a0ac54ecb1154bdc",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4934978832515434,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "cf6845a8126f85b4e382",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.49826332432511294,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "9e76fc620641498da240",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.49826332432511294,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "ad410a8d62c1c3a4c8cf",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.49826332432511294,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "fad9d3bb822768106957",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.5920074422641393,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "254c3dc6531768513d06",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.5920074422641393,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "7e3a1cb1c167f9ecb685",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.6039957665002349,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "06ae4eac041c7d4d91a1",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.6039957665002349,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "c9ee8744fca33af2eccc",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.6039957665002349,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "354f6498d12bdfab9afa",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.5839345421502101,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "214ad536fb1a27857ef3",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.5839345421502101,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "fc105d5d275609775fa3",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.5887085624940981,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "3a8fceb151319e572432",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.5887085624940981,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "a724617ea396073f75b2",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.5887085624940981,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "dd5729ae1b7467ab4f12",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.762507631310765,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "468ad560939117767f36",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7697650167504444,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "0eca8589ac06b6f3f89b",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.757293109519563,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "5d3e290bb49215f8bb34",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.764659243691181,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "27ec0d01b256763cb067",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7564599412088399,
+      "sufficient": true,
+      "score": 65,
+      "level": "high"
+    },
+    {
+      "id": "1340ffac8c4d36e2d204",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.5293190975753785,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "724409ba6facb573fd51",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.5293190975753785,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "268f61ec3d46308550d6",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.5756667745891849,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3aa7dd3bb82de7a66242",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.5756667745891849,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "cd42f1dd8d411cf8b95a",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.5756667745891849,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "86cebaedc195869f2e73",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7479093341047576,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "22ae27bcd4f60c248aa7",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7613314995414192,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "ff21c8d5a3c43eb0d272",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7627697045891962,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "b3970957f31e9a26570c",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7628664045691761,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "ccad4ecd63b7a301d2e4",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.759201880139806,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "4b320d3a303e26997685",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.782877783669427,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "35c00a948beb2a388c1d",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7695952221407647,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "6dd61d068ba0952ca297",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7572465753695686,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "c98f256b6dabaeba5cdc",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.7670913064674111,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "118bf1e26177086b86f4",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.768183567175243,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "cbff802b1c761484e283",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.42998900112149974,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "48b80ff8641036a29ecf",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.4780080707263834,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "a9c5454cff32d40ba781",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.4780080707263834,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "52581804c9f8dfe05562",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.4780080707263834,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "1d396e824b6e15c40ab3",
+      "predicted": 1,
+      "base_predicted": 1,
+      "raw_model_output_uncalibrated": 0.4780080707263834,
+      "sufficient": true,
+      "score": 80,
+      "level": "high"
+    },
+    {
+      "id": "88b0545a64767745c046",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2435217893409977,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "a317a77e023b27ff6bdc",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24160279860616102,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "0fdff48614daf01d2afa",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24059402907576033,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "5855f7cf1bb835183d31",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24145037333286673,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "38e1e05e9ff60494a15c",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2397617002929403,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "51c072597e850cd001e3",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24460620427117893,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "220c5aec4ada2490c2db",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.23930709543244905,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "26a462281fbac8e226e4",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2396440781428841,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "daf318e22deda04080b1",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.24031423382511505,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "39de6e77ab21b456a3d7",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.23909207107358935,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "65dfe4ab3e44aaa402b8",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.26290579668172215,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "686759dcbc2261d41ed8",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.26012342723948517,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "84f71f2da4a532778de9",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.26012342723948517,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "85b52d70cb27d23fbc46",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.26012342723948517,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "ae07941deced21a60143",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.26012342723948517,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "fd0f8faae413ae162f45",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.26290579668172215,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3859d3b319f3a19481c3",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.26012342723948517,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "6746a46970aeaab9a6a4",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.26012342723948517,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "26f13915391fc77d7a25",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.26012342723948517,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "ff98226627a383bb471d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.26012342723948517,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "385b8df379b2602dd84a",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2767501891819176,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "790008886afd75dd1aef",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2727722804668164,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "07ee1a5cd865dddcb993",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.27269201656090497,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "5b0a54aed65145a27334",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.271777257486747,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "67f85495936e76063b44",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2751084481612472,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "28c3bd31a74e9446fdfc",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2784549963114899,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "45ec71489c0026281610",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2718674397828771,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "8eff7ab0c23cd05d1c91",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.27281069325678164,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "95a692967c51d4f4c19c",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.27152991839766644,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "45fc59b6ee6e6a3e4277",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.27616358350789216,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "b8db4bbf2c7409485683",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.301265018332158,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "5a0e3514740154610af3",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2961021184136015,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "88b644266da4ca5ce180",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2961021184136015,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "6ff10becfcc8282771de",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2961021184136015,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "f2dddfd04af491a1cc14",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2961021184136015,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "552e63394cfbf3217ed2",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.301265018332158,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "d2b7c52635cee0f971a9",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2961021184136015,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "79fa2d7eebee18113d2c",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2961021184136015,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "e75535b641c877af8990",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2961021184136015,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "12c75a7a5a9150601529",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.2961021184136015,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "7d672670e9e41ea4c025",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.370043481657779,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "f8302bee398567c3e934",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.35469755466897707,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "7387c1c5d5d67657ac9f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.35356746246564225,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "f00a4752cf3ccc8dc0a8",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3545004434691433,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "6147003f72562cd7795c",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.35247679489154005,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "b90b26ecf879098f46f7",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4281205981995236,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "a8dce811f2bfc2df6c1c",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.41234648366772014,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "7db4360d560a7040ee88",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.41234648366772014,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3c7a1bbf51a201f39bfc",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.41234648366772014,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "9de6a14c243e371c4883",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.41234648366772014,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "d839a8f85c60722a7adc",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3667963954100382,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "c85f8681a82b98f548c2",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.35539899894962784,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "28dbf6d0980cd1ec4f31",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3546404081171887,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "2c359b7fa375ca184753",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3550428295010397,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "e9b0c8713b8a3810c023",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3534101526365211,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "e6cc0930581a8380809f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4274787831021622,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "7a201f76bcc6abb6f250",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.41191125603369677,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "5eb48f3913e1e69e7fe3",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.41191125603369677,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "6ab17c874208e321638f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.41191125603369677,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "29ffc1657a7f9c216128",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.41191125603369677,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "59a1a8306cb34a835260",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3670267573734072,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "0c91d440619378232dfc",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.35421689233820536,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "c46af5f71006ef269da8",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.35231406951700467,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "1568014fee359b0dc6d4",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.35469755466897707,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3b5f69c7ce5ce8d2aa95",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3538394698222165,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "aa8fd7965349b2f78da4",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3299139634605734,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "eea86e377c71ce40651a",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.33879423363745953,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "14e51e566131d1ba9e76",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.33879423363745953,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "7d90d4fd3b56239daa10",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.33879423363745953,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "e1d30f47e2e6280f7780",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.33879423363745953,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3b3df6ec8adfde86e1c1",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3299139634605734,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "565ac12c0929ff3d8af0",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.33879423363745953,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "38185455885fbf4d604f",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.33879423363745953,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3c42210ab09425f68b58",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.33879423363745953,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "ea41ffef3c9edd88cc8b",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.33879423363745953,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3390b52893f575b651c7",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3055528523329293,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3a7a4fe7155dcb4845b1",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.303490218109439,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "69451bcf316a98af5abe",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3014586685938766,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "c43ca4641c33d8ce365c",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3028643388135092,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "d2cc22b040af25a34739",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.30411346415769086,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "1b0bba42fdb86a4b59a6",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3299139634605734,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "c909303bd70dced7b154",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.33879423363745953,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "2bb8d4a66652ecab411c",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.33879423363745953,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "1115d1630a57f72fb6e7",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.33879423363745953,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "909655a562220af1be0a",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.33879423363745953,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "93c81168213e0c693309",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4530625812084439,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "e035c5bcd49ba5fd4f31",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4641486103150742,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "7a8bed52ef9f51c05020",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4641486103150742,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "17831e51307389ae2313",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4641486103150742,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "55b5cc6806c9e9d20a6d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4641486103150742,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "c17d57eaaee713317109",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4046428724999572,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "a61bd4848b730fadd45b",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3940254060625683,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "289a770f2d66b9707cca",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.39567218449923464,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "3814a785985de188a28d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3967860480933106,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "36a512bdd5c0905dcb0c",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.3949608534649989,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "491fb65b5c1e63df50fa",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4544289487944706,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "90e2e8de1bd22e8d67d2",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4658062111489065,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "fdcaf9992d3952167b9d",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4658062111489065,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "c754891dc5f6f0bd9d21",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4658062111489065,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "6367e7558279118e9395",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4658062111489065,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "51df8f92f1693091888a",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4544289487944706,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "2fb12a50e733e5d19aa9",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4658062111489065,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "01857c9aa5474c50a740",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4658062111489065,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "07bef02f99642b208c5b",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4658062111489065,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    },
+    {
+      "id": "cd5b137dda2e1d7bc64b",
+      "predicted": 0,
+      "base_predicted": 0,
+      "raw_model_output_uncalibrated": 0.4658062111489065,
+      "sufficient": true,
+      "score": 0,
+      "level": "low"
+    }
+  ],
+  "model_sha256": "7bf909e7c605583bebbd1338cb983f27665785e86a7e35ab61398d96669b52fe",
+  "analysis_hashes": {
+    "backend/analysis.py": "b3ff4d7b4d375ec5a5c799f316d442d2c26a312dfc2a3eb7ee6408d22ce0beb8",
+    "backend/normalization.py": "b65f816b26d0e502d90e8c32af55eada8bdbf5247f151bc945f951931d3cd01c",
+    "backend/image_triage.py": "d49074206b8a54e06afeaab3a4b3af7ed64daba88a1099cbefcfa486c9bf9e8b",
+    "backend/ocr.py": "571f466217817dfc345ae9bacb55c4bf25140483b49366a80e7d53c3629cc751",
+    "backend/ocr_urls.py": "1857a2ad2e3ea935cd58408c335466b4cfc4f3c28077fdcfb927c92c3b349ee2",
+    "backend/attribution.py": "ea2e0a1d4cad4b8eb6d8e01b70556ff7b52843799cbe31a1d796a84f93efd6f8",
+    "backend/links.py": "8989f0cd4c00e92fbda6fd945fd51b6e3afaf306adaafa5558a6acae3e649de2",
+    "backend/pipeline.py": "67e1a33763a35d600c6e887b97c44baba8b4e67a026ca2cac74abb7aca08b62e",
+    "backend/weights.json": "842a0cad8fe6f809cb3b02b482acc4bbd7b2dab18b1fdf3d2b9b53bf9d60b914",
+    "backend/config.py": "e39aebe8976fb706d2caeb4747bf588c8706b48cde3c0b6eb66c092112256de0",
+    "backend/providers.py": "de23a984a3222f6038a8b4dee73a1f927e0e466c107e9bdb2ac182b39bf64667",
+    "backend/schemas.py": "f687dd8447e76b193185e45f63efaf3908a289ba59a3a9e443618e112c7d3609",
+    "backend/material_identity.py": "dc4b0169286573743d785fb9d591271395b2516772aa5a9840abbf348b811879",
+    "backend/qr.py": "f4e4d2f9db9ac65f8e7d82d1874fe6df22ee9368f30a7f3a06395a68e412947f",
+    "backend/storage.py": "eb774a2f97440ffdc587835a5438f3490d487f5162d4654f9637d7c85d3dac55",
+    "backend/queue_store.py": "06fb5d79385b44182cf2e708162e3911922b988f873fe91b5a26f83029a64810",
+    "backend/track_extensions.py": "b6b4da7ae46c465f1c49f5f883d8466042de02ab44661a477f930cd5cf154ba3"
+  },
+  "input_hashes": {
+    "blind.jsonl": "090ee01ed4309adc060dd8fa0cae9d16e4fa7fa13d152bb3c2fd7377ee10d5f9",
+    "inputs.jsonl": "df01b5a0344d3c697d115eccdc33a9a0c4c0b6d4c787b74e8db58553e7f93561",
+    "pages.json": "965a9e8cd9b5bed84bbcf30a8737b70f63f1e1c70f1c5151fb285dafd0bf4bfa",
+    "PROVENANCE.md": "c56c6f955be627d8b24e322058ed2d1440a56cf95dc2e8c545f2e44c02a495bb",
+    "images/0063f8d350b385a39fe9.jpg": "b922e795560ea742cb5c49705e9176a1992dd601912210d4a71f77fd61c4f36c",
+    "images/049e54e3e06e0111e073.jpg": "09d14e6a32d4e7cf570742a26c5acdd46c6167eb737a06189e03783a3f637a31",
+    "images/058bb15564789973f5a7.jpg": "207f77c7466a68e1b02d49b47024f5b03b9cba4ff419da0b5845fb1f9c6f877e",
+    "images/08696814072291e4e85d.jpg": "76b4506412cd34bec277ca640ce296e05d19d36b95af9b45286f145422111879",
+    "images/094d9a4cd5c70afb2c11.jpg": "98aaa910ef7c5eef04f4c1586b1d8d829b6c6a9f86758eaf8a48c3bcdf4d4a4d",
+    "images/0c8b2e56f3b7262e60ff.jpg": "15ecb1ab33fb5b78b33b54a95bebea5d9aceb093a89d756bca083fa43eb1d2ef",
+    "images/0dbb6e41bae10e8bfb1f.jpg": "5c6a1e6f0bdbf0d797378b038208c472153a4197dd0cb9f90ddf54e8b0cc7a67",
+    "images/0dcac14809b64e24349f.jpg": "6de2234de8bb20652a383b10caf81e25fd9d89f22fd591c93cf3b97d22f69218",
+    "images/0f3301badf2753c74bd5.jpg": "01c28a08383c6c4f259a19fc9c3022faa5fa66cbf003a5570c956ea6370d1648",
+    "images/10a889717f0fe189b2b4.jpg": "c5a255151771a59b28c9ff73310832f1bfe5f604f38c41d3aec9987f578f20b5",
+    "images/125545b707f7ea437095.jpg": "cddf5cb95c84928eda8c1fa57b07a6e00a866ede6bc354b4406cbe7bdd099b89",
+    "images/1340ffac8c4d36e2d204.jpg": "821a9e4eeb38a37454f05793c82ab78e0bdbbed200fbd4f319b20a67bd377bec",
+    "images/144d877af9367ef57dc2.jpg": "d127abe5972a3daba428200c0c4266d7b44a8c09fa423f077c3e677b6c304407",
+    "images/193257c77ac115f29dbc.jpg": "13e7b42eab95d90fce0d78666ffb3da848d789793325ab883f7449f5237022e0",
+    "images/19cd0e8d4bda1b584340.jpg": "cd2128822d88c1653973802e009a876ede039b9b24d0e7a90ca520e7c55bc686",
+    "images/1b0bba42fdb86a4b59a6.jpg": "587ac473e67d10b7dee4c40cc302f906699a99f94181b1301d17118a9b78cc45",
+    "images/1f4b03286dc262eb8569.jpg": "005885867a2203758c42136a894532fed62b907f19392421e3692e98880151e3",
+    "images/2000ab50b79d5b28db76.jpg": "df06a69c223a04351e67ef4a142b24f8c921e194c7b0348452a1bcc6989b6045",
+    "images/206ff6f212adedac74ea.jpg": "75fcad9dc769b061e0ed897cb6d3469abf3c0eb673ac9e6e0f8a754907eee6cd",
+    "images/214ad536fb1a27857ef3.jpg": "43bea6696b058bfeb01a5f550aee3ffe796ab478c9217ed0da74d817e88c10f4",
+    "images/254c3dc6531768513d06.jpg": "9f4fe2030b3b2ae3ba694bf8781e7e333f48d7db89b356f6cdf5aff51334eaae",
+    "images/28c3bd31a74e9446fdfc.jpg": "0c7a56bdd654c8316729dbfc9cf95cf3bfca06b520824226d1b350d9a1cdfc39",
+    "images/297e4ce7b6dcf3abaa69.jpg": "18a944f5b87ece2d7220a11d09a8026b1e39bcc673b424eeec6c6d85717722e4",
+    "images/2a078001b725eeb9520a.jpg": "87f023afbdfa74384e74335439584bc06d15081b57f6cc67721c3e4176bd1fd5",
+    "images/2d3ce22091880df9f204.jpg": "b843990d89f87f48d8be78fc66adda4bfd2c29f15527f19f43f8695dea9222f9",
+    "images/2d5db9956344e29a4618.jpg": "981f0e114ac5360df4163576038f61b95fa681a9b8544309f36e1047aa74a3e3",
+    "images/2e4940dbcea4b558ca48.jpg": "22b0c4cadde6b85e728e64a31ad74b3a3f8ba31fd1c6604b3bf11be75c9a30a0",
+    "images/2e8632cfeb7d047205fc.jpg": "137802566cc06aeb68ea2c474cb0bb3fc9fbbaa8fa3b58a7f85e5e287ce2ce6f",
+    "images/2f321928e2bb7d258527.jpg": "5c5858ba7c55136a5b0cafd62790d024fcb03fdc4ca987899b250f6f3d66a38a",
+    "images/2f4a91c94c7fdc2a3100.jpg": "b3e32560349817ebfa90b6c3c1d428c9a21dd253b8ff19532c8b697f4654142d",
+    "images/2fd3dc87fd337c1fee3c.jpg": "d0f929f62d82b261383260bf302c5899ee4ae3909f494ffe22519476da714ae8",
+    "images/303dcf9879aa24e797f2.jpg": "27a4c050547e4bb74f611d42a8396056c0ff430ee3668e1c15cae58185e053bd",
+    "images/3390b52893f575b651c7.jpg": "fb34eb60c9ed7b647474611d6c6c52c3b866b697de9fe1fc328c129a80add912",
+    "images/33a3a9c7e6f500caa9aa.jpg": "80abe2156bbda066b0fa5c7e8190607ac2f3df597867a03f34d0c500bec49c06",
+    "images/3452f1ecaa6f2f215b06.jpg": "9ad9253c3d2bc09b75b679451f15c05f559bfd36f8bea431264c2ec644068351",
+    "images/348e2296a1453bf1c452.jpg": "44b38aad12076627199b1c8c81658672387a25785e8ed923527cd688ab844d78",
+    "images/354f6498d12bdfab9afa.jpg": "23ddeaa511f9959360ae45bad850c9edd362b34a8c3d63ec40e7036362a775ef",
+    "images/36d1b34cee790e226b52.jpg": "d82f5256b4623e5fad43958f4457eeb3a1f280b1293cf5615928a9450edeff34",
+    "images/376140f73e62ea841d67.jpg": "1b5e71976fdbc86b61376268f7134aed9b36599776eab02729abfb044c003b63",
+    "images/37bd1e01f9cbc2c2f615.jpg": "6535d3ec58fdb3c8364a43883626658d51002afe7fa71a499d55d79cecdcf098",
+    "images/3808f9ecfa04bef3399e.jpg": "a259dfbb35844663ca9b64f578e58c908356d2904be12aea00b396023b23164d",
+    "images/385b8df379b2602dd84a.jpg": "22f46cc254da0e2148b834953d635ee8e75ca864ee7cb02d5c1da05d3610f937",
+    "images/3a1f401ab516d76c5055.jpg": "1353fb1d9e9f93b1e1adfbd3b0f8dd6d2dba99dd34bb02dcd6508a0a96d0fb40",
+    "images/3b3df6ec8adfde86e1c1.jpg": "a9c5a6c95f6e88c5a3c61fdc156079e0606082ce16c73adad606318d9a199c23",
+    "images/3f62bbf547dab168d684.jpg": "a478d71c81c7c955aa684cdca9a8f6cca25f57eb4fd47abc304f605760850c33",
+    "images/41080ff8bfd8425aaacf.jpg": "099c47b1c4a9ba640b2523b05287f01b96d7ef59b7509d6f567432779834abde",
+    "images/4276daa0f3b64b66ec75.jpg": "28381fb1957dc8305bd0655b7660594bcd614dee2984509309a464d06eefb661",
+    "images/43dd349a47440ac5bba4.jpg": "c1905bbcb00aad6877bf6358a6efc3fa593a14f7c4a013d46751890d37d5ad97",
+    "images/43eae229847e820fada7.jpg": "e7ccae58506695580b2d251d64fe63a1bee3961bad4b8f39f95b5713c01fff42",
+    "images/44d29a6e49136095ae55.jpg": "0c62536a8f7e2a842b5430164b69b0f6da1b17cc3178604ca7686898587f5e26",
+    "images/468ad560939117767f36.jpg": "7db42d293086381b072e31bb7cdc3923cb6ab4b3e408aa477ed1b23261fc4aa4",
+    "images/48464b54e0a9b5b7ec3a.jpg": "282c2830b4983095a4f4157bdc1d518a5791ba3701680ca561305ccb16f268cc",
+    "images/491fb65b5c1e63df50fa.jpg": "56727c9fa037f0177f0bd084c25811ae8195fa2c0bf47774dfd1123429460fa3",
+    "images/4a582ba2f43de432a59d.jpg": "3995c9f966163a97e122f06e686a9ae5af77748b0427a57476ce5e3db3342f28",
+    "images/4a9b5ffb8e8f2f500e58.jpg": "a48edb738f0ec3263d1528a9e9697528330108aca6e8027e1a2263c60b619a37",
+    "images/4b320d3a303e26997685.jpg": "942b5aedcba854b40ee8dcd9397aa26760836597df2cd041d0fb3aaf6dbdcd59",
+    "images/4ecaea4cbcdc1c34040b.jpg": "a9ceec2d1eba5429c53630b6f21ce3bcde38b76fd2effa24e2fface7fd2dc1f4",
+    "images/4ee104497fb05ee213e0.jpg": "6ab170759965c358ac83ae7d0eec1fb193785bbedb787d0bedf106d4c11f1cf8",
+    "images/51c072597e850cd001e3.jpg": "e712117e6d9071e94e28a5ad87657f9284a8d9778bf98c687fdf26a0ae99316d",
+    "images/51df8f92f1693091888a.jpg": "12e41c293e868242f63c8fff9d6cfe1ec96a029501c09b862dc3409ca8340eda",
+    "images/53444c8e914e65e30067.jpg": "8bcb3933e39fc9475e9d5462167f1b931800a5bc68e4d134e492cf4966bb092f",
+    "images/534d29e5fa3a3f5c7884.jpg": "0eb9508f023a8a9b28e5ac3e2e7f3673980aea2a806a8c99e2adfe386b6694f1",
+    "images/54115d95c21c359b2232.jpg": "a5d5361b33a4a9c707c270b842831e5bfaf1051baf6c566b44e1f318e45778e6",
+    "images/552e63394cfbf3217ed2.jpg": "741197cac2e62d94ae22d729379bec0540c551c84c78837ee17c49bc748c93f5",
+    "images/5662ffeef339a95c4b98.jpg": "db04d58b0a7de5941d4960da08854e8c8084eda294cc68882f82d5fe3d7845a8",
+    "images/5664a0ac54ecb1154bdc.jpg": "436e5aa004087bac9b867d1d5f36cac3a07c06a7946a07f6a07ba909a73fd7c4",
+    "images/593af87d90e85692f5e4.jpg": "a7a73e3251802ca15b8a0bafec498c09564ac560fe4d956e68940be4a0a075e6",
+    "images/598efad1031c4f1915c3.jpg": "8be1dd1880e179ea0115fef986f5bd5ceda457bc73be5575f84f6baf6437cae9",
+    "images/59a1a8306cb34a835260.jpg": "fc6d7544699865b7244039c3624610d48faf83be84edef831ecab4ac6444bf9e",
+    "images/5a7f03149524b2cb985b.jpg": "69bedf6adb04bce3aedd4fa54effdd44b078c62dddfc547279989fe345047116",
+    "images/5fc98ca343c493b3e391.jpg": "54706632d5130cfa2d198ff0eebf851ffb63b1ef3e594892aa513cd58979aa6b",
+    "images/5fe3284f26594f786b54.jpg": "34dfd1e6b1b727288a84dad540fc344b4f4e577d5f88de5ef8edae09d7d029a2",
+    "images/649dd4c406dc5f7ea5f1.jpg": "e81d5d68fc4688a0b1e0ae2b19f5ae2d08c007ebf4944581fea756ae80a6d3a9",
+    "images/65dfe4ab3e44aaa402b8.jpg": "12c427af6123b4bd5e7936dec1b3069003b8cb0cba5db09e8c2f781875bbf091",
+    "images/6ac9073b97d07faeee1e.jpg": "4d31d007c3ad809c3ea4134ce22e55e4b4b70c0f9d4fd5eb2b4b3a364d0475f9",
+    "images/6e9d5850a1f8fe7597a6.jpg": "85c4b7efc759b66a602456066159cd372ca44d9a60bb17e6c93dbedd16249973",
+    "images/724409ba6facb573fd51.jpg": "7ef4f21d629ac6fbea6cdb0bcfe17d20b732d15f5a2f1bd18177004319a6e305",
+    "images/7283c28cadd5b7528846.jpg": "b0cccea0b814e08a73b00cf0ab470a92d0518726834d4240c7e4de037e23ac54",
+    "images/74d1094478c7f788c915.jpg": "8c2f75c72df4cc0d823280725239481a8243ea4d8587f8b8fbacb8b6a14004d0",
+    "images/74ede78c922147e9adcd.jpg": "2e231dccbda8d309b3e192a75180e209af194b18f77495e3594c7a550fff6936",
+    "images/7722d9b0abc2481b4d30.jpg": "5a976b575e3bbf8260f27dfc75f3cb78ae1fdc237d88fd8f2ba2980eb107766e",
+    "images/77b304d77280a01ffa7e.jpg": "2a802a2871d9157747f5b158b62d4390219d679067f4dfecf914b796ee8fa905",
+    "images/78448651b232aab7d1dd.jpg": "e86247060ee1684b4669006bb5ddf2c53c39831827f7d6f4df7855bbca4d683c",
+    "images/7a49a8816b93076cd942.jpg": "deab73d71a46641c28efe0f91bdd81be135b8b6581f82fcc7c2e312d0b4995a1",
+    "images/7d672670e9e41ea4c025.jpg": "9804c9053064ef943cdaebd4659779d6001795ab9fbf8968fc07ec0ba6919ac6",
+    "images/802ea4c03d44139e96aa.jpg": "97a93f810f8168cdc89947e85a1ccd918629156350dbeed36f2837f27f6b6b90",
+    "images/809bc78773ac10828b63.jpg": "af85b65bf84aaebd20e0b7abbf59dc806307e220108594ef0c6add2743385e91",
+    "images/847ee0495c569f7890f3.jpg": "6a9ec14fd3a1fa8e84ed9b1e26c0213ac92de43fe25acaf3eebc1dc0b62c8328",
+    "images/86cebaedc195869f2e73.jpg": "3c53a8771bd67a5efa3c386d9521493d95e5ceb051a6e524ce21701a29b8a598",
+    "images/88b0545a64767745c046.jpg": "45038e0c2905510b6cfac222ebc330597881cc1c8abfafa72de3de1705b9f9b1",
+    "images/8aedd06936489634361b.jpg": "fd76f811cb189aa75bdc9cef51ed4156c834ad6d1ed8557630c385de43d0f92d",
+    "images/8c19df6ed6f0138a39d0.jpg": "a9b446dec4629fc6e30496a7d7464544241fed7b5c69f041ed35d60d5dc09a50",
+    "images/8fcded3403d80716cbca.jpg": "682494a394568902185801b70525072b344958439fcffe6a8f3f3aad2a9903d2",
+    "images/90312a5b2578f19f0e0e.jpg": "2076e32c5a393b34e22ca189be07e725649285802bbd5986fbacbe8be691745c",
+    "images/90bcc6e665d569e79bdd.jpg": "02053693fb23e924cd64a6a21fd895d245cfe78f583cbcea7311327e7b6ef94c",
+    "images/90d2a4cef40eb0be886a.jpg": "0b9177a379db012a6ba35126a112c8d1a2489ce7530a76424a88ee2d24a1479a",
+    "images/92e5a34e850e4a2e6bbe.jpg": "f4c5bc037cb124c57294a0ee1591f5ca2e9fc2cd62e1750a5a4e6de9863b7b2a",
+    "images/93c81168213e0c693309.jpg": "e84ec7b2a5d24b2ab8124f100a44269d9245791c7cd6c1970dfbf2a8ed97367f",
+    "images/93c91ab5da9fb25bc3b2.jpg": "5c1d9bf1db22d2fcdf59f0fd9d3f09b89f236c836c4bdf893922ac91fdc0b93e",
+    "images/9749abc99f073a0d6b71.jpg": "3c76bfcff662ddfffb9262b4be21ca28842f1401f789cb234be7e14adcfddfbc",
+    "images/979b7b8f73e2673a72cc.jpg": "7aa2fa9d1265d8502dd43bd39bb897d8b44d9fd590d2f1d71f54af2b3c01f87a",
+    "images/9d78d1251412c2f29fb6.jpg": "3c178f6a38a1daa46c4f06b0ba885d6e61db5a8ef47ced1783408610329dcb8a",
+    "images/9e19d1dd4236489d4163.jpg": "389a20e17b91ea04c107b68c17e6f89903881b919e9f10cf45e0aa21b6a558ce",
+    "images/a35c854efb1abd18a3fb.jpg": "c02fd48b4382039bdcdcece53f9a1e35b00e1394db3ab2afe2f485fbcea0c28c",
+    "images/a4afd6af1fde217a4833.jpg": "b414939087ff85a64e224e68bb8912556f94d7fcfd1a0b7acd90fc5cc59166a7",
+    "images/a5a83226a7c4a9804b31.jpg": "59a4ec234db575e155c8a123d90e8a69eef67958b43fb6a9c4004a04a5066c7a",
+    "images/a6a9b4adcb5fd6a48cbd.jpg": "ceab53477cbe0b28e19cba13c0bf1d67c6db6627d499512636c96b03bf95c173",
+    "images/a8dc9c42e9813b918b28.jpg": "687850bf89b372171790996c8d7bced3458725db88d057b3439b2152c1c8e27b",
+    "images/aa8fd7965349b2f78da4.jpg": "6e0cea49e1cdec9882726db429a646fffe10a7d3abc652df5624b5b4b9e5b79e",
+    "images/af3e068215199193373a.jpg": "48455f51e980e5263fc1de971b20e51b5a7b09185631262fbf75f1c5b9f7a1ec",
+    "images/b8db4bbf2c7409485683.jpg": "9d55571019da19fa59abd3b383aebcf4bb99c5ce6c07c1880c741e2f597071eb",
+    "images/b90b26ecf879098f46f7.jpg": "4e25618729291e4fcada67286841ba09d008e2e4a7c4c998cf4c6f20312dd57b",
+    "images/bb10f0cb121e325f9d6a.jpg": "3291650201a2931bf8897e52e0989cd096c37292e55363024a689e910e0e85af",
+    "images/bc3f1a5968acdc607b10.jpg": "4d8e1a7269adcf8a1a6a3a54c564eb53267c6f027cc4a9593c90e7474d678c5b",
+    "images/bd18afd728f6f2d41795.jpg": "e434a6569d4496adbe7a6d46daf9209d13e62d02ab4ed96083a1d3ef6caf86a4",
+    "images/c17d57eaaee713317109.jpg": "ef11495d9c1bc81581bc7341fc49950cf44058bbf09f8f530e8d0584537b48d2",
+    "images/c18f6d016c89c6a3ff8a.jpg": "1857679c1ae896395f68ed53d9d59575ad785296afdfb15efd0e9f04f0da42d9",
+    "images/c4b87f6d0b575ba067b6.jpg": "81d2fa2c3f7cc0fb17fc9ec8d768da501678bb291d931784d9b499690fb16430",
+    "images/c59f941811dfda857bc8.jpg": "fe5734e7016125f308807ab69d22163ec87cd05fc77f2ce45bb8a589f320d8f2",
+    "images/c6b7ac3a167972dec014.jpg": "cf48b76639dcb6e6970f9d27839381c8da262e588e3b99df7f266f9786acce79",
+    "images/c7a1b6587a1ae76c1f21.jpg": "cbaed1f6390c5b40800396cb588e30173e45116f6acbcacbb4eea48f1f865515",
+    "images/c82014564501ecdadd07.jpg": "a7caa90701af94cab49cf0ecc9739d28d9e962cd5a9d16df4b4ce472eb94fa8e",
+    "images/c8a9e5e64f7100d49845.jpg": "f2db1fed9d19d316c27d51f3d7f7809ada0a020290b5029a3c4828e76c597b2f",
+    "images/c9ebae8fc21825da4e1f.jpg": "9501dfb7840b317ef7e6a3adb9964aa17ce7413e51c216195bb9fc6e4e846251",
+    "images/ca72114fc62e4cd711db.jpg": "422d47b216b465c066e98782d77d60bc0a69a5c10337d6852d6749bb28cf39c8",
+    "images/cb129a1a3f7737b98d1f.jpg": "2889e2bcfb8717d985f9733429f8f62535ffdf56fffddd6bc636d5f49bf25d17",
+    "images/cbff802b1c761484e283.jpg": "16953eacb4f2fd8523959a232f8bcb2128499e4de988aa0c416b209fd4e7d317",
+    "images/cd2f40195fb218a778a2.jpg": "510bfdfcbf8cbc4d3d6a02ff18ad270220bdcbb9ca2b946d49ccb812075a8af7",
+    "images/cf389c29ae42c7fed67b.jpg": "e4e7e767b6f82bd17ef5a54fca703f5543a25824da84d731a8368eaeb55afd93",
+    "images/cfa2797baeec52e961af.jpg": "2c30caa76499c6b6a278e23bbfee7b10ac5874dc54ab72c13471625ba1fd401c",
+    "images/cfcff76d08d84457d460.jpg": "92460a91734bddc471b4f6756606013729d8af257c13b42046ba8a66ed8ce3a6",
+    "images/d138e0ac499413ef21ea.jpg": "77e34da6ad4afd9bc0a90b87e78b883ae95f3fdd149be54e08393b31f6dcbb8a",
+    "images/d23a77914371feb23aea.jpg": "2c48378c7fe60a7091165c9731402d219c340059203c93af4c5446de89283b9d",
+    "images/d2d6e50d322a831b6a10.jpg": "5ee17a9d8f4430417e65c8781b11103aebcd4bb15fd695a03c76bab65afec070",
+    "images/d5980ffb0a9b2bc80607.jpg": "a9ac93d3a7825e010bed8bcccf04d7d80fcb70dc5f22885663a859fa4940ded9",
+    "images/d839a8f85c60722a7adc.jpg": "15951a7e830b1700e88299548afa228223c14419e4bdf8cf91d7ce1c79afac18",
+    "images/d8f9eb63c4e1af487533.jpg": "563e58c5e97c66bf51fb13235708307f3c203a45595181dbf2368e4e887d6b90",
+    "images/dae533f2b0783e05dacf.jpg": "4cf467d91f5dc50bbcd61b7c48756d3195245667b59f8b1f7d078a2abe219532",
+    "images/dd027156bbd36b224c4d.jpg": "2de110df3a70d0353bdd14d7412173447ffdf1d884550e12c8595805903f0228",
+    "images/dd1e2124dae214fc8fe2.jpg": "f6518244b1cb72b71f76fe7b904ac3cb4c7c40e9448dd6dbd9df64a6b249f19b",
+    "images/dd5729ae1b7467ab4f12.jpg": "d5d2c1f823b46e9f1ea1fd819828104cc329d3b86039ae8fa3019f92182ef8e0",
+    "images/e3473688bc6058050895.jpg": "93054e01e3795b804389c5d696df20c94fb17d2c2e6f2a5b4569433a3e94480a",
+    "images/e362cf7ea601e47c4a08.jpg": "5ea8676843317d5b48ade46eedf2204602d878c7959a302c442c3359e2acc32e",
+    "images/e3cd413e672e45ebbf45.jpg": "b805d7600749284bb8688a4e993089e6a875dc2cbfc28b1ae4ee2d218dd6b237",
+    "images/e5c72906047e4fda0668.jpg": "96eaf394d96a942b221d0d08f82dbd9e1f8cb54edaea37bf8e99dd97b8fc5470",
+    "images/e6069a5c328e67a0597e.jpg": "603320c5add38db4aa12e531473b1417f984c15b5c76f015a4c0c5066c51db93",
+    "images/e65392bc30e91d64737a.jpg": "877f25e66d5b322e23e263b168600255a55052169f2a65d209b5819ad316c6a8",
+    "images/e6a62735544143e81ae7.jpg": "9f29f3211fb8c256cee142f84124150cbe5a95c86bfaa8d7846f4d63491229bc",
+    "images/e6cc0930581a8380809f.jpg": "5034d723dcd66d102f29e3eaaff319200fde8c612ca5c4a3da97c685dd1c138a",
+    "images/e7a526ded369d7ea96dd.jpg": "dcf99ea787bf62abc5653cafcb8544cb36a34fe4c53dabd70d4eb6d266b4d50b",
+    "images/e99514568ac412ff3756.jpg": "a2d1722d8d630ad38b884885f210c55851c448af2af9cc33e270a5270456fdad",
+    "images/ec07f15e14fe8c6c2c55.jpg": "49a8f6aab0f2bcd00fffcae6c783366609f075e311fc972eafa0622f80ae1b23",
+    "images/ee364a0a9e584bc32eef.jpg": "999d20f074898c78fb48837fd41082e69de4fc252d9e3f0c27774b9d8c3add95",
+    "images/f17c2782d39184ef5c4f.jpg": "480a403fadfb05b95926ef544e456ab1e08ab2a13911728314715ba8fae59493",
+    "images/f23a051202f8fb89734e.jpg": "8fcc4bc86087b692f63bd128670806407f5e5c87553574e0f47b9ae6c8674c72",
+    "images/fa58cef86cd0f6a32471.jpg": "86a12abda6440d0eb57d857b56f088d75d6d238a98660dfee70f040df3fa1de2",
+    "images/fad9d3bb822768106957.jpg": "59d6fdc7f32115f402fd72b1eaf1d8f0662da50599fc117d275fe2869fac8c2d",
+    "images/fbd6d392c13b10905b3c.jpg": "d7085c7b315736bd1d220c28f92f720620a450e351c335c6f180f44c334173be",
+    "images/fd0f8faae413ae162f45.jpg": "252165c2de2d8ffe429811ead8bc49d79f1df322c1a979250126b862efe7fbbc",
+    "images/ff0f80972cac9c464f1d.jpg": "fbc461ec75167d75dbf293ffe53e1add4aaa2068b65edcd43b566e04bf3f198d"
+  },
+  "annotation_access": "none"
+}

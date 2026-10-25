@@ -2,7 +2,7 @@
 const $ = id => document.getElementById(id);
 const el = (tag, text, cls) => { const n = document.createElement(tag); if (text != null) n.textContent = text; if (cls) n.className = cls; return n; };
 const pct = x => x == null ? '—' : (100 * x).toFixed(1) + '%';
-const measure = (row, key) => pct(row[key]) + (row[key + '_ci'] ? ' [' + row[key + '_ci'].map(pct).join('–') + ']' : '');
+const measure = (row, key) => { const ci = row[key + '_ci'] || row[key + '_wilson95']; return pct(row[key]) + (ci ? ' [' + ci.map(pct).join('–') + ']' : ''); };
 function showEvidence(doc, ids) {
   const box = $('evidence'); box.replaceChildren();
   const selected = doc.graph.evidence.filter(e => ids.includes(e.id));
@@ -34,7 +34,7 @@ fetch('data.json').then(r => { if(!r.ok) throw Error('Не удалось заг
   $('loading').hidden = true;
   data.cases.forEach((doc, i) => {const b = el('button', doc.title); b.onclick = () => showCase(doc, i); $('examples').append(b);});
   showCase(data.cases[0],0);
-  const labels = {'all':'Все случаи','language:ru':'Русский','language:kk':'Казахский','language:mixed':'Смешанный','language:translit':'Транслит','image':'Изображения','text':'Текст'};
+  const labels = {'all':'Все случаи','language:ru':'Русский','language:kk':'Казахский','language:mixed':'Смешанный','language:translit':'Транслит','format:image':'Изображения','format:text':'Текст'};
   for (const [name,row] of [['all',data.evaluation.full],...Object.entries(data.evaluation.slices)]) {const tr=el('tr'); for(const val of [labels[name]||name,row.n,measure(row,'precision'),measure(row,'recall'),measure(row,'fpr')]) tr.append(el('td',val)); $('metric-rows').append(tr);}
 }).catch(e => {$('loading').textContent=e.message;});
 fetch('network.json').then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{
