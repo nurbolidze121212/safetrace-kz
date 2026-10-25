@@ -50,7 +50,7 @@ function getPage(url, pinnedAddress) {
       method: 'GET',
       agent: false,
       timeout: TIMEOUT_MS,
-      lookup: (_host, _options, done) => done(null, pinnedAddress, 4),
+      lookup: pinnedLookup(pinnedAddress),
       headers: {'User-Agent': 'SafeTrace-KZ/3.0 (+https://github.com/nurbolidze121212/safetrace-kz)', 'Accept': 'text/html, text/plain;q=0.8', 'Cookie': '', 'Range': `bytes=0-${MAX_BYTES - 1}`},
     }, response => {
       const status = response.statusCode || 0;
@@ -71,6 +71,12 @@ function getPage(url, pinnedAddress) {
     req.on('error', reject);
     req.end();
   });
+}
+
+export function pinnedLookup(address) {
+  return (_host, options, done) => options.all
+    ? done(null, [{address, family: 4}])
+    : done(null, address, 4);
 }
 
 function visibleText(html) {
