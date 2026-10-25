@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-25T15:21:42.711931+00:00",
+  "analysis_hashes": {
+    "backend/analysis.py": "db575179e5c29a7150f6612d6ba9f219b52de05c9bad5add2058e93f913b56e2",
+    "backend/ocr.py": "73e565f107ef368e80ad25323d30a463c546d6ad37d166a9a9e5dd3c241d9701",
+    "backend/ocr_urls.py": "1857a2ad2e3ea935cd58408c335466b4cfc4f3c28077fdcfb927c92c3b349ee2",
+    "backend/attribution.py": "ea2e0a1d4cad4b8eb6d8e01b70556ff7b52843799cbe31a1d796a84f93efd6f8",
+    "backend/links.py": "8989f0cd4c00e92fbda6fd945fd51b6e3afaf306adaafa5558a6acae3e649de2",
+    "backend/pipeline.py": "7c5605e8712589a1b9316199845b5e04b5921b1d2f0335e76b4b77f231da8c53",
+    "backend/weights.json": "842a0cad8fe6f809cb3b02b482acc4bbd7b2dab18b1fdf3d2b9b53bf9d60b914",
+    "backend/config.py": "e019ef680f4f1d5f3ae177f77268c254db55f4b4ccda03687d6ae757b802c48f",
+    "backend/providers.py": "de23a984a3222f6038a8b4dee73a1f927e0e466c107e9bdb2ac182b39bf64667",
+    "backend/schemas.py": "f687dd8447e76b193185e45f63efaf3908a289ba59a3a9e443618e112c7d3609",
+    "backend/material_identity.py": "dc4b0169286573743d785fb9d591271395b2516772aa5a9840abbf348b811879",
+    "backend/qr.py": "f4e4d2f9db9ac65f8e7d82d1874fe6df22ee9368f30a7f3a06395a68e412947f",
+    "backend/storage.py": "eb774a2f97440ffdc587835a5438f3490d487f5162d4654f9637d7c85d3dac55"
+  },
+  "source": "v2.4.0 verified source release, 1b26a89139e5831070a8883b958b99d8adb36e43"
+}
