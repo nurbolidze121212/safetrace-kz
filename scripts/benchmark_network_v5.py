@@ -1,5 +1,6 @@
 """Synthetic sparse relationship benchmark; no OCR, scraping, or real campaigns."""
 
+import argparse
 import gc
 import hashlib
 import json
@@ -46,7 +47,10 @@ def clustering(groups, truth):
 def main():
     from backend.network_signals import build_signals, shingles
 
-    output = ROOT / "reports/v5-network"
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--output", type=Path, default=ROOT / "reports/v5-network")
+    args = parser.parse_args()
+    output = args.output
     output.mkdir(parents=True, exist_ok=True)
     target = output / "benchmark.json"
     if target.exists():
@@ -67,6 +71,7 @@ def main():
                "counts": result["counts"], "communities": len(result["communities"]),
                "candidate_pairs": result["candidate_pairs"], "bounded_work": result["bounded_work"],
                "pairwise_cluster_quality": clustering(result["communities"], truth),
+               "exploratory_louvain_quality": clustering(result["exploratory_louvain"], truth),
                "central_node": max(result["pagerank"], key=result["pagerank"].get)}
         report["measurements"].append(row)
         print(json.dumps(row), flush=True)

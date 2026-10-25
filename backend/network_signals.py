@@ -10,7 +10,7 @@ from urllib.parse import urlsplit
 import networkx as nx
 import numpy as np
 
-VERSION = "network-signals-2.0"
+VERSION = "network-signals-2.1"
 MAX_BUCKET = 64
 MAX_NEIGHBORS = 8
 _A = np.array([2 * (i * 2654435761 % 2147483647) + 1 for i in range(1, 33)], dtype=np.uint64)
@@ -100,7 +100,7 @@ def build_signals(records, include_weak=True):
             compared.add((left, right))
             intersection = len(tokens[left] & tokens[right])
             similarity = intersection / len(tokens[left] | tokens[right])
-            if .76 <= similarity < 1 or similarity == 1:
+            if similarity >= .76:
                 if by_id[left].get("fingerprint") and by_id[left].get("fingerprint") == by_id[right].get("fingerprint"):
                     continue
                 add(left, right, "similar_template", "weak", by_id[left]["evidence_ids"] + by_id[right]["evidence_ids"], similarity)
@@ -112,8 +112,20 @@ def build_signals(records, include_weak=True):
     pagerank = nx.pagerank(graph, alpha=.85, max_iter=100, tol=1e-7) if graph else {}
     communities = (nx.community.louvain_communities(graph, resolution=1, seed=42)
                    if graph.number_of_edges() else [{n} for n in graph])
+    # Common hosting and one shared code remain visible, but cannot alone merge
+    # investigation groups. Require a template plus a second distinct basis.
+    corroborated = nx.Graph()
+    corroborated.add_nodes_from(by_id)
+    pair_bases = defaultdict(set)
+    for edge in edges.values():
+        pair_bases[edge["source"], edge["target"]].add(edge["basis"])
+    for (left, right), bases in pair_bases.items():
+        if "scoped_identifier" in bases or ("similar_template" in bases and bases & {"shared_promo", "numbered_domain"}):
+            corroborated.add_edge(left, right)
     return {"version": VERSION, "edges": list(edges.values()), "pagerank": pagerank,
-            "communities": [sorted(g) for g in sorted(communities, key=lambda g: (-len(g), min(g)))],
+            "communities": [sorted(g) for g in sorted(nx.connected_components(corroborated), key=lambda g: (-len(g), min(g)))],
+            "community_method": "Components of exact or corroborated (template + code/domain family) pairs; exploratory hypotheses",
+            "exploratory_louvain": [sorted(g) for g in sorted(communities, key=lambda g: (-len(g), min(g)))],
             "components": [sorted(g) for g in nx.connected_components(graph)],
             "counts": {"nodes": len(records), "edges": len(edges),
                        "strong": sum(e["strength"] == "strong" for e in edges.values()),

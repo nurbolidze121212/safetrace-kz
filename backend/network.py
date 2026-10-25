@@ -97,6 +97,11 @@ def build_network(documents, include_weak=False):
     components = partition(nx.connected_components(projection), "component")
     groups = (nx.community.louvain_communities(projection, seed=42, resolution=1)
               if projection.number_of_edges() else [{n} for n in projection])
+    if include_weak:
+        groups = [set(g) & set(members) for g in signals["communities"]]
+        groups = [g for g in groups if g]
+        covered = set().union(*groups) if groups else set()
+        groups += [{m} for m in members if m not in covered]
     communities = partition(groups, "community")
     return {
         "version": VERSION, "mode": documents[0]["mode"] if documents else None,
@@ -105,7 +110,7 @@ def build_network(documents, include_weak=False):
         "counts": {"cases": len(documents), "materials": len(members), "entities": len(nodes),
                    "edges": len(edges), "matching_pairs": matching_pairs,
                    "components": len(components), "communities": len(communities), "weak": weak_count},
-        "method": "Material projection; exact identifiers plus optional weak hypotheses; Louvain seed=42; PageRank alpha=.85",
+        "method": "Exact projection: Louvain seed=42; weak mode: corroborated components (template + code/domain family); PageRank alpha=.85 on displayed hypotheses",
         "limitations": [
             "Кластер — подсказка для проверки связи, а не общий владелец или подтверждение рекламы.",
             "Общий домен или заявленный источник сами по себе не создают сильной связи.",

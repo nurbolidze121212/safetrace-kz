@@ -30,7 +30,10 @@ services:
       redis:
         condition: service_healthy
     healthcheck:
-      disable: true
+      test: ["CMD", "python", "-c", "from backend import queue_store as q; q.client().ping()"]
+      interval: 5s
+      timeout: 4s
+      retries: 10
     init: true
     restart: unless-stopped
     stop_grace_period: 60s

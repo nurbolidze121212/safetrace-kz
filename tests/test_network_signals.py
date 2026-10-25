@@ -25,6 +25,16 @@ def test_shared_infrastructure_needs_observations_and_cannot_imply_ownership():
     result = build_signals([a, b])
     assert result["edges"][0]["meaning"] == "hypothesis; not ownership or risk"
     assert abs(sum(result["pagerank"].values()) - 1) < 1e-6
+    assert len(result["communities"]) == 2, "Shared hosting alone must not merge investigation groups"
+
+
+def test_two_bases_link_weak_materials_but_remain_hypotheses():
+    a, b = record("a", "Переходите на эту новую страницу и забирайте свой подарок сегодня"), record("b", "Переходите на эту новую страницу и забирайте свой подарок завтра")
+    for r in (a, b):
+        r["promos"] = [{"value": "SAMPLE99", "evidence_ids": [r["id"] + "-promo"]}]
+    result = build_signals([a, b])
+    assert result["counts"]["strong"] == 0
+    assert len(result["communities"]) == 1
 
 
 def test_common_boilerplate_does_not_expand_quadratically():

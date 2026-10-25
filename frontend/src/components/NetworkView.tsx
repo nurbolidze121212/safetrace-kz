@@ -56,7 +56,7 @@ export default function NetworkView({ onOpen }: { onOpen: (id: string) => void }
     {state?.mode === requestKey && state.error && <p role="alert">{state.error}</p>}
     {!state?.error && !data && <p role="status">Загрузка сети…</p>}
     {data && <>
-      <p><strong>{data.counts.cases}</strong> случаев · <strong>{data.counts.entities}</strong> сущностей · <strong>{data.counts.matching_pairs}</strong> точных совпадений · {data.counts.weak || 0} слабых оснований · <strong>{data.counts.communities}</strong> групп Louvain · {data.counts.components} компонент</p>
+      <p><strong>{data.counts.cases}</strong> случаев · <strong>{data.counts.entities}</strong> сущностей · <strong>{data.counts.matching_pairs}</strong> точных совпадений · {data.counts.weak || 0} слабых оснований · <strong>{data.counts.communities}</strong> групп сети · {data.counts.components} компонент</p>
       {weak && <p className="warning-text">Слабые связи могут чрезмерно объединять группы. Это поисковые гипотезы; кластер не означает общую кампанию или владельца.</p>}
       {data.truncated && <p role="status">Показаны последние 100 случаев выбранного режима. Сеть неполная.</p>}
       {data.counts.cases === 0 ? <p>В этом режиме ещё нет проанализированных материалов. Добавьте случаи или выберите синтетические примеры.</p> : <>

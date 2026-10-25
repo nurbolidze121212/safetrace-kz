@@ -1,2 +1,6 @@
-# Optional retrospective experiment only. Not required by the application or CI.
+# Optional frozen dev/v5 ablations; not required to run the app.
+-r requirements.lock.txt
+fastembed==0.7.4
 scikit-learn==1.9.1
+joblib==1.6.0
+onnxruntime==1.31.0
