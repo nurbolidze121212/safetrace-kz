@@ -40,7 +40,7 @@ async def lifespan(app):
     yield
 
 
-app = FastAPI(title="SafeTrace KZ", version="2.4.0", lifespan=lifespan)
+app = FastAPI(title="SafeTrace KZ", version="3.0.0", lifespan=lifespan)
 app.add_middleware(BodyLimitMiddleware)
 
 

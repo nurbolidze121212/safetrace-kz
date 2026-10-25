@@ -2,7 +2,7 @@
 
 **SafeNet KZ · трек 2.** Проверяем публикацию или скриншот на признаки скрытого продвижения азартных игр и показываем цепочку **материал → ссылка/посредник → ресурс → проверяемые источники**. Аналитик видит цитаты, исходное фото, причины индекса и связи между несколькими публикациями.
 
-[![Checks](https://github.com/nurbolidze121212/safetrace-kz/actions/workflows/ci.yml/badge.svg)](https://github.com/nurbolidze121212/safetrace-kz/actions/workflows/ci.yml) · [MIT](LICENSE) · **[Попробовать свой текст онлайн](https://nurbolidze121212.github.io/safetrace-kz/)** · [Видео 2 минуты](https://github.com/nurbolidze121212/safetrace-kz/releases/download/v2.4.0/SafeTrace-KZ-demo-2min.mp4)
+[![Checks](https://github.com/nurbolidze121212/safetrace-kz/actions/workflows/ci.yml/badge.svg)](https://github.com/nurbolidze121212/safetrace-kz/actions/workflows/ci.yml) · [MIT](LICENSE) · **[Попробовать свой текст онлайн](https://nurbolidze121212.github.io/safetrace-kz/)** · [Питч на казахском, 5 минут](deliverables/kazakh-jury-2026-10-25/PITCH_V5_KK.md)
 
 ![Локальное приложение: фото, причины приоритета и маршрут](reports/message-demo/presentation-photo.png)
 
