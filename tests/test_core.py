@@ -202,7 +202,11 @@ def test_real_ocr_pixels_and_boxes():
     path = DATA / "originals" / "ocr-test.png"
     im = Image.new("RGB", (900, 220), "white")
     draw = ImageDraw.Draw(im)
-    font = ImageFont.truetype("C:/Windows/Fonts/arial.ttf", 34)
+    import os
+
+    font = ImageFont.truetype(
+        "C:/Windows/Fonts/arial.ttf" if os.name == "nt" else "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 34
+    )
     draw.text((30, 25), "Қазақша: қауіпсіздік және ұтыс.", font=font, fill="black")
     draw.text((30, 90), "Промокод TEST77. Не переводите деньги.", font=font, fill="black")
     im.save(path)

@@ -486,3 +486,5 @@ main:has(.presentation-view) { padding: 18px 32px }
   .analysis-message .text-button { min-height: 44px }
   .case-heading .actions { flex-wrap: wrap }
 }
+
+.network-view{max-width:1200px;margin:0 auto}.network-view label{display:inline-flex;gap:10px;align-items:center;margin:12px 20px 12px 0}.network-view select{padding:10px;border:1px solid #a6b5c8;border-radius:8px;max-width:100%}.network-canvas{height:520px;border:1px solid #ced7e4;background:#f5f7fb;border-radius:12px;margin:16px 0}.network-view blockquote{overflow-wrap:anywhere}.network-view article{padding:12px 0;border-bottom:1px solid #ced7e4}.network-view article button{margin:4px}.network-view details{padding:14px 0}@media(max-width:600px){.network-canvas{height:380px}.network-view label{display:flex;flex-wrap:wrap}}

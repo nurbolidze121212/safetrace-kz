@@ -15,7 +15,7 @@ import AnalysisDetails from './AnalysisDetails'
 import LinkAuditView from './LinkAuditView'
 
 const GraphView = lazy(() => import('./GraphView'))
-const tabs = [{ id: 'materials', name: 'Материалы', Icon: FileText }, { id: 'route', name: 'Маршрут', Icon: GitBranch }, { id: 'graph', name: 'Граф связей', Icon: Network }, { id: 'security', name: 'Другие угрозы', Icon: Info }, { id: 'review', name: 'Решение', Icon: CheckCheck }]
+const tabs = [{ id: 'materials', name: 'Материалы', Icon: FileText }, { id: 'route', name: 'Маршрут', Icon: GitBranch }, { id: 'graph', name: 'Граф связей', Icon: Network }, { id: 'security', name: 'Вне трека · эксперимент', Icon: Info }, { id: 'review', name: 'Решение', Icon: CheckCheck }]
 
 export default function CaseWorkspace({ current, runtimeVersions, view, busy, onView, onBack, onOpen, onAdd, onRetry, onDecision, onCorrect }: {
   current: Case; view: string; busy: boolean; onView: (view: string) => void; onBack: () => void; onOpen: (id: string) => void;

@@ -27,6 +27,7 @@ from .exports import package
 from .graph import build_graph
 from .limits import BodyLimitMiddleware
 from .link_audit import build_audit
+from .network_api import router as network_router
 from .schemas import CaseInput, DecisionInput, MaterialInput, URLCorrectionInput
 
 Image.MAX_IMAGE_PIXELS = 12_000_000
@@ -39,7 +40,7 @@ async def lifespan(app):
     yield
 
 
-app = FastAPI(title="SafeTrace KZ", version="2.3.0", lifespan=lifespan)
+app = FastAPI(title="SafeTrace KZ", version="2.4.0", lifespan=lifespan)
 app.add_middleware(BodyLimitMiddleware)
 
 
@@ -347,6 +348,9 @@ async def import_jsonl(file: UploadFile):
             422, "Некорректный JSONL. См. формат в README; пути сервера не принимаются."
         ) from None
     return create(CaseInput(title="Пакет JSONL", materials=materials))
+
+
+app.include_router(network_router)
 
 
 dist = ROOT / "frontend" / "dist"

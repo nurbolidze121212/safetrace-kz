@@ -1,0 +1,30 @@
+{
+  "schema": "network-structural-benchmark-1",
+  "counts": {
+    "cases": 96,
+    "materials": 96,
+    "entities": 446,
+    "edges": 1084,
+    "matching_pairs": 315,
+    "components": 15,
+    "communities": 15
+  },
+  "truth_campaigns": 12,
+  "missing_referral_members": 3,
+  "pair_tp": 315,
+  "pair_fp": 0,
+  "pair_fn": 21,
+  "pair_precision": 1.0,
+  "pair_recall": 0.9375,
+  "pair_f1": 0.967741935483871,
+  "median_ms": 16.013600000178485,
+  "max_ms": 23.873800000046685,
+  "runs_ms": [
+    17.424300000129733,
+    16.013600000178485,
+    15.371499999901062,
+    15.362099999947532,
+    23.873800000046685
+  ],
+  "scope": "Authored structural fixtures with known scoped IDs, one common hub, identical ref values across domains and three missing IDs. Not an independent or real-campaign evaluation."
+}
