@@ -1,0 +1,14 @@
+{
+  "annotator": "B",
+  "configured_model": "gpt-6-astra",
+  "configured_model_source": "Parent agent reports explicit model selection in spawn call",
+  "self_reported_model": "GPT-6 generic / unavailable",
+  "serving_model_verification": "unavailable",
+  "count": 640,
+  "positive_count": 220,
+  "negative_count": 420,
+  "source": "datasets/synthetic-v5/blind.jsonl",
+  "synopsis": "Independent semantic review of all 640 visible messages or author transcriptions together with supplied synthetic destination observations. Only blind.jsonl was read; annotations, classifier code, predictions, reports and other annotator outputs were not consulted. File utilities displayed records and serialized manually recorded decisions; no code/rule/regex classifier was used. IDs, sequence, quotas and template family were not used as label evidence.",
+  "screenshot_limitation": "Screenshot content is the AUTHOR transcription provided in blind.jsonl. Actual screenshot pixels and actual OCR were not inspected; the transcription may differ from either. These are transcription-based semantic labels, not an OCR evaluation.",
+  "destination_limitation": "Destination content is supplied synthetic-stand observation, not independently browsed live content."
+}

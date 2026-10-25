@@ -1,0 +1,17 @@
+{
+  "configured_model": "gpt-6.1-sol",
+  "self_reported_model": "GPT-6 generic / exact serving model unavailable",
+  "serving_model_verification": "unavailable",
+  "model_configuration_source": "Parent agent reports creation call configured gpt-6.1-sol with fork_turns:none",
+  "record_count": 640,
+  "annotator": "A",
+  "source": "datasets/synthetic-v5/blind.jsonl",
+  "instruction_synopsis": "Independently read all 640 supplied records. Label 1 for promotional gambling/casino invitations or routing supported by message and observed synthetic destination; 0 for free contests, journalism, warnings, ordinary business, and educational critique. No annotations, predictions, classifier, other annotator output or external files read. Decisions assessed from content, not IDs, archive labels, sequence or quota.",
+  "screenshot_provenance": "Used AUTHOR-supplied transcription only, explicitly marked in each affected rationale; no independent OCR or screenshot inspection.",
+  "serialization_method": "Explicit model-decided per-record codes were transcribed into JSONL. Shell only loaded records and serialized those decisions; no text rules or regex assigned classifications.",
+  "limitations": [
+    "Synthetic destinations are supplied observations, not live web verification.",
+    "Configured model identity reported by parent; serving identity cannot independently be verified.",
+    "Screenshot transcription fidelity cannot independently be established."
+  ]
+}

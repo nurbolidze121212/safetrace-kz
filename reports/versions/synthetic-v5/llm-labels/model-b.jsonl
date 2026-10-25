@@ -1,0 +1,640 @@
+{"id":"93c91ab5da9fb25bc3b2","label":1,"rationale":"Invites casino registration, depositing money and playing."}
+{"id":"ff0f80972cac9c464f1d","label":1,"rationale":"Invites casino registration, depositing money and playing."}
+{"id":"b6af4359b56b62bf6130","label":1,"rationale":"Invites casino registration, depositing money and playing."}
+{"id":"185d7e98c13b2459908b","label":1,"rationale":"Invites casino registration, depositing money and playing."}
+{"id":"072b1f781d54c0920223","label":1,"rationale":"Invites casino registration, depositing money and playing."}
+{"id":"4276daa0f3b64b66ec75","label":1,"rationale":"Registration/gift invitation routes to an observed casino destination asking for deposits and money-slot play."}
+{"id":"e3cd413e672e45ebbf45","label":1,"rationale":"Registration/gift invitation routes to an observed casino destination asking for deposits and money-slot play."}
+{"id":"a3fa485f04cd356fbf3c","label":1,"rationale":"Registration/gift invitation routes to an observed casino destination asking for deposits and money-slot play."}
+{"id":"9ab192bd84b81bcd3049","label":1,"rationale":"Registration/gift invitation routes to an observed casino destination asking for deposits and money-slot play."}
+{"id":"3d785e62541d76914370","label":1,"rationale":"Registration/gift invitation routes to an observed casino destination asking for deposits and money-slot play."}
+{"id":"125545b707f7ea437095","label":1,"rationale":"Shows winnings and explicitly invites joining and playing at a casino; destination promotes gambling."}
+{"id":"a4afd6af1fde217a4833","label":1,"rationale":"Shows winnings and explicitly invites joining and playing at a casino; destination promotes gambling."}
+{"id":"79ed1758ce5f2738f012","label":1,"rationale":"Shows winnings and explicitly invites joining and playing at a casino; destination promotes gambling."}
+{"id":"44db4cc44ebccd14e752","label":1,"rationale":"Shows winnings and explicitly invites joining and playing at a casino; destination promotes gambling."}
+{"id":"334132a03b6cb3fab923","label":1,"rationale":"Shows winnings and explicitly invites joining and playing at a casino; destination promotes gambling."}
+{"id":"e3473688bc6058050895","label":1,"rationale":"Obfuscated casino name accompanies bonus and referral-registration invitation."}
+{"id":"c8a9e5e64f7100d49845","label":1,"rationale":"Obfuscated casino name accompanies bonus and referral-registration invitation."}
+{"id":"b0ffa7ce0562b868abe5","label":1,"rationale":"Obfuscated casino name accompanies bonus and referral-registration invitation."}
+{"id":"0a400126075bd4e9db79","label":1,"rationale":"Obfuscated casino name accompanies bonus and referral-registration invitation."}
+{"id":"d724222a4b5e8b2b8b3f","label":1,"rationale":"Obfuscated casino name accompanies bonus and referral-registration invitation."}
+{"id":"d8f9eb63c4e1af487533","label":1,"rationale":"Spaced casino name accompanies invitation to play for money or monetary winnings."}
+{"id":"d5980ffb0a9b2bc80607","label":1,"rationale":"Spaced casino name accompanies invitation to play for money or monetary winnings."}
+{"id":"7f89502563d7d17f73d3","label":1,"rationale":"Spaced casino name accompanies invitation to play for money or monetary winnings."}
+{"id":"050981f57b60987c0f6e","label":1,"rationale":"Spaced casino name accompanies invitation to play for money or monetary winnings."}
+{"id":"c432b194bc9c470b66b9","label":1,"rationale":"Spaced casino name accompanies invitation to play for money or monetary winnings."}
+{"id":"9749abc99f073a0d6b71","label":1,"rationale":"Emoji-obfuscated casino promotion invites slot play with a first bonus."}
+{"id":"fa58cef86cd0f6a32471","label":1,"rationale":"Emoji-obfuscated casino promotion invites slot play with a first bonus."}
+{"id":"d098cb2ff09d42c807b2","label":1,"rationale":"Emoji-obfuscated casino promotion invites slot play with a first bonus."}
+{"id":"059c438d26bd3bcc92c9","label":1,"rationale":"Emoji-obfuscated casino promotion invites slot play with a first bonus."}
+{"id":"23d62278ad841e6d2fbc","label":1,"rationale":"Emoji-obfuscated casino promotion invites slot play with a first bonus."}
+{"id":"c9ebae8fc21825da4e1f","label":1,"rationale":"Slot winnings or cash-out testimonial invites others to play; observed destination promotes money gambling."}
+{"id":"809bc78773ac10828b63","label":1,"rationale":"Slot winnings or cash-out testimonial invites others to play; observed destination promotes money gambling."}
+{"id":"ce38867f0cae6ce980e4","label":1,"rationale":"Slot winnings or cash-out testimonial invites others to play; observed destination promotes money gambling."}
+{"id":"6e6e31258ea68023cae4","label":1,"rationale":"Slot winnings or cash-out testimonial invites others to play; observed destination promotes money gambling."}
+{"id":"43d071bb294af5226c04","label":1,"rationale":"Slot winnings or cash-out testimonial invites others to play; observed destination promotes money gambling."}
+{"id":"6e9d5850a1f8fe7597a6","label":1,"rationale":"Casino promo code and bonus are offered with a registration invitation."}
+{"id":"dd027156bbd36b224c4d","label":1,"rationale":"Casino promo code and bonus are offered with a registration invitation."}
+{"id":"decb7901a0c14652f544","label":1,"rationale":"Casino promo code and bonus are offered with a registration invitation."}
+{"id":"9e4ba45ecb25e15b4a6a","label":1,"rationale":"Casino promo code and bonus are offered with a registration invitation."}
+{"id":"ca01c3c08b6fa2a79b04","label":1,"rationale":"Casino promo code and bonus are offered with a registration invitation."}
+{"id":"2000ab50b79d5b28db76","label":1,"rationale":"Warning about others is followed by promotion of the speakers own casino and bonus; destination confirms gambling."}
+{"id":"474ff145666634e2f40e","label":1,"rationale":"Warning about others is followed by promotion of the speakers own casino and bonus; destination confirms gambling."}
+{"id":"0211e6f48b50dca93a9c","label":1,"rationale":"Warning about others is followed by promotion of the speakers own casino and bonus; destination confirms gambling."}
+{"id":"823e56027450ddb5e480","label":1,"rationale":"Warning about others is followed by promotion of the speakers own casino and bonus; destination confirms gambling."}
+{"id":"f9e4e65e562a613be6c3","label":1,"rationale":"Warning about others is followed by promotion of the speakers own casino and bonus; destination confirms gambling."}
+{"id":"7722d9b0abc2481b4d30","label":1,"rationale":"Closed-group registration and free-spin invitation routes to an observed casino deposit/play destination."}
+{"id":"47f5e8087f1fb095c4ff","label":1,"rationale":"Closed-group registration and free-spin invitation routes to an observed casino deposit/play destination."}
+{"id":"7ed5b8e1c2764c2ccc4e","label":1,"rationale":"Closed-group registration and free-spin invitation routes to an observed casino deposit/play destination."}
+{"id":"e4d2c8d6a3722ed148c2","label":1,"rationale":"Closed-group registration and free-spin invitation routes to an observed casino deposit/play destination."}
+{"id":"a23280b604767b35d183","label":1,"rationale":"Closed-group registration and free-spin invitation routes to an observed casino deposit/play destination."}
+{"id":"9d78d1251412c2f29fb6","label":1,"rationale":"Channel-to-game invitation explicitly promotes roulette play and a bonus."}
+{"id":"90957e670454641b71b9","label":1,"rationale":"Channel-to-game invitation explicitly promotes roulette play and a bonus."}
+{"id":"93b6132ba723e0673444","label":1,"rationale":"Channel-to-game invitation explicitly promotes roulette play and a bonus."}
+{"id":"ccbba1c25f03649fe4c4","label":1,"rationale":"Channel-to-game invitation explicitly promotes roulette play and a bonus."}
+{"id":"c2b645c70338d825e199","label":1,"rationale":"Channel-to-game invitation explicitly promotes roulette play and a bonus."}
+{"id":"37bd1e01f9cbc2c2f615","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"c1ef393569143cd375cf","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"c8debcffb2f19b638374","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"7ff99a3a70e8dbf3c6e9","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"3c28ec59912fe78a3dcf","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"cb129a1a3f7737b98d1f","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"8ead8dff43e1ba3eed51","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"24360691f358435c5f27","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"a34656c2c028687ec8de","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"15b9f0d0f67456c6eb6e","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"4a9b5ffb8e8f2f500e58","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"4fca619c18369924df84","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"3606f53f8a62b99057a7","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"8c4e10bc8002d015c978","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"ce0263e015e6dadd18e9","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"78448651b232aab7d1dd","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"8279dc520770242fd898","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"40b8ff9ddebe1811286c","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"fd39881d6d61086d9c0e","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"4c0258a435f4e0c00239","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"ec07f15e14fe8c6c2c55","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"c512f717f6f949807803","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"7b693c3e3302149ef95f","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"aadec859feefaf9c3e6e","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"4dcb181dd7f4d27140b3","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"08696814072291e4e85d","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"5b55f0656e89462b32c6","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"1b5ed45c7958d2c7f17c","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"e8c994cfa07a419fb6a2","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"44e58de3f6fd03d3f2f2","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"fbd6d392c13b10905b3c","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"121fd58833c19772fde2","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"3c44297288ad05ba617b","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"e6cddc8036ad59b0dd6e","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"aa0f52ed320591e9a2ee","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"d23a77914371feb23aea","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"955c99cd7325a64b80b5","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"66638b18ddedf82f1099","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"6dcc13853e7d418c3dca","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"7d10a90fe0944d8d22c1","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"cfcff76d08d84457d460","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"1bc31b8332da58f9af5a","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"30dff336e6643d619f4c","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"fd5fbadaecfb969ec43e","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"96f32bbbb164bbfeb975","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"3808f9ecfa04bef3399e","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"7d094bfbf52dd6bc1ce1","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"5b3df680683a86bab8c8","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"8bb8642ecc48efe9faee","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"c301f39c88af0fbfd308","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"4a582ba2f43de432a59d","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"3d354fc1028730727197","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"6971440ea6a3c92c13dd","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"b1e09a1c35bc2692438d","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"2f6345aa105f1abd540d","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"2a078001b725eeb9520a","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"818cb85296a4e690acd5","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"8d03c2879d4dc43caa05","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"42f9d145b70875d2fae7","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"a34ce0452347dad72184","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"0f3301badf2753c74bd5","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"74dc0897b087641af5c7","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"3d57c937812c41656ec6","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"50a24de26653e4734722","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"e524d84b82dfaeec79ae","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"43eae229847e820fada7","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"616a1d87c4974127e6f0","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"ce5da1ba7ff37d1cac90","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"5657087d695fe0987c35","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"5145b40874af7b9285e3","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"2f321928e2bb7d258527","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"ae4fce5a91e7d6cad7bd","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"59180bddb6f30d685da3","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"6e2d713daf56ee7a35eb","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"ad60b24132fe628ee274","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"cf389c29ae42c7fed67b","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"4d680610e50b82fb885c","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"1e3adc913cfc7888f152","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"5110f123c36c09a430ed","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"ddbda1aff71f78eca8dc","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"19cd0e8d4bda1b584340","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"bfc6f8f7c9f759a1afe8","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"123c49f2c2ed260829f0","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"ccf3c628d7cdee27f7db","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"538470cc32c0cacdaa0b","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"cfa2797baeec52e961af","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"ae943c3beb391deb56b6","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"f055a292bbe48a959570","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"69b424532c9798ca9a14","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"27e4b4259251a1693595","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"44d29a6e49136095ae55","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"c62191538cef47c506b8","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"dd312a17bf08d177baa0","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"c0921c9d69bce906eac7","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"50f7cf4b01a8cce7beef","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"f23a051202f8fb89734e","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"5b1b541cf91eb1fd1252","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"9d5f4395f3f1cd18d22f","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"aabdffe937c2b8fbecce","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"85d736b4fa7a21286512","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"e99514568ac412ff3756","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"de0d4b908b87aab4b3ba","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"d96bd59e0d81f7f8162d","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"0b2598b46f37932f3569","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"0eeba2d500e872e1178f","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"c59f941811dfda857bc8","label":1,"rationale":"Invites casino registration, depositing money and playing."}
+{"id":"33a3a9c7e6f500caa9aa","label":1,"rationale":"Invites casino registration, depositing money and playing."}
+{"id":"1c208836e044349b0e79","label":1,"rationale":"Invites casino registration, depositing money and playing."}
+{"id":"309f2a8c231fe805d454","label":1,"rationale":"Invites casino registration, depositing money and playing."}
+{"id":"912ecd38f3bf3e083a5c","label":1,"rationale":"Invites casino registration, depositing money and playing."}
+{"id":"049e54e3e06e0111e073","label":1,"rationale":"Registration/gift invitation routes to an observed casino destination asking for deposits and money-slot play."}
+{"id":"10a889717f0fe189b2b4","label":1,"rationale":"Registration/gift invitation routes to an observed casino destination asking for deposits and money-slot play."}
+{"id":"724c50eaaaf18bcdeb1c","label":1,"rationale":"Registration/gift invitation routes to an observed casino destination asking for deposits and money-slot play."}
+{"id":"1fe7caa6bcf1ab93312c","label":1,"rationale":"Registration/gift invitation routes to an observed casino destination asking for deposits and money-slot play."}
+{"id":"a812419382a57adf4e58","label":1,"rationale":"Registration/gift invitation routes to an observed casino destination asking for deposits and money-slot play."}
+{"id":"a8dc9c42e9813b918b28","label":1,"rationale":"Shows winnings and explicitly invites joining and playing at a casino; destination promotes gambling."}
+{"id":"4ee104497fb05ee213e0","label":1,"rationale":"Shows winnings and explicitly invites joining and playing at a casino; destination promotes gambling."}
+{"id":"8e146e8715022972da27","label":1,"rationale":"Shows winnings and explicitly invites joining and playing at a casino; destination promotes gambling."}
+{"id":"2442830452f37b75a161","label":1,"rationale":"Shows winnings and explicitly invites joining and playing at a casino; destination promotes gambling."}
+{"id":"1ef95139715f2a5d83ab","label":1,"rationale":"Shows winnings and explicitly invites joining and playing at a casino; destination promotes gambling."}
+{"id":"e362cf7ea601e47c4a08","label":1,"rationale":"Obfuscated casino name accompanies bonus and referral-registration invitation."}
+{"id":"e65392bc30e91d64737a","label":1,"rationale":"Obfuscated casino name accompanies bonus and referral-registration invitation."}
+{"id":"17eb62eaf40700c6b244","label":1,"rationale":"Obfuscated casino name accompanies bonus and referral-registration invitation."}
+{"id":"33eed91d3c1933842691","label":1,"rationale":"Obfuscated casino name accompanies bonus and referral-registration invitation."}
+{"id":"94ac718c166767dfd93f","label":1,"rationale":"Obfuscated casino name accompanies bonus and referral-registration invitation."}
+{"id":"53444c8e914e65e30067","label":1,"rationale":"Spaced casino name accompanies invitation to play for money or monetary winnings."}
+{"id":"41080ff8bfd8425aaacf","label":1,"rationale":"Spaced casino name accompanies invitation to play for money or monetary winnings."}
+{"id":"29776e1ab90ea30f8ece","label":1,"rationale":"Spaced casino name accompanies invitation to play for money or monetary winnings."}
+{"id":"864a88006291bdfa6a16","label":1,"rationale":"Spaced casino name accompanies invitation to play for money or monetary winnings."}
+{"id":"db841a4f1755312b7eee","label":1,"rationale":"Spaced casino name accompanies invitation to play for money or monetary winnings."}
+{"id":"847ee0495c569f7890f3","label":1,"rationale":"Emoji-obfuscated casino promotion invites slot play with a first bonus."}
+{"id":"4ecaea4cbcdc1c34040b","label":1,"rationale":"Emoji-obfuscated casino promotion invites slot play with a first bonus."}
+{"id":"3a06be08c096e6e40bef","label":1,"rationale":"Emoji-obfuscated casino promotion invites slot play with a first bonus."}
+{"id":"bcb50a4a0bd5edb73914","label":1,"rationale":"Emoji-obfuscated casino promotion invites slot play with a first bonus."}
+{"id":"4c3cd1333416f901c66c","label":1,"rationale":"Emoji-obfuscated casino promotion invites slot play with a first bonus."}
+{"id":"649dd4c406dc5f7ea5f1","label":1,"rationale":"Slot winnings or cash-out testimonial invites others to play; observed destination promotes money gambling."}
+{"id":"e5c72906047e4fda0668","label":1,"rationale":"Slot winnings or cash-out testimonial invites others to play; observed destination promotes money gambling."}
+{"id":"6d160f308c2d9cbe3c1f","label":1,"rationale":"Slot winnings or cash-out testimonial invites others to play; observed destination promotes money gambling."}
+{"id":"b8d66dfe3f201332233e","label":1,"rationale":"Slot winnings or cash-out testimonial invites others to play; observed destination promotes money gambling."}
+{"id":"c3b62db89dc052304632","label":1,"rationale":"Slot winnings or cash-out testimonial invites others to play; observed destination promotes money gambling."}
+{"id":"74ede78c922147e9adcd","label":1,"rationale":"Casino promo code and bonus are offered with a registration invitation."}
+{"id":"094d9a4cd5c70afb2c11","label":1,"rationale":"Casino promo code and bonus are offered with a registration invitation."}
+{"id":"1ce717c1cd7fd4207b7c","label":1,"rationale":"Casino promo code and bonus are offered with a registration invitation."}
+{"id":"d2582a8602745d3c8417","label":1,"rationale":"Casino promo code and bonus are offered with a registration invitation."}
+{"id":"249c929925354b9aa733","label":1,"rationale":"Casino promo code and bonus are offered with a registration invitation."}
+{"id":"144d877af9367ef57dc2","label":1,"rationale":"Warning about others is followed by promotion of the speakers own casino and bonus; destination confirms gambling."}
+{"id":"a4632e6f5c32512465e6","label":1,"rationale":"Warning about others is followed by promotion of the speakers own casino and bonus; destination confirms gambling."}
+{"id":"bbb957fdd2a036dce4b1","label":1,"rationale":"Warning about others is followed by promotion of the speakers own casino and bonus; destination confirms gambling."}
+{"id":"566bbe2d97492ba0ca35","label":1,"rationale":"Warning about others is followed by promotion of the speakers own casino and bonus; destination confirms gambling."}
+{"id":"24cefe6f72f6170336bb","label":1,"rationale":"Warning about others is followed by promotion of the speakers own casino and bonus; destination confirms gambling."}
+{"id":"e7a526ded369d7ea96dd","label":1,"rationale":"Closed-group registration and free-spin invitation routes to an observed casino deposit/play destination."}
+{"id":"c1ab880f815732fb4b97","label":1,"rationale":"Closed-group registration and free-spin invitation routes to an observed casino deposit/play destination."}
+{"id":"379be9e2e1b0d2eaca7d","label":1,"rationale":"Closed-group registration and free-spin invitation routes to an observed casino deposit/play destination."}
+{"id":"82e0a77b6d5a4d162c1c","label":1,"rationale":"Closed-group registration and free-spin invitation routes to an observed casino deposit/play destination."}
+{"id":"4857f39d4cb58c0351d7","label":1,"rationale":"Closed-group registration and free-spin invitation routes to an observed casino deposit/play destination."}
+{"id":"90bcc6e665d569e79bdd","label":1,"rationale":"Channel-to-game invitation explicitly promotes roulette play and a bonus."}
+{"id":"1ecbb00a74eb0b3b0181","label":1,"rationale":"Channel-to-game invitation explicitly promotes roulette play and a bonus."}
+{"id":"f6334ec718891032de70","label":1,"rationale":"Channel-to-game invitation explicitly promotes roulette play and a bonus."}
+{"id":"2bd35c255730c38ea741","label":1,"rationale":"Channel-to-game invitation explicitly promotes roulette play and a bonus."}
+{"id":"e77b966f7c7816feba3b","label":1,"rationale":"Channel-to-game invitation explicitly promotes roulette play and a bonus."}
+{"id":"ee364a0a9e584bc32eef","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"6ebe3747f08afde99653","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"b36353b9b3b7942839dc","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"e239ebc1a2cd776a4c60","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"0f34bc05b6cbae85411f","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"d2d6e50d322a831b6a10","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"201711809b8b142cec7d","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"9956294d8b2fa749a506","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"4da5f7fa92d164e73d83","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"acc16aa76a08294f333d","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"92e5a34e850e4a2e6bbe","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"789e57a3d9307e6317a2","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"6d6d2c2d96129005d12a","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"bd5f6b5de1cf47996fe2","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"89c0d1ddf93f1bdf3c47","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"1f4b03286dc262eb8569","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"ba835786ab4e33120a58","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"e0fb9b93ec70f08c41aa","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"99b3bf64470762408252","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"e7adafe098a8fa6f67f6","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"e6a62735544143e81ae7","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"c011b498ea909022c89f","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"92801fad0ff9fb2e44d9","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"3a421f51737c18d52308","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"51281835f30191933ea9","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"058bb15564789973f5a7","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"8e9493a1cfcbfec5b603","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"7ef70706a3f1657fba89","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"ee853b91c0ab2a5ff8f4","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"8e6e921f65c88ec06401","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"90312a5b2578f19f0e0e","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"706c853fc67cfef152fe","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"d10ead200912661edb66","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"97301ec08336ed658ca1","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"993b542d9c98813ffa35","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"c18f6d016c89c6a3ff8a","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"42d229904a0dfca6a35f","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"46a19b527ee9a17cd13d","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"01fbcc5b8ef2fc24acfb","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"54dc36b39c1fded631dd","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"2fd3dc87fd337c1fee3c","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"12822f7b219c18e2068e","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"94dd215c4be95abac182","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"cf60d2079da8469dc814","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"26f9fec2651ba8d269c2","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"cd2f40195fb218a778a2","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"3114bfc3dbffb3ea7717","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"bfd92a0b55d795712cdc","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"916effcb95477c57750b","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"7c36090ec004c6dd289d","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"d138e0ac499413ef21ea","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"65148dd3be46a24338ea","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"0a4569ee9e79cb633ac8","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"3d2ff060649684d257ae","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"a554320f0d79f1fa1f90","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"36d1b34cee790e226b52","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"b54a95ba944441d48060","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"78a711d8e4d774fe154d","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"e42fc30281dc8b330faa","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"054d7f411d6915c5cb61","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"303dcf9879aa24e797f2","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"27cfbfa84b87a54602d9","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"7e65495d5b2a38ef738c","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"8ae7c8037312a264f648","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"327b27acc3173aee2c9b","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"297e4ce7b6dcf3abaa69","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"887dae73a4ab4d4b35e3","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"fffb8ebe05c22b1469b6","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"ffed278c00cf7f7e0896","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"094d4e234cb3b904204b","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"48464b54e0a9b5b7ec3a","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"bd5e4122962ed9c01403","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"eac905ea23e9415a784f","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"f55fce4fe0ae6bb639c0","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"aefdc5f14a720f8df1a8","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"802ea4c03d44139e96aa","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"3f4759b6915c1048aac6","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"cbc2496e1cdda515c844","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"082f53ab6e295e813144","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"0c99da59fe2721ac0b1e","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"5662ffeef339a95c4b98","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"4c76b2bda2f8b69bcf21","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"6b704542f47e7726d3de","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"a4f488182017050d77ec","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"8eaf78e5cc44099b8e36","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"0dbb6e41bae10e8bfb1f","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"1ceb3451ab15941b53fc","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"fb28f00ef58fa4e5230c","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"5d242283988ec6c8821e","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"ed5d24e8b91f9f325772","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"2d3ce22091880df9f204","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"0fd7d8effe75e3ddcff3","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"e3588706adad8d3704f3","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"04fcc7a94012ac4473fa","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"6d89d04a2296a2bb849d","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"9e19d1dd4236489d4163","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"cefffb0a791de84d674e","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"bb8b81dd2599040fd233","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"765b6711ce156199b926","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"a87dab9a052e177ef76e","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"a35c854efb1abd18a3fb","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"77db030a2e125a12146c","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"c536556a370d87b2cbf6","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"f98cd2e28822ebcb029d","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"73487cfd6ddf39aaaa4f","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"3f62bbf547dab168d684","label":1,"rationale":"Invites casino registration, depositing money and playing."}
+{"id":"3452f1ecaa6f2f215b06","label":1,"rationale":"Invites casino registration, depositing money and playing."}
+{"id":"b67cb0a641649f3403b3","label":1,"rationale":"Invites casino registration, depositing money and playing."}
+{"id":"0f83d426c19f05770eab","label":1,"rationale":"Invites casino registration, depositing money and playing."}
+{"id":"6607c319f705b406fee7","label":1,"rationale":"Invites casino registration, depositing money and playing."}
+{"id":"dd1e2124dae214fc8fe2","label":1,"rationale":"Registration/gift invitation routes to an observed casino destination asking for deposits and money-slot play."}
+{"id":"e6069a5c328e67a0597e","label":1,"rationale":"Registration/gift invitation routes to an observed casino destination asking for deposits and money-slot play."}
+{"id":"3def9f1a5a92641f87d9","label":1,"rationale":"Registration/gift invitation routes to an observed casino destination asking for deposits and money-slot play."}
+{"id":"1b3bc9a1d33c963849a6","label":1,"rationale":"Registration/gift invitation routes to an observed casino destination asking for deposits and money-slot play."}
+{"id":"34dbe127a685f441f2fc","label":1,"rationale":"Registration/gift invitation routes to an observed casino destination asking for deposits and money-slot play."}
+{"id":"bb10f0cb121e325f9d6a","label":1,"rationale":"Shows winnings and explicitly invites joining and playing at a casino; destination promotes gambling."}
+{"id":"6ac9073b97d07faeee1e","label":1,"rationale":"Shows winnings and explicitly invites joining and playing at a casino; destination promotes gambling."}
+{"id":"f58dbcc4d3ceccdd0e50","label":1,"rationale":"Shows winnings and explicitly invites joining and playing at a casino; destination promotes gambling."}
+{"id":"85d9ad4110c9676c3313","label":1,"rationale":"Shows winnings and explicitly invites joining and playing at a casino; destination promotes gambling."}
+{"id":"d0d6f164296365c4f722","label":1,"rationale":"Shows winnings and explicitly invites joining and playing at a casino; destination promotes gambling."}
+{"id":"bc3f1a5968acdc607b10","label":1,"rationale":"Obfuscated casino name accompanies bonus and referral-registration invitation."}
+{"id":"77b304d77280a01ffa7e","label":1,"rationale":"Obfuscated casino name accompanies bonus and referral-registration invitation."}
+{"id":"513b4939c8c07090622f","label":1,"rationale":"Obfuscated casino name accompanies bonus and referral-registration invitation."}
+{"id":"da1fac948f08e7ea77c0","label":1,"rationale":"Obfuscated casino name accompanies bonus and referral-registration invitation."}
+{"id":"0e8463f6f4d604d3e0fa","label":1,"rationale":"Obfuscated casino name accompanies bonus and referral-registration invitation."}
+{"id":"376140f73e62ea841d67","label":1,"rationale":"Spaced casino name accompanies invitation to play for money or monetary winnings."}
+{"id":"0dcac14809b64e24349f","label":1,"rationale":"Spaced casino name accompanies invitation to play for money or monetary winnings."}
+{"id":"0994b89c557299f4f167","label":1,"rationale":"Spaced casino name accompanies invitation to play for money or monetary winnings."}
+{"id":"aeaf407ebf943ad0b46e","label":1,"rationale":"Spaced casino name accompanies invitation to play for money or monetary winnings."}
+{"id":"e0ff49b2abd3c15baa8d","label":1,"rationale":"Spaced casino name accompanies invitation to play for money or monetary winnings."}
+{"id":"ca72114fc62e4cd711db","label":1,"rationale":"Emoji-obfuscated casino promotion invites slot play with a first bonus."}
+{"id":"534d29e5fa3a3f5c7884","label":1,"rationale":"Emoji-obfuscated casino promotion invites slot play with a first bonus."}
+{"id":"305bc4bac44f753b4f14","label":1,"rationale":"Emoji-obfuscated casino promotion invites slot play with a first bonus."}
+{"id":"b3a0b0465a773bbea53e","label":1,"rationale":"Emoji-obfuscated casino promotion invites slot play with a first bonus."}
+{"id":"a1148bcfb28f9bc848eb","label":1,"rationale":"Emoji-obfuscated casino promotion invites slot play with a first bonus."}
+{"id":"2f4a91c94c7fdc2a3100","label":1,"rationale":"Slot winnings or cash-out testimonial invites others to play; observed destination promotes money gambling."}
+{"id":"598efad1031c4f1915c3","label":1,"rationale":"Slot winnings or cash-out testimonial invites others to play; observed destination promotes money gambling."}
+{"id":"1871c2df9a0cde2b86c8","label":1,"rationale":"Slot winnings or cash-out testimonial invites others to play; observed destination promotes money gambling."}
+{"id":"d4dc1c6064df9eb482c9","label":1,"rationale":"Slot winnings or cash-out testimonial invites others to play; observed destination promotes money gambling."}
+{"id":"629ca1f7e3285d53962f","label":1,"rationale":"Slot winnings or cash-out testimonial invites others to play; observed destination promotes money gambling."}
+{"id":"348e2296a1453bf1c452","label":1,"rationale":"Casino promo code and bonus are offered with a registration invitation."}
+{"id":"bd18afd728f6f2d41795","label":1,"rationale":"Casino promo code and bonus are offered with a registration invitation."}
+{"id":"d86acd4e47511fed2c13","label":1,"rationale":"Casino promo code and bonus are offered with a registration invitation."}
+{"id":"ebb9d94f3ad4105755db","label":1,"rationale":"Casino promo code and bonus are offered with a registration invitation."}
+{"id":"6d72b4464cddcefba81f","label":1,"rationale":"Casino promo code and bonus are offered with a registration invitation."}
+{"id":"0063f8d350b385a39fe9","label":1,"rationale":"Warning about others is followed by promotion of the speakers own casino and bonus; destination confirms gambling."}
+{"id":"0a8f620ce8026628a3f0","label":1,"rationale":"Warning about others is followed by promotion of the speakers own casino and bonus; destination confirms gambling."}
+{"id":"b429ae642797082f53d8","label":1,"rationale":"Warning about others is followed by promotion of the speakers own casino and bonus; destination confirms gambling."}
+{"id":"827d27cfbc75bae0e328","label":1,"rationale":"Warning about others is followed by promotion of the speakers own casino and bonus; destination confirms gambling."}
+{"id":"2ce1732036845f232b34","label":1,"rationale":"Warning about others is followed by promotion of the speakers own casino and bonus; destination confirms gambling."}
+{"id":"af3e068215199193373a","label":1,"rationale":"Closed-group registration and free-spin invitation routes to an observed casino deposit/play destination."}
+{"id":"c10e2c73649e2cea03d7","label":1,"rationale":"Closed-group registration and free-spin invitation routes to an observed casino deposit/play destination."}
+{"id":"522587e23dfcd1353bee","label":1,"rationale":"Closed-group registration and free-spin invitation routes to an observed casino deposit/play destination."}
+{"id":"7603e2f93be9dae66c87","label":1,"rationale":"Closed-group registration and free-spin invitation routes to an observed casino deposit/play destination."}
+{"id":"8e86a54673d20417bfd4","label":1,"rationale":"Closed-group registration and free-spin invitation routes to an observed casino deposit/play destination."}
+{"id":"3a1f401ab516d76c5055","label":1,"rationale":"Channel-to-game invitation explicitly promotes roulette play and a bonus."}
+{"id":"31320b8b03a6c3adc0ed","label":1,"rationale":"Channel-to-game invitation explicitly promotes roulette play and a bonus."}
+{"id":"4e2b648b58ed6d3173a7","label":1,"rationale":"Channel-to-game invitation explicitly promotes roulette play and a bonus."}
+{"id":"f6d64aeac0057329ce36","label":1,"rationale":"Channel-to-game invitation explicitly promotes roulette play and a bonus."}
+{"id":"96e4a5525fb2d82fbbea","label":1,"rationale":"Channel-to-game invitation explicitly promotes roulette play and a bonus."}
+{"id":"90d2a4cef40eb0be886a","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"46fa8fdf9672cb633456","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"7713e2ddba62bec6ffdc","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"44608850ee15530bfaff","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"fcf3f1bfaea7b1a4b2d1","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"c6b7ac3a167972dec014","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"2f1472b04b2d3bb7c8dc","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"55acec300ebe26f2ce9e","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"4f08b772f399508f38e1","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"71dace230716a8cd4ec2","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"7283c28cadd5b7528846","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"244fad1d03e2f5c0e7c8","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"141cc10e7304d2608a5f","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"788e7a7cd6cfb0183bfe","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"4f266eadd7adaee4e596","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"979b7b8f73e2673a72cc","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"0deb188f32259b066df0","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"54119948f56140e703ef","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"706573630d0ef2d3a718","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"9f34db3c253c219db32f","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"74d1094478c7f788c915","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"9445af699557e31bc1d1","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"4ea4f1aa9c3804c2a65e","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"1f178389c76a33468ad1","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"db179a74509ba9d43870","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"c82014564501ecdadd07","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"0190a254c34b3038ba23","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"08e770ee8fed4daed5db","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"a3385705259c3988feb2","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"2b11edcc6c3914900248","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"dae533f2b0783e05dacf","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"48d0ac56fd15781b707d","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"3a4370244424a82e591d","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"e5aaac0a933a829d8927","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"1d4734c72bf5ecc7e04c","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"5fc98ca343c493b3e391","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"60af67c293c2aafd67a2","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"0da0c7ebb2ef36f24924","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"75515753e6a2c4dfecdc","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"c54d1824487e475fd887","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"8aedd06936489634361b","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"c2481c8b44e795d1653c","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"d811dedad2480d360347","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"b0aa6a9eff4ff66b0d5b","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"b52cbe1f237ca48214d5","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"0c8b2e56f3b7262e60ff","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"29fa300cc9a6cee63243","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"344cbf05b4e80fd27df7","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"bdc096f0d05c62ff7167","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"75498a798ece8a8f8850","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"193257c77ac115f29dbc","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"25268519fca3a344c6f7","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"d10342d902568d95b6c7","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"270eb39c0aa3a92005f7","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"a86307cc9742795a9b58","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"2e4940dbcea4b558ca48","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"654d67083c13be1e01d9","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"20ad6e37d402584c1294","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"16b005ea55a708d492c9","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"6e1bdc0876edcdf6a4d5","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"593af87d90e85692f5e4","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"e0957b6d867962186146","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"8750e75be6b3efd46490","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"54c2d8c7d40a1ce6bb9d","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"4f8fd136f4bcb1251166","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"54115d95c21c359b2232","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"3c6a525bf2665e3664c2","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"21cbfbb43f6a18b77b15","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"9cbc337f0f8ffa7179f2","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"0e68a00a246839cf5cb2","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"43dd349a47440ac5bba4","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"264e16f0b66ee821f033","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"3763323bb8d08fa3d6a3","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"2df18babcb10e177d7ed","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"bc880263598cb8cfbcef","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"8c19df6ed6f0138a39d0","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"9c0c27eea3bfe62d973d","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"3dd44b620e3d6c898c72","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"81e5b5dc59eded7ef14f","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"0d178f7205fecd0d1c7d","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"5a7f03149524b2cb985b","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"4e2b55c9d05d1dc95f66","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"e59f3d91c0c75afcbfd0","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"d1eca87c973d2c4fbfae","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"770e2e04cf7504d6c977","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"2d5db9956344e29a4618","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"fe67818c5d9ec8a3b62c","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"c8e3156a174c1b7f3564","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"56d5db7dcef0e1b8fda5","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"4d026af66242a5f6d617","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"c7a1b6587a1ae76c1f21","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"e3a161ae38a4f67f7ef6","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"45a2c8e8ca0fcc7f70d3","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"88d29d9ff971b93adcb4","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"17022c93e41be305912a","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"2e8632cfeb7d047205fc","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"da5b85ae47ae0bc521d0","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"2c42339279e3efa77372","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"3f336d28f84304f2bb19","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"ca05f606d5545dcfceaa","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"a6a9b4adcb5fd6a48cbd","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"4ec89e610e915e93fc9d","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"cffa00699bfbdb9b600e","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"175eff998e635edb36de","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"2aba3eb2a715813a4597","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"8fcded3403d80716cbca","label":1,"rationale":"Invites casino registration, depositing money and playing."}
+{"id":"5fe3284f26594f786b54","label":1,"rationale":"Invites casino registration, depositing money and playing."}
+{"id":"a50f9b17d2b8e7dc0ea2","label":1,"rationale":"Invites casino registration, depositing money and playing."}
+{"id":"000fd00ecd184452ff98","label":1,"rationale":"Invites casino registration, depositing money and playing."}
+{"id":"b9e25e11bc7eeb85621c","label":1,"rationale":"Invites casino registration, depositing money and playing."}
+{"id":"a5a83226a7c4a9804b31","label":1,"rationale":"Registration/gift invitation routes to an observed casino destination asking for deposits and money-slot play."}
+{"id":"c4b87f6d0b575ba067b6","label":1,"rationale":"Registration/gift invitation routes to an observed casino destination asking for deposits and money-slot play."}
+{"id":"90f5522b3d84fcba40f0","label":1,"rationale":"Registration/gift invitation routes to an observed casino destination asking for deposits and money-slot play."}
+{"id":"8d1c1d6fa8c0b82a3530","label":1,"rationale":"Registration/gift invitation routes to an observed casino destination asking for deposits and money-slot play."}
+{"id":"76c3235cc42213ccc15f","label":1,"rationale":"Registration/gift invitation routes to an observed casino destination asking for deposits and money-slot play."}
+{"id":"206ff6f212adedac74ea","label":1,"rationale":"Shows winnings and explicitly invites joining and playing at a casino; destination promotes gambling."}
+{"id":"7a49a8816b93076cd942","label":1,"rationale":"Shows winnings and explicitly invites joining and playing at a casino; destination promotes gambling."}
+{"id":"7f08f07df1297075bd23","label":1,"rationale":"Shows winnings and explicitly invites joining and playing at a casino; destination promotes gambling."}
+{"id":"36ffecd486343ac5ba1a","label":1,"rationale":"Shows winnings and explicitly invites joining and playing at a casino; destination promotes gambling."}
+{"id":"7b9961f5da2b3e7e60c3","label":1,"rationale":"Shows winnings and explicitly invites joining and playing at a casino; destination promotes gambling."}
+{"id":"f17c2782d39184ef5c4f","label":1,"rationale":"Obfuscated casino name accompanies bonus and referral-registration invitation."}
+{"id":"5664a0ac54ecb1154bdc","label":1,"rationale":"Obfuscated casino name accompanies bonus and referral-registration invitation."}
+{"id":"cf6845a8126f85b4e382","label":1,"rationale":"Obfuscated casino name accompanies bonus and referral-registration invitation."}
+{"id":"9e76fc620641498da240","label":1,"rationale":"Obfuscated casino name accompanies bonus and referral-registration invitation."}
+{"id":"ad410a8d62c1c3a4c8cf","label":1,"rationale":"Obfuscated casino name accompanies bonus and referral-registration invitation."}
+{"id":"fad9d3bb822768106957","label":1,"rationale":"Spaced casino name accompanies invitation to play for money or monetary winnings."}
+{"id":"254c3dc6531768513d06","label":1,"rationale":"Spaced casino name accompanies invitation to play for money or monetary winnings."}
+{"id":"7e3a1cb1c167f9ecb685","label":1,"rationale":"Spaced casino name accompanies invitation to play for money or monetary winnings."}
+{"id":"06ae4eac041c7d4d91a1","label":1,"rationale":"Spaced casino name accompanies invitation to play for money or monetary winnings."}
+{"id":"c9ee8744fca33af2eccc","label":1,"rationale":"Spaced casino name accompanies invitation to play for money or monetary winnings."}
+{"id":"354f6498d12bdfab9afa","label":1,"rationale":"Emoji-obfuscated casino promotion invites slot play with a first bonus."}
+{"id":"214ad536fb1a27857ef3","label":1,"rationale":"Emoji-obfuscated casino promotion invites slot play with a first bonus."}
+{"id":"fc105d5d275609775fa3","label":1,"rationale":"Emoji-obfuscated casino promotion invites slot play with a first bonus."}
+{"id":"3a8fceb151319e572432","label":1,"rationale":"Emoji-obfuscated casino promotion invites slot play with a first bonus."}
+{"id":"a724617ea396073f75b2","label":1,"rationale":"Emoji-obfuscated casino promotion invites slot play with a first bonus."}
+{"id":"dd5729ae1b7467ab4f12","label":1,"rationale":"Slot winnings or cash-out testimonial invites others to play; observed destination promotes money gambling."}
+{"id":"468ad560939117767f36","label":1,"rationale":"Slot winnings or cash-out testimonial invites others to play; observed destination promotes money gambling."}
+{"id":"0eca8589ac06b6f3f89b","label":1,"rationale":"Slot winnings or cash-out testimonial invites others to play; observed destination promotes money gambling."}
+{"id":"5d3e290bb49215f8bb34","label":1,"rationale":"Slot winnings or cash-out testimonial invites others to play; observed destination promotes money gambling."}
+{"id":"27ec0d01b256763cb067","label":1,"rationale":"Slot winnings or cash-out testimonial invites others to play; observed destination promotes money gambling."}
+{"id":"1340ffac8c4d36e2d204","label":1,"rationale":"Casino promo code and bonus are offered with a registration invitation."}
+{"id":"724409ba6facb573fd51","label":1,"rationale":"Casino promo code and bonus are offered with a registration invitation."}
+{"id":"268f61ec3d46308550d6","label":1,"rationale":"Casino promo code and bonus are offered with a registration invitation."}
+{"id":"3aa7dd3bb82de7a66242","label":1,"rationale":"Casino promo code and bonus are offered with a registration invitation."}
+{"id":"cd42f1dd8d411cf8b95a","label":1,"rationale":"Casino promo code and bonus are offered with a registration invitation."}
+{"id":"86cebaedc195869f2e73","label":1,"rationale":"Warning about others is followed by promotion of the speakers own casino and bonus; destination confirms gambling."}
+{"id":"22ae27bcd4f60c248aa7","label":1,"rationale":"Warning about others is followed by promotion of the speakers own casino and bonus; destination confirms gambling."}
+{"id":"ff21c8d5a3c43eb0d272","label":1,"rationale":"Warning about others is followed by promotion of the speakers own casino and bonus; destination confirms gambling."}
+{"id":"b3970957f31e9a26570c","label":1,"rationale":"Warning about others is followed by promotion of the speakers own casino and bonus; destination confirms gambling."}
+{"id":"ccad4ecd63b7a301d2e4","label":1,"rationale":"Warning about others is followed by promotion of the speakers own casino and bonus; destination confirms gambling."}
+{"id":"4b320d3a303e26997685","label":1,"rationale":"Closed-group registration and free-spin invitation routes to an observed casino deposit/play destination."}
+{"id":"35c00a948beb2a388c1d","label":1,"rationale":"Closed-group registration and free-spin invitation routes to an observed casino deposit/play destination."}
+{"id":"6dd61d068ba0952ca297","label":1,"rationale":"Closed-group registration and free-spin invitation routes to an observed casino deposit/play destination."}
+{"id":"c98f256b6dabaeba5cdc","label":1,"rationale":"Closed-group registration and free-spin invitation routes to an observed casino deposit/play destination."}
+{"id":"118bf1e26177086b86f4","label":1,"rationale":"Closed-group registration and free-spin invitation routes to an observed casino deposit/play destination."}
+{"id":"cbff802b1c761484e283","label":1,"rationale":"Channel-to-game invitation explicitly promotes roulette play and a bonus."}
+{"id":"48b80ff8641036a29ecf","label":1,"rationale":"Channel-to-game invitation explicitly promotes roulette play and a bonus."}
+{"id":"a9c5454cff32d40ba781","label":1,"rationale":"Channel-to-game invitation explicitly promotes roulette play and a bonus."}
+{"id":"52581804c9f8dfe05562","label":1,"rationale":"Channel-to-game invitation explicitly promotes roulette play and a bonus."}
+{"id":"1d396e824b6e15c40ab3","label":1,"rationale":"Channel-to-game invitation explicitly promotes roulette play and a bonus."}
+{"id":"88b0545a64767745c046","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"a317a77e023b27ff6bdc","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"0fdff48614daf01d2afa","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"5855f7cf1bb835183d31","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"38e1e05e9ff60494a15c","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"51c072597e850cd001e3","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"220c5aec4ada2490c2db","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"26a462281fbac8e226e4","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"daf318e22deda04080b1","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"39de6e77ab21b456a3d7","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"65dfe4ab3e44aaa402b8","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"686759dcbc2261d41ed8","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"84f71f2da4a532778de9","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"85b52d70cb27d23fbc46","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"ae07941deced21a60143","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"fd0f8faae413ae162f45","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"3859d3b319f3a19481c3","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"6746a46970aeaab9a6a4","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"26f13915391fc77d7a25","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"ff98226627a383bb471d","label":0,"rationale":"Free random-prize contest expressly requires no payment or betting; no gambling promotion."}
+{"id":"385b8df379b2602dd84a","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"790008886afd75dd1aef","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"07ee1a5cd865dddcb993","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"5b0a54aed65145a27334","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"67f85495936e76063b44","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"28c3bd31a74e9446fdfc","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"45ec71489c0026281610","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"8eff7ab0c23cd05d1c91","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"95a692967c51d4f4c19c","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"45fc59b6ee6e6a3e4277","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"b8db4bbf2c7409485683","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"5a0e3514740154610af3","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"88b644266da4ca5ce180","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"6ff10becfcc8282771de","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"f2dddfd04af491a1cc14","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"552e63394cfbf3217ed2","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"d2b7c52635cee0f971a9","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"79fa2d7eebee18113d2c","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"e75535b641c877af8990","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"12c75a7a5a9150601529","label":0,"rationale":"Editorial news about casino advertising expressly does not invite gambling."}
+{"id":"7d672670e9e41ea4c025","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"f8302bee398567c3e934","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"7387c1c5d5d67657ac9f","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"f00a4752cf3ccc8dc0a8","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"6147003f72562cd7795c","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"b90b26ecf879098f46f7","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"a8dce811f2bfc2df6c1c","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"7db4360d560a7040ee88","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"3c7a1bbf51a201f39bfc","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"9de6a14c243e371c4883","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"d839a8f85c60722a7adc","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"c85f8681a82b98f548c2","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"28dbf6d0980cd1ec4f31","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"2c359b7fa375ca184753","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"e9b0c8713b8a3810c023","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"e6cc0930581a8380809f","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"7a201f76bcc6abb6f250","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"5eb48f3913e1e69e7fe3","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"6ab17c874208e321638f","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"29ffc1657a7f9c216128","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"59a1a8306cb34a835260","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"0c91d440619378232dfc","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"c46af5f71006ef269da8","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"1568014fee359b0dc6d4","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"3b5f69c7ce5ce8d2aa95","label":0,"rationale":"Anti-gambling warning tells readers not to register, pay, deposit or play."}
+{"id":"aa8fd7965349b2f78da4","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"eea86e377c71ce40651a","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"14e51e566131d1ba9e76","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"7d90d4fd3b56239daa10","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"e1d30f47e2e6280f7780","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"3b3df6ec8adfde86e1c1","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"565ac12c0929ff3d8af0","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"38185455885fbf4d604f","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"3c42210ab09425f68b58","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"ea41ffef3c9edd88cc8b","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"3390b52893f575b651c7","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"3a7a4fe7155dcb4845b1","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"69451bcf316a98af5abe","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"c43ca4641c33d8ce365c","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"d2cc22b040af25a34739","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"1b0bba42fdb86a4b59a6","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"c909303bd70dced7b154","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"2bb8d4a66652ecab411c","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"1115d1630a57f72fb6e7","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"909655a562220af1be0a","label":0,"rationale":"Ordinary shop goods, discounts, purchasing bonuses or consultation bookings; no gambling offer."}
+{"id":"93c81168213e0c693309","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"e035c5bcd49ba5fd4f31","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"7a8bed52ef9f51c05020","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"17831e51307389ae2313","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"55b5cc6806c9e9d20a6d","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"c17d57eaaee713317109","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"a61bd4848b730fadd45b","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"289a770f2d66b9707cca","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"3814a785985de188a28d","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"36a512bdd5c0905dcb0c","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"491fb65b5c1e63df50fa","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"90e2e8de1bd22e8d67d2","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"fdcaf9992d3952167b9d","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"c754891dc5f6f0bd9d21","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"6367e7558279118e9395","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"51df8f92f1693091888a","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"2fb12a50e733e5d19aa9","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"01857c9aa5474c50a740","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"07bef02f99642b208c5b","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
+{"id":"cd5b137dda2e1d7bc64b","label":0,"rationale":"Educational or critical discussion presents casino advertising as a harmful example or warning."}
