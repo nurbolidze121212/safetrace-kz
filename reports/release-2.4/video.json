@@ -1,0 +1,46 @@
+{
+  "format": "Screenshot-based video overview; no live screen recording or audio",
+  "seconds": 120,
+  "sources": [
+    {
+      "file": "reports/release-2.4/browser/site-desktop.png",
+      "sha256": "fbad2a1d13421dce5b846bf00e5ef1ae7ab5e143368f9982e82e0325304c3771",
+      "start_seconds": 0,
+      "caption": "SafeTrace KZ · Скрытая игра / 2 минуты\nВидеообзор из снимков работающего интерфейса. Учебные данные; без живой записи."
+    },
+    {
+      "file": "reports/release-2.4/browser/site-evidence.png",
+      "sha256": "e6b940f95711e06cd512bbed750b9e39f057aa448252ba2f6e0da399d6d85fd5",
+      "start_seconds": 20,
+      "caption": "01 · Сообщение → маршрут → основания\n80 — индекс приоритета для аналитика, а не вероятность. Источники доступны по нажатию."
+    },
+    {
+      "file": "reports/release-2.4/browser/site-ocr.png",
+      "sha256": "b1b78f1063e76be25917621d213e7e8d3309c79f9a1c3add33bab33425145afc",
+      "start_seconds": 40,
+      "caption": "02 · Фото и распознанный текст\nOCR выполнен локально. Онлайн-страница показывает сохранённый результат и оригинал."
+    },
+    {
+      "file": "reports/release-2.4/browser/site-warning.png",
+      "sha256": "ede08d7e153a5871b20abb6dbe8aeee657bb9217ce04a4c39c80b541bd72b407",
+      "start_seconds": 60,
+      "caption": "03 · Проверка контекста\nПредупреждение получает 0. Совпадение слова «казино» само по себе недостаточно."
+    },
+    {
+      "file": "reports/release-2.4/browser/site-network.png",
+      "sha256": "4a311d217c4abfbc3aae37b18d06b562f0566f8e553baee9b13b415e8251ccb8",
+      "start_seconds": 80,
+      "caption": "04 · Общая сеть публикаций\n96 учебных материалов / 446 сущностей. Группировка по связям не доказывает общего владельца."
+    },
+    {
+      "file": "reports/release-2.4/browser/site-metrics.png",
+      "sha256": "06baee7aa50a8c61f7ea0ef427b19994b5834eccf919216f11e9b661059a6574",
+      "start_seconds": 100,
+      "caption": "05 · Проверяемость и следующий шаг\n80 авторских случаев. Независимый реальный тест, усиление KK и OCR ещё нужны."
+    }
+  ],
+  "bytes": 1458995,
+  "sha256": "8a1e1174e9a9c95a461b3ecd045549bd58740222454861ef7ce703e768d3e0d9",
+  "verified_duration_seconds": 119.96,
+  "verification": "ffprobe; extracted frame at 45 seconds visually inspected"
+}

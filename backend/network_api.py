@@ -24,6 +24,10 @@ def network(mode: Literal["local", "synthetic", "cloud", "replay"] = "local",
             ORDER BY json_extract(document, '$.created_at') DESC, id LIMIT ?
         """, (mode, limit + 1)).fetchall()
     documents = [dict(zip(fields, json.loads(row["projection"]), strict=True)) for row in rows[:limit]]
+    for document in documents:
+        # SQL projections represent absent legacy fields as null, unlike dict.get defaults.
+        document["trace"] = document["trace"] or {}
+        document["identifiers"] = document["identifiers"] or []
     try:
         result = build_network(documents)
     except ValueError as exc:

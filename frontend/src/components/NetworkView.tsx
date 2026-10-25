@@ -41,13 +41,13 @@ export default function NetworkView({ onOpen }: { onOpen: (id: string) => void }
         { selector: ':selected', style: { 'border-color': '#182b46', 'border-width': 3, 'line-color': '#182b46' } },
       ], minZoom: .08, maxZoom: 3 })
     cy.on('tap', 'node,edge', event => setSelection(event.target.data('evidence_ids') || []))
-    const observer = new ResizeObserver(() => cy.resize())
+    const observer = new ResizeObserver(() => { cy.resize(); cy.fit(undefined, 30) })
     observer.observe(container.current)
     return () => { observer.disconnect(); cy.destroy() }
   }, [data, group])
   return <section className="network-view">
     <div className="eyebrow">СВЯЗИ МЕЖДУ СЛУЧАЯМИ</div><h1>Сеть материалов</h1>
-    <p>Публикации, заявленные источники, домены и реферальные идентификаторы. Группы выделены по точным совпадениям в области домена.</p>
+    <p>Публикации, заявленные источники, домены и реферальные идентификаторы. Связь требует совпадения домена, пути, имени параметра и его значения.</p>
     <label>Источник данных <select value={mode} onChange={e => { setMode(e.target.value); setGroup(''); setSelection([]) }}><option value="local">Локальные случаи</option><option value="synthetic">Синтетические случаи</option><option value="cloud">Случаи с облачным контекстом</option><option value="replay">Сохранённые повторы</option></select></label>
     {state?.mode === mode && state.error && <p role="alert">{state.error}</p>}
     {!state?.error && !data && <p role="status">Загрузка сети…</p>}

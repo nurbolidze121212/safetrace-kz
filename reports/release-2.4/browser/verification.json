@@ -1,0 +1,18 @@
+{
+  "public_url": "https://nurbolidze121212.github.io/safetrace-kz/",
+  "checks": [
+    "Public page loaded",
+    "Four saved examples selectable",
+    "Warning score zero",
+    "Photo and OCR text visible",
+    "Metrics with confidence intervals visible",
+    "Synthetic network loaded and groups available",
+    "Local application network: 4 cases, 28 entities, 6 matching pairs, 1 community",
+    "Local application group-to-case navigation available",
+    "Mobile layout 390x844 inspected; graph fits after resize fix",
+    "Temporary viewport override reset"
+  ],
+  "physical_phone": false,
+  "new_public_uploads": false,
+  "screenshots_are_authored_demo_data": true
+}

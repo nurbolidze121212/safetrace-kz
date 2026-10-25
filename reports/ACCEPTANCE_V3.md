@@ -16,7 +16,7 @@
 
 Новый отрицательный пример 496bd70a156840eba53951597ef54826: рекламная лексика в публикации ведет к предупреждению. Индекс 0, достаточные данные, два наблюдения; открыты точные цитаты предупреждения. Подпись «Рекламный контекст» относится к тексту материала, а не объявляет доказанным игровое назначение.
 
-Машинные записи и изображения: [acceptance-v3](acceptance-v3/), включая browser-check.json, new-material-source.json, new-case-after-add.json, new-qr-evidence.png, new-link-evidence.png, warning-page-evidence.png и graph-case-scope.png.
+Машинные записи и изображения: [acceptance-v3](acceptance-v3), включая browser-check.json, new-material-source.json, new-case-after-add.json, new-qr-evidence.png, new-link-evidence.png, warning-page-evidence.png и graph-case-scope.png.
 
 ## Изменение маршрута и ручная проверка
 

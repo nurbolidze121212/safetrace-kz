@@ -168,7 +168,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\start.ps1 -Offline -Backgroun
 ## 11. Подтверждения
 
 - [Исходный PDF, четыре страницы](<C:/Users/nurbo/Downloads/SafeNet_KZ_Hackathon (1) (3) (1).pdf>): выбор трека, требования и веса критериев.
-- [Зафиксированная спецификация](../SPEC.md): выбранный объём первой сборки.
+- [Зафиксированная спецификация](archive/SPEC.md): выбранный объём первой сборки.
 - [Итоговая передача v3](../reports/HANDOFF_V3.md): реализованные сценарии, проверки и материалы защиты.
 - [Оценка v3](../reports/EVALUATION_V3.md) и [машинный результат со срезами](../reports/versions/synthetic-v3/evaluation.json).
 - [Проверка текущего состояния 22 октября](../reports/brief-review-2026-10-22-preflight.json).

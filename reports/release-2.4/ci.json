@@ -1,0 +1,284 @@
+{
+  "run_id": 40200301052,
+  "head": "b55018c8512b62d7082bc1a0e2e926fe80397c68",
+  "jobs": [
+    {
+      "id": 121189863680,
+      "name": "frontend",
+      "conclusion": "success",
+      "started_at": "2026-10-25T14:01:36Z",
+      "completed_at": "2026-10-25T14:01:57Z",
+      "html_url": "https://github.com/nurbolidze121212/safetrace-kz/actions/runs/40200301052/job/121189863680",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-25T14:01:36Z",
+          "completed_at": "2026-10-25T14:01:37Z"
+        },
+        {
+          "name": "Run actions/checkout@v6",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-25T14:01:37Z",
+          "completed_at": "2026-10-25T14:01:39Z"
+        },
+        {
+          "name": "Run actions/setup-node@v6",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-25T14:01:39Z",
+          "completed_at": "2026-10-25T14:01:40Z"
+        },
+        {
+          "name": "Run npm ci --no-audit --no-fund",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-25T14:01:40Z",
+          "completed_at": "2026-10-25T14:01:46Z"
+        },
+        {
+          "name": "Run npm run lint && npm test && npm run build",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-25T14:01:46Z",
+          "completed_at": "2026-10-25T14:01:53Z"
+        },
+        {
+          "name": "Post Run actions/setup-node@v6",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2026-10-25T14:01:53Z",
+          "completed_at": "2026-10-25T14:01:55Z"
+        },
+        {
+          "name": "Post Run actions/checkout@v6",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2026-10-25T14:01:55Z",
+          "completed_at": "2026-10-25T14:01:55Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-10-25T14:01:55Z",
+          "completed_at": "2026-10-25T14:01:55Z"
+        }
+      ]
+    },
+    {
+      "id": 121189863850,
+      "name": "python",
+      "conclusion": "success",
+      "started_at": "2026-10-25T14:01:35Z",
+      "completed_at": "2026-10-25T14:04:15Z",
+      "html_url": "https://github.com/nurbolidze121212/safetrace-kz/actions/runs/40200301052/job/121189863850",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-25T14:01:36Z",
+          "completed_at": "2026-10-25T14:01:37Z"
+        },
+        {
+          "name": "Run actions/checkout@v6",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-25T14:01:37Z",
+          "completed_at": "2026-10-25T14:01:38Z"
+        },
+        {
+          "name": "Run actions/setup-python@v6",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-25T14:01:38Z",
+          "completed_at": "2026-10-25T14:01:39Z"
+        },
+        {
+          "name": "Run sudo apt-get update && sudo apt-get install -y libgl1 libglib2.0-0 libgomp1 fonts-dejavu-core",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-25T14:01:39Z",
+          "completed_at": "2026-10-25T14:01:51Z"
+        },
+        {
+          "name": "Run python -m pip install -r requirements.lock.txt",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-25T14:01:51Z",
+          "completed_at": "2026-10-25T14:02:33Z"
+        },
+        {
+          "name": "Run python -m ruff check backend tests scripts",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-10-25T14:02:33Z",
+          "completed_at": "2026-10-25T14:02:33Z"
+        },
+        {
+          "name": "Run actions/cache@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-10-25T14:02:33Z",
+          "completed_at": "2026-10-25T14:02:33Z"
+        },
+        {
+          "name": "Run python scripts/prepare_models.py",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2026-10-25T14:02:33Z",
+          "completed_at": "2026-10-25T14:03:42Z"
+        },
+        {
+          "name": "Run python -m pytest -q",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2026-10-25T14:03:42Z",
+          "completed_at": "2026-10-25T14:04:09Z"
+        },
+        {
+          "name": "Post Run actions/cache@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16,
+          "started_at": "2026-10-25T14:04:09Z",
+          "completed_at": "2026-10-25T14:04:11Z"
+        },
+        {
+          "name": "Post Run actions/setup-python@v6",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17,
+          "started_at": "2026-10-25T14:04:11Z",
+          "completed_at": "2026-10-25T14:04:13Z"
+        },
+        {
+          "name": "Post Run actions/checkout@v6",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 18,
+          "started_at": "2026-10-25T14:04:13Z",
+          "completed_at": "2026-10-25T14:04:13Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 19,
+          "started_at": "2026-10-25T14:04:13Z",
+          "completed_at": "2026-10-25T14:04:13Z"
+        }
+      ]
+    },
+    {
+      "id": 121189863860,
+      "name": "container",
+      "conclusion": "success",
+      "started_at": "2026-10-25T14:01:36Z",
+      "completed_at": "2026-10-25T14:03:59Z",
+      "html_url": "https://github.com/nurbolidze121212/safetrace-kz/actions/runs/40200301052/job/121189863860",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-25T14:01:37Z",
+          "completed_at": "2026-10-25T14:01:37Z"
+        },
+        {
+          "name": "Run actions/checkout@v6",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-25T14:01:37Z",
+          "completed_at": "2026-10-25T14:01:39Z"
+        },
+        {
+          "name": "Run docker compose config --quiet",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-25T14:01:39Z",
+          "completed_at": "2026-10-25T14:01:40Z"
+        },
+        {
+          "name": "Run docker compose build",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-25T14:01:40Z",
+          "completed_at": "2026-10-25T14:03:44Z"
+        },
+        {
+          "name": "Run docker compose up -d --wait --wait-timeout 90",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-25T14:03:44Z",
+          "completed_at": "2026-10-25T14:03:50Z"
+        },
+        {
+          "name": "Verify new text analysis and OCR",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-10-25T14:03:50Z",
+          "completed_at": "2026-10-25T14:03:56Z"
+        },
+        {
+          "name": "Run docker compose logs --no-color",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-10-25T14:03:56Z",
+          "completed_at": "2026-10-25T14:03:56Z"
+        },
+        {
+          "name": "Run docker compose down",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2026-10-25T14:03:56Z",
+          "completed_at": "2026-10-25T14:03:56Z"
+        },
+        {
+          "name": "Post Run actions/checkout@v6",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16,
+          "started_at": "2026-10-25T14:03:56Z",
+          "completed_at": "2026-10-25T14:03:56Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17,
+          "started_at": "2026-10-25T14:03:56Z",
+          "completed_at": "2026-10-25T14:03:57Z"
+        }
+      ]
+    }
+  ]
+}

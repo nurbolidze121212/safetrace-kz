@@ -1,0 +1,2 @@
+# Optional retrospective experiment only. Not required by the application or CI.
+scikit-learn==1.9.1

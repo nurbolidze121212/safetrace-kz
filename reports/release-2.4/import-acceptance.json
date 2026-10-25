@@ -1,0 +1,85 @@
+{
+  "telegram": {
+    "receipt": [
+      {
+        "batch": 1,
+        "id": "24f5406e51c04ad4b6f377cae08b157f",
+        "status": "submitted"
+      },
+      {
+        "batch": 1,
+        "id": "24f5406e51c04ad4b6f377cae08b157f",
+        "status": "completed"
+      },
+      {
+        "batch": 2,
+        "id": "f7541728e3624b35980d9a380e4d96c2",
+        "status": "submitted"
+      },
+      {
+        "batch": 2,
+        "id": "f7541728e3624b35980d9a380e4d96c2",
+        "status": "completed"
+      },
+      {
+        "batch": 3,
+        "id": "850b489710e042fab98520753ccdaa36",
+        "status": "submitted"
+      },
+      {
+        "batch": 3,
+        "id": "850b489710e042fab98520753ccdaa36",
+        "status": "completed"
+      }
+    ],
+    "material_counts": [
+      20,
+      20,
+      3
+    ],
+    "elapsed_seconds": 2.5543808999996145,
+    "cli_result": {
+      "materials": 43,
+      "batches": 3,
+      "notes": {
+        "skipped_service_or_empty": 0,
+        "media": "Text only; attachments not imported"
+      }
+    }
+  },
+  "srt": {
+    "receipt": [
+      {
+        "batch": 1,
+        "id": "66874632fc1441b9887d1e9641b5e26a",
+        "status": "submitted"
+      },
+      {
+        "batch": 1,
+        "id": "66874632fc1441b9887d1e9641b5e26a",
+        "status": "completed"
+      }
+    ],
+    "material_counts": [
+      2
+    ],
+    "elapsed_seconds": 1.106362900000022,
+    "cli_result": {
+      "materials": 2,
+      "batches": 1,
+      "notes": {
+        "media": "Imported transcript only; speech recognition and video processing not performed"
+      }
+    }
+  },
+  "network_local": {
+    "cases": 4,
+    "materials": 45,
+    "entities": 90,
+    "edges": 45,
+    "matching_pairs": 0,
+    "components": 45,
+    "communities": 45
+  },
+  "scope": "Authored text-only local HTTP acceptance on isolated database; not a throughput or quality benchmark"
+}
