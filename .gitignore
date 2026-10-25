@@ -16,3 +16,7 @@ tmp/
 deliverables/releases/
 .chart-data-*/
 deliverables/SafeTrace-KZ-defense-v4-r3.pptx
+.codex-finalizer/
+deliverables/kazakh-jury-2026-10-25/.deck-build/
+deliverables/kazakh-jury-2026-10-25/build_deck.cjs
+deliverables/kazakh-jury-2026-10-25/SafeTrace-KZ-Track2-v5-KK.pptx

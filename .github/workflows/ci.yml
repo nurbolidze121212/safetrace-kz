@@ -73,18 +73,19 @@ jobs:
       - name: Measure real 1, 2 and 4 worker curve
         if: github.event_name == 'workflow_dispatch'
         run: |
-          mkdir -p reports/queue-ci
-          lscpu > reports/queue-ci/cpu.txt
-          free -m > reports/queue-ci/memory.txt
+          bench_dir="${RUNNER_TEMP}/safetrace-queue"
+          mkdir -p "$bench_dir"
+          lscpu > "$bench_dir/cpu.txt"
+          free -m > "$bench_dir/memory.txt"
           for workers in 1 2 4; do
             docker compose -f compose.yaml -f compose.build.yaml up -d --scale worker=$workers --wait --wait-timeout 120
-            python3 scripts/benchmark_queue_v5.py --workers "$workers" --output "reports/queue-ci/workers-$workers.json"
+            python3 scripts/benchmark_queue_v5.py --workers "$workers" --output "$bench_dir/workers-$workers.json"
           done
       - uses: actions/upload-artifact@v4
         if: always() && github.event_name == 'workflow_dispatch'
         with:
           name: real-queue-benchmark
-          path: reports/queue-ci
+          path: ${{ runner.temp }}/safetrace-queue
       - name: Publish prepared image
         if: github.event_name == 'workflow_dispatch' && inputs.publish_image
         env:

@@ -38,6 +38,6 @@ docker compose up -d
 | Как получены числа? | [Протокол v5](docs/EVALUATION_PROTOCOL_V5.md), [заморозка ядра](reports/versions/synthetic-v5/core-freeze.json), [заморозка данных](reports/versions/synthetic-v5/data-freeze.json), [все предсказания](reports/versions/synthetic-v5/evaluation.json) |
 | Где слабые места? | [Ошибки по языку, изображению и абляции](docs/METRICS.md), [общие ограничения](docs/LIMITATIONS.md) |
 | Работает ли сеть и масштаб? | [Структурный тест 5000 узлов и время 10k/100k](docs/NETWORK_V5.md), [CI и реальный OCR 1→4](docs/SCALE_BENCHMARK_V5.md) |
-| Как выступить? | [Қазақша: ровно 5 минут по слайдам](deliverables/kazakh-jury-2026-10-25/PITCH_V5_KK.md) |
+| Как выступить? | [Қазақша: 5 минут по слайдам](deliverables/kazakh-jury-2026-10-25/PITCH_V5_KK.md), [редактируемые слайды PPTX](deliverables/kazakh-jury-2026-10-25/SafeTrace-KZ-Track2-v5-r2-KK.pptx) |
 
 История выпусков и старые измерения сохранены в [каталоге документации](docs/README.md). Автор: Nurbol Zhuman; разработка с AI-инструментами. [Лицензия кода MIT](LICENSE); у зависимостей и моделей [собственные лицензии](docs/SOURCES_AND_LICENSES.md).
