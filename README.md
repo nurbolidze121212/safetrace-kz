@@ -1,43 +1,46 @@
 # SafeTrace KZ · Скрытая игра
 
-**SafeNet KZ · трек 2.** Проверяем публикацию или скриншот на признаки скрытого продвижения азартных игр и показываем цепочку **материал → ссылка/посредник → ресурс → проверяемые источники**. Аналитик видит цитаты, исходное фото, причины индекса и связи между несколькими публикациями.
+**SafeNet KZ · трек 2.** Находим признаки скрытого продвижения азартных игр в сообщениях и скриншотах, восстанавливаем маршрут ссылки и показываем источники каждого вывода для проверки аналитиком.
 
-[![Checks](https://github.com/nurbolidze121212/safetrace-kz/actions/workflows/ci.yml/badge.svg)](https://github.com/nurbolidze121212/safetrace-kz/actions/workflows/ci.yml) · [MIT](LICENSE) · **[Вставить ссылку или текст онлайн](https://nurbolidze121212.github.io/safetrace-kz/#try)** · [Питч на казахском, 5 минут](deliverables/kazakh-jury-2026-10-25/PITCH_V5_KK.md)
+- **Честная оценка:** ядро [заморожено до измерения v5](reports/versions/synthetic-v5/core-freeze.json); [протокол и результат v5](docs/METRICS.md) доступны для проверки.
+- **Рабочая очередь:** Redis и [измеренные 1→4 воркера](docs/SCALE_BENCHMARK_V5.md): текст **22,94→41,00 случая/с**, OCR **0,434→0,662 изображения/с** на 4 vCPU.
+- **Сеть материалов:** [5000 авторских сущностей](docs/NETWORK_V5.md), сильные и слабые связи, эксперимент Louvain, строгая группировка и PageRank с переходом к источнику.
 
-![Локальное приложение: фото, причины приоритета и маршрут](reports/message-demo/presentation-photo.png)
+**Қазақша:** Жасырын құмар ойын жарнамасының белгілерін мәтіннен және суреттен табамыз. Әр нәтиже дереккөзге апарады; соңғы шешімді талдаушы қабылдайды.
 
-| Замороженный synthetic-v5, 640 случаев | Precision | Recall | FPR |
+**English:** Trace suspected gambling promotion from a post or screenshot through its links and evidence. The analyst can inspect each claim before deciding.
+
+[![Checks](https://github.com/nurbolidze121212/safetrace-kz/actions/workflows/ci.yml/badge.svg)](https://github.com/nurbolidze121212/safetrace-kz/actions/workflows/ci.yml) · [Онлайн-демо: OCR и маршрут](https://nurbolidze121212.github.io/safetrace-kz/#workspace) · [Релиз 3.0](https://github.com/nurbolidze121212/safetrace-kz/releases/tag/v3.0.0) · [Питч на казахском](deliverables/kazakh-jury-2026-10-25/PITCH_V5_KK.md) · [MIT](LICENSE)
+
+![Локальное приложение: исходное фото, индекс и маршрут](reports/message-demo/presentation-photo.png)
+
+![18 секунд интерфейса из сохранённых кадров](docs/assets/interface-tour.gif)
+
+| Замороженный synthetic-v5, полный процесс | FPR | Precision | Recall |
 |---|---:|---:|---:|
-| Полный процесс, Track 2 | **89,2%** (166/186) | **75,5%** (166/220) | **4,8%** (20/420) |
+| 640 случаев | **4,8%** (20/420) | **89,2%** (166/186) | **75,5%** (166/220) |
 
-**Авторский синтетический набор, разметка LLM, не человеческая.** Скриншоты: 53/76 положительных найдены; транслит: 20/105 отрицательных ошибочно помечены. [Confusion matrix, интервалы Wilson и все срезы](docs/METRICS.md). Эти числа не устанавливают качество на реальном потоке; индекс 0–100 означает приоритет ручной проверки, а не вероятность.
+**Оговорка:** это авторский синтетический набор с разметкой LLM, без человеческой проверки; интервалы Wilson, ошибки, протокол и границы применимости — в [METRICS](docs/METRICS.md).
 
-## Запуск полного анализа
-
-```sh
-docker compose up -d
-```
-
-Откройте **http://127.0.0.1:8765**. Compose использует готовый CPU-образ с OCR-моделями, Redis и 1 воркером; сборка не требуется. Для разработки: `docker compose -f compose.yaml -f compose.build.yaml up --build -d`. [Установка, 1–4 воркера, данные и ограничения](docs/DOCKER.md). Код и готовый образ рассчитаны на Linux amd64; на Mac ARM нужна эмуляция, скорость на нём не измерена.
-
-Онлайн-страница позволяет судье **самому вставить ссылку или текст**. Отдельный сервер пробует ограниченно пройти по URL (до 4 переходов) и прочитать HTML/текст. Экран показывает фактическую цепочку и различает прочитанную страницу и неудавшуюся проверку. Экспериментальный онлайн-вывод не измерялся на v5 и не доказывает безопасность, наличие лицензии или отсутствие скрытой игры. Сохранённый `.test`-пример показывает OCR, маршрут, основания и ZIP. Новые фото, реальный OCR и собственная база работают в локальном приложении. [Точная матрица возможностей](docs/LOCAL_AND_ONLINE.md).
-
-## Что реально сделано
-
-- Оригинал текста/фото, QR и OCR с осторожным извлечением URL; ограниченный обход только разрешённых адресов, каждое наблюдение хранит метод и источник.
-- Контекст RU/KK, транслит и смесь; отрицания и предупреждения снижают ложный вывод. Три уровня на экране и в JSON: низкий, средний, высокий.
-- Сеть публикаций, аккаунтов, каналов, доменов и кодов: точные и **явно слабые** основания, консервативные группы и PageRank для очередности ручной проверки.
-- Telegram JSON и SRT с таймкодами; Redis Streams с повторным захватом задания, 1–4 отдельных воркера. [Измеренный замер](docs/SCALE_BENCHMARK_V5.md): текст 22,94→41,00 случаев/с, OCR 0,434→0,662 изображения/с на 4 vCPU.
-- Отдельные учебные расширения [треков 1 и 3](reports/versions/synthetic-v5/track-extensions.json). Их метрики **не входят** в основной результат трека 2.
-
-## Проверка для жюри и разработчика
-
-| Вопрос | Доказательство |
+| Критерий ТЗ | Где проверить |
 |---|---|
-| По каким критериям оценивается трек? | [Критерий ТЗ → экран/файл](docs/CRITERIA_TO_EVIDENCE.md), [выдержка из предоставленного PDF](docs/BRIEF_TRACK2.md) |
-| Как получены числа? | [Протокол v5](docs/EVALUATION_PROTOCOL_V5.md), [заморозка ядра](reports/versions/synthetic-v5/core-freeze.json), [заморозка данных](reports/versions/synthetic-v5/data-freeze.json), [все предсказания](reports/versions/synthetic-v5/evaluation.json) |
-| Где слабые места? | [Ошибки по языку, изображению и абляции](docs/METRICS.md), [общие ограничения](docs/LIMITATIONS.md) |
-| Работает ли сеть и масштаб? | [Структурный тест 5000 узлов и время 10k/100k](docs/NETWORK_V5.md), [CI и реальный OCR 1→4](docs/SCALE_BENCHMARK_V5.md) |
-| Как выступить? | [Қазақша: 5 минут по слайдам](deliverables/kazakh-jury-2026-10-25/PITCH_V5_KK.md), [редактируемые слайды PPTX](deliverables/kazakh-jury-2026-10-25/SafeTrace-KZ-Track2-v5-r2-KK.pptx) |
+| Точность, 30% | [Матрица ошибок и срезы](docs/METRICS.md) |
+| Объяснимость, 20% | [Экран OCR → маршрут → источник](https://nurbolidze121212.github.io/safetrace-kz/#workspace) |
+| Инновационность, 20% | [Сеть, основания рёбер, Louvain и PageRank](docs/NETWORK_V5.md) |
+| Практичность, 15% | [Демо со своим вводом](https://nurbolidze121212.github.io/safetrace-kz/#try) · [этика](ETHICS.md) |
+| Масштабирование, 10% | [Очередь и фактический замер воркеров](docs/SCALE_BENCHMARK_V5.md) |
+| Презентация, 5% | [Питч на 5 минут](deliverables/kazakh-jury-2026-10-25/PITCH_V5_KK.md) · [релиз 3.0](https://github.com/nurbolidze121212/safetrace-kz/releases/tag/v3.0.0) |
 
-История выпусков и старые измерения сохранены в [каталоге документации](docs/README.md). Автор: Nurbol Zhuman; разработка с AI-инструментами. [Лицензия кода MIT](LICENSE); у зависимостей и моделей [собственные лицензии](docs/SOURCES_AND_LICENSES.md).
+## За минуту: посмотреть и запустить
+
+1. [Откройте онлайн-демо](https://nurbolidze121212.github.io/safetrace-kz/#workspace): первым показан сохранённый скриншот, OCR, риск, маршрут и цитаты. Затем [вставьте свою ссылку или текст](https://nurbolidze121212.github.io/safetrace-kz/#try).
+2. Для полного OCR и досье на своём компьютере: `docker compose up -d`, затем **http://127.0.0.1:8765**. [Установка, платформы и данные](docs/DOCKER.md).
+3. [Видео релиза 3.0](https://github.com/nurbolidze121212/safetrace-kz/releases/download/v3.0.0/SafeTrace-KZ-v3-demo-2min.mp4) · [архив исходников](https://github.com/nurbolidze121212/safetrace-kz/releases/download/v3.0.0/SafeTrace-KZ-v3.0.0-source.zip) · [казахские слайды](deliverables/kazakh-jury-2026-10-25/SafeTrace-KZ-Track2-v5-r2-KK.pptx).
+
+Онлайн-форма проверяет адрес ограниченным обходом до 4 переходов; текст считает в браузере. Сохранённый пример показывает полный путь с OCR. Новое фото и полный анализ доступны в локальном приложении. [Сравнение возможностей](docs/LOCAL_AND_ONLINE.md).
+
+## Что внутри
+
+Приём текста, фото, Telegram JSON и SRT → извлечение URL/QR/OCR → контекст RU/KK и рекламные признаки → ограниченный маршрут → сеть с источниками → очередь ручной проверки и экспорт ZIP. [Архитектура](docs/ARCHITECTURE.md) · [Доказательства по критериям](docs/CRITERIA_TO_EVIDENCE.md) · [Документация и история](docs/README.md) · [Этика](ETHICS.md).
+
+Автор: Nurbol Zhuman; разработка с AI-инструментами. [Лицензия кода MIT](LICENSE); [лицензии зависимостей и моделей](docs/SOURCES_AND_LICENSES.md).

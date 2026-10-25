@@ -16,7 +16,7 @@ function showCase(doc, index) {
   $('original').textContent = mat.text || 'Текст получен из изображения, без подсказки в поле сообщения.';
   $('original-image').hidden = !doc.image_preview;
   if (doc.image_preview) $('original-image').src = doc.image_preview;
-  $('ocr-box').hidden = !mat.ocr; $('ocr').textContent = mat.ocr?.text || '';
+  $('ocr-box').hidden = !mat.ocr; $('ocr-box').open = Boolean(mat.ocr); $('ocr').textContent = mat.ocr?.text || '';
   $('score').textContent = doc.score.value;
   $('level').textContent = {high:'Высокий приоритет',medium:'Средний приоритет',low:'Низкий приоритет'}[doc.score.level];
   $('coverage').textContent = doc.sufficient_data ? 'Данных достаточно для применённых правил.' : 'Часть данных требует сверки. Низкий индекс не подтверждает безопасность.';
@@ -28,12 +28,13 @@ function showCase(doc, index) {
   $('route').replaceChildren();
   for (const o of doc.trace.observations) { const b = el('button',null,'route-button'); b.append(el('b',o.url),el('small',(o.status_code ? 'HTTP '+o.status_code : 'Остановка')+' · '+o.method)); b.onclick = () => showEvidence(doc,[o.evidence_id]); $('route').append(b); }
   if (!doc.trace.observations.length) $('route').append(el('p','Переходов нет. Адрес может отсутствовать или ожидать сверки OCR.'));
-  showEvidence(doc, doc.score.contributions[0]?.evidence_ids || [mat.source_evidence_id]);
+  showEvidence(doc, doc.image_preview && doc.trace.observations[0] ? [doc.trace.observations[0].evidence_id] : (doc.score.contributions[0]?.evidence_ids || [mat.source_evidence_id]));
 }
 fetch('data.json').then(r => { if(!r.ok) throw Error('Не удалось загрузить примеры'); return r.json(); }).then(data => {
   $('loading').hidden = true;
-  data.cases.forEach((doc, i) => {const b = el('button', doc.title); b.onclick = () => showCase(doc, i); $('examples').append(b);});
-  showCase(data.cases[0],0);
+  const cases = [...data.cases].sort((a, b) => Number(Boolean(b.image_preview)) - Number(Boolean(a.image_preview)));
+  cases.forEach((doc, i) => {const b = el('button', doc.title); b.onclick = () => showCase(doc, i); $('examples').append(b);});
+  showCase(cases[0],0);
   const labels = {'all':'Все случаи','language:ru':'Русский','language:kk':'Казахский','language:mixed':'Смешанный','language:translit':'Транслит','format:image':'Изображения','format:text':'Текст'};
   for (const [name,row] of [['all',data.evaluation.full],...Object.entries(data.evaluation.slices)]) {const tr=el('tr'); for(const val of [labels[name]||name,row.n,measure(row,'precision'),measure(row,'recall'),measure(row,'fpr')]) tr.append(el('td',val)); $('metric-rows').append(tr);}
 }).catch(e => {$('loading').textContent=e.message;});

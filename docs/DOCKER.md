@@ -10,6 +10,8 @@ Compose скачивает опубликованный `ghcr.io/nurbolidze12121
 
 Образ использует Linux amd64 / Python 3.12 / CPU. Compose запускает API, Redis и отдельный воркер; `docker compose up -d --scale worker=4` задаёт четыре процесса. SQLite остаётся единым узлом записи, это не распределённое хранилище. Compose публикует API только на `127.0.0.1` компьютера; Redis наружу не опубликован. На ARM Mac используется эмуляция amd64; производительность на физическом Mac не измерена. Контейнер не открывает рабочую папку проекта или личную базу: данные находятся в именованных томах Compose.
 
+Multi-arch GHCR-манифест пока не опубликован: закреплённый `paddlepaddle==3.3.1` не имеет доступного официального wheel для Linux arm64 / Python 3.12 в проверке `pip download --only-binary=:all: --platform manylinux2014_aarch64 --python-version 312 --implementation cp --abi cp312 --no-deps paddlepaddle==3.3.1`. Публикация тега arm64 без настоящего OCR была бы неверной. Проверенный образ и CI остаются amd64; дальнейший путь — подтверждённый arm64 OCR-runtime и отдельный smoke-тест на этой архитектуре.
+
 ```sh
 docker compose logs -f
 docker compose stop
