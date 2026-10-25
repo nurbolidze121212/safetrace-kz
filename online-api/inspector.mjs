@@ -16,8 +16,9 @@ export function publicIPv4(value) {
     !(a === 169 && b === 254) &&
     !(a === 172 && b >= 16 && b <= 31) &&
     !(a === 192 && b === 168) &&
-    !(a === 192 && b === 0 && c === 0) &&
+    !(a === 192 && b === 0) &&
     !(a === 192 && b === 0 && c === 2) &&
+    !(a === 192 && b === 88 && c === 99) &&
     !(a === 198 && (b === 18 || b === 19 || (b === 51 && c === 100))) &&
     !(a === 203 && b === 0 && c === 113) &&
     a !== 255;
@@ -43,7 +44,7 @@ async function resolvePublic(hostname) {
   return records[0].address;
 }
 
-function getPage(url, pinnedAddress) {
+export function getPage(url, pinnedAddress) {
   return new Promise((resolve, reject) => {
     const client = url.protocol === 'https:' ? httpsRequest : httpRequest;
     const req = client(url, {
@@ -58,14 +59,23 @@ function getPage(url, pinnedAddress) {
       if (status >= 300 && status < 400 && location) {response.destroy(); resolve({status, location}); return;}
       const contentType = String(response.headers['content-type'] || '').toLowerCase();
       if (!contentType.includes('text/html') && !contentType.includes('text/plain')) {response.destroy(); resolve({status, contentType, body: null}); return;}
-      const chunks = []; let size = 0;
+      const chunks = []; let size = 0; let settled = false;
+      const finish = truncated => {
+        if (settled) return;
+        settled = true;
+        resolve({status, contentType, body: Buffer.concat(chunks).toString('utf8'), truncated});
+      };
       response.on('data', chunk => {
+        const remaining = MAX_BYTES - size;
+        if (chunk.length > remaining) {
+          if (remaining > 0) chunks.push(chunk.subarray(0, remaining));
+          response.destroy(); finish(true); return;
+        }
         size += chunk.length;
-        if (size > MAX_BYTES) {response.destroy(); reject(new Error('Страница превышает ограничение чтения.')); return;}
         chunks.push(chunk);
       });
-      response.on('end', () => resolve({status, contentType, body: Buffer.concat(chunks).toString('utf8')}));
-      response.on('error', reject);
+      response.on('end', () => finish(false));
+      response.on('error', error => {if (!settled) reject(error);});
     });
     req.on('timeout', () => req.destroy(new Error('Сайт не ответил за 4 секунды.')));
     req.on('error', reject);
@@ -106,7 +116,7 @@ export async function inspectUrl(raw, adapters = {}) {
     return {
       version: 'online-url-1.0', input: raw, final_url: url.href, route,
       destination_verified: !!text && page.status >= 200 && page.status < 300,
-      content_type: page.contentType || null, excerpt: text,
+      content_type: page.contentType || null, excerpt: text, truncated: !!page.truncated,
       limitation: 'Прочитан только ограниченный HTML/текст. Нет JS-рендеринга, OCR, вирусной проверки или проверки лицензии.',
     };
   }

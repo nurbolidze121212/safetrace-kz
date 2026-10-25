@@ -1,6 +1,6 @@
 import {scoreText} from './text-score.mjs';
 
-export const ONLINE_API = 'https://brisk-drizzle-hdgz83x.vercel.app/api/check-url';
+export const ONLINE_API = 'https://safetrace-kz-url.vercel.app/api/check-url';
 
 export function summarizeFetched(page) {
   if (!page || !Array.isArray(page.route) || !page.final_url) throw new Error('Неполный ответ сервера.');

@@ -36,7 +36,7 @@ form.addEventListener('submit', async event => {
       const verdict = summarizeFetched(page);
       title.textContent = verdict.title;
       summary.textContent = verdict.explanation;
-      note.textContent = page.destination_verified ? 'Конечная страница прочитана сервером · оценка только доступного HTML/текста.' : 'Конечную страницу не удалось прочитать.';
+      note.textContent = page.destination_verified ? `Конечная страница прочитана сервером${page.truncated ? ' частично (лимит 128 KiB)' : ''} · оценка только доступного HTML/текста.` : 'Конечную страницу не удалось прочитать.';
       const routeTitle = document.createElement('strong'); routeTitle.textContent = 'Реальная цепочка переходов';
       const routeList = document.createElement('ol');
       for (const hop of page.route) {const item=document.createElement('li'); item.textContent=`HTTP ${hop.status} · ${hop.url}`; routeList.append(item);}

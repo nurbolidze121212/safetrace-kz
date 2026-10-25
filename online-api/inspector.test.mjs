@@ -1,6 +1,7 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {parseTarget, publicIPv4, inspectUrl, pinnedLookup} from './inspector.mjs';
+import {createServer} from 'node:http';
+import {parseTarget, publicIPv4, inspectUrl, pinnedLookup, getPage} from './inspector.mjs';
 
 test('pinned lookup handles both Node single and all-address modes', async () => {
   const lookup = pinnedLookup('1.1.1.1');
@@ -11,7 +12,7 @@ test('pinned lookup handles both Node single and all-address modes', async () =>
 });
 
 test('private and reserved destinations are denied', () => {
-  for (const address of ['127.0.0.1','10.0.0.1','172.17.0.1','192.168.1.1','169.254.169.254','100.64.0.1','192.0.2.1','203.0.113.1']) assert.equal(publicIPv4(address), false);
+  for (const address of ['127.0.0.1','10.0.0.1','172.17.0.1','192.168.1.1','169.254.169.254','100.64.0.1','192.0.0.1','192.0.2.1','192.88.99.1','203.0.113.1']) assert.equal(publicIPv4(address), false);
   assert.equal(publicIPv4('1.1.1.1'), true);
   for (const url of ['http://127.0.0.1','http://[::1]','http://localhost','http://x.local','http://user:pass@example.org','http://example.org:8080']) assert.throws(() => parseTarget(url));
 });
@@ -42,4 +43,16 @@ test('redirect to private address is denied before making another request', asyn
 
 test('DNS answer is checked even through injectable resolver', async () => {
   await assert.rejects(() => inspectUrl('https://go.example.org/', {resolve: async () => '169.254.169.254', request: async () => {throw new Error('should not call');}}));
+});
+
+test('large HTML returns bounded partial text instead of losing the whole result', async () => {
+  const server = createServer((_req, res) => {res.setHeader('Content-Type','text/html'); res.end('<p>' + 'casino '.repeat(25000) + '</p>');});
+  await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
+  try {
+    const port = server.address().port;
+    const page = await getPage(new URL(`http://public.example.org:${port}/`), '127.0.0.1');
+    assert.equal(page.status, 200);
+    assert.equal(page.truncated, true);
+    assert.ok(page.body.length > 100000 && page.body.length <= 128 * 1024);
+  } finally {await new Promise(resolve => server.close(resolve));}
 });
