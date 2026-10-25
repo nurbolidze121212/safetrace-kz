@@ -1,5 +1,5 @@
 import {checkUrlInput} from './url-score.mjs';
-import {ONLINE_API, summarizeFetched} from './online-url.mjs';
+import {ONLINE_API, summarizeFetched} from './online-url.mjs?v=20261025c';
 
 const form = document.getElementById('url-form');
 const input = document.getElementById('url-input');
