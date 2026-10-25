@@ -123,6 +123,7 @@ def test_retry_does_not_keep_previous_cloud_coverage(monkeypatch):
 
 
 def test_third_image_is_reported_without_hiding_complete_texts(monkeypatch):
+    monkeypatch.setattr(pipeline, "inspect_image", lambda _: {"requires_ocr": True})
     calls = setup_fake(monkeypatch, [EMPTY])
     monkeypatch.setattr(
         pipeline,
@@ -153,6 +154,7 @@ def test_third_image_is_reported_without_hiding_complete_texts(monkeypatch):
 
 
 def test_one_image_and_many_texts_are_fully_covered(monkeypatch):
+    monkeypatch.setattr(pipeline, "inspect_image", lambda _: {"requires_ocr": True})
     calls = setup_fake(monkeypatch, [EMPTY])
     monkeypatch.setattr(
         pipeline,

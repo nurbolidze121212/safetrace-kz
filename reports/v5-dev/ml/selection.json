@@ -1,0 +1,612 @@
+{
+  "input": "Observed message + actual OCR + observed destinations; no reference transcription",
+  "split": "192 train / 64 held-out dev-validation; disjoint template families",
+  "selection_rule": "F1 strictly improves and FP does not increase; ties keep simpler rules",
+  "base": {
+    "tp": 31,
+    "fp": 0,
+    "fn": 1,
+    "tn": 32,
+    "f1": 0.9841269841269841
+  },
+  "selected": "full_without_ml",
+  "experiments": [
+    {
+      "kind": "char",
+      "validation": [
+        {
+          "threshold": 0.5,
+          "tp": 31,
+          "fp": 0,
+          "fn": 1,
+          "tn": 32,
+          "f1": 0.9841269841269841
+        },
+        {
+          "threshold": 0.65,
+          "tp": 31,
+          "fp": 0,
+          "fn": 1,
+          "tn": 32,
+          "f1": 0.9841269841269841
+        },
+        {
+          "threshold": 0.8,
+          "tp": 31,
+          "fp": 0,
+          "fn": 1,
+          "tn": 32,
+          "f1": 0.9841269841269841
+        }
+      ],
+      "selected_threshold": 0.8,
+      "fit_and_transform_seconds": 0.11757249999936903,
+      "artifact_sha256": "7bf909e7c605583bebbd1338cb983f27665785e86a7e35ab61398d96669b52fe",
+      "probabilities": [
+        {
+          "id": "b125706c81858246cc",
+          "value": 0.879744457148013
+        },
+        {
+          "id": "36d887eabbf82e5b8d",
+          "value": 0.8762557212563088
+        },
+        {
+          "id": "d5eee0cdae99b07787",
+          "value": 0.87424342706509
+        },
+        {
+          "id": "1f147774c7dc39b74b",
+          "value": 0.8723220064222464
+        },
+        {
+          "id": "05e9abeeb5d917c031",
+          "value": 0.9202295333723733
+        },
+        {
+          "id": "8b2cea32cda03acc77",
+          "value": 0.9212570837732366
+        },
+        {
+          "id": "3cf0838955bf329bd9",
+          "value": 0.9266950822060589
+        },
+        {
+          "id": "f5f45bdb59e2f9d493",
+          "value": 0.9330234696161617
+        },
+        {
+          "id": "1bcfe0f517b237788a",
+          "value": 0.08827608709348637
+        },
+        {
+          "id": "09ea4a4fc17442975c",
+          "value": 0.08593148461984323
+        },
+        {
+          "id": "20f1e8821d42df5be9",
+          "value": 0.08841420115990276
+        },
+        {
+          "id": "26cd748ee1063ae96c",
+          "value": 0.08585249203269794
+        },
+        {
+          "id": "94e990284037b21867",
+          "value": 0.16081079359835598
+        },
+        {
+          "id": "101ef9703a6f5e624c",
+          "value": 0.16385296054259596
+        },
+        {
+          "id": "fa2edb8d4c8df4aa1f",
+          "value": 0.16310940505524796
+        },
+        {
+          "id": "1d6267669908d25716",
+          "value": 0.1554230575178642
+        },
+        {
+          "id": "7fc046463ce5906f23",
+          "value": 0.8617528002663792
+        },
+        {
+          "id": "645352a6f21981c4eb",
+          "value": 0.8554133292091185
+        },
+        {
+          "id": "67a7aa11a17074de4e",
+          "value": 0.8539584182773621
+        },
+        {
+          "id": "3426fa75952b659c45",
+          "value": 0.8659557911105985
+        },
+        {
+          "id": "82f575f415f5cca75c",
+          "value": 0.9034255785830136
+        },
+        {
+          "id": "4bde6ebb5bb3ed27b2",
+          "value": 0.9056429753152853
+        },
+        {
+          "id": "02d5636c9b1cda198d",
+          "value": 0.9063126348304851
+        },
+        {
+          "id": "54978f22238277ea27",
+          "value": 0.8852588052503668
+        },
+        {
+          "id": "428905e4c8f8e0d930",
+          "value": 0.09205160183643367
+        },
+        {
+          "id": "970372a52efcbe6668",
+          "value": 0.09683421445715973
+        },
+        {
+          "id": "e75b673eae0d1a2455",
+          "value": 0.09487840717013121
+        },
+        {
+          "id": "e9c529341ecf1090d6",
+          "value": 0.0958738520064777
+        },
+        {
+          "id": "1d9ce2e67c36f22749",
+          "value": 0.13418095547762665
+        },
+        {
+          "id": "b4e302415cf7bbce77",
+          "value": 0.1385310516011175
+        },
+        {
+          "id": "f44ad3211fbae8c0df",
+          "value": 0.13827180678435294
+        },
+        {
+          "id": "7f970ee32368d191cb",
+          "value": 0.1540019132640698
+        },
+        {
+          "id": "9ca431770a9ae398e4",
+          "value": 0.9091120429459082
+        },
+        {
+          "id": "39df5324969d54b3fc",
+          "value": 0.9026600773628499
+        },
+        {
+          "id": "27d187470236548d6f",
+          "value": 0.9005039121759191
+        },
+        {
+          "id": "c458049c0df57d4cfe",
+          "value": 0.9058870340953129
+        },
+        {
+          "id": "69ccc3019de7dc88fe",
+          "value": 0.9228496831491996
+        },
+        {
+          "id": "845e342932b8e429c7",
+          "value": 0.9179123940470951
+        },
+        {
+          "id": "6ae187ec60f23773aa",
+          "value": 0.9224696736805269
+        },
+        {
+          "id": "51cc605e15c6de4a96",
+          "value": 0.9216100964167802
+        },
+        {
+          "id": "ab09f1dd6fa9cdb768",
+          "value": 0.062234506734434744
+        },
+        {
+          "id": "3013495704f067fd53",
+          "value": 0.06125852495083834
+        },
+        {
+          "id": "cabf725263bddd9d2b",
+          "value": 0.06181295330989546
+        },
+        {
+          "id": "fb048c05db22ff6bcc",
+          "value": 0.07313494192791443
+        },
+        {
+          "id": "efb388323dac566418",
+          "value": 0.06208900253394593
+        },
+        {
+          "id": "40632fd33131ba7f66",
+          "value": 0.05947398445690477
+        },
+        {
+          "id": "11c1e0c7f40327632c",
+          "value": 0.059735629922970684
+        },
+        {
+          "id": "2963144a3a91fe2c14",
+          "value": 0.07576190732745065
+        },
+        {
+          "id": "bd71005fae0876690f",
+          "value": 0.8572503664848995
+        },
+        {
+          "id": "c29ad212a350e6cca8",
+          "value": 0.8638191808691025
+        },
+        {
+          "id": "11bca60069243424be",
+          "value": 0.8578754230014202
+        },
+        {
+          "id": "4e5896607825866c0e",
+          "value": 0.317065402347673
+        },
+        {
+          "id": "e592ab3f23a3b43a53",
+          "value": 0.916384070195513
+        },
+        {
+          "id": "7e3b52c4d319f0fb34",
+          "value": 0.9206124716034915
+        },
+        {
+          "id": "562b0f1b2c18c4fa96",
+          "value": 0.9239321419226285
+        },
+        {
+          "id": "a988159092969aec15",
+          "value": 0.9027930023277744
+        },
+        {
+          "id": "1956490e0a4fde296b",
+          "value": 0.09325427500047975
+        },
+        {
+          "id": "e475efc297b03c2c38",
+          "value": 0.09327049143524975
+        },
+        {
+          "id": "1bbdc15134990861dc",
+          "value": 0.09607393713311078
+        },
+        {
+          "id": "f10792567e565665f3",
+          "value": 0.09950623342819695
+        },
+        {
+          "id": "a677e3dd60c85bbf13",
+          "value": 0.13742646350673063
+        },
+        {
+          "id": "81085bc0e935db171e",
+          "value": 0.13631915706718742
+        },
+        {
+          "id": "2c7180a2988c578245",
+          "value": 0.13735344992532517
+        },
+        {
+          "id": "1b1cd942a0bc23dfc3",
+          "value": 0.14377720861667576
+        }
+      ]
+    },
+    {
+      "kind": "embedding",
+      "validation": [
+        {
+          "threshold": 0.5,
+          "tp": 31,
+          "fp": 0,
+          "fn": 1,
+          "tn": 32,
+          "f1": 0.9841269841269841
+        },
+        {
+          "threshold": 0.65,
+          "tp": 31,
+          "fp": 0,
+          "fn": 1,
+          "tn": 32,
+          "f1": 0.9841269841269841
+        },
+        {
+          "threshold": 0.8,
+          "tp": 31,
+          "fp": 0,
+          "fn": 1,
+          "tn": 32,
+          "f1": 0.9841269841269841
+        }
+      ],
+      "selected_threshold": 0.8,
+      "fit_and_transform_seconds": 5.820147700000234,
+      "artifact_sha256": "5e29786fa0d453f53502c46da76f8847e8714263482f0c5d49b8ec93a2a999ff",
+      "probabilities": [
+        {
+          "id": "b125706c81858246cc",
+          "value": 0.9620233482588814
+        },
+        {
+          "id": "36d887eabbf82e5b8d",
+          "value": 0.9657190238815834
+        },
+        {
+          "id": "d5eee0cdae99b07787",
+          "value": 0.9667722141137588
+        },
+        {
+          "id": "1f147774c7dc39b74b",
+          "value": 0.9741585589390103
+        },
+        {
+          "id": "05e9abeeb5d917c031",
+          "value": 0.9774128745263272
+        },
+        {
+          "id": "8b2cea32cda03acc77",
+          "value": 0.9740813816782109
+        },
+        {
+          "id": "3cf0838955bf329bd9",
+          "value": 0.9799662887235921
+        },
+        {
+          "id": "f5f45bdb59e2f9d493",
+          "value": 0.9749831495164049
+        },
+        {
+          "id": "1bcfe0f517b237788a",
+          "value": 0.011993739167961742
+        },
+        {
+          "id": "09ea4a4fc17442975c",
+          "value": 0.01562437215548686
+        },
+        {
+          "id": "20f1e8821d42df5be9",
+          "value": 0.011843123059668063
+        },
+        {
+          "id": "26cd748ee1063ae96c",
+          "value": 0.009282362085283862
+        },
+        {
+          "id": "94e990284037b21867",
+          "value": 0.017461094593074804
+        },
+        {
+          "id": "101ef9703a6f5e624c",
+          "value": 0.01736867316557143
+        },
+        {
+          "id": "fa2edb8d4c8df4aa1f",
+          "value": 0.01859120026421438
+        },
+        {
+          "id": "1d6267669908d25716",
+          "value": 0.01747198916045656
+        },
+        {
+          "id": "7fc046463ce5906f23",
+          "value": 0.985815323327434
+        },
+        {
+          "id": "645352a6f21981c4eb",
+          "value": 0.9883399695772453
+        },
+        {
+          "id": "67a7aa11a17074de4e",
+          "value": 0.9879850721092239
+        },
+        {
+          "id": "3426fa75952b659c45",
+          "value": 0.990139680427061
+        },
+        {
+          "id": "82f575f415f5cca75c",
+          "value": 0.9799865995272332
+        },
+        {
+          "id": "4bde6ebb5bb3ed27b2",
+          "value": 0.9828446138296539
+        },
+        {
+          "id": "02d5636c9b1cda198d",
+          "value": 0.985739964992915
+        },
+        {
+          "id": "54978f22238277ea27",
+          "value": 0.983864988422085
+        },
+        {
+          "id": "428905e4c8f8e0d930",
+          "value": 0.011906267821585157
+        },
+        {
+          "id": "970372a52efcbe6668",
+          "value": 0.014842011042404245
+        },
+        {
+          "id": "e75b673eae0d1a2455",
+          "value": 0.011191461806099867
+        },
+        {
+          "id": "e9c529341ecf1090d6",
+          "value": 0.008580982562001916
+        },
+        {
+          "id": "1d9ce2e67c36f22749",
+          "value": 0.004823151791818571
+        },
+        {
+          "id": "b4e302415cf7bbce77",
+          "value": 0.005001154748251505
+        },
+        {
+          "id": "f44ad3211fbae8c0df",
+          "value": 0.005970323795442065
+        },
+        {
+          "id": "7f970ee32368d191cb",
+          "value": 0.005403075432706781
+        },
+        {
+          "id": "9ca431770a9ae398e4",
+          "value": 0.9322124942670394
+        },
+        {
+          "id": "39df5324969d54b3fc",
+          "value": 0.933199540400289
+        },
+        {
+          "id": "27d187470236548d6f",
+          "value": 0.944337835485491
+        },
+        {
+          "id": "c458049c0df57d4cfe",
+          "value": 0.9370968457312088
+        },
+        {
+          "id": "69ccc3019de7dc88fe",
+          "value": 0.961802585880418
+        },
+        {
+          "id": "845e342932b8e429c7",
+          "value": 0.974642909604871
+        },
+        {
+          "id": "6ae187ec60f23773aa",
+          "value": 0.9713624426112775
+        },
+        {
+          "id": "51cc605e15c6de4a96",
+          "value": 0.9671842467581202
+        },
+        {
+          "id": "ab09f1dd6fa9cdb768",
+          "value": 0.0024710948067962475
+        },
+        {
+          "id": "3013495704f067fd53",
+          "value": 0.0024104594075125057
+        },
+        {
+          "id": "cabf725263bddd9d2b",
+          "value": 0.0027101415083469306
+        },
+        {
+          "id": "fb048c05db22ff6bcc",
+          "value": 0.0019649231951039386
+        },
+        {
+          "id": "efb388323dac566418",
+          "value": 0.08104428035369372
+        },
+        {
+          "id": "40632fd33131ba7f66",
+          "value": 0.12692962258457177
+        },
+        {
+          "id": "11c1e0c7f40327632c",
+          "value": 0.11719906122290467
+        },
+        {
+          "id": "2963144a3a91fe2c14",
+          "value": 0.10082102973479706
+        },
+        {
+          "id": "bd71005fae0876690f",
+          "value": 0.9622055830037007
+        },
+        {
+          "id": "c29ad212a350e6cca8",
+          "value": 0.968192129295089
+        },
+        {
+          "id": "11bca60069243424be",
+          "value": 0.9704285373339953
+        },
+        {
+          "id": "4e5896607825866c0e",
+          "value": 0.13266503612920386
+        },
+        {
+          "id": "e592ab3f23a3b43a53",
+          "value": 0.9259884833351677
+        },
+        {
+          "id": "7e3b52c4d319f0fb34",
+          "value": 0.926368939166058
+        },
+        {
+          "id": "562b0f1b2c18c4fa96",
+          "value": 0.9356750872939682
+        },
+        {
+          "id": "a988159092969aec15",
+          "value": 0.9776600758198583
+        },
+        {
+          "id": "1956490e0a4fde296b",
+          "value": 0.01132420896264385
+        },
+        {
+          "id": "e475efc297b03c2c38",
+          "value": 0.012004965551543186
+        },
+        {
+          "id": "1bbdc15134990861dc",
+          "value": 0.013115487100647553
+        },
+        {
+          "id": "f10792567e565665f3",
+          "value": 0.01215332044128563
+        },
+        {
+          "id": "a677e3dd60c85bbf13",
+          "value": 0.04486783489220112
+        },
+        {
+          "id": "81085bc0e935db171e",
+          "value": 0.04497624555028947
+        },
+        {
+          "id": "2c7180a2988c578245",
+          "value": 0.04437561939610786
+        },
+        {
+          "id": "1b1cd942a0bc23dfc3",
+          "value": 0.0542165515151451
+        }
+      ]
+    }
+  ],
+  "packages": {
+    "scikit-learn": "1.9.1",
+    "fastembed": "0.7.4",
+    "onnxruntime": "1.31.0",
+    "numpy": "2.3.5"
+  },
+  "embedding_files": {
+    "CACHEDIR.TAG": "e8893e2dcb3f4545ef67a0a5b7b769113d38eef1aa61c7c7ba14659b02af955f",
+    "models--qdrant--paraphrase-multilingual-MiniLM-L12-v2-onnx-Q/files_metadata.json": "e47fe8b189dade1f9e0f777fade2d0bab566278d7c7fbb6fef93b8c7f6fb6b98",
+    "models--qdrant--paraphrase-multilingual-MiniLM-L12-v2-onnx-Q/refs/main": "f5719ccbb70b50cf31f07542d53c3f498e8ee4f420527130b74c666f8dd80860",
+    "models--qdrant--paraphrase-multilingual-MiniLM-L12-v2-onnx-Q/trees/faf4aa4225822f3bc6376869cb1164e8e3feedd0.json": "292c0104b22e003fa965c11359baa62dff4ac112eebf8daab679cc9c41d33258",
+    "models--qdrant--paraphrase-multilingual-MiniLM-L12-v2-onnx-Q/snapshots/faf4aa4225822f3bc6376869cb1164e8e3feedd0/config.json": "c8ec081fdad2df991bf5abbf18418fec7a5cdaa421f60ffb060a30040b8c376f",
+    "models--qdrant--paraphrase-multilingual-MiniLM-L12-v2-onnx-Q/snapshots/faf4aa4225822f3bc6376869cb1164e8e3feedd0/model_optimized.onnx": "634d0f66c29dc934c8fa72b8a4fe91dd4d420a22f1d82a241058d4316e659a99",
+    "models--qdrant--paraphrase-multilingual-MiniLM-L12-v2-onnx-Q/snapshots/faf4aa4225822f3bc6376869cb1164e8e3feedd0/special_tokens_map.json": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835",
+    "models--qdrant--paraphrase-multilingual-MiniLM-L12-v2-onnx-Q/snapshots/faf4aa4225822f3bc6376869cb1164e8e3feedd0/tokenizer.json": "fa685fc160bbdbab64058d4fc91b60e62d207e8dc60b9af5c002c5ab946ded00",
+    "models--qdrant--paraphrase-multilingual-MiniLM-L12-v2-onnx-Q/snapshots/faf4aa4225822f3bc6376869cb1164e8e3feedd0/tokenizer_config.json": "0666eebf692422757e1dddf3c9fb1ded73ba3dc726c5828671fc89e45bf3609f"
+  }
+}

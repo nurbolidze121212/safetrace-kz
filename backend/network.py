@@ -9,10 +9,10 @@ from .graph import build_graph
 from .material_identity import content_fingerprint
 from .storage import digest
 
-VERSION = "network-1.0"
+VERSION = "network-2.0"
 
 
-def build_network(documents):
+def build_network(documents, include_weak=False):
     documents = sorted(documents, key=lambda d: d["id"])
     if len({d["mode"] for d in documents}) > 1:
         raise ValueError("Select one analysis mode; synthetic and local evidence must not mix")
@@ -61,9 +61,28 @@ def build_network(documents):
         edge_id = "network-" + digest(left + "|" + right)[:18]
         edges[edge_id] = {"id": edge_id, "source": left, "target": right, "type": "matching_identifier",
                           "label": "Совпадение в области домена", "status": "inferred",
-                          "method": "scoped_exact_match", "evidence_ids": sorted(data["evidence_ids"]),
+                          "method": "scoped_exact_match", "strength": "strong", "evidence_ids": sorted(data["evidence_ids"]),
                           "scopes": data["scopes"],
                           "case_ids": sorted({members[left]["case_id"], members[right]["case_id"]})}
+
+    matching_pairs = projection.number_of_edges()
+    weak_count = 0
+    if include_weak:
+        from .network_signals import build_signals, from_documents
+
+        signals = build_signals(from_documents(documents))
+        for item in signals["edges"]:
+            if item["strength"] != "weak" or item["source"] not in members or item["target"] not in members:
+                continue
+            left, right = item["source"], item["target"]
+            edge_id = "weak-" + digest(left + right + item["basis"])[:18]
+            edges[edge_id] = {**item, "id": edge_id, "type": "weak_hypothesis", "status": "hypothesis",
+                              "method": item["basis"], "label": "Слабое основание: " + item["basis"],
+                              "case_ids": sorted({members[left]["case_id"], members[right]["case_id"]})}
+            old_weight = projection.get_edge_data(left, right, {}).get("weight", 0)
+            projection.add_edge(left, right, weight=max(old_weight, item["weight"]))
+            weak_count += 1
+    rank = nx.pagerank(projection, alpha=.85, tol=1e-7) if projection else {}
 
     def partition(groups, prefix):
         output = []
@@ -72,7 +91,7 @@ def build_network(documents):
             output.append({"id": group_id, "material_ids": group,
                            "case_ids": sorted({members[m]["case_id"] for m in group}),
                            "size": len(group),
-                           "central_material": min(group, key=lambda m: (-projection.degree[m], m))})
+                           "central_material": min(group, key=lambda m: (-rank[m], m))})
         return output
 
     components = partition(nx.connected_components(projection), "component")
@@ -82,15 +101,16 @@ def build_network(documents):
     return {
         "version": VERSION, "mode": documents[0]["mode"] if documents else None,
         "nodes": list(nodes.values()), "edges": list(edges.values()), "evidence": list(evidence.values()),
-        "components": components, "communities": communities,
+        "components": components, "communities": communities, "pagerank": rank, "include_weak": include_weak,
         "counts": {"cases": len(documents), "materials": len(members), "entities": len(nodes),
-                   "edges": len(edges), "matching_pairs": projection.number_of_edges(),
-                   "components": len(components), "communities": len(communities)},
-        "method": "Material projection by exact domain-scoped identifiers; connected components and Louvain, seed=42",
+                   "edges": len(edges), "matching_pairs": matching_pairs,
+                   "components": len(components), "communities": len(communities), "weak": weak_count},
+        "method": "Material projection; exact identifiers plus optional weak hypotheses; Louvain seed=42; PageRank alpha=.85",
         "limitations": [
             "Кластер — подсказка для проверки связи, а не общий владелец или подтверждение рекламы.",
-            "Общий домен, хаб, источник без проверки и одинаковый код на разных доменах не объединяют кластеры.",
+            "Общий домен или заявленный источник сами по себе не создают сильной связи.",
             "Аккаунт или канал — заявленная подпись источника; принадлежность не проверена.",
-            "Автоматическое установление зеркал и объединение промокодов без области назначения не реализованы.",
+            "Зеркала не подтверждаются автоматически; промокод вне общей области назначения — только слабая гипотеза.",
+            "Слабые основания — гипотезы: похожий шаблон, промокод, цифровой суффикс домена, сохранённый IP. Общий CDN не доказывает связь владельцев.",
         ],
     }

@@ -23,6 +23,8 @@ CORRECT = "https://h4e6b9.test/entry?ref=U4"
 
 @pytest.fixture
 def review_case(monkeypatch):
+    # This fixture tests review of a mocked OCR reading, not the pixel gate.
+    monkeypatch.setattr(pipeline, "inspect_image", lambda _: {"requires_ocr": True})
     image_id = uuid.uuid4().hex + ".png"
     Image.new("RGB", (80, 40), "white").save(DATA / "originals" / image_id)
     text = "Переходи и забирай бонус: " + RAW

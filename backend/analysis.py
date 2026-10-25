@@ -3,15 +3,16 @@ import re
 import unicodedata
 
 from .config import ROOT, RULE_VERSION
+from .normalization import lexical_view
 from .schemas import Claim, ContextExtraction
 
 WEIGHTS = json.loads((ROOT / "backend" / "weights.json").read_text(encoding="utf-8"))
 PATTERNS = {
     "gambling": r"казино(?:ға|да|дан|ның|ны)?|casino|kazino|слот[а-я]*|рулетк[а-я]*|фриспин[а-я]*|free\s*spins?|ставк[а-я]*|джекпот|jackpot|құмар",
-    "call_to_action": r"переходи[а-я]*|забира[а-я]*|регистриру[а-я]*|зарегай[а-я]*|пополн[ия][а-я]*|играй(?:те)?|жми(?:те)?|заходи(?:те)?|залетай(?:те)?|активиру[а-я]*|өтіңіз|өтіңдер|өт|тіркел(?!ме)[а-яәіңғүұқөһ]*|қосыл(?!ма)[а-яәіңғүұқөһ]*|ал(?:ыңыз)?|баста(?:ңыз|йық|ңдар)?|perehodi(?:te)?|zabirai(?:te)?|zaregai(?:sya)?|zaregaysya|registriru(?:isya|ysya)|tirkel|kosyl|qosyl|join\s+now|play\s+now",
+    "call_to_action": r"переходи[а-я]*|забира[а-я]*|регистриру[а-я]*|зарегай[а-я]*|пополн[ия][а-я]*|играй(?:те)?|жми(?:те)?|заходи(?:те)?|залетай(?:те)?|активиру[а-я]*|өтіңіз|өтіңдер|өт|тіркел(?!ме)[а-яәіңғүұқөһ]*|қосыл(?!ма)[а-яәіңғүұқөһ]*|ал(?:ыңыз)?|баста(?:ңыз|йық|ңдар)?|perehodi(?:te)?|zabirai(?:te)?|zaregai(?:sya)?|zaregaysya|registriru(?:isya|ysya)|tirkel|kosyl|qosyl|ойна(?:ңыз|ңдар|йық)?|qosyl(?:yngyz)?|tirkel(?:iniz)?|join\s+now|play\s+now",
     "bonus": r"бонус[а-я]*|bonus|промокод[а-я]*|promo\s*code|сыйлы[қғ][а-яәіңғүұқөһ]*|syilyq|siylyq|фриспин[а-я]*|free\s*spins?|кэшбэк",
     "promise": r"выигр[а-я]*|гарантирован[а-я]*\s+доход|заработ[а-я]*|ұты[сз][а-яәіңғүұқөһ]*|ұтып|табыс|легкие деньги|лёгкие деньги|podnim[ai]|x\d+",
-    "warning": r"осторожно|мошенни[а-я]*|не переходите|не переводите|не играйте|алаяқ[а-яәіңғүұқөһ]*|өтпеңіз|сақ бол[а-яәіңғүұқөһ]*|қауіпті|скам|scam",
+    "warning": r"осторожно|мошенни[а-я]*|не переходите|не переводите|не играйте|алаяқ[а-яәіңғүұқөһ]*|өтпеңіз|сақ бол[а-яәіңғүұқөһ]*|қауіпті|ойнама[а-яәіңғүұқөһ]*|қатыспа[а-яәіңғүұқөһ]*|тіркелме[а-яәіңғүұқөһ]*|қосылма[а-яәіңғүұқөһ]*|салмаңыз|жібермеңіз|аулақ бол[а-яәіңғүұқөһ]*|o(i|y)nama[a-z]*|qosylma[a-z]*|tirkelme[a-z]*|сақтаныңыз|скам|scam",
     "news": r"новост[а-я]*|сообщает редакция|корреспондент|журналист[а-я]*|новость|хабарлайды|жаңалық",
     "education": r"учебн[а-я]*|образовательн[а-я]*|разбор схемы|разбираем схему|урок[а-я]*|медиаграмотност[а-я]*|медиасауат[а-яәіңғүұқөһ]*|саба[қғ][а-яәіңғүұқөһ]*|учебный пример|оқу мысалы|түсіндіреміз|памятк[а-яё]*\s+(?:о|об|про)\s+(?:риск[а-яё]*|безопасност[а-яё]*|мошенни[а-яё]*)",
     "free_game": r"без ставок|без денежных|без депозита и|бесплатн[а-я]* игра|тегін ойын|ақшасыз|без вывода денег",
@@ -94,6 +95,8 @@ def non_gambling_usage(text, match):
         re.I,
     ):
         return True
+    if re.match(r"\s+(?:емес|жоқ|emes|joq)\b", after, re.I):
+        return True
     if word.startswith("ставк"):
         return bool(
             re.search(
@@ -119,7 +122,7 @@ def non_gambling_usage(text, match):
     return False
 
 
-def local_context(sources: dict[str, str]) -> ContextExtraction:
+def _local_context(sources: dict[str, str]) -> ContextExtraction:
     claims = []
     standalone_calls = []
     source_quotes = {}
@@ -146,6 +149,11 @@ def local_context(sources: dict[str, str]) -> ContextExtraction:
                     if re.search(r"\b(?:не|никогда\s+не|ешқашан)\s+$", text[: match.start()], re.I):
                         continue
                     if information_call(text, match.start(), match.end()):
+                        continue
+                    if match.group().casefold() in {"ал", "алыңыз"} and not re.search(
+                        r"(?:бонус[а-я]*|сыйлы[қғ][а-яәіңғүұқөһ]*|ұтыс[а-яәіңғүұқөһ]*)\s*$",
+                        text[max(0, match.start() - 70):match.start()], re.I,
+                    ):
                         continue
                 claims.append(
                     Claim(
@@ -217,6 +225,17 @@ def local_context(sources: dict[str, str]) -> ContextExtraction:
         contradictions=contradictions,
         limitations=["Локальные правила: ограниченное понимание иронии, цитирования, транслита и отрицаний."],
     )
+
+
+def local_context(sources: dict[str, str]) -> ContextExtraction:
+    views = {key: lexical_view(text) for key, text in sources.items()}
+    result = _local_context({key: value[0] for key, value in views.items()})
+    for claim in result.claims:
+        mapping = views[claim.source_id][1]
+        start, end = mapping[claim.start][0], mapping[claim.end - 1][1]
+        claim.start, claim.end = start, end
+        claim.quote = sources[claim.source_id][start:end]
+    return result
 
 
 def verify_claims(result: ContextExtraction, sources: dict[str, str]):

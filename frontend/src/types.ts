@@ -21,6 +21,7 @@ export type Relation = { from: string | null; to: string; type: string; quote: s
 export type Trace = { observations: Observation[]; relations?: Relation[]; requests?: number }
 export type AnalysisSnapshot = { at?: string; analysis_id?: string; trace?: Trace; score?: Score | null; versions?: Record<string, string>; evidence?: Evidence[]; materials?: Material[]; analysis_assisted?: boolean; sufficient_data?: boolean; status?: string }
 export type Case = Summary & {
+  extensions?: { version: string; materials: { material_id: string; track1: TrackExtension; track3: TrackExtension }[] };
   materials: Material[]; graph: GraphData; limitations: string[];
   context?: { language: string; context: string; contradictions: string[] }; provider?: string;
   claims?: { quote: string; source_id: string; start: number; end: number; evidence_id: string }[];
@@ -28,6 +29,7 @@ export type Case = Summary & {
   elapsed_ms?: number; stages: Record<string, string>; versions?: Record<string, string>;
   analysis_id?: string; analyzed_at?: string; history?: AnalysisSnapshot[]; analysis_assisted?: boolean;
 }
+export type TrackExtension = { value: number; level: string; signals: { kind: string; quote: string; source_id: string; start: number; end: number }[]; alternative_context?: string | null; meaning: string }
 export type Health = { versions?: Record<string, string>; provider_available: boolean; ocr_installed: boolean; offline: boolean; allowed_hosts: string[]; local_mode: string }
 export type Demo = { id: string; title: string; subtitle: string }
 export type Metrics = { n: number; tp: number; fp: number; tn: number; fn: number; precision: number | null; recall: number | null; f1: number | null; fpr: number | null; processed_n?: number; processed_precision?: number | null; processed_recall?: number | null; processed_fpr?: number | null; coverage: number; insufficient: number; precision_ci: number[]; fpr_ci: number[]; p50_ms: number; p95_ms: number }

@@ -9,11 +9,12 @@ from copy import deepcopy
 
 from PIL import Image, ImageOps
 
-from . import storage
+from . import queue_store, storage
 from .analysis import local_context, normalize_text, score, verify_claims
 from .attribution import attribute
 from .config import DATA, OCR_VERSION, PIPELINE_VERSION, QR_VERSION, RULE_VERSION
 from .graph import build_graph
+from .image_triage import inspect as inspect_image
 from .links import SyntheticTransport, extract_urls, identifiers, live_fetch, trace
 from .material_identity import content_fingerprint
 from .ocr import recognize
@@ -27,6 +28,14 @@ ACTIVE = set()
 QUEUE_LOCK = threading.RLock()
 STAGES = ["originals", "ocr", "features", "links", "graph", "priority"]
 LOGGER = logging.getLogger(__name__)
+
+
+def is_active(case_id):
+    return queue_store.is_active(case_id) if queue_store.enabled() else case_id in ACTIVE
+
+
+def queue_full():
+    return queue_store.full() if queue_store.enabled() else len(ACTIVE) >= 8
 
 
 def _material_record(material):
@@ -68,14 +77,14 @@ def new_case(payload):
 
 def add_materials(case_id, materials):
     with QUEUE_LOCK:
-        if case_id in ACTIVE:
+        if is_active(case_id):
             raise ValueError("Дождитесь завершения или отмены текущего анализа.")
         doc = storage.get(case_id)
         if doc is None:
             raise ValueError("Случай не найден.")
         if doc["mode"] == "replay":
             raise ValueError("Сохраненный повтор неизменяем; создайте новый анализ.")
-        if len(ACTIVE) >= 8:
+        if queue_full():
             raise ValueError("Очередь заполнена: максимум 8 задач.")
         if len(doc["materials"]) + len(materials) > 20:
             raise ValueError("Не более 20 материалов в случае.")
@@ -126,9 +135,9 @@ def _archive_analysis(doc):
 def correct_url(case_id, payload):
     """An append-only analyst interpretation; archive the unmodified analysis first."""
     with QUEUE_LOCK:
-        if case_id in ACTIVE:
+        if is_active(case_id):
             raise ValueError("Дождитесь завершения или отмены текущего анализа.")
-        if len(ACTIVE) >= 8:
+        if queue_full():
             raise ValueError("Очередь заполнена: максимум 8 задач.")
         doc = storage.get(case_id)
         if doc is None or doc["mode"] == "replay":
@@ -168,9 +177,9 @@ def correct_url(case_id, payload):
 
 def submit(case_id):
     with QUEUE_LOCK:
-        if case_id in ACTIVE:
+        if is_active(case_id):
             return
-        if len(ACTIVE) >= 8:
+        if queue_full():
             raise ValueError("Очередь заполнена: максимум 8 задач.")
         doc = storage.get(case_id)
         if doc is None:
@@ -178,6 +187,16 @@ def submit(case_id):
         previous = deepcopy(doc)
         _archive_analysis(doc)
         doc.update(status="pending", stage="originals", progress=0, stages={s: "pending" for s in STAGES})
+        if queue_store.enabled():
+            token = queue_store.new_token()
+            doc.update(queue_job_id=token, queue_submitted_at=storage.now())
+            storage.save(doc)
+            try:
+                queue_store.enqueue(case_id, token)
+            except Exception:
+                storage.save(previous)
+                raise
+            return
         ACTIVE.add(case_id)
         CANCELS[case_id] = threading.Event()
         try:
@@ -192,6 +211,9 @@ def submit(case_id):
 
 
 def cancel(case_id):
+    if queue_store.enabled():
+        queue_store.cancel(case_id)
+        return
     with QUEUE_LOCK:
         if event := CANCELS.get(case_id):
             event.set()
@@ -209,6 +231,9 @@ def cancel(case_id):
 
 
 def recover():
+    if queue_store.enabled():
+        queue_store.initialize()
+        return
     for doc in storage.all_cases():
         if doc["status"] in ("pending", "running"):
             doc.update(status="partial", stage="interrupted")
@@ -290,6 +315,8 @@ def analyze(
             "attribution_incomplete",
             "url_reviews",
             "url_review_incomplete",
+            "image_triage",
+            "ocr_skipped",
         ):
             mat.pop(key, None)
     doc.update(
@@ -382,6 +409,12 @@ def analyze(
                 continue
             try:
                 path = DATA / "originals" / mat["image_id"]
+                mat["image_triage"] = inspect_image(path)
+                if not mat["image_triage"]["requires_ocr"]:
+                    mat["ocr_skipped"] = True
+                    doc["stages"]["ocr"] = "partial"
+                    doc["limitations"].append("Однотонное изображение: OCR пропущен, данных для его оценки недостаточно.")
+                    continue
                 mat["ocr"] = recognize(path, use_cache=use_ocr_cache)
                 source_id = mat["id"] + "-ocr"
                 sources[source_id] = mat["ocr"]["text"]
@@ -754,6 +787,7 @@ def analyze(
         mat["sufficient_data"] = (
             bool(any(t.strip() for t in own_sources.values()))
             and not mat.get("image_integrity_failed")
+            and not mat.get("ocr_skipped")
             and mat.get("cloud_input_complete", True)
             and not (attribution["incomplete"] and not attribution["direct_claims"])
             and not (missing_route and not strong_source_context and variant == "full")
@@ -779,6 +813,9 @@ def analyze(
             else "Не хватает данных: отсутствие подтвержденного назначения не означает низкий риск."
         )
     doc["sufficient_data"] = enough
+    from .track_extensions import from_materials
+
+    doc["extensions"] = from_materials(doc["materials"])
     doc["stages"]["priority"] = "completed"
     doc.update(
         status="partial"

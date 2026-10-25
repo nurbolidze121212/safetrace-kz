@@ -168,13 +168,19 @@ def create(payload: CaseInput):
         raise HTTPException(422, "Повтор сохраненного анализа доступен через демонстрационные случаи.")
     check_images(payload.materials)
     with pipeline.QUEUE_LOCK:
-        if len(pipeline.ACTIVE) >= 8:
+        if pipeline.queue_full():
             raise HTTPException(429, "Очередь заполнена.")
         try:
             doc = pipeline.new_case(payload)
         except storage.OriginalIntegrityError as exc:
             raise HTTPException(422, str(exc)) from None
-        pipeline.submit(doc["id"])
+        try:
+            pipeline.submit(doc["id"])
+        except Exception:
+            doc.update(status="partial", stage="queue_unavailable")
+            doc["limitations"].append("Очередь недоступна; материал сохранён. Повторите анализ этого случая.")
+            storage.save(doc)
+            raise HTTPException(503, {"message": "Очередь недоступна", "case_id": doc["id"]}) from None
     return {"id": doc["id"]}
 
 

@@ -13,7 +13,7 @@ router = APIRouter()
 
 @router.get("/api/network")
 def network(mode: Literal["local", "synthetic", "cloud", "replay"] = "local",
-            limit: int = Query(default=100, ge=1, le=200)):
+            limit: int = Query(default=100, ge=1, le=200), weak: bool = False):
     fields = ("id", "title", "mode", "created_at", "analyzed_at", "materials", "evidence", "identifiers", "trace")
     with storage.connect() as conn:
         rows = conn.execute("""
@@ -29,7 +29,7 @@ def network(mode: Literal["local", "synthetic", "cloud", "replay"] = "local",
         document["trace"] = document["trace"] or {}
         document["identifiers"] = document["identifiers"] or []
     try:
-        result = build_network(documents)
+        result = build_network(documents, include_weak=weak)
     except ValueError as exc:
         raise HTTPException(422, str(exc)) from None
     return {**result, "truncated": len(rows) > limit, "limit": limit}

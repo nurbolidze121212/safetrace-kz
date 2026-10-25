@@ -1,0 +1,7 @@
+services:
+  safetrace:
+    build: .
+    image: safetrace-local:development
+  worker:
+    build: .
+    image: safetrace-local:development

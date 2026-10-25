@@ -1,16 +1,50 @@
 services:
   safetrace:
-    build: .
+    image: ghcr.io/nurbolidze121212/safetrace-kz:3.0.0
     platform: linux/amd64
     ports:
       - "127.0.0.1:8765:8765"
     environment:
       SAFETRACE_OFFLINE: "1"
       SAFETRACE_DATA_DIR: /app/data
+      SAFETRACE_REDIS_URL: redis://redis:6379/0
     volumes:
       - safetrace-data:/app/data
+    depends_on:
+      redis:
+        condition: service_healthy
     init: true
-    stop_grace_period: 30s
+    restart: unless-stopped
+  worker:
+    image: ghcr.io/nurbolidze121212/safetrace-kz:3.0.0
+    platform: linux/amd64
+    command: ["python", "scripts/run_worker.py"]
+    environment:
+      SAFETRACE_OFFLINE: "1"
+      SAFETRACE_DATA_DIR: /app/data
+      SAFETRACE_REDIS_URL: redis://redis:6379/0
+      SAFETRACE_OCR_THREADS: "1"
+    volumes:
+      - safetrace-data:/app/data
+    depends_on:
+      redis:
+        condition: service_healthy
+    healthcheck:
+      disable: true
+    init: true
+    restart: unless-stopped
+    stop_grace_period: 60s
+  redis:
+    image: redis:7.4-alpine
+    command: ["redis-server", "--appendonly", "yes", "--maxmemory", "128mb", "--maxmemory-policy", "noeviction"]
+    volumes:
+      - queue-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 2s
+      timeout: 2s
+      retries: 30
     restart: unless-stopped
 volumes:
   safetrace-data:
+  queue-data:

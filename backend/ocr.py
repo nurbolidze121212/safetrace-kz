@@ -34,7 +34,7 @@ def engine():
             use_textline_orientation=False,
             device="cpu",
             enable_mkldnn=False,
-            cpu_threads=4,
+            cpu_threads=max(1, min(4, int(os.getenv("SAFETRACE_OCR_THREADS", "4")))),
         )
     return _engine
 
@@ -187,6 +187,21 @@ def recognize(path, use_cache=True):
                 or quality["vertical_fraction"] > 0.5
             ):
                 angle, raw_lines = best_angle, best_lines
+        chosen_quality = _quality(raw_lines)
+        # A second read on small, uncertain text. Coordinates are mapped back to
+        # the original pixels; the enlarged image never replaces the original.
+        if max(width, height) <= 1200 and (
+            chosen_quality["characters"] < 15 or chosen_quality["mean_confidence"] < .87
+        ):
+            oriented = np.ascontiguousarray(np.rot90(pixels, angle // 90))
+            enlarged = np.array(Image.fromarray(oriented).resize(
+                (oriented.shape[1] * 2, oriented.shape[0] * 2), Image.Resampling.BICUBIC))
+            candidate = _read_lines(enlarged)
+            candidate_quality = _quality(candidate)
+            attempts.append({"angle_ccw": angle, "scale": 2, **candidate_quality})
+            if candidate_quality["score"] > chosen_quality["score"] * 1.15:
+                raw_lines = [{**line, "polygon": [[float(x) / 2, float(y) / 2] for x, y in line["polygon"]]}
+                             for line in candidate]
     lines = []
     for line in _group_lines(raw_lines):
         text, conf = line["text"], line["confidence"]

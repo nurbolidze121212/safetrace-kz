@@ -12,15 +12,17 @@ type Network = { nodes: Entity[]; edges: Edge[]; communities: Group[]; component
 export default function NetworkView({ onOpen }: { onOpen: (id: string) => void }) {
   const [mode, setMode] = useState('local'), [state, setState] = useState<{mode: string; data?: Network; error?: string}>()
   const [group, setGroup] = useState(''), [selection, setSelection] = useState<string[]>([])
+  const [weak, setWeak] = useState(false), [basis, setBasis] = useState('')
+  const requestKey = mode + ':' + weak
   const container = useRef<HTMLDivElement>(null)
-  const data = state?.mode === mode ? state.data : undefined
+  const data = state?.mode === requestKey ? state.data : undefined
   useEffect(() => {
     const controller = new AbortController()
-    api<Network>('/network?mode=' + mode, { signal: controller.signal })
-      .then(value => { if (!controller.signal.aborted) setState({ mode, data: value }) })
-      .catch(error => { if (!controller.signal.aborted) setState({ mode, error: errorMessage(error) }) })
+    api<Network>('/network?mode=' + mode + '&weak=' + weak, { signal: controller.signal })
+      .then(value => { if (!controller.signal.aborted) setState({ mode: requestKey, data: value }) })
+      .catch(error => { if (!controller.signal.aborted) setState({ mode: requestKey, error: errorMessage(error) }) })
     return () => controller.abort()
-  }, [mode])
+  }, [mode, weak, requestKey])
   useEffect(() => {
     if (!data || !container.current) return
     const chosen = data.communities.find(c => c.id === group)
@@ -38,29 +40,32 @@ export default function NetworkView({ onOpen }: { onOpen: (id: string) => void }
         { selector: 'node[type="identifier"]', style: { 'background-color': '#bc781d', shape: 'rectangle' } },
         { selector: 'edge', style: { width: 1, 'line-color': '#bcc7d6', 'curve-style': 'bezier' } },
         { selector: 'edge[type="matching_identifier"]', style: { width: 3, 'line-color': '#bc781d', 'line-style': 'dashed' } },
+        { selector: 'edge[strength="weak"]', style: { width: 1.5, 'line-color': '#8b5fbf', 'line-style': 'dashed' } },
         { selector: ':selected', style: { 'border-color': '#182b46', 'border-width': 3, 'line-color': '#182b46' } },
       ], minZoom: .08, maxZoom: 3 })
-    cy.on('tap', 'node,edge', event => setSelection(event.target.data('evidence_ids') || []))
+    cy.on('tap', 'node,edge', event => { setSelection(event.target.data('evidence_ids') || []); setBasis(event.target.data('strength') === 'weak' ? 'Слабое основание · гипотеза: ' + event.target.data('method') : event.target.data('strength') === 'strong' ? 'Сильное основание · точное совпадение идентификатора' : 'Сохранённое наблюдение') })
     const observer = new ResizeObserver(() => { cy.resize(); cy.fit(undefined, 30) })
     observer.observe(container.current)
     return () => { observer.disconnect(); cy.destroy() }
   }, [data, group])
   return <section className="network-view">
     <div className="eyebrow">СВЯЗИ МЕЖДУ СЛУЧАЯМИ</div><h1>Сеть материалов</h1>
-    <p>Публикации, заявленные источники, домены и реферальные идентификаторы. Связь требует совпадения домена, пути, имени параметра и его значения.</p>
+    <p>Публикации, заявленные источники, домены и реферальные идентификаторы. Сильное основание — совпадение домена, пути, имени параметра и его значения. Слабые связи включаются отдельно.</p>
     <label>Источник данных <select value={mode} onChange={e => { setMode(e.target.value); setGroup(''); setSelection([]) }}><option value="local">Локальные случаи</option><option value="synthetic">Синтетические случаи</option><option value="cloud">Случаи с облачным контекстом</option><option value="replay">Сохранённые повторы</option></select></label>
-    {state?.mode === mode && state.error && <p role="alert">{state.error}</p>}
+    <label><input type="checkbox" checked={weak} onChange={e => { setWeak(e.target.checked); setGroup(''); setSelection([]); setBasis('') }} /> Добавить слабые основания: похожий текст, промокод, инфраструктура и имена доменов</label>
+    {state?.mode === requestKey && state.error && <p role="alert">{state.error}</p>}
     {!state?.error && !data && <p role="status">Загрузка сети…</p>}
     {data && <>
-      <p><strong>{data.counts.cases}</strong> случаев · <strong>{data.counts.entities}</strong> сущностей · <strong>{data.counts.matching_pairs}</strong> совпадений · <strong>{data.counts.communities}</strong> групп Louvain · {data.counts.components} компонент</p>
+      <p><strong>{data.counts.cases}</strong> случаев · <strong>{data.counts.entities}</strong> сущностей · <strong>{data.counts.matching_pairs}</strong> точных совпадений · {data.counts.weak || 0} слабых оснований · <strong>{data.counts.communities}</strong> групп Louvain · {data.counts.components} компонент</p>
+      {weak && <p className="warning-text">Слабые связи могут чрезмерно объединять группы. Это поисковые гипотезы; кластер не означает общую кампанию или владельца.</p>}
       {data.truncated && <p role="status">Показаны последние 100 случаев выбранного режима. Сеть неполная.</p>}
       {data.counts.cases === 0 ? <p>В этом режиме ещё нет проанализированных материалов. Добавьте случаи или выберите синтетические примеры.</p> : <>
         <label>Группа <select value={group} onChange={e => { setGroup(e.target.value); setSelection([]) }}><option value="">Вся сеть</option>{data.communities.map((c, i) => <option key={c.id} value={c.id}>Группа {i + 1} · {c.size} материалов</option>)}</select></label>
         <div className="network-canvas" ref={container} aria-label="Интерактивный граф сущностей" />
-        <details><summary>Группы и переход к случаям</summary>{data.communities.map((c, i) => <article key={c.id}><h3>Группа {i + 1} · {c.size} материалов</h3><p>Наиболее связанный материал: {data.nodes.find(n => n.id === c.central_material)?.label}</p>{c.case_ids.map(id => <button className="button" key={id} onClick={() => onOpen(id)}>Открыть случай {id.slice(0, 8)}</button>)}</article>)}</details>
-        <div aria-live="polite"><h3>Источник выбранной связи</h3>{selection.length ? data.evidence.filter(e => selection.includes(e.id)).map(e => <blockquote key={e.id}><p>{e.quote || 'Источник без текстовой цитаты'}</p><button className="text-button" onClick={() => onOpen(e.case_id)}>Открыть оригинал в случае</button></blockquote>) : <p>Нажмите на узел или линию, чтобы увидеть сохранённые источники. Список групп также доступен с клавиатуры.</p>}</div>
+        <details><summary>Группы и переход к случаям</summary>{data.communities.map((c, i) => <article key={c.id}><h3>Группа {i + 1} · {c.size} материалов</h3><p>Центральный материал по PageRank: {data.nodes.find(n => n.id === c.central_material)?.label}</p>{c.case_ids.map(id => <button className="button" key={id} onClick={() => onOpen(id)}>Открыть случай {id.slice(0, 8)}</button>)}</article>)}</details>
+        <div aria-live="polite"><h3>Источник выбранной связи</h3><p>{basis}</p>{selection.length ? data.evidence.filter(e => selection.includes(e.id)).map(e => <blockquote key={e.id}><p>{e.quote || 'Источник без текстовой цитаты'}</p><button className="text-button" onClick={() => onOpen(e.case_id)}>Открыть оригинал в случае</button></blockquote>) : <p>Нажмите на узел или линию, чтобы увидеть сохранённые источники. Список групп также доступен с клавиатуры.</p>}</div>
       </>}
-      <details><summary>Метод и ограничения</summary><p>Louvain: resolution=1, seed=42. Центральный материал выбран по числу связей в проекции материалов. Группировка не изменяет индекс случая.</p><ul>{data.limitations.map(x => <li key={x}>{x}</li>)}</ul></details>
+      <details><summary>Метод и ограничения</summary><p>Louvain: resolution=1, seed=42. PageRank (alpha=0,85) выбирает центральный материал. Пунктирные фиолетовые связи — слабые гипотезы, их можно отключить. Группировка не изменяет индекс случая.</p><ul>{data.limitations.map(x => <li key={x}>{x}</li>)}</ul></details>
     </>}
   </section>
 }

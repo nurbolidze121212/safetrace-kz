@@ -6,6 +6,7 @@ COPY frontend/ ./
 RUN npm run build
 
 FROM python:3.12-slim-bookworm
+LABEL org.opencontainers.image.source="https://github.com/nurbolidze121212/safetrace-kz"
 ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 \
     SAFETRACE_OFFLINE=1 SAFETRACE_DATA_DIR=/app/data \
     PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK=True

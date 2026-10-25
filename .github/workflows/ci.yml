@@ -4,6 +4,11 @@ on:
     branches: [main]
   pull_request:
   workflow_dispatch:
+    inputs:
+      publish_image:
+        description: Publish verified ready image to GHCR
+        type: boolean
+        default: false
 permissions:
   contents: read
 concurrency:
@@ -13,6 +18,11 @@ jobs:
   python:
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    services:
+      redis:
+        image: redis:7.4-alpine
+        ports: ["6379:6379"]
+        options: --health-cmd "redis-cli ping" --health-interval 2s --health-retries 30
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
@@ -31,6 +41,7 @@ jobs:
       - run: python -m pytest -q
         env:
           SAFETRACE_OFFLINE: '1'
+          SAFETRACE_TEST_REDIS_URL: redis://127.0.0.1:6379/0
   frontend:
     runs-on: ubuntu-latest
     timeout-minutes: 10
@@ -48,15 +59,43 @@ jobs:
       - run: npm run lint && npm test && npm run build
   container:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
+    permissions:
+      contents: read
+      packages: write
     steps:
       - uses: actions/checkout@v6
-      - run: docker compose config --quiet
-      - run: docker compose build
-      - run: docker compose up -d --wait --wait-timeout 90
+      - run: docker compose -f compose.yaml -f compose.build.yaml config --quiet
+      - run: docker compose -f compose.yaml -f compose.build.yaml build
+      - run: docker compose -f compose.yaml -f compose.build.yaml up -d --wait --wait-timeout 90
       - name: Verify new text analysis and OCR
         run: python3 scripts/smoke_http.py --base-url http://127.0.0.1:8765
+      - name: Measure real 1, 2 and 4 worker curve
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          mkdir -p reports/queue-ci
+          lscpu > reports/queue-ci/cpu.txt
+          free -m > reports/queue-ci/memory.txt
+          for workers in 1 2 4; do
+            docker compose -f compose.yaml -f compose.build.yaml up -d --scale worker=$workers --wait --wait-timeout 120
+            python3 scripts/benchmark_queue_v5.py --workers "$workers" --output "reports/queue-ci/workers-$workers.json"
+          done
+      - uses: actions/upload-artifact@v4
+        if: always() && github.event_name == 'workflow_dispatch'
+        with:
+          name: real-queue-benchmark
+          path: reports/queue-ci
+      - name: Publish prepared image
+        if: github.event_name == 'workflow_dispatch' && inputs.publish_image
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "$GH_TOKEN" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
+          docker tag safetrace-local:development ghcr.io/nurbolidze121212/safetrace-kz:3.0.0
+          docker tag safetrace-local:development ghcr.io/nurbolidze121212/safetrace-kz:sha-${{ github.sha }}
+          docker push ghcr.io/nurbolidze121212/safetrace-kz:3.0.0
+          docker push ghcr.io/nurbolidze121212/safetrace-kz:sha-${{ github.sha }}
       - if: always()
-        run: docker compose logs --no-color
+        run: docker compose -f compose.yaml -f compose.build.yaml logs --no-color
       - if: always()
-        run: docker compose down
+        run: docker compose -f compose.yaml -f compose.build.yaml down

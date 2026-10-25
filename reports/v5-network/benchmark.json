@@ -1,0 +1,97 @@
+{
+  "scope": "Material entities with authored strong and noisy weak observations; graph build only",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "logical_cpus": 12,
+  "repetitions": 3,
+  "measurements": [
+    {
+      "entities": 5000,
+      "seconds": [
+        1.1550741000000926,
+        0.9604902000000948,
+        0.9948408999998719
+      ],
+      "median_seconds": 0.9948408999998719,
+      "counts": {
+        "nodes": 5000,
+        "edges": 80617,
+        "strong": 7500,
+        "weak": 73117
+      },
+      "communities": 93,
+      "candidate_pairs": 19844,
+      "bounded_work": {
+        "neighbor_cap": 64158
+      },
+      "pairwise_cluster_quality": {
+        "tp": 22482,
+        "fp": 116030,
+        "fn": 18,
+        "precision": 0.16231084671364213,
+        "recall": 0.9992,
+        "f1": 0.27925868879338184
+      },
+      "central_node": "m00000264"
+    },
+    {
+      "entities": 10000,
+      "seconds": [
+        1.9407485000001543,
+        1.7890323999999964,
+        1.8155464999999822
+      ],
+      "median_seconds": 1.8155464999999822,
+      "counts": {
+        "nodes": 10000,
+        "edges": 161247,
+        "strong": 15000,
+        "weak": 146247
+      },
+      "communities": 149,
+      "candidate_pairs": 39860,
+      "bounded_work": {
+        "neighbor_cap": 128452
+      },
+      "pairwise_cluster_quality": {
+        "tp": 44973,
+        "fp": 299620,
+        "fn": 27,
+        "precision": 0.1305104862838189,
+        "recall": 0.9994,
+        "f1": 0.23087170457374748
+      },
+      "central_node": "m00009592"
+    },
+    {
+      "entities": 100000,
+      "seconds": [
+        20.495905599999787,
+        20.292346799999905,
+        21.16585329999998
+      ],
+      "median_seconds": 20.495905599999787,
+      "counts": {
+        "nodes": 100000,
+        "edges": 1611971,
+        "strong": 150000,
+        "weak": 1461971
+      },
+      "communities": 606,
+      "candidate_pairs": 401023,
+      "bounded_work": {
+        "neighbor_cap": 1285910,
+        "uninformative_lsh_bucket": 1
+      },
+      "pairwise_cluster_quality": {
+        "tp": 449838,
+        "fp": 7940960,
+        "fn": 162,
+        "precision": 0.05361087229128862,
+        "recall": 0.99964,
+        "f1": 0.10176411676864464
+      },
+      "central_node": "m00009592"
+    }
+  ]
+}
