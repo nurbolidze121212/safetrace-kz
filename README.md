@@ -2,7 +2,7 @@
 
 **SafeNet KZ · трек 2.** Проверяем публикацию или скриншот на признаки скрытого продвижения азартных игр и показываем цепочку **материал → ссылка/посредник → ресурс → проверяемые источники**. Аналитик видит цитаты, исходное фото, причины индекса и связи между несколькими публикациями.
 
-[![Checks](https://github.com/nurbolidze121212/safetrace-kz/actions/workflows/ci.yml/badge.svg)](https://github.com/nurbolidze121212/safetrace-kz/actions/workflows/ci.yml) · [MIT](LICENSE) · **[Попробовать свой текст онлайн](https://nurbolidze121212.github.io/safetrace-kz/)** · [Питч на казахском, 5 минут](deliverables/kazakh-jury-2026-10-25/PITCH_V5_KK.md)
+[![Checks](https://github.com/nurbolidze121212/safetrace-kz/actions/workflows/ci.yml/badge.svg)](https://github.com/nurbolidze121212/safetrace-kz/actions/workflows/ci.yml) · [MIT](LICENSE) · **[Вставить ссылку или текст онлайн](https://nurbolidze121212.github.io/safetrace-kz/#try)** · [Питч на казахском, 5 минут](deliverables/kazakh-jury-2026-10-25/PITCH_V5_KK.md)
 
 ![Локальное приложение: фото, причины приоритета и маршрут](reports/message-demo/presentation-photo.png)
 
@@ -20,7 +20,7 @@ docker compose up -d
 
 Откройте **http://127.0.0.1:8765**. Compose использует готовый CPU-образ с OCR-моделями, Redis и 1 воркером; сборка не требуется. Для разработки: `docker compose -f compose.yaml -f compose.build.yaml up --build -d`. [Установка, 1–4 воркера, данные и ограничения](docs/DOCKER.md). Код и готовый образ рассчитаны на Linux amd64; на Mac ARM нужна эмуляция, скорость на нём не измерена.
 
-Онлайн-страница позволяет судье **самому вставить текст**: упрощённая проверка выполняется в браузере без отправки на сервер. Сохранённые примеры показывают OCR, маршрут, основания и ZIP. Новые фото, реальный OCR и собственная база работают в локальном приложении. [Точная матрица возможностей](docs/LOCAL_AND_ONLINE.md).
+Онлайн-страница позволяет судье **самому вставить ссылку или текст**. URL разбирается только по написанию, без перехода на сайт: это проверяемые признаки, а не подтверждение конечного казино или безопасности. Сохранённый `.test`-пример показывает OCR, маршрут, основания и ZIP. Новые фото, реальный OCR и собственная база работают в локальном приложении. [Точная матрица возможностей](docs/LOCAL_AND_ONLINE.md).
 
 ## Что реально сделано
 
